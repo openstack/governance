@@ -1,0 +1,135 @@
+Compute:
+  codename: Nova
+  ptl: Russell Bryant (russellb)
+  url: https://wiki.openstack.org/wiki/Nova
+
+Object Storage:
+  codename: Swift
+  ptl: John Dickinson (notmyname)
+  url: https://wiki.openstack.org/wiki/Swift
+
+Image Service:
+  codename: Glance
+  ptl: Mark Washenberger (markwash)
+  url: https://wiki.openstack.org/wiki/Glance
+
+Identity:
+  codename: Keystone
+  ptl: Dolph Matthews (dolphm)
+  url: https://wiki.openstack.org/wiki/Keystone
+
+Dashboard:
+  codename: Horizon
+  ptl: Gabriel Hurley (gabriel-hurley)
+  url: https://wiki.openstack.org/wiki/Horizon
+
+Networking:
+  codename: Neutron
+  ptl: Mark McClain (markmcclain)
+  url: https://wiki.openstack.org/wiki/Neutron
+
+Block Storage:
+  codename: Cinder
+  ptl: John Griffith (jgriffith)
+  url: https://wiki.openstack.org/wiki/Cinder
+
+Metering/Monitoring:
+  codename: Ceilometer
+  ptl : Julien Danjou (jd__)
+  url: https://wiki.openstack.org/wiki/Ceilometer
+
+Orchestration:
+  codename: Heat
+  ptl: Steven Hardy (shardy)
+  url: https://wiki.openstack.org/wiki/Heat
+
+Database Service:
+  codename: Trove
+  ptl: Michael Basnight (hub_cap)
+  mission:
+    To provide scalable and reliable Cloud Database as a Service
+    functionality for both relational and non-relational database
+    engines, and to continue to improve its fully-featured and
+    extensible open source framework.
+  url: https://wiki.openstack.org/wiki/Trove
+
+Bare metal:
+  codename: Ironic
+  ptl: Devananda van der Veen (devananda)
+  mission:
+    To produce an OpenStack service and associated python libraries capable
+    of managing and provisioning physical machines, and to do this in a
+    security-aware and fault-tolerant manner.
+  url: https://wiki.openstack.org/wiki/Ironic
+
+Common Libraries:
+  codename: Oslo
+  ptl: Mark McLoughlin (markmc)
+  mission:
+    To produce a set of python libraries containing code shared by OpenStack
+    projects. The APIs provided by these libraries should be high quality,
+    stable, consistent, documented and generally applicable.
+  url: https://wiki.openstack.org/wiki/Oslo
+
+Infrastructure:
+  ptl: Monty Taylor (mtaylor)
+  url: https://wiki.openstack.org/wiki/Infrastructure
+
+Documentation:
+  ptl: Anne Gentle (annegentle)
+  mission:
+    Provide documentation for core OpenStack projects to promote OpenStack.
+    Develop and maintain tools and processes to ensure quality, accurate
+    documentation. Treat documentation like OpenStack code.
+  url: https://wiki.openstack.org/wiki/Documentation
+
+Quality Assurance:
+  codename: QA
+  ptl: Sean Dague (sdague)
+  mission:
+    Develop, maintain, and initiate tools and plans to ensure the upstream
+    stability and quality of OpenStack, and its release readiness at any
+    point during the release cycle.
+  url: https://wiki.openstack.org/wiki/QA
+
+Deployment:
+  codename: TripleO
+  ptl: Robert Collins (lifeless)
+  mission:
+    Develop and maintain tooling and infrastructure able to deploy OpenStack
+    in production, using OpenStack itself wherever possible.
+  url: https://wiki.openstack.org/wiki/TripleO
+
+Devstack:
+  ptl: Dean Troyer (dtroyer)
+  mission:
+    To provide an installation of OpenStack from git repository master, or
+    specific branches, suitable for development and operational testing.
+    It also attempts to document the process and provide examples of command
+    line usage.
+  url: https://wiki.openstack.org/wiki/DevStack
+
+Release cycle management:
+  ptl: Thierry Carrez (ttx)
+  mission:
+    To organize the release cycle and the work necessary to produce
+    coordinated releases of the integrated components of OpenStack.
+    To collect bugfix backports and produce stable point releases for the
+    previously-released branch. To coordinate the publication of security
+    patches and advisories (OSSA) for security-supported branches.
+  url: https://wiki.openstack.org/wiki/Release_Cycle_Management
+
+Queue service:
+  codename: Marconi
+  ptl: Kurt Griffiths (kgriffs)
+  mission:
+    To produce an OpenStack message queueing API and service that affords
+    a variety of distributed application messaging patterns in an efficient,
+    scalable and highly-available manner, and to create and maintain
+    associated Python libraries and documentation.
+  url: https://wiki.openstack.org/wiki/Marconi
+
+Data processing service:
+  codename: Savanna
+  ptl: Sergey Lukjanov (SergeyLukjanov)
+  url: https://wiki.openstack.org/wiki/Savanna
