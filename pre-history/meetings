@@ -7,37 +7,133 @@ meeting or discussion, we should remove it from the list.
 
 
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-09-24-20.01.html
+ * Savanna accepted into incubation for the Icehouse cycle
+ * Discussion about PTL elections
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-09-10-20.02.html
+ * Savanna incubation request: initial discussion
+ * Discussion about initial governance repo
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-09-03-20.01.html
+ * Marconi accepted into incubation for the Icehouse cycle
+ * Trove graduated to be integrated during the Icehouse cycle
+ * Ironic stays in incubation for the Icehouse cycle
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-08-27-20.01.html
+ * Marconi incubation request: initial discussion
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-08-20-20.01.html
+ * Voted to use Gerrit to track motions and record TC votes
+ * ATC exception for Jaromir Coufal and Liz Blanchard
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-08-06-20.01.html
+ * Accepted release cycle mgmt as an official OpenStack program
+ * Accepted Trove scope expansion to NRDB
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-07-30-20.02.html
+ * Accepted Devstack as an official OpenStack program
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-07-16-20.02.html
+ * Accepted TripleO as an official OpenStack program
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-07-02-20.01.html
+ * Accepted definition of "Programs" - https://wiki.openstack.org/wiki/Programs
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-06-25-20.02.html
+ * Agreed not to accept Designate into incubation (yet)
+ * Discuss the concept of "programs"
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-06-18-20.02.html
+ * Voted to evolve TC membership to all-directly-elected model
+ * Incubation request for Designate: initial discussion
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-06-04-20.03.html
+ * Open discussion: TC membership evolution, take 2
+ * Open discussion: where does diskimage-builder fit
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-05-21-20.01.html
+ * Discussed common API version discovery mechanism
+ * Discussed getting rid of copyright headers
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-05-07-20.01.html
+ * Accepted RedDwarf (later renamed to Trove) into incubation for Havana
+ * Agree on long-term removal of baremetal code from Nova's scope
+ * Accepted Ironic into incubation for Havana
+ * Discussion: API version discovery
+ * Discussion: I naming candidates
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-04-30-20.02.html
+ * RedDwarf Application for Incubation - introduction discussion
+ * Discussion: What is our goal with OpenStack WRT API behavior and implementation
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-04-09-20.02.html
+ * Discussion: Policy on use of GPL libraries
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-04-02-20.01.html
+ * Discussed upcoming Summit 
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-02-26-20.03.html
+ * Approved Ceilometer to be integrated for the Havana release
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-02-19-20.02.html
+ * Approved Heat to be integrated for the Havana release
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-02-12-20.03.html
+ * Approved special motion on incubation process evolution
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-02-05-20.02.html
+ * Update on the "Future of Incubation / core" joint committee
+ * Discussion: OpenStack compatibility test suite
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-01-22-20.03.html
+ * Discussion: Voting procedure to decide the H release name
+ * Discussion: Evolution of the TC membership to support potential growth
+ * Update on the "Future of Incubation / core" joint committee
+
 http://eavesdrop.openstack.org/meetings/tc/2013/tc.2013-01-08-20.02.html
+ * Approved motion on distro & Python 2.6/3.x support policy
+ * Update on the "Future of Incubation / core" joint committee
+ * Discussion: Evolution of the TC membership to support potential growth
+
 http://eavesdrop.openstack.org/meetings/tc/2012/tc.2012-12-18-20.02.html
+ * Update on the "Future of Incubation / core" joint committee
+ * Discussion: Potential Grizzly schedule changes to match probable summit date
+ * Ongoing discussion: Distro & Python 2.6/3.x support policy
+
 http://eavesdrop.openstack.org/meetings/tc/2012/tc.2012-12-11-20.05.html
+ * Quick update on the "Future of Incubation / core" joint committee
+ * Ongoing discussion: Distro & Python 2.6/3.x support policy
+
 http://eavesdrop.openstack.org/meetings/tc/2012/tc.2012-11-20-20.01.html
+ * Vote on direction for Incubator/Core process update
+ * Choice of TC members to represent that direction on the BoD/TC joint committee
+ * Ongoing discussion: Distro & Python 2.6/3.x support policy
+
 http://eavesdrop.openstack.org/meetings/tc/2012/tc.2012-11-13-20.02.html
+ * Motion: 3rd-party APIs
+ * Ongoing discussion: Incubator process update
+ * Preliminary discussion: Distro support policy
+
 http://eavesdrop.openstack.org/meetings/tc/2012/tc.2012-11-06-20.02.html
+ * Accepted Heat into incubation for the Grizzly cycle
+ * Preliminary discussion: Third-party APIs
+
 http://eavesdrop.openstack.org/meetings/tc/2012/tc.2012-10-23-20.01.html
+ * Motion: Nomination of Ryan Lane to the User committee
+ * Accepted Ceilometer into incubation for the Grizzly cycle
+
 http://eavesdrop.openstack.org/meetings/openstack-meeting/2012/openstack-meeting.2012-08-07-20.04.html
+ * Agreed to give openstack-common an official PTL
+
 http://eavesdrop.openstack.org/meetings/openstack-meeting/2012/openstack-meeting.2012-07-31-20.06.html
+ * Agreed on proposed API Stability Statement
+ * Agreed to create a "supporting" project category
+ * Added Documentation and Core Infrastructure projects to the "supporting" category
+
 http://eavesdrop.openstack.org/meetings/openstack-meeting/2012/openstack-meeting.2012-07-10-20.01.html
+ * Accepted Cinder as core project in the Folsom release
+ * Discussion: Ceilometer incubation
+
 http://eavesdrop.openstack.org/meetings/openstack-meeting/2012/openstack-meeting.2012-07-03-20.02.html
 http://eavesdrop.openstack.org/meetings/openstack-meeting/2012/openstack-meeting.2012-06-19-20.00.html
 http://eavesdrop.openstack.org/meetings/openstack-meeting/2012/openstack-meeting.2012-06-12-20.01.html
