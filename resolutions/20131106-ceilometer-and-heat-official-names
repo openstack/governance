@@ -44,7 +44,7 @@ The Ceilometer and Heat projects became Integrated during the Havana
 release cycle and we feel it makes sense for these projects to also
 be allowed use their official project names in isolation:
 
-  OpenStack Measurements (Ceilometer)
+  OpenStack Telemetry (Ceilometer)
   OpenStack Orchestration (Heat)
 
 Given our interpretation of the bylaws, we formally recommend that the
