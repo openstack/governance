@@ -20,7 +20,7 @@ Identity:
 
 Dashboard:
   codename: Horizon
-  ptl: Gabriel Hurley (gabriel-hurley)
+  ptl: David Lyle (david-lyle)
   url: https://wiki.openstack.org/wiki/Horizon
 
 Networking:
@@ -40,7 +40,7 @@ Metering/Monitoring:
 
 Orchestration:
   codename: Heat
-  ptl: Steven Hardy (shardy)
+  ptl: Steve Baker (stevebaker)
   url: https://wiki.openstack.org/wiki/Heat
 
 Database Service:
@@ -64,7 +64,7 @@ Bare metal:
 
 Common Libraries:
   codename: Oslo
-  ptl: Mark McLoughlin (markmc)
+  ptl: Doug Hellmann (dhellmann)
   mission:
     To produce a set of python libraries containing code shared by OpenStack
     projects. The APIs provided by these libraries should be high quality,
@@ -72,7 +72,7 @@ Common Libraries:
   url: https://wiki.openstack.org/wiki/Oslo
 
 Infrastructure:
-  ptl: Monty Taylor (mtaylor)
+  ptl: James E. Blair (jeblair)
   url: https://wiki.openstack.org/wiki/Infrastructure
 
 Documentation:
