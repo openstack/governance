@@ -80,11 +80,11 @@ up: in a 13-member committee that means a minimum of 5 approvers).
 
 === Proxying ===
 
-When a TC member is unable to make a meeting, he is encouraged to name a proxy
-that will represent his opinion and vote on his behalf during the meeting. Only
-members really present at the meeting (directly or proxied) can vote. A TC
-member may proxy another member, but nobody should ever represent more than two
-votes.
+When a TC member is unable to make a meeting, they are encouraged to name a proxy
+that will represent their opinion and vote on their behalf during the meeting.
+Only members really present at the meeting (directly or proxied) can vote.
+A TC member may proxy another member, but nobody should ever represent more
+than two votes.
 
 === Election for PTL seats ===
 
@@ -102,7 +102,7 @@ Members who committed a change to a repository of a program over the last two
 
 === Candidates for PTL seats ===
 
-Any APC can propose his candidacy for the corresponding program PTL election.
+Any APC can propose their candidacy for the corresponding program PTL election.
 Sitting PTLs are eligible to run for re-election each cycle, provided they
 continue to meet the criteria.
 
@@ -131,7 +131,7 @@ itself, and is valid one year (two elections).
 
 === Candidates for TC seats ===
 
-Any Foundation individual member can propose his candidacy for an available,
+Any Foundation individual member can propose their candidacy for an available,
 directly-elected TC seat.
 
 === Initial committee ===
