@@ -1,6 +1,10 @@
 Compute:
   codename: Nova
   ptl: Russell Bryant (russellb)
+  mission:
+    To implement services and associated libraries to provide massively scalable,
+    on demand, self service access to compute resources, including bare metal,
+    virtual machines, and containers.
   url: https://wiki.openstack.org/wiki/Nova
 
 Object Storage:
