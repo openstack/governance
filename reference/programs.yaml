@@ -33,7 +33,7 @@ Block Storage:
   ptl: John Griffith (jgriffith)
   url: https://wiki.openstack.org/wiki/Cinder
 
-Metering/Monitoring:
+Telemetry:
   codename: Ceilometer
   ptl : Julien Danjou (jd__)
   url: https://wiki.openstack.org/wiki/Ceilometer
