@@ -1,0 +1,4 @@
+# needed for doc build
+docutils==0.9.1
+sphinx>=1.1.2,<1.2
+oslo.sphinx
