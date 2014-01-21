@@ -18,7 +18,6 @@ limited to):
 * Maturity
 ** Project should have an active team of contributors
 ** Project should not have a major architectural rewrite planned
-** Project APIs should be reasonably stable
 
 * Process
 ** Project must be hosted under stackforge (and therefore use git as its VCS)
@@ -33,6 +32,11 @@ limited to):
 ** Reviews should follow the same criteria as OpenStack projects (2 +2s
    before +A)
 ** Project should use the official openstack lists for discussion
+
+* API
+** Project APIs should be reasonably stable
+** Project must have a REST API with at least a JSON entity representation
+** Project must have a Python client library API for its REST API
 
 * QA
 ** Project must have a basic devstack-gate job set up
@@ -101,3 +105,15 @@ requirements, including (but not limited to):
    vulnerability process [3]
 
 [3] https://wiki.openstack.org/wiki/Vulnerability_Management
+
+
+= First Integrated Cycle Expectations =
+
+In the release cyle after the project has graduated, the TC expects the project
+to reach a level of maturity for its first integrated release. In order for the
+project to graduate, the TC will need to be confident that the project will
+reach that level of maturity in the time allowed.
+
+* API
+** The REST API must be declared stable and the project must commit to
+   maintaining backwards compatibility
