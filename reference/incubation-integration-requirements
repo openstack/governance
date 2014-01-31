@@ -62,7 +62,15 @@ evaluate the technical maturity of the project and check a number of
 requirements, including (but not limited to):
 
 * Scope
-** Project must not duplicate functionality present in other OpenStack projects
+** Project must not duplicate functionality present in other OpenStack projects,
+   unless the project has intentionally done so with the intent of replacing it.
+** In the case that a project has intentionally duplicated functionality of
+   another project, or portion of a project, the new project must reach a level
+   of functionality and maturity such that we are ready to deprecate the old
+   code and remove it after a well defined deprecation cycle.  The deprecation
+   plan agreed to by the PTLs of each affected project, including details for
+   how users will be able to migrate from the old to the new, must be submitted
+   to the TC for review as a part of the graduation review.
 
 * Maturity
 ** Project must have a large and diverse team of contributors
