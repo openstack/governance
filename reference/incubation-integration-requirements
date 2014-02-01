@@ -8,7 +8,9 @@ technical choices, and check a number of requirements, including (but not
 limited to):
 
 * Scope
-** Project must have a clear and defined scope
+** Project must have a clear and defined scope.
+** Project's scope should represent a measured progression for OpenStack as a
+   whole.
 ** Project should not inadvertently duplicate functionality present in other
    OpenStack projects. If they do, they should have a clear plan and timeframe
    to prevent long-term scope duplication.
