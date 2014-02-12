@@ -38,6 +38,9 @@ Image Service:
 Identity:
   codename: Keystone
   ptl: Dolph Mathews (dolphm)
+  mission:
+    To facilitate API client authentication, service discovery, and distributed
+    multi-tenant authorization.
   url: https://wiki.openstack.org/wiki/Keystone
   projects:
     integrated:
