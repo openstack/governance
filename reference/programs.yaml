@@ -148,6 +148,7 @@ Common Libraries:
     - openstack/oslo.messaging
     - openstack/oslo.rootwrap
     - openstack/oslosphinx
+    - openstack/oslo.test
     - openstack/oslo.version
     - openstack/stevedore
     - openstack/taskflow
