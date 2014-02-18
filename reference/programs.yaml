@@ -158,6 +158,10 @@ Common Libraries:
 Infrastructure:
   ptl: James E. Blair (jeblair)
   url: https://wiki.openstack.org/wiki/Infrastructure
+  mission:
+    Develop and maintain the tooling and infrastructure needed to
+    support the development process and general operation of the
+    OpenStack project.
   projects:
     other:
     - openstack-dev/openstack-nose
