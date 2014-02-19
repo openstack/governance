@@ -295,6 +295,9 @@ Queue service:
 Data processing service:
   codename: Savanna
   ptl: Sergey Lukjanov (SergeyLukjanov)
+  mission:
+    To provide a scalable data processing stack and associated management
+    interfaces.
   url: https://wiki.openstack.org/wiki/Savanna
   projects:
     incubated:
