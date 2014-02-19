@@ -149,6 +149,7 @@ Common Libraries:
     - openstack/oslo.rootwrap
     - openstack/oslosphinx
     - openstack/oslo.version
+    - openstack/oslo.vmware
     - openstack/stevedore
     - openstack/taskflow
     - openstack-dev/cookiecutter
