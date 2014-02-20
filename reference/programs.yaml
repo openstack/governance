@@ -193,6 +193,7 @@ Infrastructure:
     - openstack-infra/reviewstats
     - openstack-infra/statusbot
     - openstack-infra/storyboard
+    - openstack-infra/storyboard-webclient
     - openstack-infra/tripleo-ci
     - openstack-infra/zmq-event-publisher
     - openstack-infra/zuul
