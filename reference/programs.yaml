@@ -151,9 +151,11 @@ Common Libraries:
     - openstack/oslo.test
     - openstack/oslo.version
     - openstack/oslo.vmware
+    - openstack/pycadf
     - openstack/stevedore
     - openstack/taskflow
     - openstack-dev/cookiecutter
+    - openstack-dev/oslo-cookiecutter
     - openstack-dev/hacking
     - openstack-dev/pbr
 
