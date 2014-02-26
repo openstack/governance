@@ -150,6 +150,7 @@ Common Libraries:
     - openstack/oslosphinx
     - openstack/oslo.test
     - openstack/oslo.version
+    - openstack/oslo.vmware
     - openstack/stevedore
     - openstack/taskflow
     - openstack-dev/cookiecutter
