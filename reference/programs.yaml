@@ -314,3 +314,16 @@ Data processing service:
     - openstack/savanna-dashboard
     - openstack/savanna-extra
     - openstack/savanna-image-elements
+
+Key management service:
+  codename: Barbican
+  ptl: Jarret Raim (jraim)
+  mission:
+    To produce a secret storage and generation system capable of providing key
+    management for services wishing to enable encryption features.
+  url: https://wiki.openstack.org/wiki/Barbican
+  projects:
+    incubated:
+    - stackforge/barbican
+    other:
+    - stackforge/python-barbicanclient
