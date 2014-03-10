@@ -253,6 +253,7 @@ Deployment:
     other:
     - openstack/diskimage-builder
     - openstack/os-apply-config
+    - openstack/os-cloud-config
     - openstack/os-collect-config
     - openstack/os-refresh-config
     - openstack/tripleo-heat-templates
