@@ -302,20 +302,20 @@ Queue service:
     - openstack/python-marconiclient
 
 Data processing service:
-  codename: Savanna
+  codename: Sahara
   ptl: Sergey Lukjanov (SergeyLukjanov)
   mission:
     To provide a scalable data processing stack and associated management
     interfaces.
-  url: https://wiki.openstack.org/wiki/Savanna
+  url: https://wiki.openstack.org/wiki/Sahara
   projects:
     incubated:
-    - openstack/savanna
+    - openstack/sahara
     other:
-    - openstack/python-savannaclient
-    - openstack/savanna-dashboard
-    - openstack/savanna-extra
-    - openstack/savanna-image-elements
+    - openstack/python-saharaclient
+    - openstack/sahara-dashboard
+    - openstack/sahara-extra
+    - openstack/sahara-image-elements
 
 Key management service:
   codename: Barbican
