@@ -309,7 +309,7 @@ Data processing service:
     interfaces.
   url: https://wiki.openstack.org/wiki/Sahara
   projects:
-    incubated:
+    integrated:
     - openstack/sahara
     other:
     - openstack/python-saharaclient
