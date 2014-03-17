@@ -11,8 +11,6 @@ Compute:
     - openstack/nova
     other:
     - openstack/python-novaclient
-    - openstack/gantt
-    - openstack/python-ganttclient
 
 Object Storage:
   codename: Swift
