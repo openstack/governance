@@ -11,6 +11,7 @@ Compute:
     - openstack/nova
     other:
     - openstack/python-novaclient
+    - openstack/nova-specs
 
 Object Storage:
   codename: Swift
