@@ -60,6 +60,10 @@ Dashboard:
 Networking:
   codename: Neutron
   ptl: Mark McClain (markmcclain)
+  mission:
+    To implement services and associated libraries to provide on-demand,
+    scalable, and technology-agnostic network abstraction.
+
   url: https://wiki.openstack.org/wiki/Neutron
   projects:
     integrated:
