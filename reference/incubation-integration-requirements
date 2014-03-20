@@ -120,3 +120,6 @@ reach that level of maturity in the time allowed.
 ** If the project has resources which would make sense to provision
    via a Heat template, then the project should have Heat integration
    which enables this
+** If the project has functionality which would make sense to be
+   available in the Horizon dashboard, then the project should ensure
+   that integration exists
