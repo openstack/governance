@@ -117,3 +117,6 @@ reach that level of maturity in the time allowed.
 * API
 ** The REST API must be declared stable and the project must commit to
    maintaining backwards compatibility
+** If the project has resources which would make sense to provision
+   via a Heat template, then the project should have Heat integration
+   which enables this
