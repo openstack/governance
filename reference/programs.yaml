@@ -133,6 +133,7 @@ Bare metal:
     - openstack/ironic
     other:
     - openstack/python-ironicclient
+    - openstack/ironic-python-agent
 
 Common Libraries:
   codename: Oslo
