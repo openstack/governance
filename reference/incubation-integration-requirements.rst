@@ -171,6 +171,12 @@ API
 * If the project has functionality which would make sense to be
   available in the Horizon dashboard, then the project should ensure
   that integration exists
+* If the project has resources which could be metered, then the project
+  should expose methods that would allow Ceilometer to retrieve these
+  metrics
+* The lifecycle of resources managed by the project should be externalized
+  via notifications so that they can be consumed by other integrated
+  projects
 
 QA
 --
