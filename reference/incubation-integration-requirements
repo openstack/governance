@@ -138,3 +138,8 @@ reach that level of maturity in the time allowed.
 ** If the project has functionality which would make sense to be
    available in the Horizon dashboard, then the project should ensure
    that integration exists
+
+* QA
+** The project should prepare upgrade testing (currently grenade) during
+   the first integrated cycle so that it is ready to enable upgrade testing
+   jobs shortly after its first integrated release.
