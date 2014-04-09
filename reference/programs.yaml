@@ -70,6 +70,7 @@ Networking:
     integrated:
     - openstack/neutron
     other:
+    - openstack/neutron-specs
     - openstack/python-neutronclient
 
 Block Storage:
