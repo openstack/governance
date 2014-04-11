@@ -251,6 +251,7 @@ Quality Assurance:
     other:
     - openstack/tempest
     - openstack-dev/grenade
+    - openstack/qa-specs
 
 Deployment:
   codename: TripleO
