@@ -76,6 +76,11 @@ Networking:
 Block Storage:
   codename: Cinder
   ptl: John Griffith (jgriffith)
+  mission:
+    To implement services and libraries to provide on-demand,
+    self-service access to Block Storage resources via abstraction
+    and automation on top of other block storage devices.
+
   url: https://wiki.openstack.org/wiki/Cinder
   projects:
     integrated:
