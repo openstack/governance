@@ -1,6 +1,6 @@
 Compute:
   codename: Nova
-  ptl: Russell Bryant (russellb)
+  ptl: Michael Still (mikal)
   mission:
     To implement services and associated libraries to provide massively scalable,
     on demand, self service access to compute resources, including bare metal,
@@ -60,7 +60,7 @@ Dashboard:
 
 Networking:
   codename: Neutron
-  ptl: Mark McClain (markmcclain)
+  ptl: Kyle Mestery (mestery)
   mission:
     To implement services and associated libraries to provide on-demand,
     scalable, and technology-agnostic network abstraction.
@@ -90,7 +90,7 @@ Block Storage:
 
 Telemetry:
   codename: Ceilometer
-  ptl : Julien Danjou (jd__)
+  ptl : Eoghan Glynn (eglynn)
   url: https://wiki.openstack.org/wiki/Ceilometer
   projects:
     integrated:
@@ -100,7 +100,7 @@ Telemetry:
 
 Orchestration:
   codename: Heat
-  ptl: Steve Baker (stevebaker)
+  ptl: Zane Bitter (zaneb)
   url: https://wiki.openstack.org/wiki/Heat
   projects:
     integrated:
@@ -113,7 +113,7 @@ Orchestration:
 
 Database Service:
   codename: Trove
-  ptl: Michael Basnight (hub_cap)
+  ptl: Nikhil Manchanda (SlickNik)
   mission:
     To provide scalable and reliable Cloud Database as a Service
     functionality for both relational and non-relational database
@@ -241,7 +241,7 @@ Documentation:
 
 Quality Assurance:
   codename: QA
-  ptl: Sean Dague (sdague)
+  ptl: Matthew Treinish (mtreinish)
   mission:
     Develop, maintain, and initiate tools and plans to ensure the upstream
     stability and quality of OpenStack, and its release readiness at any
