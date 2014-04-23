@@ -1,6 +1,9 @@
-= OpenStack Technical Committee charter =
+=========================================
+ OpenStack Technical Committee charter
+=========================================
 
-=== Mission ===
+Mission
+=======
 
 The Technical Committee ("TC") is tasked with providing the technical
 leadership for OpenStack as a whole (all official programs, as defined below).
@@ -9,7 +12,8 @@ Quality...), decides on issues affecting multiple programs, forms an ultimate
 appeals board for technical decisions, and generally has oversight over all the
 OpenStack project.
 
-=== OpenStack Programs ===
+OpenStack Programs
+==================
 
 OpenStack "Programs" are efforts which are essential to the completion of the
 OpenStack project mission, which is ''to produce the ubiquitous Open Source
@@ -25,7 +29,8 @@ The TC has ultimate authority over which programs are accepted or declined.
 
 The current, official list of programs can be found [[Programs|here]].
 
-=== Program Leads ===
+Program Leads
+=============
 
 Program leads ("PTLs") manage day-to-day operations, drive the program goals
 and resolve technical disputes within their program. Each program community
@@ -36,14 +41,16 @@ Although the TC is generally not involved in program-internal decisions, it
 still has oversight over program-specific decisions, especially when they
 affect other programs or go contrary to general OpenStack project goals.
 
-=== TC Members ===
+TC Members
+==========
 
 The TC is composed of 13 directly-elected members. It is partially renewed
 using elections every 6 months. All TC members must be OpenStack Foundation
 individual members. You can cumulate any other role, including Foundation
 Director, with a TC seat.
 
-=== TC Chair ===
+TC Chair
+========
 
 After each election, the TC proposes one of its members to act as the TC chair.
 In case of multiple candidates, it may use a single-winner election method to
@@ -55,7 +62,8 @@ decisions taken during those meetings to the Board of Directors and the
 OpenStack community at large. It may be revoked under the conditions described
 in the Foundation bylaws.
 
-=== Meeting ===
+Meeting
+=======
 
 TC meetings happen publicly, weekly on IRC. The meeting time should be decided
 among TC members after each election. If there isn't consensus on a meeting
@@ -68,7 +76,8 @@ minimum of 7 people present). Non-members affected by a given discussion are
 strongly encouraged to participate to the meeting and voice their opinion,
 though only TC members can ultimately cast a vote.
 
-=== Motions ===
+Motions
+=======
 
 Before being put to a vote, motions presented before the TC should be discussed
 publicly on the development mailing-list for a minimum of 4 business days to
@@ -78,7 +87,8 @@ than negative votes (ties mean the motion is rejected), and a minimum of
 positive votes of at least one third of the total number of TC members (rounded
 up: in a 13-member committee that means a minimum of 5 approvers).
 
-=== Proxying ===
+Proxying
+========
 
 When a TC member is unable to make a meeting, they are encouraged to name a proxy
 that will represent their opinion and vote on their behalf during the meeting.
@@ -86,27 +96,31 @@ Only members really present at the meeting (directly or proxied) can vote.
 A TC member may proxy another member, but nobody should ever represent more
 than two votes.
 
-=== Election for PTL seats ===
+Election for PTL seats
+======================
 
 PTL seats are completely renewed every 6 months. A separate election is run for
 each program. These elections are collectively held 5 weeks prior to each
 design summit, with nominations due 6 weeks prior to the summit and elections
 held open for no less than five business days.
 
-=== Voters for PTL seats ("APC") ===
+Voters for PTL seats ("APC")
+============================
 
 Voters for a given program PTL election are the active program contributors
 ("APC"), which are a subset of the Foundation Individual Members. Individual
 Members who committed a change to a repository of a program over the last two
 6-month release cycles are considered APC for that program.
 
-=== Candidates for PTL seats ===
+Candidates for PTL seats
+========================
 
 Any APC can propose their candidacy for the corresponding program PTL election.
 Sitting PTLs are eligible to run for re-election each cycle, provided they
 continue to meet the criteria.
 
-=== Election for TC seats ===
+Election for TC seats
+=====================
 
 The 13 TC seats are partially renewed every 6 months using staggered elections:
 6 seats are renewed every (Northern hemisphere) Fall, and 7 seats are renewed
@@ -115,7 +129,8 @@ multiple-winner election system (see below). The election is held 3 weeks prior
 to each design summit, with nominations due 4 weeks prior to the summit and
 elections held open for no less than five business days.
 
-=== Voters for TC seats ("ATC") ===
+Voters for TC seats ("ATC")
+===========================
 
 The TC seats are elected by the Active Technical Contributors ("ATC"), which
 are a subset of the Foundation Individual Members. Individual Members who
@@ -129,12 +144,14 @@ sending an email to the TC chair or by being nominated by an existing ATC via
 email to the TC chair. Final approval on the exception is decided by the TC
 itself, and is valid one year (two elections).
 
-=== Candidates for TC seats ===
+Candidates for TC seats
+=======================
 
 Any Foundation individual member can propose their candidacy for an available,
 directly-elected TC seat.
 
-=== Initial committee ===
+Initial committee
+=================
 
 The current TC will serve as TC until the elections in Fall 2013. At that
 point, the two TC members who still had 6 months to serve get a 6-month seat,
@@ -143,13 +160,15 @@ and an election is run to determine the 11 other members. Candidates ranking
 get 6-month seats. Spring 2014 elections should see the normal renewal of 7
 seats.
 
-=== Election systems ===
+Election systems
+================
 
 For single-winner elections, a Condorcet system shall be used.
 
 For multiple-winner elections, a Condorcet or a STV system should be used.
 
-=== Amendment ===
+Amendment
+=========
 
 Amendments to this Technical Committee charter shall be proposed in a special
 motion, which needs to be approved by the affirmative vote of at least
