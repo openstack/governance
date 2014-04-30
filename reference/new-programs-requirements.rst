@@ -1,5 +1,5 @@
 ======================================================
- Minimal requirements for new programs applications
+ Minimal Requirements for New Programs Applications
 ======================================================
 
 Teams in OpenStack can be created as-needed and grow organically. As the team
