@@ -84,6 +84,12 @@ Telemetry:
   codename: Ceilometer
   ptl : Eoghan Glynn (eglynn)
   url: https://wiki.openstack.org/wiki/Ceilometer
+  mission:
+    To reliably collect measurements of the utilization of the physical
+    and virtual resources comprising deployed clouds, persist these data
+    for subsequent retrieval and analysis, and trigger actions when
+    defined criteria are met.
+
   projects:
     - repo: openstack/ceilometer
       incubated-since: grizzly
