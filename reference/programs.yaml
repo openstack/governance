@@ -7,32 +7,29 @@ Compute:
     virtual machines, and containers.
   url: https://wiki.openstack.org/wiki/Nova
   projects:
-    integrated:
-    - openstack/nova
-    other:
-    - openstack/python-novaclient
-    - openstack/nova-specs
+    - repo: openstack/nova
+      integrated-since: austin
+    - repo: openstack/python-novaclient
+    - repo: openstack/nova-specs
 
 Object Storage:
   codename: Swift
   ptl: John Dickinson (notmyname)
   url: https://wiki.openstack.org/wiki/Swift
   projects:
-    integrated:
-    - openstack/swift
-    other:
-    - openstack/python-swiftclient
-    - openstack/swift-bench
+    - repo: openstack/swift
+      integrated-since: austin
+    - repo: openstack/python-swiftclient
+    - repo: openstack/swift-bench
 
 Image Service:
   codename: Glance
   ptl: Mark Washenberger (markwash)
   url: https://wiki.openstack.org/wiki/Glance
   projects:
-    integrated:
-    - openstack/glance
-    other:
-    - openstack/python-glanceclient
+    - repo: openstack/glance
+      integrated-since: bexar
+    - repo: openstack/python-glanceclient
 
 Identity:
   codename: Keystone
@@ -42,21 +39,19 @@ Identity:
     multi-tenant authorization.
   url: https://wiki.openstack.org/wiki/Keystone
   projects:
-    integrated:
-    - openstack/keystone
-    other:
-    - openstack/python-keystoneclient
+    - repo: openstack/keystone
+      integrated-since: essex
+    - repo: openstack/python-keystoneclient
 
 Dashboard:
   codename: Horizon
   ptl: David Lyle (david-lyle)
   url: https://wiki.openstack.org/wiki/Horizon
   projects:
-    integrated:
-    - openstack/horizon
-    other:
-    - openstack/django_openstack_auth
-    - openstack/tuskar-ui
+    - repo: openstack/horizon
+      integrated-since: essex
+    - repo: openstack/django_openstack_auth
+    - repo: openstack/tuskar-ui
 
 Networking:
   codename: Neutron
@@ -67,11 +62,10 @@ Networking:
 
   url: https://wiki.openstack.org/wiki/Neutron
   projects:
-    integrated:
-    - openstack/neutron
-    other:
-    - openstack/neutron-specs
-    - openstack/python-neutronclient
+    - repo: openstack/neutron
+      integrated-since: folsom
+    - repo: openstack/python-neutronclient
+    - repo: openstack/neutron-specs
 
 Block Storage:
   codename: Cinder
@@ -80,36 +74,34 @@ Block Storage:
     To implement services and libraries to provide on-demand,
     self-service access to Block Storage resources via abstraction
     and automation on top of other block storage devices.
-
   url: https://wiki.openstack.org/wiki/Cinder
   projects:
-    integrated:
-    - openstack/cinder
-    other:
-    - openstack/python-cinderclient
+    - repo: openstack/cinder
+      integrated-since: folsom
+    - repo: openstack/python-cinderclient
 
 Telemetry:
   codename: Ceilometer
   ptl : Eoghan Glynn (eglynn)
   url: https://wiki.openstack.org/wiki/Ceilometer
   projects:
-    integrated:
-    - openstack/ceilometer
-    other:
-    - openstack/python-ceilometerclient
+    - repo: openstack/ceilometer
+      incubated-since: grizzly
+      integrated-since: havana
+    - repo: openstack/python-ceilometerclient
 
 Orchestration:
   codename: Heat
   ptl: Zane Bitter (zaneb)
   url: https://wiki.openstack.org/wiki/Heat
   projects:
-    integrated:
-    - openstack/heat
-    other:
-    - openstack/python-heatclient
-    - openstack/heat-cfntools
-    - openstack/heat-templates
-    - openstack-dev/heat-cfnclient
+    - repo: openstack/heat
+      incubated-since: grizzly
+      integrated-since: havana
+    - repo: openstack/python-heatclient
+    - repo: openstack/heat-cfntools
+    - repo: openstack/heat-templates
+    - repo: openstack-dev/heat-cfnclient
 
 Database Service:
   codename: Trove
@@ -121,11 +113,11 @@ Database Service:
     extensible open source framework.
   url: https://wiki.openstack.org/wiki/Trove
   projects:
-    integrated:
-    - openstack/trove
-    other:
-    - openstack/python-troveclient
-    - openstack/trove-integration
+    - repo: openstack/trove
+      incubated-since: havana
+      integrated-since: icehouse
+    - repo: openstack/python-troveclient
+    - repo: openstack/trove-integration
 
 Bare metal:
   codename: Ironic
@@ -136,11 +128,10 @@ Bare metal:
     security-aware and fault-tolerant manner.
   url: https://wiki.openstack.org/wiki/Ironic
   projects:
-    incubated:
-    - openstack/ironic
-    other:
-    - openstack/python-ironicclient
-    - openstack/ironic-python-agent
+    - repo: openstack/ironic
+      incubated-since: havana
+    - repo: openstack/python-ironicclient
+    - repo: openstack/ironic-python-agent
 
 Common Libraries:
   codename: Oslo
@@ -151,23 +142,22 @@ Common Libraries:
     stable, consistent, documented and generally applicable.
   url: https://wiki.openstack.org/wiki/Oslo
   projects:
-    other:
-    - openstack/cliff
-    - openstack/oslo.config
-    - openstack/oslo-incubator
-    - openstack/oslo.messaging
-    - openstack/oslo.rootwrap
-    - openstack/oslosphinx
-    - openstack/oslo.test
-    - openstack/oslo.version
-    - openstack/oslo.vmware
-    - openstack/pycadf
-    - openstack/stevedore
-    - openstack/taskflow
-    - openstack-dev/cookiecutter
-    - openstack-dev/oslo-cookiecutter
-    - openstack-dev/hacking
-    - openstack-dev/pbr
+    - repo: openstack/cliff
+    - repo: openstack/oslo.config
+    - repo: openstack/oslo-incubator
+    - repo: openstack/oslo.messaging
+    - repo: openstack/oslo.rootwrap
+    - repo: openstack/oslosphinx
+    - repo: openstack/oslo.test
+    - repo: openstack/oslo.version
+    - repo: openstack/oslo.vmware
+    - repo: openstack/pycadf
+    - repo: openstack/stevedore
+    - repo: openstack/taskflow
+    - repo: openstack-dev/cookiecutter
+    - repo: openstack-dev/oslo-cookiecutter
+    - repo: openstack-dev/hacking
+    - repo: openstack-dev/pbr
 
 Infrastructure:
   ptl: James E. Blair (jeblair)
@@ -177,46 +167,45 @@ Infrastructure:
     support the development process and general operation of the
     OpenStack project.
   projects:
-    other:
-    - openstack-dev/openstack-nose
-    - openstack-infra/activity-board
-    - openstack-infra/askbot-theme
-    - openstack-infra/config
-    - openstack-infra/devstack-gate
-    - openstack-infra/elastic-recheck
-    - openstack-infra/gear
-    - openstack-infra/gearman-plugin
-    - openstack-infra/gerrit
-    - openstack-infra/gerritbot
-    - openstack-infra/gerritlib
-    - openstack-infra/git-review
-    - openstack-infra/gitdm
-    - openstack-infra/groups
-    - openstack-infra/jeepyb
-    - openstack-infra/jenkins-job-builder
-    - openstack-infra/lodgeit
-    - openstack-infra/meetbot
-    - openstack-infra/nodepool
-    - openstack-infra/nose-html-output
-    - openstack-infra/odsreg
-    - openstack-infra/openstackid
-    - openstack-infra/os-loganalyze
-    - openstack-infra/publications
-    - openstack-infra/puppet-apparmor
-    - openstack-infra/puppet-dashboard
-    - openstack-infra/puppet-vcsrepo
-    - openstack-infra/pypi-mirror
-    - openstack-infra/releasestatus
-    - openstack-infra/reviewday
-    - openstack-infra/reviewstats
-    - openstack-infra/statusbot
-    - openstack-infra/storyboard
-    - openstack-infra/storyboard-webclient
-    - openstack-infra/tripleo-ci
-    - openstack-infra/zmq-event-publisher
-    - openstack-infra/zuul
-    - openstack-infra/zuul-packaging
-    - openstack/openstack-planet
+    - repo: openstack-dev/openstack-nose
+    - repo: openstack-infra/activity-board
+    - repo: openstack-infra/askbot-theme
+    - repo: openstack-infra/config
+    - repo: openstack-infra/devstack-gate
+    - repo: openstack-infra/elastic-recheck
+    - repo: openstack-infra/gear
+    - repo: openstack-infra/gearman-plugin
+    - repo: openstack-infra/gerrit
+    - repo: openstack-infra/gerritbot
+    - repo: openstack-infra/gerritlib
+    - repo: openstack-infra/git-review
+    - repo: openstack-infra/gitdm
+    - repo: openstack-infra/groups
+    - repo: openstack-infra/jeepyb
+    - repo: openstack-infra/jenkins-job-builder
+    - repo: openstack-infra/lodgeit
+    - repo: openstack-infra/meetbot
+    - repo: openstack-infra/nodepool
+    - repo: openstack-infra/nose-html-output
+    - repo: openstack-infra/odsreg
+    - repo: openstack-infra/openstackid
+    - repo: openstack-infra/os-loganalyze
+    - repo: openstack-infra/publications
+    - repo: openstack-infra/puppet-apparmor
+    - repo: openstack-infra/puppet-dashboard
+    - repo: openstack-infra/puppet-vcsrepo
+    - repo: openstack-infra/pypi-mirror
+    - repo: openstack-infra/releasestatus
+    - repo: openstack-infra/reviewday
+    - repo: openstack-infra/reviewstats
+    - repo: openstack-infra/statusbot
+    - repo: openstack-infra/storyboard
+    - repo: openstack-infra/storyboard-webclient
+    - repo: openstack-infra/tripleo-ci
+    - repo: openstack-infra/zmq-event-publisher
+    - repo: openstack-infra/zuul
+    - repo: openstack-infra/zuul-packaging
+    - repo: openstack/openstack-planet
 
 Documentation:
   ptl: Anne Gentle (annegentle)
@@ -226,18 +215,17 @@ Documentation:
     documentation. Treat documentation like OpenStack code.
   url: https://wiki.openstack.org/wiki/Documentation
   projects:
-    other:
-    - openstack/api-site
-    - openstack/compute-api
-    - openstack/database-api
-    - openstack/identity-api
-    - openstack/image-api
-    - openstack/netconn-api
-    - openstack/object-api
-    - openstack/openstack-doc-tools
-    - openstack/openstack-manuals
-    - openstack/operations-guide
-    - openstack/volume-api
+    - repo: openstack/api-site
+    - repo: openstack/compute-api
+    - repo: openstack/database-api
+    - repo: openstack/identity-api
+    - repo: openstack/image-api
+    - repo: openstack/netconn-api
+    - repo: openstack/object-api
+    - repo: openstack/openstack-doc-tools
+    - repo: openstack/openstack-manuals
+    - repo: openstack/operations-guide
+    - repo: openstack/volume-api
 
 Quality Assurance:
   codename: QA
@@ -248,10 +236,9 @@ Quality Assurance:
     point during the release cycle.
   url: https://wiki.openstack.org/wiki/QA
   projects:
-    other:
-    - openstack/tempest
-    - openstack-dev/grenade
-    - openstack/qa-specs
+    - repo: openstack/tempest
+    - repo: openstack-dev/grenade
+    - repo: openstack/qa-specs
 
 Deployment:
   codename: TripleO
@@ -261,17 +248,16 @@ Deployment:
     in production, using OpenStack itself wherever possible.
   url: https://wiki.openstack.org/wiki/TripleO
   projects:
-    other:
-    - openstack/diskimage-builder
-    - openstack/os-apply-config
-    - openstack/os-cloud-config
-    - openstack/os-collect-config
-    - openstack/os-refresh-config
-    - openstack/tripleo-heat-templates
-    - openstack/tripleo-image-elements
-    - openstack/tripleo-incubator
-    - openstack/tuskar
-    - openstack/python-tuskarclient
+    - repo: openstack/diskimage-builder
+    - repo: openstack/os-apply-config
+    - repo: openstack/os-cloud-config
+    - repo: openstack/os-collect-config
+    - repo: openstack/os-refresh-config
+    - repo: openstack/tripleo-heat-templates
+    - repo: openstack/tripleo-image-elements
+    - repo: openstack/tripleo-incubator
+    - repo: openstack/tuskar
+    - repo: openstack/python-tuskarclient
 
 Devstack:
   ptl: Dean Troyer (dtroyer)
@@ -282,8 +268,7 @@ Devstack:
     line usage.
   url: https://wiki.openstack.org/wiki/DevStack
   projects:
-    other:
-    - openstack-dev/devstack
+    - repo: openstack-dev/devstack
 
 Release cycle management:
   ptl: Thierry Carrez (ttx)
@@ -295,9 +280,8 @@ Release cycle management:
     patches and advisories (OSSA) for security-supported branches.
   url: https://wiki.openstack.org/wiki/Release_Cycle_Management
   projects:
-    other:
-    - openstack/requirements
-    - openstack-infra/release-tools
+    - repo: openstack/requirements
+    - repo: openstack-infra/release-tools
 
 Queue service:
   codename: Marconi
@@ -309,10 +293,9 @@ Queue service:
     associated Python libraries and documentation.
   url: https://wiki.openstack.org/wiki/Marconi
   projects:
-    incubated:
-    - openstack/marconi
-    other:
-    - openstack/python-marconiclient
+    - repo: openstack/marconi
+      incubated-since: icehouse
+    - repo: openstack/python-marconiclient
 
 Data processing service:
   codename: Sahara
@@ -322,13 +305,13 @@ Data processing service:
     interfaces.
   url: https://wiki.openstack.org/wiki/Sahara
   projects:
-    integrated:
-    - openstack/sahara
-    other:
-    - openstack/python-saharaclient
-    - openstack/sahara-dashboard
-    - openstack/sahara-extra
-    - openstack/sahara-image-elements
+    - repo: openstack/sahara
+      incubated-since: icehouse
+      integrated-since: juno
+    - repo: openstack/python-saharaclient
+    - repo: openstack/sahara-dashboard
+    - repo: openstack/sahara-extra
+    - repo: openstack/sahara-image-elements
 
 Key management service:
   codename: Barbican
@@ -338,7 +321,6 @@ Key management service:
     management for services wishing to enable encryption features.
   url: https://wiki.openstack.org/wiki/Barbican
   projects:
-    incubated:
-    - stackforge/barbican
-    other:
-    - stackforge/python-barbicanclient
+    - repo: stackforge/barbican
+      incubated-since: juno
+    - repo: stackforge/python-barbicanclient
