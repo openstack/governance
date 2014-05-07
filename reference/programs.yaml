@@ -324,3 +324,4 @@ Key management service:
     - repo: stackforge/barbican
       incubated-since: juno
     - repo: stackforge/python-barbicanclient
+    - repo: stackforge/kite
