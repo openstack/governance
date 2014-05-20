@@ -144,6 +144,7 @@ Common Libraries:
   projects:
     - repo: openstack/cliff
     - repo: openstack/oslo.config
+    - repo: openstack/oslo.db
     - repo: openstack/oslo.i18n
     - repo: openstack/oslo-incubator
     - repo: openstack/oslo.messaging
