@@ -1,3 +1,7 @@
+=============================
+ 2014-02-11 DefCore Response
+=============================
+
 This resolution is the draft of an email from the TC to the Board DefCore
 committee on the issue of identifying "required sections" of code.
 
