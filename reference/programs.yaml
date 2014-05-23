@@ -162,6 +162,7 @@ Common Libraries:
     - repo: openstack-dev/pbr
 
 Infrastructure:
+  codename: Infra
   ptl: James E. Blair (jeblair)
   url: https://wiki.openstack.org/wiki/Infrastructure
   mission:
