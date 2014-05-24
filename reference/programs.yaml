@@ -150,7 +150,7 @@ Common Libraries:
     - repo: openstack/oslo.messaging
     - repo: openstack/oslo.rootwrap
     - repo: openstack/oslosphinx
-    - repo: openstack/oslo.test
+    - repo: openstack/oslotest
     - repo: openstack/oslo.version
     - repo: openstack/oslo.vmware
     - repo: openstack/pycadf
