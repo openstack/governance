@@ -219,7 +219,6 @@ Documentation:
   projects:
     - repo: openstack/api-site
     - repo: openstack/compute-api
-    - repo: openstack/database-api
     - repo: openstack/identity-api
     - repo: openstack/image-api
     - repo: openstack/netconn-api
