@@ -324,7 +324,7 @@ Key management service:
     management for services wishing to enable encryption features.
   url: https://wiki.openstack.org/wiki/Barbican
   projects:
-    - repo: stackforge/barbican
+    - repo: openstack/barbican
       incubated-since: juno
-    - repo: stackforge/python-barbicanclient
+    - repo: openstack/python-barbicanclient
     - repo: stackforge/kite
