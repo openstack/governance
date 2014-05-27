@@ -29,6 +29,7 @@ Image Service:
   projects:
     - repo: openstack/glance
       integrated-since: bexar
+    - repo: openstack/glance-specs
     - repo: openstack/python-glanceclient
 
 Identity:
