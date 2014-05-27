@@ -88,6 +88,7 @@ Telemetry:
     - repo: openstack/ceilometer
       incubated-since: grizzly
       integrated-since: havana
+    - repo: openstack/ceilometer-specs
     - repo: openstack/python-ceilometerclient
 
 Orchestration:
