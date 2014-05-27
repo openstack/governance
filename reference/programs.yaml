@@ -100,6 +100,7 @@ Orchestration:
       integrated-since: havana
     - repo: openstack/python-heatclient
     - repo: openstack/heat-cfntools
+    - repo: openstack/heat-specs
     - repo: openstack/heat-templates
     - repo: openstack-dev/heat-cfnclient
 
