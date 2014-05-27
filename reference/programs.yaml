@@ -21,6 +21,7 @@ Object Storage:
       integrated-since: austin
     - repo: openstack/python-swiftclient
     - repo: openstack/swift-bench
+    - repo: openstack/swift-specs
 
 Image Service:
   codename: Glance
