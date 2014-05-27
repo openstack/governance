@@ -41,6 +41,7 @@ Identity:
   projects:
     - repo: openstack/keystone
       integrated-since: essex
+    - repo: openstack/keystone-specs
     - repo: openstack/python-keystoneclient
 
 Dashboard:
