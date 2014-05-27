@@ -130,6 +130,7 @@ Bare metal:
   projects:
     - repo: openstack/ironic
       incubated-since: havana
+    - repo: openstack/ironic-specs
     - repo: openstack/python-ironicclient
     - repo: openstack/ironic-python-agent
 
