@@ -184,6 +184,7 @@ Infrastructure:
     - repo: openstack-infra/git-review
     - repo: openstack-infra/gitdm
     - repo: openstack-infra/groups
+    - repo: openstack-infra/infra-specs
     - repo: openstack-infra/jeepyb
     - repo: openstack-infra/jenkins-job-builder
     - repo: openstack-infra/lodgeit
