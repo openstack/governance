@@ -324,6 +324,7 @@ Data processing service:
     - repo: openstack/sahara-dashboard
     - repo: openstack/sahara-extra
     - repo: openstack/sahara-image-elements
+    - repo: openstack/sahara-specs
 
 Key management service:
   codename: Barbican
