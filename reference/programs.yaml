@@ -265,6 +265,7 @@ Deployment:
     - repo: openstack/tripleo-heat-templates
     - repo: openstack/tripleo-image-elements
     - repo: openstack/tripleo-incubator
+    - repo: openstack/tripleo-specs
     - repo: openstack/tuskar
     - repo: openstack/python-tuskarclient
 
