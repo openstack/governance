@@ -26,6 +26,9 @@ Object Storage:
 Image Service:
   codename: Glance
   ptl: Mark Washenberger (markwash)
+  mission:
+    To provide services to store, browse, share, distribute and manage
+    bootable disk images.
   url: https://wiki.openstack.org/wiki/Glance
   projects:
     - repo: openstack/glance
