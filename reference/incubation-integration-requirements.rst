@@ -178,6 +178,38 @@ API
   via notifications so that they can be consumed by other integrated
   projects
 
+Upgrade
+-------
+
+Seamless upgradability of OpenStack components remains the most
+requested feature by deployers and operators. Once a deployer of
+OpenStack has installed a cloud, there is an implicit expectation that
+it can be upgraded in place on the existing hardware without creating
+downtime for any of the active resources that the cloud manages.
+
+Note: at this point in time we still consider it acceptable to require
+downtime of the API / control plane for upgrade, though encourage
+projects to develop ways to reduce or eliminate that need.
+
+As such, we expect projects to have a path for inplace upgrading from:
+
+* one stable release to the next stable release (i.e. stable/havana =>
+  stable/icehouse)
+* from the most recent stable branch to upstream master
+  (i.e. stable/icehouse => master during the Juno development cycle)
+* within points in master (i.e. from a commit that merged to the
+  master branch two weeks ago, to the latest commit on the master
+  branch). This is for supporting deployers who wish to continuously
+  deploy their OpenStack clouds.
+
+This requirement becomes relevant after the first stable release that
+a project ships in, however projects are encouraged to incorporate a
+culture of upgradability early in their project lifecycle.
+
+In place upgrade also applies when migrating functionality out of one
+project into another, as in nova-volume => cinder, nova-network =>
+neutron, nova-baremetal => ironic, and/or nova-scheduler -> gantt.
+
 QA
 --
 
