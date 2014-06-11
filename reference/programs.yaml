@@ -190,6 +190,7 @@ Infrastructure:
     - repo: openstack-dev/openstack-nose
     - repo: openstack-infra/activity-board
     - repo: openstack-infra/askbot-theme
+    - repo: openstack-infra/bugdaystats
     - repo: openstack-infra/config
     - repo: openstack-infra/devstack-gate
     - repo: openstack-infra/elastic-recheck
@@ -198,9 +199,12 @@ Infrastructure:
     - repo: openstack-infra/gerrit
     - repo: openstack-infra/gerritbot
     - repo: openstack-infra/gerritlib
+    - repo: openstack-infra/gerrit-powered-agenda
     - repo: openstack-infra/git-review
     - repo: openstack-infra/gitdm
     - repo: openstack-infra/groups
+    - repo: openstack-infra/groups-static-pages
+    - repo: openstack-infra/infra-manual
     - repo: openstack-infra/infra-specs
     - repo: openstack-infra/jeepyb
     - repo: openstack-infra/jenkins-job-builder
@@ -214,7 +218,10 @@ Infrastructure:
     - repo: openstack-infra/publications
     - repo: openstack-infra/puppet-apparmor
     - repo: openstack-infra/puppet-dashboard
+    - repo: openstack-infra/puppet-storyboard
     - repo: openstack-infra/puppet-vcsrepo
+    - repo: openstack-infra/puppet-yum
+    - repo: openstack-infra/puppet-zuul
     - repo: openstack-infra/pypi-mirror
     - repo: openstack-infra/releasestatus
     - repo: openstack-infra/reviewday
