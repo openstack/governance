@@ -253,6 +253,7 @@ Documentation:
     - repo: openstack/openstack-manuals
     - repo: openstack/operations-guide
     - repo: openstack/security-guide
+    - repo: openstack/training-guides
     - repo: openstack/volume-api
 
 Quality Assurance:
