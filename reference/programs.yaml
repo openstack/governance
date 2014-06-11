@@ -354,3 +354,16 @@ Key management service:
       incubated-since: juno
     - repo: openstack/python-barbicanclient
     - repo: stackforge/kite
+
+DNS Services:
+  codename: Designate
+  ptl: Kiall Mac Innes (kiall)
+  mission:
+    To provide scalable, on demand, self service access to authoritative DNS
+    services, in technology-agnostic manner.
+  url: https://wiki.openstack.org/wiki/Designate
+  projects:
+    - repo: stackforge/designate
+      incubated-since: juno
+    - repo: stackforge/designate-specs
+    - repo: stackforge/python-designateclient
