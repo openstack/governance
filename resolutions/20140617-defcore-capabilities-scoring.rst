@@ -45,7 +45,6 @@ Stable
   on other criteria, so we can score them but don't have to during
   this pass.
 
-
 ===== ================================= ===================== ========== ========
   Row Candidate Capabilities             TC Future Direction   Complete   Stable
 ===== ================================= ===================== ========== ========
@@ -53,9 +52,9 @@ Stable
     5 volume                                      1               1         1
     6 compute-volume                              1               1         1
     7 compute-quotas                              1               1         1
-    8 compute-flavors                            0.5              1         1
+    8 compute-flavors                             1               1         1
     9 images-v1                                   1               1         1
-   10 compute-auth                               0.5              1         1
+   10 compute-auth                                1               1         1
    11 images-v2                                   1               1         1
    12 objectstore-object                          1               1         1
    13 compute-keypairs                            1               1         1
@@ -63,12 +62,12 @@ Stable
    15 objectstore-container                       1               1         1
    16 volume-snapshots                            1               1         1
    17 compute-images                              0               1         1
-   18 compute-floating-ips                       0.5              1         1
+   18 compute-floating-ips                        1               1         1
    19 compute-instance-actions                    1               1         1
-   20 compute-security-groups                    0.5              1         1
+   20 compute-security-groups                     1               1         1
    21 compute-image-metadata                      0               1         1
-   22 objectstore-container-quota                0.5              1         1
-   23 compute-virtual-interfaces                 0.5              1         0
+   22 objectstore-container-quota                 1               1         1
+   23 compute-virtual-interfaces                  1               1         0
    24 objectstore-container-acl                   0               1         1
    25 objectstore-acct-services                   0               1         1
    26 objectstore-container-staticweb             0               1         1
@@ -85,7 +84,7 @@ Stable
    37 networks-security-groups                    1               0         0
    38 networks-lbaas                              1               0         0
    39 orch-stacks                                 0               0         0
-   40 compute-multiple-create                    0.5              0         0
+   40 compute-multiple-create                     1               1         1
    41 networks-vpn                                1               0         0
    42 compute-attach-interface                    0               0         0
    43 networks-quotas                             1               0         0
@@ -105,18 +104,18 @@ Stable
    57 volume-multi-backend                        1               1         1
    58 identity-admin-users                        0               1         1
    59 identity-admin-roles                        1               1         1
-   60 compute-admin-aggregates                   0.5              1         1
-   61 objectstore-quotas                         0.5              1         1
+   60 compute-admin-aggregates                    1               1         1
+   61 objectstore-quotas                          1               1         1
    62 compute-admin-servers-pause                 1               1         1
    63 compute-admin-servers-suspend               1               1         1
    64 identity-admin-tenants                      0               1         0
    65 compute-admin-avail-zone                    0               1         1
    66 identity-admin-services                     1               1         1
    67 volume-extra-specs                          1               1         1
-   68 compute-admin-flavors                      0.5              1         1
+   68 compute-admin-flavors                       1               1         1
    69 compute-admin-server                        1               1         1
    70 compute-admin-services                      1               1         1
-   71 compute-admin-fixed-ips                    0.5              1         1
+   71 compute-admin-fixed-ips                     1               0         1
    72 compute-admin-quota                         1               1         1
    73 compute-admin-hypervisor                    1               1         1
    74 compute-admin-hosts                         1               1         1
