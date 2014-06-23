@@ -52,6 +52,9 @@ Identity:
 Dashboard:
   codename: Horizon
   ptl: David Lyle (david-lyle)
+  mission:
+    To provide an extensible unified web based user interface for all
+    integrated OpenStack services.
   url: https://wiki.openstack.org/wiki/Horizon
   projects:
     - repo: openstack/horizon
