@@ -252,7 +252,7 @@ Documentation:
     - repo: openstack/openstack-doc-tools
     - repo: openstack/openstack-manuals
     - repo: openstack/operations-guide
-    - repo: openstack/security-guide
+    - repo: openstack/security-doc
     - repo: openstack/training-guides
     - repo: openstack/volume-api
 
