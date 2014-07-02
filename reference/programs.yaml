@@ -245,6 +245,7 @@ Documentation:
   projects:
     - repo: openstack/api-site
     - repo: openstack/compute-api
+    - repo: openstack/docs-specs
     - repo: openstack/identity-api
     - repo: openstack/image-api
     - repo: openstack/netconn-api
