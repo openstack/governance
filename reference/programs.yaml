@@ -49,6 +49,7 @@ Identity:
       integrated-since: essex
     - repo: openstack/keystone-specs
     - repo: openstack/python-keystoneclient
+    - repo: openstack/keystonemiddleware
 
 Dashboard:
   codename: Horizon
