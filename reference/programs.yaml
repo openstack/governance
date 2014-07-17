@@ -36,6 +36,7 @@ Image Service:
       integrated-since: bexar
     - repo: openstack/glance-specs
     - repo: openstack/python-glanceclient
+    - repo: openstack/glance.store
 
 Identity:
   codename: Keystone
