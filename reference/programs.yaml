@@ -170,6 +170,7 @@ Common Libraries:
     - repo: openstack/oslo-specs
     - repo: openstack/oslosphinx
     - repo: openstack/oslotest
+    - repo: openstack/oslo.utils
     - repo: openstack/oslo.version
     - repo: openstack/oslo.vmware
     - repo: openstack/pycadf
@@ -328,6 +329,7 @@ Queue service:
   projects:
     - repo: openstack/marconi
       incubated-since: icehouse
+    - repo: openstack/marconi-specs
     - repo: openstack/python-marconiclient
 
 Data processing service:
@@ -357,6 +359,7 @@ Key management service:
   projects:
     - repo: openstack/barbican
       incubated-since: juno
+    - repo: openstack/barbican-specs
     - repo: openstack/python-barbicanclient
     - repo: stackforge/kite
 
