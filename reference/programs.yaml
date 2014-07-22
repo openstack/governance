@@ -284,6 +284,7 @@ Deployment:
     - repo: openstack/os-apply-config
     - repo: openstack/os-cloud-config
     - repo: openstack/os-collect-config
+    - repo: openstack/os-net-config
     - repo: openstack/os-refresh-config
     - repo: openstack/tripleo-heat-templates
     - repo: openstack/tripleo-image-elements
