@@ -1,10 +1,10 @@
 Compute:
   codename: Nova
   ptl: Michael Still (mikal)
-  mission:
-    To implement services and associated libraries to provide massively scalable,
-    on demand, self service access to compute resources, including bare metal,
-    virtual machines, and containers.
+  mission: >
+    To implement services and associated libraries to provide massively
+    scalable, on demand, self service access to compute resources, including
+    bare metal, virtual machines, and containers.
   url: https://wiki.openstack.org/wiki/Nova
   projects:
     - repo: openstack/nova
@@ -26,10 +26,10 @@ Object Storage:
 Image Service:
   codename: Glance
   ptl: Mark Washenberger (markwash)
-  mission:
-    To provide a service where users can upload and discover data assets
-    that are meant to be used with other services, like images for Nova
-    and templates for Heat.
+  mission: >
+    To provide a service where users can upload and discover data assets that
+    are meant to be used with other services, like images for Nova and
+    templates for Heat.
   url: https://wiki.openstack.org/wiki/Glance
   projects:
     - repo: openstack/glance
@@ -40,7 +40,7 @@ Image Service:
 Identity:
   codename: Keystone
   ptl: Dolph Mathews (dolphm)
-  mission:
+  mission: >
     To facilitate API client authentication, service discovery, and distributed
     multi-tenant authorization.
   url: https://wiki.openstack.org/wiki/Keystone
@@ -54,7 +54,7 @@ Identity:
 Dashboard:
   codename: Horizon
   ptl: David Lyle (david-lyle)
-  mission:
+  mission: >
     To provide an extensible unified web based user interface for all
     integrated OpenStack services.
   url: https://wiki.openstack.org/wiki/Horizon
@@ -67,10 +67,9 @@ Dashboard:
 Networking:
   codename: Neutron
   ptl: Kyle Mestery (mestery)
-  mission:
+  mission: >
     To implement services and associated libraries to provide on-demand,
     scalable, and technology-agnostic network abstraction.
-
   url: https://wiki.openstack.org/wiki/Neutron
   projects:
     - repo: openstack/neutron
@@ -81,10 +80,10 @@ Networking:
 Block Storage:
   codename: Cinder
   ptl: John Griffith (jgriffith)
-  mission:
-    To implement services and libraries to provide on-demand,
-    self-service access to Block Storage resources via abstraction
-    and automation on top of other block storage devices.
+  mission: >
+    To implement services and libraries to provide on-demand, self-service
+    access to Block Storage resources via abstraction and automation on top of
+    other block storage devices.
   url: https://wiki.openstack.org/wiki/Cinder
   projects:
     - repo: openstack/cinder
@@ -96,12 +95,11 @@ Telemetry:
   codename: Ceilometer
   ptl : Eoghan Glynn (eglynn)
   url: https://wiki.openstack.org/wiki/Ceilometer
-  mission:
-    To reliably collect measurements of the utilization of the physical
-    and virtual resources comprising deployed clouds, persist these data
-    for subsequent retrieval and analysis, and trigger actions when
-    defined criteria are met.
-
+  mission: >
+    To reliably collect measurements of the utilization of the physical and
+    virtual resources comprising deployed clouds, persist these data for
+    subsequent retrieval and analysis, and trigger actions when defined
+    criteria are met.
   projects:
     - repo: openstack/ceilometer
       incubated-since: grizzly
@@ -126,11 +124,10 @@ Orchestration:
 Database Service:
   codename: Trove
   ptl: Nikhil Manchanda (SlickNik)
-  mission:
-    To provide scalable and reliable Cloud Database as a Service
-    functionality for both relational and non-relational database
-    engines, and to continue to improve its fully-featured and
-    extensible open source framework.
+  mission: >
+    To provide scalable and reliable Cloud Database as a Service functionality
+    for both relational and non-relational database engines, and to continue to
+    improve its fully-featured and extensible open source framework.
   url: https://wiki.openstack.org/wiki/Trove
   projects:
     - repo: openstack/trove
@@ -142,9 +139,9 @@ Database Service:
 Bare metal:
   codename: Ironic
   ptl: Devananda van der Veen (devananda)
-  mission:
-    To produce an OpenStack service and associated python libraries capable
-    of managing and provisioning physical machines, and to do this in a
+  mission: >
+    To produce an OpenStack service and associated python libraries capable of
+    managing and provisioning physical machines, and to do this in a
     security-aware and fault-tolerant manner.
   url: https://wiki.openstack.org/wiki/Ironic
   projects:
@@ -157,7 +154,7 @@ Bare metal:
 Common Libraries:
   codename: Oslo
   ptl: Doug Hellmann (dhellmann)
-  mission:
+  mission: >
     To produce a set of python libraries containing code shared by OpenStack
     projects. The APIs provided by these libraries should be high quality,
     stable, consistent, documented and generally applicable.
@@ -188,10 +185,9 @@ Infrastructure:
   codename: Infra
   ptl: James E. Blair (jeblair)
   url: https://wiki.openstack.org/wiki/Infrastructure
-  mission:
-    Develop and maintain the tooling and infrastructure needed to
-    support the development process and general operation of the
-    OpenStack project.
+  mission: >
+    Develop and maintain the tooling and infrastructure needed to support the
+    development process and general operation of the OpenStack project.
   projects:
     - repo: openstack-dev/openstack-nose
     - repo: openstack-infra/activity-board
@@ -243,7 +239,7 @@ Infrastructure:
 
 Documentation:
   ptl: Anne Gentle (annegentle)
-  mission:
+  mission: >
     Provide documentation for core OpenStack projects to promote OpenStack.
     Develop and maintain tools and processes to ensure quality, accurate
     documentation. Treat documentation like OpenStack code.
@@ -266,10 +262,10 @@ Documentation:
 Quality Assurance:
   codename: QA
   ptl: Matthew Treinish (mtreinish)
-  mission:
+  mission: >
     Develop, maintain, and initiate tools and plans to ensure the upstream
-    stability and quality of OpenStack, and its release readiness at any
-    point during the release cycle.
+    stability and quality of OpenStack, and its release readiness at any point
+    during the release cycle.
   url: https://wiki.openstack.org/wiki/QA
   projects:
     - repo: openstack/tempest
@@ -279,9 +275,9 @@ Quality Assurance:
 Deployment:
   codename: TripleO
   ptl: Robert Collins (lifeless)
-  mission:
-    Develop and maintain tooling and infrastructure able to deploy OpenStack
-    in production, using OpenStack itself wherever possible.
+  mission: >
+    Develop and maintain tooling and infrastructure able to deploy OpenStack in
+    production, using OpenStack itself wherever possible.
   url: https://wiki.openstack.org/wiki/TripleO
   projects:
     - repo: openstack/diskimage-builder
@@ -299,23 +295,23 @@ Deployment:
 
 Devstack:
   ptl: Dean Troyer (dtroyer)
-  mission:
+  mission: >
     To provide an installation of OpenStack from git repository master, or
-    specific branches, suitable for development and operational testing.
-    It also attempts to document the process and provide examples of command
-    line usage.
+    specific branches, suitable for development and operational testing. It
+    also attempts to document the process and provide examples of command line
+    usage.
   url: https://wiki.openstack.org/wiki/DevStack
   projects:
     - repo: openstack-dev/devstack
 
 Release cycle management:
   ptl: Thierry Carrez (ttx)
-  mission:
-    To organize the release cycle and the work necessary to produce
-    coordinated releases of the integrated components of OpenStack.
-    To collect bugfix backports and produce stable point releases for the
-    previously-released branch. To coordinate the publication of security
-    patches and advisories (OSSA) for security-supported branches.
+  mission: >
+    To organize the release cycle and the work necessary to produce coordinated
+    releases of the integrated components of OpenStack. To collect bugfix
+    backports and produce stable point releases for the previously-released
+    branch. To coordinate the publication of security patches and advisories
+    (OSSA) for security-supported branches.
   url: https://wiki.openstack.org/wiki/Release_Cycle_Management
   projects:
     - repo: openstack/requirements
@@ -324,11 +320,11 @@ Release cycle management:
 Queue service:
   codename: Marconi
   ptl: Kurt Griffiths (kgriffs)
-  mission:
-    To produce an OpenStack message queueing API and service that affords
-    a variety of distributed application messaging patterns in an efficient,
-    scalable and highly-available manner, and to create and maintain
-    associated Python libraries and documentation.
+  mission: >
+    To produce an OpenStack message queueing API and service that affords a
+    variety of distributed application messaging patterns in an efficient,
+    scalable and highly-available manner, and to create and maintain associated
+    Python libraries and documentation.
   url: https://wiki.openstack.org/wiki/Marconi
   projects:
     - repo: openstack/marconi
@@ -339,7 +335,7 @@ Queue service:
 Data processing service:
   codename: Sahara
   ptl: Sergey Lukjanov (SergeyLukjanov)
-  mission:
+  mission: >
     To provide a scalable data processing stack and associated management
     interfaces.
   url: https://wiki.openstack.org/wiki/Sahara
@@ -356,7 +352,7 @@ Data processing service:
 Key management service:
   codename: Barbican
   ptl: Jarret Raim (jraim)
-  mission:
+  mission: >
     To produce a secret storage and generation system capable of providing key
     management for services wishing to enable encryption features.
   url: https://wiki.openstack.org/wiki/Barbican
@@ -370,7 +366,7 @@ Key management service:
 DNS Services:
   codename: Designate
   ptl: Kiall Mac Innes (kiall)
-  mission:
+  mission: >
     To provide scalable, on demand, self service access to authoritative DNS
     services, in technology-agnostic manner.
   url: https://wiki.openstack.org/wiki/Designate
