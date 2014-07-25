@@ -41,8 +41,8 @@ Identity:
   codename: Keystone
   ptl: Dolph Mathews (dolphm)
   mission: >
-    To facilitate API client authentication, service discovery, and distributed
-    multi-tenant authorization.
+    To facilitate API client authentication, service discovery, distributed
+    multi-tenant authorization, and auditing.
   url: https://wiki.openstack.org/wiki/Keystone
   projects:
     - repo: openstack/keystone
@@ -50,6 +50,7 @@ Identity:
     - repo: openstack/keystone-specs
     - repo: openstack/python-keystoneclient
     - repo: openstack/keystonemiddleware
+    - repo: openstack/pycadf
 
 Dashboard:
   codename: Horizon
@@ -175,7 +176,6 @@ Common Libraries:
     - repo: openstack/oslo.utils
     - repo: openstack/oslo.version
     - repo: openstack/oslo.vmware
-    - repo: openstack/pycadf
     - repo: openstack/stevedore
     - repo: openstack/taskflow
     - repo: openstack-dev/cookiecutter
