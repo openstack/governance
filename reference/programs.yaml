@@ -368,7 +368,7 @@ DNS Services:
     services, in technology-agnostic manner.
   url: https://wiki.openstack.org/wiki/Designate
   projects:
-    - repo: stackforge/designate
+    - repo: openstack/designate
       incubated-since: juno
-    - repo: stackforge/designate-specs
-    - repo: stackforge/python-designateclient
+    - repo: openstack/designate-specs
+    - repo: openstack/python-designateclient
