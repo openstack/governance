@@ -167,6 +167,7 @@ Common Libraries:
     - repo: openstack/oslo-incubator
     - repo: openstack/oslo.messaging
     - repo: openstack/oslo.rootwrap
+    - repo: openstack/oslo.serialization
     - repo: openstack/oslo-specs
     - repo: openstack/oslosphinx
     - repo: openstack/oslotest
