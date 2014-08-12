@@ -386,4 +386,5 @@ Shared File Systems:
   url: https://wiki.openstack.org/wiki/Manila
   projects:
     - repo: stackforge/manila
+      incubated-since: juno
     - repo: stackforge/python-manilaclient
