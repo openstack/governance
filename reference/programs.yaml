@@ -320,19 +320,19 @@ Release cycle management:
     - repo: openstack-infra/release-tools
 
 Queue service:
-  codename: Marconi
+  codename: Zaqar
   ptl: Kurt Griffiths (kgriffs)
   mission: >
     To produce an OpenStack message queueing API and service that affords a
     variety of distributed application messaging patterns in an efficient,
     scalable and highly-available manner, and to create and maintain associated
     Python libraries and documentation.
-  url: https://wiki.openstack.org/wiki/Marconi
+  url: https://wiki.openstack.org/wiki/Zaqar
   projects:
-    - repo: openstack/marconi
+    - repo: openstack/zaqar
       incubated-since: icehouse
-    - repo: openstack/marconi-specs
-    - repo: openstack/python-marconiclient
+    - repo: openstack/zaqar-specs
+    - repo: openstack/python-zaqarclient
 
 Data processing service:
   codename: Sahara
