@@ -273,6 +273,7 @@ Quality Assurance:
     - repo: openstack/tempest
     - repo: openstack-dev/grenade
     - repo: openstack/qa-specs
+    - repo: openstack-dev/devstack
 
 Deployment:
   codename: TripleO
@@ -294,17 +295,6 @@ Deployment:
     - repo: openstack/tripleo-specs
     - repo: openstack/tuskar
     - repo: openstack/python-tuskarclient
-
-Devstack:
-  ptl: Dean Troyer (dtroyer)
-  mission: >
-    To provide an installation of OpenStack from git repository master, or
-    specific branches, suitable for development and operational testing. It
-    also attempts to document the process and provide examples of command line
-    usage.
-  url: https://wiki.openstack.org/wiki/DevStack
-  projects:
-    - repo: openstack-dev/devstack
 
 Release cycle management:
   ptl: Thierry Carrez (ttx)
