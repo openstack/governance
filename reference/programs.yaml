@@ -353,7 +353,8 @@ Key management service:
       incubated-since: juno
     - repo: openstack/barbican-specs
     - repo: openstack/python-barbicanclient
-    - repo: stackforge/kite
+    - repo: openstack/kite
+    - repo: openstack/python-kiteclient
 
 DNS Services:
   codename: Designate
