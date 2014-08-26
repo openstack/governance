@@ -368,3 +368,15 @@ DNS Services:
       incubated-since: juno
     - repo: openstack/designate-specs
     - repo: openstack/python-designateclient
+
+Shared File Systems:
+  codename: Manila
+  ptl: Ben Swartzlander (bswartz)
+  mission: >
+    To provide a set of services for management of shared file systems
+    in a multitenant cloud environment, similar to how OpenStack provides
+    for block-based storage management through the Block Storage program.
+  url: https://wiki.openstack.org/wiki/Manila
+  projects:
+    - repo: stackforge/manila
+    - repo: stackforge/python-manilaclient
