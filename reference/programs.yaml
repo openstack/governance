@@ -167,6 +167,7 @@ Common Libraries:
     - repo: openstack/oslo.db
     - repo: openstack/oslo.i18n
     - repo: openstack/oslo-incubator
+    - repo: openstack/oslo.log
     - repo: openstack/oslo.messaging
     - repo: openstack/oslo.middleware
     - repo: openstack/oslo.rootwrap
