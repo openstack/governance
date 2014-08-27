@@ -163,6 +163,7 @@ Common Libraries:
   url: https://wiki.openstack.org/wiki/Oslo
   projects:
     - repo: openstack/cliff
+    - repo: openstack/oslo.concurrency
     - repo: openstack/oslo.config
     - repo: openstack/oslo.db
     - repo: openstack/oslo.i18n
