@@ -18,9 +18,9 @@ Each python project must be able to do:
 
  - Unit tests for python2.6
  - Unit tests for python2.7
- - pep8 checks
+ - Codestyle checks
  - Testing Coverage Report
- - source tarball generation
+ - Source Tarball Generation
  - Translations import/export and merge for translated projects
  - Documentation generation
 
