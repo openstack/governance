@@ -271,6 +271,7 @@ Quality Assurance:
   url: https://wiki.openstack.org/wiki/QA
   projects:
     - repo: openstack/tempest
+    - repo: openstack/tempest-lib
     - repo: openstack-dev/grenade
     - repo: openstack/qa-specs
 
