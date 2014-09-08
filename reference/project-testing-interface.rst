@@ -44,41 +44,40 @@ Projects that are translated should also support:
 Requirements Listing
 --------------------
 
-Each project should list its operations dependencies in tools/pip-requires
-and additional dependencies required for testing in tools/test-requires.
+Each project should list its operations dependencies in requirements.txt
+and additional dependencies required for testing in test-requirements.txt.
+If there are requirements that are specific to python3 or pypy support,
+those may optionally be listed in requirements-py3.txt or
+requirements-pypy.txt.
 
 Virtual Environment Management
 ------------------------------
 
-To support sensible testing across multiple python versions, we've use tox
-config files in the projects with the hope that eventually we can remove having
-install_venv.py copied in to each of the projects.
+To support sensible testing across multiple python versions, we use tox
+config files in the projects.
 
 unittest running
 ----------------
 
-Nova uses a specialized test runner, which is a subclass of nose. Most of the
-functionality of this has been extracted in to openstack.nose_plugin. There are
-still a few test failures currently when running nova unittests directly under
-nose, but once those are solved, the projects should really all have a config
-for openstack.nose_plugin and then support running nose directly with no
-special setup ... this will help in writing code to exploit the features of
-nose.
+OpenStack uses testrepository as its test runner, which supports a number
+of things, most importantly to the expanded project is the subunit output
+stream collection. This is useful for aggregating and displaying test output.
+In support of that, the oslotest library is built on top of testtools,
+testscenarios and fixtures.
 
-Helper Scripts
---------------
+Project Configuration
+---------------------
 
-The projects up until now have all had a run_tests.sh and a with_venv.sh
-script. run_tests.sh should be able to be easily re-written to pass things
-along to the above tox commands. with_venv.sh is also easy - the tox venv
-environment (tox -evenv) is available to run arbitrary commands in the context
-of a tox virtualenv.
+All OpenStack projects use `pbr` for consistent operation of setuptools.
+To accomplish this, all setup.py files only contain a simple setup function
+that setup_requires on an unversioned pbr, and a directive to pass processing
+to the pbr library. Actual project configuration is then handled in setup.cfg.
 
 Generated Files
 ---------------
 
-ChangeLog and AUTHORS files should be generated at setup.py sdist time. Code
-exists in oslo in the setup module to support that.
+ChangeLog and AUTHORS files are generated at setup.py sdist time. This is
+handled by pbr.
 
 .mailmap files should exist where a developer has more than one email address
 or identity, and should map to the developer's canonical identity.
