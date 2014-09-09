@@ -1,0 +1,33 @@
+===============================================
+ 2014-09-09 Recommendation to Adopt DCO as CLA
+===============================================
+
+The OpenStack Technical Committee, representing the developer
+community, requests that the Board of Directors consider implementing
+the `Developer Certificate of Origin`_ (DCO) as the Contributor
+License Agreement (CLA) for the OpenStack project.
+
+The current CLA is a barrier to contributions from new developers
+because it is a unique and unfamiliar legal document that must be
+reviewed.  Many developers are uncertain as to what its provisions
+actually are.  Instead, most developers would be far more comfortable
+with the common understanding provided by the well-known Apache
+License (whose provisions are understood by developers and corporate
+counsels alike).
+
+As the OpenStack project grows, we need to continually recruit new
+developers to the project as well as convince new users that they will
+be able to contribute.  The current CLA is a warning flag to some open
+source developers that the project does not operate in the way they
+expect an open source project to work, and it makes it more difficult
+for users to contribute simple fixes easily.
+
+The need for the project and its contributors to understand and agree
+upon the terms under which contributions are made is important.  The
+DCO accomplishes that by indicating that developers are responsible
+for the code that they contribute and that they understand that the
+contribution is under the terms of the Apache License.  This simple
+process is familiar to developers and legal counsels and is all that
+is required for the licensing needs of OpenStack.
+
+.. _Developer Certificate of Origin: http://developercertificate.org/
