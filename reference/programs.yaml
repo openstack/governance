@@ -315,12 +315,12 @@ Release cycle management:
     - repo: openstack/requirements
     - repo: openstack-infra/release-tools
 
-Queue service:
+Message service:
   codename: Zaqar
   ptl: Kurt Griffiths (kgriffs)
   mission: >
-    To produce an OpenStack message queueing API and service that affords a
-    variety of distributed application messaging patterns in an efficient,
+    To produce an OpenStack messaging service that affords a
+    variety of distributed application patterns in an efficient,
     scalable and highly-available manner, and to create and maintain associated
     Python libraries and documentation.
   url: https://wiki.openstack.org/wiki/Zaqar
