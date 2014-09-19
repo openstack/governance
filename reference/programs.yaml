@@ -180,6 +180,7 @@ Common Libraries:
     - repo: openstack/oslo.utils
     - repo: openstack/oslo.version
     - repo: openstack/oslo.vmware
+    - repo: openstack/pylockfile
     - repo: openstack/stevedore
     - repo: openstack/taskflow
     - repo: openstack-dev/cookiecutter
