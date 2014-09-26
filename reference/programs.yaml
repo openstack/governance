@@ -225,6 +225,7 @@ Infrastructure:
     - repo: openstack-infra/odsreg
     - repo: openstack-infra/openstackid
     - repo: openstack-infra/os-loganalyze
+    - repo: openstack-infra/project-config
     - repo: openstack-infra/publications
     - repo: openstack-infra/puppet-apparmor
     - repo: openstack-infra/puppet-dashboard
@@ -239,6 +240,7 @@ Infrastructure:
     - repo: openstack-infra/statusbot
     - repo: openstack-infra/storyboard
     - repo: openstack-infra/storyboard-webclient
+    - repo: openstack-infra/subunit2sql
     - repo: openstack-infra/tripleo-ci
     - repo: openstack-infra/zmq-event-publisher
     - repo: openstack-infra/zuul
