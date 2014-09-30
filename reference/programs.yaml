@@ -53,6 +53,7 @@ Identity:
     - repo: openstack/keystonemiddleware
     - repo: openstack/pycadf
     - repo: openstack/python-keystoneclient-kerberos
+    - repo: openstack/python-keystoneclient-federation
 
 Dashboard:
   codename: Horizon
