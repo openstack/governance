@@ -390,6 +390,6 @@ Shared File Systems:
     for block-based storage management through the Block Storage program.
   url: https://wiki.openstack.org/wiki/Manila
   projects:
-    - repo: stackforge/manila
+    - repo: openstack/manila
       incubated-since: juno
-    - repo: stackforge/python-manilaclient
+    - repo: openstack/python-manilaclient
