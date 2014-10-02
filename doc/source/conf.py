@@ -27,11 +27,20 @@ sys.path.insert(0, os.path.join(os.path.abspath('.'), '_exts'))
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
+    'sphinx.ext.extlinks',
     'oslosphinx',
     'members',
+    'projects',
+    'teams',
+    'tags',
 ]
 
 todo_include_todos = True
+
+# Define shorthand roles for making links to common destinations.
+extlinks = {
+    'repo': ('http://git.openstack.org/cgit/%s', ''),
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

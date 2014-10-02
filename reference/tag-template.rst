@@ -91,3 +91,5 @@ the proposed tag to at least some subset of the current project list. This
 will serve as an example of how the tag should be applied in the real world.
 You may also submit (as a subsequent change) the corresponding governance
 change to immediately apply the proposed tag to projects.
+
+.. tagged-projects:: <tag name>
