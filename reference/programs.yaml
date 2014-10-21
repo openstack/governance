@@ -202,7 +202,6 @@ Infrastructure:
     - repo: openstack-infra/activity-board
     - repo: openstack-infra/askbot-theme
     - repo: openstack-infra/bugdaystats
-    - repo: openstack-infra/config
     - repo: openstack-infra/devstack-gate
     - repo: openstack-infra/elastic-recheck
     - repo: openstack-infra/gear
@@ -242,6 +241,7 @@ Infrastructure:
     - repo: openstack-infra/storyboard
     - repo: openstack-infra/storyboard-webclient
     - repo: openstack-infra/subunit2sql
+    - repo: openstack-infra/system-config
     - repo: openstack-infra/tripleo-ci
     - repo: openstack-infra/zmq-event-publisher
     - repo: openstack-infra/zuul
