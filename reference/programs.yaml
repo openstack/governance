@@ -124,6 +124,7 @@ Orchestration:
     - repo: openstack/heat-specs
     - repo: openstack/heat-templates
     - repo: openstack-dev/heat-cfnclient
+    - repo: openstack/heat-translator
 
 Database Service:
   codename: Trove
