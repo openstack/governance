@@ -140,6 +140,7 @@ Database Service:
       integrated-since: icehouse
     - repo: openstack/python-troveclient
     - repo: openstack/trove-integration
+    - repo: openstack/trove-specs
 
 Bare metal:
   codename: Ironic
