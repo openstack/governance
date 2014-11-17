@@ -169,6 +169,7 @@ Common Libraries:
     - repo: openstack/cliff
     - repo: openstack/oslo.concurrency
     - repo: openstack/oslo.config
+    - repo: openstack/oslo.context
     - repo: openstack/oslo.db
     - repo: openstack/oslo.i18n
     - repo: openstack/oslo-incubator
