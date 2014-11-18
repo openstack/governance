@@ -186,6 +186,7 @@ Common Libraries:
     - repo: openstack/pylockfile
     - repo: openstack/stevedore
     - repo: openstack/taskflow
+    - repo: openstack/tooz
     - repo: openstack-dev/cookiecutter
     - repo: openstack-dev/oslo-cookiecutter
     - repo: openstack-dev/hacking
