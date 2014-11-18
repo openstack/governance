@@ -25,7 +25,7 @@ Object Storage:
 
 Image Service:
   codename: Glance
-  ptl: Mark Washenberger (markwash)
+  ptl: Nikhil Komawar (nikhil_k)
   mission: >
     To provide a service where users can upload and discover data assets that
     are meant to be used with other services, like images for Nova and
@@ -40,7 +40,7 @@ Image Service:
 
 Identity:
   codename: Keystone
-  ptl: Dolph Mathews (dolphm)
+  ptl: Morgain Fainberg (morgainfainberg)
   mission: >
     To facilitate API client authentication, service discovery, distributed
     multi-tenant authorization, and auditing.
@@ -83,7 +83,7 @@ Networking:
 
 Block Storage:
   codename: Cinder
-  ptl: John Griffith (jgriffith)
+  ptl: Mike Perez (thingee)
   mission: >
     To implement services and libraries to provide on-demand, self-service
     access to Block Storage resources via abstraction and automation on top of
@@ -113,7 +113,7 @@ Telemetry:
 
 Orchestration:
   codename: Heat
-  ptl: Zane Bitter (zaneb)
+  ptl: Angus Salkeld (asalkeld)
   url: https://wiki.openstack.org/wiki/Heat
   projects:
     - repo: openstack/heat
@@ -289,7 +289,7 @@ Quality Assurance:
 
 Deployment:
   codename: TripleO
-  ptl: Robert Collins (lifeless)
+  ptl: Clint Byrum (SpamapS)
   mission: >
     Develop and maintain tooling and infrastructure able to deploy OpenStack in
     production, using OpenStack itself wherever possible.
@@ -356,7 +356,7 @@ Data processing service:
 
 Key management service:
   codename: Barbican
-  ptl: Jarret Raim (jraim)
+  ptl: Douglas Mendizabal (redrobot)
   mission: >
     To produce a secret storage and generation system capable of providing key
     management for services wishing to enable encryption features.
