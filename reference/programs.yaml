@@ -326,7 +326,7 @@ Release cycle management:
 
 Message service:
   codename: Zaqar
-  ptl: Kurt Griffiths (kgriffs)
+  ptl: Flavio Percoco (flaper87)
   mission: >
     To produce an OpenStack messaging service that affords a
     variety of distributed application patterns in an efficient,
