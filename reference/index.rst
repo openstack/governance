@@ -1,6 +1,6 @@
-==========================================
- OpenStack Technical Committee References
-==========================================
+=====================
+ Reference documents
+=====================
 
 Reference documents which need to be revised over time.
 
@@ -8,7 +8,6 @@ Reference documents which need to be revised over time.
    :maxdepth: 2
    :glob:
 
-   membership
    charter
    new-programs-requirements
    incubation-integration-requirements
