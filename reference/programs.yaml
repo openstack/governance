@@ -213,13 +213,13 @@ Infrastructure:
     - repo: openstack-infra/gerrit
     - repo: openstack-infra/gerritbot
     - repo: openstack-infra/gerritlib
-    - repo: openstack-infra/gerrit-powered-agenda
     - repo: openstack-infra/git-review
     - repo: openstack-infra/gitdm
     - repo: openstack-infra/groups
     - repo: openstack-infra/groups-static-pages
     - repo: openstack-infra/infra-manual
     - repo: openstack-infra/infra-specs
+    - repo: openstack-infra/irc-meetings
     - repo: openstack-infra/jeepyb
     - repo: openstack-infra/jenkins-job-builder
     - repo: openstack-infra/lodgeit
@@ -247,6 +247,7 @@ Infrastructure:
     - repo: openstack-infra/subunit2sql
     - repo: openstack-infra/system-config
     - repo: openstack-infra/tripleo-ci
+    - repo: openstack-infra/yaml2ical
     - repo: openstack-infra/zmq-event-publisher
     - repo: openstack-infra/zuul
     - repo: openstack-infra/zuul-packaging
