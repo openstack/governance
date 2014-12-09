@@ -191,7 +191,6 @@ Common Libraries:
     - repo: openstack/tooz
     - repo: openstack-dev/cookiecutter
     - repo: openstack-dev/oslo-cookiecutter
-    - repo: openstack-dev/hacking
     - repo: openstack-dev/pbr
 
 Infrastructure:
@@ -289,6 +288,7 @@ Quality Assurance:
     - repo: openstack-dev/grenade
     - repo: openstack/qa-specs
     - repo: openstack-dev/devstack
+    - repo: openstack-dev/hacking
 
 Deployment:
   codename: TripleO
