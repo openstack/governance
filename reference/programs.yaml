@@ -79,7 +79,10 @@ Networking:
     - repo: openstack/neutron
       integrated-since: folsom
     - repo: openstack/python-neutronclient
+    - repo: openstack/neutron-fwaas
+    - repo: openstack/neutron-lbaas
     - repo: openstack/neutron-specs
+    - repo: openstack/neutron-vpnaas
 
 Block Storage:
   codename: Cinder
