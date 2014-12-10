@@ -371,6 +371,7 @@ Key management service:
     - repo: openstack/barbican
       incubated-since: juno
     - repo: openstack/barbican-specs
+    - repo: openstack/castellan
     - repo: openstack/python-barbicanclient
     - repo: openstack/kite
     - repo: openstack/python-kiteclient
