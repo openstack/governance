@@ -171,23 +171,23 @@ Common Libraries:
   url: https://wiki.openstack.org/wiki/Oslo
   projects:
     - repo: openstack/cliff
+    - repo: openstack/oslo-incubator
+    - repo: openstack/oslo-specs
     - repo: openstack/oslo.concurrency
     - repo: openstack/oslo.config
     - repo: openstack/oslo.context
     - repo: openstack/oslo.db
     - repo: openstack/oslo.i18n
-    - repo: openstack/oslo-incubator
     - repo: openstack/oslo.log
     - repo: openstack/oslo.messaging
     - repo: openstack/oslo.middleware
     - repo: openstack/oslo.rootwrap
     - repo: openstack/oslo.serialization
-    - repo: openstack/oslo-specs
-    - repo: openstack/oslosphinx
-    - repo: openstack/oslotest
     - repo: openstack/oslo.utils
     - repo: openstack/oslo.version
     - repo: openstack/oslo.vmware
+    - repo: openstack/oslosphinx
+    - repo: openstack/oslotest
     - repo: openstack/pylockfile
     - repo: openstack/stevedore
     - repo: openstack/taskflow
