@@ -181,6 +181,7 @@ Common Libraries:
     - repo: openstack/oslo.log
     - repo: openstack/oslo.messaging
     - repo: openstack/oslo.middleware
+    - repo: openstack/oslo.policy
     - repo: openstack/oslo.rootwrap
     - repo: openstack/oslo.serialization
     - repo: openstack/oslo.utils
