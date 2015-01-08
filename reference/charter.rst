@@ -6,40 +6,38 @@ Mission
 =======
 
 The Technical Committee ("TC") is tasked with providing the technical
-leadership for OpenStack as a whole (all official programs, as defined below).
+leadership for OpenStack as a whole (all official projects, as defined below).
 It enforces OpenStack ideals (Openness, Transparency, Commonality, Integration,
-Quality...), decides on issues affecting multiple programs, forms an ultimate
-appeals board for technical decisions, and generally has oversight over all the
-OpenStack project.
+Quality...), decides on issues affecting multiple projects, forms an ultimate
+appeals board for technical decisions, and generally has technical oversight
+over all of OpenStack.
 
-OpenStack Programs
-==================
+OpenStack Project Teams
+=======================
 
-OpenStack "Programs" are efforts which are essential to the completion of the
-OpenStack project mission, which is ''to produce the ubiquitous Open Source
+OpenStack "Project Teams" are groups of people dedicated to the completion of
+the OpenStack project mission, which is ''to produce the ubiquitous Open Source
 Cloud Computing platform that will meet the needs of public and private clouds
 regardless of size, by being simple to implement and massively scalable''.
-Programs can create any code repository and produce any deliverable they deem
-necessary to achieve their goals.
+Project Teams may create any code repository and produce any deliverable they
+deem necessary to achieve their goals.
 
-Programs are placed under the oversight of the TC, and contributing to one of
-their code repositories grants you ATC status (see below). Current efforts or
-teams which want to be recognized as a Program should file a motion to the TC.
-The TC has ultimate authority over which programs are accepted or declined.
+The work of project teams is performed under the oversight of the TC.
+Contributing to one of their associated code repositories grants you ATC status
+(see below). The TC has ultimate authority over which project teams are
+designated as official OpenStack projects.
 
-The current, official list of programs can be found [[Programs|here]].
+Project Team Leads
+==================
 
-Program Leads
-=============
-
-Program leads ("PTLs") manage day-to-day operations, drive the program goals
-and resolve technical disputes within their program. Each program community
+Project Team leads ("PTLs") manage day-to-day operations, drive the team goals
+and resolve technical disputes within their team. Each team
 should be self-managing by the contributors, and all disputes should be
 resolved through active debate and discussion by the community itself. However
 if a given debate cannot be clearly resolved, the PTL can decide the outcome.
-Although the TC is generally not involved in program-internal decisions, it
-still has oversight over program-specific decisions, especially when they
-affect other programs or go contrary to general OpenStack project goals.
+Although the TC is generally not involved in team-internal decisions, it
+still has oversight over team decisions, especially when they
+affect other teams or go contrary to general OpenStack goals.
 
 TC Members
 ==========
@@ -100,22 +98,22 @@ Election for PTL seats
 ======================
 
 PTL seats are completely renewed every 6 months. A separate election is run for
-each program. These elections are collectively held 5 weeks prior to each
+each project team. These elections are collectively held 5 weeks prior to each
 design summit, with nominations due 6 weeks prior to the summit and elections
 held open for no less than five business days.
 
 Voters for PTL seats ("APC")
 ============================
 
-Voters for a given program PTL election are the active program contributors
+Voters for a given project's PTL election are the active project contributors
 ("APC"), which are a subset of the Foundation Individual Members. Individual
-Members who committed a change to a repository of a program over the last two
-6-month release cycles are considered APC for that program.
+Members who committed a change to a repository of a project over the last two
+6-month release cycles are considered APC for that project team.
 
 Candidates for PTL seats
 ========================
 
-Any APC can propose their candidacy for the corresponding program PTL election.
+Any APC can propose their candidacy for the corresponding project PTL election.
 Sitting PTLs are eligible to run for re-election each cycle, provided they
 continue to meet the criteria.
 
@@ -135,9 +133,9 @@ Voters for TC seats ("ATC")
 The TC seats are elected by the Active Technical Contributors ("ATC"), which
 are a subset of the Foundation Individual Members. Individual Members who
 committed a change to a repository under ''any'' of the official OpenStack
-programs (as defined above) over the last two 6-month release cycles are
+Project Teams (as defined above) over the last two 6-month release cycles are
 automatically considered ATC. Specific contributors who did not have a change
-recently accepted in one of the OpenStack programs but nevertheless feel their
+recently accepted in one of the OpenStack projects but nevertheless feel their
 contribution to the OpenStack project is technical in nature (bug triagers,
 technical documentation writers...) can exceptionally apply for ATC either by
 sending an email to the TC chair or by being nominated by an existing ATC via

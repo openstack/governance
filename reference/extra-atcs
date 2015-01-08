@@ -1,58 +1,58 @@
-# Program: Full name (email) [expires in]
-Dashboard: Jaromir Coufal (jcoufal@redhat.com) [September 2015]
-Dashboard: Liz Blanchard (lsurette@redhat.com) [September 2015]
-Identity: David Chadwick (d.w.chadwick@kent.ac.uk) [December 2015]
-Telemetry: Edouard Thuleau (edouard.thuleau@cloudwatt.com) [September 2015]
-Telemetry: Jordan Pittier (jordan.pittier@cloudwatt.com) [September 2015]
+# Project: Full name (email) [expires in]
+Horizon: Jaromir Coufal (jcoufal@redhat.com) [September 2015]
+Horizon: Liz Blanchard (lsurette@redhat.com) [September 2015]
+Keystone: David Chadwick (d.w.chadwick@kent.ac.uk) [December 2015]
+Ceilometer: Edouard Thuleau (edouard.thuleau@cloudwatt.com) [September 2015]
+Ceilometer: Jordan Pittier (jordan.pittier@cloudwatt.com) [September 2015]
 
 # Entries below here automatically generated based on co-authored-by
 
-# Compute program
-#     (Repos for Compute are openstack/nova, openstack/python-novaclient)
+# Nova project
+#     (Repos for Nova are openstack/nova, openstack/python-novaclient)
 
-Compute: Bogdan Teleaga (bteleaga@cloudbasesolutions.com) [September 2015]
+Nova: Bogdan Teleaga (bteleaga@cloudbasesolutions.com) [September 2015]
 #     Foundation profile: 20147
-Compute: Mouhammad-Nashwan Azhari (nmouhammad@cloudbasesolutions.com) [September 2015]
+Nova: Mouhammad-Nashwan Azhari (nmouhammad@cloudbasesolutions.com) [September 2015]
 #     Foundation profile: 20156
-Compute: Pablo Fernando Cargnelutti (pablo.fernando.cargnelutti@intel.com) [September 2015]
+Nova: Pablo Fernando Cargnelutti (pablo.fernando.cargnelutti@intel.com) [September 2015]
 #     Primary author in: openstack/ironic
-Compute: Fengqian Gao (fengqian.gao@intel.com) [September 2015]
+Nova: Fengqian Gao (fengqian.gao@intel.com) [September 2015]
 #     Primary author in: openstack/sahara, openstack/ceilometer, openstack/horizon, openstack/ironic, openstack/nova, openstack/zaqar
-Compute: Sushma Korati (sushma_korati@persistent.co.in) [September 2015]
+Nova: Sushma Korati (sushma_korati@persistent.co.in) [September 2015]
 #     Foundation profile: 5964
-Compute: Dmitry Tantsur (dtantsur@redhat.com) [September 2015]
+Nova: Dmitry Tantsur (dtantsur@redhat.com) [September 2015]
 #     Primary author in: openstack/horizon, openstack/ironic, openstack/python-ironicclient
-Compute: Maithem (munshedm@vmware.com) [September 2015]
+Nova: Maithem (munshedm@vmware.com) [September 2015]
 #     Primary author in: openstack/python-glanceclient, openstack/nova
-Compute: Ian Wells (iawells@cisco.com) [September 2015]
+Nova: Ian Wells (iawells@cisco.com) [September 2015]
 #     Primary author in: openstack/nova
-Compute: Shawn Hartsock (hartsocks@acm.org) [September 2015]
+Nova: Shawn Hartsock (hartsocks@acm.org) [September 2015]
 #     Foundation profile: 10853
-Compute: Cyril Roelandt (cyril.roelandt@enovance.com) [September 2015]
+Nova: Cyril Roelandt (cyril.roelandt@enovance.com) [September 2015]
 #     Primary author in: openstack/python-glanceclient, openstack/python-neutronclient, openstack/python-tuskarclient, openstack/python-saharaclient, openstack/api-site, openstack/ceilometer, openstack/python-ceilometerclient, openstack/python-keystoneclient, openstack/horizon, openstack/python-heatclient, openstack/nova, openstack/python-novaclient, openstack/trove, openstack/python-troveclient
-Compute: Ionut Balutoiu (ibalutoiu@cloudbasesolutions.com) [September 2015]
+Nova: Ionut Balutoiu (ibalutoiu@cloudbasesolutions.com) [September 2015]
 #     Foundation profile: 20081
-Compute: Ryan Moe (rmoe@mirantis.com) [September 2015]
+Nova: Ryan Moe (rmoe@mirantis.com) [September 2015]
 #     Foundation profile: 13294
-Compute: Lucas Alvares Gomes (lucasagomes@gmail.com) [September 2015]
+Nova: Lucas Alvares Gomes (lucasagomes@gmail.com) [September 2015]
 #     Primary author in: openstack/cinder, openstack/ironic, openstack/python-ironicclient, openstack/nova
-Compute: Navneet Kumar (navneetk@thoughtworks.com) [September 2015]
+Nova: Navneet Kumar (navneetk@thoughtworks.com) [September 2015]
 #     Primary author in: openstack/nova
-Compute: Zsolt Dudas (zdudas@cloudbasesolutions.com) [September 2015]
+Nova: Zsolt Dudas (zdudas@cloudbasesolutions.com) [September 2015]
 #     Foundation profile: 14692 or 16553 (both same employer referenced)
-Compute: Anuj Mathur (anujm@thoughtworks.com) [September 2015]
+Nova: Anuj Mathur (anujm@thoughtworks.com) [September 2015]
 #     Foundation profile: 9221
-Compute: Chenchong Qin (qinchenchong@gmail.com) [September 2015]
+Nova: Chenchong Qin (qinchenchong@gmail.com) [September 2015]
 #     Primary author in: openstack/zaqar
-Compute: Thomas Kaergel (kaergel@b1-systems.de) [September 2015]
+Nova: Thomas Kaergel (kaergel@b1-systems.de) [September 2015]
 #     Foundation profile: 19424
-Compute: Ryo Kurahashi (kurahashi-rxa@necst.nec.co.jp) [September 2015]
+Nova: Ryo Kurahashi (kurahashi-rxa@necst.nec.co.jp) [September 2015]
 #     Primary author in: openstack/ironic
-Compute: Adam Gandelman (adamg@ubuntu.com) [September 2015]
+Nova: Adam Gandelman (adamg@ubuntu.com) [September 2015]
 #     Primary author in: openstack/ironic, openstack/python-ironicclient
-Compute: Andres Buraschi (andres.buraschi@intel.com) [September 2015]
+Nova: Andres Buraschi (andres.buraschi@intel.com) [September 2015]
 #     Primary author in: openstack/python-neutronclient, openstack/horizon
-Compute: Claxton Correya (claxton@gmail.com) [September 2015]
+Nova: Claxton Correya (claxton@gmail.com) [September 2015]
 #     Primary author in: openstack/nova
 
 Documentation: Beth Cohen (beth.cohen@verizon.com) [September 2015]

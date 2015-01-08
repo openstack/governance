@@ -1,5 +1,4 @@
-Compute:
-  codename: Nova
+Nova:
   ptl: Michael Still (mikal)
   mission: >
     To implement services and associated libraries to provide massively
@@ -14,8 +13,7 @@ Compute:
     - repo: openstack/python-novaclient
     - repo: openstack/nova-specs
 
-Object Storage:
-  codename: Swift
+Swift:
   ptl: John Dickinson (notmyname)
   url: https://wiki.openstack.org/wiki/Swift
   projects:
@@ -27,8 +25,7 @@ Object Storage:
     - repo: openstack/swift-bench
     - repo: openstack/swift-specs
 
-Image Service:
-  codename: Glance
+Glance:
   ptl: Nikhil Komawar (nikhil_k)
   mission: >
     To provide a service where users can upload and discover data assets that
@@ -44,8 +41,7 @@ Image Service:
     - repo: openstack/python-glanceclient
     - repo: openstack/glance_store
 
-Identity:
-  codename: Keystone
+Keystone:
   ptl: Morgain Fainberg (morgainfainberg)
   mission: >
     To facilitate API client authentication, service discovery, distributed
@@ -63,8 +59,7 @@ Identity:
     - repo: openstack/python-keystoneclient-kerberos
     - repo: openstack/python-keystoneclient-federation
 
-Dashboard:
-  codename: Horizon
+Horizon:
   ptl: David Lyle (david-lyle)
   mission: >
     To provide an extensible unified web based user interface for all
@@ -78,8 +73,7 @@ Dashboard:
     - repo: openstack/django_openstack_auth
     - repo: openstack/tuskar-ui
 
-Networking:
-  codename: Neutron
+Neutron:
   ptl: Kyle Mestery (mestery)
   mission: >
     To implement services and associated libraries to provide on-demand,
@@ -105,8 +99,7 @@ Networking:
     - repo: openstack/neutron-specs
     - repo: openstack/python-neutronclient
 
-Block Storage:
-  codename: Cinder
+Cinder:
   ptl: Mike Perez (thingee)
   mission: >
     To implement services and libraries to provide on-demand, self-service
@@ -121,8 +114,7 @@ Block Storage:
     - repo: openstack/cinder-specs
     - repo: openstack/python-cinderclient
 
-Telemetry:
-  codename: Ceilometer
+Ceilometer:
   ptl : Eoghan Glynn (eglynn)
   url: https://wiki.openstack.org/wiki/Ceilometer
   mission: >
@@ -132,7 +124,6 @@ Telemetry:
     criteria are met.
   projects:
     - repo: openstack/ceilometer
-      incubated-since: grizzly
       tags:
         - name: integrated-release
           since: havana
@@ -140,13 +131,11 @@ Telemetry:
     - repo: openstack/python-ceilometerclient
     - repo: openstack/ceilometermiddleware
 
-Orchestration:
-  codename: Heat
+Heat:
   ptl: Angus Salkeld (asalkeld)
   url: https://wiki.openstack.org/wiki/Heat
   projects:
     - repo: openstack/heat
-      incubated-since: grizzly
       tags:
         - name: integrated-release
           since: havana
@@ -157,8 +146,7 @@ Orchestration:
     - repo: openstack-dev/heat-cfnclient
     - repo: openstack/heat-translator
 
-Database Service:
-  codename: Trove
+Trove:
   ptl: Nikhil Manchanda (SlickNik)
   mission: >
     To provide scalable and reliable Cloud Database as a Service functionality
@@ -167,7 +155,6 @@ Database Service:
   url: https://wiki.openstack.org/wiki/Trove
   projects:
     - repo: openstack/trove
-      incubated-since: havana
       tags:
         - name: integrated-release
           since: icehouse
@@ -175,8 +162,7 @@ Database Service:
     - repo: openstack/trove-integration
     - repo: openstack/trove-specs
 
-Bare metal:
-  codename: Ironic
+Ironic:
   ptl: Devananda van der Veen (devananda)
   mission: >
     To produce an OpenStack service and associated python libraries capable of
@@ -185,7 +171,6 @@ Bare metal:
   url: https://wiki.openstack.org/wiki/Ironic
   projects:
     - repo: openstack/ironic
-      incubated-since: havana
       tags:
         - name: integrated-release
           since: kilo
@@ -193,8 +178,7 @@ Bare metal:
     - repo: openstack/python-ironicclient
     - repo: openstack/ironic-python-agent
 
-Common Libraries:
-  codename: Oslo
+Oslo:
   ptl: Doug Hellmann (dhellmann)
   mission: >
     To produce a set of python libraries containing code shared by OpenStack
@@ -231,7 +215,6 @@ Common Libraries:
     - repo: openstack-dev/pbr
 
 Infrastructure:
-  codename: Infra
   ptl: James E. Blair (jeblair)
   url: https://wiki.openstack.org/wiki/Infrastructure
   mission: >
@@ -313,7 +296,6 @@ Documentation:
     - repo: openstack/volume-api
 
 Quality Assurance:
-  codename: QA
   ptl: Matthew Treinish (mtreinish)
   mission: >
     Develop, maintain, and initiate tools and plans to ensure the upstream
@@ -328,8 +310,7 @@ Quality Assurance:
     - repo: openstack-dev/devstack
     - repo: openstack-dev/hacking
 
-Deployment:
-  codename: TripleO
+TripleO:
   ptl: Clint Byrum (SpamapS)
   mission: >
     Develop and maintain tooling and infrastructure able to deploy OpenStack in
@@ -363,8 +344,7 @@ Release cycle management:
     - repo: openstack/requirements
     - repo: openstack-infra/release-tools
 
-Message service:
-  codename: Zaqar
+Zaqar:
   ptl: Flavio Percoco (flaper87)
   mission: >
     To produce an OpenStack messaging service that affords a
@@ -374,12 +354,10 @@ Message service:
   url: https://wiki.openstack.org/wiki/Zaqar
   projects:
     - repo: openstack/zaqar
-      incubated-since: icehouse
     - repo: openstack/zaqar-specs
     - repo: openstack/python-zaqarclient
 
-Data processing service:
-  codename: Sahara
+Sahara:
   ptl: Sergey Lukjanov (SergeyLukjanov)
   mission: >
     To provide a scalable data processing stack and associated management
@@ -387,7 +365,6 @@ Data processing service:
   url: https://wiki.openstack.org/wiki/Sahara
   projects:
     - repo: openstack/sahara
-      incubated-since: icehouse
       tags:
         - name: integrated-release
           since: juno
@@ -397,8 +374,7 @@ Data processing service:
     - repo: openstack/sahara-image-elements
     - repo: openstack/sahara-specs
 
-Key management service:
-  codename: Barbican
+Barbican:
   ptl: Douglas Mendizabal (redrobot)
   mission: >
     To produce a secret storage and generation system capable of providing key
@@ -406,15 +382,13 @@ Key management service:
   url: https://wiki.openstack.org/wiki/Barbican
   projects:
     - repo: openstack/barbican
-      incubated-since: juno
     - repo: openstack/barbican-specs
     - repo: openstack/castellan
     - repo: openstack/python-barbicanclient
     - repo: openstack/kite
     - repo: openstack/python-kiteclient
 
-DNS Services:
-  codename: Designate
+Designate:
   ptl: Kiall Mac Innes (kiall)
   mission: >
     To provide scalable, on demand, self service access to authoritative DNS
@@ -422,19 +396,16 @@ DNS Services:
   url: https://wiki.openstack.org/wiki/Designate
   projects:
     - repo: openstack/designate
-      incubated-since: juno
     - repo: openstack/designate-specs
     - repo: openstack/python-designateclient
 
-Shared File Systems:
-  codename: Manila
+Manila:
   ptl: Ben Swartzlander (bswartz)
   mission: >
     To provide a set of services for management of shared file systems
     in a multitenant cloud environment, similar to how OpenStack provides
-    for block-based storage management through the Block Storage program.
+    for block-based storage management through the Cinder project.
   url: https://wiki.openstack.org/wiki/Manila
   projects:
     - repo: openstack/manila
-      incubated-since: juno
     - repo: openstack/python-manilaclient

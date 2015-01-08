@@ -8,8 +8,8 @@ Reference documents which need to be revised over time.
    :maxdepth: 2
 
    charter
-   new-programs-requirements
-   incubation-integration-requirements
+   new-projects-requirements
    project-testing-interface
    tags/index
    Template for new tags <tag-template>
+   Requirements for previously-used incubation/integration process <incubation-integration-requirements>
