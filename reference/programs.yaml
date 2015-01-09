@@ -171,6 +171,7 @@ Common Libraries:
   url: https://wiki.openstack.org/wiki/Oslo
   projects:
     - repo: openstack/cliff
+    - repo: openstack/debtcollector
     - repo: openstack/oslo-incubator
     - repo: openstack/oslo-specs
     - repo: openstack/oslo.concurrency
