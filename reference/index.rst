@@ -11,4 +11,5 @@ Reference documents which need to be revised over time.
    new-programs-requirements
    incubation-integration-requirements
    project-testing-interface
+   tags/index
    Template for new tags <tag-template>
