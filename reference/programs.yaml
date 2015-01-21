@@ -113,6 +113,7 @@ Telemetry:
       integrated-since: havana
     - repo: openstack/ceilometer-specs
     - repo: openstack/python-ceilometerclient
+    - repo: openstack/ceilometermiddleware
 
 Orchestration:
   codename: Heat
