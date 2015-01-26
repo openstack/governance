@@ -49,6 +49,17 @@ removed when the deconstruction of the "integrated release" concept will
 have been completed.
 
 
+Attributes
+==========
+
+since
+-----
+
+This attribute describes the development cycle where the project was first
+fully integrated (and therefore the first release name where the project was
+included). Example values: folsom, kilo
+
+
 Application to current projects
 ===============================
 

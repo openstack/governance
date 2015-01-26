@@ -70,6 +70,19 @@ only until a certain announced date). If the proposed tag has a deprecation
 period, its duration (and any other specific rules) should be listed here.
 
 
+Attributes
+==========
+
+Tags may have attributes which provide extra information. Those attributes
+(and their values) should be described in this section.
+
+example-attribute
+-----------------
+
+Description of the example-attribute tag attribute, and of the values it may
+take.
+
+
 Application to current projects
 ===============================
 
