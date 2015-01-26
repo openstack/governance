@@ -8,7 +8,9 @@ Compute:
   url: https://wiki.openstack.org/wiki/Nova
   projects:
     - repo: openstack/nova
-      integrated-since: austin
+      tags:
+        - name: integrated-release
+          since: austin
     - repo: openstack/python-novaclient
     - repo: openstack/nova-specs
 
@@ -18,7 +20,9 @@ Object Storage:
   url: https://wiki.openstack.org/wiki/Swift
   projects:
     - repo: openstack/swift
-      integrated-since: austin
+      tags:
+        - name: integrated-release
+          since: austin
     - repo: openstack/python-swiftclient
     - repo: openstack/swift-bench
     - repo: openstack/swift-specs
@@ -33,7 +37,9 @@ Image Service:
   url: https://wiki.openstack.org/wiki/Glance
   projects:
     - repo: openstack/glance
-      integrated-since: bexar
+      tags:
+        - name: integrated-release
+          since: bexar
     - repo: openstack/glance-specs
     - repo: openstack/python-glanceclient
     - repo: openstack/glance_store
@@ -47,7 +53,9 @@ Identity:
   url: https://wiki.openstack.org/wiki/Keystone
   projects:
     - repo: openstack/keystone
-      integrated-since: essex
+      tags:
+        - name: integrated-release
+          since: essex
     - repo: openstack/keystone-specs
     - repo: openstack/python-keystoneclient
     - repo: openstack/keystonemiddleware
@@ -64,7 +72,9 @@ Dashboard:
   url: https://wiki.openstack.org/wiki/Horizon
   projects:
     - repo: openstack/horizon
-      integrated-since: essex
+      tags:
+        - name: integrated-release
+          since: essex
     - repo: openstack/django_openstack_auth
     - repo: openstack/tuskar-ui
 
@@ -77,12 +87,23 @@ Networking:
   url: https://wiki.openstack.org/wiki/Neutron
   projects:
     - repo: openstack/neutron
-      integrated-since: folsom
-    - repo: openstack/python-neutronclient
+      tags:
+        - name: integrated-release
+          since: folsom
     - repo: openstack/neutron-fwaas
+      tags:
+        - name: integrated-release
+          since: kilo
     - repo: openstack/neutron-lbaas
-    - repo: openstack/neutron-specs
+      tags:
+        - name: integrated-release
+          since: kilo
     - repo: openstack/neutron-vpnaas
+      tags:
+        - name: integrated-release
+          since: kilo
+    - repo: openstack/neutron-specs
+    - repo: openstack/python-neutronclient
 
 Block Storage:
   codename: Cinder
@@ -94,7 +115,9 @@ Block Storage:
   url: https://wiki.openstack.org/wiki/Cinder
   projects:
     - repo: openstack/cinder
-      integrated-since: folsom
+      tags:
+        - name: integrated-release
+          since: folsom
     - repo: openstack/cinder-specs
     - repo: openstack/python-cinderclient
 
@@ -110,7 +133,9 @@ Telemetry:
   projects:
     - repo: openstack/ceilometer
       incubated-since: grizzly
-      integrated-since: havana
+      tags:
+        - name: integrated-release
+          since: havana
     - repo: openstack/ceilometer-specs
     - repo: openstack/python-ceilometerclient
     - repo: openstack/ceilometermiddleware
@@ -122,7 +147,9 @@ Orchestration:
   projects:
     - repo: openstack/heat
       incubated-since: grizzly
-      integrated-since: havana
+      tags:
+        - name: integrated-release
+          since: havana
     - repo: openstack/python-heatclient
     - repo: openstack/heat-cfntools
     - repo: openstack/heat-specs
@@ -141,7 +168,9 @@ Database Service:
   projects:
     - repo: openstack/trove
       incubated-since: havana
-      integrated-since: icehouse
+      tags:
+        - name: integrated-release
+          since: icehouse
     - repo: openstack/python-troveclient
     - repo: openstack/trove-integration
     - repo: openstack/trove-specs
@@ -157,7 +186,9 @@ Bare metal:
   projects:
     - repo: openstack/ironic
       incubated-since: havana
-      integrated-since: kilo
+      tags:
+        - name: integrated-release
+          since: kilo
     - repo: openstack/ironic-specs
     - repo: openstack/python-ironicclient
     - repo: openstack/ironic-python-agent
@@ -357,7 +388,9 @@ Data processing service:
   projects:
     - repo: openstack/sahara
       incubated-since: icehouse
-      integrated-since: juno
+      tags:
+        - name: integrated-release
+          since: juno
     - repo: openstack/python-saharaclient
     - repo: openstack/sahara-dashboard
     - repo: openstack/sahara-extra
