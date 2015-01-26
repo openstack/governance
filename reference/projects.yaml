@@ -1,5 +1,6 @@
 Nova:
   ptl: Michael Still (mikal)
+  service: Compute
   mission: >
     To implement services and associated libraries to provide massively
     scalable, on demand, self service access to compute resources, including
@@ -15,6 +16,7 @@ Nova:
 
 Swift:
   ptl: John Dickinson (notmyname)
+  service: Object Storage
   url: https://wiki.openstack.org/wiki/Swift
   projects:
     - repo: openstack/swift
@@ -27,6 +29,7 @@ Swift:
 
 Glance:
   ptl: Nikhil Komawar (nikhil_k)
+  service: Image service
   mission: >
     To provide a service where users can upload and discover data assets that
     are meant to be used with other services, like images for Nova and
@@ -43,6 +46,7 @@ Glance:
 
 Keystone:
   ptl: Morgain Fainberg (morgainfainberg)
+  service: Identity
   mission: >
     To facilitate API client authentication, service discovery, distributed
     multi-tenant authorization, and auditing.
@@ -61,6 +65,7 @@ Keystone:
 
 Horizon:
   ptl: David Lyle (david-lyle)
+  service: Dashboard
   mission: >
     To provide an extensible unified web based user interface for all
     integrated OpenStack services.
@@ -75,6 +80,7 @@ Horizon:
 
 Neutron:
   ptl: Kyle Mestery (mestery)
+  service: Networking
   mission: >
     To implement services and associated libraries to provide on-demand,
     scalable, and technology-agnostic network abstraction.
@@ -101,6 +107,7 @@ Neutron:
 
 Cinder:
   ptl: Mike Perez (thingee)
+  service: Block Storage
   mission: >
     To implement services and libraries to provide on-demand, self-service
     access to Block Storage resources via abstraction and automation on top of
@@ -116,6 +123,7 @@ Cinder:
 
 Ceilometer:
   ptl : Eoghan Glynn (eglynn)
+  service: Telemetry
   url: https://wiki.openstack.org/wiki/Ceilometer
   mission: >
     To reliably collect measurements of the utilization of the physical and
@@ -133,6 +141,7 @@ Ceilometer:
 
 Heat:
   ptl: Angus Salkeld (asalkeld)
+  service: Orchestration
   url: https://wiki.openstack.org/wiki/Heat
   projects:
     - repo: openstack/heat
@@ -148,6 +157,7 @@ Heat:
 
 Trove:
   ptl: Nikhil Manchanda (SlickNik)
+  service: Database service
   mission: >
     To provide scalable and reliable Cloud Database as a Service functionality
     for both relational and non-relational database engines, and to continue to
@@ -164,6 +174,7 @@ Trove:
 
 Ironic:
   ptl: Devananda van der Veen (devananda)
+  service: Bare metal service
   mission: >
     To produce an OpenStack service and associated python libraries capable of
     managing and provisioning physical machines, and to do this in a
@@ -180,6 +191,7 @@ Ironic:
 
 Oslo:
   ptl: Doug Hellmann (dhellmann)
+  service: Common libraries
   mission: >
     To produce a set of python libraries containing code shared by OpenStack
     projects. The APIs provided by these libraries should be high quality,
@@ -312,6 +324,7 @@ Quality Assurance:
 
 TripleO:
   ptl: Clint Byrum (SpamapS)
+  service: Deployment
   mission: >
     Develop and maintain tooling and infrastructure able to deploy OpenStack in
     production, using OpenStack itself wherever possible.
@@ -346,6 +359,7 @@ Release cycle management:
 
 Zaqar:
   ptl: Flavio Percoco (flaper87)
+  service: Message service
   mission: >
     To produce an OpenStack messaging service that affords a
     variety of distributed application patterns in an efficient,
@@ -359,6 +373,7 @@ Zaqar:
 
 Sahara:
   ptl: Sergey Lukjanov (SergeyLukjanov)
+  service: Data processing service
   mission: >
     To provide a scalable data processing stack and associated management
     interfaces.
@@ -376,6 +391,7 @@ Sahara:
 
 Barbican:
   ptl: Douglas Mendizabal (redrobot)
+  service: Key management service
   mission: >
     To produce a secret storage and generation system capable of providing key
     management for services wishing to enable encryption features.
@@ -390,6 +406,7 @@ Barbican:
 
 Designate:
   ptl: Kiall Mac Innes (kiall)
+  service: DNS service
   mission: >
     To provide scalable, on demand, self service access to authoritative DNS
     services, in technology-agnostic manner.
@@ -401,6 +418,7 @@ Designate:
 
 Manila:
   ptl: Ben Swartzlander (bswartz)
+  service: Shared file systems
   mission: >
     To provide a set of services for management of shared file systems
     in a multitenant cloud environment, similar to how OpenStack provides
