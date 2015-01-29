@@ -233,8 +233,8 @@ Infrastructure:
     - repo: openstack-infra/gerrit
     - repo: openstack-infra/gerritbot
     - repo: openstack-infra/gerritlib
-    - repo: openstack-infra/git-review
     - repo: openstack-infra/gitdm
+    - repo: openstack-infra/git-review
     - repo: openstack-infra/groups
     - repo: openstack-infra/groups-static-pages
     - repo: openstack-infra/infra-manual
@@ -248,16 +248,73 @@ Infrastructure:
     - repo: openstack-infra/nose-html-output
     - repo: openstack-infra/odsreg
     - repo: openstack-infra/openstackid
+    - repo: openstack-infra/openstackweb
     - repo: openstack-infra/os-loganalyze
     - repo: openstack-infra/project-config
     - repo: openstack-infra/publications
+    - repo: openstack-infra/puppet-accessbot
+    - repo: openstack-infra/puppet-ansible
     - repo: openstack-infra/puppet-apparmor
+    - repo: openstack-infra/puppet-askbot
+    - repo: openstack-infra/puppet-asterisk
+    - repo: openstack-infra/puppet-bugdaystats
+    - repo: openstack-infra/puppet-bup
+    - repo: openstack-infra/puppet-cgit
     - repo: openstack-infra/puppet-dashboard
+    - repo: openstack-infra/puppet-drupal
+    - repo: openstack-infra/puppet-elastic_recheck
+    - repo: openstack-infra/puppet-elasticsearch
+    - repo: openstack-infra/puppet-etherpad_lite
+    - repo: openstack-infra/puppet-exim
+    - repo: openstack-infra/puppet-gerrit
+    - repo: openstack-infra/puppet-gerritbot
+    - repo: openstack-infra/puppet-github
+    - repo: openstack-infra/puppet-graphite
+    - repo: openstack-infra/puppet-haveged
+    - repo: openstack-infra/puppet-httpd
+    - repo: openstack-infra/puppet-iptables
+    - repo: openstack-infra/puppet-jeepyb
+    - repo: openstack-infra/puppet-jenkins
+    - repo: openstack-infra/puppet-kerberos
+    - repo: openstack-infra/puppet-kibana
+    - repo: openstack-infra/puppet-lodgeit
+    - repo: openstack-infra/puppet-log_processor
+    - repo: openstack-infra/puppet-logrotate
+    - repo: openstack-infra/puppet-logstash
+    - repo: openstack-infra/puppet-mailman
+    - repo: openstack-infra/puppet-mediawiki
+    - repo: openstack-infra/puppet-meetbot
+    - repo: openstack-infra/puppet-mysql_backup
+    - repo: openstack-infra/puppet-nodepool
+    - repo: openstack-infra/puppet-openafs
+    - repo: openstack-infra/puppet-openstackid
+    - repo: openstack-infra/puppet-packagekit
+    - repo: openstack-infra/puppet-pip
+    - repo: openstack-infra/puppet-planet
+    - repo: openstack-infra/puppet-project_config
+    - repo: openstack-infra/puppet-redis
+    - repo: openstack-infra/puppet-releasestatus
+    - repo: openstack-infra/puppet-reviewday
+    - repo: openstack-infra/puppet-simpleproxy
+    - repo: openstack-infra/puppet-snmpd
+    - repo: openstack-infra/puppet-ssh
+    - repo: openstack-infra/puppet-ssl_cert_check
+    - repo: openstack-infra/puppet-statusbot
     - repo: openstack-infra/puppet-storyboard
+    - repo: openstack-infra/puppet-subunit2sql
+    - repo: openstack-infra/puppet-sudoers
+    - repo: openstack-infra/puppet-tmpreaper
+    - repo: openstack-infra/puppet-ulimit
+    - repo: openstack-infra/puppet-unattended_upgrades
+    - repo: openstack-infra/puppet-unbound
+    - repo: openstack-infra/puppet-user
     - repo: openstack-infra/puppet-vcsrepo
+    - repo: openstack-infra/puppet-vinz
     - repo: openstack-infra/puppet-yum
+    - repo: openstack-infra/puppet-zanata
     - repo: openstack-infra/puppet-zuul
     - repo: openstack-infra/pypi-mirror
+    - repo: openstack-infra/python-storyboardclient
     - repo: openstack-infra/releasestatus
     - repo: openstack-infra/reviewday
     - repo: openstack-infra/reviewstats
