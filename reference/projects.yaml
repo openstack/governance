@@ -261,6 +261,7 @@ Infrastructure:
     - repo: openstack-infra/releasestatus
     - repo: openstack-infra/reviewday
     - repo: openstack-infra/reviewstats
+    - repo: openstack-infra/shade
     - repo: openstack-infra/statusbot
     - repo: openstack-infra/storyboard
     - repo: openstack-infra/storyboard-webclient
