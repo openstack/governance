@@ -349,6 +349,7 @@ Documentation:
     - repo: openstack/object-api
     - repo: openstack/openstack-doc-tools
     - repo: openstack/openstack-manuals
+    - repo: openstack/openstackdocstheme
     - repo: openstack/operations-guide
     - repo: openstack/security-doc
     - repo: openstack/training-guides
