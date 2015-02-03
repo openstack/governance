@@ -38,7 +38,8 @@ When considering new projects for addition, the TC will check that:
       cross-project teams in OpenStack
     * Where it makes sense, the project cooperates with existing projects
       rather than gratuitously competing or reinventing the wheel
-    * Project should use oslo libraries or oslo-incubator where appropriate
+    * Where appropriate, the project adopts technology and patterns
+      used by existing OpenStack projects
 
   * Open Design:
 
