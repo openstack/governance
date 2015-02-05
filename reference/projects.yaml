@@ -45,7 +45,7 @@ Glance:
     - repo: openstack/glance_store
 
 Keystone:
-  ptl: Morgain Fainberg (morgainfainberg)
+  ptl: Morgan Fainberg (morganfainberg)
   service: Identity
   mission: >
     To facilitate API client authentication, service discovery, distributed
