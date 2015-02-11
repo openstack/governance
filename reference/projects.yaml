@@ -214,7 +214,6 @@ Oslo:
     - repo: openstack/oslo.rootwrap
     - repo: openstack/oslo.serialization
     - repo: openstack/oslo.utils
-    - repo: openstack/oslo.version
     - repo: openstack/oslo.versionedobjects
     - repo: openstack/oslo.vmware
     - repo: openstack/oslosphinx
