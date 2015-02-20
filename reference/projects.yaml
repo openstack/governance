@@ -188,6 +188,7 @@ Ironic:
     - repo: openstack/ironic-specs
     - repo: openstack/python-ironicclient
     - repo: openstack/ironic-python-agent
+    - repo: openstack/ironic-lib
 
 Oslo:
   ptl: Doug Hellmann (dhellmann)
