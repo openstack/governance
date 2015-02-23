@@ -228,7 +228,7 @@ Oslo:
 
 Infrastructure:
   ptl: James E. Blair (jeblair)
-  url: https://wiki.openstack.org/wiki/Infrastructure
+  url: http://ci.openstack.org/
   mission: >
     Develop and maintain the tooling and infrastructure needed to support the
     development process and general operation of the OpenStack project.
