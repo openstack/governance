@@ -396,6 +396,7 @@ TripleO:
     - repo: openstack/tripleo-specs
     - repo: openstack/tuskar
     - repo: openstack/python-tuskarclient
+    - repo: openstack/dib-utils
 
 Release cycle management:
   ptl: Thierry Carrez (ttx)
