@@ -377,7 +377,7 @@ Quality Assurance:
     - repo: openstack-dev/hacking
 
 TripleO:
-  ptl: Clint Byrum (SpamapS)
+  ptl: James Slagle (slagle)
   service: Deployment
   mission: >
     Develop and maintain tooling and infrastructure able to deploy OpenStack in
