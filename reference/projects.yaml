@@ -120,6 +120,7 @@ Cinder:
           since: folsom
     - repo: openstack/cinder-specs
     - repo: openstack/python-cinderclient
+    - repo: openstack/os-brick
 
 Ceilometer:
   ptl : Eoghan Glynn (eglynn)
