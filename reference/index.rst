@@ -10,6 +10,7 @@ Reference documents which need to be revised over time.
    charter
    new-projects-requirements
    project-testing-interface
+   irc
    release-naming
    tags/index
    Template for new tags <tag-template>
