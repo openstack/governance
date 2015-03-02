@@ -199,7 +199,6 @@ Oslo:
     stable, consistent, documented and generally applicable.
   url: https://wiki.openstack.org/wiki/Oslo
   projects:
-    - repo: openstack/cliff
     - repo: openstack/debtcollector
     - repo: openstack/oslo-incubator
     - repo: openstack/oslo-specs
@@ -481,3 +480,15 @@ Manila:
   projects:
     - repo: openstack/manila
     - repo: openstack/python-manilaclient
+
+OpenStackClient:
+  ptl: Dean Troyer (dtroyer)
+  service: command line client
+  mission: >
+    Provide a single command line interface for OpenStack services with a
+    uniform command set and format.
+  url: https://wiki.openstack.org/wiki/OpenStackClient
+  projects:
+    - repo: openstack/python-openstackclient
+    - repo: openstack/cliff
+    - repo: stackforge/os-client-config
