@@ -144,6 +144,9 @@ Heat:
   ptl: Angus Salkeld (asalkeld)
   service: Orchestration
   url: https://wiki.openstack.org/wiki/Heat
+  mission: >
+    To orchestrate composite cloud applications using a declarative
+    template format through an OpenStack-native ReST API.
   projects:
     - repo: openstack/heat
       tags:
