@@ -5,9 +5,10 @@
 Reference documents which need to be revised over time.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    charter
+   projects/index
    new-projects-requirements
    project-testing-interface
    release-naming

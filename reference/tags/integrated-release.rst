@@ -4,6 +4,8 @@
   Unported License.
   http://creativecommons.org/licenses/by/3.0/legalcode
 
+.. _tag-integrated-release:
+
 ==================
 integrated-release
 ==================
@@ -67,18 +69,4 @@ The following code repositories would get the proposed tag. Those match the
 contents of the Kilo release as decided at the end of the Juno cycle, and
 take into account the recent Neutron advanced services code split:
 
-* openstack/nova
-* openstack/swift
-* openstack/glance
-* openstack/keystone
-* openstack/horizon
-* openstack/neutron
-* openstack/neutron-fwaas
-* openstack/neutron-lbaas
-* openstack/neutron-vpnaas
-* openstack/cinder
-* openstack/ceilometer
-* openstack/heat
-* openstack/trove
-* openstack/ironic
-* openstack/sahara
+.. tagged-projects:: integrated-release
