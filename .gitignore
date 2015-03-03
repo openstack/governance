@@ -3,3 +3,4 @@ doc/build
 *.egg-info
 pbr*.egg
 reference/projects/*.rst
+*.pyc
