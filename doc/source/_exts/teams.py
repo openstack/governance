@@ -51,6 +51,8 @@ def _team_to_rst(name, info):
             tag_references = ''
         yield '- :repo:`%s` %s' % (project['repo'], tag_references)
     yield ''
+    yield '.. extraatcstable:: :ref:`Extra ATCs <atc>`'
+    yield '   :project: %s' % name
     yield ''
 
 

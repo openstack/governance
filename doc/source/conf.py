@@ -29,6 +29,7 @@ sys.path.insert(0, os.path.join(os.path.abspath('.'), '_exts'))
 extensions = [
     'sphinx.ext.extlinks',
     'oslosphinx',
+    'atcs',
     'members',
     'projects',
     'teams',
