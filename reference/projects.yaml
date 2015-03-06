@@ -139,6 +139,7 @@ Ceilometer:
     - repo: openstack/ceilometer-specs
     - repo: openstack/python-ceilometerclient
     - repo: openstack/ceilometermiddleware
+    - repo: openstack/gnocchi
 
 Heat:
   ptl: Angus Salkeld (asalkeld)
