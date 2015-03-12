@@ -16,7 +16,6 @@ End results needed
 
 Each python project must be able to do:
 
- - Unit tests for python2.6
  - Unit tests for python2.7
  - Codestyle checks
  - Testing Coverage Report
@@ -24,12 +23,15 @@ Each python project must be able to do:
  - Translations import/export and merge for translated projects
  - Documentation generation
 
+Projects which are compatible with Python 3 must also be able to do:
+
+ - Unit tests for python3.4
+
 Specific commands
 -----------------
 
 To drive the above tasks, the following commands should be supported in a clean tree:
 
- - tox -epy26
  - tox -epy27
  - tox -epep8
  - tox -ecover
@@ -40,6 +42,10 @@ Projects that are translated should also support:
 
  - tox -evenv python setup.py extract_messages
  - tox -evenv python setup.py update_catalog
+
+Projects which are compatible with Python 3 must also be able to do:
+
+ - tox -epy34
 
 Requirements Listing
 --------------------
