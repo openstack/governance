@@ -2,7 +2,7 @@
 Consistent Testing Interface
 ============================
 
-OpenStack has a lot of projects. For each project, the OpenStack Jenkins
+OpenStack has a lot of projects. For each project, the OpenStack CI system
 needs to be able to perform a lot of tasks. If each project has a slightly
 different way to accomplish those tasks, it makes the management of a
 consistent testing infrastructure very difficult to deal with. Additionally,
