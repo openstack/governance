@@ -193,6 +193,7 @@ Ironic:
     - repo: openstack/python-ironicclient
     - repo: openstack/ironic-python-agent
     - repo: openstack/ironic-lib
+    - repo: openstack/coreos-image-builder
 
 Oslo:
   ptl: Doug Hellmann (dhellmann)
