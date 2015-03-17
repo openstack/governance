@@ -6,3 +6,6 @@
    :maxdepth: 1
 
    integrated-release
+   release_independent
+   release_at-6mo-cycle-end
+   release_managed
