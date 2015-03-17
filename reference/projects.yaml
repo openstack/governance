@@ -501,3 +501,15 @@ OpenStackClient:
     - repo: openstack/python-openstackclient
     - repo: openstack/cliff
     - repo: stackforge/os-client-config
+
+Congress:
+  ptl: Tim Hinrichs (thinrichs)
+  service: Non-domain specific policy enforcement
+  mission: >
+    To provide policy as a service across any collection of cloud services in
+     order to offer governance and compliance for dynamic infrastructures.
+  url: https://wiki.openstack.org/wiki/Congress
+  projects:
+    - repo: openstack/congress
+    - repo: openstack/python-congressclient
+    - repo: openstack/congress-specs
