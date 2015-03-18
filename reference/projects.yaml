@@ -240,6 +240,7 @@ Infrastructure:
     - repo: openstack-dev/openstack-nose
     - repo: openstack-infra/activity-board
     - repo: openstack-infra/askbot-theme
+    - repo: openstack-infra/bindep
     - repo: openstack-infra/bugdaystats
     - repo: openstack-infra/devstack-gate
     - repo: openstack-infra/elastic-recheck
