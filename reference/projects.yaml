@@ -378,6 +378,7 @@ Quality Assurance:
     - repo: openstack-dev/grenade
     - repo: openstack/qa-specs
     - repo: openstack-dev/devstack
+    - repo: openstack-dev/devstack-plugin-cookiecutter
     - repo: openstack-dev/hacking
 
 TripleO:
