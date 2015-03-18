@@ -304,6 +304,7 @@ Infrastructure:
     - repo: openstack-infra/puppet-mysql_backup
     - repo: openstack-infra/puppet-nodepool
     - repo: openstack-infra/puppet-openafs
+    - repo: openstack-infra/puppet-openstackci
     - repo: openstack-infra/puppet-openstackid
     - repo: openstack-infra/puppet-packagekit
     - repo: openstack-infra/puppet-pip
