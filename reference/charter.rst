@@ -127,6 +127,8 @@ multiple-winner election system (see below). The election is held 3 weeks prior
 to each design summit, with nominations due 4 weeks prior to the summit and
 elections held open for no less than five business days.
 
+.. _atc:
+
 Voters for TC seats ("ATC")
 ===========================
 
