@@ -598,6 +598,9 @@ TripleO:
     - repo: openstack/os-refresh-config
       tags:
         - name: release:independent
+    - repo: openstack/tripleo-common
+      tags:
+        - name: release:independent
     - repo: openstack/tripleo-heat-templates
       tags:
         - name: release:independent
