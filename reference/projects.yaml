@@ -240,6 +240,7 @@ Infrastructure:
   projects:
     - repo: openstack-dev/openstack-nose
     - repo: openstack-infra/activity-board
+    - repo: openstack-infra/ansible-puppet
     - repo: openstack-infra/askbot-theme
     - repo: openstack-infra/bindep
     - repo: openstack-infra/bugdaystats
