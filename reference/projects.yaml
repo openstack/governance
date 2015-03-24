@@ -207,6 +207,7 @@ Oslo:
     - repo: openstack/debtcollector
     - repo: openstack/oslo-incubator
     - repo: openstack/oslo-specs
+    - repo: openstack/oslo.cache
     - repo: openstack/oslo.concurrency
     - repo: openstack/oslo.config
     - repo: openstack/oslo.context
