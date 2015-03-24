@@ -313,6 +313,7 @@ Infrastructure:
     - repo: openstack-infra/puppet-pip
     - repo: openstack-infra/puppet-planet
     - repo: openstack-infra/puppet-project_config
+    - repo: openstack-infra/puppet-puppet
     - repo: openstack-infra/puppet-redis
     - repo: openstack-infra/puppet-releasestatus
     - repo: openstack-infra/puppet-reviewday
