@@ -274,6 +274,7 @@ Infrastructure:
     - repo: openstack-infra/puppet-apparmor
     - repo: openstack-infra/puppet-askbot
     - repo: openstack-infra/puppet-asterisk
+    - repo: openstack-infra/puppet-bandersnatch
     - repo: openstack-infra/puppet-bugdaystats
     - repo: openstack-infra/puppet-bup
     - repo: openstack-infra/puppet-cgit
