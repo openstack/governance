@@ -4,6 +4,8 @@
   Unported License.
   http://creativecommons.org/licenses/by/3.0/legalcode
 
+.. _`tag-release:managed`:
+
 ===============
 release:managed
 ===============
@@ -63,5 +65,4 @@ Tags in the "release" category do not use attributes.
 Application to current projects
 ===============================
 
-As of kilo, the "release:managed" tag applies to all projects currently tagged
-as "integrated-release" projects.
+.. tagged-projects: release:managed

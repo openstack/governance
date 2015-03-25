@@ -4,6 +4,8 @@
   Unported License.
   http://creativecommons.org/licenses/by/3.0/legalcode
 
+.. _`tag-release:at-6mo-cycle-end`:
+
 ========================
 release:at-6mo-cycle-end
 ========================
@@ -57,5 +59,4 @@ Tags in the "release" category do not use attributes.
 Application to current projects
 ===============================
 
-This tag currently applies to "integrated-release" projects, previously
-incubated projects, Oslo libraries and Python client libraries.
+.. tagged-projects: release:at-6mo-cycle-end

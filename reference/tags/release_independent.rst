@@ -4,6 +4,8 @@
   Unported License.
   http://creativecommons.org/licenses/by/3.0/legalcode
 
+.. _`tag-release:independent`:
+
 ===================
 release:independent
 ===================
@@ -52,6 +54,4 @@ Tags in the "release" category do not use attributes.
 Application to current projects
 ===============================
 
-The "release:independent" tag currently applies to most code-based projects
-which produce releases more often than at the end of each cycle. That includes
-Olso libraries, client libraries, and Swift.
+.. tagged-projects: release:independent
