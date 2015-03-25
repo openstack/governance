@@ -280,6 +280,7 @@ Infrastructure:
     - repo: openstack-infra/puppet-bup
     - repo: openstack-infra/puppet-cgit
     - repo: openstack-infra/puppet-dashboard
+    - repo: openstack-infra/puppet-diskimage_builder
     - repo: openstack-infra/puppet-drupal
     - repo: openstack-infra/puppet-elastic_recheck
     - repo: openstack-infra/puppet-elasticsearch
