@@ -786,7 +786,7 @@ OpenStackClient:
       tags:
         - name: release:independent
         - name: release:at-6mo-cycle-end
-    - repo: stackforge/os-client-config
+    - repo: openstack/os-client-config
       tags:
         - name: release:independent
 
