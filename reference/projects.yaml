@@ -570,6 +570,7 @@ Quality Assurance:
       tags:
         - name: release:independent
     - repo: openstack/os-testr
+    - repo: openstack-dev/bashate
 
 TripleO:
   ptl: James Slagle (slagle)
