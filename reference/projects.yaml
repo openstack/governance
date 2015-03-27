@@ -509,8 +509,9 @@ Murano:
   ptl: Serg Melikyan (smelikyan)
   service: Application catalog
   mission: >
-    To provide UI and API which allows to compose and deploy composite environments
-    on the application abstraction level and then manage their lifecycle.
+    To provide an application catalog service so that users can compose and
+    deploy composite environments on an application abstraction level
+    while managing the application lifecycle.
   url: https://wiki.openstack.org/wiki/Murano
   projects:
     - repo: openstack/murano
