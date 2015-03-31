@@ -872,3 +872,14 @@ Security:
     - repo: stackforge/anchor
     - repo: stackforge/bandit
     - repo: openstack/ossa
+
+Rally:
+  ptl: Boris Pavlovic (boris-42)
+  service: Benchmark as a Service
+  mission: >
+    To provide a framework for performance analysis and benchmarking of
+    individual OpenStack components as well as full production OpenStack
+    cloud deployments.
+  url: https://wiki.openstack.org/wiki/Rally
+  projects:
+    - repo: openstack/rally
