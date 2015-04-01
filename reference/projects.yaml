@@ -13,10 +13,11 @@ Nova:
           since: austin
         - name: release:managed
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/python-novaclient
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/nova-specs
 
 Swift:
@@ -31,10 +32,11 @@ Swift:
         - name: release:managed
         - name: release:independent
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/python-swiftclient
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/swift-bench
       tags:
         - name: release:independent
@@ -55,15 +57,16 @@ Glance:
           since: bexar
         - name: release:managed
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/glance-specs
     - repo: openstack/python-glanceclient
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/glance_store
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
 
 Keystone:
   ptl: Morgan Fainberg (morganfainberg)
@@ -79,27 +82,28 @@ Keystone:
           since: essex
         - name: release:managed
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/keystone-specs
     - repo: openstack/python-keystoneclient
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/keystonemiddleware
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/pycadf
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/python-keystoneclient-kerberos
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/python-keystoneclient-federation
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
 
 Horizon:
   ptl: David Lyle (david-lyle)
@@ -115,14 +119,14 @@ Horizon:
           since: essex
         - name: release:managed
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/django_openstack_auth
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/tuskar-ui
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
 
 Neutron:
   ptl: Kyle Mestery (mestery)
@@ -138,29 +142,33 @@ Neutron:
           since: folsom
         - name: release:managed
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/neutron-fwaas
       tags:
         - name: integrated-release
           since: kilo
         - name: release:managed
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/neutron-lbaas
       tags:
         - name: integrated-release
           since: kilo
         - name: release:managed
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/neutron-vpnaas
       tags:
         - name: integrated-release
           since: kilo
         - name: release:managed
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/neutron-specs
     - repo: openstack/python-neutronclient
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
 
 Cinder:
   ptl: Mike Perez (thingee)
@@ -177,15 +185,16 @@ Cinder:
           since: folsom
         - name: release:managed
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/cinder-specs
     - repo: openstack/python-cinderclient
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/os-brick
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
 
 Ceilometer:
   ptl : Eoghan Glynn (eglynn)
@@ -203,15 +212,16 @@ Ceilometer:
           since: havana
         - name: release:managed
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/ceilometer-specs
     - repo: openstack/python-ceilometerclient
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/ceilometermiddleware
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/gnocchi
       tags:
         - name: release:independent
@@ -230,10 +240,11 @@ Heat:
           since: havana
         - name: release:managed
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/python-heatclient
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/heat-cfntools
       tags:
         - name: release:independent
@@ -257,10 +268,11 @@ Trove:
           since: icehouse
         - name: release:managed
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/python-troveclient
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/trove-integration
     - repo: openstack/trove-specs
 
@@ -279,19 +291,20 @@ Ironic:
           since: kilo
         - name: release:managed
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/ironic-specs
     - repo: openstack/python-ironicclient
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/ironic-python-agent
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/ironic-lib
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/coreos-image-builder
 
 Oslo:
@@ -306,95 +319,95 @@ Oslo:
     - repo: openstack/debtcollector
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslo-incubator
       tags:
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslo-specs
     - repo: openstack/oslo.cache
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslo.concurrency
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslo.config
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslo.context
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslo.db
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslo.i18n
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslo.log
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslo.messaging
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslo.middleware
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslo.policy
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslo.rootwrap
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslo.serialization
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslo.utils
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslo.versionedobjects
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslo.vmware
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslosphinx
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/oslotest
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/pylockfile
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/stevedore
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/taskflow
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/tooz
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack-dev/cookiecutter
     - repo: openstack-dev/oslo-cookiecutter
     - repo: openstack-dev/pbr
@@ -533,8 +546,6 @@ Documentation:
   url: https://wiki.openstack.org/wiki/Documentation
   projects:
     - repo: openstack/api-site
-      tags:
-        - name: release:at-6mo-cycle-end
     - repo: openstack/docs-specs
     - repo: openstack/ha-guide
     - repo: openstack/openstack-doc-tools
@@ -542,7 +553,7 @@ Documentation:
         - name: release:independent
     - repo: openstack/openstack-manuals
       tags:
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/openstackdocstheme
       tags:
         - name: release:independent
@@ -563,8 +574,12 @@ Quality Assurance:
       tags:
         - name: release:independent
     - repo: openstack-dev/grenade
+      tags:
+        - name: release:has-stable-branches
     - repo: openstack/qa-specs
     - repo: openstack-dev/devstack
+      tags:
+        - name: release:has-stable-branches
     - repo: openstack-dev/devstack-plugin-cookiecutter
     - repo: openstack-dev/hacking
       tags:
@@ -643,11 +658,12 @@ Zaqar:
     - repo: openstack/zaqar
       tags:
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/zaqar-specs
     - repo: openstack/python-zaqarclient
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
 
 Sahara:
   ptl: Sergey Lukjanov (SergeyLukjanov)
@@ -663,17 +679,20 @@ Sahara:
           since: juno
         - name: release:managed
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/python-saharaclient
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/sahara-dashboard
     - repo: openstack/sahara-extra
       tags:
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/sahara-image-elements
       tags:
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/sahara-specs
 
 Barbican:
@@ -687,12 +706,13 @@ Barbican:
     - repo: openstack/barbican
       tags:
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/barbican-specs
     - repo: openstack/castellan
     - repo: openstack/python-barbicanclient
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/kite
     - repo: openstack/python-kiteclient
 
@@ -707,11 +727,12 @@ Designate:
     - repo: openstack/designate
       tags:
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/designate-specs
     - repo: openstack/python-designateclient
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
 
 Magnum:
   ptl: Adrian Otto (aotto)
@@ -740,10 +761,11 @@ Manila:
     - repo: openstack/manila
       tags:
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/python-manilaclient
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
 
 Murano:
   ptl: Serg Melikyan (smelikyan)
@@ -756,19 +778,23 @@ Murano:
     - repo: openstack/murano
       tags:
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/murano-dashboard
       tags:
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/python-muranoclient
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/murano-agent
       tags:
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/murano-apps
       tags:
         - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/murano-specs
 
 OpenStackClient:
@@ -785,7 +811,7 @@ OpenStackClient:
     - repo: openstack/cliff
       tags:
         - name: release:independent
-        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
     - repo: openstack/os-client-config
       tags:
         - name: release:independent
