@@ -411,6 +411,7 @@ Infrastructure:
     - repo: openstack-dev/openstack-nose
     - repo: openstack-infra/activity-board
     - repo: openstack-infra/ansible-puppet
+    - repo: openstack-infra/ansible-build-image
     - repo: openstack-infra/askbot-theme
     - repo: openstack-infra/bindep
     - repo: openstack-infra/bugdaystats
