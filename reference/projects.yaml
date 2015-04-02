@@ -886,3 +886,18 @@ Rally:
   url: https://wiki.openstack.org/wiki/Rally
   projects:
     - repo: openstack/rally
+
+Mistral:
+  ptl: Renat Akhmerov (rakhmerov)
+  service: Workflow Service
+  mission: >
+    Provide a simple YAML-based language to write workflows (tasks and transition rules)
+    and a service that allows to upload them, modify, run them at scale and in a highly
+    available manner, manage and monitor workflow execution state and state of individual tasks.
+  url: https://wiki.openstack.org/wiki/Mistral
+  projects:
+    - repo: openstack/mistral
+    - repo: openstack/mistral-dashboard
+    - repo: openstack/mistral-extra
+    - repo: openstack/python-mistralclient
+
