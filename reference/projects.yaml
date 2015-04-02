@@ -623,8 +623,7 @@ Release cycle management:
     To organize the release cycle and the work necessary to produce coordinated
     releases of the integrated components of OpenStack. To collect bugfix
     backports and produce stable point releases for the previously-released
-    branch. To coordinate the publication of security patches and advisories
-    (OSSA) for security-supported branches.
+    branch.
   url: https://wiki.openstack.org/wiki/Release_Cycle_Management
   projects:
     - repo: openstack/requirements
@@ -801,3 +800,17 @@ Congress:
     - repo: openstack/congress
     - repo: openstack/python-congressclient
     - repo: openstack/congress-specs
+
+Security:
+  ptl: Robert Clark (hyakuhei)
+  mission: >
+    To provide developers and consumers of OpenStack with appropriate security
+    guidance and advice. To develop tooling that enhances levels of security
+    within OpenStack projects. To issue Security Notes and Security Advisories
+    for reported vulnerabilities and to foster new security intiatives to the
+    benefit of the OpenStack community as a whole.
+  url: https://wiki.openstack.org/wiki/Security
+  projects:
+    - repo: stackforge/anchor
+    - repo: stackforge/bandit
+    - repo: openstack/ossa
