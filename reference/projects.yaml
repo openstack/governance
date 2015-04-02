@@ -918,3 +918,78 @@ MagnetoDB:
       tags:
         - name: release:independent
     - repo: openstack/magnetodb-specs
+
+PuppetOpenStack:
+  ptl: Emilien Macchi (emilienm)
+  service: Puppet modules for the OpenStack components
+  mission: >
+    The Puppet modules for OpenStack bring scalable and reliable IT automation
+      to OpenStack cloud deployments.
+  url: https://wiki.openstack.org/wiki/Puppet
+  projects:
+    - repo: openstack/puppet-ceilometer
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-cinder
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-designate
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-glance
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-gnocchi
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-heat
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-horizon
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-ironic
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-keystone
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-manila
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-neutron
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-nova
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-openstacklib
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-openstack-specs
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-openstack_extras
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-sahara
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-swift
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-tempest
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-tripleo
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-trove
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-tuskar
+      tags:
+        - name: release:independent
+    - repo: openstack/puppet-vswitch
+      tags:
+        - name: release:independent
