@@ -6,6 +6,8 @@ Nova:
     scalable, on demand, self service access to compute resources, including
     bare metal, virtual machines, and containers.
   url: https://wiki.openstack.org/wiki/Nova
+  tags:
+    - name: team:diverse-affiliation
   projects:
     - repo: openstack/nova
       tags:
@@ -23,6 +25,8 @@ Swift:
   ptl: John Dickinson (notmyname)
   service: Object Storage
   url: https://wiki.openstack.org/wiki/Swift
+  tags:
+    - name: team:diverse-affiliation
   projects:
     - repo: openstack/swift
       tags:
@@ -48,6 +52,8 @@ Glance:
     are meant to be used with other services, like images for Nova and
     templates for Heat.
   url: https://wiki.openstack.org/wiki/Glance
+  tags:
+    - name: team:diverse-affiliation
   projects:
     - repo: openstack/glance
       tags:
@@ -72,6 +78,8 @@ Keystone:
     To facilitate API client authentication, service discovery, distributed
     multi-tenant authorization, and auditing.
   url: https://wiki.openstack.org/wiki/Keystone
+  tags:
+    - name: team:diverse-affiliation
   projects:
     - repo: openstack/keystone
       tags:
@@ -108,6 +116,8 @@ Horizon:
     To provide an extensible unified web based user interface for all
     integrated OpenStack services.
   url: https://wiki.openstack.org/wiki/Horizon
+  tags:
+    - name: team:diverse-affiliation
   projects:
     - repo: openstack/horizon
       tags:
@@ -131,6 +141,8 @@ Neutron:
     To implement services and associated libraries to provide on-demand,
     scalable, and technology-agnostic network abstraction.
   url: https://wiki.openstack.org/wiki/Neutron
+  tags:
+    - name: team:diverse-affiliation
   projects:
     - repo: openstack/neutron
       tags:
@@ -170,6 +182,8 @@ Cinder:
     access to Block Storage resources via abstraction and automation on top of
     other block storage devices.
   url: https://wiki.openstack.org/wiki/Cinder
+  tags:
+    - name: team:diverse-affiliation
   projects:
     - repo: openstack/cinder
       tags:
@@ -223,6 +237,8 @@ Heat:
   mission: >
     To orchestrate composite cloud applications using a declarative
     template format through an OpenStack-native ReST API.
+  tags:
+    - name: team:diverse-affiliation
   projects:
     - repo: openstack/heat
       tags:
@@ -250,6 +266,8 @@ Trove:
     for both relational and non-relational database engines, and to continue to
     improve its fully-featured and extensible open source framework.
   url: https://wiki.openstack.org/wiki/Trove
+  tags:
+    - name: team:diverse-affiliation
   projects:
     - repo: openstack/trove
       tags:
@@ -272,6 +290,8 @@ Ironic:
     managing and provisioning physical machines, and to do this in a
     security-aware and fault-tolerant manner.
   url: https://wiki.openstack.org/wiki/Ironic
+  tags:
+    - name: team:diverse-affiliation
   projects:
     - repo: openstack/ironic
       tags:
@@ -302,6 +322,8 @@ Oslo:
     projects. The APIs provided by these libraries should be high quality,
     stable, consistent, documented and generally applicable.
   url: https://wiki.openstack.org/wiki/Oslo
+  tags:
+    - name: team:diverse-affiliation
   projects:
     - repo: openstack/debtcollector
       tags:
@@ -407,6 +429,8 @@ Infrastructure:
   mission: >
     Develop and maintain the tooling and infrastructure needed to support the
     development process and general operation of the OpenStack project.
+  tags:
+    - name: team:diverse-affiliation
   projects:
     - repo: openstack-dev/openstack-nose
     - repo: openstack-infra/activity-board
@@ -531,6 +555,8 @@ Documentation:
     Develop and maintain tools and processes to ensure quality, accurate
     documentation. Treat documentation like OpenStack code.
   url: https://wiki.openstack.org/wiki/Documentation
+  tags:
+    - name: team:diverse-affiliation
   projects:
     - repo: openstack/api-site
       tags:
@@ -557,6 +583,8 @@ Quality Assurance:
     stability and quality of OpenStack, and its release readiness at any point
     during the release cycle.
   url: https://wiki.openstack.org/wiki/QA
+  tags:
+    - name: team:diverse-affiliation
   projects:
     - repo: openstack/tempest
     - repo: openstack/tempest-lib
@@ -719,6 +747,8 @@ Magnum:
     To provide a set of services for management of application containers
     in a multitenant cloud environment.
   url: https://wiki.openstack.org/wiki/Magnum
+  tags:
+    - name: team:diverse-affiliation
   projects:
     - repo: openstack/magnum
       tags:
