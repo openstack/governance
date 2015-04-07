@@ -19,16 +19,17 @@ Rationale
 
 We value having a broad base of contributors to a project for several reasons.
 One such reason is that it's more risky to rely on a project controlled by a
-single company as the project will immediately come to a halt if that one
-company chooses to stop working on it.  We also value a project where priorities
-must be set and agreed upon in a community fashion instead of purely controlled
-by a single company.
+single organization as the project will immediately come to a halt if that one
+organization chooses to stop working on it.  We also value a project where
+priorities must be set and agreed upon in a community fashion instead of purely
+controlled by a single organization.
 
 
 Requirements
 ============
 
-No one company should represent a majority (>50%) of any of the following:
+No one organization should represent a majority (>50%) and no two organizations
+should represent >80% of any of the following:
 
 * the sum of all commits merged into any of the git repositories managed by the
   team
@@ -93,7 +94,7 @@ all git repositories managed by a team.  However, tags are applied to repos.
 So, the result is that an evaluation is done for the whole team and either all
 repos or none get the tag.
 
-Using the current criteria, the following teams would have the tag applied to
+Using the original criteria, the following teams would have the tag applied to
 their repositories::
 
   <Team> (top commit % | top review % | top core review % | (top core reviewer %)
@@ -129,6 +130,16 @@ Magnum would, while Murano and Group Based Policy would not::
   Murano             (84.91% | 93.20% | 99.26% | 87.50%)
   Group Based Policy (47.96% | 57.31% | 58.20% | 33.33%)
   Magnum             (33.78% | 37.08% | 37.22% | 28.57%)
+
+If we add the 2 organization rule, no changes are made.  However, Trove comes
+very close to losing the tag:
+
+<Team> (top commit % | top review % | top core review % | top core reviewer %)
+       (top 2 commit % | top 2 review % | top 2 core review % | top 2 core
+       reviewer %)
+Trove              (35.16% | 38.89% | 47.22% | 42.86%)
+                   (57.99% | 66.54% | 79.69% | 71.43%)
+
 
 A script used when checking the projects:
 https://gist.github.com/russellb/cc89a390eefbb33e252b
