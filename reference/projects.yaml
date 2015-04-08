@@ -610,6 +610,7 @@ Quality Assurance:
       tags:
         - name: release:has-stable-branches
     - repo: openstack-dev/devstack-plugin-cookiecutter
+    - repo: openstack-dev/devstack-vagrant
     - repo: openstack-dev/hacking
       tags:
         - name: release:independent
