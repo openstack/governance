@@ -72,7 +72,7 @@ The Technical Committee sees the stake holders as:
 
 * distributors -- distributors need the ability to differentiate their
   products, but they also need to be able to entice deployers away from other
-  distributors. This compatability of different distributions is one of the
+  distributors. This compatibility of different distributions is one of the
   competitive advantages of OpenStack, and should be protected by our
   trademark policy. Therefore, we do not believe that private features are the
   right way for distributors to differentiate their products.
