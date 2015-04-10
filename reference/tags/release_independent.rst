@@ -54,4 +54,4 @@ Tags in the "release" category do not use attributes.
 Application to current projects
 ===============================
 
-.. tagged-projects: release:independent
+.. tagged-projects:: release:independent

@@ -65,4 +65,4 @@ Tags in the "release" category do not use attributes.
 Application to current projects
 ===============================
 
-.. tagged-projects: release:at-6mo-cycle-end
+.. tagged-projects:: release:at-6mo-cycle-end

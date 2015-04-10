@@ -65,4 +65,4 @@ Tags in the "release" category do not use attributes.
 Application to current projects
 ===============================
 
-.. tagged-projects: release:managed
+.. tagged-projects:: release:managed

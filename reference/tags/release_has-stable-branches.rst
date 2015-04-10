@@ -64,4 +64,4 @@ Tags in the "release" category do not use attributes.
 Application to current projects
 ===============================
 
-.. tagged-projects: release:has-stable-branches
+.. tagged-projects:: release:has-stable-branches
