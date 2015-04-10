@@ -36,6 +36,9 @@ def _team_to_rst(name, info):
     yield ''
     mission = info.get('mission', '').rstrip()
     if mission:
+        yield "Mission"
+        yield '-------'
+        yield ''
         yield mission
         yield ''
     tags = [
@@ -43,23 +46,26 @@ def _team_to_rst(name, info):
         for t in info.get('tags', [])
     ]
     if tags:
-        yield 'Team based tags:'
-        yield '%s' % ', '.join(tags)
+        yield 'Team based tags'
+        yield '----------------'
         yield ''
-    yield 'Repositories (tags):'
+        for tag in tags:
+            yield '- %s' % tag
+        yield ''
+    yield 'Repositories and Tags'
+    yield '---------------------'
     yield ''
     for project in info.get('projects', []):
-        tags = [
-            ':ref:`tag-%s`' % t['name']
-            for t in project.get('tags', [])
-        ]
-        if tags:
-            tag_references = '(%s)' % ', '.join(tags)
-        else:
-            tag_references = ''
-        yield '- :repo:`%s` %s' % (project['repo'], tag_references)
+        yield '- :repo:`%s`' % project['repo']
+        tags = project.get('tags', [])
+        if tags is not []:
+            yield ''
+        for tag in tags:
+            yield '  - :ref:`tag-%s`' % tag['name']
     yield ''
-    yield '.. extraatcstable:: :ref:`Extra ATCs <atc>`'
+    yield 'Extra ATCs'
+    yield '-----------'
+    yield '.. extraatcstable:: '
     yield '   :project: %s' % name
     yield ''
 
