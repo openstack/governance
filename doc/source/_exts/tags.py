@@ -53,10 +53,13 @@ class TaggedProjectsDirective(rst.Directive):
             )
         else:
             for team_name, repo in sorted(project_data):
-                line = '- :ref:`project-%s` -- :repo:`%s`' % (
-                    projects.slugify(team_name),
-                    repo,
-                )
+                if repo is None:
+                    line = '- :ref:`project-%s`' % projects.slugify(team_name)
+                else:
+                    line = '- :ref:`project-%s` -- :repo:`%s`' % (
+                        projects.slugify(team_name),
+                        repo,
+                    )
                 result.append(line, source_name)
 
         # Parse what we have into a new section.
@@ -69,6 +72,10 @@ class TaggedProjectsDirective(rst.Directive):
 
 def _build_projects_by_tag():
     for proj_name, info in projects.get_project_data().items():
+        for tag in info.get('tags', []):
+            tn = tag['name']
+            l = _projects_by_tag.setdefault(tn, [])
+            l.append((proj_name, None))
         for repo in info.get('projects', []):
             for tag in repo.get('tags', []):
                 tn = tag['name']

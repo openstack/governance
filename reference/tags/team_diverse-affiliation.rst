@@ -4,6 +4,8 @@
   Unported License.
   http://creativecommons.org/licenses/by/3.0/legalcode
 
+.. _`tag-team:diverse-affiliation`:
+
 ========================================================================
 team:diverse-affiliation
 ========================================================================
@@ -90,56 +92,9 @@ Application to current projects
 ===============================
 
 It's worth pointing out that the criteria used for this tag is applied across
-all git repositories managed by a team.  However, tags are applied to repos.
-So, the result is that an evaluation is done for the whole team and either all
-repos or none get the tag.
+all git repositories managed by a team.
 
-Using the original criteria, the following teams would have the tag applied to
-their repositories::
-
-  <Team> (top commit % | top review % | top core review % | (top core reviewer %)
-  Nova               (20.03% | 20.03% | 26.07% | 31.25%)
-  Swift              (27.78% | 27.61% | 38.08% | 36.36%)
-  Glance             (24.05% | 29.76% | 40.07% | 33.33%)
-  Keystone           (43.08% | 29.40% | 45.95% | 37.50%)
-  Horizon            (28.41% | 15.90% | 21.84% | 30.77%)
-  Neutron            (26.74% | 19.60% | 24.33% | 16.67%)
-  Cinder             (12.59% | 11.36% | 16.49% | 20.00%)
-  Heat               (33.15% | 34.04% | 37.94% | 27.78%)
-  Trove              (34.02% | 36.00% | 46.20% | 42.86%)
-  Ironic             (25.13% | 28.41% | 31.16% | 33.33%)
-  Oslo               (30.90% | 28.30% | 34.65% | 23.68%)
-  Infrastructure     (38.69% | 49.80% | 48.23% | 42.22%)
-  Documentation      (19.72% | 26.67% | 34.89% | 19.05%)
-  Quality Assurance  (27.22% | 26.81% | 33.65% | 33.33%)
-
-The following official projects would not get the tag::
-
-  Ceilometer         (52.02% | 32.20% | 61.99% | 50.00%)
-  TripleO            (54.59% | 56.19% | 62.69% | 60.87%)
-  Sahara             (53.08% | 59.00% | 60.75% | 57.14%)
-  Barbican           (50.35% | 48.97% | 52.81% | 50.00%)
-  Manila             (47.27% | 31.72% | 45.84% | 50.00%)
-  Zaqar              (48.24% | 66.90% | 78.51% | 66.67%)
-  Designate          (55.80% | 63.66% | 64.11% | 60.00%)
-  OpenStackClient    (34.52% | 36.89% | 56.60% | 33.33%)
-
-We can also look at whether currently proposed projects would receive the tag.
-Magnum would, while Murano and Group Based Policy would not::
-
-  Murano             (84.91% | 93.20% | 99.26% | 87.50%)
-  Group Based Policy (47.96% | 57.31% | 58.20% | 33.33%)
-  Magnum             (33.78% | 37.08% | 37.22% | 28.57%)
-
-If we add the 2 organization rule, no changes are made.  However, Trove comes
-very close to losing the tag:
-
-<Team> (top commit % | top review % | top core review % | top core reviewer %)
-       (top 2 commit % | top 2 review % | top 2 core review % | top 2 core
-       reviewer %)
-Trove              (35.16% | 38.89% | 47.22% | 42.86%)
-                   (57.99% | 66.54% | 79.69% | 71.43%)
-
+.. tagged-projects:: team:diverse-affiliation
 
 A script used when checking the projects:
 https://gist.github.com/russellb/cc89a390eefbb33e252b

@@ -40,6 +40,16 @@ def _team_to_rst(name, info):
     if mission:
         yield mission
         yield ''
+    tags = [
+        ':ref:`tag-%s`' % t['name']
+        for t in info.get('tags', [])
+    ]
+    if tags:
+        yield 'Team based tags:'
+        yield '%s' % ', '.join(tags)
+        yield ''
+    yield 'Repositories (tags):'
+    yield ''
     for project in info.get('projects', []):
         tags = [
             ':ref:`tag-%s`' % t['name']
