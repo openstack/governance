@@ -13,8 +13,6 @@
 """Report on the current list of projects.
 """
 
-import yaml
-
 from docutils import nodes
 from docutils.parsers import rst
 from docutils.statemachine import ViewList
@@ -84,9 +82,6 @@ class TeamsListDirective(rst.Directive):
     has_content = False
 
     def run(self):
-        env = self.state.document.settings.env
-        app = env.app
-
         all_teams = projects.get_project_data()
 
         # Build the view of the data to be parsed for rendering.
