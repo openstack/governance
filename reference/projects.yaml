@@ -767,7 +767,7 @@ Designate:
 
 Magnum:
   ptl: Adrian Otto (aotto)
-  service: Containers Service
+  service: Containers service
   mission: >
     To provide a set of services for management of application containers
     in a multitenant cloud environment.
