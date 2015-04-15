@@ -108,7 +108,7 @@ Keystone:
       tags:
         - name: release:independent
         - name: release:has-stable-branches
-    - repo: openstack/python-keystoneclient-federation
+    - repo: openstack/python-keystoneclient-saml2
       tags:
         - name: release:independent
         - name: release:has-stable-branches
