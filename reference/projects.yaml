@@ -675,6 +675,7 @@ Release cycle management:
   url: https://wiki.openstack.org/wiki/Release_Cycle_Management
   projects:
     - repo: openstack/requirements
+    - repo: openstack-dev/specs-cookiecutter
     - repo: openstack-infra/release-tools
 
 Zaqar:
