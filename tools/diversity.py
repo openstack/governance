@@ -18,6 +18,8 @@ import sys
 import requests
 import yaml
 
+import base
+
 s = requests.session()
 
 
@@ -85,6 +87,23 @@ def get_diversity(project):
     print '%-18s (%.2f%% | %.2f%% | %.2f%% | %.2f%%)' % (
         '', commits_top2, reviews_top2, core_reviews_top2,
         core_reviewers_top2)
+    is_diverse = (commits_top <= 50 and reviews_top <= 50 and
+                  core_reviews_top <= 50 and core_reviewers_top <= 50 and
+                  commits_top2 <= 80 and reviews_top2 <= 80 and
+                  core_reviews_top2 <= 80 and core_reviewers_top2 <= 80)
+    return is_diverse
+
+
+class ValidateDiversity(base.ValidatorBase):
+
+    @staticmethod
+    def validate(team):
+        """Return True of team should contain the tag 'team:diverse-affiliation'"""
+        return get_diversity(team)
+
+    @staticmethod
+    def get_tag_name():
+        return "team:diverse-affiliation"
 
 
 def main():
