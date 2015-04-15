@@ -12,51 +12,25 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-
+import os
 import sys
 
 import requests
+import yaml
 
-
-# TODO: Automate this from projects.yaml, instead.
-GROUPS = (
-    ('Nova', 'nova-group'),
-    ('Swift', 'swift-group'),
-    ('Glance', 'glance-group'),
-    ('Keystone', 'keystone-group'),
-    ('Horizon', 'horizon-group'),
-    ('Neutron', 'neutron-group'),
-    ('Cinder', 'cinder-group'),
-    ('Ceilometer', 'ceilometer-group'),
-    ('Heat', 'heat-group'),
-    ('Trove', 'trove-group'),
-    ('Ironic', 'ironic-group'),
-    ('Oslo', 'oslo-group'),
-    ('Infrastructure', 'infra-group'),
-    ('Documentation', 'documentation-group'),
-    ('Quality Assurance', 'qa-group'),
-    ('TripleO', 'tripleo-group'),
-    ('Sahara', 'sahara-group'),
-    ('Barbican', 'barbican-group'),
-    ('Manila', 'manila-group'),
-    ('Zaqar', 'zaqar-group'),
-    ('Designate', 'designate-group'),
-    ('OpenStackClient', 'python-openstackclient'),
-    ('Murano', 'murano-group'),
-    ('Magnum', 'magnum'),
-)
+s = requests.session()
 
 
 def get_core_reviews_by_company(group):
     # reviews by individual
-    reviews = requests.get('http://stackalytics.com/api/'
+    reviews = s.get('http://stackalytics.com/api/'
                            '1.0/stats/engineers?metric=marks'
                            '&project_type=all&module=%s' % group).json()
     companies = {}
     for eng in reviews['stats']:
         if eng['core'] != 'master':
             continue
-        company = requests.get('http://stackalytics.com/api/1.0/'
+        company = s.get('http://stackalytics.com/api/1.0/'
                                'stats/companies?metric=marks&'
                                'module=%s&user_id=%s&project_type=all'
                                % (group, eng['id'])).json()['stats'][0]['id']
@@ -66,13 +40,14 @@ def get_core_reviews_by_company(group):
     return companies
 
 
-def get_diversity(project, group):
+def get_diversity(project):
     # commits by company
-    commits = requests.get('http://stackalytics.com/api/'
+    group = "%s-group" % project.lower()
+    commits = s.get('http://stackalytics.com/api/'
                            '1.0/stats/companies?metric=commits'
                            '&project_type=all&module=%s' % group).json()
     # reviews by company
-    reviews = requests.get('http://stackalytics.com/api/'
+    reviews = s.get('http://stackalytics.com/api/'
                            '1.0/stats/companies?metric=marks'
                            '&project_type=all&module=%s' % group).json()
     core_reviews_by_company = get_core_reviews_by_company(group)
@@ -117,8 +92,11 @@ def main():
         'top core reviewer %)'
     print '       (top 2 commit % | top 2 review % | top 2 core review % | ' \
         'top 2 core reviewer %)'
-    for project, group in GROUPS:
-        get_diversity(project, group)
+    filename = os.path.abspath('reference/projects.yaml')
+    with open(filename, 'r') as f:
+        projects = yaml.load(f.read())
+    for project in projects:
+        get_diversity(project)
 
 
 if __name__ == '__main__':
