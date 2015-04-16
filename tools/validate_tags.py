@@ -22,6 +22,7 @@ and reorder projects.yaml
 """
 
 import diversity
+import stable
 
 import requests
 import yaml
@@ -37,6 +38,7 @@ team_validators = [
 
 # List of modules to validate repository based tags
 repo_validators = [
+    stable.ValidateStableBranches,
 ]
 
 
