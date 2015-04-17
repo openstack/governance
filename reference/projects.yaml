@@ -137,6 +137,9 @@ Horizon:
     - repo: openstack/tuskar-ui
       tags:
         - name: release:independent
+    - repo: openstack/manila-ui
+      tags:
+        - name: release:independent
 
 Neutron:
   ptl: Kyle Mestery (mestery)
