@@ -1,5 +1,5 @@
 Nova:
-  ptl: Michael Still (mikal)
+  ptl: John Garbutt (johnthetubaguy)
   service: Compute
   mission: >
     To implement services and associated libraries to provide massively
@@ -211,7 +211,7 @@ Cinder:
         - name: release:has-stable-branches
 
 Ceilometer:
-  ptl : Eoghan Glynn (eglynn)
+  ptl : Gordon Chung (gordc)
   service: Telemetry
   url: https://wiki.openstack.org/wiki/Ceilometer
   mission: >
@@ -241,7 +241,7 @@ Ceilometer:
         - name: release:independent
 
 Heat:
-  ptl: Angus Salkeld (asalkeld)
+  ptl: Steve Baker (stevebaker)
   service: Orchestration
   url: https://wiki.openstack.org/wiki/Heat
   mission: >
@@ -328,7 +328,7 @@ Ironic:
     - repo: openstack/coreos-image-builder
 
 Oslo:
-  ptl: Doug Hellmann (dhellmann)
+  ptl: Davanum Srinivas (dims)
   service: Common libraries
   mission: >
     To produce a set of python libraries containing code shared by OpenStack
@@ -563,7 +563,7 @@ Infrastructure:
     - repo: openstack/openstack-planet
 
 Documentation:
-  ptl: Anne Gentle (annegentle)
+  ptl: Lana Brindley (loquacities)
   mission: >
     Provide documentation for core OpenStack projects to promote OpenStack.
     Develop and maintain tools and processes to ensure quality, accurate
