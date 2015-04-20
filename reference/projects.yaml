@@ -891,7 +891,7 @@ Rally:
 
 Mistral:
   ptl: Renat Akhmerov (rakhmerov)
-  service: Workflow Service
+  service: Workflow service
   mission: >
     Provide a simple YAML-based language to write workflows (tasks and transition rules)
     and a service that allows to upload them, modify, run them at scale and in a highly
