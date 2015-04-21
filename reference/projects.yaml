@@ -881,7 +881,7 @@ Security:
 
 Rally:
   ptl: Boris Pavlovic (boris-42)
-  service: Benchmark as a Service
+  service: Benchmark service
   mission: >
     To provide a framework for performance analysis and benchmarking of
     individual OpenStack components as well as full production OpenStack
