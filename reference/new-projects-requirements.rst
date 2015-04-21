@@ -54,7 +54,7 @@ When considering new projects for addition, the TC will check that:
 * The project should have an active team of contributors
 
 * Once a project has joined OpenStack, it may create additional source
-  code repositories as needed at the discretion of its Project
-  Technical Lead (PTL) without prior approval from the TC as long as
-  the additional source code repositories fall within the scope of the
+  code repositories as needed at the discretion of its Project Team
+  Lead (PTL) without prior approval from the TC as long as the
+  additional source code repositories fall within the scope of the
   approved project mission statement.
