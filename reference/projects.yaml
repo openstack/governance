@@ -903,3 +903,18 @@ Mistral:
     - repo: openstack/mistral-extra
     - repo: openstack/python-mistralclient
 
+MagnetoDB:
+  ptl: Ilya Sviridov (isviridov)
+  service: Key-Value Store as a Service
+  mission: >
+    To provide key-value store service for OpenStack users.
+  url: https://wiki.openstack.org/wiki/MagnetoDB
+  projects:
+    - repo: openstack/magnetodb
+      tags:
+        - name: release:at-6mo-cycle-end
+        - name: release:has-stable-branches
+    - repo: pythonmagnetodb-client
+      tags:
+        - name: release:independent
+    - repo: openstack/magnetodb-specs
