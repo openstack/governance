@@ -871,7 +871,7 @@ Security:
     To provide developers and consumers of OpenStack with appropriate security
     guidance and advice. To develop tooling that enhances levels of security
     within OpenStack projects. To issue Security Notes and Security Advisories
-    for reported vulnerabilities and to foster new security intiatives to the
+    for reported vulnerabilities and to foster new security initiatives to the
     benefit of the OpenStack community as a whole.
   url: https://wiki.openstack.org/wiki/Security
   projects:
