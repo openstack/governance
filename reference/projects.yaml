@@ -475,6 +475,7 @@ Infrastructure:
     - repo: openstack-infra/nose-html-output
     - repo: openstack-infra/odsreg
     - repo: openstack-infra/openstackid
+    - repo: openstack-infra/openstackid-resources
     - repo: openstack-infra/openstackweb
     - repo: openstack-infra/os-loganalyze
     - repo: openstack-infra/project-config
