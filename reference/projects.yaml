@@ -915,7 +915,7 @@ MagnetoDB:
       tags:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
-    - repo: pythonmagnetodb-client
+    - repo: openstack/python-magnetodbclient
       tags:
         - name: release:independent
     - repo: openstack/magnetodb-specs
