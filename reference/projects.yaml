@@ -586,7 +586,6 @@ Documentation:
       tags:
         - name: release:independent
     - repo: openstack/operations-guide
-    - repo: openstack/security-doc
     - repo: openstack/training-guides
 
 Quality Assurance:
@@ -878,6 +877,8 @@ Security:
     - repo: stackforge/anchor
     - repo: stackforge/bandit
     - repo: openstack/ossa
+    - repo: openstack/security-doc
+
 
 Rally:
   ptl: Boris Pavlovic (boris-42)
