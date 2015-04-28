@@ -313,6 +313,9 @@ Ironic:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+    - repo: openstack/ironic-discoverd
+      tags:
+        - name: release:independent
     - repo: openstack/ironic-lib
       tags:
         - name: release:independent
