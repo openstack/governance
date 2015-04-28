@@ -28,7 +28,9 @@ When considering new projects for addition, the TC will check that:
   * Open Community:
 
     * The leadership is chosen by the contributors to the project
-    * The project has regular meetings on IRC and those meetings are logged
+    * The project has regular public meetings on IRC and those meetings are
+      logged and published (moving to official OpenStack meeting channels once
+      the project's application is accepted, if they're not held there already)
 
   * Open Development:
 
