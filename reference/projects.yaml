@@ -855,10 +855,11 @@ OpenStackClient:
 
 Congress:
   ptl: Tim Hinrichs (thinrichs)
-  service: Non-domain specific policy enforcement
+  service: Governance service
   mission: >
-    To provide policy as a service across any collection of cloud services in
-     order to offer governance and compliance for dynamic infrastructures.
+    To provide governance as a service across any collection of cloud
+    services in order to monitor, enforce, and audit policy over
+    dynamic infrastructure.
   url: https://wiki.openstack.org/wiki/Congress
   projects:
     - repo: openstack/congress
