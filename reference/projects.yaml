@@ -91,6 +91,9 @@ Keystone:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+    - repo: openstack/keystoneauth
+      tags:
+        - name: release:independent
     - repo: openstack/keystone-specs
     - repo: openstack/python-keystoneclient
       tags:
