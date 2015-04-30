@@ -14,6 +14,7 @@
 
 import os
 import sys
+import time
 
 import requests
 import yaml
@@ -22,20 +23,25 @@ import base
 
 s = requests.session()
 
+six_months = int(time.time() - 30*6*24*60*60)  # 6 months ago
+
 
 def get_core_reviews_by_company(group):
     # reviews by individual
     reviews = s.get('http://stackalytics.com/api/'
-                           '1.0/stats/engineers?metric=marks'
-                           '&project_type=all&module=%s' % group).json()
+                    '1.0/stats/engineers?metric=marks&release=all'
+                    '&start_date=%s&project_type=all'
+                    '&module=%s' % (six_months, group)).json()
     companies = {}
     for eng in reviews['stats']:
         if eng['core'] != 'master':
             continue
         company = s.get('http://stackalytics.com/api/1.0/'
-                               'stats/companies?metric=marks&'
-                               'module=%s&user_id=%s&project_type=all'
-                               % (group, eng['id'])).json()['stats'][0]['id']
+                        'stats/companies?metric=marks&'
+                        'module=%s&user_id=%s&project_type=all'
+                        '&release=all&start_date=%s'
+                        % (group, eng['id'],
+                           six_months)).json()['stats'][0]['id']
         companies.setdefault(company, {'reviewers': 0, 'reviews': 0})
         companies[company]['reviews'] += eng['metric']
         companies[company]['reviewers'] += 1
@@ -46,12 +52,14 @@ def get_diversity(project):
     # commits by company
     group = "%s-group" % project.lower()
     commits = s.get('http://stackalytics.com/api/'
-                           '1.0/stats/companies?metric=commits'
-                           '&project_type=all&module=%s' % group).json()
+                    '1.0/stats/companies?metric=commits&release=all'
+                    '&project_type=all&module=%s&start_date=%s'
+                    % (group, six_months)).json()
     # reviews by company
     reviews = s.get('http://stackalytics.com/api/'
-                           '1.0/stats/companies?metric=marks'
-                           '&project_type=all&module=%s' % group).json()
+                    '1.0/stats/companies?metric=marks&release=all'
+                    '&project_type=all&module=%s&start_date=%s'
+                    % (group, six_months)).json()
     core_reviews_by_company = get_core_reviews_by_company(group)
     commits_total = sum([company['metric'] for company in commits['stats']])
     commits_top = float(commits['stats'][0]['metric']) / commits_total * 100

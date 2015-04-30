@@ -45,20 +45,12 @@ should represent >80% of any of the following:
 * the union of the memberships of the core review teams associated with the git
   repositories managed by the team
 
-The timeline used for evaluation is aligned with the 6-month release cycle.  The
-current cycle's timeline should be used unless the cycle has not yet been longer
-than 2 months, in which case the previous cycle should be used.  This definition
-is purely for convenience, as it makes it easy to check using existing tools
-(stackalytics, in particular).
+The timeline used for evaluation is based on the past 6 months, and should be
+updated around the same time as the 6 month release.
 
 Based on how requirements are defined, this tag is only applicable for projects
 where their primary deliverables are represented by commits and reviews in git.
 An example of where this doesn't make sense is the release management team.
-
-It would be better to use a fixed 6-month window for this.  Once we come up with
-a convenient way to evaluate this criteria against a fixed 6-month window, the
-requirements can be changed.
-
 
 Tag application process
 =======================
@@ -96,5 +88,6 @@ all git repositories managed by a team.
 
 .. tagged-projects:: team:diverse-affiliation
 
-A script used when checking the projects:
-https://gist.github.com/russellb/cc89a390eefbb33e252b
+
+Script used to apply this tag:
+http://git.openstack.org/cgit/openstack/governance/tree/tools/validate_tags.py
