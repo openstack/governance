@@ -110,11 +110,9 @@ Keystone:
     - repo: openstack/python-keystoneclient-kerberos
       tags:
         - name: release:independent
-        - name: release:has-stable-branches
     - repo: openstack/python-keystoneclient-saml2
       tags:
         - name: release:independent
-        - name: release:has-stable-branches
 
 Horizon:
   ptl: David Lyle (david-lyle)
@@ -147,6 +145,7 @@ Horizon:
     - repo: openstack/manila-ui
       tags:
         - name: release:independent
+        - name: release:has-stable-branches
 
 Neutron:
   ptl: Kyle Mestery (mestery)
@@ -218,7 +217,6 @@ Cinder:
     - repo: openstack/os-brick
       tags:
         - name: release:independent
-        - name: release:has-stable-branches
 
 Ceilometer:
   ptl : Gordon Chung (gordc)
@@ -287,8 +285,6 @@ Trove:
     for both relational and non-relational database engines, and to continue to
     improve its fully-featured and extensible open source framework.
   url: https://wiki.openstack.org/wiki/Trove
-  tags:
-    - name: team:diverse-affiliation
   projects:
     - repo: openstack/trove
       tags:
@@ -429,7 +425,6 @@ Oslo:
     - repo: openstack/pylockfile
       tags:
         - name: release:independent
-        - name: release:has-stable-branches
     - repo: openstack/stevedore
       tags:
         - name: release:independent
@@ -454,8 +449,6 @@ Infrastructure:
   mission: >
     Develop and maintain the tooling and infrastructure needed to support the
     development process and general operation of the OpenStack project.
-  tags:
-    - name: team:diverse-affiliation
   projects:
     - repo: openstack-dev/openstack-nose
     - repo: openstack-infra/activity-board
@@ -688,6 +681,8 @@ Release cycle management:
   url: https://wiki.openstack.org/wiki/Release_Cycle_Management
   projects:
     - repo: openstack/requirements
+      tags:
+        - name: release:has-stable-branches
     - repo: openstack-dev/specs-cookiecutter
     - repo: openstack-infra/release-tools
 
@@ -805,6 +800,8 @@ Manila:
     in a multitenant cloud environment, similar to how OpenStack provides
     for block-based storage management through the Cinder project.
   url: https://wiki.openstack.org/wiki/Manila
+  tags:
+    - name: team:diverse-affiliation
   projects:
     - repo: openstack/manila
       tags:
@@ -857,6 +854,7 @@ OpenStackClient:
     - repo: openstack/python-openstackclient
       tags:
         - name: release:independent
+        - name: release:has-stable-branches
     - repo: openstack/cliff
       tags:
         - name: release:independent
@@ -875,6 +873,8 @@ Congress:
   url: https://wiki.openstack.org/wiki/Congress
   projects:
     - repo: openstack/congress
+      tags:
+        - name: release:has-stable-branches
     - repo: openstack/python-congressclient
     - repo: openstack/congress-specs
 
