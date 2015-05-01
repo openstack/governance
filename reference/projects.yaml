@@ -197,6 +197,9 @@ Neutron:
     - repo: openstack/networking-ovn
       tags:
         - name: release:independent
+    - repo: openstack/networking-vsphere
+      tags:
+        - name: release:independent
     - repo: openstack/octavia
       tags:
         - name: release:independent
