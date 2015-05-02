@@ -203,6 +203,9 @@ Neutron:
     - repo: openstack/networking-vsphere
       tags:
         - name: release:independent
+    - repo: openstack/dragonflow
+      tags:
+        - name: release:independent
     - repo: openstack/octavia
       tags:
         - name: release:independent
