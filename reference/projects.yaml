@@ -315,6 +315,7 @@ Ironic:
   tags:
     - name: team:diverse-affiliation
   projects:
+    - repo: openstack/bifrost
     - repo: openstack/coreos-image-builder
     - repo: openstack/ironic
       tags:
