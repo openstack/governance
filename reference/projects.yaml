@@ -191,6 +191,9 @@ Neutron:
       tags:
         - name: release:independent
         - name: release:has-stable-branches
+    - repo: openstack/networking-ovn
+      tags:
+        - name: release:independent
 
 Cinder:
   ptl: Mike Perez (thingee)
