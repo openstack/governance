@@ -1,0 +1,6 @@
+===================================
+2015-05-12 Acknowledging use of UTC
+===================================
+
+We use UTC for specifying dates and times related to activities overseen by
+the TC, such as events with deadlines (elections) or specific times (meetings).

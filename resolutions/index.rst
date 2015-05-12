@@ -5,6 +5,15 @@
 When a motion does not result in a change in a reference doc, it can
 be expressed as a resolution.
 
+2015
+====
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   2015*
+
 2014
 ====
 
