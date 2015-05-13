@@ -368,6 +368,10 @@ Oslo:
       tags:
         - name: release:independent
         - name: release:has-stable-branches
+    - repo: openstack/futurist
+      tags:
+        - name: release:independent
+        - name: release:has-stable-branches
     - repo: openstack/oslo-incubator
       tags:
         - name: release:has-stable-branches
