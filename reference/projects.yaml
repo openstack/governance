@@ -208,6 +208,9 @@ Neutron:
     - repo: openstack/octavia
       tags:
         - name: release:independent
+    - repo: openstack/vmware-nsx
+      tags:
+        - name: release:independent
 
 Cinder:
   ptl: Mike Perez (thingee)
