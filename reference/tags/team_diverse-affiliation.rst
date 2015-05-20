@@ -16,6 +16,20 @@ exists in the 'team' category, which as the name implies, covers information
 about the team itself.  Another example of a tag that could exist in this
 category is one that conveys the size of the team that is actively contributing.
 
+
+Application to current projects
+===============================
+
+It's worth pointing out that the criteria used for this tag is applied across
+all git repositories managed by a team.
+
+.. tagged-projects:: team:diverse-affiliation
+
+
+Script used to apply this tag:
+http://git.openstack.org/cgit/openstack/governance/tree/tools/validate_tags.py
+
+
 Rationale
 =========
 
@@ -78,16 +92,3 @@ Attributes
 ==========
 
 This tag has no attributes.
-
-
-Application to current projects
-===============================
-
-It's worth pointing out that the criteria used for this tag is applied across
-all git repositories managed by a team.
-
-.. tagged-projects:: team:diverse-affiliation
-
-
-Script used to apply this tag:
-http://git.openstack.org/cgit/openstack/governance/tree/tools/validate_tags.py

@@ -15,6 +15,12 @@ model for a given code repository. Projects tagged with "release:managed" tag
 are those who are directly managed by the Release Management team.
 
 
+Application to current projects
+===============================
+
+.. tagged-projects:: release:managed
+
+
 Rationale
 =========
 
@@ -60,9 +66,3 @@ Attributes
 ==========
 
 Tags in the "release" category do not use attributes.
-
-
-Application to current projects
-===============================
-
-.. tagged-projects:: release:managed

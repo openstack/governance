@@ -21,6 +21,12 @@ Note that it doesn't prevent those projects from also producing intermediary
 releases in the middle of a development cycle.
 
 
+Application to current projects
+===============================
+
+.. tagged-projects:: release:at-6mo-cycle-end
+
+
 Rationale
 =========
 
@@ -60,9 +66,3 @@ Attributes
 ==========
 
 Tags in the "release" category do not use attributes.
-
-
-Application to current projects
-===============================
-
-.. tagged-projects:: release:at-6mo-cycle-end
