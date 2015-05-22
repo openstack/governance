@@ -1679,6 +1679,87 @@ Oslo:
         - type:library
         - release:managed
 
+Packaging-deb:
+   ptl: Thomas Goirand (zigo)
+   mission: >
+     Maintaining Debian (and its derivatives) packages as a community.
+   deliverables:
+     deb-openstack-pkg-tools:
+       repos:
+         - openstack/deb-openstack-pkg-tools
+     deb-ceilometer:
+       repos:
+         - openstack/deb-ceilometer
+     deb-ceilometermiddleware:
+       repos:
+         - openstack/deb-ceilometermiddleware
+     deb-cinder:
+       repos:
+         - openstack/deb-cinder
+     deb-designate:
+       repos:
+         - openstack/deb-designate
+     deb-designate-dashboard:
+       repos:
+         - openstack/deb-designate-dashboard
+     deb-glance:
+       repos:
+         - openstack/deb-glance
+     deb-heat:
+       repos:
+         - openstack/deb-heat
+     deb-horizon:
+       repos:
+         - openstack/deb-horizon
+     deb-ironic:
+       repos:
+         - openstack/deb-ironic
+     deb-keystone:
+       repos:
+         - openstack/deb-keystone
+     deb-mistral:
+       repos:
+         - openstack/deb-mistral
+     deb-mistral-dashboard:
+       repos:
+         - openstack/deb-mistral-dashboard
+     deb-murano:
+       repos:
+         - openstack/deb-murano
+     deb-murano-dashboard:
+       repos:
+         - openstack/deb-murano-dashboard
+     deb-neutron:
+       repos:
+         - openstack/deb-neutron
+     deb-neutron-fwaas:
+       repos:
+         - openstack/deb-neutron-fwaas
+     deb-neutron-lbaas:
+       repos:
+         - openstack/deb-neutron-lbaas
+     deb-neutron-vpnaas:
+       repos:
+         - openstack/deb-neutron-vpnaas
+     deb-nova:
+       repos:
+         - openstack/deb-nova
+     deb-rally:
+       repos:
+         - openstack/deb-rally
+     deb-sahara:
+       repos:
+         - openstack/deb-sahara
+     deb-swift:
+       repos:
+         - openstack/deb-swift
+     deb-tempest:
+       repos:
+         - openstack/deb-tempest
+     deb-trove:
+       repos:
+         - openstack/deb-trove
+
 PuppetOpenStack:
   ptl: Emilien Macchi (emilienm)
   service: Puppet modules for the OpenStack components
