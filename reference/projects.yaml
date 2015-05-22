@@ -1102,3 +1102,12 @@ ChefOpenstack:
     - repo: openstack/openstack-chef-repo
       tags:
         - name: release:independent
+
+I18n:
+  ptl: Ying Chun Guo (Daisy)
+  mission: >
+    To make OpenStack ubiquitously accessible to people of
+    all language backgrounds.
+  url: https://wiki.openstack.org/wiki/I18nTeam
+  projects: []
+
