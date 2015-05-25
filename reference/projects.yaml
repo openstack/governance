@@ -420,6 +420,10 @@ Oslo:
       tags:
         - name: release:independent
         - name: release:has-stable-branches
+    - repo: openstack/oslo.service
+      tags:
+        - name: release:independent
+        - name: release:has-stable-branches
     - repo: openstack/oslo.utils
       tags:
         - name: release:independent
