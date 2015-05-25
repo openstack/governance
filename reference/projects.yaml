@@ -196,6 +196,9 @@ Neutron:
     - repo: openstack/networking-odl
       tags:
         - name: release:independent
+    - repo: openstack/networking-ofagent
+      tags:
+        - name: release:independent
     - repo: openstack/networking-ovn
       tags:
         - name: release:independent
