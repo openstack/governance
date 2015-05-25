@@ -341,9 +341,10 @@ Ironic:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
-    - repo: openstack/ironic-discoverd
+    - repo: openstack/ironic-inspector
       tags:
         - name: release:independent
+        - name: release:has-stable-branches
     - repo: openstack/ironic-lib
       tags:
         - name: release:independent
@@ -355,6 +356,9 @@ Ironic:
       tags:
         - name: release:independent
         - name: release:has-stable-branches
+    - repo: openstack/python-ironic-inspector-client
+      tags:
+        - name: release:independent
 
 Oslo:
   ptl: Davanum Srinivas (dims)
