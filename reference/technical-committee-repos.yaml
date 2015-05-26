@@ -3,3 +3,4 @@ Technical Committee:
   - repo: openstack/governance
   - repo: openstack/openstack-specs
   - repo: openstack/api-wg
+  - repo: openstack/project-team-guide
