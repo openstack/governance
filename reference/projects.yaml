@@ -1034,3 +1034,60 @@ PuppetOpenStack:
     - repo: openstack/puppet-vswitch
       tags:
         - name: release:independent
+
+ChefOpenstack:
+  ptl: JJ Asghar (j^2)
+  service: Chef cookbooks for the OpenStack components
+  mission: >
+    The Chef cookbooks for OpenStack allow to automate the building, operation
+    and consumption of OpenStack cloud deployments.
+  url: https://wiki.openstack.org/wiki/Chef
+  projects:
+    - repo: openstack/cookbook-openstack-bare-metal
+      tags:
+        - name: release:independent
+    - repo: openstack/cookbook-openstack-block-storage
+      tags:
+        - name: release:independent
+    - repo: openstack/cookbook-openstack-client
+      tags:
+        - name: release:independent
+    - repo: openstack/cookbook-openstack-common
+      tags:
+        - name: release:independent
+    - repo: openstack/cookbook-openstack-compute
+      tags:
+        - name: release:independent
+    - repo: openstack/cookbook-openstack-dashboard
+      tags:
+        - name: release:independent
+    - repo: openstack/cookbook-openstack-data-processing
+      tags:
+        - name: release:independent
+    - repo: openstack/cookbook-openstack-image
+      tags:
+        - name: release:independent
+    - repo: openstack/cookbook-openstack-integration-test
+      tags:
+        - name: release:independent
+    - repo: openstack/cookbook-openstack-network
+      tags:
+        - name: release:independent
+    - repo: openstack/cookbook-openstack-object-storage
+      tags:
+        - name: release:independent
+    - repo: openstack/cookbook-openstack-ops-messaging
+      tags:
+        - name: release:independent
+    - repo: openstack/cookbook-openstack-ops-database
+      tags:
+        - name: release:independent
+    - repo: openstack/cookbook-openstack-orchestration
+      tags:
+        - name: release:independent
+    - repo: openstack/cookbook-openstack-telemetry
+      tags:
+        - name: release:independent
+    - repo: openstack/openstack-chef-repo
+      tags:
+        - name: release:independent
