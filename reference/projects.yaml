@@ -190,6 +190,9 @@ Neutron:
       tags:
         - name: release:independent
         - name: release:has-stable-branches
+    - repo: openstack/networking-bgpvpn
+      tags:
+        - name: release:independent
     - repo: openstack/networking-l2gw
       tags:
         - name: release:independent
