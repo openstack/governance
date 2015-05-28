@@ -551,6 +551,7 @@ Infrastructure:
     - repo: openstack-infra/puppet-openstackid
     - repo: openstack-infra/puppet-packagekit
     - repo: openstack-infra/puppet-pgsql_backup
+    - repo: openstack-infra/puppet-phabricator
     - repo: openstack-infra/puppet-pip
     - repo: openstack-infra/puppet-planet
     - repo: openstack-infra/puppet-project_config
