@@ -808,7 +808,7 @@ Designate:
         - name: release:has-stable-branches
 
 Magnum:
-  ptl: Adrian Otto (aotto)
+  ptl: Adrian Otto (adrian_otto)
   service: Containers service
   mission: >
     To provide a set of services for management of application containers
