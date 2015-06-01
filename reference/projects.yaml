@@ -370,6 +370,10 @@ Oslo:
   tags:
     - name: team:diverse-affiliation
   projects:
+    - repo: openstack/automaton
+      tags:
+        - name: release:independent
+        - name: release:has-stable-branches
     - repo: openstack/debtcollector
       tags:
         - name: release:independent
