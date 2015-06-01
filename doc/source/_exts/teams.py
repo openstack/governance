@@ -55,13 +55,17 @@ def _team_to_rst(name, info):
     yield 'Repositories and Tags'
     yield '---------------------'
     yield ''
-    for project in info.get('projects', []):
-        yield '- :repo:`%s`' % project['repo']
-        tags = project.get('tags', [])
-        if tags is not []:
-            yield ''
-        for tag in tags:
-            yield '  - :ref:`tag-%s`' % tag['name']
+    project_repos = info.get('projects', [])
+    if project_repos:
+        for project in project_repos:
+            yield '- :repo:`%s`' % project['repo']
+            tags = project.get('tags', [])
+            if tags is not []:
+                yield ''
+            for tag in tags:
+                yield '  - :ref:`tag-%s`' % tag['name']
+    else:
+        yield 'None'
     yield ''
     yield 'Extra ATCs'
     yield '-----------'
