@@ -4,6 +4,7 @@
 
 .. toctree::
    :maxdepth: 1
+   :glob:
 
    integrated-release
    release_independent
@@ -11,3 +12,4 @@
    release_has-stable-branches
    release_managed
    team_diverse-affiliation
+   tc-approved-release
