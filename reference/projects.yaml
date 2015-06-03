@@ -507,6 +507,7 @@ Infrastructure:
     - repo: openstack-infra/gitdm
     - repo: openstack-infra/git-review
     - repo: openstack-infra/glean
+    - repo: openstack-infra/grafyaml
     - repo: openstack-infra/groups
     - repo: openstack-infra/groups-static-pages
     - repo: openstack-infra/infra-manual
