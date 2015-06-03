@@ -847,6 +847,10 @@ Manila:
       tags:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+    - repo: openstack/manila-image-elements
+      tags:
+        - name: release:independent
+        - name: release:has-stable-branches
     - repo: openstack/python-manilaclient
       tags:
         - name: release:independent
