@@ -1119,3 +1119,12 @@ I18n:
   url: https://wiki.openstack.org/wiki/I18nTeam
   projects: []
 
+Searchlight:
+  ptl: Travis Tripp (TravT) & Nikhil Komawar (nikhil_k)
+  service: OpenStack Search Service
+  mission: >
+    To provide advanced and scalable indexing and search across multi-tenant
+    cloud resources.
+  url: https://wiki.openstack.org/wiki/Searchlight
+  projects:
+    - repo: openstack/searchlight
