@@ -14,6 +14,16 @@ The integrated-release tag describes projects that were "integrated"
 in the previous project structure.
 
 
+Application to current projects
+===============================
+
+The following code repositories would get the proposed tag. Those match the
+contents of the Kilo release as decided at the end of the Juno cycle, and
+take into account the recent Neutron advanced services code split:
+
+.. tagged-projects:: integrated-release
+
+
 Rationale
 =========
 
@@ -60,13 +70,3 @@ since
 This attribute describes the development cycle where the project was first
 fully integrated (and therefore the first release name where the project was
 included). Example values: folsom, kilo
-
-
-Application to current projects
-===============================
-
-The following code repositories would get the proposed tag. Those match the
-contents of the Kilo release as decided at the end of the Juno cycle, and
-take into account the recent Neutron advanced services code split:
-
-.. tagged-projects:: integrated-release

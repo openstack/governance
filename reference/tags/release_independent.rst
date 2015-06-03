@@ -17,6 +17,12 @@ any other project. Releasing in this fashion doesn't prevent projects from
 also releasing a "final" release at the end of a development cycle.
 
 
+Application to current projects
+===============================
+
+.. tagged-projects:: release:independent
+
+
 Rationale
 =========
 
@@ -49,9 +55,3 @@ Attributes
 ==========
 
 Tags in the "release" category do not use attributes.
-
-
-Application to current projects
-===============================
-
-.. tagged-projects:: release:independent

@@ -21,6 +21,12 @@ libraries. They are cut from the last release in the cycle for a given code
 repository.
 
 
+Application to current projects
+===============================
+
+.. tagged-projects:: release:has-stable-branches
+
+
 Rationale
 =========
 
@@ -59,9 +65,3 @@ Attributes
 ==========
 
 Tags in the "release" category do not use attributes.
-
-
-Application to current projects
-===============================
-
-.. tagged-projects:: release:has-stable-branches

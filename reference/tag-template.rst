@@ -24,6 +24,18 @@ proposed-tag-name (should match the tags/proposed-tag-name.rst filename)
 Introduction paragraph -- a short summary of what this tag will mean.
 
 
+Application to current projects
+===============================
+
+As part of the application you need to go through the exercise of applying
+the proposed tag to at least some subset of the current project list. This
+will serve as an example of how the tag should be applied in the real world.
+You may also submit (as a subsequent change) the corresponding governance
+change to immediately apply the proposed tag to projects.
+
+.. tagged-projects:: <tag name>
+
+
 Rationale
 =========
 
@@ -81,15 +93,3 @@ example-attribute
 
 Description of the example-attribute tag attribute, and of the values it may
 take.
-
-
-Application to current projects
-===============================
-
-As part of the application you need to go through the exercise of applying
-the proposed tag to at least some subset of the current project list. This
-will serve as an example of how the tag should be applied in the real world.
-You may also submit (as a subsequent change) the corresponding governance
-change to immediately apply the proposed tag to projects.
-
-.. tagged-projects:: <tag name>
