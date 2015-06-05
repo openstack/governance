@@ -532,6 +532,7 @@ Infrastructure:
     - repo: openstack-infra/puppet-accessbot
     - repo: openstack-infra/puppet-ansible
     - repo: openstack-infra/puppet-apparmor
+    - repo: openstack-infra/puppet-apps_site
     - repo: openstack-infra/puppet-askbot
     - repo: openstack-infra/puppet-asterisk
     - repo: openstack-infra/puppet-bandersnatch
