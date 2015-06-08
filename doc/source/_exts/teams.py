@@ -21,6 +21,9 @@ from sphinx.util.nodes import nested_parse_with_titles
 import projects
 
 
+IRC_LOG_URL_BASE = 'http://eavesdrop.openstack.org/irclogs/%23'
+
+
 def _team_to_rst(name, info):
     yield '.. _project-%s:' % projects.slugify(name)
     yield ''
@@ -30,6 +33,10 @@ def _team_to_rst(name, info):
     yield ''
     yield ':Home Page: ' + info.get('url', '')
     yield ':PTL: ' + info.get('ptl', '')
+    irc_channel = info.get('irc-channel')
+    if irc_channel:
+        yield ':IRC Channel: `#%s <%s%s>`__' % (
+            irc_channel, IRC_LOG_URL_BASE, irc_channel)
     service = info.get('service')
     if service:
         yield ':Service: ' + service

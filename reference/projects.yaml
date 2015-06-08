@@ -1,5 +1,6 @@
 Nova:
   ptl: John Garbutt (johnthetubaguy)
+  irc-channel: openstack-nova
   service: Compute
   mission: >
     To implement services and associated libraries to provide massively
@@ -24,6 +25,7 @@ Nova:
 
 Swift:
   ptl: John Dickinson (notmyname)
+  irc-channel: openstack-swift
   service: Object Storage
   url: https://wiki.openstack.org/wiki/Swift
   tags:
@@ -48,6 +50,7 @@ Swift:
 
 Glance:
   ptl: Nikhil Komawar (nikhil_k)
+  irc-channel: openstack-glance
   service: Image service
   mission: >
     To provide a service where users can upload and discover data assets that
@@ -76,6 +79,7 @@ Glance:
 
 Keystone:
   ptl: Morgan Fainberg (morganfainberg)
+  irc-channel: openstack-keystone
   service: Identity
   mission: >
     To facilitate API client authentication, service discovery, distributed
@@ -116,6 +120,7 @@ Keystone:
 
 Horizon:
   ptl: David Lyle (david-lyle)
+  irc-channel: openstack-horizon
   service: Dashboard
   mission: >
     To provide an extensible unified web based user interface for all
@@ -149,6 +154,7 @@ Horizon:
 
 Neutron:
   ptl: Kyle Mestery (mestery)
+  irc-channel: openstack-neutron
   service: Networking
   mission: >
     To implement services and associated libraries to provide on-demand,
@@ -220,6 +226,7 @@ Neutron:
 
 Cinder:
   ptl: Mike Perez (thingee)
+  irc-channel: openstack-cinder
   service: Block Storage
   mission: >
     To implement services and libraries to provide on-demand, self-service
@@ -247,6 +254,7 @@ Cinder:
 
 Ceilometer:
   ptl : Gordon Chung (gordc)
+  irc-channel: openstack-ceilometer
   service: Telemetry
   url: https://wiki.openstack.org/wiki/Ceilometer
   mission: >
@@ -277,6 +285,7 @@ Ceilometer:
 
 Heat:
   ptl: Steve Baker (stevebaker)
+  irc-channel: heat
   service: Orchestration
   url: https://wiki.openstack.org/wiki/Heat
   mission: >
@@ -306,6 +315,7 @@ Heat:
 
 Trove:
   ptl: Nikhil Manchanda (SlickNik)
+  irc-channel: openstack-trove
   service: Database service
   mission: >
     To provide scalable and reliable Cloud Database as a Service functionality
@@ -329,6 +339,7 @@ Trove:
 
 Ironic:
   ptl: Devananda van der Veen (devananda)
+  irc-channel: openstack-ironic
   service: Bare metal service
   mission: >
     To produce an OpenStack service and associated python libraries capable of
@@ -368,6 +379,7 @@ Ironic:
 
 Oslo:
   ptl: Davanum Srinivas (dims)
+  irc-channel: openstack-oslo
   service: Common libraries
   mission: >
     To produce a set of python libraries containing code shared by OpenStack
@@ -488,6 +500,7 @@ Oslo:
 
 Infrastructure:
   ptl: James E. Blair (jeblair)
+  irc-channel: openstack-infra
   url: http://docs.openstack.org/infra/system-config/
   mission: >
     Develop and maintain the tooling and infrastructure needed to support the
@@ -617,6 +630,7 @@ Infrastructure:
 
 Documentation:
   ptl: Lana Brindley (loquacities)
+  irc-channel: openstack-doc
   mission: >
     Provide documentation for core OpenStack projects to promote OpenStack.
     Develop and maintain tools and processes to ensure quality, accurate
@@ -642,6 +656,7 @@ Documentation:
 
 Quality Assurance:
   ptl: Matthew Treinish (mtreinish)
+  irc-channel: openstack-qa
   mission: >
     Develop, maintain, and initiate tools and plans to ensure the upstream
     stability and quality of OpenStack, and its release readiness at any point
@@ -671,6 +686,7 @@ Quality Assurance:
 
 TripleO:
   ptl: James Slagle (slagle)
+  irc-channel: tripleo
   service: Deployment
   mission: >
     Develop and maintain tooling and infrastructure able to deploy OpenStack in
@@ -719,6 +735,7 @@ TripleO:
 
 Release cycle management:
   ptl: Thierry Carrez (ttx)
+  irc-channel: openstack-relmgr-office
   mission: >
     To organize the release cycle and the work necessary to produce coordinated
     releases of the integrated components of OpenStack. To collect bugfix
@@ -734,6 +751,7 @@ Release cycle management:
 
 Zaqar:
   ptl: Flavio Percoco (flaper87)
+  irc-channel: openstack-zaqar
   service: Message service
   mission: >
     To produce an OpenStack messaging service that affords a
@@ -754,6 +772,7 @@ Zaqar:
 
 Sahara:
   ptl: Sergey Lukjanov (SergeyLukjanov)
+  irc-channel: openstack-sahara
   service: Data processing service
   mission: >
     To provide a scalable data processing stack and associated management
@@ -784,6 +803,7 @@ Sahara:
 
 Barbican:
   ptl: Douglas Mendizabal (redrobot)
+  irc-channel: openstack-barbican
   service: Key management service
   mission: >
     To produce a secret storage and generation system capable of providing key
@@ -823,6 +843,7 @@ Designate:
 
 Magnum:
   ptl: Adrian Otto (adrian_otto)
+  irc-channel: magnum
   service: Containers service
   mission: >
     To provide a set of services for management of application containers
@@ -840,6 +861,7 @@ Magnum:
 
 Manila:
   ptl: Ben Swartzlander (bswartz)
+  irc-channel: openstack-manila
   service: Shared file systems
   mission: >
     To provide a set of services for management of shared file systems
@@ -860,6 +882,7 @@ Manila:
 
 Murano:
   ptl: Serg Melikyan (smelikyan)
+  irc-channel: murano
   service: Application catalog
   mission: >
     To provide an application catalog service so that users can compose and
@@ -891,6 +914,7 @@ Murano:
 
 OpenStackClient:
   ptl: Dean Troyer (dtroyer)
+  irc-channel: openstack-sdks
   service: command line client
   mission: >
     Provide a single command line interface for OpenStack services with a
@@ -911,6 +935,7 @@ OpenStackClient:
 
 Congress:
   ptl: Tim Hinrichs (thinrichs)
+  irc-channel: congress
   service: Governance service
   mission: >
     To provide governance as a service across any collection of cloud
@@ -942,6 +967,7 @@ Security:
 
 Rally:
   ptl: Boris Pavlovic (boris-42)
+  irc-channel: openstack-rally
   service: Benchmark service
   mission: >
     To provide a framework for performance analysis and benchmarking of
@@ -953,6 +979,7 @@ Rally:
 
 Mistral:
   ptl: Renat Akhmerov (rakhmerov)
+  irc-channel: openstack-mistral
   service: Workflow service
   mission: >
     Provide a simple YAML-based language to write workflows (tasks and transition rules)
