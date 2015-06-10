@@ -202,6 +202,9 @@ Neutron:
     - repo: openstack/networking-l2gw
       tags:
         - name: release:independent
+    - repo: openstack/networking-midonet
+      tags:
+        - name: release:independent
     - repo: openstack/networking-odl
       tags:
         - name: release:independent
