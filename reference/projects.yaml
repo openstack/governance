@@ -596,6 +596,7 @@ Infrastructure:
     - repo: openstack-infra/puppet-snmpd
     - repo: openstack-infra/puppet-ssh
     - repo: openstack-infra/puppet-ssl_cert_check
+    - repo: openstack-infra/puppet-stackalytics
     - repo: openstack-infra/puppet-statusbot
     - repo: openstack-infra/puppet-storyboard
     - repo: openstack-infra/puppet-subunit2sql
