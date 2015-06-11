@@ -1296,3 +1296,15 @@ Solum:
     - repo: openstack/python-solumclient
       tags:
         - name: release:independent
+
+Cue:
+  ptl: Vipul Sabhaya (vipul)
+  service: Message Broker Service
+  mission: >
+    To provide a multi-tenant service that offers scalable and reliable
+    provisioning and management capabilities for off-the-shelf message brokers.
+  url: https://wiki.openstack.org/wiki/Cue
+  projects:
+    - repo: openstack/cue
+    - repo: openstack/python-cueclient
+    - repo: openstack/cue-dashboard
