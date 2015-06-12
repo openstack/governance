@@ -1158,7 +1158,7 @@ I18n:
 
 Searchlight:
   ptl: Travis Tripp (TravT) & Nikhil Komawar (nikhil_k)
-  service: OpenStack Search Service
+  service: Search service
   mission: >
     To provide advanced and scalable indexing and search across multi-tenant
     cloud resources.
