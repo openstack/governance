@@ -23,6 +23,7 @@ Nova:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/nova-specs
 
 Swift:
@@ -47,6 +48,7 @@ Swift:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/swift-bench
       tags:
         - name: release:independent
@@ -78,11 +80,13 @@ Glance:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/glance_store
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
 
 Keystone:
   ptl: Morgan Fainberg (morganfainberg)
@@ -107,22 +111,26 @@ Keystone:
       tags:
         - name: release:independent
         - name: type:library
+        - name: release:managed
     - repo: openstack/keystone-specs
     - repo: openstack/python-keystoneclient
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/keystonemiddleware
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/pycadf
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/python-keystoneclient-kerberos
       tags:
         - name: release:independent
@@ -156,6 +164,7 @@ Horizon:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/django-openstack-auth-kerberos
       tags:
         - name: release:independent
@@ -218,6 +227,7 @@ Neutron:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/networking-bgpvpn
       tags:
         - name: release:independent
@@ -281,10 +291,12 @@ Cinder:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/os-brick
       tags:
         - name: release:independent
         - name: type:library
+        - name: release:managed
 
 Ceilometer:
   ptl : Gordon Chung (gordc)
@@ -311,11 +323,13 @@ Ceilometer:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/ceilometermiddleware
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/gnocchi
       tags:
         - name: release:independent
@@ -347,6 +361,7 @@ Heat:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/heat-cfntools
       tags:
         - name: release:independent
@@ -378,6 +393,7 @@ Trove:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/trove-integration
     - repo: openstack/trove-specs
 
@@ -412,6 +428,7 @@ Ironic:
       tags:
         - name: release:independent
         - name: type:library
+        - name: release:managed
     - repo: openstack/ironic-python-agent
       tags:
         - name: release:independent
@@ -422,10 +439,12 @@ Ironic:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/python-ironic-inspector-client
       tags:
         - name: release:independent
         - name: type:library
+        - name: release:managed
 
 Oslo:
   ptl: Davanum Srinivas (dims)
@@ -449,16 +468,19 @@ Oslo:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/futurist
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/mox3
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslo-incubator
       tags:
         - name: release:has-stable-branches
@@ -468,116 +490,139 @@ Oslo:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslo.concurrency
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslo.config
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslo.context
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslo.db
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslo.i18n
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslo.log
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslo.messaging
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslo.middleware
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslo.policy
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslo.rootwrap
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslo.serialization
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslo.service
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslo.utils
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslo.versionedobjects
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslo.vmware
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslosphinx
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/oslotest
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/pylockfile
       tags:
         - name: release:independent
         - name: type:library
+        - name: release:managed
     - repo: openstack/stevedore
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/taskflow
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/tooz
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack-dev/cookiecutter
     - repo: openstack-dev/oslo-cookiecutter
     - repo: openstack-dev/pbr
       tags:
         - name: release:independent
         - name: type:library
+        - name: release:managed
 
 Infrastructure:
   ptl: James E. Blair (jeblair)
@@ -734,6 +779,7 @@ Documentation:
       tags:
         - name: release:independent
         - name: type:library
+        - name: release:managed
     - repo: openstack/operations-guide
     - repo: openstack/training-guides
 
@@ -881,6 +927,7 @@ Sahara:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/sahara-dashboard
       tags:
         - name: type:library
@@ -1043,11 +1090,13 @@ OpenStackClient:
       tags:
         - name: release:independent
         - name: release:has-stable-branches
+        - name: release:managed
     - repo: openstack/cliff
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
+        - name: release:managed
     - repo: openstack/os-client-config
       tags:
         - name: release:independent
