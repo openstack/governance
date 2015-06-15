@@ -17,6 +17,7 @@ Nova:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/python-novaclient
       tags:
         - name: release:independent
@@ -40,6 +41,7 @@ Swift:
         - name: release:independent
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/python-swiftclient
       tags:
         - name: release:independent
@@ -69,6 +71,7 @@ Glance:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/glance-specs
     - repo: openstack/python-glanceclient
       tags:
@@ -99,6 +102,7 @@ Keystone:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/keystoneauth
       tags:
         - name: release:independent
@@ -146,6 +150,7 @@ Horizon:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/django_openstack_auth
       tags:
         - name: release:independent
@@ -182,6 +187,7 @@ Neutron:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/neutron-fwaas
       tags:
         - name: integrated-release
@@ -189,6 +195,7 @@ Neutron:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/neutron-lbaas
       tags:
         - name: integrated-release
@@ -196,6 +203,7 @@ Neutron:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/neutron-vpnaas
       tags:
         - name: integrated-release
@@ -203,6 +211,7 @@ Neutron:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/neutron-specs
     - repo: openstack/python-neutronclient
       tags:
@@ -262,6 +271,7 @@ Cinder:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/cinder-specs
     - repo: openstack/python-cinderclient
       tags:
@@ -291,6 +301,7 @@ Ceilometer:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/ceilometer-specs
     - repo: openstack/python-ceilometerclient
       tags:
@@ -324,6 +335,7 @@ Heat:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/python-heatclient
       tags:
         - name: release:independent
@@ -354,6 +366,7 @@ Trove:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/python-troveclient
       tags:
         - name: release:independent
@@ -383,10 +396,12 @@ Ironic:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/ironic-inspector
       tags:
         - name: release:independent
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/ironic-lib
       tags:
         - name: release:independent
@@ -394,6 +409,7 @@ Ironic:
     - repo: openstack/ironic-python-agent
       tags:
         - name: release:independent
+        - name: type:service
     - repo: openstack/ironic-specs
     - repo: openstack/python-ironicclient
       tags:
@@ -829,6 +845,7 @@ Zaqar:
       tags:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/zaqar-specs
     - repo: openstack/python-zaqarclient
       tags:
@@ -852,6 +869,7 @@ Sahara:
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/python-saharaclient
       tags:
         - name: release:independent
@@ -883,6 +901,7 @@ Barbican:
       tags:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/barbican-specs
     - repo: openstack/castellan
       tags:
@@ -894,6 +913,8 @@ Barbican:
         - name: release:has-stable-branches
         - name: type:library
     - repo: openstack/kite
+      tags:
+        - name: type:service
     - repo: openstack/python-kiteclient
       tags:
         - name: type:library
@@ -910,6 +931,7 @@ Designate:
       tags:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/designate-dashboard
       tags:
         - name: type:library
@@ -934,6 +956,7 @@ Magnum:
     - repo: openstack/magnum
       tags:
         - name: release:independent
+        - name: type:service
     - repo: openstack/python-magnumclient
       tags:
         - name: release:independent
@@ -955,6 +978,7 @@ Manila:
       tags:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/manila-image-elements
       tags:
         - name: release:independent
@@ -979,6 +1003,7 @@ Murano:
       tags:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/murano-dashboard
       tags:
         - name: release:at-6mo-cycle-end
@@ -1035,6 +1060,7 @@ Congress:
     - repo: openstack/congress
       tags:
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/python-congressclient
       tags:
         - name: type:library
@@ -1079,6 +1105,8 @@ Mistral:
   url: https://wiki.openstack.org/wiki/Mistral
   projects:
     - repo: openstack/mistral
+      tags:
+        - name: type:service
     - repo: openstack/mistral-dashboard
       tags:
         - name: type:library
@@ -1098,6 +1126,7 @@ MagnetoDB:
       tags:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/python-magnetodbclient
       tags:
         - name: release:independent
@@ -1266,6 +1295,8 @@ Searchlight:
   url: https://wiki.openstack.org/wiki/Searchlight
   projects:
     - repo: openstack/searchlight
+      tags:
+        - name: type:service
 
 OpenStackAnsible:
   ptl: Kevin Carter (cloudnull)
@@ -1293,6 +1324,7 @@ Solum:
     - repo: openstack/solum
       tags:
         - name: release:independent
+        - name: type:service
     - repo: openstack/python-solumclient
       tags:
         - name: release:independent

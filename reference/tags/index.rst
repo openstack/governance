@@ -15,3 +15,4 @@
    team_diverse-affiliation
    tc-approved-release
    type_library
+   type_service
