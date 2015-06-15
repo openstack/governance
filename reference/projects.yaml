@@ -199,6 +199,9 @@ Neutron:
     - repo: openstack/networking-bgpvpn
       tags:
         - name: release:independent
+    - repo: openstack/networking-cisco
+      tags:
+        - name: release:independent
     - repo: openstack/networking-l2gw
       tags:
         - name: release:independent
