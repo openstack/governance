@@ -839,6 +839,7 @@ Designate:
       tags:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+    - repo: openstack/designate-dashboard
     - repo: openstack/designate-specs
     - repo: openstack/python-designateclient
       tags:
