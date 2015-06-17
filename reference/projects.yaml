@@ -944,6 +944,9 @@ Magnum:
       tags:
         - name: release:independent
         - name: type:library
+    - repo: openstack/magnum-ui
+      tags:
+        - name: release:independent
 
 Manila:
   ptl: Ben Swartzlander (bswartz)
