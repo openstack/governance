@@ -114,7 +114,7 @@ Keystone:
     - repo: openstack/python-keystoneclient-kerberos
       tags:
         - name: release:independent
-    - repo: openstack/python-keystoneclient-saml2
+    - repo: openstack/keystoneauth-saml2
       tags:
         - name: release:independent
 
