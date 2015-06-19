@@ -11,6 +11,11 @@
   http://sphinx-doc.org/rest.html To test out your formatting, see
   http://www.tele3.cz/jbar/rest/rest.html
 
+.. Modify the next line to replace <proposed-tag-name> with the tag
+   name, then remove this comment.
+
+.. _`tag-<proposed-tag-name>`:
+
 ========================================================================
 proposed-tag-name (should match the tags/proposed-tag-name.rst filename)
 ========================================================================
