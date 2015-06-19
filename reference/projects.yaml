@@ -1128,6 +1128,12 @@ ChefOpenstack:
     - repo: openstack/cookbook-openstack-data-processing
       tags:
         - name: release:independent
+    - repo: openstack/cookbook-openstack-database
+      tags:
+        - name: release:independent
+    - repo: openstack/cookbook-openstack-identity
+      tags:
+        - name: release:independent
     - repo: openstack/cookbook-openstack-image
       tags:
         - name: release:independent
@@ -1150,6 +1156,9 @@ ChefOpenstack:
       tags:
         - name: release:independent
     - repo: openstack/cookbook-openstack-telemetry
+      tags:
+        - name: release:independent
+    - repo: openstack/openstack-chef-specs
       tags:
         - name: release:independent
     - repo: openstack/openstack-chef-repo
