@@ -552,6 +552,11 @@ Oslo:
         - name: release:has-stable-branches
         - name: type:library
         - name: release:managed
+    - repo: openstack/oslo.reports
+      tags:
+        - name: release:independent
+        - name: release:has-stable-branches
+        - name: type:library
     - repo: openstack/oslo.rootwrap
       tags:
         - name: release:independent
