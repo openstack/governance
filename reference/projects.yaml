@@ -229,6 +229,9 @@ Neutron:
     - repo: openstack/vmware-nsx
       tags:
         - name: release:independent
+    - repo: openstack/python-neutron-pd-driver
+      tags:
+        - name: release:independent
 
 Cinder:
   ptl: Mike Perez (thingee)
