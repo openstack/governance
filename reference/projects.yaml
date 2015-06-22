@@ -518,8 +518,8 @@ Infrastructure:
   projects:
     - repo: openstack-dev/openstack-nose
     - repo: openstack-infra/activity-board
-    - repo: openstack-infra/ansible-puppet
     - repo: openstack-infra/ansible-build-image
+    - repo: openstack-infra/ansible-puppet
     - repo: openstack-infra/askbot-theme
     - repo: openstack-infra/bindep
     - repo: openstack-infra/bugdaystats
@@ -530,8 +530,8 @@ Infrastructure:
     - repo: openstack-infra/gerrit
     - repo: openstack-infra/gerritbot
     - repo: openstack-infra/gerritlib
-    - repo: openstack-infra/gitdm
     - repo: openstack-infra/git-review
+    - repo: openstack-infra/gitdm
     - repo: openstack-infra/glean
     - repo: openstack-infra/grafyaml
     - repo: openstack-infra/groups
@@ -592,6 +592,7 @@ Infrastructure:
     - repo: openstack-infra/puppet-openafs
     - repo: openstack-infra/puppet-openstackci
     - repo: openstack-infra/puppet-openstackid
+    - repo: openstack-infra/puppet-os_client_config
     - repo: openstack-infra/puppet-packagekit
     - repo: openstack-infra/puppet-pgsql_backup
     - repo: openstack-infra/puppet-phabricator
