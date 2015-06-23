@@ -1182,3 +1182,16 @@ Searchlight:
   url: https://wiki.openstack.org/wiki/Searchlight
   projects:
     - repo: openstack/searchlight
+
+OpenStackAnsible:
+  ptl: Kevin Carter (cloudnull)
+  service: Ansible Playbooks and Roles for the deployment of OpenStack
+  mission: >
+    Deploying OpenStack from source in a way that makes it scalable
+    while also being simple to operate, upgrade, and grow.
+  url: https://wiki.openstack.org/wiki/OpenStackAnsible
+  projects:
+    - repo: openstack/openstack-ansible
+      tags:
+        - name: release:independent
+    - repo: openstack/openstack-ansible-specs
