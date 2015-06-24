@@ -231,6 +231,9 @@ Neutron:
         - name: release:has-stable-branches
         - name: type:library
         - name: release:managed
+    - repo: openstack/networking-arista
+      tags:
+        - name: release:independent
     - repo: openstack/networking-bgpvpn
       tags:
         - name: release:independent
