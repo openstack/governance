@@ -1279,3 +1279,20 @@ OpenStackAnsible:
       tags:
         - name: release:independent
     - repo: openstack/openstack-ansible-specs
+
+Solum:
+  ptl: Adrian Otto (adrian_otto)
+  irc-channel: solum
+  service: Software Development Lifecycle Automation
+  mission: >
+    To make cloud services easier to consume and integrate with your
+    application development process by automating the source-to-image
+    process, and simplifying app-centric deployment.
+  url: https://wiki.openstack.org/wiki/Solum
+  projects:
+    - repo: openstack/solum
+      tags:
+        - name: release:independent
+    - repo: openstack/python-solumclient
+      tags:
+        - name: release:independent
