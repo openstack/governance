@@ -1151,6 +1151,7 @@ PuppetOpenStack:
     - repo: openstack/puppet-openstacklib
       tags:
         - name: release:independent
+    - repo: openstack/puppet-openstack-cookiecutter
     - repo: openstack/puppet-openstack-specs
       tags:
         - name: release:independent
