@@ -747,6 +747,9 @@ Quality Assurance:
       tags:
         - name: type:library
     - repo: openstack-dev/bashate
+    - repo: openstack/eslint-config-openstack
+      tags:
+        - name: release:independent
 
 TripleO:
   ptl: James Slagle (slagle)
