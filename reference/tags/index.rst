@@ -14,3 +14,4 @@
    release_managed
    team_diverse-affiliation
    tc-approved-release
+   type_library
