@@ -1178,6 +1178,9 @@ PuppetOpenStack:
     - repo: openstack/puppet-vswitch
       tags:
         - name: release:independent
+    - repo: openstack/puppet-zaqar
+      tags:
+        - name: release:independent
 
 ChefOpenstack:
   ptl: JJ Asghar (j^2)
