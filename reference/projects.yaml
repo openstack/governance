@@ -18,6 +18,7 @@ Nova:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
         - name: type:service
+        - name: starter-kit:compute
     - repo: openstack/python-novaclient
       tags:
         - name: release:independent
@@ -72,6 +73,7 @@ Glance:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
         - name: type:service
+        - name: starter-kit:compute
     - repo: openstack/glance-specs
     - repo: openstack/python-glanceclient
       tags:
@@ -103,6 +105,7 @@ Keystone:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
         - name: type:service
+        - name: starter-kit:compute
     - repo: openstack/keystoneauth
       tags:
         - name: release:independent
@@ -275,6 +278,7 @@ Cinder:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
         - name: type:service
+        - name: starter-kit:compute
     - repo: openstack/cinder-specs
     - repo: openstack/python-cinderclient
       tags:
