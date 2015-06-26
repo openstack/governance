@@ -230,6 +230,9 @@ Neutron:
     - repo: openstack/networking-ovn
       tags:
         - name: release:independent
+    - repo: openstack/networking-sfc
+      tags:
+        - name: release:independent
     - repo: openstack/networking-vsphere
       tags:
         - name: release:independent
