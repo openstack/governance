@@ -305,6 +305,9 @@ Ceilometer:
     - repo: openstack/gnocchi
       tags:
         - name: release:independent
+    - repo: openstack/aodh
+      tags:
+        - name: release:independent
 
 Heat:
   ptl: Steve Baker (stevebaker)
