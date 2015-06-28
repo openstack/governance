@@ -97,7 +97,9 @@ How would one expand on the Starter Kit?
 
 The vision for the starter kit is it's a starting place, with function
 that nearly all clouds will eventually want to have, and then
-documented ways to expand the cloud into additional functions.
+documented ways to expand the cloud into additional functions. Where at all
+possible, expanding the Starter Kit should be a non-disruptive add rather
+than a replacement of one option for another.
 
 For instance, a Compute Starter Kit which starts with a file based
 Glance is completely suitable for a small number of base
@@ -111,6 +113,15 @@ OpenStack environment.
 The same kind of natural expansion could be done with projects such as
 Heat, Trove, Sahara and others when higher level functionality is
 desired out of their OpenStack cloud.
+
+For some things where there are natural choices, such as Nova Network
+or Neutron, it's important to keep the ability to naturally expand the cloud
+over time in mind. While Nova Network simpler to set up and run, the
+transition to a Neutron-based cloud is not the same as swapping out a
+Glance storage backend. It is for that reason that the starter-kit
+recommends starting with Neutron configured for Provider Networks
+with Linux Bridge as a simple enough configuration which still has the
+possibility to add more complex SDN backends at a later date.
 
 Doesn't this conflate multiple compute use cases?
 -------------------------------------------------

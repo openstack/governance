@@ -197,6 +197,7 @@ Neutron:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
         - name: type:service
+        - name: starter-kit:compute
     - repo: openstack/neutron-fwaas
       tags:
         - name: release:managed
