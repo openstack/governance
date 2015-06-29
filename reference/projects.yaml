@@ -833,6 +833,7 @@ Release cycle management:
     branch.
   url: https://wiki.openstack.org/wiki/Release_Cycle_Management
   projects:
+    - repo: openstack/releases
     - repo: openstack/requirements
       tags:
         - name: release:has-stable-branches
