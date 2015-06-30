@@ -41,6 +41,21 @@ following steps:
    This information will be communicated during the election, but the
    names will not be removed from the poll.
 
+#. After the close of nominations, the election official will finalize
+   the list of proposed names and publicize it.  In general, the
+   official should strive to make objective determinations as to
+   whether a name meets the `Release Name Criteria`_, but if
+   subjective evaluation is required, should be generous in
+   interpreting the rules.  It is not necessary to reduce the list of
+   proposed names to a small number.
+
+#. Once the list is finalized and publicized, a one-week period shall
+   elapse before the start of the election so that any names removed
+   from consideration because they did not meet the `Release Name
+   Criteria`_ may be discussed.  Names erroneously removed may be
+   re-added during this period, and the Technical Committee may vote
+   to add exceptional names (which do not meet the standard criteria).
+
 #. A Condorcet election is held among all OpenStack Foundation
    Individual Members to rank the names.  The poll will include the
    names along with any links to mailing list discussions provided by
@@ -71,7 +86,9 @@ being chosen.
 
 #. The name must refer to the physical or human geography of the
    region encompassing the location of the OpenStack design summit for
-   the corresponding release.
+   the corresponding release.  The exact boundaries of the geographic
+   region under consideration must be declared before the opening of
+   nominations, as part of the initiation of the selection process.
 
 #. The name must be a single word with a maximum of 10 characters.
    Words that describe the feature should not be included, so "Foo
@@ -87,8 +104,8 @@ opens.
 Polls
 -----
 
-=======  ============  ================  ==========  ==========
-Release  Coordinator   Nominations Open  Poll Open   Poll Close
-=======  ============  ================  ==========  ==========
-M        Monty Taylor  2015-06-01        2015-06-08  2015-06-15
-=======  ============  ================  ==========  ==========
+=======  ============  ================  ==========  ==========  =================
+Release  Coordinator   Nominations Open  Poll Open   Poll Close  Geographic Region
+=======  ============  ================  ==========  ==========  =================
+M        Monty Taylor  2015-06-01        2015-06-08  2015-06-15  N/A
+=======  ============  ================  ==========  ==========  =================
