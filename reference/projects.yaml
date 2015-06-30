@@ -900,12 +900,14 @@ Zaqar:
       tags:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: release:managed
         - name: type:service
     - repo: openstack/zaqar-specs
     - repo: openstack/python-zaqarclient
       tags:
         - name: release:independent
         - name: release:has-stable-branches
+        - name: release:managed
         - name: type:library
 
 Sahara:
@@ -957,6 +959,7 @@ Barbican:
       tags:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: release:managed
         - name: type:service
     - repo: openstack/barbican-specs
     - repo: openstack/castellan
@@ -967,6 +970,7 @@ Barbican:
       tags:
         - name: release:independent
         - name: release:has-stable-branches
+        - name: release:managed
         - name: type:library
     - repo: openstack/kite
       tags:
@@ -987,6 +991,7 @@ Designate:
       tags:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: release:managed
         - name: type:service
     - repo: openstack/designate-dashboard
       tags:
@@ -996,6 +1001,7 @@ Designate:
       tags:
         - name: release:independent
         - name: release:has-stable-branches
+        - name: release:managed
         - name: type:library
 
 Magnum:
@@ -1034,6 +1040,7 @@ Manila:
       tags:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+        - name: release:managed
         - name: type:service
     - repo: openstack/manila-image-elements
       tags:
@@ -1043,6 +1050,7 @@ Manila:
       tags:
         - name: release:independent
         - name: release:has-stable-branches
+        - name: release:managed
         - name: type:library
 
 Murano:
