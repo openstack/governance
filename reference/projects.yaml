@@ -775,6 +775,8 @@ Documentation:
     - repo: openstack/openstack-doc-tools
       tags:
         - name: release:independent
+        - name: type:library
+        - name: release:managed
     - repo: openstack/openstack-manuals
       tags:
         - name: release:has-stable-branches
