@@ -2,9 +2,8 @@
  Requirements for new OpenStack Projects applications
 ======================================================
 
-Teams in OpenStack can be created as-needed and grow organically. As the team
-work matures, some technical efforts will be recognized as being part of the
-OpenStack community. By becoming an official OpenStack Project, they place
+Teams in OpenStack can be created as-needed and grow organically.
+By becoming an official OpenStack Project, they place
 themselves under the authority of the OpenStack Technical Committee. In return,
 their contributors get to vote in the Technical Committee election.
 
@@ -53,7 +52,7 @@ When considering new projects for addition, the TC will check that:
   User-facing API services should support Keystone for discovery and
   authentication.
 
-* The project should have an active team of contributors
+* The project should have an active team of one or more contributors
 
 * Once a project has joined OpenStack, it may create additional source
   code repositories as needed at the discretion of its Project Team
