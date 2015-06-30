@@ -4,12 +4,21 @@
   Unported License.
   http://creativecommons.org/licenses/by/3.0/legalcode
 
+.. _`tag-starter-kit:compute`:
+
 ===================
 compute starter kit
 ===================
 
 A common starting point for a Compute oriented OpenStack cloud that
 can be expanded over time to include more of the OpenStack universe.
+
+
+Application to current projects
+===============================
+
+
+.. tagged-projects:: starter-kit:compute
 
 
 Rationale
@@ -117,7 +126,7 @@ journey. These are people that do not yet have use cases, and probably
 won't until they experiment some with a starter kit.
 
 For those people starting their journey into cloud computing, enabling
-suppport for persistent volumes allows them to more easily transition
+support for persistent volumes allows them to more easily transition
 from virtualization or managed hosting environments and
 experiences. It also provides an easy way to get used to API driven
 ephemeral computes. This allows them to see how existing workloads
@@ -172,20 +181,17 @@ Requirements
   projects into such a deployment over time.
 
   Rationale: we'd like this to be a solid bit of 'seed corn' from
-  which a larger and richer OpenStack deployement can be built out
+  which a larger and richer OpenStack deployment can be built out
   over time. Starting small with the ability to grow helps OpenStack adoption.
 
 
 Tag application process
 =======================
 
-Under the current criteria the tag would apply to:
+The TC is responsible for maintaining the tags in the 'starter kit' category.
 
-- keystone
-- glance
-- nova (using nova-network multi host)
-- cinder
-
+There is no need to apply for addition/removal. Changes externally proposed
+will be reviewed and approved by the TC.
 
 Deprecation
 ===========
@@ -200,17 +206,6 @@ Attributes
 
 No attributes
 
-
-Application to current projects
-===============================
-
-As part of the application you need to go through the exercise of applying
-the proposed tag to at least some subset of the current project list. This
-will serve as an example of how the tag should be applied in the real world.
-You may also submit (as a subsequent change) the corresponding governance
-change to immediately apply the proposed tag to projects.
-
-.. tagged-projects:: <tag name>
 
 References
 ==========
