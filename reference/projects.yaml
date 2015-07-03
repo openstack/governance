@@ -180,6 +180,9 @@ Horizon:
       tags:
         - name: release:independent
         - name: release:has-stable-branches
+    - repo: openstack/horizon-cisco-ui
+      tags:
+        - name: release:independent
 
 Neutron:
   ptl: Kyle Mestery (mestery)
