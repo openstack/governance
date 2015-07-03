@@ -4,6 +4,8 @@
   Unported License.
   http://creativecommons.org/licenses/by/3.0/legalcode
 
+.. _`tag-tc-approved-release`:
+
 =====================
  tc-approved-release
 =====================
@@ -16,6 +18,13 @@
 This tag is used to indicate the projects the TC recommends to the
 OpenStack Foundation Board as candidates for trademark use under the
 OpenStack Foundation trademark policy.
+
+
+Application to current projects
+===============================
+
+.. tagged-projects:: tc-approved-release
+
 
 Rationale
 =========
@@ -84,11 +93,3 @@ Attributes
 ==========
 
 None
-
-Application to current projects
-===============================
-
-Initially, all projects that have the :ref:`tag-integrated-release`
-tag should be updated to also include this tag.
-
-.. tagged-projects:: tc-approved-release
