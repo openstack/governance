@@ -409,7 +409,7 @@ Ironic:
   irc-channel: openstack-ironic
   service: Bare metal service
   mission: >
-    To produce an OpenStack service and associated python libraries capable of
+    To produce an OpenStack service and associated libraries capable of
     managing and provisioning physical machines, and to do this in a
     security-aware and fault-tolerant manner.
   url: https://wiki.openstack.org/wiki/Ironic
@@ -441,6 +441,9 @@ Ironic:
         - name: release:independent
         - name: type:service
     - repo: openstack/ironic-specs
+    - repo: openstack/ironic-webclient
+      tags:
+        - name: release:independent
     - repo: openstack/python-ironicclient
       tags:
         - name: release:independent
