@@ -4,40 +4,38 @@
   Unported License.
   http://creativecommons.org/licenses/by/3.0/legalcode
 
-.. _`tag-release:independent`:
+.. _`tag-release:none`:
 
-===================
-release:independent
-===================
+============
+release:none
+============
 
 This tag is part of the release category of tags, describing the release
-model for a given deliverable. Development in OpenStack is generally organized
-around 6-month cycles (like "kilo"), which involves releasing a "final"
-version at the very end of the development cycle. However, some projects opt
-to completely bypass the 6-month cycle and release independently. That is
-for example the case of projects that support the development infrastructure.
+model for a given deliverable. Most repositories in OpenStack publish
+releases, by tagging a specific point in development using a version number.
+However, some projects (or some repositories) are not meant to be "released"
+and can opt to never publish such releases. This is for example the case of
+of specs repositories which track incoming feature design.
 
-The "release:independent" tag describes such projects.
+The "release:none" tag allows to clearly describe such repositories.
 
 
 Application to current projects
 ===============================
 
-.. tagged-projects:: release:independent
+.. tagged-projects:: release:none
 
 
 Rationale
 =========
 
-Most OpenStack projects follow our common 6-month development cycle and
-therefore commit to producing a "final" release at the end of the cycle. This
-release provides a convenient reference point for downstream teams (stable
-branch maintenance, vulnerability management) and downstream users (in
-particular packagers of OpenStack distributions).
-
-However, some projects do not need (or do not want) to follow such a cycle,
-and release completely independently. Describing which projects follow this
+Some repositories will never produce a release and are supposed to be directly
+consumed as git repositories. Describing which repositories follow this
 model is therefore a useful piece of information to provide to our users.
+"release:none" is different from having no release tag specified at all: it
+specifically expresses that the repository will not result in any release. Not
+having any release model tag just means the project hasn't clearly picked a
+model yet.
 
 A given deliverable can't have more than one model: it therefore must choose
 between the :ref:`tag-release:cycle-with-milestones`,
@@ -48,7 +46,7 @@ and :ref:`tag-release:none` models.
 Requirements
 ============
 
-* "release:independent" projects produce releases from time to time.
+* "release:none" repositories can't have a release.
 
 
 Tag application process
