@@ -12,8 +12,6 @@ Nova:
   projects:
     - repo: openstack/nova
       tags:
-        - name: integrated-release
-          since: austin
         - name: tc-approved-release
         - name: release:managed
         - name: release:at-6mo-cycle-end
@@ -38,8 +36,6 @@ Swift:
   projects:
     - repo: openstack/swift
       tags:
-        - name: integrated-release
-          since: austin
         - name: tc-approved-release
         - name: release:managed
         - name: release:independent
@@ -71,8 +67,6 @@ Glance:
   projects:
     - repo: openstack/glance
       tags:
-        - name: integrated-release
-          since: bexar
         - name: tc-approved-release
         - name: release:managed
         - name: release:at-6mo-cycle-end
@@ -106,8 +100,6 @@ Keystone:
   projects:
     - repo: openstack/keystone
       tags:
-        - name: integrated-release
-          since: essex
         - name: tc-approved-release
         - name: release:managed
         - name: release:at-6mo-cycle-end
@@ -153,15 +145,13 @@ Horizon:
   service: Dashboard
   mission: >
     To provide an extensible unified web based user interface for all
-    integrated OpenStack services.
+    OpenStack services.
   url: https://wiki.openstack.org/wiki/Horizon
   tags:
     - name: team:diverse-affiliation
   projects:
     - repo: openstack/horizon
       tags:
-        - name: integrated-release
-          since: essex
         - name: tc-approved-release
         - name: release:managed
         - name: release:at-6mo-cycle-end
@@ -202,8 +192,6 @@ Neutron:
   projects:
     - repo: openstack/neutron
       tags:
-        - name: integrated-release
-          since: folsom
         - name: tc-approved-release
         - name: release:managed
         - name: release:at-6mo-cycle-end
@@ -211,16 +199,12 @@ Neutron:
         - name: type:service
     - repo: openstack/neutron-fwaas
       tags:
-        - name: integrated-release
-          since: kilo
         - name: release:managed
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
         - name: type:service
     - repo: openstack/neutron-lbaas
       tags:
-        - name: integrated-release
-          since: kilo
         - name: tc-approved-release
         - name: release:managed
         - name: release:at-6mo-cycle-end
@@ -228,8 +212,6 @@ Neutron:
         - name: type:service
     - repo: openstack/neutron-vpnaas
       tags:
-        - name: integrated-release
-          since: kilo
         - name: tc-approved-release
         - name: release:managed
         - name: release:at-6mo-cycle-end
@@ -299,8 +281,6 @@ Cinder:
   projects:
     - repo: openstack/cinder
       tags:
-        - name: integrated-release
-          since: folsom
         - name: tc-approved-release
         - name: release:managed
         - name: release:at-6mo-cycle-end
@@ -333,8 +313,6 @@ Ceilometer:
   projects:
     - repo: openstack/ceilometer
       tags:
-        - name: integrated-release
-          since: havana
         - name: tc-approved-release
         - name: release:managed
         - name: release:at-6mo-cycle-end
@@ -373,8 +351,6 @@ Heat:
   projects:
     - repo: openstack/heat
       tags:
-        - name: integrated-release
-          since: havana
         - name: tc-approved-release
         - name: release:managed
         - name: release:at-6mo-cycle-end
@@ -406,8 +382,6 @@ Trove:
   projects:
     - repo: openstack/trove
       tags:
-        - name: integrated-release
-          since: icehouse
         - name: tc-approved-release
         - name: release:managed
         - name: release:at-6mo-cycle-end
@@ -438,8 +412,6 @@ Ironic:
     - repo: openstack/coreos-image-builder
     - repo: openstack/ironic
       tags:
-        - name: integrated-release
-          since: kilo
         - name: tc-approved-release
         - name: release:managed
         - name: release:at-6mo-cycle-end
@@ -906,7 +878,7 @@ Release cycle management:
   irc-channel: openstack-relmgr-office
   mission: >
     To organize the release cycle and the work necessary to produce coordinated
-    releases of the integrated components of OpenStack. To collect bugfix
+    releases of the various components of OpenStack. To collect bugfix
     backports and produce stable point releases for the previously-released
     branch.
   url: https://wiki.openstack.org/wiki/Release_Cycle_Management
@@ -953,8 +925,6 @@ Sahara:
   projects:
     - repo: openstack/sahara
       tags:
-        - name: integrated-release
-          since: juno
         - name: tc-approved-release
         - name: release:managed
         - name: release:at-6mo-cycle-end
