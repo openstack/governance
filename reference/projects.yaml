@@ -1263,6 +1263,11 @@ Neutron:
         - openstack/networking-ofagent
       tags:
         - release:independent
+    networking-onos:
+      repos:
+        - openstack/networking-onos
+      tags:
+        - release:independent
     networking-ovn:
       repos:
         - openstack/networking-ovn
