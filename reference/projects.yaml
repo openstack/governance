@@ -1152,6 +1152,7 @@ Security:
     - repo: stackforge/bandit
     - repo: openstack/ossa
     - repo: openstack/security-doc
+    - repo: openstack/security-specs
 
 
 Rally:
