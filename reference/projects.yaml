@@ -300,7 +300,6 @@ Cinder:
         - name: release:cycle-with-milestones
         - name: release:has-stable-branches
         - name: type:service
-        - name: starter-kit:compute
         - name: vulnerability:managed
     - repo: openstack/cinder-specs
     - repo: openstack/python-cinderclient

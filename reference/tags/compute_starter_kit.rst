@@ -136,13 +136,15 @@ The starter kit concept is for people that are early in their cloud
 journey. These are people that do not yet have use cases, and probably
 won't until they experiment some with a starter kit.
 
-For those people starting their journey into cloud computing, enabling
-support for persistent volumes allows them to more easily transition
-from virtualization or managed hosting environments and
-experiences. It also provides an easy way to get used to API driven
+For those people starting their journey into cloud computing, it
+experiences, it provides an easy way to get used to API driven
 ephemeral computes. This allows them to see how existing workloads
 would fit in OpenStack, as well as the possibilities for building new
-OpenStack / cloud native workloads.
+OpenStack / cloud native workloads. Although support for persistent
+volumes is not included, the persistence of ephemeral drives is actually
+already as good as the persistence of local-disk workloads, and it is a
+non-disruptive addition to include persistent volumes in the future
+should the user decide they want them.
 
 Does this mean all users have to start here?
 --------------------------------------------
