@@ -723,6 +723,7 @@ Infrastructure:
     - repo: openstack-infra/puppet-project_config
     - repo: openstack-infra/puppet-puppet
     - repo: openstack-infra/puppet-redis
+    - repo: openstack-infra/puppet-refstack
     - repo: openstack-infra/puppet-releasestatus
     - repo: openstack-infra/puppet-reviewday
     - repo: openstack-infra/puppet-simpleproxy
