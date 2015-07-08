@@ -1435,3 +1435,13 @@ RpmPackaging:
   projects:
     - repo: openstack/rpm-packaging
     - repo: openstack/rpm-packaging-tools
+
+OpenStack UX:
+  ptl: Piet Kruithof (Piet)
+  irc-channel: openstack-ux
+  mission: >
+    The mission of the UX Program is to help the teams improve the overall
+    user experience of their projects.
+  url: https://wiki.openstack.org/wiki/UX
+  projects: []
+
