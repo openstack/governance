@@ -18,12 +18,14 @@ Nova:
         - name: release:has-stable-branches
         - name: type:service
         - name: starter-kit:compute
+        - name: vulnerability:managed
     - repo: openstack/python-novaclient
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
         - name: release:managed
+        - name: vulnerability:managed
     - repo: openstack/nova-specs
 
 Swift:
@@ -42,12 +44,14 @@ Swift:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
         - name: type:service
+        - name: vulnerability:managed
     - repo: openstack/python-swiftclient
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
         - name: release:managed
+        - name: vulnerability:managed
     - repo: openstack/swift-bench
       tags:
         - name: release:independent
@@ -73,6 +77,7 @@ Glance:
         - name: release:has-stable-branches
         - name: type:service
         - name: starter-kit:compute
+        - name: vulnerability:managed
     - repo: openstack/glance-specs
     - repo: openstack/python-glanceclient
       tags:
@@ -80,6 +85,7 @@ Glance:
         - name: release:has-stable-branches
         - name: type:library
         - name: release:managed
+        - name: vulnerability:managed
     - repo: openstack/glance_store
       tags:
         - name: release:independent
@@ -106,6 +112,7 @@ Keystone:
         - name: release:has-stable-branches
         - name: type:service
         - name: starter-kit:compute
+        - name: vulnerability:managed
     - repo: openstack/keystoneauth
       tags:
         - name: release:independent
@@ -118,6 +125,7 @@ Keystone:
         - name: release:has-stable-branches
         - name: type:library
         - name: release:managed
+        - name: vulnerability:managed
     - repo: openstack/keystonemiddleware
       tags:
         - name: release:independent
@@ -157,6 +165,7 @@ Horizon:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
         - name: type:service
+        - name: vulnerability:managed
     - repo: openstack/django_openstack_auth
       tags:
         - name: release:independent
@@ -198,6 +207,7 @@ Neutron:
         - name: release:has-stable-branches
         - name: type:service
         - name: starter-kit:compute
+        - name: vulnerability:managed
     - repo: openstack/neutron-fwaas
       tags:
         - name: release:managed
@@ -225,6 +235,7 @@ Neutron:
         - name: release:has-stable-branches
         - name: type:library
         - name: release:managed
+        - name: vulnerability:managed
     - repo: openstack/networking-arista
       tags:
         - name: release:independent
@@ -291,6 +302,7 @@ Cinder:
         - name: release:has-stable-branches
         - name: type:service
         - name: starter-kit:compute
+        - name: vulnerability:managed
     - repo: openstack/cinder-specs
     - repo: openstack/python-cinderclient
       tags:
@@ -298,6 +310,7 @@ Cinder:
         - name: release:has-stable-branches
         - name: type:library
         - name: release:managed
+        - name: vulnerability:managed
     - repo: openstack/os-brick
       tags:
         - name: release:independent
@@ -360,12 +373,14 @@ Heat:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
         - name: type:service
+        - name: vulnerability:managed
     - repo: openstack/python-heatclient
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
         - name: release:managed
+        - name: vulnerability:managed
     - repo: openstack/heat-cfntools
       tags:
         - name: release:independent
@@ -391,12 +406,14 @@ Trove:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
         - name: type:service
+        - name: vulnerability:managed
     - repo: openstack/python-troveclient
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
         - name: release:managed
+        - name: vulnerability:managed
     - repo: openstack/trove-integration
     - repo: openstack/trove-specs
 
@@ -509,6 +526,7 @@ Oslo:
         - name: release:has-stable-branches
         - name: type:library
         - name: release:managed
+        - name: vulnerability:managed
     - repo: openstack/oslo.context
       tags:
         - name: release:independent
@@ -938,12 +956,14 @@ Sahara:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
         - name: type:service
+        - name: vulnerability:managed
     - repo: openstack/python-saharaclient
       tags:
         - name: release:independent
         - name: release:has-stable-branches
         - name: type:library
         - name: release:managed
+        - name: vulnerability:managed
     - repo: openstack/sahara-dashboard
       tags:
         - name: type:library
