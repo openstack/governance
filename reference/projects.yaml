@@ -1094,6 +1094,7 @@ Murano:
       tags:
         - name: release:at-6mo-cycle-end
         - name: release:has-stable-branches
+    - repo: openstack/murano-deployment
     - repo: openstack/murano-specs
 
 OpenStackClient:
