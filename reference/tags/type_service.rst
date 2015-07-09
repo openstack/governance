@@ -54,8 +54,3 @@ Deprecation
 
 There is no deprecation process for tags in the ``type`` namespace. If
 we need to change the type of a project, we can just do that.
-
-Attributes
-==========
-
-None

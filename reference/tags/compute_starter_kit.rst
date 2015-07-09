@@ -214,12 +214,6 @@ concept will be revisited at every major release boundary for
 suitability.
 
 
-Attributes
-==========
-
-No attributes
-
-
 References
 ==========
 [1] - http://superuser.openstack.org/articles/openstack-users-share-how-their-deployments-stack-up

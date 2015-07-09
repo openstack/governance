@@ -87,9 +87,3 @@ and TC have agreed to follow for communicating changes to the
    We need a reference to that agreement, when we have it. We also
    need a reference to the deprecation policy the Board adopts, since
    that will influence our policy by at least setting a minimum.
-
-
-Attributes
-==========
-
-None
