@@ -116,7 +116,7 @@ desired out of their OpenStack cloud.
 
 For some things where there are natural choices, such as Nova Network
 or Neutron, it's important to keep the ability to naturally expand the cloud
-over time in mind. While Nova Network simpler to set up and run, the
+over time in mind. While Nova Network is simpler to set up and run, the
 transition to a Neutron-based cloud is not the same as swapping out a
 Glance storage backend. It is for that reason that the starter-kit
 recommends starting with Neutron configured for Provider Networks
