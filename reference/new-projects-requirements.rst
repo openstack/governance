@@ -34,7 +34,8 @@ When considering new projects for addition, the TC will check that:
   * Open Development:
 
     * The project uses public code reviews on the OpenStack infrastructure
-    * The project has core reviewers and adopts a test-driven gate for changes
+    * The project has core reviewers and adopts a test-driven gate in the
+      OpenStack infrastructure for changes
     * The project provides liaisons that serve as contacts for the work of
       cross-project teams in OpenStack
     * Where it makes sense, the project cooperates with existing projects
@@ -54,8 +55,11 @@ When considering new projects for addition, the TC will check that:
 
 * The project should have an active team of one or more contributors
 
-* Once a project has joined OpenStack, it may create additional source
-  code repositories as needed at the discretion of its Project Team
-  Lead (PTL) without prior approval from the TC as long as the
-  additional source code repositories fall within the scope of the
-  approved project mission statement.
+* The project meets any policies that the TC requires all projects to
+  meet. For instance, the :doc:`project-testing-interface`
+
+
+Once a project has joined OpenStack, it may create additional source code
+repositories as needed at the discretion of its Project Team Lead (PTL) without
+prior approval from the TC as long as the additional source code repositories
+fall within the scope of the approved project mission statement.
