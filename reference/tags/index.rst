@@ -17,3 +17,4 @@
    tc-approved-release
    type_library
    type_service
+   vulnerability_managed
