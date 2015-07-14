@@ -1431,7 +1431,7 @@ RpmPackaging:
   mission: >
     To make OpenStack easier to update and consume by operators and
     provide tooling to package all OpenStack projects directly for
-    for all RPM based distributions.
+    all RPM based distributions.
   projects:
     - repo: openstack/rpm-packaging
     - repo: openstack/rpm-packaging-tools
