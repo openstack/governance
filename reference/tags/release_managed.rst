@@ -24,10 +24,9 @@ Application to current projects
 Rationale
 =========
 
-The OpenStack `Release Management team`_ applies a number of strict release
-processes (including a feature freeze and a release candidate period)
-to ensure that a satisfying release will be produced for all the projects
-it manages, at a precise pre-announced release date. This team has a track
+The OpenStack `Release Management team`_ defines release models and applies
+a number of strict release processes to ensure that a satisfying release
+will be produced for all the projects it manages. The team has a track
 record with the handling of all "integrated releases" up to the Kilo cycle.
 
 Communicating the information of which code repositories are actually still
@@ -39,15 +38,15 @@ especially packagers.
 Requirements
 ============
 
-* "release:managed" projects stricly follow a predefined release cycle as
-  published by the Release Management team at the start of each development
-  cycle.
-* "release:managed" projects accept to submit to release management team
-  oversight starting at Feature Freeze and up to final release.
+* "release:managed" projects commit to follow a predefined release model.
+* Where appropriate, "release:managed" projects accept to submit to release
+  management team oversight starting at Feature Freeze and up to final release.
+* "release:managed" projects delegate their tagging rights to the release
+  management team.
+* "release:managed" projects commit to having their release team liaison
+  available on milestone and release weeks, to ensure proper coordination.
 * The release management team needs to accept to handle release process for
-  those projects. The team has a limited bandwidth and reserves the right to
-  focus on foundational projects that benefit the most from being released
-  precisely at the same date.
+  those projects.
 
 
 Tag application process
