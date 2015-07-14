@@ -1,7 +1,7 @@
 Barbican:
   ptl: Douglas Mendizabal (redrobot)
   irc-channel: openstack-barbican
-  service: Key manager service
+  service: Key Manager service
   mission: >
     To produce a secret storage and generation system capable of providing key
     management for services wishing to enable encryption features.
@@ -46,7 +46,7 @@ Barbican:
 Ceilometer:
   ptl: Gordon Chung (gordc)
   irc-channel: openstack-ceilometer
-  service: Telemetry
+  service: Telemetry service
   mission: >
     To reliably collect measurements of the utilization of the physical and
     virtual resources comprising deployed clouds, persist these data for
@@ -95,7 +95,7 @@ Ceilometer:
 
 ChefOpenstack:
   ptl: JJ Asghar (j^2)
-  service: Chef cookbooks for the OpenStack components
+  service: Chef cookbooks for deployment
   mission: >
     The Chef cookbooks for OpenStack allow to automate the building, operation
     and consumption of OpenStack cloud deployments.
@@ -200,7 +200,7 @@ ChefOpenstack:
 Cinder:
   ptl: Mike Perez (thingee)
   irc-channel: openstack-cinder
-  service: Block Storage
+  service: Block Storage service
   mission: >
     To implement services and libraries to provide on-demand, self-service
     access to Block Storage resources via abstraction and automation on top of
@@ -290,7 +290,7 @@ Congress:
 
 Cue:
   ptl: Vipul Sabhaya (vipul)
-  service: Message Broker Service
+  service: Message Broker service
   mission: >
     To provide a multi-tenant service that offers scalable and reliable
     provisioning and management capabilities for off-the-shelf message brokers.
@@ -432,7 +432,7 @@ Glance:
 Heat:
   ptl: Steve Baker (stevebaker)
   irc-channel: heat
-  service: Orchestration
+  service: Orchestration service
   mission: >
     To orchestrate composite cloud applications using a declarative
     template format through an OpenStack-native ReST API.
@@ -934,7 +934,7 @@ Infrastructure:
 Ironic:
   ptl: Devananda van der Veen (devananda)
   irc-channel: openstack-ironic
-  service: Bare metal service
+  service: Bare Metal service
   mission: >
     To produce an OpenStack service and associated libraries capable of
     managing and provisioning physical machines, and to do this in a
@@ -1011,7 +1011,7 @@ Ironic:
 Keystone:
   ptl: Morgan Fainberg (morganfainberg)
   irc-channel: openstack-keystone
-  service: Identity
+  service: Identity service
   mission: >
     To facilitate API client authentication, service discovery, distributed
     multi-tenant authorization, and auditing.
@@ -1096,7 +1096,7 @@ Kolla:
 
 MagnetoDB:
   ptl: Ilya Sviridov (isviridov)
-  service: Key-Value Store as a Service
+  service: Key-Value Store service
   mission: >
     To provide key-value store service for OpenStack users.
   url: https://wiki.openstack.org/wiki/MagnetoDB
@@ -1150,7 +1150,7 @@ Magnum:
 Manila:
   ptl: Ben Swartzlander (bswartz)
   irc-channel: openstack-manila
-  service: Shared file systems
+  service: Shared File Systems service
   mission: >
     To provide a set of services for management of shared file systems
     in a multitenant cloud environment, similar to how OpenStack provides
@@ -1215,7 +1215,7 @@ Mistral:
 Murano:
   ptl: Serg Melikyan (smelikyan)
   irc-channel: murano
-  service: Application catalog
+  service: Application Catalog service
   mission: >
     To provide an application catalog service so that users can compose and
     deploy composite environments on an application abstraction level
@@ -1265,7 +1265,7 @@ Murano:
 Neutron:
   ptl: Kyle Mestery (mestery)
   irc-channel: openstack-neutron
-  service: Networking
+  service: Networking service
   mission: >
     To implement services and associated libraries to provide on-demand,
     scalable, and technology-agnostic network abstraction.
@@ -1424,7 +1424,7 @@ Neutron:
 Nova:
   ptl: John Garbutt (johnthetubaguy)
   irc-channel: openstack-nova
-  service: Compute
+  service: Compute service
   mission: >
     To implement services and associated libraries to provide massively
     scalable, on demand, self service access to compute resources, including
@@ -1468,7 +1468,7 @@ OpenStack UX:
 
 OpenStackAnsible:
   ptl: Kevin Carter (cloudnull)
-  service: Ansible Playbooks and Roles for the deployment of OpenStack
+  service: Ansible playbooks and roles for deployment
   mission: >
     Deploying OpenStack from source in a way that makes it scalable
     while also being simple to operate, upgrade, and grow.
@@ -1488,9 +1488,9 @@ OpenStackAnsible:
 OpenStackClient:
   ptl: Dean Troyer (dtroyer)
   irc-channel: openstack-sdks
-  service: command line client
+  service: Command-line client
   mission: >
-    Provide a single command line interface for OpenStack services with a
+    Provide a single command-line interface for OpenStack services with a
     uniform command set and format.
   url: https://wiki.openstack.org/wiki/OpenStackClient
   deliverables:
@@ -1857,7 +1857,7 @@ Packaging-deb:
 
 PuppetOpenStack:
   ptl: Emilien Macchi (emilienm)
-  service: Puppet modules for the OpenStack components
+  service: Puppet modules for deployment
   mission: >
     The Puppet modules for OpenStack bring scalable and reliable IT automation
     to OpenStack cloud deployments.
@@ -2135,7 +2135,7 @@ RpmPackaging:
 Sahara:
   ptl: Sergey Lukjanov (SergeyLukjanov)
   irc-channel: openstack-sahara
-  service: Data processing service
+  service: Data Processing service
   mission: >
     To provide a scalable data processing stack and associated management
     interfaces.
@@ -2214,7 +2214,7 @@ Security:
 Solum:
   ptl: Adrian Otto (adrian_otto)
   irc-channel: solum
-  service: Software Development Lifecycle Automation
+  service: Software Development Lifecycle Automation service
   mission: >
     To make cloud services easier to consume and integrate with your
     application development process by automating the source-to-image
@@ -2236,7 +2236,7 @@ Solum:
 Swift:
   ptl: John Dickinson (notmyname)
   irc-channel: openstack-swift
-  service: Object Storage
+  service: Object Storage service
   url: https://wiki.openstack.org/wiki/Swift
   tags:
     - team:diverse-affiliation
@@ -2272,7 +2272,7 @@ Swift:
 TripleO:
   ptl: James Slagle (slagle)
   irc-channel: tripleo
-  service: Deployment
+  service: Deployment service
   mission: >
     Develop and maintain tooling and infrastructure able to deploy OpenStack in
     production, using OpenStack itself wherever possible.
