@@ -136,9 +136,9 @@ The starter kit concept is for people that are early in their cloud
 journey. These are people that do not yet have use cases, and probably
 won't until they experiment some with a starter kit.
 
-For those people starting their journey into cloud computing, it
-experiences, it provides an easy way to get used to API driven
-ephemeral computes. This allows them to see how existing workloads
+For those people starting their journey into cloud computing,
+it provides an easy way to get used to API driven ephemeral computes.
+This allows them to see how existing workloads
 would fit in OpenStack, as well as the possibilities for building new
 OpenStack / cloud native workloads. Although support for persistent
 volumes is not included, the persistence of ephemeral drives is actually
