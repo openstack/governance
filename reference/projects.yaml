@@ -220,6 +220,13 @@ Neutron:
         - name: release:cycle-with-milestones
         - name: release:has-stable-branches
         - name: type:service
+    - repo: openstack/neutron-lbaas-dashboard
+      tags:
+        - name: tc-approved-release
+        - name: release:managed
+        - name: release:cycle-with-milestones
+        - name: release:has-stable-branches
+        - name: type:service
     - repo: openstack/neutron-vpnaas
       tags:
         - name: tc-approved-release
