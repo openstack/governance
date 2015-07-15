@@ -86,9 +86,3 @@ Deprecation
 
 There is no deprecation period required for this tag.  It can be added or
 removed at any time.
-
-
-Attributes
-==========
-
-This tag has no attributes.

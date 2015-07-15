@@ -71,9 +71,3 @@ they match the current release model followed by each code repository.
 There is no need to apply for addition/removal. Changes externally proposed
 will be reviewed and approved by the release management team, ultimately
 represented by the release management PTL.
-
-
-Attributes
-==========
-
-Tags in the "release" category do not use attributes.
