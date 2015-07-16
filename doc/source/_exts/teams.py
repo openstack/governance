@@ -48,29 +48,33 @@ def _team_to_rst(name, info):
         yield ''
         yield mission
         yield ''
-    tags = [
-        ':ref:`tag-%s`' % t['name']
-        for t in info.get('tags', [])
-    ]
+    tags = info.get('tags', [])
     if tags:
         yield 'Team based tags'
         yield '----------------'
         yield ''
         for tag in tags:
-            yield '- %s' % tag
+            yield '- :ref:`tag-%s`' % tag
         yield ''
-    yield 'Repositories and Tags'
+    yield 'Deliverables and Tags'
     yield '---------------------'
     yield ''
-    project_repos = info.get('projects', [])
-    if project_repos:
-        for project in project_repos:
-            yield '- :repo:`%s`' % project['repo']
-            tags = project.get('tags', [])
+    deliverables = info.get('deliverables', [])
+    if deliverables:
+        for name, deliverable in deliverables.items():
+            title = '- %s' %  name
+            repos = deliverable.get('repos', [])
+            if repos:
+                repolist = " ("
+                for repo in repos:
+                    repolist += ':repo:`%s`, ' % repo
+                title += repolist[0:-2] + ")"
+            yield title
+            tags = deliverable.get('tags', [])
             if tags is not []:
                 yield ''
             for tag in tags:
-                yield '  - :ref:`tag-%s`' % tag['name']
+                yield '  - :ref:`tag-%s`' % tag
     else:
         yield 'None'
     yield ''
