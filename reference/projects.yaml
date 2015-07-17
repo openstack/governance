@@ -271,6 +271,9 @@ Neutron:
     - repo: openstack/dragonflow
       tags:
         - name: release:independent
+    - repo: openstack/kuryr
+      tags:
+        - name: release:independent
     - repo: openstack/octavia
       tags:
         - name: release:independent
