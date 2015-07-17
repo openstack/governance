@@ -489,6 +489,7 @@ Oslo:
         - name: release:has-stable-branches
         - name: type:library
         - name: release:managed
+    - repo: openstack/devstack-plugin-amqp1
     - repo: openstack/devstack-plugin-zmq
     - repo: openstack/futurist
       tags:
