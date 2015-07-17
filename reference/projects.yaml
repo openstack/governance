@@ -436,7 +436,7 @@ Ironic:
       tags:
         - name: tc-approved-release
         - name: release:managed
-        - name: release:cycle-with-milestones
+        - name: release:cycle-with-intermediary
         - name: release:has-stable-branches
         - name: type:service
     - repo: openstack/ironic-inspector
