@@ -1279,6 +1279,9 @@ PuppetOpenStack:
     - repo: openstack/puppet-manila
       tags:
         - name: release:independent
+    - repo: openstack/puppet-mistral
+      tags:
+        - name: release:independent
     - repo: openstack/puppet-neutron
       tags:
         - name: release:independent
