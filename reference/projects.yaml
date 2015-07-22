@@ -2099,6 +2099,14 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+    oslo.privsep:
+      repos:
+        - openstack/oslo.privsep
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
     oslo.reports:
       repos:
         - openstack/oslo.reports
