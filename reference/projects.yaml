@@ -723,6 +723,7 @@ Infrastructure:
     - repo: openstack-infra/puppet-graphite
     - repo: openstack-infra/puppet-haveged
     - repo: openstack-infra/puppet-httpd
+    - repo: openstack-infra/puppet-hound
     - repo: openstack-infra/puppet-iptables
     - repo: openstack-infra/puppet-jeepyb
     - repo: openstack-infra/puppet-jenkins
