@@ -1228,6 +1228,11 @@ Neutron:
         - openstack/kuryr
       tags:
         - release:independent
+    networking-ale-omniswitch:
+      repos:
+        - openstack/networking-ale-omniswitch
+      tags:
+        - release:independent
     networking-arista:
       repos:
         - openstack/networking-arista
