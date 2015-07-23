@@ -885,6 +885,9 @@ Infrastructure:
     tripleo-ci:
       repos:
         - openstack-infra/tripleo-ci
+    trystack-site:
+      repos:
+        - openstack-infra/trystack-site
     yaml2ical:
       repos:
         - openstack-infra/yaml2ical
