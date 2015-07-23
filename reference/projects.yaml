@@ -1185,8 +1185,8 @@ Security:
     benefit of the OpenStack community as a whole.
   url: https://wiki.openstack.org/wiki/Security
   projects:
-    - repo: stackforge/anchor
-    - repo: stackforge/bandit
+    - repo: openstack/anchor
+    - repo: openstack/bandit
     - repo: openstack/ossa
     - repo: openstack/security-doc
     - repo: openstack/security-specs
