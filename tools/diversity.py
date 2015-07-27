@@ -73,6 +73,8 @@ def get_diversity(project):
                     / reviews_total * 100)
     core_review_values = [company['reviews'] for company in
                           core_reviews_by_company.itervalues()]
+    if len(core_review_values) == 1:
+        core_review_values = [core_review_values[0], 0]
     core_review_values.sort(reverse=True)
     core_reviews_total = sum(core_review_values)
     core_reviews_top = (float(core_review_values[0]) /
@@ -82,6 +84,8 @@ def get_diversity(project):
                          core_reviews_total * 100)
     core_reviewers_values = [company['reviewers'] for company in
                              core_reviews_by_company.itervalues()]
+    if len(core_reviewers_values) == 1:
+        core_reviewers_values = [core_reviewers_values[0], 0]
     core_reviewers_values.sort(reverse=True)
     core_reviewers_total = sum(core_reviewers_values)
     core_reviewers_top = (float(core_reviewers_values[0]) /
