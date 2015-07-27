@@ -1451,7 +1451,9 @@ OpenStackClient:
       repos:
         - openstack/os-client-config
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - release:managed
         - type:library
     python-openstackclient:
       repos:
