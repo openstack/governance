@@ -1,32 +1,237 @@
-Nova:
-  ptl: John Garbutt (johnthetubaguy)
-  irc-channel: openstack-nova
-  service: Compute
+Barbican:
+  ptl: Douglas Mendizabal (redrobot)
+  irc-channel: openstack-barbican
+  service: Key management service
   mission: >
-    To implement services and associated libraries to provide massively
-    scalable, on demand, self service access to compute resources, including
-    bare metal, virtual machines, and containers.
-  url: https://wiki.openstack.org/wiki/Nova
-  tags:
-    - team:diverse-affiliation
+    To produce a secret storage and generation system capable of providing key
+    management for services wishing to enable encryption features.
+  url: https://wiki.openstack.org/wiki/Barbican
   deliverables:
-    nova:
+    barbican:
       repos:
-        - openstack/nova
+        - openstack/barbican
+      tags:
+        - release:cycle-with-milestones
+        - release:has-stable-branches
+        - release:managed
+        - type:service
+    barbican-specs:
+      repos:
+        - openstack/barbican-specs
+    castellan:
+      repos:
+        - openstack/castellan
+      tags:
+        - release:independent
+        - type:library
+    kite:
+      repos:
+        - openstack/kite
+      tags:
+        - type:service
+    python-barbicanclient:
+      repos:
+        - openstack/python-barbicanclient
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - release:managed
+        - type:library
+    python-kiteclient:
+      repos:
+        - openstack/python-kiteclient
+      tags:
+        - type:library
+
+Ceilometer:
+  ptl: Gordon Chung (gordc)
+  irc-channel: openstack-ceilometer
+  service: Telemetry
+  mission: >
+    To reliably collect measurements of the utilization of the physical and
+    virtual resources comprising deployed clouds, persist these data for
+    subsequent retrieval and analysis, and trigger actions when defined
+    criteria are met.
+  url: https://wiki.openstack.org/wiki/Ceilometer
+  deliverables:
+    aodh:
+      repos:
+        - openstack/aodh
+      tags:
+        - release:independent
+    ceilometer:
+      repos:
+        - openstack/ceilometer
       tags:
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
         - release:has-stable-branches
         - type:service
-        - starter-kit:compute
+    ceilometer-specs:
+      repos:
+        - openstack/ceilometer-specs
+    ceilometermiddleware:
+      repos:
+        - openstack/ceilometermiddleware
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    gnocchi:
+      repos:
+        - openstack/gnocchi
+      tags:
+        - release:independent
+    python-ceilometerclient:
+      repos:
+        - openstack/python-ceilometerclient
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+
+ChefOpenstack:
+  ptl: JJ Asghar (j^2)
+  service: Chef cookbooks for the OpenStack components
+  mission: >
+    The Chef cookbooks for OpenStack allow to automate the building, operation
+    and consumption of OpenStack cloud deployments.
+  url: https://wiki.openstack.org/wiki/Chef
+  deliverables:
+    cookbook-openstack-bare-metal:
+      repos:
+        - openstack/cookbook-openstack-bare-metal
+      tags:
+        - release:independent
+    cookbook-openstack-block-storage:
+      repos:
+        - openstack/cookbook-openstack-block-storage
+      tags:
+        - release:independent
+    cookbook-openstack-client:
+      repos:
+        - openstack/cookbook-openstack-client
+      tags:
+        - release:independent
+    cookbook-openstack-common:
+      repos:
+        - openstack/cookbook-openstack-common
+      tags:
+        - release:independent
+    cookbook-openstack-compute:
+      repos:
+        - openstack/cookbook-openstack-compute
+      tags:
+        - release:independent
+    cookbook-openstack-dashboard:
+      repos:
+        - openstack/cookbook-openstack-dashboard
+      tags:
+        - release:independent
+    cookbook-openstack-data-processing:
+      repos:
+        - openstack/cookbook-openstack-data-processing
+      tags:
+        - release:independent
+    cookbook-openstack-database:
+      repos:
+        - openstack/cookbook-openstack-database
+      tags:
+        - release:independent
+    cookbook-openstack-identity:
+      repos:
+        - openstack/cookbook-openstack-identity
+      tags:
+        - release:independent
+    cookbook-openstack-image:
+      repos:
+        - openstack/cookbook-openstack-image
+      tags:
+        - release:independent
+    cookbook-openstack-integration-test:
+      repos:
+        - openstack/cookbook-openstack-integration-test
+      tags:
+        - release:independent
+    cookbook-openstack-network:
+      repos:
+        - openstack/cookbook-openstack-network
+      tags:
+        - release:independent
+    cookbook-openstack-object-storage:
+      repos:
+        - openstack/cookbook-openstack-object-storage
+      tags:
+        - release:independent
+    cookbook-openstack-ops-database:
+      repos:
+        - openstack/cookbook-openstack-ops-database
+      tags:
+        - release:independent
+    cookbook-openstack-ops-messaging:
+      repos:
+        - openstack/cookbook-openstack-ops-messaging
+      tags:
+        - release:independent
+    cookbook-openstack-orchestration:
+      repos:
+        - openstack/cookbook-openstack-orchestration
+      tags:
+        - release:independent
+    cookbook-openstack-telemetry:
+      repos:
+        - openstack/cookbook-openstack-telemetry
+      tags:
+        - release:independent
+    openstack-chef-repo:
+      repos:
+        - openstack/openstack-chef-repo
+      tags:
+        - release:independent
+    openstack-chef-specs:
+      repos:
+        - openstack/openstack-chef-specs
+      tags:
+        - release:independent
+
+Cinder:
+  ptl: Mike Perez (thingee)
+  irc-channel: openstack-cinder
+  service: Block Storage
+  mission: >
+    To implement services and libraries to provide on-demand, self-service
+    access to Block Storage resources via abstraction and automation on top of
+    other block storage devices.
+  url: https://wiki.openstack.org/wiki/Cinder
+  tags:
+    - team:diverse-affiliation
+  deliverables:
+    cinder:
+      repos:
+        - openstack/cinder
+      tags:
+        - tc-approved-release
+        - release:managed
+        - release:cycle-with-milestones
+        - release:has-stable-branches
+        - type:service
         - vulnerability:managed
-    nova-specs:
+    cinder-specs:
       repos:
-        - openstack/nova-specs
-    python-novaclient:
+        - openstack/cinder-specs
+    os-brick:
       repos:
-        - openstack/python-novaclient
+        - openstack/os-brick
+      tags:
+        - release:cycle-with-intermediary
+        - type:library
+        - release:managed
+    python-cinderclient:
+      repos:
+        - openstack/python-cinderclient
       tags:
         - release:cycle-with-intermediary
         - release:has-stable-branches
@@ -34,41 +239,127 @@ Nova:
         - release:managed
         - vulnerability:managed
 
-Swift:
-  ptl: John Dickinson (notmyname)
-  irc-channel: openstack-swift
-  service: Object Storage
-  url: https://wiki.openstack.org/wiki/Swift
+Congress:
+  ptl: Tim Hinrichs (thinrichs)
+  irc-channel: congress
+  service: Governance service
+  mission: >
+    To provide governance as a service across any collection of cloud
+    services in order to monitor, enforce, and audit policy over
+    dynamic infrastructure.
+  url: https://wiki.openstack.org/wiki/Congress
+  deliverables:
+    congress:
+      repos:
+        - openstack/congress
+      tags:
+        - release:has-stable-branches
+        - type:service
+    congress-specs:
+      repos:
+        - openstack/congress-specs
+    python-congressclient:
+      repos:
+        - openstack/python-congressclient
+      tags:
+        - type:library
+
+Cue:
+  ptl: Vipul Sabhaya (vipul)
+  service: Message Broker Service
+  mission: >
+    To provide a multi-tenant service that offers scalable and reliable
+    provisioning and management capabilities for off-the-shelf message brokers.
+  url: https://wiki.openstack.org/wiki/Cue
+  deliverables:
+    cue:
+      repos:
+        - openstack/cue
+    cue-dashboard:
+      repos:
+        - openstack/cue-dashboard
+    python-cueclient:
+      repos:
+        - openstack/python-cueclient
+
+Designate:
+  ptl: Kiall Mac Innes (kiall)
+  service: DNS service
+  mission: >
+    To provide scalable, on demand, self service access to authoritative DNS
+    services, in technology-agnostic manner.
+  url: https://wiki.openstack.org/wiki/Designate
+  deliverables:
+    designate:
+      repos:
+        - openstack/designate
+      tags:
+        - release:cycle-with-milestones
+        - release:has-stable-branches
+        - release:managed
+        - type:service
+    designate-dashboard:
+      repos:
+        - openstack/designate-dashboard
+      tags:
+        - type:library
+    designate-specs:
+      repos:
+        - openstack/designate-specs
+    python-designateclient:
+      repos:
+        - openstack/python-designateclient
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - release:managed
+        - type:library
+
+Documentation:
+  ptl: Lana Brindley (loquacities)
+  irc-channel: openstack-doc
+  mission: >
+    Provide documentation for core OpenStack projects to promote OpenStack.
+    Develop and maintain tools and processes to ensure quality, accurate
+    documentation. Treat documentation like OpenStack code.
+  url: https://wiki.openstack.org/wiki/Documentation
   tags:
     - team:diverse-affiliation
   deliverables:
-    python-swiftclient:
+    api-site:
       repos:
-        - openstack/python-swiftclient
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-        - vulnerability:managed
-    swift:
+        - openstack/api-site
+    docs-specs:
       repos:
-        - openstack/swift
-      tags:
-        - tc-approved-release
-        - release:managed
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:service
-        - vulnerability:managed
-    swift-bench:
+        - openstack/docs-specs
+    ha-guide:
       repos:
-        - openstack/swift-bench
+        - openstack/ha-guide
+    openstack-doc-tools:
+      repos:
+        - openstack/openstack-doc-tools
       tags:
         - release:independent
-    swift-specs:
+        - type:library
+        - release:managed
+    openstack-manuals:
       repos:
-        - openstack/swift-specs
+        - openstack/openstack-manuals
+      tags:
+        - release:has-stable-branches
+    openstackdocstheme:
+      repos:
+        - openstack/openstackdocstheme
+      tags:
+        - release:independent
+        - type:library
+        - release:managed
+    operations-guide:
+      repos:
+        - openstack/operations-guide
+    training-guides:
+      repos:
+        - openstack/training-guides
 
 Glance:
   ptl: Nikhil Komawar (nikhil_k)
@@ -114,75 +405,53 @@ Glance:
         - release:managed
         - vulnerability:managed
 
-Keystone:
-  ptl: Morgan Fainberg (morganfainberg)
-  irc-channel: openstack-keystone
-  service: Identity
+Heat:
+  ptl: Steve Baker (stevebaker)
+  irc-channel: heat
+  service: Orchestration
   mission: >
-    To facilitate API client authentication, service discovery, distributed
-    multi-tenant authorization, and auditing.
-  url: https://wiki.openstack.org/wiki/Keystone
+    To orchestrate composite cloud applications using a declarative
+    template format through an OpenStack-native ReST API.
+  url: https://wiki.openstack.org/wiki/Heat
   tags:
     - team:diverse-affiliation
   deliverables:
-    keystone:
+    heat:
       repos:
-        - openstack/keystone
+        - openstack/heat
       tags:
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
         - release:has-stable-branches
         - type:service
-        - starter-kit:compute
         - vulnerability:managed
-    keystone-specs:
+    heat-cfnclient:
       repos:
-        - openstack/keystone-specs
-    keystoneauth:
+        - openstack-dev/heat-cfnclient
+    heat-cfntools:
       repos:
-        - openstack/keystoneauth
-      tags:
-        - release:cycle-with-intermediary
-        - type:library
-        - release:managed
-    keystoneauth-saml2:
-      repos:
-        - openstack/keystoneauth-saml2
+        - openstack/heat-cfntools
       tags:
         - release:independent
-        - type:library
-    keystonemiddleware:
+    heat-specs:
       repos:
-        - openstack/keystonemiddleware
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    pycadf:
+        - openstack/heat-specs
+    heat-templates:
       repos:
-        - openstack/pycadf
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    python-keystoneclient:
+        - openstack/heat-templates
+    heat-translator:
       repos:
-        - openstack/python-keystoneclient
+        - openstack/heat-translator
+    python-heatclient:
+      repos:
+        - openstack/python-heatclient
       tags:
         - release:cycle-with-intermediary
         - release:has-stable-branches
         - type:library
         - release:managed
         - vulnerability:managed
-    python-keystoneclient-kerberos:
-      repos:
-        - openstack/python-keystoneclient-kerberos
-      tags:
-        - release:independent
-        - type:library
 
 Horizon:
   ptl: David Lyle (david-lyle)
@@ -237,626 +506,13 @@ Horizon:
       tags:
         - release:independent
 
-Neutron:
-  ptl: Kyle Mestery (mestery)
-  irc-channel: openstack-neutron
-  service: Networking
+I18n:
+  ptl: Ying Chun Guo (Daisy)
   mission: >
-    To implement services and associated libraries to provide on-demand,
-    scalable, and technology-agnostic network abstraction.
-  url: https://wiki.openstack.org/wiki/Neutron
-  tags:
-    - team:diverse-affiliation
-  deliverables:
-    dragonflow:
-      repos:
-        - openstack/dragonflow
-      tags:
-        - release:independent
-    kuryr:
-      repos:
-        - openstack/kuryr
-      tags:
-        - release:independent
-    networking-arista:
-      repos:
-        - openstack/networking-arista
-      tags:
-        - release:independent
-    networking-bgpvpn:
-      repos:
-        - openstack/networking-bgpvpn
-      tags:
-        - release:independent
-    networking-cisco:
-      repos:
-        - openstack/networking-cisco
-      tags:
-        - release:independent
-    networking-l2gw:
-      repos:
-        - openstack/networking-l2gw
-      tags:
-        - release:independent
-    networking-midonet:
-      repos:
-        - openstack/networking-midonet
-      tags:
-        - release:independent
-    networking-odl:
-      repos:
-        - openstack/networking-odl
-      tags:
-        - release:independent
-    networking-ofagent:
-      repos:
-        - openstack/networking-ofagent
-      tags:
-        - release:independent
-    networking-ovn:
-      repos:
-        - openstack/networking-ovn
-      tags:
-        - release:independent
-    networking-plumgrid:
-      repos:
-        - openstack/networking-plumgrid
-      tags:
-        - release:independent
-    networking-sfc:
-      repos:
-        - openstack/networking-sfc
-      tags:
-        - release:independent
-    networking-vsphere:
-      repos:
-        - openstack/networking-vsphere
-      tags:
-        - release:independent
-    neutron:
-      repos:
-        - openstack/neutron
-        - openstack/neutron-fwaas
-        - openstack/neutron-lbaas
-        - openstack/neutron-lbaas-dashboard
-        - openstack/neutron-vpnaas
-      tags:
-        - tc-approved-release
-        - release:managed
-        - release:cycle-with-milestones
-        - release:has-stable-branches
-        - type:service
-        - starter-kit:compute
-        - vulnerability:managed
-    neutron-specs:
-      repos:
-        - openstack/neutron-specs
-    octavia:
-      repos:
-        - openstack/octavia
-      tags:
-        - release:independent
-    python-neutron-pd-driver:
-      repos:
-        - openstack/python-neutron-pd-driver
-      tags:
-        - release:independent
-    python-neutronclient:
-      repos:
-        - openstack/python-neutronclient
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-        - vulnerability:managed
-    vmware-nsx:
-      repos:
-        - openstack/vmware-nsx
-      tags:
-        - release:independent
-
-Cinder:
-  ptl: Mike Perez (thingee)
-  irc-channel: openstack-cinder
-  service: Block Storage
-  mission: >
-    To implement services and libraries to provide on-demand, self-service
-    access to Block Storage resources via abstraction and automation on top of
-    other block storage devices.
-  url: https://wiki.openstack.org/wiki/Cinder
-  tags:
-    - team:diverse-affiliation
-  deliverables:
-    cinder:
-      repos:
-        - openstack/cinder
-      tags:
-        - tc-approved-release
-        - release:managed
-        - release:cycle-with-milestones
-        - release:has-stable-branches
-        - type:service
-        - vulnerability:managed
-    cinder-specs:
-      repos:
-        - openstack/cinder-specs
-    os-brick:
-      repos:
-        - openstack/os-brick
-      tags:
-        - release:cycle-with-intermediary
-        - type:library
-        - release:managed
-    python-cinderclient:
-      repos:
-        - openstack/python-cinderclient
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-        - vulnerability:managed
-
-Ceilometer:
-  ptl: Gordon Chung (gordc)
-  irc-channel: openstack-ceilometer
-  service: Telemetry
-  mission: >
-    To reliably collect measurements of the utilization of the physical and
-    virtual resources comprising deployed clouds, persist these data for
-    subsequent retrieval and analysis, and trigger actions when defined
-    criteria are met.
-  url: https://wiki.openstack.org/wiki/Ceilometer
-  deliverables:
-    aodh:
-      repos:
-        - openstack/aodh
-      tags:
-        - release:independent
-    ceilometer:
-      repos:
-        - openstack/ceilometer
-      tags:
-        - tc-approved-release
-        - release:managed
-        - release:cycle-with-milestones
-        - release:has-stable-branches
-        - type:service
-    ceilometer-specs:
-      repos:
-        - openstack/ceilometer-specs
-    ceilometermiddleware:
-      repos:
-        - openstack/ceilometermiddleware
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    gnocchi:
-      repos:
-        - openstack/gnocchi
-      tags:
-        - release:independent
-    python-ceilometerclient:
-      repos:
-        - openstack/python-ceilometerclient
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-
-Heat:
-  ptl: Steve Baker (stevebaker)
-  irc-channel: heat
-  service: Orchestration
-  mission: >
-    To orchestrate composite cloud applications using a declarative
-    template format through an OpenStack-native ReST API.
-  url: https://wiki.openstack.org/wiki/Heat
-  tags:
-    - team:diverse-affiliation
-  deliverables:
-    heat:
-      repos:
-        - openstack/heat
-      tags:
-        - tc-approved-release
-        - release:managed
-        - release:cycle-with-milestones
-        - release:has-stable-branches
-        - type:service
-        - vulnerability:managed
-    heat-cfnclient:
-      repos:
-        - openstack-dev/heat-cfnclient
-    heat-cfntools:
-      repos:
-        - openstack/heat-cfntools
-      tags:
-        - release:independent
-    heat-specs:
-      repos:
-        - openstack/heat-specs
-    heat-templates:
-      repos:
-        - openstack/heat-templates
-    heat-translator:
-      repos:
-        - openstack/heat-translator
-    python-heatclient:
-      repos:
-        - openstack/python-heatclient
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-        - vulnerability:managed
-
-Trove:
-  ptl: Nikhil Manchanda (SlickNik)
-  irc-channel: openstack-trove
-  service: Database service
-  mission: >
-    To provide scalable and reliable Cloud Database as a Service functionality
-    for both relational and non-relational database engines, and to continue to
-    improve its fully-featured and extensible open source framework.
-  url: https://wiki.openstack.org/wiki/Trove
-  deliverables:
-    python-troveclient:
-      repos:
-        - openstack/python-troveclient
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-        - vulnerability:managed
-    trove:
-      repos:
-        - openstack/trove
-      tags:
-        - tc-approved-release
-        - release:managed
-        - release:cycle-with-milestones
-        - release:has-stable-branches
-        - type:service
-        - vulnerability:managed
-    trove-integration:
-      repos:
-        - openstack/trove-integration
-    trove-specs:
-      repos:
-        - openstack/trove-specs
-
-Ironic:
-  ptl: Devananda van der Veen (devananda)
-  irc-channel: openstack-ironic
-  service: Bare metal service
-  mission: >
-    To produce an OpenStack service and associated libraries capable of
-    managing and provisioning physical machines, and to do this in a
-    security-aware and fault-tolerant manner.
-  url: https://wiki.openstack.org/wiki/Ironic
-  tags:
-    - team:diverse-affiliation
-  deliverables:
-    bifrost:
-      repos:
-        - openstack/bifrost
-    coreos-image-builder:
-      repos:
-        - openstack/coreos-image-builder
-    ironic:
-      repos:
-        - openstack/ironic
-      tags:
-        - tc-approved-release
-        - release:managed
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:service
-    ironic-inspector:
-      repos:
-        - openstack/ironic-inspector
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:service
-    ironic-lib:
-      repos:
-        - openstack/ironic-lib
-      tags:
-        - release:cycle-with-intermediary
-        - type:library
-        - release:managed
-    ironic-python-agent:
-      repos:
-        - openstack/ironic-python-agent
-      tags:
-        - release:independent
-        - type:service
-    ironic-specs:
-      repos:
-        - openstack/ironic-specs
-    ironic-webclient:
-      repos:
-        - openstack/ironic-webclient
-      tags:
-        - release:independent
-    python-ironic-inspector-client:
-      repos:
-        - openstack/python-ironic-inspector-client
-      tags:
-        - release:independent
-        - type:library
-        - release:managed
-    python-ironicclient:
-      repos:
-        - openstack/python-ironicclient
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-
-Oslo:
-  ptl: Davanum Srinivas (dims)
-  irc-channel: openstack-oslo
-  service: Common libraries
-  mission: >
-    To produce a set of python libraries containing code shared by OpenStack
-    projects. The APIs provided by these libraries should be high quality,
-    stable, consistent, documented and generally applicable.
-  url: https://wiki.openstack.org/wiki/Oslo
-  tags:
-    - team:diverse-affiliation
-  deliverables:
-    automaton:
-      repos:
-        - openstack/automaton
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-    cookiecutter:
-      repos:
-        - openstack-dev/cookiecutter
-    debtcollector:
-      repos:
-        - openstack/debtcollector
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    devstack-plugin-amqp1:
-      repos:
-        - openstack/devstack-plugin-amqp1
-    devstack-plugin-zmq:
-      repos:
-        - openstack/devstack-plugin-zmq
-    futurist:
-      repos:
-        - openstack/futurist
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    mox3:
-      repos:
-        - openstack/mox3
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslo-cookiecutter:
-      repos:
-        - openstack-dev/oslo-cookiecutter
-    oslo-incubator:
-      repos:
-        - openstack/oslo-incubator
-      tags:
-        - release:has-stable-branches
-    oslo-specs:
-      repos:
-        - openstack/oslo-specs
-    oslo.cache:
-      repos:
-        - openstack/oslo.cache
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslo.concurrency:
-      repos:
-        - openstack/oslo.concurrency
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslo.config:
-      repos:
-        - openstack/oslo.config
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-        - vulnerability:managed
-    oslo.context:
-      repos:
-        - openstack/oslo.context
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslo.db:
-      repos:
-        - openstack/oslo.db
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslo.i18n:
-      repos:
-        - openstack/oslo.i18n
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslo.log:
-      repos:
-        - openstack/oslo.log
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslo.messaging:
-      repos:
-        - openstack/oslo.messaging
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslo.middleware:
-      repos:
-        - openstack/oslo.middleware
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslo.policy:
-      repos:
-        - openstack/oslo.policy
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslo.reports:
-      repos:
-        - openstack/oslo.reports
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslo.rootwrap:
-      repos:
-        - openstack/oslo.rootwrap
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslo.serialization:
-      repos:
-        - openstack/oslo.serialization
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslo.service:
-      repos:
-        - openstack/oslo.service
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslo.utils:
-      repos:
-        - openstack/oslo.utils
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslo.versionedobjects:
-      repos:
-        - openstack/oslo.versionedobjects
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslo.vmware:
-      repos:
-        - openstack/oslo.vmware
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslosphinx:
-      repos:
-        - openstack/oslosphinx
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    oslotest:
-      repos:
-        - openstack/oslotest
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    pbr:
-      repos:
-        - openstack-dev/pbr
-      tags:
-        - release:independent
-        - type:library
-        - release:managed
-    pylockfile:
-      repos:
-        - openstack/pylockfile
-      tags:
-        - release:independent
-        - type:library
-        - release:managed
-    stevedore:
-      repos:
-        - openstack/stevedore
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    taskflow:
-      repos:
-        - openstack/taskflow
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    tooz:
-      repos:
-        - openstack/tooz
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
+    To make OpenStack ubiquitously accessible to people of
+    all language backgrounds.
+  url: https://wiki.openstack.org/wiki/I18nTeam
+  deliverables: {}
 
 Infrastructure:
   ptl: James E. Blair (jeblair)
@@ -1242,361 +898,169 @@ Infrastructure:
       repos:
         - openstack-infra/zuul-packaging
 
-Documentation:
-  ptl: Lana Brindley (loquacities)
-  irc-channel: openstack-doc
+Ironic:
+  ptl: Devananda van der Veen (devananda)
+  irc-channel: openstack-ironic
+  service: Bare metal service
   mission: >
-    Provide documentation for core OpenStack projects to promote OpenStack.
-    Develop and maintain tools and processes to ensure quality, accurate
-    documentation. Treat documentation like OpenStack code.
-  url: https://wiki.openstack.org/wiki/Documentation
+    To produce an OpenStack service and associated libraries capable of
+    managing and provisioning physical machines, and to do this in a
+    security-aware and fault-tolerant manner.
+  url: https://wiki.openstack.org/wiki/Ironic
   tags:
     - team:diverse-affiliation
   deliverables:
-    api-site:
+    bifrost:
       repos:
-        - openstack/api-site
-    docs-specs:
+        - openstack/bifrost
+    coreos-image-builder:
       repos:
-        - openstack/docs-specs
-    ha-guide:
+        - openstack/coreos-image-builder
+    ironic:
       repos:
-        - openstack/ha-guide
-    openstack-doc-tools:
-      repos:
-        - openstack/openstack-doc-tools
+        - openstack/ironic
       tags:
-        - release:independent
-        - type:library
+        - tc-approved-release
         - release:managed
-    openstack-manuals:
-      repos:
-        - openstack/openstack-manuals
-      tags:
-        - release:has-stable-branches
-    openstackdocstheme:
-      repos:
-        - openstack/openstackdocstheme
-      tags:
-        - release:independent
-        - type:library
-        - release:managed
-    operations-guide:
-      repos:
-        - openstack/operations-guide
-    training-guides:
-      repos:
-        - openstack/training-guides
-
-Quality Assurance:
-  ptl: Matthew Treinish (mtreinish)
-  irc-channel: openstack-qa
-  mission: >
-    Develop, maintain, and initiate tools and plans to ensure the upstream
-    stability and quality of OpenStack, and its release readiness at any point
-    during the release cycle.
-  url: https://wiki.openstack.org/wiki/QA
-  tags:
-    - team:diverse-affiliation
-  deliverables:
-    bashate:
-      repos:
-        - openstack-dev/bashate
-    devstack:
-      repos:
-        - openstack-dev/devstack
-      tags:
-        - release:has-stable-branches
-    devstack-plugin-cookiecutter:
-      repos:
-        - openstack-dev/devstack-plugin-cookiecutter
-    devstack-vagrant:
-      repos:
-        - openstack-dev/devstack-vagrant
-    eslint-config-openstack:
-      repos:
-        - openstack/eslint-config-openstack
-      tags:
-        - release:independent
-    grenade:
-      repos:
-        - openstack-dev/grenade
-      tags:
-        - release:has-stable-branches
-    hacking:
-      repos:
-        - openstack-dev/hacking
-      tags:
-        - release:independent
-    os-testr:
-      repos:
-        - openstack/os-testr
-      tags:
-        - type:library
-    qa-specs:
-      repos:
-        - openstack/qa-specs
-    tempest:
-      repos:
-        - openstack/tempest
-    tempest-lib:
-      repos:
-        - openstack/tempest-lib
-      tags:
-        - release:independent
-        - type:library
-
-TripleO:
-  ptl: James Slagle (slagle)
-  irc-channel: tripleo
-  service: Deployment
-  mission: >
-    Develop and maintain tooling and infrastructure able to deploy OpenStack in
-    production, using OpenStack itself wherever possible.
-  url: https://wiki.openstack.org/wiki/TripleO
-  deliverables:
-    dib-utils:
-      repos:
-        - openstack/dib-utils
-      tags:
-        - release:independent
-    diskimage-builder:
-      repos:
-        - openstack/diskimage-builder
-      tags:
-        - release:independent
-    os-apply-config:
-      repos:
-        - openstack/os-apply-config
-      tags:
-        - release:independent
-    os-cloud-config:
-      repos:
-        - openstack/os-cloud-config
-      tags:
-        - release:independent
-    os-collect-config:
-      repos:
-        - openstack/os-collect-config
-      tags:
-        - release:independent
-    os-net-config:
-      repos:
-        - openstack/os-net-config
-      tags:
-        - release:independent
-    os-refresh-config:
-      repos:
-        - openstack/os-refresh-config
-      tags:
-        - release:independent
-    python-tuskarclient:
-      repos:
-        - openstack/python-tuskarclient
-      tags:
-        - release:independent
-        - type:library
-    tripleo-common:
-      repos:
-        - openstack/tripleo-common
-      tags:
-        - release:independent
-    tripleo-heat-templates:
-      repos:
-        - openstack/tripleo-heat-templates
-      tags:
-        - release:independent
-    tripleo-image-elements:
-      repos:
-        - openstack/tripleo-image-elements
-      tags:
-        - release:independent
-    tripleo-incubator:
-      repos:
-        - openstack/tripleo-incubator
-    tripleo-puppet-elements:
-      repos:
-        - openstack/tripleo-puppet-elements
-    tripleo-specs:
-      repos:
-        - openstack/tripleo-specs
-    tuskar:
-      repos:
-        - openstack/tuskar
-      tags:
-        - release:independent
-
-Release cycle management:
-  ptl: Thierry Carrez (ttx)
-  irc-channel: openstack-relmgr-office
-  mission: >
-    To organize the release cycle and the work necessary to produce coordinated
-    releases of the various components of OpenStack. To collect bugfix
-    backports and produce stable point releases for the previously-released
-    branch.
-  url: https://wiki.openstack.org/wiki/Release_Cycle_Management
-  deliverables:
-    release-tools:
-      repos:
-        - openstack-infra/release-tools
-    releases:
-      repos:
-        - openstack/releases
-    requirements:
-      repos:
-        - openstack/requirements
-      tags:
-        - release:has-stable-branches
-    specs-cookiecutter:
-      repos:
-        - openstack-dev/specs-cookiecutter
-
-Zaqar:
-  ptl: Flavio Percoco (flaper87)
-  irc-channel: openstack-zaqar
-  service: Message service
-  mission: >
-    To produce an OpenStack messaging service that affords a
-    variety of distributed application patterns in an efficient,
-    scalable and highly-available manner, and to create and maintain
-    associated Python libraries and documentation.
-  url: https://wiki.openstack.org/wiki/Zaqar
-  deliverables:
-    python-zaqarclient:
-      repos:
-        - openstack/python-zaqarclient
-      tags:
         - release:cycle-with-intermediary
         - release:has-stable-branches
-        - release:managed
-        - type:library
-    zaqar:
-      repos:
-        - openstack/zaqar
-      tags:
-        - release:cycle-with-milestones
-        - release:has-stable-branches
-        - release:managed
         - type:service
-    zaqar-specs:
+    ironic-inspector:
       repos:
-        - openstack/zaqar-specs
-
-Sahara:
-  ptl: Sergey Lukjanov (SergeyLukjanov)
-  irc-channel: openstack-sahara
-  service: Data processing service
-  mission: >
-    To provide a scalable data processing stack and associated management
-    interfaces.
-  url: https://wiki.openstack.org/wiki/Sahara
-  deliverables:
-    python-saharaclient:
+        - openstack/ironic-inspector
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:service
+    ironic-lib:
       repos:
-        - openstack/python-saharaclient
+        - openstack/ironic-lib
+      tags:
+        - release:cycle-with-intermediary
+        - type:library
+        - release:managed
+    ironic-python-agent:
+      repos:
+        - openstack/ironic-python-agent
+      tags:
+        - release:independent
+        - type:service
+    ironic-specs:
+      repos:
+        - openstack/ironic-specs
+    ironic-webclient:
+      repos:
+        - openstack/ironic-webclient
+      tags:
+        - release:independent
+    python-ironic-inspector-client:
+      repos:
+        - openstack/python-ironic-inspector-client
+      tags:
+        - release:independent
+        - type:library
+        - release:managed
+    python-ironicclient:
+      repos:
+        - openstack/python-ironicclient
       tags:
         - release:cycle-with-intermediary
         - release:has-stable-branches
         - type:library
         - release:managed
-        - vulnerability:managed
-    sahara:
+
+Keystone:
+  ptl: Morgan Fainberg (morganfainberg)
+  irc-channel: openstack-keystone
+  service: Identity
+  mission: >
+    To facilitate API client authentication, service discovery, distributed
+    multi-tenant authorization, and auditing.
+  url: https://wiki.openstack.org/wiki/Keystone
+  tags:
+    - team:diverse-affiliation
+  deliverables:
+    keystone:
       repos:
-        - openstack/sahara
-        - openstack/sahara-extra
-        - openstack/sahara-image-elements
+        - openstack/keystone
       tags:
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
         - release:has-stable-branches
         - type:service
+        - starter-kit:compute
         - vulnerability:managed
-    sahara-dashboard:
+    keystone-specs:
       repos:
-        - openstack/sahara-dashboard
+        - openstack/keystone-specs
+    keystoneauth:
+      repos:
+        - openstack/keystoneauth
       tags:
+        - release:cycle-with-intermediary
         - type:library
-    sahara-specs:
-      repos:
-        - openstack/sahara-specs
-
-Barbican:
-  ptl: Douglas Mendizabal (redrobot)
-  irc-channel: openstack-barbican
-  service: Key management service
-  mission: >
-    To produce a secret storage and generation system capable of providing key
-    management for services wishing to enable encryption features.
-  url: https://wiki.openstack.org/wiki/Barbican
-  deliverables:
-    barbican:
-      repos:
-        - openstack/barbican
-      tags:
-        - release:cycle-with-milestones
-        - release:has-stable-branches
         - release:managed
-        - type:service
-    barbican-specs:
+    keystoneauth-saml2:
       repos:
-        - openstack/barbican-specs
-    castellan:
-      repos:
-        - openstack/castellan
+        - openstack/keystoneauth-saml2
       tags:
         - release:independent
         - type:library
-    kite:
+    keystonemiddleware:
       repos:
-        - openstack/kite
-      tags:
-        - type:service
-    python-barbicanclient:
-      repos:
-        - openstack/python-barbicanclient
+        - openstack/keystonemiddleware
       tags:
         - release:cycle-with-intermediary
         - release:has-stable-branches
-        - release:managed
         - type:library
-    python-kiteclient:
+        - release:managed
+    pycadf:
       repos:
-        - openstack/python-kiteclient
+        - openstack/pycadf
       tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    python-keystoneclient:
+      repos:
+        - openstack/python-keystoneclient
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+        - vulnerability:managed
+    python-keystoneclient-kerberos:
+      repos:
+        - openstack/python-keystoneclient-kerberos
+      tags:
+        - release:independent
         - type:library
 
-Designate:
-  ptl: Kiall Mac Innes (kiall)
-  service: DNS service
+MagnetoDB:
+  ptl: Ilya Sviridov (isviridov)
+  service: Key-Value Store as a Service
   mission: >
-    To provide scalable, on demand, self service access to authoritative DNS
-    services, in technology-agnostic manner.
-  url: https://wiki.openstack.org/wiki/Designate
+    To provide key-value store service for OpenStack users.
+  url: https://wiki.openstack.org/wiki/MagnetoDB
   deliverables:
-    designate:
+    magnetodb:
       repos:
-        - openstack/designate
+        - openstack/magnetodb
       tags:
         - release:cycle-with-milestones
         - release:has-stable-branches
-        - release:managed
         - type:service
-    designate-dashboard:
+    magnetodb-specs:
       repos:
-        - openstack/designate-dashboard
-      tags:
-        - type:library
-    designate-specs:
+        - openstack/magnetodb-specs
+    python-magnetodbclient:
       repos:
-        - openstack/designate-specs
-    python-designateclient:
-      repos:
-        - openstack/python-designateclient
+        - openstack/python-magnetodbclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - release:managed
         - type:library
 
 Magnum:
@@ -1663,6 +1127,36 @@ Manila:
         - release:managed
         - type:library
 
+Mistral:
+  ptl: Renat Akhmerov (rakhmerov)
+  irc-channel: openstack-mistral
+  service: Workflow service
+  mission: >
+    Provide a simple YAML-based language to write workflows (tasks and
+    transition rules) and a service that allows to upload them, modify, run
+    them at scale and in a highly available manner, manage and monitor
+    workflow execution state and state of individual tasks.
+  url: https://wiki.openstack.org/wiki/Mistral
+  deliverables:
+    mistral:
+      repos:
+        - openstack/mistral
+      tags:
+        - type:service
+    mistral-dashboard:
+      repos:
+        - openstack/mistral-dashboard
+      tags:
+        - type:library
+    mistral-extra:
+      repos:
+        - openstack/mistral-extra
+    python-mistralclient:
+      repos:
+        - openstack/python-mistralclient
+      tags:
+        - type:library
+
 Murano:
   ptl: Serg Melikyan (smelikyan)
   irc-channel: murano
@@ -1713,6 +1207,187 @@ Murano:
         - release:has-stable-branches
         - type:library
 
+Neutron:
+  ptl: Kyle Mestery (mestery)
+  irc-channel: openstack-neutron
+  service: Networking
+  mission: >
+    To implement services and associated libraries to provide on-demand,
+    scalable, and technology-agnostic network abstraction.
+  url: https://wiki.openstack.org/wiki/Neutron
+  tags:
+    - team:diverse-affiliation
+  deliverables:
+    dragonflow:
+      repos:
+        - openstack/dragonflow
+      tags:
+        - release:independent
+    kuryr:
+      repos:
+        - openstack/kuryr
+      tags:
+        - release:independent
+    networking-arista:
+      repos:
+        - openstack/networking-arista
+      tags:
+        - release:independent
+    networking-bgpvpn:
+      repos:
+        - openstack/networking-bgpvpn
+      tags:
+        - release:independent
+    networking-cisco:
+      repos:
+        - openstack/networking-cisco
+      tags:
+        - release:independent
+    networking-l2gw:
+      repos:
+        - openstack/networking-l2gw
+      tags:
+        - release:independent
+    networking-midonet:
+      repos:
+        - openstack/networking-midonet
+      tags:
+        - release:independent
+    networking-odl:
+      repos:
+        - openstack/networking-odl
+      tags:
+        - release:independent
+    networking-ofagent:
+      repos:
+        - openstack/networking-ofagent
+      tags:
+        - release:independent
+    networking-ovn:
+      repos:
+        - openstack/networking-ovn
+      tags:
+        - release:independent
+    networking-plumgrid:
+      repos:
+        - openstack/networking-plumgrid
+      tags:
+        - release:independent
+    networking-sfc:
+      repos:
+        - openstack/networking-sfc
+      tags:
+        - release:independent
+    networking-vsphere:
+      repos:
+        - openstack/networking-vsphere
+      tags:
+        - release:independent
+    neutron:
+      repos:
+        - openstack/neutron
+        - openstack/neutron-fwaas
+        - openstack/neutron-lbaas
+        - openstack/neutron-lbaas-dashboard
+        - openstack/neutron-vpnaas
+      tags:
+        - tc-approved-release
+        - release:managed
+        - release:cycle-with-milestones
+        - release:has-stable-branches
+        - type:service
+        - starter-kit:compute
+        - vulnerability:managed
+    neutron-specs:
+      repos:
+        - openstack/neutron-specs
+    octavia:
+      repos:
+        - openstack/octavia
+      tags:
+        - release:independent
+    python-neutron-pd-driver:
+      repos:
+        - openstack/python-neutron-pd-driver
+      tags:
+        - release:independent
+    python-neutronclient:
+      repos:
+        - openstack/python-neutronclient
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+        - vulnerability:managed
+    vmware-nsx:
+      repos:
+        - openstack/vmware-nsx
+      tags:
+        - release:independent
+
+Nova:
+  ptl: John Garbutt (johnthetubaguy)
+  irc-channel: openstack-nova
+  service: Compute
+  mission: >
+    To implement services and associated libraries to provide massively
+    scalable, on demand, self service access to compute resources, including
+    bare metal, virtual machines, and containers.
+  url: https://wiki.openstack.org/wiki/Nova
+  tags:
+    - team:diverse-affiliation
+  deliverables:
+    nova:
+      repos:
+        - openstack/nova
+      tags:
+        - tc-approved-release
+        - release:managed
+        - release:cycle-with-milestones
+        - release:has-stable-branches
+        - type:service
+        - starter-kit:compute
+        - vulnerability:managed
+    nova-specs:
+      repos:
+        - openstack/nova-specs
+    python-novaclient:
+      repos:
+        - openstack/python-novaclient
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+        - vulnerability:managed
+
+OpenStack UX:
+  ptl: Piet Kruithof (Piet)
+  irc-channel: openstack-ux
+  mission: >
+    The mission of the UX Program is to help the teams improve the overall
+    user experience of their projects.
+  url: https://wiki.openstack.org/wiki/UX
+  deliverables: {}
+
+OpenStackAnsible:
+  ptl: Kevin Carter (cloudnull)
+  service: Ansible Playbooks and Roles for the deployment of OpenStack
+  mission: >
+    Deploying OpenStack from source in a way that makes it scalable
+    while also being simple to operate, upgrade, and grow.
+  url: https://wiki.openstack.org/wiki/OpenStackAnsible
+  deliverables:
+    openstack-ansible:
+      repos:
+        - openstack/openstack-ansible
+      tags:
+        - release:independent
+    openstack-ansible-specs:
+      repos:
+        - openstack/openstack-ansible-specs
+
 OpenStackClient:
   ptl: Dean Troyer (dtroyer)
   irc-channel: openstack-sdks
@@ -1744,124 +1419,260 @@ OpenStackClient:
         - release:has-stable-branches
         - release:managed
 
-Congress:
-  ptl: Tim Hinrichs (thinrichs)
-  irc-channel: congress
-  service: Governance service
+Oslo:
+  ptl: Davanum Srinivas (dims)
+  irc-channel: openstack-oslo
+  service: Common libraries
   mission: >
-    To provide governance as a service across any collection of cloud
-    services in order to monitor, enforce, and audit policy over
-    dynamic infrastructure.
-  url: https://wiki.openstack.org/wiki/Congress
+    To produce a set of python libraries containing code shared by OpenStack
+    projects. The APIs provided by these libraries should be high quality,
+    stable, consistent, documented and generally applicable.
+  url: https://wiki.openstack.org/wiki/Oslo
+  tags:
+    - team:diverse-affiliation
   deliverables:
-    congress:
+    automaton:
       repos:
-        - openstack/congress
-      tags:
-        - release:has-stable-branches
-        - type:service
-    congress-specs:
-      repos:
-        - openstack/congress-specs
-    python-congressclient:
-      repos:
-        - openstack/python-congressclient
-      tags:
-        - type:library
-
-Security:
-  ptl: Robert Clark (hyakuhei)
-  mission: >
-    To provide developers and consumers of OpenStack with appropriate security
-    guidance and advice. To develop tooling that enhances levels of security
-    within OpenStack projects. To issue Security Notes and Security Advisories
-    for reported vulnerabilities and to foster new security initiatives to the
-    benefit of the OpenStack community as a whole.
-  url: https://wiki.openstack.org/wiki/Security
-  deliverables:
-    anchor:
-      repos:
-        - openstack/anchor
-    bandit:
-      repos:
-        - openstack/bandit
-    ossa:
-      repos:
-        - openstack/ossa
-    security-doc:
-      repos:
-        - openstack/security-doc
-    security-specs:
-      repos:
-        - openstack/security-specs
-
-Rally:
-  ptl: Boris Pavlovic (boris-42)
-  irc-channel: openstack-rally
-  service: Benchmark service
-  mission: >
-    To provide a framework for performance analysis and benchmarking of
-    individual OpenStack components as well as full production OpenStack
-    cloud deployments.
-  url: https://wiki.openstack.org/wiki/Rally
-  deliverables:
-    rally:
-      repos:
-        - openstack/rally
-
-Mistral:
-  ptl: Renat Akhmerov (rakhmerov)
-  irc-channel: openstack-mistral
-  service: Workflow service
-  mission: >
-    Provide a simple YAML-based language to write workflows (tasks and
-    transition rules) and a service that allows to upload them, modify, run
-    them at scale and in a highly available manner, manage and monitor
-    workflow execution state and state of individual tasks.
-  url: https://wiki.openstack.org/wiki/Mistral
-  deliverables:
-    mistral:
-      repos:
-        - openstack/mistral
-      tags:
-        - type:service
-    mistral-dashboard:
-      repos:
-        - openstack/mistral-dashboard
-      tags:
-        - type:library
-    mistral-extra:
-      repos:
-        - openstack/mistral-extra
-    python-mistralclient:
-      repos:
-        - openstack/python-mistralclient
-      tags:
-        - type:library
-
-MagnetoDB:
-  ptl: Ilya Sviridov (isviridov)
-  service: Key-Value Store as a Service
-  mission: >
-    To provide key-value store service for OpenStack users.
-  url: https://wiki.openstack.org/wiki/MagnetoDB
-  deliverables:
-    magnetodb:
-      repos:
-        - openstack/magnetodb
-      tags:
-        - release:cycle-with-milestones
-        - release:has-stable-branches
-        - type:service
-    magnetodb-specs:
-      repos:
-        - openstack/magnetodb-specs
-    python-magnetodbclient:
-      repos:
-        - openstack/python-magnetodbclient
+        - openstack/automaton
       tags:
         - release:cycle-with-intermediary
+        - release:has-stable-branches
         - type:library
+    cookiecutter:
+      repos:
+        - openstack-dev/cookiecutter
+    debtcollector:
+      repos:
+        - openstack/debtcollector
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    devstack-plugin-amqp1:
+      repos:
+        - openstack/devstack-plugin-amqp1
+    devstack-plugin-zmq:
+      repos:
+        - openstack/devstack-plugin-zmq
+    futurist:
+      repos:
+        - openstack/futurist
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    mox3:
+      repos:
+        - openstack/mox3
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslo-cookiecutter:
+      repos:
+        - openstack-dev/oslo-cookiecutter
+    oslo-incubator:
+      repos:
+        - openstack/oslo-incubator
+      tags:
+        - release:has-stable-branches
+    oslo-specs:
+      repos:
+        - openstack/oslo-specs
+    oslo.cache:
+      repos:
+        - openstack/oslo.cache
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslo.concurrency:
+      repos:
+        - openstack/oslo.concurrency
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslo.config:
+      repos:
+        - openstack/oslo.config
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+        - vulnerability:managed
+    oslo.context:
+      repos:
+        - openstack/oslo.context
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslo.db:
+      repos:
+        - openstack/oslo.db
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslo.i18n:
+      repos:
+        - openstack/oslo.i18n
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslo.log:
+      repos:
+        - openstack/oslo.log
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslo.messaging:
+      repos:
+        - openstack/oslo.messaging
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslo.middleware:
+      repos:
+        - openstack/oslo.middleware
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslo.policy:
+      repos:
+        - openstack/oslo.policy
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslo.reports:
+      repos:
+        - openstack/oslo.reports
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslo.rootwrap:
+      repos:
+        - openstack/oslo.rootwrap
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslo.serialization:
+      repos:
+        - openstack/oslo.serialization
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslo.service:
+      repos:
+        - openstack/oslo.service
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslo.utils:
+      repos:
+        - openstack/oslo.utils
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslo.versionedobjects:
+      repos:
+        - openstack/oslo.versionedobjects
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslo.vmware:
+      repos:
+        - openstack/oslo.vmware
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslosphinx:
+      repos:
+        - openstack/oslosphinx
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    oslotest:
+      repos:
+        - openstack/oslotest
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    pbr:
+      repos:
+        - openstack-dev/pbr
+      tags:
+        - release:independent
+        - type:library
+        - release:managed
+    pylockfile:
+      repos:
+        - openstack/pylockfile
+      tags:
+        - release:independent
+        - type:library
+        - release:managed
+    stevedore:
+      repos:
+        - openstack/stevedore
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    taskflow:
+      repos:
+        - openstack/taskflow
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    tooz:
+      repos:
+        - openstack/tooz
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
 
 PuppetOpenStack:
   ptl: Emilien Macchi (emilienm)
@@ -2000,117 +1811,155 @@ PuppetOpenStack:
       tags:
         - release:independent
 
-ChefOpenstack:
-  ptl: JJ Asghar (j^2)
-  service: Chef cookbooks for the OpenStack components
+Quality Assurance:
+  ptl: Matthew Treinish (mtreinish)
+  irc-channel: openstack-qa
   mission: >
-    The Chef cookbooks for OpenStack allow to automate the building, operation
-    and consumption of OpenStack cloud deployments.
-  url: https://wiki.openstack.org/wiki/Chef
+    Develop, maintain, and initiate tools and plans to ensure the upstream
+    stability and quality of OpenStack, and its release readiness at any point
+    during the release cycle.
+  url: https://wiki.openstack.org/wiki/QA
+  tags:
+    - team:diverse-affiliation
   deliverables:
-    cookbook-openstack-bare-metal:
+    bashate:
       repos:
-        - openstack/cookbook-openstack-bare-metal
+        - openstack-dev/bashate
+    devstack:
+      repos:
+        - openstack-dev/devstack
+      tags:
+        - release:has-stable-branches
+    devstack-plugin-cookiecutter:
+      repos:
+        - openstack-dev/devstack-plugin-cookiecutter
+    devstack-vagrant:
+      repos:
+        - openstack-dev/devstack-vagrant
+    eslint-config-openstack:
+      repos:
+        - openstack/eslint-config-openstack
       tags:
         - release:independent
-    cookbook-openstack-block-storage:
+    grenade:
       repos:
-        - openstack/cookbook-openstack-block-storage
+        - openstack-dev/grenade
+      tags:
+        - release:has-stable-branches
+    hacking:
+      repos:
+        - openstack-dev/hacking
       tags:
         - release:independent
-    cookbook-openstack-client:
+    os-testr:
       repos:
-        - openstack/cookbook-openstack-client
+        - openstack/os-testr
+      tags:
+        - type:library
+    qa-specs:
+      repos:
+        - openstack/qa-specs
+    tempest:
+      repos:
+        - openstack/tempest
+    tempest-lib:
+      repos:
+        - openstack/tempest-lib
       tags:
         - release:independent
-    cookbook-openstack-common:
-      repos:
-        - openstack/cookbook-openstack-common
-      tags:
-        - release:independent
-    cookbook-openstack-compute:
-      repos:
-        - openstack/cookbook-openstack-compute
-      tags:
-        - release:independent
-    cookbook-openstack-dashboard:
-      repos:
-        - openstack/cookbook-openstack-dashboard
-      tags:
-        - release:independent
-    cookbook-openstack-data-processing:
-      repos:
-        - openstack/cookbook-openstack-data-processing
-      tags:
-        - release:independent
-    cookbook-openstack-database:
-      repos:
-        - openstack/cookbook-openstack-database
-      tags:
-        - release:independent
-    cookbook-openstack-identity:
-      repos:
-        - openstack/cookbook-openstack-identity
-      tags:
-        - release:independent
-    cookbook-openstack-image:
-      repos:
-        - openstack/cookbook-openstack-image
-      tags:
-        - release:independent
-    cookbook-openstack-integration-test:
-      repos:
-        - openstack/cookbook-openstack-integration-test
-      tags:
-        - release:independent
-    cookbook-openstack-network:
-      repos:
-        - openstack/cookbook-openstack-network
-      tags:
-        - release:independent
-    cookbook-openstack-object-storage:
-      repos:
-        - openstack/cookbook-openstack-object-storage
-      tags:
-        - release:independent
-    cookbook-openstack-ops-database:
-      repos:
-        - openstack/cookbook-openstack-ops-database
-      tags:
-        - release:independent
-    cookbook-openstack-ops-messaging:
-      repos:
-        - openstack/cookbook-openstack-ops-messaging
-      tags:
-        - release:independent
-    cookbook-openstack-orchestration:
-      repos:
-        - openstack/cookbook-openstack-orchestration
-      tags:
-        - release:independent
-    cookbook-openstack-telemetry:
-      repos:
-        - openstack/cookbook-openstack-telemetry
-      tags:
-        - release:independent
-    openstack-chef-repo:
-      repos:
-        - openstack/openstack-chef-repo
-      tags:
-        - release:independent
-    openstack-chef-specs:
-      repos:
-        - openstack/openstack-chef-specs
-      tags:
-        - release:independent
+        - type:library
 
-I18n:
-  ptl: Ying Chun Guo (Daisy)
+Rally:
+  ptl: Boris Pavlovic (boris-42)
+  irc-channel: openstack-rally
+  service: Benchmark service
   mission: >
-    To make OpenStack ubiquitously accessible to people of
-    all language backgrounds.
-  url: https://wiki.openstack.org/wiki/I18nTeam
-  deliverables: {}
+    To provide a framework for performance analysis and benchmarking of
+    individual OpenStack components as well as full production OpenStack
+    cloud deployments.
+  url: https://wiki.openstack.org/wiki/Rally
+  deliverables:
+    rally:
+      repos:
+        - openstack/rally
+
+Release cycle management:
+  ptl: Thierry Carrez (ttx)
+  irc-channel: openstack-relmgr-office
+  mission: >
+    To organize the release cycle and the work necessary to produce coordinated
+    releases of the various components of OpenStack. To collect bugfix
+    backports and produce stable point releases for the previously-released
+    branch.
+  url: https://wiki.openstack.org/wiki/Release_Cycle_Management
+  deliverables:
+    release-tools:
+      repos:
+        - openstack-infra/release-tools
+    releases:
+      repos:
+        - openstack/releases
+    requirements:
+      repos:
+        - openstack/requirements
+      tags:
+        - release:has-stable-branches
+    specs-cookiecutter:
+      repos:
+        - openstack-dev/specs-cookiecutter
+
+RpmPackaging:
+  ptl: Dirk Mueller (dirk) and Haikel Guemar (number80)
+  mission: >
+    To make OpenStack easier to update and consume by operators and
+    provide tooling to package all OpenStack projects directly for
+    all RPM based distributions.
+  deliverables:
+    rpm-packaging:
+      repos:
+        - openstack/rpm-packaging
+    rpm-packaging-tools:
+      repos:
+        - openstack/rpm-packaging-tools
+
+Sahara:
+  ptl: Sergey Lukjanov (SergeyLukjanov)
+  irc-channel: openstack-sahara
+  service: Data processing service
+  mission: >
+    To provide a scalable data processing stack and associated management
+    interfaces.
+  url: https://wiki.openstack.org/wiki/Sahara
+  deliverables:
+    python-saharaclient:
+      repos:
+        - openstack/python-saharaclient
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+        - vulnerability:managed
+    sahara:
+      repos:
+        - openstack/sahara
+        - openstack/sahara-extra
+        - openstack/sahara-image-elements
+      tags:
+        - tc-approved-release
+        - release:managed
+        - release:cycle-with-milestones
+        - release:has-stable-branches
+        - type:service
+        - vulnerability:managed
+    sahara-dashboard:
+      repos:
+        - openstack/sahara-dashboard
+      tags:
+        - type:library
+    sahara-specs:
+      repos:
+        - openstack/sahara-specs
 
 Searchlight:
   ptl: Travis Tripp (TravT) & Nikhil Komawar (nikhil_k)
@@ -2126,22 +1975,31 @@ Searchlight:
       tags:
         - type:service
 
-OpenStackAnsible:
-  ptl: Kevin Carter (cloudnull)
-  service: Ansible Playbooks and Roles for the deployment of OpenStack
+Security:
+  ptl: Robert Clark (hyakuhei)
   mission: >
-    Deploying OpenStack from source in a way that makes it scalable
-    while also being simple to operate, upgrade, and grow.
-  url: https://wiki.openstack.org/wiki/OpenStackAnsible
+    To provide developers and consumers of OpenStack with appropriate security
+    guidance and advice. To develop tooling that enhances levels of security
+    within OpenStack projects. To issue Security Notes and Security Advisories
+    for reported vulnerabilities and to foster new security initiatives to the
+    benefit of the OpenStack community as a whole.
+  url: https://wiki.openstack.org/wiki/Security
   deliverables:
-    openstack-ansible:
+    anchor:
       repos:
-        - openstack/openstack-ansible
-      tags:
-        - release:independent
-    openstack-ansible-specs:
+        - openstack/anchor
+    bandit:
       repos:
-        - openstack/openstack-ansible-specs
+        - openstack/bandit
+    ossa:
+      repos:
+        - openstack/ossa
+    security-doc:
+      repos:
+        - openstack/security-doc
+    security-specs:
+      repos:
+        - openstack/security-specs
 
 Solum:
   ptl: Adrian Otto (adrian_otto)
@@ -2165,43 +2023,185 @@ Solum:
         - release:independent
         - type:service
 
-Cue:
-  ptl: Vipul Sabhaya (vipul)
-  service: Message Broker Service
-  mission: >
-    To provide a multi-tenant service that offers scalable and reliable
-    provisioning and management capabilities for off-the-shelf message brokers.
-  url: https://wiki.openstack.org/wiki/Cue
+Swift:
+  ptl: John Dickinson (notmyname)
+  irc-channel: openstack-swift
+  service: Object Storage
+  url: https://wiki.openstack.org/wiki/Swift
+  tags:
+    - team:diverse-affiliation
   deliverables:
-    cue:
+    python-swiftclient:
       repos:
-        - openstack/cue
-    cue-dashboard:
+        - openstack/python-swiftclient
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+        - vulnerability:managed
+    swift:
       repos:
-        - openstack/cue-dashboard
-    python-cueclient:
+        - openstack/swift
+      tags:
+        - tc-approved-release
+        - release:managed
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:service
+        - vulnerability:managed
+    swift-bench:
       repos:
-        - openstack/python-cueclient
+        - openstack/swift-bench
+      tags:
+        - release:independent
+    swift-specs:
+      repos:
+        - openstack/swift-specs
 
-RpmPackaging:
-  ptl: Dirk Mueller (dirk) and Haikel Guemar (number80)
+TripleO:
+  ptl: James Slagle (slagle)
+  irc-channel: tripleo
+  service: Deployment
   mission: >
-    To make OpenStack easier to update and consume by operators and
-    provide tooling to package all OpenStack projects directly for
-    all RPM based distributions.
+    Develop and maintain tooling and infrastructure able to deploy OpenStack in
+    production, using OpenStack itself wherever possible.
+  url: https://wiki.openstack.org/wiki/TripleO
   deliverables:
-    rpm-packaging:
+    dib-utils:
       repos:
-        - openstack/rpm-packaging
-    rpm-packaging-tools:
+        - openstack/dib-utils
+      tags:
+        - release:independent
+    diskimage-builder:
       repos:
-        - openstack/rpm-packaging-tools
+        - openstack/diskimage-builder
+      tags:
+        - release:independent
+    os-apply-config:
+      repos:
+        - openstack/os-apply-config
+      tags:
+        - release:independent
+    os-cloud-config:
+      repos:
+        - openstack/os-cloud-config
+      tags:
+        - release:independent
+    os-collect-config:
+      repos:
+        - openstack/os-collect-config
+      tags:
+        - release:independent
+    os-net-config:
+      repos:
+        - openstack/os-net-config
+      tags:
+        - release:independent
+    os-refresh-config:
+      repos:
+        - openstack/os-refresh-config
+      tags:
+        - release:independent
+    python-tuskarclient:
+      repos:
+        - openstack/python-tuskarclient
+      tags:
+        - release:independent
+        - type:library
+    tripleo-common:
+      repos:
+        - openstack/tripleo-common
+      tags:
+        - release:independent
+    tripleo-heat-templates:
+      repos:
+        - openstack/tripleo-heat-templates
+      tags:
+        - release:independent
+    tripleo-image-elements:
+      repos:
+        - openstack/tripleo-image-elements
+      tags:
+        - release:independent
+    tripleo-incubator:
+      repos:
+        - openstack/tripleo-incubator
+    tripleo-puppet-elements:
+      repos:
+        - openstack/tripleo-puppet-elements
+    tripleo-specs:
+      repos:
+        - openstack/tripleo-specs
+    tuskar:
+      repos:
+        - openstack/tuskar
+      tags:
+        - release:independent
 
-OpenStack UX:
-  ptl: Piet Kruithof (Piet)
-  irc-channel: openstack-ux
+Trove:
+  ptl: Nikhil Manchanda (SlickNik)
+  irc-channel: openstack-trove
+  service: Database service
   mission: >
-    The mission of the UX Program is to help the teams improve the overall
-    user experience of their projects.
-  url: https://wiki.openstack.org/wiki/UX
-  deliverables: {}
+    To provide scalable and reliable Cloud Database as a Service functionality
+    for both relational and non-relational database engines, and to continue to
+    improve its fully-featured and extensible open source framework.
+  url: https://wiki.openstack.org/wiki/Trove
+  deliverables:
+    python-troveclient:
+      repos:
+        - openstack/python-troveclient
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+        - vulnerability:managed
+    trove:
+      repos:
+        - openstack/trove
+      tags:
+        - tc-approved-release
+        - release:managed
+        - release:cycle-with-milestones
+        - release:has-stable-branches
+        - type:service
+        - vulnerability:managed
+    trove-integration:
+      repos:
+        - openstack/trove-integration
+    trove-specs:
+      repos:
+        - openstack/trove-specs
+
+Zaqar:
+  ptl: Flavio Percoco (flaper87)
+  irc-channel: openstack-zaqar
+  service: Message service
+  mission: >
+    To produce an OpenStack messaging service that affords a
+    variety of distributed application patterns in an efficient,
+    scalable and highly-available manner, and to create and maintain
+    associated Python libraries and documentation.
+  url: https://wiki.openstack.org/wiki/Zaqar
+  deliverables:
+    python-zaqarclient:
+      repos:
+        - openstack/python-zaqarclient
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - release:managed
+        - type:library
+    zaqar:
+      repos:
+        - openstack/zaqar
+      tags:
+        - release:cycle-with-milestones
+        - release:has-stable-branches
+        - release:managed
+        - type:service
+    zaqar-specs:
+      repos:
+        - openstack/zaqar-specs
