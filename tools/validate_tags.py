@@ -50,18 +50,18 @@ def main():
         # Check team based tags
         for validator in team_validators:
             validate(team, teams[team], validator)
-        # Check repo based tags
-        for repo in teams[team]['projects']:
-            repo_name = repo['repo']
-            if not repo_exists(repo_name):
-                continue
-            for validator in repo_validators:
-                validate(repo_name, repo, validator)
+        # Check deliverable based tags
+        for name, deliverable in teams[team]['deliverables'].items():
+            for repo in deliverable['repos']:
+                if not repo_exists(repo):
+                    continue
+                for validator in repo_validators:
+                    validate(repo, deliverable, validator)
 
 
 def validate(name, data, validator):
     tag_name = validator.get_tag_name()
-    contains_tag = any([tag_name == tag['name'] for tag in
+    contains_tag = any([tag_name == tag for tag in
                         data.get('tags', [])])
     if validator.validate(name):
         # should contain tag
