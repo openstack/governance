@@ -1283,6 +1283,11 @@ Neutron:
         - openstack/networking-plumgrid
       tags:
         - release:independent
+    networking-powervm:
+      repos:
+        - openstack/networking-powervm
+      tags:
+        - release:independent
     networking-sfc:
       repos:
         - openstack/networking-sfc
