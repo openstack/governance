@@ -1039,6 +1039,22 @@ Keystone:
         - release:independent
         - type:library
 
+Kolla:
+  ptl: Steven Dake (sdake)
+  irc-channel: kolla
+  mission: >
+    To provide production-ready containers and deployment tools for operating
+    OpenStack clouds.
+  url: https://wiki.openstack.org/wiki/Kolla
+  tags:
+    - team:diverse-affiliation
+  deliverables:
+    kolla:
+      repos:
+        - openstack/kolla
+      tags:
+        - release:independent
+
 MagnetoDB:
   ptl: Ilya Sviridov (isviridov)
   service: Key-Value Store as a Service
