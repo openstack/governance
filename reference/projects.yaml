@@ -1238,6 +1238,11 @@ Neutron:
         - openstack/networking-bgpvpn
       tags:
         - release:independent
+    networking-calico:
+      repos:
+        - openstack/networking-calico
+      tags:
+        - release:independent
     networking-cisco:
       repos:
         - openstack/networking-cisco
