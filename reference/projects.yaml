@@ -1243,6 +1243,11 @@ Neutron:
         - openstack/networking-cisco
       tags:
         - release:independent
+    networking-infoblox:
+      repos:
+        - openstack/networking-infoblox
+      tags:
+        - release:independent
     networking-l2gw:
       repos:
         - openstack/networking-l2gw
