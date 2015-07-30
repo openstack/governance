@@ -20,6 +20,14 @@ Team Description Tags
 
    team_diverse-affiliation
 
+Project Assertions Tags
+=======================
+
+.. toctree::
+   :maxdepth: 1
+
+   assert_follows-standard-deprecation
+
 Release Management Tags
 =======================
 
