@@ -1755,6 +1755,11 @@ PuppetOpenStack:
         - openstack/puppet-mistral
       tags:
         - release:independent
+    puppet-murano:
+      repos:
+        - openstack/puppet-murano
+      tags:
+        - release:independent
     puppet-neutron:
       repos:
         - openstack/puppet-neutron
