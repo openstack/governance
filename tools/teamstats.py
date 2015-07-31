@@ -25,6 +25,33 @@ s = requests.session()
 
 six_months = int(time.time() - 30*6*24*60*60)  # 6 months ago
 
+MIN_REVIEWS = 30
+MIN_COMMITS = 6
+
+
+def get_team_size_stats(team):
+    team_stats = {}
+    group = "%s-group" % team.lower()
+    reviews = s.get('http://stackalytics.com/api/'
+                    '1.0/stats/engineers?metric=marks&release=all'
+                    '&start_date=%s&project_type=all'
+                    '&module=%s' % (six_months, group)).json()
+    team_stats['active_reviewers'] = 0
+    for eng in reviews['stats']:
+        if eng['metric'] >= MIN_REVIEWS:
+            team_stats['active_reviewers'] += 1
+
+    team_stats['active_committers'] = 0
+    commits = s.get('http://stackalytics.com/api/'
+                    '1.0/stats/engineers?metric=commits&release=all'
+                    '&project_type=all&module=%s&start_date=%s'
+                    % (group, six_months)).json()
+    for eng in commits['stats']:
+        if eng['metric'] >= MIN_COMMITS:
+            team_stats['active_committers'] += 1
+
+    return team_stats
+
 
 def get_core_reviews_by_company(group):
     # reviews by individual
@@ -134,6 +161,13 @@ def print_diversity(team):
         team_stats['core_reviews_top2'], team_stats['core_reviewers_top2'])
 
 
+def print_team_size(team):
+    team_stats = get_team_size_stats(team)
+    print '%-18s (%6s | %6s)' % (
+        '', team_stats['active_committers'],
+        team_stats['active_reviewers'])
+
+
 class ValidateDiversity(base.ValidatorBase):
 
     @staticmethod
@@ -155,8 +189,10 @@ def main():
         'top core reviewer %)'
     print '       (top 2 commit % | top 2 review % | top 2 core review % | ' \
         'top 2 core reviewer %)'
+    print '       (active committers | active reviewers)'
     for project in projects:
         print_diversity(project)
+        print_team_size(project)
 
 
 if __name__ == '__main__':
