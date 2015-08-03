@@ -855,6 +855,9 @@ Infrastructure:
     python-storyboardclient:
       repos:
         - openstack-infra/python-storyboardclient
+    refstack:
+      repos:
+        - openstack-infra/refstack
     releasestatus:
       repos:
         - openstack-infra/releasestatus
