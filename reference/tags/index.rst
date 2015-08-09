@@ -9,7 +9,7 @@ TC Managed Tags
    :maxdepth: 1
    :glob:
 
-   compute_starter_kit
+   starter-kit_compute
    tc-approved-release
 
 Team Description Tags
