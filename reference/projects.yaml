@@ -1424,11 +1424,13 @@ OpenStackAnsible:
     openstack-ansible:
       repos:
         - openstack/openstack-ansible
+        - stackforge/os-ansible-deployment
       tags:
         - release:independent
     openstack-ansible-specs:
       repos:
         - openstack/openstack-ansible-specs
+        - stackforge/os-ansible-deployment-specs
 
 OpenStackClient:
   ptl: Dean Troyer (dtroyer)
