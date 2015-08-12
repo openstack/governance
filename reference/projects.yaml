@@ -1,7 +1,7 @@
 Barbican:
   ptl: Douglas Mendizabal (redrobot)
   irc-channel: openstack-barbican
-  service: Key management service
+  service: Key manager service
   mission: >
     To produce a secret storage and generation system capable of providing key
     management for services wishing to enable encryption features.
