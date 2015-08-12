@@ -1926,6 +1926,9 @@ Quality Assurance:
     tempest:
       repos:
         - openstack/tempest
+    tempest-plugin-cookiecutter:
+      repos:
+        - openstack-dev/tempest-plugin-cookiecutter
     tempest-lib:
       repos:
         - openstack/tempest-lib
