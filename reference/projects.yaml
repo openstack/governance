@@ -700,6 +700,11 @@ Infrastructure:
         - openstack-infra/groups-static-pages
       tags:
         - release:none
+    infra-ansible:
+      repos:
+        - openstack-infra/infra-ansible
+      tags:
+        - release:none
     infra-manual:
       repos:
         - openstack-infra/infra-manual
