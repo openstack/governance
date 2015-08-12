@@ -1270,6 +1270,11 @@ Neutron:
         - openstack/networking-cisco
       tags:
         - release:independent
+    networking-hpe:
+      repos:
+        - openstack/networking-hpe
+      tags:
+        - release:independent
     networking-infoblox:
       repos:
         - openstack/networking-infoblox
