@@ -6,9 +6,9 @@
 
 .. _`tag-team:diverse-affiliation`:
 
-========================================================================
+========================
 team:diverse-affiliation
-========================================================================
+========================
 
 A project with this tag has achieved a level of diversity in the affiliation of
 contributors that is indicative of a healthy collaborative project.  This tag

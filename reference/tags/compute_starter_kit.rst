@@ -7,7 +7,7 @@
 .. _`tag-starter-kit:compute`:
 
 ===================
-compute starter kit
+starter-kit:compute
 ===================
 
 A common starting point for a Compute oriented OpenStack cloud that
