@@ -21,8 +21,8 @@ and reorder projects.yaml
 
 """
 
-import diversity
 import stable
+import teamstats
 
 import requests
 import yaml
@@ -33,7 +33,7 @@ import urllib
 
 # List of modules to validate team based tags
 team_validators = [
-    diversity.ValidateDiversity,
+    teamstats.ValidateDiversity,
 ]
 
 # List of modules to validate repository based tags

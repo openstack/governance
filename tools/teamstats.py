@@ -48,7 +48,8 @@ def get_core_reviews_by_company(group):
     return companies
 
 
-def get_diversity(project):
+def get_diversity_stats(project):
+    team_stats = {}
     # commits by company
     group = "%s-group" % project.lower()
     commits = s.get('http://stackalytics.com/api/'
@@ -62,55 +63,73 @@ def get_diversity(project):
                     % (group, six_months)).json()
     core_reviews_by_company = get_core_reviews_by_company(group)
     commits_total = sum([company['metric'] for company in commits['stats']])
-    commits_top = float(commits['stats'][0]['metric']) / commits_total * 100
-    commits_top2 = ((float(commits['stats'][0]['metric']) +
-                    float(commits['stats'][1]['metric']))
-                    / commits_total * 100)
+    team_stats['commits_top'] = (
+        float(commits['stats'][0]['metric']) / commits_total * 100)
+    team_stats['commits_top2'] = ((float(commits['stats'][0]['metric']) +
+                                  float(commits['stats'][1]['metric']))
+                                  / commits_total * 100)
     reviews_total = sum([company['metric'] for company in reviews['stats']])
-    reviews_top = float(reviews['stats'][0]['metric']) / reviews_total * 100
-    reviews_top2 = ((float(reviews['stats'][0]['metric']) +
-                    float(reviews['stats'][1]['metric']))
-                    / reviews_total * 100)
+    team_stats['reviews_top'] = (
+        float(reviews['stats'][0]['metric']) / reviews_total * 100)
+    team_stats['reviews_top2'] = ((float(reviews['stats'][0]['metric']) +
+                                  float(reviews['stats'][1]['metric']))
+                                  / reviews_total * 100)
     core_review_values = [company['reviews'] for company in
                           core_reviews_by_company.itervalues()]
     if len(core_review_values) == 1:
         core_review_values = [core_review_values[0], 0]
     core_review_values.sort(reverse=True)
     core_reviews_total = sum(core_review_values)
-    core_reviews_top = (float(core_review_values[0]) /
-                        core_reviews_total * 100)
-    core_reviews_top2 = ((float(core_review_values[0]) +
-                         float(core_review_values[1])) /
-                         core_reviews_total * 100)
+    team_stats['core_reviews_top'] = (
+        float(core_review_values[0]) / core_reviews_total * 100)
+    team_stats['core_reviews_top2'] = (
+        (float(core_review_values[0]) + float(core_review_values[1])) /
+        core_reviews_total * 100)
     core_reviewers_values = [company['reviewers'] for company in
                              core_reviews_by_company.itervalues()]
     if len(core_reviewers_values) == 1:
         core_reviewers_values = [core_reviewers_values[0], 0]
     core_reviewers_values.sort(reverse=True)
     core_reviewers_total = sum(core_reviewers_values)
-    core_reviewers_top = (float(core_reviewers_values[0]) /
-                          core_reviewers_total * 100)
-    core_reviewers_top2 = ((float(core_reviewers_values[0]) +
-                           float(core_reviewers_values[1])) /
-                           core_reviewers_total * 100)
-    print '%-18s (%.2f%% | %.2f%% | %.2f%% | %.2f%%)' % (
-        project, commits_top, reviews_top, core_reviews_top,
-        core_reviewers_top)
-    print '%-18s (%.2f%% | %.2f%% | %.2f%% | %.2f%%)' % (
-        '', commits_top2, reviews_top2, core_reviews_top2,
-        core_reviewers_top2)
-    is_diverse = (commits_top <= 50 and reviews_top <= 50 and
-                  core_reviews_top <= 50 and core_reviewers_top <= 50 and
-                  commits_top2 <= 80 and reviews_top2 <= 80 and
-                  core_reviews_top2 <= 80 and core_reviewers_top2 <= 80)
+    team_stats['core_reviewers_top'] = (
+        float(core_reviewers_values[0]) / core_reviewers_total * 100)
+    team_stats['core_reviewers_top2'] = (
+        (float(core_reviewers_values[0]) + float(core_reviewers_values[1])) /
+        core_reviewers_total * 100)
+
+    return team_stats
+
+
+def get_diversity(team):
+    team_stats = get_diversity_stats(team)
+    is_diverse = all((
+        (team_stats['commits_top'] <= 50),
+        (team_stats['reviews_top'] <= 50),
+        (team_stats['core_reviews_top'] <= 50),
+        (team_stats['core_reviewers_top'] <= 50),
+        (team_stats['commits_top2'] <= 80),
+        (team_stats['reviews_top2'] <= 80),
+        (team_stats['core_reviews_top2'] <= 80),
+        (team_stats['core_reviewers_top2'] <= 80),
+    ))
     return is_diverse
+
+
+def print_diversity(team):
+    team_stats = get_diversity_stats(team)
+    print '%-18s (%.2f%% | %.2f%% | %.2f%% | %.2f%%)' % (
+        team, team_stats['commits_top'], team_stats['reviews_top'],
+        team_stats['core_reviews_top'], team_stats['core_reviewers_top'])
+    print '%-18s (%.2f%% | %.2f%% | %.2f%% | %.2f%%)' % (
+        '', team_stats['commits_top2'], team_stats['reviews_top2'],
+        team_stats['core_reviews_top2'], team_stats['core_reviewers_top2'])
 
 
 class ValidateDiversity(base.ValidatorBase):
 
     @staticmethod
     def validate(team):
-        """Return True of team should contain the tag 'team:diverse-affiliation'"""
+        """Return True of team should have 'team:diverse-affiliation'"""
         return get_diversity(team)
 
     @staticmethod
@@ -119,15 +138,16 @@ class ValidateDiversity(base.ValidatorBase):
 
 
 def main():
+    filename = os.path.abspath('reference/projects.yaml')
+    with open(filename, 'r') as f:
+        projects = [k for k in yaml.load(f.read())]
+        projects.sort()
     print '<Team> (top commit % | top review % | top core review % | ' \
         'top core reviewer %)'
     print '       (top 2 commit % | top 2 review % | top 2 core review % | ' \
         'top 2 core reviewer %)'
-    filename = os.path.abspath('reference/projects.yaml')
-    with open(filename, 'r') as f:
-        projects = yaml.load(f.read())
     for project in projects:
-        get_diversity(project)
+        print_diversity(project)
 
 
 if __name__ == '__main__':
