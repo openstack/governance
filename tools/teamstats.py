@@ -63,17 +63,24 @@ def get_diversity_stats(project):
                     % (group, six_months)).json()
     core_reviews_by_company = get_core_reviews_by_company(group)
     commits_total = sum([company['metric'] for company in commits['stats']])
+    top2 = [
+        commits['stats'][0]['metric'] if len(commits['stats']) > 0 else 0,
+        commits['stats'][1]['metric'] if len(commits['stats']) > 1 else 0,
+    ]
     team_stats['commits_top'] = (
-        float(commits['stats'][0]['metric']) / commits_total * 100)
-    team_stats['commits_top2'] = ((float(commits['stats'][0]['metric']) +
-                                  float(commits['stats'][1]['metric']))
-                                  / commits_total * 100)
+        (float(top2[0]) / commits_total * 100) if commits_total else 0)
+    team_stats['commits_top2'] = (
+        (float(sum(top2)) / commits_total * 100) if commits_total else 0)
+
     reviews_total = sum([company['metric'] for company in reviews['stats']])
+    top2 = [
+        reviews['stats'][0]['metric'] if len(reviews['stats']) > 0 else 0,
+        reviews['stats'][1]['metric'] if len(reviews['stats']) > 1 else 0,
+    ]
     team_stats['reviews_top'] = (
-        float(reviews['stats'][0]['metric']) / reviews_total * 100)
-    team_stats['reviews_top2'] = ((float(reviews['stats'][0]['metric']) +
-                                  float(reviews['stats'][1]['metric']))
-                                  / reviews_total * 100)
+        (float(top2[0]) / reviews_total * 100) if reviews_total else 0)
+    team_stats['reviews_top2'] = (
+        (float(sum(top2)) / reviews_total * 100) if reviews_total else 0)
     core_review_values = [company['reviews'] for company in
                           core_reviews_by_company.itervalues()]
     if len(core_review_values) == 1:
@@ -81,10 +88,11 @@ def get_diversity_stats(project):
     core_review_values.sort(reverse=True)
     core_reviews_total = sum(core_review_values)
     team_stats['core_reviews_top'] = (
-        float(core_review_values[0]) / core_reviews_total * 100)
+        (float(core_review_values[0]) / core_reviews_total * 100)
+        if core_reviews_total else 0)
     team_stats['core_reviews_top2'] = (
-        (float(core_review_values[0]) + float(core_review_values[1])) /
-        core_reviews_total * 100)
+        ((float(core_review_values[0]) + float(core_review_values[1])) /
+         core_reviews_total * 100) if core_reviews_total else 0)
     core_reviewers_values = [company['reviewers'] for company in
                              core_reviews_by_company.itervalues()]
     if len(core_reviewers_values) == 1:
@@ -92,10 +100,11 @@ def get_diversity_stats(project):
     core_reviewers_values.sort(reverse=True)
     core_reviewers_total = sum(core_reviewers_values)
     team_stats['core_reviewers_top'] = (
-        float(core_reviewers_values[0]) / core_reviewers_total * 100)
+        (float(core_reviewers_values[0]) / core_reviewers_total * 100)
+        if core_reviewers_total else 0)
     team_stats['core_reviewers_top2'] = (
-        (float(core_reviewers_values[0]) + float(core_reviewers_values[1])) /
-        core_reviewers_total * 100)
+        ((float(core_reviewers_values[0]) + float(core_reviewers_values[1])) /
+        core_reviewers_total * 100) if core_reviewers_total else 0)
 
     return team_stats
 
