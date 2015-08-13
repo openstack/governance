@@ -1755,7 +1755,7 @@ Oslo:
 Packaging-deb:
    ptl: Thomas Goirand (zigo)
    mission: >
-     Maintaining Debian (and its derivatives) packages as a community.
+     Maintain packages for Debian (and other deb based distributions) as a community.
    deliverables:
      deb-openstack-pkg-tools:
        repos:
