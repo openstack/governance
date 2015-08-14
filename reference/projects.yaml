@@ -959,6 +959,12 @@ Ironic:
         - openstack/ironic-webclient
       tags:
         - release:independent
+    python-dracclient:
+      repos:
+        - openstack/python-dracclient
+      tags:
+        - release:independent
+        - type:library
     python-ironic-inspector-client:
       repos:
         - openstack/python-ironic-inspector-client
