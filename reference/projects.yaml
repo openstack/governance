@@ -663,6 +663,9 @@ Infrastructure:
     puppet-cgit:
       repos:
         - openstack-infra/puppet-cgit
+    puppet-infra-cookiecutter:
+      repos:
+        - openstack-infra/puppet-infra-cookiecutter
     puppet-dashboard:
       repos:
         - openstack-infra/puppet-dashboard
