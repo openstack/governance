@@ -452,6 +452,9 @@ Heat:
         - type:library
         - release:managed
         - vulnerability:managed
+    tosca-parser:
+      repos:
+        - openstack/tosca-parser
 
 Horizon:
   ptl: David Lyle (david-lyle)
