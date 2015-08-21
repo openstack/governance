@@ -1515,6 +1515,7 @@ Oslo:
       tags:
         - release:cycle-with-intermediary
         - release:has-stable-branches
+        - release:managed
         - type:library
     cookiecutter:
       repos:
