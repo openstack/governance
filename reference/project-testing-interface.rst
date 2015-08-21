@@ -27,6 +27,11 @@ Projects which are compatible with Python 3 must also be able to do:
 
  - Unit tests for python3.4
 
+Projects may optionally also support:
+
+ - Constrained unit tests for python2.7
+ - Constrained unit tests for python3.4
+
 Specific commands
 -----------------
 
@@ -47,14 +52,19 @@ Projects which are compatible with Python 3 must also be able to do:
 
  - tox -epy34
 
+Projects desiring to support constrained unit tests must support:
+
+ - tox -epy27-constraints
+ - tox -epy34-constraints
+
 Requirements Listing
 --------------------
 
 Each project should list its operations dependencies in requirements.txt
 and additional dependencies required for testing in test-requirements.txt.
 If there are requirements that are specific to python3 or pypy support,
-those may optionally be listed in requirements-py3.txt or
-requirements-pypy.txt.
+those may be listed in requirements.txt or test-requirements.txt using
+environment makers.
 
 Virtual Environment Management
 ------------------------------
@@ -70,6 +80,16 @@ of things, most importantly to the expanded project is the subunit output
 stream collection. This is useful for aggregating and displaying test output.
 In support of that, the oslotest library is built on top of testtools,
 testscenarios and fixtures.
+
+Constraints
+===========
+
+The requirements project maintains a set of constraints with packages pinned
+to specific package versions that are known to be working. The goal is to
+ease the diagnosis of breakage caused by projects upstream to OpenStack and
+to provide a set of packages known to work together. Running constraints
+enabled jobs in addition to the main tests is optional and left up to
+individual projects to decide.
 
 Project Configuration
 ---------------------
