@@ -2372,3 +2372,5 @@ Zaqar:
     zaqar-specs:
       repos:
         - openstack/zaqar-specs
+      tags:
+        - release:none
