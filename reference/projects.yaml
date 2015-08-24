@@ -2063,17 +2063,24 @@ Release cycle management:
     release-tools:
       repos:
         - openstack-infra/release-tools
+      tags:
+        - release:none
     releases:
       repos:
         - openstack/releases
+      tags:
+        - release:none
     requirements:
       repos:
         - openstack/requirements
       tags:
         - release:has-stable-branches
+        - release:none
     specs-cookiecutter:
       repos:
         - openstack-dev/specs-cookiecutter
+      tags:
+        - release:none
 
 RpmPackaging:
   ptl: Dirk Mueller (dirk) and Haikel Guemar (number80)
