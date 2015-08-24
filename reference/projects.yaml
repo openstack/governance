@@ -1519,6 +1519,8 @@ Oslo:
     cookiecutter:
       repos:
         - openstack-dev/cookiecutter
+      tags:
+        - release:none
     debtcollector:
       repos:
         - openstack/debtcollector
@@ -1530,9 +1532,13 @@ Oslo:
     devstack-plugin-amqp1:
       repos:
         - openstack/devstack-plugin-amqp1
+      tags:
+        - release:none
     devstack-plugin-zmq:
       repos:
         - openstack/devstack-plugin-zmq
+      tags:
+        - release:none
     futurist:
       repos:
         - openstack/futurist
@@ -1552,6 +1558,8 @@ Oslo:
     oslo-cookiecutter:
       repos:
         - openstack-dev/oslo-cookiecutter
+      tags:
+        - release:none
     oslo-incubator:
       repos:
         - openstack/oslo-incubator
@@ -1560,6 +1568,8 @@ Oslo:
     oslo-specs:
       repos:
         - openstack/oslo-specs
+      tags:
+        - release:none
     oslo.cache:
       repos:
         - openstack/oslo.cache
