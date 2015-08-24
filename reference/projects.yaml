@@ -2124,9 +2124,14 @@ Sahara:
         - openstack/sahara-dashboard
       tags:
         - type:library
+        # NOTE(dhellmann): The dashboard has been merged into horizon,
+        # and is no longer released.
+        - release:none
     sahara-specs:
       repos:
         - openstack/sahara-specs
+      tags:
+        - release:none
 
 Searchlight:
   ptl: Travis Tripp (TravT) & Nikhil Komawar (nikhil_k)
