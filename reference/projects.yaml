@@ -1426,6 +1426,8 @@ Nova:
     nova-specs:
       repos:
         - openstack/nova-specs
+      tags:
+        - release:none
     python-novaclient:
       repos:
         - openstack/python-novaclient
