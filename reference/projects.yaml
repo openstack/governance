@@ -2155,18 +2155,28 @@ Security:
     anchor:
       repos:
         - openstack/anchor
+      tags:
+        - release:independent
     bandit:
       repos:
         - openstack/bandit
+      tags:
+        - release:independent
     ossa:
       repos:
         - openstack/ossa
+      tags:
+        - release:none
     security-doc:
       repos:
         - openstack/security-doc
+      tags:
+        - release:none
     security-specs:
       repos:
         - openstack/security-specs
+      tags:
+        - release:none
 
 Solum:
   ptl: Adrian Otto (adrian_otto)
