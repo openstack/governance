@@ -2085,9 +2085,13 @@ RpmPackaging:
     rpm-packaging:
       repos:
         - openstack/rpm-packaging
+      tags:
+        - release:none
     rpm-packaging-tools:
       repos:
         - openstack/rpm-packaging-tools
+      tags:
+        - release:none
 
 Sahara:
   ptl: Sergey Lukjanov (SergeyLukjanov)
