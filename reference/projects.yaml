@@ -1177,19 +1177,27 @@ Mistral:
         - openstack/mistral
       tags:
         - type:service
+        - release:cycle-with-milestones
+        - release:has-stable-branches
     mistral-dashboard:
       repos:
         - openstack/mistral-dashboard
       tags:
         - type:library
+        - release:cycle-with-milestones
+        - release:has-stable-branches
     mistral-extra:
       repos:
         - openstack/mistral-extra
+      tags:
+        - release:none
     python-mistralclient:
       repos:
         - openstack/python-mistralclient
       tags:
         - type:library
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
 
 Murano:
   ptl: Serg Melikyan (smelikyan)
