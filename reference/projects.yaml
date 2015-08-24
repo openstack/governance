@@ -387,6 +387,8 @@ Glance:
     glance-specs:
       repos:
         - openstack/glance-specs
+      tags:
+        - release:none
     glance_store:
       repos:
         - openstack/glance_store
