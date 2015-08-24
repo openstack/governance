@@ -329,12 +329,18 @@ Documentation:
     api-site:
       repos:
         - openstack/api-site
+      tags:
+        - release:none
     docs-specs:
       repos:
         - openstack/docs-specs
+      tags:
+        - release:none
     ha-guide:
       repos:
         - openstack/ha-guide
+      tags:
+        - release:none
     openstack-doc-tools:
       repos:
         - openstack/openstack-doc-tools
@@ -347,6 +353,7 @@ Documentation:
         - openstack/openstack-manuals
       tags:
         - release:has-stable-branches
+        - release:none
     openstackdocstheme:
       repos:
         - openstack/openstackdocstheme
@@ -357,9 +364,13 @@ Documentation:
     operations-guide:
       repos:
         - openstack/operations-guide
+      tags:
+        - release:none
     training-guides:
       repos:
         - openstack/training-guides
+      tags:
+        - release:none
 
 Glance:
   ptl: Nikhil Komawar (nikhil_k)
