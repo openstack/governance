@@ -1230,9 +1230,13 @@ Murano:
     murano-deployment:
       repos:
         - openstack/murano-deployment
+      tags:
+        - release:independent
     murano-specs:
       repos:
         - openstack/murano-specs
+      tags:
+        - release:none
     python-muranoclient:
       repos:
         - openstack/python-muranoclient
