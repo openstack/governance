@@ -2049,6 +2049,8 @@ Rally:
     rally:
       repos:
         - openstack/rally
+      tags:
+        - release:independent
 
 Release cycle management:
   ptl: Thierry Carrez (ttx)
