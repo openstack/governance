@@ -1989,17 +1989,24 @@ Quality Assurance:
     bashate:
       repos:
         - openstack-dev/bashate
+      tags:
+        - release:independent
     devstack:
       repos:
         - openstack-dev/devstack
       tags:
         - release:has-stable-branches
+        - release:none
     devstack-plugin-cookiecutter:
       repos:
         - openstack-dev/devstack-plugin-cookiecutter
+      tags:
+        - release:none
     devstack-vagrant:
       repos:
         - openstack-dev/devstack-vagrant
+      tags:
+        - release:none
     eslint-config-openstack:
       repos:
         - openstack/eslint-config-openstack
@@ -2010,6 +2017,7 @@ Quality Assurance:
         - openstack-dev/grenade
       tags:
         - release:has-stable-branches
+        - release:none
     hacking:
       repos:
         - openstack-dev/hacking
@@ -2020,15 +2028,22 @@ Quality Assurance:
         - openstack/os-testr
       tags:
         - type:library
+        - release:independent
     qa-specs:
       repos:
         - openstack/qa-specs
+      tags:
+        - release:none
     tempest:
       repos:
         - openstack/tempest
+      tags:
+        - release:cycle-with-intermediary
     tempest-plugin-cookiecutter:
       repos:
         - openstack-dev/tempest-plugin-cookiecutter
+      tags:
+        - release:none
     tempest-lib:
       repos:
         - openstack/tempest-lib
