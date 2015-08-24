@@ -254,15 +254,19 @@ Congress:
         - openstack/congress
       tags:
         - release:has-stable-branches
+        - release:cycle-with-milestones
         - type:service
     congress-specs:
       repos:
         - openstack/congress-specs
+      tags:
+        - release:none
     python-congressclient:
       repos:
         - openstack/python-congressclient
       tags:
         - type:library
+        - release:cycle-with-intermediary
 
 Cue:
   ptl: Vipul Sabhaya (vipul)
