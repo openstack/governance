@@ -1914,6 +1914,8 @@ PuppetOpenStack:
     puppet-openstack-cookiecutter:
       repos:
         - openstack/puppet-openstack-cookiecutter
+      tags:
+        - release:none
     puppet-openstack-integration:
       repos:
         - openstack/puppet-openstack-integration
