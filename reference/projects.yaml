@@ -2225,6 +2225,8 @@ Swift:
     swift-specs:
       repos:
         - openstack/swift-specs
+      tags:
+        - release:none
 
 TripleO:
   ptl: James Slagle (slagle)
