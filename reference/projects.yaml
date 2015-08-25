@@ -861,9 +861,6 @@ Infrastructure:
     python-storyboardclient:
       repos:
         - openstack-infra/python-storyboardclient
-    refstack:
-      repos:
-        - openstack-infra/refstack
     releasestatus:
       repos:
         - openstack-infra/releasestatus
@@ -2049,6 +2046,27 @@ Rally:
     rally:
       repos:
         - openstack/rally
+
+RefStack:
+  ptl: Catherine Diep (catherineD)
+  irc-channel: refstack
+  service: Interoperability Test Report
+  mission: >
+    RefStack is a test result collection and reporting service to support the
+    DefCore interoperability testing process.
+  url: https://wiki.openstack.org/wiki/RefStack
+  deliverables:
+    refstack:
+      repos:
+        - openstack/refstack
+      tags:
+        - release:independent
+        - type:service
+    refstack-client:
+      repos:
+        - openstack/refstack-client
+      tags:
+        - release:independent
 
 Release cycle management:
   ptl: Thierry Carrez (ttx)
