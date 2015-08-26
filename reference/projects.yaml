@@ -2397,6 +2397,11 @@ Quality Assurance:
         - openstack/qa-specs
       tags:
         - release:none
+    stackviz:
+      repos:
+        - openstack/stackviz
+      tags:
+        - release:none
     tempest:
       repos:
         - openstack/tempest
