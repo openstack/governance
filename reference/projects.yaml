@@ -239,6 +239,30 @@ Cinder:
         - release:managed
         - vulnerability:managed
 
+Community App Catalog:
+  ptl: Christopher Aedo (docaedo)
+  irc-channel: openstack-app-catalog
+  mission: >
+    To build and maintain the OpenStack Community App Catalog
+    in order to benefit all OpenStack clouds by giving users a
+    central location from which to find and retrieve
+    applications and other OpenStack components that can be
+    immediately deployed into their OpenStack clouds, and by
+    giving application developers a highly visible place to
+    share their work with the OpenStack community.
+  url: https://wiki.openstack.org/wiki/App-Catalog
+  deliverables:
+    app-catalog:
+      repos:
+        - openstack/app-catalog
+      tags:
+        - release:none
+    app-catalog-ui:
+      repos:
+        - openstack/app-catalog-ui
+      tags:
+        - release:none
+
 Congress:
   ptl: Tim Hinrichs (thinrichs)
   irc-channel: congress
