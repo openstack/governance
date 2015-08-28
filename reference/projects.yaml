@@ -399,6 +399,12 @@ Documentation:
         - openstack/operations-guide
       tags:
         - release:none
+    training-labs:
+      repos:
+        - openstack/training-labs
+      tags:
+        - release:has-stable-branches
+        - release:cycle-with-milestones
     training-guides:
       repos:
         - openstack/training-guides
