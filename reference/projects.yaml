@@ -9,6 +9,8 @@ astara:
     load balancing, vpn) for connecting and security multi-tenant OpenStack
     environments.
   url: https://wiki.openstack.org/wiki/Astara
+  tags:
+    - team:single-vendor
   deliverables:
     astara:
       repos:
@@ -316,6 +318,8 @@ cloudkitty:
     is to fit in-between the raw metrics from OpenStack and the billing system
     of a provider for chargeback purposes.
   url: https://wiki.openstack.org/wiki/CloudKitty
+  tags:
+    - team:single-vendor
   deliverables:
     cloudkitty:
       repos:
@@ -380,6 +384,8 @@ congress:
     services in order to monitor, enforce, and audit policy over
     dynamic infrastructure.
   url: https://wiki.openstack.org/wiki/Congress
+  tags:
+    - team:single-vendor
   deliverables:
     congress:
       repos:
@@ -410,6 +416,8 @@ cue:
     To provide a multi-tenant service that offers scalable and reliable
     provisioning and management capabilities for off-the-shelf message brokers.
   url: https://wiki.openstack.org/wiki/Cue
+  tags:
+    - team:single-vendor
   deliverables:
     cue:
       repos:
@@ -556,6 +564,8 @@ freezer:
     This is achieved by supporting multiple and parallel media
     to store backups.
   url: https://wiki.openstack.org/wiki/Freezer
+  tags:
+    - team:single-vendor
   deliverables:
     freezer:
       repos:
@@ -1765,6 +1775,8 @@ monasca:
     services that can be used by both operators and tenants to gain
     operational insight and visibility, ensuring availability and stability.
   url: https://wiki.openstack.org/wiki/Monasca
+  tags:
+    - team:single-vendor
   deliverables:
     monasca:
       repos:
@@ -2113,6 +2125,8 @@ OpenStackAnsible:
     Deploying OpenStack from source in a way that makes it scalable
     while also being simple to operate, upgrade, and grow.
   url: https://wiki.openstack.org/wiki/OpenStackAnsible
+  tags:
+    - team:single-vendor
   deliverables:
     openstack-ansible:
       repos:
@@ -2455,6 +2469,8 @@ Packaging-deb:
     email: zigo@debian.org
    mission: >
      Maintain packages for Debian (and other deb based distributions) as a community.
+   tags:
+     - team:single-vendor
    deliverables:
      deb-openstack-pkg-tools:
        repos:

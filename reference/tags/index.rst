@@ -19,6 +19,7 @@ Team Description Tags
    :maxdepth: 1
 
    team_diverse-affiliation
+   team_single-vendor
 
 Project Assertions Tags
 =======================

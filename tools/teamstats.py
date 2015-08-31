@@ -17,9 +17,13 @@ import sys
 import time
 
 import requests
+import requests_cache
 import yaml
 
 import base
+
+# Since the stackalytics is slow and we can call it twice, cache the results
+requests_cache.install_cache(backend='memory', expire_after=60)
 
 s = requests.session()
 
@@ -136,9 +140,9 @@ def get_diversity_stats(project):
     return team_stats
 
 
-def get_diversity(team):
+def is_diverse(team):
     team_stats = get_diversity_stats(team)
-    is_diverse = all((
+    diversity = all((
         (team_stats['commits_top'] <= 50),
         (team_stats['reviews_top'] <= 50),
         (team_stats['core_reviews_top'] <= 50),
@@ -148,7 +152,18 @@ def get_diversity(team):
         (team_stats['core_reviews_top2'] <= 80),
         (team_stats['core_reviewers_top2'] <= 80),
     ))
-    return is_diverse
+    return diversity
+
+
+def is_single_vendor(team):
+    team_stats = get_diversity_stats(team)
+    multi_vendor = all((
+        (team_stats['commits_top'] < 90),
+        (team_stats['reviews_top'] < 90),
+        (team_stats['core_reviews_top'] < 90),
+        (team_stats['core_reviewers_top'] < 90),
+    ))
+    return not multi_vendor
 
 
 def print_diversity(team):
@@ -173,11 +188,23 @@ class ValidateDiversity(base.ValidatorBase):
     @staticmethod
     def validate(team):
         """Return True of team should have 'team:diverse-affiliation'"""
-        return get_diversity(team)
+        return is_diverse(team)
 
     @staticmethod
     def get_tag_name():
         return "team:diverse-affiliation"
+
+
+class ValidateSingleVendor(base.ValidatorBase):
+
+    @staticmethod
+    def validate(team):
+        """Return True of team should have 'team:single-vendor'"""
+        return is_single_vendor(team)
+
+    @staticmethod
+    def get_tag_name():
+        return "team:single-vendor"
 
 
 def main():
