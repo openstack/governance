@@ -1284,6 +1284,11 @@ Neutron:
         - openstack/networking-cisco
       tags:
         - release:independent
+    networking-fortinet:
+      repos:
+        - openstack/networking-fortinet
+      tags:
+        - release:independent
     networking-hpe:
       repos:
         - openstack/networking-hpe
