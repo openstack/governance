@@ -92,6 +92,12 @@ Ceilometer:
         - release:has-stable-branches
         - type:library
         - release:managed
+    python-gnocchiclient:
+      repos:
+        - openstack/python-gnocchiclient
+      tags:
+        - type:library
+        - release:independent
 
 ChefOpenstack:
   ptl: JJ Asghar (j^2)
