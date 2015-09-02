@@ -1,4 +1,4 @@
-Barbican:
+barbican:
   ptl: Douglas Mendizabal (redrobot)
   irc-channel: openstack-barbican
   service: Key Manager service
@@ -43,7 +43,7 @@ Barbican:
       tags:
         - type:library
 
-Ceilometer:
+ceilometer:
   ptl: Gordon Chung (gordc)
   irc-channel: openstack-ceilometer
   service: Telemetry service
@@ -93,7 +93,7 @@ Ceilometer:
         - type:library
         - release:managed
 
-ChefOpenstack:
+Chef OpenStack:
   ptl: JJ Asghar (j^2)
   service: Chef cookbooks for deployment
   mission: >
@@ -197,7 +197,7 @@ ChefOpenstack:
       tags:
         - release:independent
 
-Cinder:
+cinder:
   ptl: Mike Perez (thingee)
   irc-channel: openstack-cinder
   service: Block Storage service
@@ -263,7 +263,7 @@ Community App Catalog:
       tags:
         - release:none
 
-Congress:
+congress:
   ptl: Tim Hinrichs (thinrichs)
   irc-channel: congress
   service: Governance service
@@ -288,7 +288,7 @@ Congress:
       tags:
         - type:library
 
-Cue:
+cue:
   ptl: Vipul Sabhaya (vipul)
   service: Message Broker service
   mission: >
@@ -306,7 +306,7 @@ Cue:
       repos:
         - openstack/python-cueclient
 
-Designate:
+designate:
   ptl: Kiall Mac Innes (kiall)
   service: DNS service
   mission: >
@@ -385,7 +385,7 @@ Documentation:
       repos:
         - openstack/training-guides
 
-Glance:
+glance:
   ptl: Nikhil Komawar (nikhil_k)
   irc-channel: openstack-glance
   service: Image service
@@ -429,7 +429,7 @@ Glance:
         - release:managed
         - vulnerability:managed
 
-Heat:
+heat:
   ptl: Steve Baker (stevebaker)
   irc-channel: heat
   service: Orchestration service
@@ -480,7 +480,7 @@ Heat:
       repos:
         - openstack/tosca-parser
 
-Horizon:
+horizon:
   ptl: David Lyle (david-lyle)
   irc-channel: openstack-horizon
   service: Dashboard
@@ -931,7 +931,7 @@ Infrastructure:
       repos:
         - openstack-infra/zuul-packaging
 
-Ironic:
+ironic:
   ptl: Devananda van der Veen (devananda)
   irc-channel: openstack-ironic
   service: Bare Metal service
@@ -1008,7 +1008,7 @@ Ironic:
         - type:library
         - release:managed
 
-Keystone:
+keystone:
   ptl: Morgan Fainberg (morganfainberg)
   irc-channel: openstack-keystone
   service: Identity service
@@ -1078,7 +1078,7 @@ Keystone:
         - release:independent
         - type:library
 
-Kolla:
+kolla:
   ptl: Steven Dake (sdake)
   irc-channel: kolla
   mission: >
@@ -1118,7 +1118,7 @@ MagnetoDB:
         - release:cycle-with-intermediary
         - type:library
 
-Magnum:
+magnum:
   ptl: Adrian Otto (adrian_otto)
   irc-channel: magnum
   service: Containers service
@@ -1147,7 +1147,7 @@ Magnum:
         - release:independent
         - type:library
 
-Manila:
+manila:
   ptl: Ben Swartzlander (bswartz)
   irc-channel: openstack-manila
   service: Shared File Systems service
@@ -1182,7 +1182,7 @@ Manila:
         - release:managed
         - type:library
 
-Mistral:
+mistral:
   ptl: Renat Akhmerov (rakhmerov)
   irc-channel: openstack-mistral
   service: Workflow service
@@ -1212,7 +1212,7 @@ Mistral:
       tags:
         - type:library
 
-Murano:
+murano:
   ptl: Serg Melikyan (smelikyan)
   irc-channel: murano
   service: Application Catalog service
@@ -1262,7 +1262,7 @@ Murano:
         - release:has-stable-branches
         - type:library
 
-Neutron:
+neutron:
   ptl: Kyle Mestery (mestery)
   irc-channel: openstack-neutron
   service: Networking service
@@ -1421,7 +1421,7 @@ Neutron:
       tags:
         - release:independent
 
-Nova:
+nova:
   ptl: John Garbutt (johnthetubaguy)
   irc-channel: openstack-nova
   service: Compute service
@@ -1485,7 +1485,7 @@ OpenStackAnsible:
         - openstack/openstack-ansible-specs
         - stackforge/os-ansible-deployment-specs
 
-OpenStackClient:
+OpenStack client:
   ptl: Dean Troyer (dtroyer)
   irc-channel: openstack-sdks
   service: Command-line client
@@ -1518,7 +1518,7 @@ OpenStackClient:
         - release:has-stable-branches
         - release:managed
 
-Oslo:
+oslo:
   ptl: Davanum Srinivas (dims)
   irc-channel: openstack-oslo
   service: Common libraries
@@ -1855,7 +1855,7 @@ Packaging-deb:
        repos:
          - openstack/deb-trove
 
-PuppetOpenStack:
+Puppet OpenStack:
   ptl: Emilien Macchi (emilienm)
   service: Puppet modules for deployment
   mission: >
@@ -2058,7 +2058,7 @@ Quality Assurance:
         - release:independent
         - type:library
 
-Rally:
+rally:
   ptl: Boris Pavlovic (boris-42)
   irc-channel: openstack-rally
   service: Benchmark service
@@ -2093,7 +2093,7 @@ RefStack:
       tags:
         - release:independent
 
-Release cycle management:
+Release Cycle Management:
   ptl: Thierry Carrez (ttx)
   irc-channel: openstack-relmgr-office
   mission: >
@@ -2118,7 +2118,7 @@ Release cycle management:
       repos:
         - openstack-dev/specs-cookiecutter
 
-RpmPackaging:
+Packaging-rpm:
   ptl: Dirk Mueller (dirk) and Haikel Guemar (number80)
   mission: >
     To make OpenStack easier to update and consume by operators and
@@ -2132,7 +2132,7 @@ RpmPackaging:
       repos:
         - openstack/rpm-packaging-tools
 
-Sahara:
+sahara:
   ptl: Sergey Lukjanov (SergeyLukjanov)
   irc-channel: openstack-sahara
   service: Data Processing service
@@ -2171,7 +2171,7 @@ Sahara:
       repos:
         - openstack/sahara-specs
 
-Searchlight:
+searchlight:
   ptl: Travis Tripp (TravT) & Nikhil Komawar (nikhil_k)
   service: Search service
   mission: >
@@ -2211,7 +2211,7 @@ Security:
       repos:
         - openstack/security-specs
 
-Solum:
+solum:
   ptl: Adrian Otto (adrian_otto)
   irc-channel: solum
   service: Software Development Lifecycle Automation service
@@ -2233,7 +2233,7 @@ Solum:
         - release:independent
         - type:service
 
-Swift:
+swift:
   ptl: John Dickinson (notmyname)
   irc-channel: openstack-swift
   service: Object Storage service
@@ -2269,7 +2269,7 @@ Swift:
       repos:
         - openstack/swift-specs
 
-TripleO:
+tripleo:
   ptl: James Slagle (slagle)
   irc-channel: tripleo
   service: Deployment service
@@ -2349,7 +2349,7 @@ TripleO:
       tags:
         - release:independent
 
-Trove:
+trove:
   ptl: Nikhil Manchanda (SlickNik)
   irc-channel: openstack-trove
   service: Database service
@@ -2385,7 +2385,7 @@ Trove:
       repos:
         - openstack/trove-specs
 
-Zaqar:
+zaqar:
   ptl: Flavio Percoco (flaper87)
   irc-channel: openstack-zaqar
   service: Message service
