@@ -435,7 +435,7 @@ Heat:
   service: Orchestration
   mission: >
     To orchestrate composite cloud applications using a declarative
-    template format through an OpenStack-native ReST API.
+    template format through an OpenStack-native REST API.
   url: https://wiki.openstack.org/wiki/Heat
   tags:
     - team:diverse-affiliation
