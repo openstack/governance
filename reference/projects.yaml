@@ -58,7 +58,10 @@ Ceilometer:
       repos:
         - openstack/aodh
       tags:
-        - release:independent
+        - release:managed
+        - release:has-stable-branches
+        - release:cycle-with-intermediary
+        - type:service
     ceilometer:
       repos:
         - openstack/ceilometer
