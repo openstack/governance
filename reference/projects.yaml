@@ -473,6 +473,8 @@ Heat:
     heat-cfnclient:
       repos:
         - openstack-dev/heat-cfnclient
+      tags:
+        - release:none
     heat-cfntools:
       repos:
         - openstack/heat-cfntools
@@ -481,12 +483,18 @@ Heat:
     heat-specs:
       repos:
         - openstack/heat-specs
+      tags:
+        - release:none
     heat-templates:
       repos:
         - openstack/heat-templates
+      tags:
+        - release:none
     heat-translator:
       repos:
         - openstack/heat-translator
+      tags:
+        - release:none
     python-heatclient:
       repos:
         - openstack/python-heatclient
@@ -499,6 +507,8 @@ Heat:
     tosca-parser:
       repos:
         - openstack/tosca-parser
+      tags:
+        - release:none
 
 Horizon:
   ptl: David Lyle (david-lyle)
