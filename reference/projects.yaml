@@ -1399,6 +1399,8 @@ Neutron:
     neutron-specs:
       repos:
         - openstack/neutron-specs
+      tags:
+        - release:none
     octavia:
       repos:
         - openstack/octavia
