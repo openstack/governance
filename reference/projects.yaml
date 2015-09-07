@@ -74,6 +74,8 @@ Ceilometer:
     ceilometer-specs:
       repos:
         - openstack/ceilometer-specs
+      tags:
+        - release:none
     ceilometermiddleware:
       repos:
         - openstack/ceilometermiddleware
