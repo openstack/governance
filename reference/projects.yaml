@@ -2337,6 +2337,17 @@ TripleO:
         - openstack/diskimage-builder
       tags:
         - release:independent
+    instack:
+      repos:
+        - openstack/instack
+      tags:
+        - release:independent
+        - type:library
+    instack-undercloud:
+      repos:
+        - openstack/instack-undercloud
+      tags:
+        - release:independent
     os-apply-config:
       repos:
         - openstack/os-apply-config
@@ -2362,6 +2373,12 @@ TripleO:
         - openstack/os-refresh-config
       tags:
         - release:independent
+    python-tripleoclient:
+      repos:
+        - openstack/python-tripleoclient
+      tags:
+        - release:independent
+        - type:library
     python-tuskarclient:
       repos:
         - openstack/python-tuskarclient
@@ -2371,6 +2388,11 @@ TripleO:
     tripleo-common:
       repos:
         - openstack/tripleo-common
+      tags:
+        - release:independent
+    tripleo-docs:
+      repos:
+        - openstack/tripleo-docs
       tags:
         - release:independent
     tripleo-heat-templates:
