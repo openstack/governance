@@ -1343,6 +1343,11 @@ Neutron:
         - openstack/networking-hpe
       tags:
         - release:independent
+    networking-hyperv:
+      repos:
+        - openstack/networking-hyperv
+      tags:
+        - release:independent
     networking-infoblox:
       repos:
         - openstack/networking-infoblox
