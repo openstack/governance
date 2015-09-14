@@ -227,6 +227,8 @@ cinder:
     cinder-specs:
       repos:
         - openstack/cinder-specs
+      tags:
+        - release:none
     os-brick:
       repos:
         - openstack/os-brick
