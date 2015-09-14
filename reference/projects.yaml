@@ -1162,6 +1162,8 @@ MagnetoDB:
     magnetodb-specs:
       repos:
         - openstack/magnetodb-specs
+      tags:
+        - release:none
     python-magnetodbclient:
       repos:
         - openstack/python-magnetodbclient
