@@ -347,9 +347,12 @@ designate:
         - openstack/designate-dashboard
       tags:
         - type:library
+        - release:independent
     designate-specs:
       repos:
         - openstack/designate-specs
+      tags:
+        - release:none
     python-designateclient:
       repos:
         - openstack/python-designateclient
