@@ -2459,12 +2459,18 @@ tripleo:
     tripleo-incubator:
       repos:
         - openstack/tripleo-incubator
+      tags:
+        - release:none
     tripleo-puppet-elements:
       repos:
         - openstack/tripleo-puppet-elements
+      tags:
+        - release:independent
     tripleo-specs:
       repos:
         - openstack/tripleo-specs
+      tags:
+        - release:none
     tuskar:
       repos:
         - openstack/tuskar
