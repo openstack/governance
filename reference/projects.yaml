@@ -2124,6 +2124,11 @@ Quality Assurance:
         - openstack-dev/hacking
       tags:
         - release:independent
+    openstack-health:
+      repos:
+        - openstack/openstack-health
+      tags:
+        - release:none
     os-testr:
       repos:
         - openstack/os-testr
