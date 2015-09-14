@@ -18,6 +18,8 @@ barbican:
     barbican-specs:
       repos:
         - openstack/barbican-specs
+      tags:
+        - release:none
     castellan:
       repos:
         - openstack/castellan
@@ -29,6 +31,7 @@ barbican:
         - openstack/kite
       tags:
         - type:service
+        - release:independent
     python-barbicanclient:
       repos:
         - openstack/python-barbicanclient
@@ -42,6 +45,7 @@ barbican:
         - openstack/python-kiteclient
       tags:
         - type:library
+        - release:independent
 
 ceilometer:
   ptl: Gordon Chung (gordc)
