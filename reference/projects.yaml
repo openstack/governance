@@ -1551,6 +1551,8 @@ OpenStackAnsible:
       repos:
         - openstack/openstack-ansible-specs
         - stackforge/os-ansible-deployment-specs
+      tags:
+        - release:none
 
 OpenStack client:
   ptl: Dean Troyer (dtroyer)
