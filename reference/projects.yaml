@@ -2491,9 +2491,13 @@ trove:
     trove-integration:
       repos:
         - openstack/trove-integration
+      tags:
+        - release:none
     trove-specs:
       repos:
         - openstack/trove-specs
+      tags:
+        - release:none
 
 zaqar:
   ptl: Flavio Percoco (flaper87)
