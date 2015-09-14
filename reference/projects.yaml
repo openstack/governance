@@ -992,9 +992,13 @@ ironic:
     bifrost:
       repos:
         - openstack/bifrost
+      tags:
+        - release:cycle-with-intermediary
     coreos-image-builder:
       repos:
         - openstack/coreos-image-builder
+      tags:
+        - release:cycle-with-intermediary
     ironic:
       repos:
         - openstack/ironic
@@ -1027,6 +1031,8 @@ ironic:
     ironic-specs:
       repos:
         - openstack/ironic-specs
+      tags:
+        - release:none
     ironic-webclient:
       repos:
         - openstack/ironic-webclient
@@ -1044,7 +1050,6 @@ ironic:
       tags:
         - release:independent
         - type:library
-        - release:managed
     python-ironicclient:
       repos:
         - openstack/python-ironicclient
