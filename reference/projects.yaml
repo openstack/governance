@@ -2155,6 +2155,11 @@ Release Cycle Management:
         - openstack/releases
       tags:
         - release:none
+    reno:
+      repos:
+        - openstack/reno
+      tags:
+        - release:independent
     requirements:
       repos:
         - openstack/requirements
