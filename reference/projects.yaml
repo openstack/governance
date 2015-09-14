@@ -310,12 +310,21 @@ cue:
     cue:
       repos:
         - openstack/cue
+      tags:
+        - type:service
+        - release:independent
     cue-dashboard:
       repos:
         - openstack/cue-dashboard
+      tags:
+        - type:library
+        - release:independent
     python-cueclient:
       repos:
         - openstack/python-cueclient
+      tags:
+        - type:library
+        - release:independent
 
 designate:
   ptl: Kiall Mac Innes (kiall)
