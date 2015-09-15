@@ -602,384 +602,638 @@ Infrastructure:
     activity-board:
       repos:
         - openstack-infra/activity-board
+      tags:
+        - release:none
     ansible-build-image:
       repos:
         - openstack-infra/ansible-build-image
+      tags:
+        - release:none
     ansible-puppet:
       repos:
         - openstack-infra/ansible-puppet
+      tags:
+        - release:none
     askbot-theme:
       repos:
         - openstack-infra/askbot-theme
+      tags:
+        - release:none
     bindep:
       repos:
         - openstack-infra/bindep
+      tags:
+        - release:independent
     bugdaystats:
       repos:
         - openstack-infra/bugdaystats
+      tags:
+        - release:none
     devstack-gate:
       repos:
         - openstack-infra/devstack-gate
+      tags:
+        - release:none
     elastic-recheck:
       repos:
         - openstack-infra/elastic-recheck
+      tags:
+        - release:none
     gear:
       repos:
         - openstack-infra/gear
+      tags:
+        - release:independent
     gearman-plugin:
       repos:
         - openstack-infra/gearman-plugin
+      tags:
+        - release:independent
     gerrit:
       repos:
         - openstack-infra/gerrit
+      tags:
+        - release:none
     gerritbot:
       repos:
         - openstack-infra/gerritbot
+      tags:
+        - release:independent
     gerritlib:
       repos:
         - openstack-infra/gerritlib
+      tags:
+        - release:independent
     git-review:
       repos:
         - openstack-infra/git-review
+      tags:
+        - release:independent
     gitdm:
       repos:
         - openstack-infra/gitdm
+      tags:
+        - release:none
     glean:
       repos:
         - openstack-infra/glean
+      tags:
+        - release:independent
     grafyaml:
       repos:
         - openstack-infra/grafyaml
+      tags:
+        - release:none
     groups:
       repos:
         - openstack-infra/groups
+      tags:
+        - release:independent
     groups-static-pages:
       repos:
         - openstack-infra/groups-static-pages
+      tags:
+        - release:none
     infra-manual:
       repos:
         - openstack-infra/infra-manual
+      tags:
+        - release:none
     infra-specs:
       repos:
         - openstack-infra/infra-specs
+      tags:
+        - release:none
     irc-meetings:
       repos:
         - openstack-infra/irc-meetings
+      tags:
+        - release:none
     jeepyb:
       repos:
         - openstack-infra/jeepyb
+      tags:
+        - release:none
     jenkins-job-builder:
       repos:
         - openstack-infra/jenkins-job-builder
+      tags:
+        - release:independent
     lodgeit:
       repos:
         - openstack-infra/lodgeit
+      tags:
+        - release:none
     meetbot:
       repos:
         - openstack-infra/meetbot
+      tags:
+        - release:none
     nodepool:
       repos:
         - openstack-infra/nodepool
+      tags:
+        - release:independent
     nose-html-output:
       repos:
         - openstack-infra/nose-html-output
+      tags:
+        - release:independent
     odsreg:
       repos:
         - openstack-infra/odsreg
+      tags:
+        - release:none
     openstack-nose:
       repos:
         - openstack-dev/openstack-nose
+      tags:
+        - release:none
     openstack-planet:
       repos:
         - openstack/openstack-planet
+      tags:
+        - release:none
     openstackid:
       repos:
         - openstack-infra/openstackid
+      tags:
+        - release:independent
     openstackid-resources:
       repos:
         - openstack-infra/openstackid-resources
+      tags:
+        - release:independent
     openstackweb:
       repos:
         - openstack-infra/openstackweb
+      tags:
+        - release:none
     os-loganalyze:
       repos:
         - openstack-infra/os-loganalyze
+      tags:
+        - release:independent
     project-config:
       repos:
         - openstack-infra/project-config
+      tags:
+        - release:none
     publications:
       repos:
         - openstack-infra/publications
+      tags:
+        - release:none
     puppet-accessbot:
       repos:
         - openstack-infra/puppet-accessbot
+      tags:
+        - release:none
     puppet-ansible:
       repos:
         - openstack-infra/puppet-ansible
+      tags:
+        - release:none
     puppet-apparmor:
       repos:
         - openstack-infra/puppet-apparmor
+      tags:
+        - release:none
     puppet-apps_site:
       repos:
         - openstack-infra/puppet-apps_site
+      tags:
+        - release:none
     puppet-askbot:
       repos:
         - openstack-infra/puppet-askbot
+      tags:
+        - release:none
     puppet-asterisk:
       repos:
         - openstack-infra/puppet-asterisk
+      tags:
+        - release:none
     puppet-bandersnatch:
       repos:
         - openstack-infra/puppet-bandersnatch
+      tags:
+        - release:none
     puppet-bugdaystats:
       repos:
         - openstack-infra/puppet-bugdaystats
+      tags:
+        - release:none
     puppet-bup:
       repos:
         - openstack-infra/puppet-bup
+      tags:
+        - release:none
     puppet-cgit:
       repos:
         - openstack-infra/puppet-cgit
+      tags:
+        - release:none
     puppet-infra-cookiecutter:
       repos:
         - openstack-infra/puppet-infra-cookiecutter
+      tags:
+        - release:none
     puppet-dashboard:
       repos:
         - openstack-infra/puppet-dashboard
+      tags:
+        - release:none
     puppet-diskimage_builder:
       repos:
         - openstack-infra/puppet-diskimage_builder
+      tags:
+        - release:none
     puppet-drupal:
       repos:
         - openstack-infra/puppet-drupal
+      tags:
+        - release:none
     puppet-elastic_recheck:
       repos:
         - openstack-infra/puppet-elastic_recheck
+      tags:
+        - release:none
     puppet-elasticsearch:
       repos:
         - openstack-infra/puppet-elasticsearch
+      tags:
+        - release:none
     puppet-etherpad_lite:
       repos:
         - openstack-infra/puppet-etherpad_lite
+      tags:
+        - release:none
     puppet-exim:
       repos:
         - openstack-infra/puppet-exim
+      tags:
+        - release:none
     puppet-gerrit:
       repos:
         - openstack-infra/puppet-gerrit
+      tags:
+        - release:none
     puppet-gerritbot:
       repos:
         - openstack-infra/puppet-gerritbot
+      tags:
+        - release:none
     puppet-github:
       repos:
         - openstack-infra/puppet-github
+      tags:
+        - release:none
     puppet-graphite:
       repos:
         - openstack-infra/puppet-graphite
+      tags:
+        - release:none
     puppet-haveged:
       repos:
         - openstack-infra/puppet-haveged
+      tags:
+        - release:none
     puppet-hound:
       repos:
         - openstack-infra/puppet-hound
+      tags:
+        - release:none
     puppet-httpd:
       repos:
         - openstack-infra/puppet-httpd
+      tags:
+        - release:none
     puppet-iptables:
       repos:
         - openstack-infra/puppet-iptables
+      tags:
+        - release:none
     puppet-jeepyb:
       repos:
         - openstack-infra/puppet-jeepyb
+      tags:
+        - release:none
     puppet-jenkins:
       repos:
         - openstack-infra/puppet-jenkins
+      tags:
+        - release:none
     puppet-kerberos:
       repos:
         - openstack-infra/puppet-kerberos
+      tags:
+        - release:none
     puppet-kibana:
       repos:
         - openstack-infra/puppet-kibana
+      tags:
+        - release:none
     puppet-lodgeit:
       repos:
         - openstack-infra/puppet-lodgeit
+      tags:
+        - release:none
     puppet-log_processor:
       repos:
         - openstack-infra/puppet-log_processor
+      tags:
+        - release:none
     puppet-logrotate:
       repos:
         - openstack-infra/puppet-logrotate
+      tags:
+        - release:none
     puppet-logstash:
       repos:
         - openstack-infra/puppet-logstash
+      tags:
+        - release:none
     puppet-mailman:
       repos:
         - openstack-infra/puppet-mailman
+      tags:
+        - release:none
     puppet-mediawiki:
       repos:
         - openstack-infra/puppet-mediawiki
+      tags:
+        - release:none
     puppet-meetbot:
       repos:
         - openstack-infra/puppet-meetbot
+      tags:
+        - release:none
     puppet-mysql_backup:
       repos:
         - openstack-infra/puppet-mysql_backup
+      tags:
+        - release:none
     puppet-nodepool:
       repos:
         - openstack-infra/puppet-nodepool
+      tags:
+        - release:none
     puppet-openafs:
       repos:
         - openstack-infra/puppet-openafs
+      tags:
+        - release:none
     puppet-openstackci:
       repos:
         - openstack-infra/puppet-openstackci
+      tags:
+        - release:none
     puppet-openstackid:
       repos:
         - openstack-infra/puppet-openstackid
+      tags:
+        - release:none
     puppet-os_client_config:
       repos:
         - openstack-infra/puppet-os_client_config
+      tags:
+        - release:none
     puppet-packagekit:
       repos:
         - openstack-infra/puppet-packagekit
+      tags:
+        - release:none
     puppet-pgsql_backup:
       repos:
         - openstack-infra/puppet-pgsql_backup
+      tags:
+        - release:none
     puppet-phabricator:
       repos:
         - openstack-infra/puppet-phabricator
+      tags:
+        - release:none
     puppet-pip:
       repos:
         - openstack-infra/puppet-pip
+      tags:
+        - release:none
     puppet-planet:
       repos:
         - openstack-infra/puppet-planet
+      tags:
+        - release:none
     puppet-project_config:
       repos:
         - openstack-infra/puppet-project_config
+      tags:
+        - release:none
     puppet-puppet:
       repos:
         - openstack-infra/puppet-puppet
+      tags:
+        - release:none
     puppet-redis:
       repos:
         - openstack-infra/puppet-redis
+      tags:
+        - release:none
     puppet-refstack:
       repos:
         - openstack-infra/puppet-refstack
+      tags:
+        - release:none
     puppet-releasestatus:
       repos:
         - openstack-infra/puppet-releasestatus
+      tags:
+        - release:none
     puppet-reviewday:
       repos:
         - openstack-infra/puppet-reviewday
+      tags:
+        - release:none
     puppet-simpleproxy:
       repos:
         - openstack-infra/puppet-simpleproxy
+      tags:
+        - release:none
     puppet-snmpd:
       repos:
         - openstack-infra/puppet-snmpd
+      tags:
+        - release:none
     puppet-ssh:
       repos:
         - openstack-infra/puppet-ssh
+      tags:
+        - release:none
     puppet-ssl_cert_check:
       repos:
         - openstack-infra/puppet-ssl_cert_check
+      tags:
+        - release:none
     puppet-stackalytics:
       repos:
         - openstack-infra/puppet-stackalytics
+      tags:
+        - release:none
     puppet-statusbot:
       repos:
         - openstack-infra/puppet-statusbot
+      tags:
+        - release:none
     puppet-storyboard:
       repos:
         - openstack-infra/puppet-storyboard
+      tags:
+        - release:none
     puppet-subunit2sql:
       repos:
         - openstack-infra/puppet-subunit2sql
+      tags:
+        - release:none
     puppet-sudoers:
       repos:
         - openstack-infra/puppet-sudoers
+      tags:
+        - release:none
     puppet-tmpreaper:
       repos:
         - openstack-infra/puppet-tmpreaper
+      tags:
+        - release:none
     puppet-ulimit:
       repos:
         - openstack-infra/puppet-ulimit
+      tags:
+        - release:none
     puppet-unattended_upgrades:
       repos:
         - openstack-infra/puppet-unattended_upgrades
+      tags:
+        - release:none
     puppet-unbound:
       repos:
         - openstack-infra/puppet-unbound
+      tags:
+        - release:none
     puppet-user:
       repos:
         - openstack-infra/puppet-user
+      tags:
+        - release:none
     puppet-vcsrepo:
       repos:
         - openstack-infra/puppet-vcsrepo
+      tags:
+        - release:none
     puppet-vinz:
       repos:
         - openstack-infra/puppet-vinz
+      tags:
+        - release:none
     puppet-yum:
       repos:
         - openstack-infra/puppet-yum
+      tags:
+        - release:none
     puppet-zanata:
       repos:
         - openstack-infra/puppet-zanata
+      tags:
+        - release:none
     puppet-zuul:
       repos:
         - openstack-infra/puppet-zuul
+      tags:
+        - release:none
     pypi-mirror:
       repos:
         - openstack-infra/pypi-mirror
+      tags:
+        - release:independent
     python-storyboardclient:
       repos:
         - openstack-infra/python-storyboardclient
+      tags:
+        - release:independent
     releasestatus:
       repos:
         - openstack-infra/releasestatus
+      tags:
+        - release:none
     reviewday:
       repos:
         - openstack-infra/reviewday
+      tags:
+        - release:independent
     reviewstats:
       repos:
         - openstack-infra/reviewstats
+      tags:
+        - release:none
     shade:
       repos:
         - openstack-infra/shade
+      tags:
+        - release:independent
     statusbot:
       repos:
         - openstack-infra/statusbot
+      tags:
+        - release:none
     storyboard:
       repos:
         - openstack-infra/storyboard
+      tags:
+        - release:independent
     storyboard-webclient:
       repos:
         - openstack-infra/storyboard-webclient
+      tags:
+        - release:independent
     subunit2sql:
       repos:
         - openstack-infra/subunit2sql
+      tags:
+        - release:independent
     system-config:
       repos:
         - openstack-infra/system-config
+      tags:
+        - release:none
     tripleo-ci:
       repos:
         - openstack-infra/tripleo-ci
+      tags:
+        - release:none
     trystack-site:
       repos:
         - openstack-infra/trystack-site
+      tags:
+        - release:none
     yaml2ical:
       repos:
         - openstack-infra/yaml2ical
+      tags:
+        - release:independent
     zmq-event-publisher:
       repos:
         - openstack-infra/zmq-event-publisher
+      tags:
+        - release:independent
     zuul:
       repos:
         - openstack-infra/zuul
+      tags:
+        - release:independent
     zuul-packaging:
       repos:
         - openstack-infra/zuul-packaging
+      tags:
+        - release:none
 
 ironic:
   ptl: Devananda van der Veen (devananda)
