@@ -2593,6 +2593,170 @@ nova:
         - release:cycle-with-intermediary
         - type:library
 
+OpenStack Charms:
+  ptl:
+    name: James Page
+    irc: jamespage
+    email: james.page@ubuntu.com
+  service: Juju Charms for deployment of OpenStack
+  mission: >
+    Develop and maintain Juju Charms for deploying and managing
+    OpenStack services.
+  url: http://charm-guide.readthedocs.io/
+  tags:
+    - team:single-vendor
+  deliverables:
+    charms.openstack:
+      repos:
+        - openstack/charms.openstack
+      tags:
+        - release:independent
+    charm-ceilometer:
+      repos:
+        - openstack/charm-ceilometer
+      tags:
+        - release:independent
+    charm-ceilometer-agent:
+      repos:
+        - openstack/charm-ceilometer-agent
+      tags:
+        - release:independent
+    charm-ceph:
+      repos:
+        - openstack/charm-ceph
+      tags:
+        - release:independent
+    charm-ceph-mon:
+      repos:
+        - openstack/charm-ceph-mon
+      tags:
+        - release:independent
+    charm-ceph-osd:
+      repos:
+        - openstack/charm-ceph-osd
+      tags:
+        - release:independent
+    charm-ceph-radosgw:
+      repos:
+        - openstack/charm-ceph-radosgw
+      tags:
+        - release:independent
+    charm-cinder:
+      repos:
+        - openstack/charm-cinder
+      tags:
+        - release:independent
+    charm-cinder-backup:
+      repos:
+        - openstack/charm-cinder-backup
+      tags:
+        - release:independent
+    charm-cinder-ceph:
+      repos:
+        - openstack/charm-cinder-ceph
+      tags:
+        - release:independent
+    charm-glance:
+      repos:
+        - openstack/charm-glance
+      tags:
+        - release:independent
+    charm-guide:
+      repos:
+        - openstack/charm-guide
+      tags:
+        - release:none
+    charm-hacluster:
+      repos:
+        - openstack/charm-hacluster
+      tags:
+        - release:independent
+    charm-heat:
+      repos:
+        - openstack/charm-heat
+      tags:
+        - release:independent
+    charm-keystone:
+      repos:
+        - openstack/charm-keystone
+      tags:
+        - release:independent
+    charm-lxd:
+      repos:
+        - openstack/charm-lxd
+      tags:
+        - release:independent
+    charm-neutron-api:
+      repos:
+        - openstack/charm-neutron-api
+      tags:
+        - release:independent
+    charm-neutron-api-odl:
+      repos:
+        - openstack/charm-neutron-api-odl
+      tags:
+        - release:independent
+    charm-neutron-gateway:
+      repos:
+        - openstack/charm-neutron-gateway
+      tags:
+        - release:independent
+    charm-neutron-openvswitch:
+      repos:
+        - openstack/charm-neutron-openvswitch
+      tags:
+        - release:independent
+    charm-nova-cloud-controller:
+      repos:
+        - openstack/charm-nova-cloud-controller
+      tags:
+        - release:independent
+    charm-nova-compute:
+      repos:
+        - openstack/charm-nova-compute
+      tags:
+        - release:independent
+    charm-odl-controller:
+      repos:
+        - openstack/charm-odl-controller
+      tags:
+        - release:independent
+    charm-openstack-dashboard:
+      repos:
+        - openstack/charm-openstack-dashboard
+      tags:
+        - release:independent
+    charm-openvswitch-odl:
+      repos:
+        - openstack/charm-openvswitch-odl
+      tags:
+        - release:independent
+    charm-percona-cluster:
+      repos:
+        - openstack/charm-percona-cluster
+      tags:
+        - release:independent
+    charm-rabbitmq-server:
+      repos:
+        - openstack/charm-rabbitmq-server
+      tags:
+        - release:independent
+    charm-specs:
+      repos:
+        - openstack/charm-specs
+      tags:
+        - release:none
+    charm-swift-proxy:
+      repos:
+        - openstack/charm-swift-proxy
+      tags:
+        - release:independent
+    charm-swift-storage:
+      repos:
+        - openstack/charm-swift-storage
+      tags:
+        - release:independent
+
 OpenStack client:
   ptl:
     name: Dean Troyer
