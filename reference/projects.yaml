@@ -1403,32 +1403,6 @@ kolla:
       tags:
         - release:independent
 
-MagnetoDB:
-  ptl: Ilya Sviridov (isviridov)
-  service: Key-Value Store service
-  mission: >
-    To provide key-value store service for OpenStack users.
-  url: https://wiki.openstack.org/wiki/MagnetoDB
-  deliverables:
-    magnetodb:
-      repos:
-        - openstack/magnetodb
-      tags:
-        - release:cycle-with-milestones
-        - release:has-stable-branches
-        - type:service
-    magnetodb-specs:
-      repos:
-        - openstack/magnetodb-specs
-      tags:
-        - release:none
-    python-magnetodbclient:
-      repos:
-        - openstack/python-magnetodbclient
-      tags:
-        - release:cycle-with-intermediary
-        - type:library
-
 magnum:
   ptl: Adrian Otto (adrian_otto)
   irc-channel: magnum
