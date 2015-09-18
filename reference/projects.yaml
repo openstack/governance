@@ -1348,6 +1348,8 @@ keystone:
     keystone-specs:
       repos:
         - openstack/keystone-specs
+      tags:
+        - release:none
     keystoneauth:
       repos:
         - openstack/keystoneauth
