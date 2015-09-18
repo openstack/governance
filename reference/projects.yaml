@@ -2206,6 +2206,11 @@ Puppet OpenStack:
     to OpenStack cloud deployments.
   url: https://wiki.openstack.org/wiki/Puppet
   deliverables:
+    puppet-aodh:
+      repos:
+        - openstack/puppet-aodh
+      tags:
+        - release:independent
     puppet-ceilometer:
       repos:
         - openstack/puppet-ceilometer
