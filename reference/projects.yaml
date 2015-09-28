@@ -1757,7 +1757,7 @@ neutron:
       repos:
         - openstack/vmware-nsx
       tags:
-        - release:independent
+        - release:cycle-with-milestones
 
 nova:
   ptl: John Garbutt (johnthetubaguy)
