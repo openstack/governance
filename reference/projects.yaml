@@ -1729,6 +1729,7 @@ neutron:
         - type:service
         - starter-kit:compute
         - vulnerability:managed
+        - assert:follows-standard-deprecation
     neutron-specs:
       repos:
         - openstack/neutron-specs
