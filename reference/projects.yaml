@@ -2703,6 +2703,19 @@ solum:
       tags:
         - release:independent
         - type:service
+    solum-dashboard:
+      repos:
+        - openstack/solum-dashboard
+      tags:
+        - release:independent
+    solum-infra-guestagent:
+      repos:
+        - openstack/solum-infra-guestagent
+      tags:
+        - release:independent
+    solum-specs:
+      repos:
+        - openstack/solum-specs
 
 swift:
   ptl: John Dickinson (notmyname)
