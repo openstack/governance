@@ -109,7 +109,7 @@ ceilometer:
         - release:independent
 
 Chef OpenStack:
-  ptl: JJ Asghar (j^2)
+  ptl: Jan Klare (jklare)
   service: Chef cookbooks for deployment
   mission: >
     The Chef cookbooks for OpenStack allow to automate the building, operation
@@ -213,7 +213,7 @@ Chef OpenStack:
         - release:independent
 
 cinder:
-  ptl: Mike Perez (thingee)
+  ptl: Sean Mcginnis (smcginnis)
   irc-channel: openstack-cinder
   service: Block Storage service
   mission: >
@@ -367,7 +367,7 @@ cue:
         - release:independent
 
 designate:
-  ptl: Kiall Mac Innes (kiall)
+  ptl: Graham Hayes (mugsie)
   service: DNS service
   mission: >
     To provide scalable, on demand, self service access to authoritative DNS
@@ -460,7 +460,7 @@ Documentation:
         - release:none
 
 glance:
-  ptl: Nikhil Komawar (nikhil_k)
+  ptl: Flavio Percoco (flaper87)
   irc-channel: openstack-glance
   service: Image service
   mission: >
@@ -506,7 +506,7 @@ glance:
         - vulnerability:managed
 
 heat:
-  ptl: Steve Baker (stevebaker)
+  ptl: Sergey Kraynev (skraynev)
   irc-channel: heat
   service: Orchestration service
   mission: >
@@ -628,7 +628,7 @@ I18n:
   deliverables: {}
 
 Infrastructure:
-  ptl: James E. Blair (jeblair)
+  ptl: Jeremy Stanley (fungi)
   irc-channel: openstack-infra
   mission: >
     Develop and maintain the tooling and infrastructure needed to support the
@@ -1277,7 +1277,7 @@ Infrastructure:
         - release:none
 
 ironic:
-  ptl: Devananda van der Veen (devananda)
+  ptl: Jim Rollenhagen (jroll)
   irc-channel: openstack-ironic
   service: Bare Metal service
   mission: >
@@ -1359,7 +1359,7 @@ ironic:
         - release:managed
 
 keystone:
-  ptl: Morgan Fainberg (morganfainberg)
+  ptl: Steve Martinelli (stevemar)
   irc-channel: openstack-keystone
   service: Identity service
   mission: >
@@ -1603,7 +1603,7 @@ murano:
         - type:library
 
 neutron:
-  ptl: Kyle Mestery (mestery)
+  ptl: Armando Migliaccio (armax)
   irc-channel: openstack-neutron
   service: Networking service
   mission: >
@@ -1816,7 +1816,7 @@ OpenStack UX:
   deliverables: {}
 
 OpenStackAnsible:
-  ptl: Kevin Carter (cloudnull)
+  ptl: Jesse Pretorius (odyssey4me)
   service: Ansible playbooks and roles for deployment
   mission: >
     Deploying OpenStack from source in a way that makes it scalable
@@ -2537,7 +2537,7 @@ RefStack:
         - release:independent
 
 Release Cycle Management:
-  ptl: Thierry Carrez (ttx)
+  ptl: Doug Hellmann (dhellmann)
   irc-channel: openstack-relmgr-office
   mission: >
     To organize the release cycle and the work necessary to produce coordinated
@@ -2574,7 +2574,7 @@ Release Cycle Management:
         - release:none
 
 Packaging-rpm:
-  ptl: Dirk Mueller (dirk) and Haikel Guemar (number80)
+  ptl: Dirk Mueller (dirk)
   mission: >
     To make OpenStack easier to update and consume by operators and
     provide tooling to package all OpenStack projects directly for
@@ -2636,7 +2636,7 @@ sahara:
         - release:none
 
 searchlight:
-  ptl: Travis Tripp (TravT) & Nikhil Komawar (nikhil_k)
+  ptl: Travis Tripp (TravT)
   service: Search service
   mission: >
     To provide advanced and scalable indexing and search across multi-tenant
@@ -2687,7 +2687,7 @@ Security:
         - release:none
 
 solum:
-  ptl: Adrian Otto (adrian_otto)
+  ptl: Devdatta Kulkarni (devkulkarni)
   irc-channel: solum
   service: Software Development Lifecycle Automation service
   mission: >
@@ -2760,7 +2760,7 @@ swift:
         - release:none
 
 tripleo:
-  ptl: James Slagle (slagle)
+  ptl: Dan Prince (dprince)
   irc-channel: tripleo
   service: Deployment service
   mission: >
@@ -2868,7 +2868,7 @@ tripleo:
         - release:independent
 
 trove:
-  ptl: Nikhil Manchanda (SlickNik)
+  ptl: Craig Vyvial (cp16net)
   irc-channel: openstack-trove
   service: Database service
   mission: >
@@ -2908,7 +2908,7 @@ trove:
         - release:none
 
 zaqar:
-  ptl: Flavio Percoco (flaper87)
+  ptl: Fei Long Wang (flwang)
   irc-channel: openstack-zaqar
   service: Message service
   mission: >
