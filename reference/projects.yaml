@@ -1325,7 +1325,9 @@ ironic:
       repos:
         - openstack/ironic-python-agent
       tags:
-        - release:independent
+        - release:managed
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
         - type:service
     ironic-specs:
       repos:
