@@ -1025,6 +1025,11 @@ Infrastructure:
         - openstack-infra/puppet-openafs
       tags:
         - release:none
+    puppet-openstack-health:
+      repos:
+        - openstack-infra/puppet-openstack-health
+      tags:
+        - release:none
     puppet-openstackci:
       repos:
         - openstack-infra/puppet-openstackci
