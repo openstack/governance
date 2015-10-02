@@ -1,3 +1,33 @@
+astara:
+  ptl: Adam Gandelman (adam_g)
+  irc-channel: astara
+  mission: >
+    To provide an integrated network service orchestration (routing, firewall,
+    load balancing, vpn) for connecting and security multi-tenant OpenStack
+    environments.
+  url: https://wiki.openstack.org/wiki/Astara
+  deliverables:
+    astara:
+      repos:
+        - openstack/astara
+      tags:
+        - release:cycle-with-milestones
+        - release:has-stable-branches
+        - type:service
+    astara-appliance:
+      repos:
+        - openstack/astara-appliance
+      tags:
+        - release:cycle-with-milestones
+        - release:has-stable-branches
+    astara-horizon:
+      repos:
+        - openstack/astara-horizon
+      tags:
+        - release:cycle-with-milestones
+        - release:has-stable-branches
+        - type:library
+
 barbican:
   ptl: Douglas Mendizabal (redrobot)
   irc-channel: openstack-barbican
