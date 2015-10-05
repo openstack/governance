@@ -950,6 +950,11 @@ Infrastructure:
         - openstack-infra/puppet-httpd
       tags:
         - release:none
+    puppet-infracloud:
+      repos:
+        - openstack-infra/puppet-infracloud
+      tags:
+        - release:none
     puppet-iptables:
       repos:
         - openstack-infra/puppet-iptables
