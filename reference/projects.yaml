@@ -1808,6 +1808,7 @@ nova:
         - type:service
         - starter-kit:compute
         - vulnerability:managed
+        - assert:follows-standard-deprecation
     nova-specs:
       repos:
         - openstack/nova-specs
