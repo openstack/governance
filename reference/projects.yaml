@@ -1507,6 +1507,7 @@ manila:
         - release:has-stable-branches
         - release:managed
         - type:service
+        - assert:follows-standard-deprecation
     manila-image-elements:
       repos:
         - openstack/manila-image-elements
