@@ -820,6 +820,11 @@ Infrastructure:
         - openstack-infra/project-config
       tags:
         - release:none
+    project-config-example:
+      repos:
+        - openstack-infra/project-config-example
+      tags:
+        - release:none
     publications:
       repos:
         - openstack-infra/publications
