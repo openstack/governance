@@ -917,6 +917,11 @@ Infrastructure:
         - openstack-infra/puppet-cgit
       tags:
         - release:none
+    puppet-ciwatch:
+      repos:
+        - openstack-infra/puppet-ciwatch
+      tags:
+        - release:none
     puppet-infra-cookiecutter:
       repos:
         - openstack-infra/puppet-infra-cookiecutter
