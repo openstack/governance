@@ -30,6 +30,8 @@ OpenStack project infrastructure will be permitted to use the
 "openstack/" namespace.
 
 The "openstack/" namespace is intended to convey that projects
-contained within it are developed by the OpenStack community at large.
-Only some of the projects within will be official OpenStack projects
-themselves.
+contained within it are hosted on OpenStack infrastructure.  Only some
+of the projects within will be official OpenStack projects
+themselves. As such, there should not be any new requirements such as
+CLA signing. This resolution should not alter the workflow of any of
+the projects.
