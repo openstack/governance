@@ -58,6 +58,10 @@ When considering new projects for addition, the TC will check that:
 * The project meets any policies that the TC requires all projects to
   meet. For instance, the :doc:`project-testing-interface`
 
+In order to do an evaluation against this criteria, the TC expects the project
+to be set up and have some history to evaluate.  A few months of operating and
+following these project requirements is a rough guideline for how long
+to wait before applying to be approved by the TC.
 
 Once a project has joined OpenStack, it may create additional source code
 repositories as needed at the discretion of its Project Team Lead (PTL) without
