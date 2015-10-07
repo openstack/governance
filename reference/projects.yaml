@@ -2428,6 +2428,11 @@ Puppet OpenStack:
         - openstack/puppet-openstack_extras
       tags:
         - release:independent
+    puppet-openstack_spec_helper:
+      repos:
+        - openstack/puppet-openstack_spec_helper
+      tags:
+        - release:none
     puppet-openstacklib:
       repos:
         - openstack/puppet-openstacklib
