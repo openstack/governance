@@ -2651,6 +2651,11 @@ Packaging-rpm:
         - openstack/rpm-packaging-tools
       tags:
         - release:none
+    pymod2pkg:
+      repos:
+        - openstack/pymod2pkg
+      tags:
+        - release:none
 
 sahara:
   ptl: Sergey Lukjanov (SergeyLukjanov)
