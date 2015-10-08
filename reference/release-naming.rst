@@ -26,8 +26,7 @@ following steps:
 
 #. The process to chose the name for a release begins once the
    location of the design summit of the release to be named is
-   announced and no sooner than the opening of development of the
-   previous release.
+   announced.
 
 #. Anyone may propose a name that matches the `Release Name
    Criteria`_.  Proposed names should be added to a page on the
