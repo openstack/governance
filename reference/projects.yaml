@@ -1894,6 +1894,11 @@ OpenStackAnsible:
         - openstack/openstack-ansible-specs
       tags:
         - release:none
+    openstack-ansible-security:
+      repos:
+        - openstack/openstack-ansible-security
+      tags:
+        - release:independent
 
 OpenStack client:
   ptl: Dean Troyer (dtroyer)
