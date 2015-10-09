@@ -2343,6 +2343,11 @@ Puppet OpenStack:
         - openstack/puppet-aodh
       tags:
         - release:independent
+    puppet-barbican:
+      repos:
+        - openstack/puppet-barbican
+      tags:
+        - release:independent
     puppet-ceilometer:
       repos:
         - openstack/puppet-ceilometer
