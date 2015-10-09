@@ -100,6 +100,7 @@ ceilometer:
       repos:
         - openstack/ceilometer
       tags:
+        - assert:follows-standard-deprecation
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
