@@ -702,6 +702,11 @@ Infrastructure:
         - openstack-infra/bugdaystats
       tags:
         - release:none
+    ciwatch:
+      repos:
+        - openstack-infra/ciwatch
+      tags:
+        - release:none
     devstack-gate:
       repos:
         - openstack-infra/devstack-gate
