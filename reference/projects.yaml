@@ -335,6 +335,11 @@ Community App Catalog:
         - openstack/app-catalog
       tags:
         - release:none
+    app-catalog-common:
+      repos:
+        - openstack/app-catalog-common
+      tags:
+        - release:none
     app-catalog-ui:
       repos:
         - openstack/app-catalog-ui
