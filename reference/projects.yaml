@@ -3005,6 +3005,37 @@ Security:
       tags:
         - release:none
 
+senlin:
+  ptl:
+    name: Qiming Teng
+    irc: Qiming
+    email: tengqim@cn.ibm.com
+  irc-channel: senlin
+  service: Clustering service
+  mission: >
+    To implement clustering services and libraries for the management of groups
+    of homogeneous objects exposed by other OpenStack services.
+  url: https://wiki.openstack.org/wiki/Senlin
+  deliverables:
+    senlin:
+      repos:
+        - openstack/senlin
+      tags:
+        - release:independent
+        - type:service
+    python-senlinclient:
+      repos:
+        - openstack/python-senlinclient
+      tags:
+        - release:independent
+        - type:library
+    senlin-dashboard:
+      repos:
+        - openstack/senlin-dashboard
+      tags:
+        - release:independent
+        - type:library
+
 solum:
   ptl:
     name: Devdatta Kulkarni
