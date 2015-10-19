@@ -1982,6 +1982,11 @@ oslo:
         - openstack/devstack-plugin-amqp1
       tags:
         - release:none
+    devstack-plugin-pika:
+      repos:
+        - openstack/devstack-plugin-pika
+      tags:
+        - release:none
     devstack-plugin-zmq:
       repos:
         - openstack/devstack-plugin-zmq
