@@ -1267,6 +1267,11 @@ Infrastructure:
         - openstack-infra/releasestatus
       tags:
         - release:none
+    requestsexceptions:
+      repos:
+        - openstack-infra/requestsexceptions
+      tags:
+        - release:independent
     reviewday:
       repos:
         - openstack-infra/reviewday
