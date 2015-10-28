@@ -1,0 +1,63 @@
+::
+
+  This work is licensed under a Creative Commons Attribution 3.0
+  Unported License.
+  http://creativecommons.org/licenses/by/3.0/legalcode
+
+.. _`tag-assert:supports-upgrade`:
+
+===================
+assert:supports-upgrade
+===================
+
+This tag is part of the assert category of tags, which are assertions
+made by the project team themselves about their maturity. One such
+assertion (or self-imposed contract) is about the cold-upgrade
+features that the project supports.
+
+The "assert:supports-upgrade" tag asserts that the project will
+support minimal cold (offline) upgrade capabilities.
+
+Application to current projects
+===============================
+
+.. tagged-projects:: assert:supports-upgrade
+
+
+Rationale
+=========
+
+OpenStack projects represent code that is installed and deployed on
+many distributed systems in order to provide services to
+users. Operators need to know what projects support a controlled and
+planned upgrade process from release to release in order to make good
+decisions about what to expose to users. Utilizing an OpenStack
+project in a deployment where smooth upgrades are not provided is a
+danger that operators should be aware of.
+
+Requirements
+============
+
+* The project is already tagged as type:service.
+* Configuration from release N-1 is supported in release N. Sane
+  defaults for new configuration variables are provided in such a way
+  that deployed code from N can be expected to run without operator
+  intervention.
+* Database schema updates are stable and ordered such that moving a
+  database (with actual data in it) from release N-1 to N is possible
+  without data loss. This must be actively tested full-stack on every
+  proposed commit in the gate, with resources present and working
+  before and after the upgrade step.
+* A procedure for general upgrades of the project is defined and does
+  not change substantially from cycle to cycle.
+* The project provides an upgrade impact section on the release notes
+  page that highlights anything that must be done by operators for
+  each cycle outside the normal upgrade procedures.
+
+Tag application process
+=======================
+
+Assertion tags are set by the project team PTL or suitable designee
+based on meeting the above criteria. The Technical Committee may
+exceptionally remove the tag if they find that the project doesn't
+actually follow the requirements for the assertion.
