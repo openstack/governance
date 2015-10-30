@@ -1809,6 +1809,15 @@ neutron:
         - starter-kit:compute
         - vulnerability:managed
         - assert:follows-standard-deprecation
+    neutron-lib:
+      repos:
+        - openstack/neutron-lib
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+        - vulnerability:managed
     neutron-specs:
       repos:
         - openstack/neutron-specs
