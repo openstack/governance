@@ -36,6 +36,8 @@ barbican:
     To produce a secret storage and generation system capable of providing key
     management for services wishing to enable encryption features.
   url: https://wiki.openstack.org/wiki/Barbican
+  tags:
+    - team:diverse-affiliation
   deliverables:
     barbican:
       repos:
