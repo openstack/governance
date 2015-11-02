@@ -987,6 +987,11 @@ Infrastructure:
         - openstack-infra/puppet-github
       tags:
         - release:none
+    puppet-grafyaml:
+      repos:
+        - openstack-infra/puppet-grafyaml
+      tags:
+        - release:none
     puppet-graphite:
       repos:
         - openstack-infra/puppet-graphite
