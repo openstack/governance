@@ -107,4 +107,6 @@ Polls
 Release  Coordinator   Nominations Open  Poll Open   Poll Close  Geographic Region
 =======  ============  ================  ==========  ==========  =================
 M        Monty Taylor  2015-06-01        2015-06-08  2015-06-15  N/A
+N        Monty Taylor  2015-11-08        2015-11-30  2015-12-07
+O        Monty Taylor  2015-11-08        2015-11-30  2015-12-07
 =======  ============  ================  ==========  ==========  =================
