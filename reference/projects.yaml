@@ -1,5 +1,7 @@
 astara:
-  ptl: Adam Gandelman (adam_g)
+  ptl:
+    name: Adam Gandelman
+    irc: adam_g
   irc-channel: astara
   mission: >
     To provide an integrated network service orchestration (routing, firewall,
@@ -29,7 +31,9 @@ astara:
         - type:library
 
 barbican:
-  ptl: Douglas Mendizabal (redrobot)
+  ptl:
+    name: Douglas Mendizabal
+    irc: redrobot
   irc-channel: openstack-barbican
   service: Key Manager service
   mission: >
@@ -78,7 +82,9 @@ barbican:
         - release:independent
 
 ceilometer:
-  ptl: Gordon Chung (gordc)
+  ptl:
+    name: Gordon Chung
+    irc: gordc
   irc-channel: openstack-ceilometer
   service: Telemetry service
   mission: >
@@ -140,7 +146,9 @@ ceilometer:
         - release:independent
 
 Chef OpenStack:
-  ptl: Jan Klare (jklare)
+  ptl:
+    name: Jan Klare
+    irc: jklare
   service: Chef cookbooks for deployment
   mission: >
     The Chef cookbooks for OpenStack allow to automate the building, operation
@@ -244,7 +252,9 @@ Chef OpenStack:
         - release:independent
 
 cinder:
-  ptl: Sean Mcginnis (smcginnis)
+  ptl:
+    name: Sean Mcginnis
+    irc: smcginnis
   irc-channel: openstack-cinder
   service: Block Storage service
   mission: >
@@ -288,7 +298,9 @@ cinder:
         - vulnerability:managed
 
 cloudkitty:
-  ptl: Stephane Albert (sheeprine)
+  ptl:
+    name: Stephane Albert
+    irc: sheeprine
   irc-channel: cloudkitty
   service: Rating service
   mission: >
@@ -318,7 +330,9 @@ cloudkitty:
         - type:library
 
 Community App Catalog:
-  ptl: Christopher Aedo (docaedo)
+  ptl:
+    name: Christopher Aedo
+    irc: docaedo
   irc-channel: openstack-app-catalog
   mission: >
     To build and maintain the OpenStack Community App Catalog
@@ -347,7 +361,9 @@ Community App Catalog:
         - release:none
 
 congress:
-  ptl: Tim Hinrichs (thinrichs)
+  ptl:
+    name: Tim Hinrichs
+    irc: thinrichs
   irc-channel: congress
   service: Governance service
   mission: >
@@ -376,7 +392,9 @@ congress:
         - release:cycle-with-intermediary
 
 cue:
-  ptl: Vipul Sabhaya (vipul)
+  ptl:
+    name: Vipul Sabhaya
+    irc: vipul
   service: Message Broker service
   mission: >
     To provide a multi-tenant service that offers scalable and reliable
@@ -403,7 +421,9 @@ cue:
         - release:independent
 
 designate:
-  ptl: Graham Hayes (mugsie)
+  ptl:
+    name: Graham Hayes
+    irc: mugsie
   service: DNS service
   mission: >
     To provide scalable, on demand, self service access to authoritative DNS
@@ -439,7 +459,9 @@ designate:
         - type:library
 
 Documentation:
-  ptl: Lana Brindley (loquacities)
+  ptl:
+    name: Lana Brindley
+    irc: loquacities
   irc-channel: openstack-doc
   mission: >
     Provide documentation for core OpenStack projects to promote OpenStack.
@@ -502,7 +524,9 @@ Documentation:
         - release:none
 
 glance:
-  ptl: Flavio Percoco (flaper87)
+  ptl:
+    name: Flavio Percoco
+    irc: flaper87
   irc-channel: openstack-glance
   service: Image service
   mission: >
@@ -548,7 +572,9 @@ glance:
         - vulnerability:managed
 
 heat:
-  ptl: Sergey Kraynev (skraynev)
+  ptl:
+    name: Sergey Kraynev
+    irc: skraynev
   irc-channel: heat
   service: Orchestration service
   mission: >
@@ -609,7 +635,9 @@ heat:
         - release:none
 
 horizon:
-  ptl: David Lyle (david-lyle)
+  ptl:
+    name: David Lyle
+    irc: david-lyle
   irc-channel: openstack-horizon
   service: Dashboard
   mission: >
@@ -662,7 +690,9 @@ horizon:
         - release:independent
 
 I18n:
-  ptl: Ying Chun Guo (Daisy)
+  ptl:
+    name: Ying Chun Guo
+    irc: Daisy
   mission: >
     To make OpenStack ubiquitously accessible to people of
     all language backgrounds.
@@ -670,7 +700,9 @@ I18n:
   deliverables: {}
 
 Infrastructure:
-  ptl: Jeremy Stanley (fungi)
+  ptl:
+    name: Jeremy Stanley
+    irc: fungi
   irc-channel: openstack-infra
   mission: >
     Develop and maintain the tooling and infrastructure needed to support the
@@ -1349,7 +1381,9 @@ Infrastructure:
         - release:none
 
 ironic:
-  ptl: Jim Rollenhagen (jroll)
+  ptl:
+    name: Jim Rollenhagen
+    irc: jroll
   irc-channel: openstack-ironic
   service: Bare Metal service
   mission: >
@@ -1433,7 +1467,9 @@ ironic:
         - release:managed
 
 keystone:
-  ptl: Steve Martinelli (stevemar)
+  ptl:
+    name: Steve Martinelli
+    irc: stevemar
   irc-channel: openstack-keystone
   service: Identity service
   mission: >
@@ -1505,7 +1541,9 @@ keystone:
         - type:library
 
 kolla:
-  ptl: Steven Dake (sdake)
+  ptl:
+    name: Steven Dake
+    irc: sdake
   irc-channel: kolla
   mission: >
     To provide production-ready containers and deployment tools for operating
@@ -1521,7 +1559,9 @@ kolla:
         - release:independent
 
 magnum:
-  ptl: Adrian Otto (adrian_otto)
+  ptl:
+    name: Adrian Otto
+    irc: adrian_otto
   irc-channel: magnum
   service: Containers service
   mission: >
@@ -1550,7 +1590,9 @@ magnum:
         - type:library
 
 manila:
-  ptl: Ben Swartzlander (bswartz)
+  ptl:
+    name: Ben Swartzlander
+    irc: bswartz
   irc-channel: openstack-manila
   service: Shared File Systems service
   mission: >
@@ -1586,7 +1628,9 @@ manila:
         - type:library
 
 mistral:
-  ptl: Renat Akhmerov (rakhmerov)
+  ptl:
+    name: Renat Akhmerov
+    irc: rakhmerov
   irc-channel: openstack-mistral
   service: Workflow service
   mission: >
@@ -1624,7 +1668,9 @@ mistral:
         - release:has-stable-branches
 
 murano:
-  ptl: Serg Melikyan (smelikyan)
+  ptl:
+    name: Serg Melikyan
+    irc: smelikyan
   irc-channel: murano
   service: Application Catalog service
   mission: >
@@ -1678,7 +1724,9 @@ murano:
         - type:library
 
 neutron:
-  ptl: Armando Migliaccio (armax)
+  ptl:
+    name: Armando Migliaccio
+    irc: armax
   irc-channel: openstack-neutron
   service: Networking service
   mission: >
@@ -1850,7 +1898,9 @@ neutron:
         - release:cycle-with-milestones
 
 nova:
-  ptl: John Garbutt (johnthetubaguy)
+  ptl:
+    name: John Garbutt
+    irc: johnthetubaguy
   irc-channel: openstack-nova
   service: Compute service
   mission: >
@@ -1889,7 +1939,9 @@ nova:
         - vulnerability:managed
 
 OpenStack UX:
-  ptl: Piet Kruithof (Piet)
+  ptl:
+    name: Piet Kruithof
+    irc: Piet
   irc-channel: openstack-ux
   mission: >
     The mission of the UX Program is to help the teams improve the overall
@@ -1898,7 +1950,9 @@ OpenStack UX:
   deliverables: {}
 
 OpenStackAnsible:
-  ptl: Jesse Pretorius (odyssey4me)
+  ptl:
+    name: Jesse Pretorius
+    irc: odyssey4me
   service: Ansible playbooks and roles for deployment
   mission: >
     Deploying OpenStack from source in a way that makes it scalable
@@ -1922,7 +1976,9 @@ OpenStackAnsible:
         - release:independent
 
 OpenStack client:
-  ptl: Dean Troyer (dtroyer)
+  ptl:
+    name: Dean Troyer
+    irc: dtroyer
   irc-channel: openstack-sdks
   service: Command-line client
   mission: >
@@ -1955,7 +2011,9 @@ OpenStack client:
         - release:managed
 
 oslo:
-  ptl: Davanum Srinivas (dims)
+  ptl:
+    name: Davanum Srinivas
+    irc: dims
   irc-channel: openstack-oslo
   service: Common libraries
   mission: >
@@ -2229,7 +2287,9 @@ oslo:
         - release:managed
 
 Packaging-deb:
-   ptl: Thomas Goirand (zigo)
+   ptl:
+    name: Thomas Goirand
+    irc: zigo
    mission: >
      Maintain packages for Debian (and other deb based distributions) as a community.
    deliverables:
@@ -2360,7 +2420,9 @@ Packaging-deb:
          - release:none
 
 Puppet OpenStack:
-  ptl: Emilien Macchi (emilienm)
+  ptl:
+    name: Emilien Macchi
+    irc: emilienm
   service: Puppet modules for deployment
   mission: >
     The Puppet modules for OpenStack bring scalable and reliable IT automation
@@ -2519,7 +2581,9 @@ Puppet OpenStack:
         - release:independent
 
 Quality Assurance:
-  ptl: Matthew Treinish (mtreinish)
+  ptl:
+    name: Matthew Treinish
+    irc: mtreinish
   irc-channel: openstack-qa
   mission: >
     Develop, maintain, and initiate tools and plans to ensure the upstream
@@ -2605,7 +2669,9 @@ Quality Assurance:
         - type:library
 
 rally:
-  ptl: Boris Pavlovic (boris-42)
+  ptl:
+    name: Boris Pavlovic
+    irc: boris-42
   irc-channel: openstack-rally
   service: Benchmark service
   mission: >
@@ -2621,7 +2687,9 @@ rally:
         - release:independent
 
 RefStack:
-  ptl: Catherine Diep (catherineD)
+  ptl:
+    name: Catherine Diep
+    irc: catherineD
   irc-channel: refstack
   service: Interoperability Test Report
   mission: >
@@ -2642,7 +2710,9 @@ RefStack:
         - release:independent
 
 Release Cycle Management:
-  ptl: Doug Hellmann (dhellmann)
+  ptl:
+    name: Doug Hellmann
+    irc: dhellmann
   irc-channel: openstack-relmgr-office
   mission: >
     To organize the release cycle and the work necessary to produce coordinated
@@ -2679,7 +2749,9 @@ Release Cycle Management:
         - release:none
 
 Packaging-rpm:
-  ptl: Dirk Mueller (dirk)
+  ptl:
+    name: Dirk Mueller
+    irc: dirk
   mission: >
     To make OpenStack easier to update and consume by operators and
     provide tooling to package all OpenStack projects directly for
@@ -2707,7 +2779,9 @@ Packaging-rpm:
         - release:none
 
 sahara:
-  ptl: Sergey Lukjanov (SergeyLukjanov)
+  ptl:
+    name: Sergey Lukjanov
+    irc: SergeyLukjanov
   irc-channel: openstack-sahara
   service: Data Processing service
   mission: >
@@ -2751,7 +2825,9 @@ sahara:
         - release:none
 
 searchlight:
-  ptl: Travis Tripp (TravT)
+  ptl:
+    name: Travis Tripp
+    irc: TravT
   service: Search service
   mission: >
     To provide advanced and scalable indexing and search across multi-tenant
@@ -2766,7 +2842,9 @@ searchlight:
         - release:cycle-with-intermediary
 
 Security:
-  ptl: Robert Clark (hyakuhei)
+  ptl:
+    name: Robert Clark
+    irc: hyakuhei
   mission: >
     To provide developers and consumers of OpenStack with appropriate security
     guidance and advice. To develop tooling that enhances levels of security
@@ -2802,7 +2880,9 @@ Security:
         - release:none
 
 solum:
-  ptl: Devdatta Kulkarni (devkulkarni)
+  ptl:
+    name: Devdatta Kulkarni
+    irc: devkulkarni
   irc-channel: solum
   service: Software Development Lifecycle Automation service
   mission: >
@@ -2837,7 +2917,9 @@ solum:
         - openstack/solum-specs
 
 swift:
-  ptl: John Dickinson (notmyname)
+  ptl:
+    name: John Dickinson
+    irc: notmyname
   irc-channel: openstack-swift
   service: Object Storage service
   url: https://wiki.openstack.org/wiki/Swift
@@ -2875,7 +2957,9 @@ swift:
         - release:none
 
 tripleo:
-  ptl: Dan Prince (dprince)
+  ptl:
+    name: Dan Prince
+    irc: dprince
   irc-channel: tripleo
   service: Deployment service
   mission: >
@@ -2983,7 +3067,9 @@ tripleo:
         - release:independent
 
 trove:
-  ptl: Craig Vyvial (cp16net)
+  ptl:
+    name: Craig Vyvial
+    irc: cp16net
   irc-channel: openstack-trove
   service: Database service
   mission: >
@@ -3023,7 +3109,9 @@ trove:
         - release:none
 
 zaqar:
-  ptl: Fei Long Wang (flwang)
+  ptl:
+    name: Fei Long Wang
+    irc: flwang
   irc-channel: openstack-zaqar
   service: Message service
   mission: >
