@@ -1921,6 +1921,8 @@ OpenStack client:
     Provide a single command-line interface for OpenStack services with a
     uniform command set and format.
   url: https://wiki.openstack.org/wiki/OpenStackClient
+  tags:
+    - team:diverse-affiliation
   deliverables:
     cliff:
       repos:
@@ -2758,6 +2760,8 @@ Security:
     for reported vulnerabilities and to foster new security initiatives to the
     benefit of the OpenStack community as a whole.
   url: https://wiki.openstack.org/wiki/Security
+  tags:
+    - team:diverse-affiliation
   deliverables:
     anchor:
       repos:
