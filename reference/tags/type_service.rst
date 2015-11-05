@@ -12,7 +12,7 @@
 
 This tag is part of the type-classification system for projects
 managed by the release team. ``type:service`` indicates that a project
-provides a long-running service, usually with a REST API.
+provides a user-facing long-running service, usually with a REST API.
 
 
 Application to current projects
