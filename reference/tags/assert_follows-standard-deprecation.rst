@@ -77,6 +77,10 @@ features deprecation:
    A feature deprecated in March 2016 should still appear in the Mitaka
    release and stable/mitaka stable branch, and cannot be removed before
    June 2016.
+   Features included in an intermediate release but not a coordinated release
+   may be deprecated in the next release of any type and must stay in place at
+   least 3 months after being deprecated before being removed in a release of
+   any type.
 
 Note that this delay is a required minimum. For significant features, it is
 recommended that the deprecated feature appears at least in the next *two*
