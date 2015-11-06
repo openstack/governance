@@ -492,6 +492,11 @@ Documentation:
         - openstack/docs-specs
       tags:
         - release:none
+    faafo:
+      repos:
+        - openstack/faafo
+      tags:
+        - release:none
     ha-guide:
       repos:
         - openstack/ha-guide
