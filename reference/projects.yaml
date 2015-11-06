@@ -712,7 +712,12 @@ I18n:
     To make OpenStack ubiquitously accessible to people of
     all language backgrounds.
   url: https://wiki.openstack.org/wiki/I18nTeam
-  deliverables: {}
+  deliverables:
+    i18n:
+      repos:
+        - openstack/i18n
+      tags:
+        - release:none
 
 Infrastructure:
   ptl:
