@@ -320,19 +320,19 @@ cloudkitty:
   deliverables:
     cloudkitty:
       repos:
-        - stackforge/cloudkitty
+        - openstack/cloudkitty
       tags:
         - release:independent
         - type:service
     python-cloudkittyclient:
       repos:
-        - stackforge/python-cloudkittyclient
+        - openstack/python-cloudkittyclient
       tags:
         - release:independent
         - type:library
     cloudkitty-dashboard:
       repos:
-        - stackforge/cloudkitty-dashboard
+        - openstack/cloudkitty-dashboard
       tags:
         - release:independent
         - type:library
