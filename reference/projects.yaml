@@ -1591,6 +1591,12 @@ kolla:
         - openstack/kolla
       tags:
         - release:independent
+    kolla-mesos:
+      repos:
+        - openstack/kolla-mesos
+      tags:
+        - release:independent
+
 
 magnum:
   ptl:
