@@ -1932,7 +1932,8 @@ neutron:
       repos:
         - openstack/octavia
       tags:
-        - release:independent
+        - release:cycle-with-milestones
+        - release:has-stable-branches
     python-neutron-pd-driver:
       repos:
         - openstack/python-neutron-pd-driver
