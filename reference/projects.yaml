@@ -1451,6 +1451,7 @@ ironic:
       repos:
         - openstack/ironic-inspector
       tags:
+        - release:managed
         - release:cycle-with-intermediary
         - release:has-stable-branches
         - type:service
@@ -1489,7 +1490,9 @@ ironic:
       repos:
         - openstack/python-ironic-inspector-client
       tags:
-        - release:independent
+        - release:managed
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
         - type:library
     python-ironicclient:
       repos:
