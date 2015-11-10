@@ -84,19 +84,19 @@ barbican:
         - type:library
         - release:independent
 
-ceilometer:
+Telemetry:
   ptl:
     name: Gordon Chung
     irc: gordc
     email: gord@live.ca
-  irc-channel: openstack-ceilometer
+  irc-channel: openstack-telemetry
   service: Telemetry service
   mission: >
     To reliably collect measurements of the utilization of the physical and
     virtual resources comprising deployed clouds, persist these data for
     subsequent retrieval and analysis, and trigger actions when defined
     criteria are met.
-  url: https://wiki.openstack.org/wiki/Ceilometer
+  url: https://wiki.openstack.org/wiki/Telemetry
   deliverables:
     aodh:
       repos:
