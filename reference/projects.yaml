@@ -541,6 +541,40 @@ Documentation:
       tags:
         - release:none
 
+freezer:
+  ptl:
+    name: Fausto Marzi
+    irc: daemontool
+    email: fausto.marzi@gmail.com
+  irc-channel: openstack-freezer
+  service: backup restore and disaster recovery as a service
+  mission: >
+    To provide integrated tooling for backing up, restoring, and
+    recovering file systems, instances, or database backups.
+    Disaster Recovery features are also provided, as Freezer
+    allows to recover your data in case of one or more core
+    components are not avaialble (i.e. Swift, Keystone, DB).
+    This is achieved by supporting multiple and parallel media
+    to store backups.
+  url: https://wiki.openstack.org/wiki/Freezer
+  deliverables:
+    freezer:
+      repos:
+        - openstack/freezer
+      tags:
+        - release:independent
+    freezer-api:
+      repos:
+        - openstack/freezer-api
+      tags:
+        - release:independent
+        - type:service
+    freezer-web-ui:
+      repos:
+        - openstack/freezer-web-ui
+      tags:
+        - release:independent
+
 glance:
   ptl:
     name: Flavio Percoco
