@@ -16,7 +16,6 @@ astara:
       tags:
         - release:cycle-with-milestones
         - release:has-stable-branches
-        - type:service
     astara-appliance:
       repos:
         - openstack/astara-appliance
@@ -1488,7 +1487,6 @@ ironic:
         - release:managed
         - release:cycle-with-intermediary
         - release:has-stable-branches
-        - type:service
     ironic-lib:
       repos:
         - openstack/ironic-lib
@@ -1503,7 +1501,6 @@ ironic:
         - release:managed
         - release:cycle-with-intermediary
         - release:has-stable-branches
-        - type:service
     ironic-specs:
       repos:
         - openstack/ironic-specs
