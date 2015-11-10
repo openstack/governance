@@ -2020,6 +2020,7 @@ nova:
         - starter-kit:compute
         - vulnerability:managed
         - assert:follows-standard-deprecation
+        - assert:supports-upgrade
     nova-specs:
       repos:
         - openstack/nova-specs
