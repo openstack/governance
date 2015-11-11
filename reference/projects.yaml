@@ -2090,6 +2090,13 @@ nova:
         - type:library
         - release:managed
         - vulnerability:managed
+    os-vif:
+      repos:
+        - openstack/os-vif
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
 
 OpenStack UX:
   ptl:
