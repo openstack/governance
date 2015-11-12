@@ -2833,7 +2833,7 @@ Quality Assurance:
         - release:cycle-with-intermediary
     tempest-plugin-cookiecutter:
       repos:
-        - openstack-dev/tempest-plugin-cookiecutter
+        - openstack/tempest-plugin-cookiecutter
       tags:
         - release:none
     tempest-lib:
