@@ -2037,6 +2037,11 @@ neutron:
       tags:
         - release:independent
         - release:has-stable-branches
+    networking-bagpipe:
+      repos:
+        - openstack/networking-bagpipe
+      tags:
+        - release:independent
     networking-bgpvpn:
       repos:
         - openstack/networking-bgpvpn
