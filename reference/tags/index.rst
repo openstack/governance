@@ -27,6 +27,8 @@ Project Assertions Tags
    :maxdepth: 1
 
    assert_follows-standard-deprecation
+   assert_supports-upgrade
+   assert_supports-rolling-upgrade
 
 Release Management Tags
 =======================
