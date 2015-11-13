@@ -1883,6 +1883,7 @@ neutron:
         - openstack/dragonflow
       tags:
         - release:independent
+        - release:has-stable-branches
     kuryr:
       repos:
         - openstack/kuryr
@@ -1898,6 +1899,7 @@ neutron:
         - openstack/networking-arista
       tags:
         - release:independent
+        - release:has-stable-branches
     networking-bgpvpn:
       repos:
         - openstack/networking-bgpvpn
@@ -1913,6 +1915,7 @@ neutron:
         - openstack/networking-cisco
       tags:
         - release:independent
+        - release:has-stable-branches
     networking-fortinet:
       repos:
         - openstack/networking-fortinet
@@ -1928,6 +1931,7 @@ neutron:
         - openstack/networking-hyperv
       tags:
         - release:independent
+        - release:has-stable-branches
     networking-infoblox:
       repos:
         - openstack/networking-infoblox
@@ -1943,6 +1947,7 @@ neutron:
         - openstack/networking-l2gw
       tags:
         - release:independent
+        - release:has-stable-branches
     networking-lenovo:
       repos:
         - openstack/networking-lenovo
@@ -1953,16 +1958,19 @@ neutron:
         - openstack/networking-midonet
       tags:
         - release:independent
+        - release:has-stable-branches
     networking-odl:
       repos:
         - openstack/networking-odl
       tags:
         - release:independent
+        - release:has-stable-branches
     networking-ofagent:
       repos:
         - openstack/networking-ofagent
       tags:
         - release:independent
+        - release:has-stable-branches
     networking-onos:
       repos:
         - openstack/networking-onos
@@ -1978,11 +1986,13 @@ neutron:
         - openstack/networking-plumgrid
       tags:
         - release:independent
+        - release:has-stable-branches
     networking-powervm:
       repos:
         - openstack/networking-powervm
       tags:
         - release:independent
+        - release:has-stable-branches
     networking-sfc:
       repos:
         - openstack/networking-sfc
@@ -1993,6 +2003,7 @@ neutron:
         - openstack/networking-vsphere
       tags:
         - release:independent
+        - release:has-stable-branches
     neutron:
       repos:
         - openstack/neutron
@@ -2048,6 +2059,7 @@ neutron:
         - openstack/vmware-nsx
       tags:
         - release:cycle-with-milestones
+        - release:has-stable-branches
 
 nova:
   ptl:
