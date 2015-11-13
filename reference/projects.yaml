@@ -1644,7 +1644,7 @@ magnum:
     name: Adrian Otto
     irc: adrian_otto
     email: adrian.otto@rackspace.com
-  irc-channel: magnum
+  irc-channel: openstack-containers
   service: Containers service
   mission: >
     To provide a set of services for management of application containers
