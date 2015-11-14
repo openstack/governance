@@ -742,6 +742,111 @@ horizon:
         - openstack/tuskar-ui
       tags:
         - release:independent
+    xstatic-angular:
+      repos:
+        - openstack/xstatic-angular
+      tags:
+        - release:independent
+    xstatic-angular-bootstrap:
+      repos:
+        - openstack/xstatic-angular-bootstrap
+      tags:
+        - release:independent
+    xstatic-angular-gettext:
+      repos:
+        - openstack/xstatic-angular-gettext
+      tags:
+        - release:independent
+    xstatic-angular-lrdragndrop:
+      repos:
+        - openstack/xstatic-angular-lrdragndrop
+      tags:
+        - release:independent
+    xstatic-angular-smart-table:
+      repos:
+        - openstack/xstatic-angular-smart-table
+      tags:
+        - release:independent
+    xstatic-bootstrap-datepicker:
+      repos:
+        - openstack/xstatic-bootstrap-datepicker
+      tags:
+        - release:independent
+    xstatic-bootstrap-scss:
+      repos:
+        - openstack/xstatic-bootstrap-scss
+      tags:
+        - release:independent
+    xstatic-bootswatch:
+      repos:
+        - openstack/xstatic-bootswatch
+      tags:
+        - release:independent
+    xstatic-d3:
+      repos:
+        - openstack/xstatic-d3
+      tags:
+        - release:independent
+    xstatic-hogan:
+      repos:
+        - openstack/xstatic-hogan
+      tags:
+        - release:independent
+    xstatic-font-awesome:
+      repos:
+        - openstack/xstatic-font-awesome
+      tags:
+        - release:independent
+    xstatic-jasmine:
+      repos:
+        - openstack/xstatic-jasmine
+      tags:
+        - release:independent
+    xstatic-jquery-migrate:
+      repos:
+        - openstack/xstatic-jquery-migrate
+      tags:
+        - release:independent
+    xstatic-jquery.quicksearch:
+      repos:
+        - openstack/xstatic-jquery.quicksearch
+      tags:
+        - release:independent
+    xstatic-jquery.tablesorter:
+      repos:
+        - openstack/xstatic-jquery.tablesorter
+      tags:
+        - release:independent
+    xstatic-jsencrypt:
+      repos:
+        - openstack/xstatioc-jsencrypt
+      tags:
+        - release:independent
+    xstatic-magic-search:
+      repos:
+        - openstack/xstatic-magic-search
+      tags:
+        - release:independent
+    xstatic-mdi:
+      repos:
+        - openstack/xstatic-mdi
+      tags:
+        - release:independent
+    xstatic-rickshaw:
+      repos:
+        - openstack/xstatic-rickshaw
+      tags:
+        - release:independent
+    xstatic-roboto-fontface:
+      repos:
+        - openstack/xstatic-roboto-fontface
+      tags:
+        - release:independent
+    xstatic-spin:
+      repos:
+        - openstack/xstatic-spin
+      tags:
+        - release:independent
 
 I18n:
   ptl:
