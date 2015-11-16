@@ -1743,6 +1743,11 @@ mistral:
         - openstack/mistral-extra
       tags:
         - release:none
+    mistral-specs:
+      repos:
+        - openstack/mistral-specs
+      tags:
+        - release:none
     python-mistralclient:
       repos:
         - openstack/python-mistralclient
