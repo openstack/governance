@@ -594,6 +594,7 @@ glance:
         - openstack/glance
       tags:
         - assert:follows-standard-deprecation
+        - assert:supports-upgrade
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
