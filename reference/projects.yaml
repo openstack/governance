@@ -260,7 +260,7 @@ cinder:
   ptl:
     name: Sean Mcginnis
     irc: smcginnis
-    email: sean.mcginnis@gmx.com
+    email: sean.mcginnis@gmail.com
   irc-channel: openstack-cinder
   service: Block Storage service
   mission: >
@@ -281,6 +281,8 @@ cinder:
         - release:has-stable-branches
         - type:service
         - vulnerability:managed
+        - assert:follows-standard-deprecation
+        - assert:supports-upgrade
     cinder-specs:
       repos:
         - openstack/cinder-specs
