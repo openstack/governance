@@ -3181,6 +3181,9 @@ swift:
         - release:has-stable-branches
         - type:service
         - vulnerability:managed
+        - assert:follows-standard-deprecation
+        - assert:supports-upgrade
+        - assert:supports-rolling-upgrade
     swift-bench:
       repos:
         - openstack/swift-bench
