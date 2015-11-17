@@ -34,6 +34,7 @@ import urllib
 # List of modules to validate team based tags
 team_validators = [
     teamstats.ValidateDiversity,
+    teamstats.ValidateSingleVendor,
 ]
 
 # List of modules to validate repository based tags
