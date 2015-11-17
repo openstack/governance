@@ -3397,3 +3397,68 @@ zaqar:
         - openstack/zaqar-specs
       tags:
         - release:none
+
+fuel:
+  ptl:
+    name: Dmitry Borodaenko
+    irc: angdraug
+    email: dborodaenko@mirantis.com
+  irc-channel: fuel
+  service: Deployment service
+  mission: >
+    To streamline and accelerate the process of deploying, testing and
+    maintaining various configurations of OpenStack at scale.
+  url: https://wiki.openstack.org/wiki/Fuel
+  deliverables:
+    fuel:
+      repos:
+        - openstack/fuel-agent
+        - openstack/fuel-astute
+        - openstack/fuel-library
+        - openstack/fuel-main
+        - openstack/fuel-menu
+        - openstack/fuel-mirror
+        - openstack/fuel-nailgun-agent
+        - openstack/fuel-ostf
+        - openstack/fuel-qa
+        - openstack/fuel-upgrade
+        - openstack/fuel-web
+        - openstack/network-checker
+        - openstack/shotgun
+      tags:
+        - release:independent
+    fuel-dev-tools:
+      repos:
+        - openstack/fuel-dev-tools
+      tags:
+        - release:none
+    fuel-devops:
+      repos:
+        - openstack/fuel-devops
+      tags:
+        - release:independent
+    fuel-docs:
+      repos:
+        - openstack/fuel-docs
+      tags:
+        - release:none
+    fuel-plugins:
+      repos:
+        - openstack/fuel-plugins
+      tags:
+        - release:independent
+    fuel-specs:
+      repos:
+        - openstack/fuel-specs
+      tags:
+        - release:none
+    fuel-stats:
+      repos:
+        - openstack/fuel-stats
+      tags:
+        - release:none
+    python-fuelclient:
+      repos:
+        - openstack/python-fuelclient
+      tags:
+        - release:independent
