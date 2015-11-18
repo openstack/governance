@@ -2240,6 +2240,11 @@ oslo:
         - openstack/devstack-plugin-amqp1
       tags:
         - release:none
+    devstack-plugin-kafka:
+      repos:
+        - openstack/devstack-plugin-kafka
+      tags:
+        - release:none
     devstack-plugin-pika:
       repos:
         - openstack/devstack-plugin-pika
