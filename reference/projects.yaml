@@ -3026,6 +3026,12 @@ searchlight:
         - openstack/searchlight-specs
       tags:
         - release:none
+    python-searchlightclient:
+      repos:
+        - openstack/python-searchlightclient
+      tags:
+        - type:library
+        - release:cycle-with-intermediary
 
 Security:
   ptl:
