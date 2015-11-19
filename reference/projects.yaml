@@ -1569,6 +1569,8 @@ keystone:
         - type:service
         - starter-kit:compute
         - vulnerability:managed
+        - assert:follows-standard-deprecation
+        - assert:supports-upgrade
     keystone-specs:
       repos:
         - openstack/keystone-specs
