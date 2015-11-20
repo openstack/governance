@@ -2106,6 +2106,7 @@ nova:
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
+        - assert:supports-rolling-upgrade
     nova-specs:
       repos:
         - openstack/nova-specs
