@@ -1,0 +1,5 @@
+# NOTE(harlowja): For graph generation tool.
+#
+# Not currently needed for anything else.
+pydot2>=1.0.32
+PyYAML>=3.1.0
