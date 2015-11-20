@@ -2159,16 +2159,51 @@ OpenStackAnsible:
         - openstack/openstack-ansible
       tags:
         - release:independent
-    openstack-ansible-specs:
+    openstack-ansible-apt_package_pinning:
       repos:
-        - openstack/openstack-ansible-specs
+        - openstack/openstack-ansible-apt_package_pinning
       tags:
-        - release:none
+        - release:independent
+    openstack-ansible-lxc_container_create:
+      repos:
+        - openstack/openstack-ansible-lxc_container_create
+      tags:
+        - release:independent
+    openstack-ansible-lxc_hosts:
+      repos:
+        - openstack/openstack-ansible-lxc_hosts
+      tags:
+        - release:independent
+    openstack-ansible-openstack_hosts:
+      repos:
+        - openstack/openstack-ansible-openstack_hosts
+      tags:
+        - release:independent
+    openstack-ansible-pip_install:
+      repos:
+        - openstack/openstack-ansible-pip_install
+      tags:
+        - release:independent
+    openstack-ansible-py_from_git:
+      repos:
+        - openstack/openstack-ansible-py_from_git
+      tags:
+        - release:independent
+    openstack-ansible-rsyslog_client:
+      repos:
+        - openstack/openstack-ansible-rsyslog_client
+      tags:
+        - release:independent
     openstack-ansible-security:
       repos:
         - openstack/openstack-ansible-security
       tags:
         - release:independent
+    openstack-ansible-specs:
+      repos:
+        - openstack/openstack-ansible-specs
+      tags:
+        - release:none
 
 OpenStack client:
   ptl:
