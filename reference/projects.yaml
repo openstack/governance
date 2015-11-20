@@ -3100,6 +3100,11 @@ searchlight:
       tags:
         - type:service
         - release:cycle-with-intermediary
+    searchlight-specs:
+      repos:
+        - openstack/searchlight-specs
+      tags:
+        - release:none
 
 Security:
   ptl:
