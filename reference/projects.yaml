@@ -2243,6 +2243,26 @@ OpenStack client:
         - release:has-stable-branches
         - release:managed
 
+winstackers:
+  ptl:
+    name: Claudiu Belu
+    irc: claudiub
+    email: cbelu@cloudbasesolutions.com
+  irc-channel: openstack-hyper-v
+  mission: >
+    To facilitate the integration of Hyper-V, Windows and related components
+    into OpenStack. This includes producing projects containing Hyper-V /
+    Windows related code, commonly used in OpenStack scenarios.
+  url: https://wiki.openstack.org/wiki/Os-win
+  deliverables:
+    os-win:
+      repos:
+        openstack/os-win
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+
 oslo:
   ptl:
     name: Davanum Srinivas
