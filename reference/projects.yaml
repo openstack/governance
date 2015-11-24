@@ -1497,6 +1497,11 @@ ironic:
         - release:managed
         - release:cycle-with-intermediary
         - release:has-stable-branches
+    ironic-inspector-specs:
+      repos:
+        - openstack/ironic-inspector-specs
+      tags:
+        - release:none
     ironic-lib:
       repos:
         - openstack/ironic-lib
