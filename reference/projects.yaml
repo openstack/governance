@@ -554,7 +554,7 @@ freezer:
     irc: daemontool
     email: fausto.marzi@gmail.com
   irc-channel: openstack-freezer
-  service: backup restore and disaster recovery as a service
+  service: Backup, Restore, and Disaster Recovery service
   mission: >
     To provide integrated tooling for backing up, restoring, and
     recovering file systems, instances, or database backups.
