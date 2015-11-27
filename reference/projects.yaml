@@ -2146,6 +2146,7 @@ neutron:
         - starter-kit:compute
         - vulnerability:managed
         - assert:follows-standard-deprecation
+        - assert:supports-upgrade
     neutron-lib:
       repos:
         - openstack/neutron-lib
