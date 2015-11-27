@@ -605,6 +605,7 @@ glance:
       repos:
         - openstack/glance
       tags:
+        - assert:follows-standard-deprecation
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
