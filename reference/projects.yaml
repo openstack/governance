@@ -118,6 +118,11 @@ Telemetry:
         - release:cycle-with-milestones
         - release:has-stable-branches
         - type:service
+    ceilometer-powervm:
+      repos:
+        - openstack/ceilometer-powervm
+      tags:
+        - release:independent
     ceilometer-specs:
       repos:
         - openstack/ceilometer-specs
