@@ -2374,7 +2374,7 @@ winstackers:
   deliverables:
     os-win:
       repos:
-        openstack/os-win
+        - openstack/os-win
       tags:
         - release:cycle-with-intermediary
         - release:has-stable-branches
