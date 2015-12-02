@@ -3207,6 +3207,7 @@ sahara:
     sahara:
       repos:
         - openstack/sahara
+        - openstack/sahara-dashboard
         - openstack/sahara-extra
         - openstack/sahara-image-elements
       tags:
@@ -3216,14 +3217,6 @@ sahara:
         - release:has-stable-branches
         - type:service
         - vulnerability:managed
-    sahara-dashboard:
-      repos:
-        - openstack/sahara-dashboard
-      tags:
-        - type:library
-        # NOTE(dhellmann): The dashboard has been merged into horizon,
-        # and is no longer released.
-        - release:none
     sahara-specs:
       repos:
         - openstack/sahara-specs
