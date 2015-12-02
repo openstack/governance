@@ -1029,6 +1029,11 @@ Infrastructure:
         - openstack-infra/lodgeit
       tags:
         - release:none
+    log_processor:
+      repos:
+        - openstack-infra/log_processor
+      tags:
+        - release:independent
     meetbot:
       repos:
         - openstack-infra/meetbot
