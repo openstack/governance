@@ -3592,6 +3592,11 @@ zaqar:
         - openstack/zaqar-specs
       tags:
         - release:none
+    zaqar-ui:
+      repos:
+        - openstack/zaqar-ui
+      tags:
+        - release:independent
 
 fuel:
   ptl:
