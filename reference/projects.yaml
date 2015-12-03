@@ -3085,6 +3085,7 @@ rally:
     rally:
       repos:
         - openstack/rally
+        - openstack/performance-docs
       tags:
         - release:independent
 
