@@ -3036,6 +3036,11 @@ Quality Assurance:
         - openstack/openstack-health
       tags:
         - release:none
+    os-performance-tools:
+      repos:
+        - openstack/os-performance-tools
+      tags:
+        - release:independent
     os-testr:
       repos:
         - openstack/os-testr
