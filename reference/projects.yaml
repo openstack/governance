@@ -2969,6 +2969,11 @@ Puppet OpenStack:
         - openstack/puppet-tuskar
       tags:
         - release:independent
+    puppet-vitrage:
+      repos:
+        - openstack/puppet-vitrage
+      tags:
+        - release:independent
     puppet-vswitch:
       repos:
         - openstack/puppet-vswitch
