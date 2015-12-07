@@ -563,13 +563,9 @@ freezer:
   irc-channel: openstack-freezer
   service: backup restore and disaster recovery as a service
   mission: >
-    To provide integrated tooling for backing up, restoring, and
-    recovering file systems, instances, or database backups.
-    Disaster Recovery features are also provided, as Freezer
-    allows to recover your data in case of one or more core
-    components are not avaialble (i.e. Swift, Keystone, DB).
-    This is achieved by supporting multiple and parallel media
-    to store backups.
+    To provide integrated tools for backing up and restoring cloud data in
+    multiple use cases, including disaster recovery. These resources include
+    file systems, server instances, volumes, and databases.
   url: https://wiki.openstack.org/wiki/Freezer
   tags:
     - team:single-vendor
