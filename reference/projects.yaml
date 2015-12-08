@@ -86,76 +86,6 @@ barbican:
         - type:library
         - release:independent
 
-Telemetry:
-  ptl:
-    name: Gordon Chung
-    irc: gordc
-    email: gord@live.ca
-  irc-channel: openstack-telemetry
-  service: Telemetry service
-  mission: >
-    To reliably collect measurements of the utilization of the physical and
-    virtual resources comprising deployed clouds, persist these data for
-    subsequent retrieval and analysis, and trigger actions when defined
-    criteria are met.
-  url: https://wiki.openstack.org/wiki/Telemetry
-  deliverables:
-    aodh:
-      repos:
-        - openstack/aodh
-      tags:
-        - release:managed
-        - release:has-stable-branches
-        - release:cycle-with-intermediary
-        - type:service
-    ceilometer:
-      repos:
-        - openstack/ceilometer
-      tags:
-        - assert:follows-standard-deprecation
-        - tc-approved-release
-        - release:managed
-        - release:cycle-with-milestones
-        - release:has-stable-branches
-        - type:service
-    ceilometer-powervm:
-      repos:
-        - openstack/ceilometer-powervm
-      tags:
-        - release:independent
-    ceilometer-specs:
-      repos:
-        - openstack/ceilometer-specs
-      tags:
-        - release:none
-    ceilometermiddleware:
-      repos:
-        - openstack/ceilometermiddleware
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    gnocchi:
-      repos:
-        - openstack/gnocchi
-      tags:
-        - release:independent
-    python-ceilometerclient:
-      repos:
-        - openstack/python-ceilometerclient
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    python-gnocchiclient:
-      repos:
-        - openstack/python-gnocchiclient
-      tags:
-        - type:library
-        - release:independent
-
 Chef OpenStack:
   ptl:
     name: Jan Klare
@@ -588,6 +518,71 @@ freezer:
     freezer-web-ui:
       repos:
         - openstack/freezer-web-ui
+      tags:
+        - release:independent
+
+fuel:
+  ptl:
+    name: Dmitry Borodaenko
+    irc: angdraug
+    email: dborodaenko@mirantis.com
+  irc-channel: fuel
+  service: Deployment service
+  mission: >
+    To streamline and accelerate the process of deploying, testing and
+    maintaining various configurations of OpenStack at scale.
+  url: https://wiki.openstack.org/wiki/Fuel
+  deliverables:
+    fuel:
+      repos:
+        - openstack/fuel-agent
+        - openstack/fuel-astute
+        - openstack/fuel-library
+        - openstack/fuel-main
+        - openstack/fuel-menu
+        - openstack/fuel-mirror
+        - openstack/fuel-nailgun-agent
+        - openstack/fuel-ostf
+        - openstack/fuel-qa
+        - openstack/fuel-upgrade
+        - openstack/fuel-web
+        - openstack/network-checker
+        - openstack/shotgun
+      tags:
+        - release:independent
+    fuel-dev-tools:
+      repos:
+        - openstack/fuel-dev-tools
+      tags:
+        - release:none
+    fuel-devops:
+      repos:
+        - openstack/fuel-devops
+      tags:
+        - release:independent
+    fuel-docs:
+      repos:
+        - openstack/fuel-docs
+      tags:
+        - release:none
+    fuel-plugins:
+      repos:
+        - openstack/fuel-plugins
+      tags:
+        - release:independent
+    fuel-specs:
+      repos:
+        - openstack/fuel-specs
+      tags:
+        - release:none
+    fuel-stats:
+      repos:
+        - openstack/fuel-stats
+      tags:
+        - release:none
+    python-fuelclient:
+      repos:
+        - openstack/python-fuelclient
       tags:
         - release:independent
 
@@ -2256,6 +2251,44 @@ nova:
         - release:has-stable-branches
         - type:library
 
+OpenStack client:
+  ptl:
+    name: Dean Troyer
+    irc: dtroyer
+    email: dtroyer@gmail.com
+  irc-channel: openstack-sdks
+  service: Command-line client
+  mission: >
+    Provide a single command-line interface for OpenStack services with a
+    uniform command set and format.
+  url: https://wiki.openstack.org/wiki/OpenStackClient
+  tags:
+    - team:diverse-affiliation
+  deliverables:
+    cliff:
+      repos:
+        - openstack/cliff
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    os-client-config:
+      repos:
+        - openstack/os-client-config
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - release:managed
+        - type:library
+    python-openstackclient:
+      repos:
+        - openstack/python-openstackclient
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - release:managed
+
 OpenStack UX:
   ptl:
     name: Piet Kruithof
@@ -2331,64 +2364,6 @@ OpenStackAnsible:
         - openstack/openstack-ansible-specs
       tags:
         - release:none
-
-OpenStack client:
-  ptl:
-    name: Dean Troyer
-    irc: dtroyer
-    email: dtroyer@gmail.com
-  irc-channel: openstack-sdks
-  service: Command-line client
-  mission: >
-    Provide a single command-line interface for OpenStack services with a
-    uniform command set and format.
-  url: https://wiki.openstack.org/wiki/OpenStackClient
-  tags:
-    - team:diverse-affiliation
-  deliverables:
-    cliff:
-      repos:
-        - openstack/cliff
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
-        - release:managed
-    os-client-config:
-      repos:
-        - openstack/os-client-config
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - release:managed
-        - type:library
-    python-openstackclient:
-      repos:
-        - openstack/python-openstackclient
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - release:managed
-
-winstackers:
-  ptl:
-    name: Claudiu Belu
-    irc: claudiub
-    email: cbelu@cloudbasesolutions.com
-  irc-channel: openstack-hyper-v
-  mission: >
-    To facilitate the integration of Hyper-V, Windows and related components
-    into OpenStack. This includes producing projects containing Hyper-V /
-    Windows related code, commonly used in OpenStack scenarios.
-  url: https://wiki.openstack.org/wiki/Os-win
-  deliverables:
-    os-win:
-      repos:
-        - openstack/os-win
-      tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
-        - type:library
 
 oslo:
   ptl:
@@ -2808,6 +2783,37 @@ Packaging-deb:
        tags:
          - release:none
 
+Packaging-rpm:
+  ptl:
+    name: Dirk Mueller
+    irc: dirk
+    email: dirk@dmllr.de
+  mission: >
+    To make OpenStack easier to update and consume by operators and
+    provide tooling to package all OpenStack projects directly for
+    all RPM based distributions.
+  deliverables:
+    rpm-packaging:
+      repos:
+        - openstack/rpm-packaging
+      tags:
+        - release:none
+    rpm-packaging-tools:
+      repos:
+        - openstack/rpm-packaging-tools
+      tags:
+        - release:none
+    pymod2pkg:
+      repos:
+        - openstack/pymod2pkg
+      tags:
+        - release:none
+    renderspec:
+      repos:
+        - openstack/renderspec
+      tags:
+        - release:none
+
 Puppet OpenStack:
   ptl:
     name: Emilien Macchi
@@ -3152,37 +3158,6 @@ Release Cycle Management:
       tags:
         - release:none
 
-Packaging-rpm:
-  ptl:
-    name: Dirk Mueller
-    irc: dirk
-    email: dirk@dmllr.de
-  mission: >
-    To make OpenStack easier to update and consume by operators and
-    provide tooling to package all OpenStack projects directly for
-    all RPM based distributions.
-  deliverables:
-    rpm-packaging:
-      repos:
-        - openstack/rpm-packaging
-      tags:
-        - release:none
-    rpm-packaging-tools:
-      repos:
-        - openstack/rpm-packaging-tools
-      tags:
-        - release:none
-    pymod2pkg:
-      repos:
-        - openstack/pymod2pkg
-      tags:
-        - release:none
-    renderspec:
-      repos:
-        - openstack/renderspec
-      tags:
-        - release:none
-
 sahara:
   ptl:
     name: Sergey Lukjanov
@@ -3413,6 +3388,76 @@ swift:
       tags:
         - release:none
 
+Telemetry:
+  ptl:
+    name: Gordon Chung
+    irc: gordc
+    email: gord@live.ca
+  irc-channel: openstack-telemetry
+  service: Telemetry service
+  mission: >
+    To reliably collect measurements of the utilization of the physical and
+    virtual resources comprising deployed clouds, persist these data for
+    subsequent retrieval and analysis, and trigger actions when defined
+    criteria are met.
+  url: https://wiki.openstack.org/wiki/Telemetry
+  deliverables:
+    aodh:
+      repos:
+        - openstack/aodh
+      tags:
+        - release:managed
+        - release:has-stable-branches
+        - release:cycle-with-intermediary
+        - type:service
+    ceilometer:
+      repos:
+        - openstack/ceilometer
+      tags:
+        - assert:follows-standard-deprecation
+        - tc-approved-release
+        - release:managed
+        - release:cycle-with-milestones
+        - release:has-stable-branches
+        - type:service
+    ceilometer-powervm:
+      repos:
+        - openstack/ceilometer-powervm
+      tags:
+        - release:independent
+    ceilometer-specs:
+      repos:
+        - openstack/ceilometer-specs
+      tags:
+        - release:none
+    ceilometermiddleware:
+      repos:
+        - openstack/ceilometermiddleware
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    gnocchi:
+      repos:
+        - openstack/gnocchi
+      tags:
+        - release:independent
+    python-ceilometerclient:
+      repos:
+        - openstack/python-ceilometerclient
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
+    python-gnocchiclient:
+      repos:
+        - openstack/python-gnocchiclient
+      tags:
+        - type:library
+        - release:independent
+
 tripleo:
   ptl:
     name: Dan Prince
@@ -3567,6 +3612,26 @@ trove:
       tags:
         - release:none
 
+winstackers:
+  ptl:
+    name: Claudiu Belu
+    irc: claudiub
+    email: cbelu@cloudbasesolutions.com
+  irc-channel: openstack-hyper-v
+  mission: >
+    To facilitate the integration of Hyper-V, Windows and related components
+    into OpenStack. This includes producing projects containing Hyper-V /
+    Windows related code, commonly used in OpenStack scenarios.
+  url: https://wiki.openstack.org/wiki/Os-win
+  deliverables:
+    os-win:
+      repos:
+        - openstack/os-win
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+
 zaqar:
   ptl:
     name: Fei Long Wang
@@ -3605,70 +3670,5 @@ zaqar:
     zaqar-ui:
       repos:
         - openstack/zaqar-ui
-      tags:
-        - release:independent
-
-fuel:
-  ptl:
-    name: Dmitry Borodaenko
-    irc: angdraug
-    email: dborodaenko@mirantis.com
-  irc-channel: fuel
-  service: Deployment service
-  mission: >
-    To streamline and accelerate the process of deploying, testing and
-    maintaining various configurations of OpenStack at scale.
-  url: https://wiki.openstack.org/wiki/Fuel
-  deliverables:
-    fuel:
-      repos:
-        - openstack/fuel-agent
-        - openstack/fuel-astute
-        - openstack/fuel-library
-        - openstack/fuel-main
-        - openstack/fuel-menu
-        - openstack/fuel-mirror
-        - openstack/fuel-nailgun-agent
-        - openstack/fuel-ostf
-        - openstack/fuel-qa
-        - openstack/fuel-upgrade
-        - openstack/fuel-web
-        - openstack/network-checker
-        - openstack/shotgun
-      tags:
-        - release:independent
-    fuel-dev-tools:
-      repos:
-        - openstack/fuel-dev-tools
-      tags:
-        - release:none
-    fuel-devops:
-      repos:
-        - openstack/fuel-devops
-      tags:
-        - release:independent
-    fuel-docs:
-      repos:
-        - openstack/fuel-docs
-      tags:
-        - release:none
-    fuel-plugins:
-      repos:
-        - openstack/fuel-plugins
-      tags:
-        - release:independent
-    fuel-specs:
-      repos:
-        - openstack/fuel-specs
-      tags:
-        - release:none
-    fuel-stats:
-      repos:
-        - openstack/fuel-stats
-      tags:
-        - release:none
-    python-fuelclient:
-      repos:
-        - openstack/python-fuelclient
       tags:
         - release:independent
