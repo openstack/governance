@@ -2324,6 +2324,16 @@ OpenStackAnsible:
         - openstack/openstack-ansible-apt_package_pinning
       tags:
         - release:independent
+    openstack-ansible-galera_client:
+      repos:
+        - openstack/openstack-ansible-galera_client
+      tags:
+        - release:independent
+    openstack-ansible-galera_server:
+      repos:
+        - openstack/openstack-ansible-galera_server
+      tags:
+        - release:independent
     openstack-ansible-lxc_container_create:
       repos:
         - openstack/openstack-ansible-lxc_container_create
@@ -2332,6 +2342,11 @@ OpenStackAnsible:
     openstack-ansible-lxc_hosts:
       repos:
         - openstack/openstack-ansible-lxc_hosts
+      tags:
+        - release:independent
+    openstack-ansible-memcached_server:
+      repos:
+        - openstack/openstack-ansible-memcached_server
       tags:
         - release:independent
     openstack-ansible-openstack_hosts:
@@ -2344,6 +2359,11 @@ OpenStackAnsible:
         - openstack/openstack-ansible-pip_install
       tags:
         - release:independent
+    openstack-ansible-pip_lock_down:
+      repos:
+        - openstack/openstack-ansible-pip_lock_down
+      tags:
+        - release:independent
     openstack-ansible-py_from_git:
       repos:
         - openstack/openstack-ansible-py_from_git
@@ -2352,6 +2372,21 @@ OpenStackAnsible:
     openstack-ansible-rsyslog_client:
       repos:
         - openstack/openstack-ansible-rsyslog_client
+      tags:
+        - release:independent
+    openstack-ansible-rabbit_server:
+      repos:
+        - openstack/openstack-ansible-rabbit_server
+      tags:
+        - release:independent
+    openstack-ansible-repo_server:
+      repos:
+        - openstack/openstack-ansible-repo_server
+      tags:
+        - release:independent
+    openstack-ansible-rsyslog_server:
+      repos:
+        - openstack/openstack-ansible-rsyslog_server
       tags:
         - release:independent
     openstack-ansible-security:
