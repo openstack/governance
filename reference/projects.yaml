@@ -3118,18 +3118,18 @@ RefStack:
       tags:
         - release:independent
 
-Release Cycle Management:
+Release Management:
   ptl:
     name: Doug Hellmann
     irc: dhellmann
     email: doug@doughellmann.com
-  irc-channel: openstack-relmgr-office
+  irc-channel: openstack-release
   mission: >
-    To organize the release cycle and the work necessary to produce coordinated
-    releases of the various components of OpenStack. To collect bugfix
-    backports and produce stable point releases for the previously-released
-    branch.
-  url: https://wiki.openstack.org/wiki/Release_Cycle_Management
+    Coordinating the release of OpenStack deliverables, by defining the
+    overall development cycle, release models, publication processes,
+    versioning rules and tools, then enabling project teams to produce
+    their own releases.
+  url: https://wiki.openstack.org/wiki/Release_Management
   deliverables:
     release-tools:
       repos:
