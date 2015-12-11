@@ -3595,6 +3595,12 @@ trove:
         - release:has-stable-branches
         - type:service
         - vulnerability:managed
+    trove-dashboard:
+      repos:
+        - openstack/trove-dashboard
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
     trove-integration:
       repos:
         - openstack/trove-integration
