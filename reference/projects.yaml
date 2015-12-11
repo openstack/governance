@@ -741,6 +741,7 @@ horizon:
         - type:service
         - vulnerability:managed
         - assert:follows-standard-deprecation
+        - assert:supports-upgrade
     horizon-cisco-ui:
       repos:
         - openstack/horizon-cisco-ui
