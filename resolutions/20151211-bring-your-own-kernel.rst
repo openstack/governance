@@ -35,7 +35,7 @@ provides to a running server instance. In order to test the interfaces that a
 user of an OpenStack cloud should be able to expect (for instance, does
 config-drive show up, does the instance have the IP that neutron says it has)
 we have to be able to have tests in the gate. Since OpenStack follows
-`The Four Opens <https://wiki.openstack.org/wiki/Open>`_
+`The Four Opens`_
 that means that our tests must be Open Source. Alternate versions of the tests
 that might test the same interfaces but use Close Source Operating Systems are
 not possible to be validated since we can't run those Operating Systems in the
