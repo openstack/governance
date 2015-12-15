@@ -3343,6 +3343,19 @@ solum:
       repos:
         - openstack/solum-specs
 
+Stable branch maintenance:
+  ptl:
+    name: Matt Riedemann
+    irc: mriedem
+    email: mriedem@linux.vnet.ibm.com
+  irc-channel: openstack-stable
+  mission: >
+    Defining, enforcing and accompanying project teams in the application
+    of a common stable branch policy. Keeping CI working on stable branches.
+    Creating and improving related tooling and automation.
+  url: https://wiki.openstack.org/wiki/StableBranch
+  deliverables: {}
+
 swift:
   ptl:
     name: John Dickinson
