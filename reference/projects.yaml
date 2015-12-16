@@ -574,18 +574,18 @@ freezer:
       repos:
         - openstack/freezer
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
     freezer-api:
       repos:
         - openstack/freezer-api
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
         - type:service
     freezer-web-ui:
       repos:
         - openstack/freezer-web-ui
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
 
 glance:
   ptl:
