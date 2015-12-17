@@ -657,6 +657,7 @@ heat:
         - release:has-stable-branches
         - type:service
         - vulnerability:managed
+        - assert:follows-standard-deprecation
     heat-cfnclient:
       repos:
         - openstack-dev/heat-cfnclient
