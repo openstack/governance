@@ -658,6 +658,7 @@ heat:
         - type:service
         - vulnerability:managed
         - assert:follows-standard-deprecation
+        - assert:supports-upgrade
     heat-cfnclient:
       repos:
         - openstack-dev/heat-cfnclient
