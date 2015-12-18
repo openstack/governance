@@ -3499,6 +3499,13 @@ Telemetry:
         - openstack/gnocchi
       tags:
         - release:independent
+    python-aodhclient:
+      repos:
+        - openstack/python-aodhclient
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
     python-ceilometerclient:
       repos:
         - openstack/python-ceilometerclient
