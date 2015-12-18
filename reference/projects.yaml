@@ -3301,6 +3301,14 @@ sahara:
         - release:has-stable-branches
         - type:service
         - vulnerability:managed
+    sahara-tests:
+      repos:
+        - openstack/sahara-tests
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
     sahara-specs:
       repos:
         - openstack/sahara-specs
