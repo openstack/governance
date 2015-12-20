@@ -547,6 +547,8 @@ fuel:
     To streamline and accelerate the process of deploying, testing and
     maintaining various configurations of OpenStack at scale.
   url: https://wiki.openstack.org/wiki/Fuel
+  tags:
+    - team:single-vendor
   deliverables:
     fuel:
       repos:
@@ -1976,6 +1978,8 @@ murano:
     deploy composite environments on an application abstraction level
     while managing the application lifecycle.
   url: https://wiki.openstack.org/wiki/Murano
+  tags:
+    - team:single-vendor
   deliverables:
     murano:
       repos:
@@ -3733,6 +3737,8 @@ winstackers:
     into OpenStack. This includes producing projects containing Hyper-V /
     Windows related code, commonly used in OpenStack scenarios.
   url: https://wiki.openstack.org/wiki/Os-win
+  tags:
+    - team:single-vendor
   deliverables:
     os-win:
       repos:
