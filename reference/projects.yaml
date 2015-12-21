@@ -738,6 +738,7 @@ horizon:
         - release:has-stable-branches
         - type:service
         - vulnerability:managed
+        - assert:follows-standard-deprecation
     horizon-cisco-ui:
       repos:
         - openstack/horizon-cisco-ui
