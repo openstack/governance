@@ -2308,6 +2308,7 @@ OpenStackAnsible:
     irc: odyssey4me
     email: jesse.pretorius@gmail.com
   service: Ansible playbooks and roles for deployment
+  irc-channel: openstack-ansible
   mission: >
     Deploying OpenStack from source in a way that makes it scalable
     while also being simple to operate, upgrade, and grow.
