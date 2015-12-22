@@ -31,6 +31,12 @@ astara:
         - release:cycle-with-milestones
         - release:has-stable-branches
         - type:library
+    astara-neutron:
+      repos:
+        - openstack/astara-neutron
+      tags:
+        - release:cycle-with-milestones
+        - release:has-stable-branches
 
 barbican:
   ptl:
