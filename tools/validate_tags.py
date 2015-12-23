@@ -29,8 +29,8 @@ import yaml
 
 import os
 import sys
-import urllib
 
+from six.moves.urllib import parse
 # List of modules to validate team based tags
 team_validators = [
     teamstats.ValidateDiversity,
@@ -78,7 +78,7 @@ def repo_exists(repo):
     """Sometimes the governance docs can get out of sync with repo names."""
     response = requests.get(
         'https://review.openstack.org:443/projects/%s/' %
-        urllib.quote_plus(repo))
+        parse.quote_plus(repo))
     # strip off first few chars because 'the JSON response body starts with
     # a magic prefix line that must be stripped before feeding the rest of
     # the response body to a JSON parser'

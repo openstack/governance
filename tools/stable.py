@@ -11,9 +11,10 @@
 # under the License.
 
 import json
-import urllib
 
 import requests
+
+from six.moves.urllib import parse
 
 import base
 
@@ -29,7 +30,7 @@ class ValidateStableBranches(base.ValidatorBase):
     def has_stable_branch(repo):
         response = requests.get(
             'https://review.openstack.org:443/projects/%s/branches' %
-            urllib.quote_plus(repo))
+            parse.quote_plus(repo))
         # strip off first few chars because 'the JSON response body starts with
         # a magic prefix line that must be stripped before feeding the rest of
         # the response body to a JSON parser'
