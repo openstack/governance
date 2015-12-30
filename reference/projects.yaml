@@ -3190,6 +3190,11 @@ Release Management:
     their own releases.
   url: https://wiki.openstack.org/wiki/Release_Management
   deliverables:
+    release-schedule-generator:
+      repos:
+        - openstack/release-schedule-generator
+      tags:
+        - release:none
     release-tools:
       repos:
         - openstack-infra/release-tools
