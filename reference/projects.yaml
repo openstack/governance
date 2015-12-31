@@ -1708,12 +1708,6 @@ keystone:
         - release:cycle-with-intermediary
         - type:library
         - release:managed
-    keystoneauth-saml2:
-      repos:
-        - openstack/keystoneauth-saml2
-      tags:
-        - release:independent
-        - type:library
     keystonemiddleware:
       repos:
         - openstack/keystonemiddleware
