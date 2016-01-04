@@ -510,12 +510,12 @@ freezer:
       repos:
         - openstack/freezer
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
     freezer-api:
       repos:
         - openstack/freezer-api
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
         - type:service
     freezer-web-ui:
       repos:
@@ -586,7 +586,7 @@ fuel:
       repos:
         - openstack/python-fuelclient
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
 
 glance:
   ptl:
