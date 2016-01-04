@@ -268,19 +268,19 @@ cloudkitty:
       repos:
         - openstack/cloudkitty
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
         - type:service
     python-cloudkittyclient:
       repos:
         - openstack/python-cloudkittyclient
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
         - type:library
     cloudkitty-dashboard:
       repos:
         - openstack/cloudkitty-dashboard
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
         - type:library
 
 Community App Catalog:
