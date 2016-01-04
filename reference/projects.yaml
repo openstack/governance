@@ -3343,19 +3343,19 @@ senlin:
       repos:
         - openstack/senlin
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
         - type:service
     python-senlinclient:
       repos:
         - openstack/python-senlinclient
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
         - type:library
     senlin-dashboard:
       repos:
         - openstack/senlin-dashboard
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
         - type:library
 
 solum:
