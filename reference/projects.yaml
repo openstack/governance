@@ -238,6 +238,14 @@ cinder:
         - release:cycle-with-intermediary
         - type:library
         - release:managed
+    python-brick-cinderclient-ext:
+      repos:
+        - openstack/python-brick-cinderclient-ext
+      tags:
+         - release:cycle-with-intermediary
+         - release:has-stable-branches
+         - type:library
+         - release:managed
     python-cinderclient:
       repos:
         - openstack/python-cinderclient
