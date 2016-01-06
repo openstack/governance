@@ -27,6 +27,9 @@ to the public**, include users, developers, and upstream projects. We gather
 requirements and produce an approved roadmap used to guide development for the
 next six months.
 
+The community controls the design process. You can help make this software
+meet your needs.
+
 Open Development
 ----------------
 
@@ -43,15 +46,8 @@ community.  Most decisions are made using a `lazy consensus
 <http://www.apache.org/foundation/glossary.html#LazyConsensus>`_ model. All
 processes are documented, open and transparent.
 
-We follow those principles:
+The technical governance of the project is a community meritocracy with
+contributors electing technical leads and members of the Technical Committee.
 
-* **The community controls the design process.** You can help make this
-  software meet your needs.
-* **The technical governance of the project is a community meritocracy** with
-  contributors electing technical leads and members of the Technical Committee.
-* **This will always be truly free software.**  We will never purposefully
-  limit the functionality or scalability of the software to try and sell you
-  an "enterprise" version
-* **All project meetings are held in public IRC channels and recorded.**
-* **Additional technical communication is through public mailing lists and is
-  archived.**
+All project meetings are held in public IRC channels and recorded. Additional
+technical communication is through public mailing lists and is archived.
