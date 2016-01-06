@@ -2319,7 +2319,12 @@ OpenStack UX:
     The mission of the UX Program is to help the teams improve the overall
     user experience of their projects.
   url: https://wiki.openstack.org/wiki/UX
-  deliverables: {}
+  deliverables:
+    openstack-ux:
+      repos:
+        - openstack/openstack-ux
+      tags:
+        - release:none
 
 OpenStackAnsible:
   ptl:
