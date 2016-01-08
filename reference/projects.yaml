@@ -447,6 +447,11 @@ Documentation:
         - openstack/api-site
       tags:
         - release:none
+    api-tools:
+      repos:
+        - openstack/fairy-slipper
+      tags:
+        - release:independent
     docs-specs:
       repos:
         - openstack/docs-specs
