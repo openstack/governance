@@ -25,9 +25,10 @@ is complex for the Infrastructure team and very disruptive to
 developers, operators, and users.
 
 In order to simplify software development lifecycle transitions of
-Stackforge and OpenStack projects, all projects developed within the
-OpenStack project infrastructure will be permitted to use the
-"openstack/" namespace.
+Unofficial and Official OpenStack projects, all projects developed
+within the OpenStack project infrastructure will be permitted to use
+the "openstack/" namespace.  The use of the term "Stackforge" to
+describe unofficial projects should be considered deprecated.
 
 The "openstack/" namespace is intended to convey that projects
 contained within it are hosted on OpenStack infrastructure.  Only some
