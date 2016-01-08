@@ -1649,6 +1649,11 @@ ironic:
         - openstack/ironic-specs
       tags:
         - release:none
+    ironic-ui:
+      repos:
+        - openstack/ironic-ui
+      tags:
+        - release:cycle-with-intermediary
     ironic-webclient:
       repos:
         - openstack/ironic-webclient
