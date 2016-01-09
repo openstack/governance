@@ -1328,9 +1328,9 @@ Infrastructure:
         - openstack-infra/puppet-openafs
       tags:
         - release:none
-    puppet-openstack-health:
+    puppet-openstack_health:
       repos:
-        - openstack-infra/puppet-openstack-health
+        - openstack-infra/puppet-openstack_health
       tags:
         - release:none
     puppet-openstackci:
