@@ -852,7 +852,7 @@ horizon:
         - release:independent
     xstatic-jsencrypt:
       repos:
-        - openstack/xstatioc-jsencrypt
+        - openstack/xstatic-jsencrypt
       tags:
         - release:independent
     xstatic-magic-search:
