@@ -566,7 +566,10 @@ fuel:
         - openstack/network-checker
         - openstack/shotgun
       tags:
+        - type:service
+        - assert:supports-upgrades
         - release:independent
+        - release:has-stable-branches
     fuel-dev-tools:
       repos:
         - openstack/fuel-dev-tools
@@ -576,6 +579,7 @@ fuel:
       repos:
         - openstack/fuel-devops
       tags:
+        - type:library
         - release:independent
     fuel-docs:
       repos:
@@ -601,6 +605,7 @@ fuel:
       repos:
         - openstack/python-fuelclient
       tags:
+        - type:library
         - release:cycle-with-intermediary
 
 glance:
