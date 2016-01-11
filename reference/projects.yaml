@@ -2404,9 +2404,9 @@ OpenStackAnsible:
         - openstack/openstack-ansible-rsyslog_client
       tags:
         - release:independent
-    openstack-ansible-rabbit_server:
+    openstack-ansible-rabbitmq_server:
       repos:
-        - openstack/openstack-ansible-rabbit_server
+        - openstack/openstack-ansible-rabbitmq_server
       tags:
         - release:independent
     openstack-ansible-repo_server:
