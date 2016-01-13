@@ -2678,6 +2678,14 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+    osprofiler:
+      repos:
+        - openstack/osprofiler
+      tags:
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
     pbr:
       repos:
         - openstack-dev/pbr
