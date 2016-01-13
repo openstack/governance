@@ -413,7 +413,9 @@ designate:
         - openstack/designate-dashboard
       tags:
         - type:library
-        - release:independent
+        - release:cycle-with-milestones
+        - release:has-stable-branches
+        - release:managed
     designate-specs:
       repos:
         - openstack/designate-specs
