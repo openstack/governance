@@ -6,9 +6,9 @@
 
 .. _`tag-assert:supports-upgrade`:
 
-===================
+=======================
 assert:supports-upgrade
-===================
+=======================
 
 This tag is part of the assert category of tags, which are assertions
 made by the project team themselves about their maturity. One such
