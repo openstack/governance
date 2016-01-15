@@ -978,6 +978,11 @@ Infrastructure:
         - openstack-infra/gerritlib
       tags:
         - release:independent
+    git-restack:
+      repos:
+        - openstack-infra/git-restack
+      tags:
+        - release:independent
     git-review:
       repos:
         - openstack-infra/git-review
