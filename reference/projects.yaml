@@ -505,25 +505,6 @@ Documentation:
         - openstack/training-guides
       tags:
         - release:none
-  extra-atcs:
-    - name: Beth Cohen
-      email: beth.cohen@verizon.com
-      expires-in: September 2015
-    - name: Egle Sigler
-      email: ushnishtha@hotmail.com
-      expires-in: September 2015
-    - name: Kevin Jackson
-      email: Kevin.Jackson@rackspace.co.uk
-      expires-in: September 2015
-    - name: Scott Lowe
-      email: slowe@vmware.com
-      expires-in: September 2015
-    - name: Sean Winn
-      email: sean.winn@cloudscaling.com
-      expires-in: September 2015
-    - name: Vinny Valdez
-      email: vvaldez@redhat.com
-      expires-in: September 2015
 
 freezer:
   ptl:
@@ -905,12 +886,6 @@ horizon:
       tags:
         - release:independent
   extra-atcs:
-    - name: Jaromir Coufal
-      email: jcoufal@redhat.com
-      expires-in: September 2015
-    - name: Liz Blanchard
-      email: lsurette@redhat.com
-      expires-in: September 2015
     - name: Piet Kruithof
       email: pieter.c.kruithof-jr@hp.com
       expires-in: February 2016
@@ -1917,10 +1892,6 @@ keystone:
       tags:
         - release:independent
         - type:library
-  extra-atcs:
-    - name: David Chadwick
-      email: d.w.chadwick@kent.ac.uk
-      expires-in: December 2015
 
 kolla:
   ptl:
@@ -2433,73 +2404,6 @@ nova:
         - release:cycle-with-intermediary
         - release:has-stable-branches
         - type:library
-  extra-atcs:
-    - name: Bogdan Teleaga
-      email: bteleaga@cloudbasesolutions.com
-      expires-in: September 2015
-    - name: Mouhammad-Nashwan Azhari
-      email: nmouhammad@cloudbasesolutions.com
-      expires-in: September 2015
-    - name: Pablo Fernando Cargnelutti
-      email: pablo.fernando.cargnelutti@intel.com
-      expires-in: September 2015
-    - name: Fengqian Gao
-      email: fengqian.gao@intel.com
-      expires-in: September 2015
-    - name: Sushma Korati
-      email: sushma_korati@persistent.co.in
-      expires-in: September 2015
-    - name: Dmitry Tantsur
-      email: dtantsur@redhat.com
-      expires-in: September 2015
-    - name: Maithem
-      email: munshedm@vmware.com
-      expires-in: September 2015
-    - name: Ian Wells
-      email: iawells@cisco.com
-      expires-in: September 2015
-    - name: Shawn Hartsock
-      email: hartsocks@acm.org
-      expires-in: September 2015
-    - name: Cyril Roelandt
-      email: cyril.roelandt@enovance.com
-      expires-in: September 2015
-    - name: Ionut Balutoiu
-      email: ibalutoiu@cloudbasesolutions.com
-      expires-in: September 2015
-    - name: Ryan Moe
-      email: rmoe@mirantis.com
-      expires-in: September 2015
-    - name: Lucas Alvares Gomes
-      email: lucasagomes@gmail.com
-      expires-in: September 2015
-    - name: Navneet Kumar
-      email: navneetk@thoughtworks.com
-      expires-in: September 2015
-    - name: Zsolt Dudas
-      email: zdudas@cloudbasesolutions.com
-      expires-in: September 2015
-    - name: Anuj Mathur
-      email: anujm@thoughtworks.com
-      expires-in: September 2015
-    - name: Chenchong Qin
-      email: qinchenchong@gmail.com
-      expires-in: September 2015
-    - name: Thomas Kaergel
-      email: kaergel@b1-systems.de
-      expires-in: September 2015
-    - name: Ryo Kurahashi
-      email: kurahashi-rxa@necst.nec.co.jp
-      expires-in: September 2015
-    - name: Adam Gandelman
-      email: adamg@ubuntu.com
-      expires-in: September 2015
-    - name: Andres Buraschi
-      email: andres.buraschi@intel.com
-      expires-in: September 2015
-    - name: Claxton Correya
-      email: claxton@gmail.com
-      expires-in: September 2015
 
 OpenStack client:
   ptl:
@@ -3831,13 +3735,6 @@ Telemetry:
       tags:
         - type:library
         - release:independent
-  extra-atcs:
-    - name: Edouard Thuleau
-      email: edouard.thuleau@cloudwatt.com
-      expires-in: September 2015
-    - name: Jordan Pittier
-      email: jordan.pittier@cloudwatt.com
-      expires-in: September 2015
 
 tripleo:
   ptl:
