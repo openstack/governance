@@ -3407,23 +3407,23 @@ solum:
       repos:
         - openstack/python-solumclient
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
     solum:
       repos:
         - openstack/solum
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
         - type:service
     solum-dashboard:
       repos:
         - openstack/solum-dashboard
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
     solum-infra-guestagent:
       repos:
         - openstack/solum-infra-guestagent
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
     solum-specs:
       repos:
         - openstack/solum-specs
