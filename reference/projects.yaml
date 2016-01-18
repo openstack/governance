@@ -563,7 +563,6 @@ fuel:
         - openstack/fuel-qa
         - openstack/fuel-upgrade
         - openstack/fuel-web
-        - openstack/network-checker
         - openstack/shotgun
       tags:
         - type:service
