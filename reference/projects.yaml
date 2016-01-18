@@ -2925,6 +2925,11 @@ Puppet OpenStack:
         - openstack/puppet-designate
       tags:
         - release:independent
+    puppet-ec2api:
+      repos:
+        - openstack/puppet-ec2api
+      tags:
+        - release:independent
     puppet-glance:
       repos:
         - openstack/puppet-glance
