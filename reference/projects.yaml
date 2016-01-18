@@ -1691,6 +1691,12 @@ ironic:
         - release:has-stable-branches
         - type:library
         - release:managed
+    python-wsmanclient:
+      repos:
+        - openstack/python-wsmanclient
+      tags:
+        - release:managed
+        - type:library
 
 keystone:
   ptl:
