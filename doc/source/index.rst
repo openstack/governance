@@ -29,6 +29,7 @@ Reference documents and Resolutions
 
    reference/index
    resolutions/index
+   resolutions/superseded/index
 
 .. seealso::
 

@@ -1,10 +1,12 @@
+.. _20160217_mission_amendment:
+
 ========================================
  2016-02-17 OpenStack Mission amendment
 ========================================
 
   .. note::
 
-    This is an update to :doc:`20160106-mission-amendment` in response to
+    This is an update to :ref:`20160106_mission_amendment` in response to
     feedback from the OpenStack Foundation Board of Directors and the following
     `discussion on the foundation mailing list
     <http://lists.openstack.org/pipermail/foundation/2016-February/002263.html>`_.
