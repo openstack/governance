@@ -770,6 +770,7 @@ horizon:
       tags:
         - release:cycle-with-intermediary
         - release:has-stable-branches
+        - release:managed
     tuskar-ui:
       repos:
         - openstack/tuskar-ui
