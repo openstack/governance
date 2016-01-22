@@ -2195,7 +2195,6 @@ neutron:
         - release:cycle-with-intermediary
         - release:has-stable-branches
         - type:library
-        - release:managed
         - vulnerability:managed
     neutron-specs:
       repos:
