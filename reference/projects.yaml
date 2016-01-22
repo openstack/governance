@@ -2089,11 +2089,6 @@ neutron:
         - openstack/networking-fortinet
       tags:
         - release:independent
-    networking-hpe:
-      repos:
-        - openstack/networking-hpe
-      tags:
-        - release:independent
     networking-hyperv:
       repos:
         - openstack/networking-hyperv
