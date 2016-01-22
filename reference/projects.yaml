@@ -524,10 +524,6 @@ freezer:
     freezer:
       repos:
         - openstack/freezer
-      tags:
-        - release:cycle-with-milestones
-    freezer-api:
-      repos:
         - openstack/freezer-api
       tags:
         - release:cycle-with-milestones
