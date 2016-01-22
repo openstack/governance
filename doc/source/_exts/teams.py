@@ -62,8 +62,8 @@ def _team_to_rst(name, info):
     yield ''
     deliverables = info.get('deliverables', [])
     if deliverables:
-        for name, deliverable in deliverables.items():
-            title = '- %s' %  name
+        for repo_name, deliverable in deliverables.items():
+            title = '- %s' %  repo_name
             repos = deliverable.get('repos', [])
             if repos:
                 repolist = " ("
@@ -81,7 +81,7 @@ def _team_to_rst(name, info):
     yield ''
     yield 'Extra ATCs'
     yield '-----------'
-    yield '.. extraatcstable:: '
+    yield '.. extraatcstable::'
     yield '   :project: %s' % name
     yield ''
 
