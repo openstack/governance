@@ -1786,11 +1786,6 @@ kolla:
         - openstack/kolla-mesos
       tags:
         - release:independent
-    python-kollaclient:
-      repos:
-        - openstack/python-kollaclient
-      tags:
-        - release:independent
 
 
 magnum:
