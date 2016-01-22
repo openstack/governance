@@ -3318,7 +3318,7 @@ searchlight:
         - openstack/searchlight
       tags:
         - type:service
-        - release:cycle-with-intermediary
+        - release:cycle-with-milestones
     searchlight-specs:
       repos:
         - openstack/searchlight-specs
