@@ -242,10 +242,10 @@ cinder:
       repos:
         - openstack/python-brick-cinderclient-ext
       tags:
-         - release:cycle-with-intermediary
-         - release:has-stable-branches
-         - type:library
-         - release:managed
+        - release:cycle-with-intermediary
+        - release:has-stable-branches
+        - type:library
+        - release:managed
     python-cinderclient:
       repos:
         - openstack/python-cinderclient
@@ -2726,140 +2726,141 @@ oslo:
         - release:managed
 
 Packaging-deb:
-   ptl:
+  ptl:
     name: Thomas Goirand
     irc: zigo
     email: zigo@debian.org
-   mission: >
-     Maintain packages for Debian (and other deb based distributions) as a community.
-   tags:
-     - team:single-vendor
-   deliverables:
-     deb-openstack-pkg-tools:
-       repos:
-         - openstack/deb-openstack-pkg-tools
-       tags:
-         - release:none
-     deb-ceilometer:
-       repos:
-         - openstack/deb-ceilometer
-       tags:
-         - release:none
-     deb-ceilometermiddleware:
-       repos:
-         - openstack/deb-ceilometermiddleware
-       tags:
-         - release:none
-     deb-cinder:
-       repos:
-         - openstack/deb-cinder
-       tags:
-         - release:none
-     deb-designate:
-       repos:
-         - openstack/deb-designate
-       tags:
-         - release:none
-     deb-designate-dashboard:
-       repos:
-         - openstack/deb-designate-dashboard
-       tags:
-         - release:none
-     deb-glance:
-       repos:
-         - openstack/deb-glance
-       tags:
-         - release:none
-     deb-heat:
-       repos:
-         - openstack/deb-heat
-       tags:
-         - release:none
-     deb-horizon:
-       repos:
-         - openstack/deb-horizon
-       tags:
-         - release:none
-     deb-ironic:
-       repos:
-         - openstack/deb-ironic
-       tags:
-         - release:none
-     deb-keystone:
-       repos:
-         - openstack/deb-keystone
-       tags:
-         - release:none
-     deb-mistral:
-       repos:
-         - openstack/deb-mistral
-       tags:
-         - release:none
-     deb-mistral-dashboard:
-       repos:
-         - openstack/deb-mistral-dashboard
-       tags:
-         - release:none
-     deb-murano:
-       repos:
-         - openstack/deb-murano
-       tags:
-         - release:none
-     deb-murano-dashboard:
-       repos:
-         - openstack/deb-murano-dashboard
-       tags:
-         - release:none
-     deb-neutron:
-       repos:
-         - openstack/deb-neutron
-       tags:
-         - release:none
-     deb-neutron-fwaas:
-       repos:
-         - openstack/deb-neutron-fwaas
-       tags:
-         - release:none
-     deb-neutron-lbaas:
-       repos:
-         - openstack/deb-neutron-lbaas
-       tags:
-         - release:none
-     deb-neutron-vpnaas:
-       repos:
-         - openstack/deb-neutron-vpnaas
-       tags:
-         - release:none
-     deb-nova:
-       repos:
-         - openstack/deb-nova
-       tags:
-         - release:none
-     deb-rally:
-       repos:
-         - openstack/deb-rally
-       tags:
-         - release:none
-     deb-sahara:
-       repos:
-         - openstack/deb-sahara
-       tags:
-         - release:none
-     deb-swift:
-       repos:
-         - openstack/deb-swift
-       tags:
-         - release:none
-     deb-tempest:
-       repos:
-         - openstack/deb-tempest
-       tags:
-         - release:none
-     deb-trove:
-       repos:
-         - openstack/deb-trove
-       tags:
-         - release:none
+  mission: >
+    Maintain packages for Debian (and other deb based distributions) as a
+    community.
+  tags:
+    - team:single-vendor
+  deliverables:
+    deb-openstack-pkg-tools:
+      repos:
+        - openstack/deb-openstack-pkg-tools
+      tags:
+        - release:none
+    deb-ceilometer:
+      repos:
+        - openstack/deb-ceilometer
+      tags:
+        - release:none
+    deb-ceilometermiddleware:
+      repos:
+        - openstack/deb-ceilometermiddleware
+      tags:
+        - release:none
+    deb-cinder:
+      repos:
+        - openstack/deb-cinder
+      tags:
+        - release:none
+    deb-designate:
+      repos:
+        - openstack/deb-designate
+      tags:
+        - release:none
+    deb-designate-dashboard:
+      repos:
+        - openstack/deb-designate-dashboard
+      tags:
+        - release:none
+    deb-glance:
+      repos:
+        - openstack/deb-glance
+      tags:
+        - release:none
+    deb-heat:
+      repos:
+        - openstack/deb-heat
+      tags:
+        - release:none
+    deb-horizon:
+      repos:
+        - openstack/deb-horizon
+      tags:
+        - release:none
+    deb-ironic:
+      repos:
+        - openstack/deb-ironic
+      tags:
+        - release:none
+    deb-keystone:
+      repos:
+        - openstack/deb-keystone
+      tags:
+        - release:none
+    deb-mistral:
+      repos:
+        - openstack/deb-mistral
+      tags:
+        - release:none
+    deb-mistral-dashboard:
+      repos:
+        - openstack/deb-mistral-dashboard
+      tags:
+        - release:none
+    deb-murano:
+      repos:
+        - openstack/deb-murano
+      tags:
+        - release:none
+    deb-murano-dashboard:
+      repos:
+        - openstack/deb-murano-dashboard
+      tags:
+        - release:none
+    deb-neutron:
+      repos:
+        - openstack/deb-neutron
+      tags:
+        - release:none
+    deb-neutron-fwaas:
+      repos:
+        - openstack/deb-neutron-fwaas
+      tags:
+        - release:none
+    deb-neutron-lbaas:
+      repos:
+        - openstack/deb-neutron-lbaas
+      tags:
+        - release:none
+    deb-neutron-vpnaas:
+      repos:
+        - openstack/deb-neutron-vpnaas
+      tags:
+        - release:none
+    deb-nova:
+      repos:
+        - openstack/deb-nova
+      tags:
+        - release:none
+    deb-rally:
+      repos:
+        - openstack/deb-rally
+      tags:
+        - release:none
+    deb-sahara:
+      repos:
+        - openstack/deb-sahara
+      tags:
+        - release:none
+    deb-swift:
+      repos:
+        - openstack/deb-swift
+      tags:
+        - release:none
+    deb-tempest:
+      repos:
+        - openstack/deb-tempest
+      tags:
+        - release:none
+    deb-trove:
+      repos:
+        - openstack/deb-trove
+      tags:
+        - release:none
 
 Packaging-rpm:
   ptl:
