@@ -794,11 +794,6 @@ horizon:
         - release:cycle-with-intermediary
         - release:has-stable-branches
         - release:managed
-    tuskar-ui:
-      repos:
-        - openstack/tuskar-ui
-      tags:
-        - release:independent
     xstatic-angular:
       repos:
         - openstack/xstatic-angular
