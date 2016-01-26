@@ -2394,6 +2394,11 @@ OpenStackAnsible:
         - openstack/openstack-ansible-pip_lock_down
       tags:
         - release:independent
+    openstack-ansible-plugins:
+      repos:
+        - openstack/openstack-ansible-plugins
+      tags:
+        - release:independent
     openstack-ansible-py_from_git:
       repos:
         - openstack/openstack-ansible-py_from_git
