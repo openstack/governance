@@ -2998,6 +2998,11 @@ Puppet OpenStack:
         - openstack/puppet-nova
       tags:
         - release:independent
+    puppet-octavia:
+      repos:
+        - openstack/puppet-octavia
+      tags:
+        - release:independent
     puppet-openstack-cookiecutter:
       repos:
         - openstack/puppet-openstack-cookiecutter
