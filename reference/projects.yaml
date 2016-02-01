@@ -1815,7 +1815,7 @@ magnum:
       repos:
         - openstack/magnum
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
         - type:service
     magnum-ui:
       repos:
