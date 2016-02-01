@@ -3028,6 +3028,11 @@ Puppet OpenStack:
         - openstack/puppet-openstacklib
       tags:
         - release:independent
+    puppet-oslo:
+      repos:
+        - openstack/puppet-oslo
+      tags:
+        - release:independent
     puppet-rally:
       repos:
         - openstack/puppet-rally
