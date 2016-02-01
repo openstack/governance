@@ -3398,7 +3398,7 @@ senlin:
       repos:
         - openstack/senlin
       tags:
-        - release:cycle-with-intermediary
+        - release:cycle-with-milestones
         - type:service
     python-senlinclient:
       repos:
