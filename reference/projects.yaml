@@ -3530,7 +3530,7 @@ Telemetry:
         - assert:supports-upgrade
         - release:managed
         - release:has-stable-branches
-        - release:cycle-with-intermediary
+        - release:cycle-with-milestones
         - type:service
     ceilometer:
       repos:
