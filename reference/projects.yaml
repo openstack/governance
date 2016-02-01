@@ -525,12 +525,12 @@ freezer:
       repos:
         - openstack/freezer
       tags:
-        - release:cycle-with-intermediary
+        - release:cycle-with-milestones
     freezer-api:
       repos:
         - openstack/freezer-api
       tags:
-        - release:cycle-with-intermediary
+        - release:cycle-with-milestones
         - type:service
     freezer-web-ui:
       repos:
