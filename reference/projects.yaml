@@ -505,6 +505,25 @@ Documentation:
         - openstack/training-guides
       tags:
         - release:none
+  extra-atcs:
+    - name: Beth Cohen
+      email: beth.cohen@verizon.com
+      expires-in: September 2015
+    - name: Egle Sigler
+      email: ushnishtha@hotmail.com
+      expires-in: September 2015
+    - name: Kevin Jackson
+      email: Kevin.Jackson@rackspace.co.uk
+      expires-in: September 2015
+    - name: Scott Lowe
+      email: slowe@vmware.com
+      expires-in: September 2015
+    - name: Sean Winn
+      email: sean.winn@cloudscaling.com
+      expires-in: September 2015
+    - name: Vinny Valdez
+      email: vvaldez@redhat.com
+      expires-in: September 2015
 
 freezer:
   ptl:
@@ -885,6 +904,16 @@ horizon:
         - openstack/xstatic-spin
       tags:
         - release:independent
+  extra-atcs:
+    - name: Jaromir Coufal
+      email: jcoufal@redhat.com
+      expires-in: September 2015
+    - name: Liz Blanchard
+      email: lsurette@redhat.com
+      expires-in: September 2015
+    - name: Piet Kruithof
+      email: pieter.c.kruithof-jr@hp.com
+      expires-in: February 2016
 
 I18n:
   ptl:
@@ -901,6 +930,127 @@ I18n:
         - openstack/i18n
       tags:
         - release:none
+  extra-atcs:
+    - name: Ying Chun Guo
+      email: guoyingc@cn.ibm.com
+      expires-in: January 2016
+      comment: Chinese(China)
+    - name: Jian Sheng Li
+      email: lijiangsheng1@gmail.com
+      expires-in: January 2016
+      comment: Chinese(China)
+    - name: Yan Ran Zhou
+      email: coffee.zyr@gmail.com
+      expires-in: January 2016
+      comment: Chinese(China)
+    - name: Qiu Lin Chen
+      email: chenqioulin_1983@163.com
+      expires-in: January 2016
+      comment: Chinese(China)
+    - name: Jun Peng Liu
+      email: liujunpeng@inspur.com
+      expires-in: January 2016
+      comment: Chinese(China)
+    - name: Zhe Ma
+      email: blkart.org@gmail.com
+      expires-in: January 2016
+      comment: Chinese(China)
+    - name: Hai Feng Yan
+      email: yanheven@qq.com
+      expires-in: January 2016
+      comment: Chinese(China)
+    - name: Maxime Coquerel
+      email: max.coquerel@gmail.com
+      expires-in: January 2016
+      comment: French
+    - name: Francois Bureau
+      email: bureaufrancois@gmail.com
+      expires-in: January 2016
+      comment: French
+    - name: Corinne Verheyde
+      email: bureaufrancois@gmail.com
+      expires-in: January 2016
+      comment: French
+    - name: Jean-Francois Taltavull
+      email: jftalta@gmail.com
+      expires-in: January 2016
+      comment: French
+    - name: Gael Rehault
+      email: gael01@gmail.com
+      expires-in: January 2016
+      comment: French
+    - name: Nikita Burtsev
+      email: nikita.burtsev@gmail.com
+      expires-in: January 2016
+      comment: Russian
+    - name: Ilya Alekseyev
+      email: ilyaalekseyev@acm.org
+      expires-in: January 2016
+      comment: Russian
+    - name: Ainur Shakirov
+      email: shakirov.aynur@cg.ru
+      expires-in: January 2016
+      comment: Russian
+    - name: Tomoyuki Kato
+      email: kato.tomoyuki@jp.fujitsu.com
+      expires-in: January 2016
+      comment: Japanese
+    - name: Yuko Katabami
+      email: ykatabam@redhat.com
+      expires-in: January 2016
+      comment: Japanese
+    - name: Shu Muto
+      email: shu-mutou@rf.jp.nec.com
+      expires-in: January 2016
+      comment: Japanese
+    - name: Kyohei Moriyama
+      email: flogofrein@gmail.com
+      expires-in: January 2016
+      comment: Japanese
+    - name: Mie Yamamoto
+      email: myamamot@redhat.com
+      expires-in: January 2016
+      comment: Japanese
+    - name: Akihiro Motoki
+      email: amotoki@gmail.com
+      expires-in: January 2016
+      comment: Japanese
+    - name: Ian Y. Choi
+      email: ianyrchoi@gmail.com
+      expires-in: January 2016
+      comment: Korean
+    - name: Sungjin Kang
+      email: gang.sungjin@gmail.com
+      expires-in: January 2016
+      comment: Korean
+    - name: Kiseok Kim
+      email: kiseok7@gmail.com
+      expires-in: January 2016
+      comment: Korean
+    - name: Heleno Jimenez
+      email: heleno.jimenez@gmail.com
+      expires-in: January 2016
+      comment: Spanish
+    - name: Pablo Iranzo
+      email: Pablo.Iranzo@gmail.com
+      expires-in: January 2016
+      comment: Spanish
+    - name: Marian Tort
+      email: marian.tort@gmail.com
+      expires-in: January 2016
+      comment: Spanish
+    - name: Robert Simai
+      email: robert.simai@suse.com
+      expires-in: January 2016
+      comment: German
+    - name: Frank Kloeker
+      email: f.kloeker@telekom.de
+      expires-in: January 2016
+      comment: German
+    - name: Chandan Kumar
+      email: chkumar@redhat.com
+      expires-in: January 2016
+      comment: Hindi
 
 Infrastructure:
   ptl:
@@ -1767,6 +1917,10 @@ keystone:
       tags:
         - release:independent
         - type:library
+  extra-atcs:
+    - name: David Chadwick
+      email: d.w.chadwick@kent.ac.uk
+      expires-in: December 2015
 
 kolla:
   ptl:
@@ -2224,6 +2378,10 @@ neutron:
       tags:
         - release:cycle-with-milestones
         - release:has-stable-branches
+  extra-atcs:
+    - name: Cathy Hong Zhang
+      email: cathy.h.zhang@huawei.com
+      expires-in: February 2016
 
 nova:
   ptl:
@@ -2275,6 +2433,73 @@ nova:
         - release:cycle-with-intermediary
         - release:has-stable-branches
         - type:library
+  extra-atcs:
+    - name: Bogdan Teleaga
+      email: bteleaga@cloudbasesolutions.com
+      expires-in: September 2015
+    - name: Mouhammad-Nashwan Azhari
+      email: nmouhammad@cloudbasesolutions.com
+      expires-in: September 2015
+    - name: Pablo Fernando Cargnelutti
+      email: pablo.fernando.cargnelutti@intel.com
+      expires-in: September 2015
+    - name: Fengqian Gao
+      email: fengqian.gao@intel.com
+      expires-in: September 2015
+    - name: Sushma Korati
+      email: sushma_korati@persistent.co.in
+      expires-in: September 2015
+    - name: Dmitry Tantsur
+      email: dtantsur@redhat.com
+      expires-in: September 2015
+    - name: Maithem
+      email: munshedm@vmware.com
+      expires-in: September 2015
+    - name: Ian Wells
+      email: iawells@cisco.com
+      expires-in: September 2015
+    - name: Shawn Hartsock
+      email: hartsocks@acm.org
+      expires-in: September 2015
+    - name: Cyril Roelandt
+      email: cyril.roelandt@enovance.com
+      expires-in: September 2015
+    - name: Ionut Balutoiu
+      email: ibalutoiu@cloudbasesolutions.com
+      expires-in: September 2015
+    - name: Ryan Moe
+      email: rmoe@mirantis.com
+      expires-in: September 2015
+    - name: Lucas Alvares Gomes
+      email: lucasagomes@gmail.com
+      expires-in: September 2015
+    - name: Navneet Kumar
+      email: navneetk@thoughtworks.com
+      expires-in: September 2015
+    - name: Zsolt Dudas
+      email: zdudas@cloudbasesolutions.com
+      expires-in: September 2015
+    - name: Anuj Mathur
+      email: anujm@thoughtworks.com
+      expires-in: September 2015
+    - name: Chenchong Qin
+      email: qinchenchong@gmail.com
+      expires-in: September 2015
+    - name: Thomas Kaergel
+      email: kaergel@b1-systems.de
+      expires-in: September 2015
+    - name: Ryo Kurahashi
+      email: kurahashi-rxa@necst.nec.co.jp
+      expires-in: September 2015
+    - name: Adam Gandelman
+      email: adamg@ubuntu.com
+      expires-in: September 2015
+    - name: Andres Buraschi
+      email: andres.buraschi@intel.com
+      expires-in: September 2015
+    - name: Claxton Correya
+      email: claxton@gmail.com
+      expires-in: September 2015
 
 OpenStack client:
   ptl:
@@ -2330,6 +2555,19 @@ OpenStack UX:
         - openstack/openstack-ux
       tags:
         - release:none
+  extra-atcs:
+    - name: Piet Kruithof
+      email: pkruithofjr@gmail.com
+      expires-in: September 2016
+    - name: Eric Peterson
+      email: eric.peterson1@twcable.com
+      expires-in: September 2016
+    - name: Ju Lim
+      email: julim@redhat.com
+      expires-in: September 2016
+    - name: Michael Hinnant
+      email: michael.hinnant@hp.com
+      expires-in: September 2016
 
 OpenStackAnsible:
   ptl:
@@ -3178,6 +3416,10 @@ Quality Assurance:
       tags:
         - release:independent
         - type:library
+  extra-atcs:
+    - name: Scott Moser
+      email: smoser@ubuntu.com
+      expires-in: May 2016
 
 rally:
   ptl:
@@ -3267,6 +3509,10 @@ Release Management:
         - openstack-dev/specs-cookiecutter
       tags:
         - release:none
+  extra-atcs:
+    - name: Chuck Short
+      email: chuck.short@canonical.com
+      expires-in: January 2016
 
 sahara:
   ptl:
@@ -3585,6 +3831,13 @@ Telemetry:
       tags:
         - type:library
         - release:independent
+  extra-atcs:
+    - name: Edouard Thuleau
+      email: edouard.thuleau@cloudwatt.com
+      expires-in: September 2015
+    - name: Jordan Pittier
+      email: jordan.pittier@cloudwatt.com
+      expires-in: September 2015
 
 tripleo:
   ptl:

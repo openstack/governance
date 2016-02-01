@@ -13,6 +13,7 @@
 """Show information about extra ATCs managed in this repo.
 """
 
+import operator
 import os
 import re
 
@@ -23,7 +24,7 @@ from docutils.parsers.rst.directives.tables import Table
 from docutils.statemachine import ViewList
 from sphinx.util.nodes import nested_parse_with_titles
 
-_atcs_by_project = {}
+import projects
 
 
 class ExtraATCsTable(Table):
@@ -34,7 +35,7 @@ class ExtraATCsTable(Table):
     HEADER_MAP = {
         'Full Name': 'name',
         'Email': 'email',
-        'Expires In': 'expires_in',
+        'Expires In': 'expires-in',
     }
 
     option_spec = {'class': directives.class_option,
@@ -68,11 +69,22 @@ class ExtraATCsTable(Table):
                 )
             return [error]
 
-        project_members = _atcs_by_project.get(project, [])
+        all_teams = projects.get_project_data()
+        try:
+            team_data = all_teams[project]
+        except KeyError:
+            raise ValueError('No project %r in projects.yaml' % (project,))
+        project_members = team_data.get('extra-atcs', [])
 
         # If we have no extra ATCs, skip building the table.
         if not project_members:
             return []
+
+        # Sort the project_members by name
+        project_members = sorted(
+            project_members,
+            key=operator.itemgetter('name'),
+        )
 
         table_node = self.build_table(project_members, col_widths)
         table_node['classes'] += self.options.get('class', [])
@@ -129,24 +141,6 @@ class ExtraATCsTable(Table):
 _PATTERN = re.compile('(?P<project>.+):\s+(?P<name>.+)\s\((?P<email>.+)\)\s\[(?P<expires_in>.*)\]')
 
 
-def _build_atcs_by_project(app):
-    filename = os.path.abspath('reference/extra-atcs')
-    with open(filename, 'r') as f:
-        for linum, line in enumerate(f, 1):
-            line = line.strip()
-            if not line or line.startswith('#'):
-                continue
-            m = _PATTERN.match(line)
-            if not m:
-                app.warn('Could not parse line %d of %s: %r' %
-                         (linum, filename, line))
-                continue
-            info = m.groupdict()
-            project = info['project']
-            _atcs_by_project.setdefault(project, []).append(info)
-
-
 def setup(app):
     app.info('loading atcs extension')
     app.add_directive('extraatcstable', ExtraATCsTable)
-    _build_atcs_by_project(app)
