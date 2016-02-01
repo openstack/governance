@@ -3516,6 +3516,8 @@ Telemetry:
       repos:
         - openstack/aodh
       tags:
+        - assert:follows-standard-deprecation
+        - assert:supports-upgrade
         - release:managed
         - release:has-stable-branches
         - release:cycle-with-intermediary
@@ -3525,6 +3527,8 @@ Telemetry:
         - openstack/ceilometer
       tags:
         - assert:follows-standard-deprecation
+        - assert:supports-upgrade
+        - assert:supports-rolling-upgrade
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
@@ -3552,6 +3556,7 @@ Telemetry:
       repos:
         - openstack/gnocchi
       tags:
+        - assert:supports-upgrade
         - release:independent
     python-aodhclient:
       repos:
