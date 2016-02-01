@@ -2052,47 +2052,66 @@ monasca:
   tags:
     - team:single-vendor
   deliverables:
-    monasca:
+    monasca-api:
       repos:
         - openstack/monasca-api
-        - openstack/monasca-log-api
-        - openstack/monasca-persister
-        - openstack/monasca-thresh
-        - openstack/monasca-notification
-        - openstack/monasca-common
       tags:
         - type:service
-        - release:cycle-with-milestones
+        - release:cycle-with-intermediary
+    monasca-log-api:
+      repos:
+        - openstack/monasca-log-api
+      tags:
+        - type:service
+        - release:cycle-with-intermediary
+    monasca-notification:
+      repos:
+        - openstack/monasca-notification
+      tags:
+        - release:cycle-with-intermediary
+    monasca-persister:
+      repos:
+        - openstack/monasca-persister
+      tags:
+        - release:cycle-with-intermediary
+    monasca-thresh:
+      repos:
+        - openstack/monasca-thresh
+      tags:
+        - release:cycle-with-intermediary
+    monasca-common:
+      repos:
+        - openstack/monasca-common
+      tags:
+        - release:cycle-with-intermediary
     monasca-ui:
       repos:
         - openstack/monasca-ui
       tags:
         - type:library
-        - release:cycle-with-milestones
+        - release:cycle-with-intermediary
     python-monascaclient:
       repos:
         - openstack/python-monascaclient
       tags:
         - type:library
-        - release:cycle-with-milestones
+        - release:cycle-with-intermediary
     monasca-agent:
       repos:
         - openstack/monasca-agent
       tags:
-        - type:library
-        - release:cycle-with-milestones
+        - release:cycle-with-intermediary
     monasca-statsd:
       repos:
         - openstack/monasca-statsd
       tags:
         - type:library
-        - release:independent
+        - release:cycle-with-intermediary
     monasca-ceilometer:
       repos:
         - openstack/monasca-ceilometer
       tags:
-        - type:library
-        - release:independent
+        - release:cycle-with-intermediary
 
 murano:
   ptl:
