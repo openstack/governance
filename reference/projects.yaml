@@ -2288,7 +2288,7 @@ neutron:
       repos:
         - openstack/networking-ovn
       tags:
-        - release:cycle-with-milestones
+        - release:independent
     networking-plumgrid:
       repos:
         - openstack/networking-plumgrid
@@ -2346,7 +2346,7 @@ neutron:
       repos:
         - openstack/octavia
       tags:
-        - release:cycle-with-milestones
+        - release:independent
         - release:has-stable-branches
     python-neutron-pd-driver:
       repos:
@@ -2366,7 +2366,7 @@ neutron:
       repos:
         - openstack/vmware-nsx
       tags:
-        - release:cycle-with-milestones
+        - release:independent
         - release:has-stable-branches
   extra-atcs:
     - name: Cathy Hong Zhang
