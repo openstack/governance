@@ -3930,6 +3930,39 @@ senlin:
         - release:cycle-with-intermediary
         - type:library
 
+smaug:
+  ptl:
+    name: Saggi Mizrahi
+    irc: saggi
+    email: saggi.mizrahi@huawei.com
+  irc-channel: openstack-smaug
+  service: Data Protection Orchestration Service
+  mission: >
+    To implement services and libraries to provide project aware
+    data-protection orchestration of existing vendor solutions.
+  url: https://wiki.openstack.org/wiki/Smaug
+  tags:
+    - team:single-vendor
+  deliverables:
+    smaug:
+      repos:
+        - openstack/smaug
+      tags:
+        - release:independent
+        - type:service
+    smaug-dashboard:
+      repos:
+        - openstack/smaug-dashboard
+      tags:
+        - release:independent
+        - type:library
+    python-smaugclient:
+      repos:
+        - openstack/python-smaugclient
+      tags:
+        - release:independent
+        - type:library
+
 solum:
   ptl:
     name: Devdatta Kulkarni
