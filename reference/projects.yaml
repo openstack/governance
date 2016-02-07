@@ -506,6 +506,29 @@ Documentation:
       tags:
         - release:none
 
+dragonflow:
+  ptl:
+    name: Eran Gampel
+    irc: gampel
+    email: eran.gampel@huawei.com
+  irc-channel: openstack-dragonflow
+  mission: >
+    Dragonflow is a distributed control plane implementation of Neutron.
+    Its mission is to implement advanced networking services driven by
+    the Neutron API and running on a distributed control plane.
+    It's designed to support containers networking and large scale
+    production loads.
+  url: https://wiki.openstack.org/wiki/Dragonflow
+  tags:
+    - team:diverse-affiliation
+  deliverables:
+    dragonflow:
+      repos:
+        - openstack/dragonflow
+      tags:
+        - release:independent
+        - release:has-stable-branches
+
 ec2-api:
   ptl:
     name: Alexandre Levine
@@ -2186,12 +2209,6 @@ neutron:
   tags:
     - team:diverse-affiliation
   deliverables:
-    dragonflow:
-      repos:
-        - openstack/dragonflow
-      tags:
-        - release:independent
-        - release:has-stable-branches
     kuryr:
       repos:
         - openstack/kuryr
