@@ -1,0 +1,72 @@
+::
+
+  This work is licensed under a Creative Commons Attribution 3.0
+  Unported License.
+  http://creativecommons.org/licenses/by/3.0/legalcode
+
+.. _`tag-stable:follows-policy`:
+
+=======================
+ stable:follows-policy
+=======================
+
+This tag indicates that a project team maintains stable branches for a given
+deliverable, and that those stable branches are maintained following the common
+`Stable branch policy`_, as defined by the Stable branch maintenance team.
+
+
+Application to current deliverables
+===================================
+
+.. tagged-projects:: stable:follows-policy
+
+
+Rationale
+=========
+
+In the big tent, all project teams can create stable branches, with the
+name of their choice. However, some of those branches do not follow the
+`Stable branch policy`_: some approve backports that modify the behavior
+of the software, some backport new features, some do not actively backport
+significant bugfixes, some don't monitor proposed backports, or monitor
+the CI system on their stable branches...
+
+That creates confusion for packagers and deployers of our software, which
+no longer know what to expect from a stable branch. Having stable branches
+(as described by the :ref:`tag-release:has-stable-branches` tag) is no longer
+a guarantee of an up-to-date source of safe fixes.
+
+To replace it, this tag is granted by the stable branch maintenance team only
+to deliverables which have stable branches maintained following the common
+`Stable branch policy`_. This lets downstream users easily determine which
+projects adhere to the common rules, and expose what the common rules are to
+a wider audience. As a side-effect, it encourages more project teams to
+follow the policy.
+
+
+Requirements
+============
+
+Deliverables must follow the `Stable branch policy`_ in all currently active
+stable branches.
+
+
+Tag application process
+=======================
+
+Anyone may propose adding or removing this tag to a set of deliverables by
+proposing a change to the openstack/governance repository. The change is
+reviewed by the `Stable Branch Maintenance team`_, and the Technical Committee
+finally approves it using its lazy consensus approval rule.
+
+
+Deprecation
+===========
+
+The ``stable:follows-policy`` tag may be removed from deliverables at any
+time, when the Stable Branch Maintenance team considers that the deliverable
+repeatedly violated the `Stable branch policy`_.
+
+
+.. _Stable branch policy: http://docs.openstack.org/project-team-guide/stable-branches.html
+.. _Stable Branch Maintenance team: https://review.openstack.org/#/admin/groups/530,members

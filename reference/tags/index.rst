@@ -53,3 +53,11 @@ Vulnerability Management Tags
    :maxdepth: 1
 
    vulnerability_managed
+
+Stable Maintenance Tags
+=======================
+
+.. toctree::
+   :maxdepth: 1
+
+   stable_follows-policy
