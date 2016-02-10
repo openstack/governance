@@ -3416,6 +3416,11 @@ Release Management:
         - openstack/release-schedule-generator
       tags:
         - release:none
+    release-test:
+      repos:
+        - openstack-infra/release-test
+      tags:
+        - release:none
     release-tools:
       repos:
         - openstack-infra/release-tools
