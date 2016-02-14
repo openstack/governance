@@ -32,6 +32,10 @@ considered incompatible with this requirement include GPLv2, GPLv3, and AGPL.
 **Projects run as part of the OpenStack Infrastructure** (in order to
 *produce* OpenStack software) may be licensed under any `OSI-approved license`_.
 
+This includes tools that are run with or on OpenStack projects only
+during validation or testing phases of development (e.g., a source
+code linter).
+
 .. _OSI-approved license: http://opensource.org/licenses/alphabetical
 
 Other licenses (not explicitly listed in this document) may be considered
