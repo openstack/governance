@@ -3945,7 +3945,7 @@ trove:
       repos:
         - openstack/trove-dashboard
       tags:
-        - release:cycle-with-intermediary
+        - release:cycle-with-milestones
         - release:has-stable-branches
     trove-integration:
       repos:
