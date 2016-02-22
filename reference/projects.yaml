@@ -255,6 +255,10 @@ cinder:
         - type:library
         - release:managed
         - vulnerability:managed
+  extra-atcs:
+    - name: Duncan Thomas
+      email: duncan.thomas@gmail.com
+      expires-in: February 2017
 
 cloudkitty:
   ptl:
