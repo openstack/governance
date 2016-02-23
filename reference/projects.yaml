@@ -1969,6 +1969,24 @@ kolla:
       tags:
         - release:independent
 
+Kuryr:
+  ptl:
+    name: Gal Sagie
+    irc: gsagie
+    email: gal.sagie@huawei.com
+  irc-channel: openstack-kuryr
+  mission: >
+    Bridge between container framework networking models to OpenStack
+    networking abstraction.
+  url: https://wiki.openstack.org/wiki/Kuryr
+  tags:
+    - team:diverse-affiliation
+  deliverables:
+    kuryr:
+      repos:
+        - openstack/kuryr
+      tags:
+        - release:independent
 
 magnum:
   ptl:
