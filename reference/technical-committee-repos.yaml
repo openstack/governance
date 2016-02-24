@@ -4,4 +4,5 @@ Technical Committee:
   - repo: openstack/openstack-specs
   - repo: openstack/api-wg
   - repo: openstack/project-team-guide
+  - repo: openstack/service-types-authority
   - repo: openstack/election
