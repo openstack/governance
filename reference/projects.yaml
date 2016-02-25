@@ -2732,6 +2732,71 @@ OpenStackAnsible:
         - openstack/openstack-ansible-openstack_hosts
       tags:
         - release:independent
+    openstack-ansible-openstack_openrc:
+      repos:
+        - openstack/openstack-ansible-openstack_openrc
+      tags:
+        - release:independent
+    openstack-ansible-os_aodh:
+      repos:
+        - openstack/openstack-ansible-os_aodh
+      tags:
+        - release:independent
+    openstack-ansible-os_ceilometer:
+      repos:
+        - openstack/openstack-ansible-os_ceilometer
+      tags:
+        - release:independent
+    openstack-ansible-os_cinder:
+      repos:
+        - openstack/openstack-ansible-os_cinder
+      tags:
+        - release:independent
+    openstack-ansible-os_glance:
+      repos:
+        - openstack/openstack-ansible-os_glance
+      tags:
+        - release:independent
+    openstack-ansible-os_heat:
+      repos:
+        - openstack/openstack-ansible-os_heat
+      tags:
+        - release:independent
+    openstack-ansible-os_horizon:
+      repos:
+        - openstack/openstack-ansible-os_horizon
+      tags:
+        - release:independent
+    openstack-ansible-os_keystone:
+      repos:
+        - openstack/openstack-ansible-os_keystone
+      tags:
+        - release:independent
+    openstack-ansible-os_neutron:
+      repos:
+        - openstack/openstack-ansible-os_neutron
+      tags:
+        - release:independent
+    openstack-ansible-os_nova:
+      repos:
+        - openstack/openstack-ansible-os_nova
+      tags:
+        - release:independent
+    openstack-ansible-os_swift:
+      repos:
+        - openstack/openstack-ansible-os_swift
+      tags:
+        - release:independent
+    openstack-ansible-os_swift_sync:
+      repos:
+        - openstack/openstack-ansible-os_swift_sync
+      tags:
+        - release:independent
+    openstack-ansible-os_tempest:
+      repos:
+        - openstack/openstack-ansible-os_tempest
+      tags:
+        - release:independent
     openstack-ansible-pip_install:
       repos:
         - openstack/openstack-ansible-pip_install
@@ -2750,6 +2815,11 @@ OpenStackAnsible:
     openstack-ansible-py_from_git:
       repos:
         - openstack/openstack-ansible-py_from_git
+      tags:
+        - release:independent
+    openstack-ansible-repo_build:
+      repos:
+        - openstack/openstack-ansible-repo_build
       tags:
         - release:independent
     openstack-ansible-rsyslog_client:
