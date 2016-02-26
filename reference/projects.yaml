@@ -605,6 +605,7 @@ fuel:
         - openstack/fuel-nailgun-agent
         - openstack/fuel-ostf
         - openstack/fuel-qa
+        - openstack/fuel-ui
         - openstack/fuel-upgrade
         - openstack/fuel-virtualbox
         - openstack/fuel-web
@@ -1168,7 +1169,7 @@ I18n:
       email: kyle.b@inwinstack.com
       expires-in: January 2017
       comment: kyle
-    - name: James Lee 
+    - name: James Lee
       email: cijie.l@inwinStack.com
       expires-in: January 2017
       comment: jameslee
