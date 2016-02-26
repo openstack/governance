@@ -2086,7 +2086,7 @@ kolla:
       tags:
         - release:independent
 
-Kuryr:
+kuryr:
   ptl:
     name: Gal Sagie
     irc: gsagie
