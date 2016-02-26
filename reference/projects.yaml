@@ -606,6 +606,7 @@ fuel:
         - openstack/fuel-ostf
         - openstack/fuel-qa
         - openstack/fuel-upgrade
+        - openstack/fuel-virtualbox
         - openstack/fuel-web
         - openstack/shotgun
       tags:
