@@ -2707,6 +2707,11 @@ OpenStackAnsible:
         - openstack/openstack-ansible-galera_server
       tags:
         - release:independent
+    openstack-ansible-ironic:
+      repos:
+        - openstack/openstack-ansible-ironic
+      tags:
+        - release:independent
     openstack-ansible-lxc_container_create:
       repos:
         - openstack/openstack-ansible-lxc_container_create
