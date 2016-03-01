@@ -25,11 +25,17 @@ IRC_LOG_URL_BASE = 'http://eavesdrop.openstack.org/irclogs/%23'
 
 
 def _team_to_rst(name, info):
+
+    if 'service' in info:
+        title = "{0} ({1})".format(name.title(), info['service'])
+    else:
+        title = name.title()
+
     yield '.. _project-%s:' % projects.slugify(name)
     yield ''
-    yield '=' * len(name)
-    yield name.title()
-    yield '=' * len(name)
+    yield '=' * len(title)
+    yield title
+    yield '=' * len(title)
     yield ''
     yield ':Home Page: ' + info.get('url', '')
     ptl = info.get('ptl', {'name': '', 'irc': ''})
