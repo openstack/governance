@@ -3883,6 +3883,43 @@ swift:
       tags:
         - release:none
 
+tacker:
+  ptl:
+    name: Sridhar Ramaswamy
+    irc: sridhar_ram
+    email: srics.r@gmail.com
+  irc-channel: tacker
+  service: NFV Orchestration service
+  mission: >
+    To implement Network Function Virtualization (NFV) Orchestration services
+    and libraries for end-to-end life-cycle management of Network Services
+    and Virtual Network Functions (VNFs).
+  url: https://wiki.openstack.org/wiki/Tacker
+  deliverables:
+    tacker:
+      repos:
+        - openstack/tacker
+      tags:
+        - release:cycle-with-intermediary
+        - type:service
+    python-tackerclient:
+      repos:
+        - openstack/python-tackerclient
+      tags:
+        - release:cycle-with-intermediary
+        - type:library
+    tacker-horizon:
+      repos:
+        - openstack/tacker-horizon
+      tags:
+        - release:cycle-with-intermediary
+        - type:library
+    tacker-specs:
+      repos:
+        - openstack/tacker-specs
+      tags:
+        - release:none
+
 Telemetry:
   ptl:
     name: Gordon Chung
