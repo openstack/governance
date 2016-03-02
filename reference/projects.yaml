@@ -1907,11 +1907,6 @@ ironic:
         - openstack/bifrost
       tags:
         - release:cycle-with-intermediary
-    coreos-image-builder:
-      repos:
-        - openstack/coreos-image-builder
-      tags:
-        - release:cycle-with-intermediary
     ironic:
       repos:
         - openstack/ironic
