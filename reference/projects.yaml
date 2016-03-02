@@ -574,6 +574,11 @@ freezer:
       tags:
         - release:cycle-with-milestones
         - type:service
+    freezer-specs:
+      repos:
+        - openstack/freezer-specs
+      tags:
+        - release:none
     freezer-web-ui:
       repos:
         - openstack/freezer-web-ui
