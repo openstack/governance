@@ -2373,11 +2373,6 @@ neutron:
   tags:
     - team:diverse-affiliation
   deliverables:
-    kuryr:
-      repos:
-        - openstack/kuryr
-      tags:
-        - release:independent
     networking-ale-omniswitch:
       repos:
         - openstack/networking-ale-omniswitch
