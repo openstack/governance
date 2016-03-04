@@ -407,19 +407,12 @@ designate:
     designate:
       repos:
         - openstack/designate
+        - openstack/designate-dashboard
       tags:
         - release:cycle-with-milestones
         - release:has-stable-branches
         - release:managed
         - type:service
-    designate-dashboard:
-      repos:
-        - openstack/designate-dashboard
-      tags:
-        - type:library
-        - release:cycle-with-milestones
-        - release:has-stable-branches
-        - release:managed
     designate-specs:
       repos:
         - openstack/designate-specs
@@ -2193,22 +2186,12 @@ mistral:
     mistral:
       repos:
         - openstack/mistral
+        - openstack/mistral-dashboard
+        - openstack/mistral-extra
       tags:
         - type:service
         - release:cycle-with-milestones
         - release:has-stable-branches
-    mistral-dashboard:
-      repos:
-        - openstack/mistral-dashboard
-      tags:
-        - type:library
-        - release:cycle-with-milestones
-        - release:has-stable-branches
-    mistral-extra:
-      repos:
-        - openstack/mistral-extra
-      tags:
-        - release:none
     mistral-specs:
       repos:
         - openstack/mistral-specs
