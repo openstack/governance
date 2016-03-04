@@ -30,7 +30,6 @@ astara:
       tags:
         - release:cycle-with-milestones
         - release:has-stable-branches
-        - type:library
     astara-neutron:
       repos:
         - openstack/astara-neutron
@@ -293,7 +292,6 @@ cloudkitty:
         - openstack/cloudkitty-dashboard
       tags:
         - release:cycle-with-intermediary
-        - type:library
 
 Community App Catalog:
   ptl:
@@ -2275,7 +2273,6 @@ monasca:
       repos:
         - openstack/monasca-ui
       tags:
-        - type:library
         - release:cycle-with-intermediary
     python-monascaclient:
       repos:
@@ -2340,7 +2337,6 @@ murano:
       tags:
         - release:cycle-with-milestones
         - release:has-stable-branches
-        - type:library
     murano-deployment:
       repos:
         - openstack/murano-deployment
@@ -3978,7 +3974,6 @@ tacker:
         - openstack/tacker-horizon
       tags:
         - release:cycle-with-intermediary
-        - type:library
     tacker-specs:
       repos:
         - openstack/tacker-specs
