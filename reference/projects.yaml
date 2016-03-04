@@ -4026,9 +4026,9 @@ Telemetry:
         - openstack/ceilometer-powervm
       tags:
         - release:independent
-    ceilometer-specs:
+    telemetry-specs:
       repos:
-        - openstack/ceilometer-specs
+        - openstack/telemetry-specs
       tags:
         - release:none
     ceilometermiddleware:
