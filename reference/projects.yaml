@@ -677,10 +677,10 @@ glance:
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
-        - release:has-stable-branches
         - type:service
         - starter-kit:compute
         - vulnerability:managed
+        - stable:follows-policy
     glance-specs:
       repos:
         - openstack/glance-specs
@@ -691,18 +691,18 @@ glance:
         - openstack/glance_store
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     python-glanceclient:
       repos:
         - openstack/python-glanceclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - vulnerability:managed
+        - stable:follows-policy
 
 heat:
   ptl:
