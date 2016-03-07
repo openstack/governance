@@ -650,7 +650,7 @@ fuel:
         - openstack/python-fuelclient
       tags:
         - type:library
-        - release:cycle-with-intermediary
+        - release:independent
 
 glance:
   ptl:
