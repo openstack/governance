@@ -2544,10 +2544,6 @@ neutron:
       tags:
         - release:independent
         - release:has-stable-branches
-  extra-atcs:
-    - name: Cathy Hong Zhang
-      email: cathy.h.zhang@huawei.com
-      expires-in: February 2016
 
 nova:
   ptl:
