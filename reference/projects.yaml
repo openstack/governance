@@ -2304,7 +2304,7 @@ monasca:
 murano:
   ptl:
     name: Serg Melikyan
-    irc: smelikyan
+    irc: sergmelikyan
     email: smelikyan@mirantis.com
   irc-channel: murano
   service: Application Catalog service
