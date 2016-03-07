@@ -409,6 +409,7 @@ designate:
         - release:has-stable-branches
         - release:managed
         - type:service
+        - stable:follows-policy
     designate-specs:
       repos:
         - openstack/designate-specs
@@ -422,6 +423,7 @@ designate:
         - release:has-stable-branches
         - release:managed
         - type:library
+        - stable:follows-policy
 
 Documentation:
   ptl:
