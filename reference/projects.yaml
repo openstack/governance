@@ -636,6 +636,11 @@ fuel:
         - openstack/fuel-plugins
       tags:
         - release:independent
+    fuel-plugin-murano:
+      repos:
+        - openstack/fuel-plugin-murano
+      tags:
+        - release:independent
     fuel-specs:
       repos:
         - openstack/fuel-specs
