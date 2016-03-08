@@ -3479,11 +3479,6 @@ Puppet OpenStack:
         - openstack/puppet-trove
       tags:
         - release:independent
-    puppet-tuskar:
-      repos:
-        - openstack/puppet-tuskar
-      tags:
-        - release:independent
     puppet-vitrage:
       repos:
         - openstack/puppet-vitrage
@@ -4136,12 +4131,6 @@ tripleo:
       tags:
         - release:independent
         - type:library
-    python-tuskarclient:
-      repos:
-        - openstack/python-tuskarclient
-      tags:
-        - release:independent
-        - type:library
     tripleo-common:
       repos:
         - openstack/tripleo-common
@@ -4180,11 +4169,6 @@ tripleo:
     tripleo-ui:
       repos:
         - openstack/tripleo-ui
-      tags:
-        - release:independent
-    tuskar:
-      repos:
-        - openstack/tuskar
       tags:
         - release:independent
 
