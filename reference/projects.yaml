@@ -3464,6 +3464,11 @@ Puppet OpenStack:
         - openstack/puppet-oslo
       tags:
         - release:independent
+    puppet-ovn:
+      repos:
+        - openstack/puppet-ovn
+      tags:
+        - release:independent
     puppet-rally:
       repos:
         - openstack/puppet-rally
