@@ -2504,7 +2504,6 @@ neutron:
         - openstack/neutron
         - openstack/neutron-fwaas
         - openstack/neutron-lbaas
-        - openstack/neutron-lbaas-dashboard
         - openstack/neutron-vpnaas
       tags:
         - tc-approved-release
@@ -2531,6 +2530,7 @@ neutron:
         - release:none
     octavia:
       repos:
+        - openstack/neutron-lbaas-dashboard
         - openstack/octavia
       tags:
         - release:independent
