@@ -3827,6 +3827,11 @@ Security:
         - openstack/security-specs
       tags:
         - release:none
+    syntribos:
+      repos:
+        - openstack/syntribos
+      tags:
+        - release:independent
 
 senlin:
   ptl:
