@@ -3534,6 +3534,11 @@ Quality Assurance:
       tags:
         - release:has-stable-branches
         - release:none
+    devstack-plugin-ceph:
+      repos:
+        - openstack/devstack-plugin-ceph
+      tags:
+        - release:none
     devstack-plugin-cookiecutter:
       repos:
         - openstack-dev/devstack-plugin-cookiecutter
