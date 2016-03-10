@@ -798,8 +798,7 @@ horizon:
       repos:
         - openstack/django-openstack-auth-kerberos
       tags:
-        - release:cycle-with-intermediary
-        - release:has-stable-branches
+        - release:independent
         - type:library
     django_openstack_auth:
       repos:
