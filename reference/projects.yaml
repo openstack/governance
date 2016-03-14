@@ -2727,6 +2727,11 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_cinder
       tags:
         - release:independent
+    openstack-ansible-os_designate:
+      repos:
+        - openstack/openstack-ansible-os_designate
+      tags:
+        - release:independent
     openstack-ansible-os_glance:
       repos:
         - openstack/openstack-ansible-os_glance
@@ -2770,6 +2775,11 @@ OpenStackAnsible:
     openstack-ansible-os_tempest:
       repos:
         - openstack/openstack-ansible-os_tempest
+      tags:
+        - release:independent
+    openstack-ansible-os_zaqar:
+      repos:
+        - openstack/openstack-ansible-os_zaqar
       tags:
         - release:independent
     openstack-ansible-pip_install:
