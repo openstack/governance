@@ -2851,6 +2851,7 @@ oslo:
         - release:has-stable-branches
         - release:managed
         - type:library
+        - stable:follows-policy
     cookiecutter:
       repos:
         - openstack-dev/cookiecutter
@@ -2864,6 +2865,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     devstack-plugin-amqp1:
       repos:
         - openstack/devstack-plugin-amqp1
@@ -2892,6 +2894,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     mox3:
       repos:
         - openstack/mox3
@@ -2900,6 +2903,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslo-cookiecutter:
       repos:
         - openstack-dev/oslo-cookiecutter
@@ -2923,6 +2927,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslo.concurrency:
       repos:
         - openstack/oslo.concurrency
@@ -2931,6 +2936,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslo.config:
       repos:
         - openstack/oslo.config
@@ -2940,6 +2946,7 @@ oslo:
         - type:library
         - release:managed
         - vulnerability:managed
+        - stable:follows-policy
     oslo.context:
       repos:
         - openstack/oslo.context
@@ -2948,6 +2955,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslo.db:
       repos:
         - openstack/oslo.db
@@ -2956,6 +2964,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslo.i18n:
       repos:
         - openstack/oslo.i18n
@@ -2964,6 +2973,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslo.log:
       repos:
         - openstack/oslo.log
@@ -2972,6 +2982,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslo.messaging:
       repos:
         - openstack/oslo.messaging
@@ -2988,6 +2999,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslo.policy:
       repos:
         - openstack/oslo.policy
@@ -2996,6 +3008,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslo.privsep:
       repos:
         - openstack/oslo.privsep
@@ -3004,6 +3017,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslo.reports:
       repos:
         - openstack/oslo.reports
@@ -3012,6 +3026,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslo.rootwrap:
       repos:
         - openstack/oslo.rootwrap
@@ -3020,6 +3035,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslo.serialization:
       repos:
         - openstack/oslo.serialization
@@ -3028,6 +3044,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslo.service:
       repos:
         - openstack/oslo.service
@@ -3036,6 +3053,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslo.utils:
       repos:
         - openstack/oslo.utils
@@ -3044,6 +3062,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslo.versionedobjects:
       repos:
         - openstack/oslo.versionedobjects
@@ -3052,6 +3071,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslo.vmware:
       repos:
         - openstack/oslo.vmware
@@ -3060,6 +3080,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslosphinx:
       repos:
         - openstack/oslosphinx
@@ -3068,6 +3089,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     oslotest:
       repos:
         - openstack/oslotest
@@ -3076,6 +3098,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     osprofiler:
       repos:
         - openstack/osprofiler
@@ -3084,6 +3107,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     pbr:
       repos:
         - openstack-dev/pbr
@@ -3091,6 +3115,7 @@ oslo:
         - release:independent
         - type:library
         - release:managed
+        - stable:follows-policy
     pylockfile:
       repos:
         - openstack/pylockfile
@@ -3098,6 +3123,7 @@ oslo:
         - release:independent
         - type:library
         - release:managed
+        - stable:follows-policy
     stevedore:
       repos:
         - openstack/stevedore
@@ -3106,6 +3132,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     taskflow:
       repos:
         - openstack/taskflow
@@ -3114,6 +3141,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     tooz:
       repos:
         - openstack/tooz
@@ -3122,6 +3150,7 @@ oslo:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
 
 Packaging-deb:
   ptl:
