@@ -2174,6 +2174,10 @@ manila:
         - release:has-stable-branches
         - release:managed
         - type:library
+  extra-atcs:
+    - name: Denis Cavalcante
+      email: dencaval@gmail.com
+      expires-in: March 2017
 
 mistral:
   ptl:
