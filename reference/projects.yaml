@@ -932,6 +932,9 @@ horizon:
     - name: Piet Kruithof
       email: pieter.c.kruithof-jr@hp.com
       expires-in: February 2016
+    - name: Neill Cox
+      email: neill@ingenious.com.au
+      expires-in: March 2017
 
 I18n:
   ptl:
