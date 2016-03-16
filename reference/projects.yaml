@@ -337,8 +337,6 @@ congress:
     services in order to monitor, enforce, and audit policy over
     dynamic infrastructure.
   url: https://wiki.openstack.org/wiki/Congress
-  tags:
-    - team:single-vendor
   deliverables:
     congress:
       repos:
@@ -515,7 +513,7 @@ dragonflow:
     production loads.
   url: https://wiki.openstack.org/wiki/Dragonflow
   tags:
-    - team:diverse-affiliation
+    - team:single-vendor
   deliverables:
     dragonflow:
       repos:
@@ -555,8 +553,6 @@ freezer:
     multiple use cases, including disaster recovery. These resources include
     file systems, server instances, volumes, and databases.
   url: https://wiki.openstack.org/wiki/Freezer
-  tags:
-    - team:single-vendor
   deliverables:
     freezer:
       repos:
@@ -1199,6 +1195,8 @@ Infrastructure:
     Develop and maintain the tooling and infrastructure needed to support the
     development process and general operation of the OpenStack project.
   url: http://docs.openstack.org/infra/system-config/
+  tags:
+    - team:diverse-affiliation
   deliverables:
     activity-board:
       repos:
@@ -2095,8 +2093,6 @@ kuryr:
     Bridge between container framework networking models to OpenStack
     networking abstraction.
   url: https://wiki.openstack.org/wiki/Kuryr
-  tags:
-    - team:diverse-affiliation
   deliverables:
     kuryr:
       repos:
@@ -2598,8 +2594,6 @@ OpenStack client:
     Provide a single command-line interface for OpenStack services with a
     uniform command set and format.
   url: https://wiki.openstack.org/wiki/OpenStackClient
-  tags:
-    - team:diverse-affiliation
   deliverables:
     cliff:
       repos:
@@ -2666,8 +2660,6 @@ OpenStackAnsible:
     Deploying OpenStack from source in a way that makes it scalable
     while also being simple to operate, upgrade, and grow.
   url: https://wiki.openstack.org/wiki/OpenStackAnsible
-  tags:
-    - team:single-vendor
   deliverables:
     openstack-ansible:
       repos:
@@ -3654,6 +3646,8 @@ Release Management:
     versioning rules and tools, then enabling project teams to produce
     their own releases.
   url: https://wiki.openstack.org/wiki/Release_Management
+  tags:
+    - team:diverse-affiliation
   deliverables:
     release-schedule-generator:
       repos:
@@ -3994,6 +3988,8 @@ Telemetry:
     subsequent retrieval and analysis, and trigger actions when defined
     criteria are met.
   url: https://wiki.openstack.org/wiki/Telemetry
+  tags:
+    - team:diverse-affiliation
   deliverables:
     aodh:
       repos:
