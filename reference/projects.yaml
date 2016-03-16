@@ -2156,6 +2156,7 @@ manila:
         - release:managed
         - type:service
         - assert:follows-standard-deprecation
+        - assert:supports-upgrade
     manila-image-elements:
       repos:
         - openstack/manila-image-elements
