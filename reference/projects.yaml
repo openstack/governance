@@ -751,7 +751,8 @@ heat:
       repos:
         - openstack/heat-translator
       tags:
-        - release:none
+        - release:independent
+        - type:library
     python-heatclient:
       repos:
         - openstack/python-heatclient
