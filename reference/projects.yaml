@@ -4171,6 +4171,11 @@ tripleo:
         - openstack/tripleo-specs
       tags:
         - release:none
+    tripleo-ui:
+      repos:
+        - openstack/tripleo-ui
+      tags:
+        - release:independent
     tuskar:
       repos:
         - openstack/tuskar
