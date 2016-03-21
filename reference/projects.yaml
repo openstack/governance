@@ -598,7 +598,6 @@ fuel:
         - openstack/fuel-ostf
         - openstack/fuel-qa
         - openstack/fuel-ui
-        - openstack/fuel-upgrade
         - openstack/fuel-virtualbox
         - openstack/fuel-web
         - openstack/shotgun
@@ -623,6 +622,13 @@ fuel:
         - openstack/fuel-docs
       tags:
         - release:none
+    fuel-lcm:
+      repos:
+        - openstack/fuel-octane
+        - openstack/fuel-upgrade
+        - openstack/tuning-box
+      tags:
+        - release:independent
     fuel-plugins:
       repos:
         - openstack/fuel-plugins
