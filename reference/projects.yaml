@@ -571,6 +571,12 @@ freezer:
         - openstack/freezer-web-ui
       tags:
         - release:independent
+    python-freezerclient:
+      repos:
+        - openstack/python-freezerclient
+      tags:
+        - release:cycle-with-intermediary
+        - type:library
 
 fuel:
   ptl:
