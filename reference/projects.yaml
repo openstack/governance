@@ -4269,6 +4269,7 @@ trove:
         - release:managed
         - vulnerability:managed
         - stable:follows-policy
+        - assert:follows-standard-deprecation
     trove:
       repos:
         - openstack/trove
@@ -4280,11 +4281,13 @@ trove:
         - type:service
         - vulnerability:managed
         - stable:follows-policy
+        - assert:follows-standard-deprecation
     trove-dashboard:
       repos:
         - openstack/trove-dashboard
       tags:
         - stable:follows-policy
+        - assert:follows-standard-deprecation
         - release:cycle-with-milestones
         - release:has-stable-branches
     trove-integration:
