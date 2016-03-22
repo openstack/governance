@@ -2023,6 +2023,7 @@ keystone:
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
+        - stable:follows-policy
     keystone-specs:
       repos:
         - openstack/keystone-specs
@@ -2035,6 +2036,7 @@ keystone:
         - release:cycle-with-intermediary
         - type:library
         - release:managed
+        - stable:follows-policy
     keystonemiddleware:
       repos:
         - openstack/keystonemiddleware
@@ -2043,6 +2045,7 @@ keystone:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     pycadf:
       repos:
         - openstack/pycadf
@@ -2051,6 +2054,7 @@ keystone:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     python-keystoneclient:
       repos:
         - openstack/python-keystoneclient
@@ -2060,6 +2064,7 @@ keystone:
         - type:library
         - release:managed
         - vulnerability:managed
+        - stable:follows-policy
     python-keystoneclient-kerberos:
       repos:
         - openstack/python-keystoneclient-kerberos
