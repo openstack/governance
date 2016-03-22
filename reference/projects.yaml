@@ -3681,7 +3681,7 @@ Release Management:
         - release:none
     release-test:
       repos:
-        - openstack-infra/release-test
+        - openstack/release-test
       tags:
         - release:none
     release-tools:
