@@ -801,6 +801,7 @@ horizon:
         - release:has-stable-branches
         - type:library
         - release:managed
+        - stable:follows-policy
     horizon:
       repos:
         - openstack/horizon
@@ -813,6 +814,7 @@ horizon:
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
+        - stable:follows-policy
     horizon-cisco-ui:
       repos:
         - openstack/horizon-cisco-ui
