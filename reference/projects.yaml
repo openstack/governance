@@ -4288,6 +4288,7 @@ trove:
       tags:
         - stable:follows-policy
         - assert:follows-standard-deprecation
+        - release:managed
         - release:cycle-with-milestones
         - release:has-stable-branches
     trove-integration:
