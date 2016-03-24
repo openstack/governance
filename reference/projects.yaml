@@ -324,6 +324,12 @@ Community App Catalog:
         - openstack/app-catalog-ui
       tags:
         - release:none
+    python-appcatalogclient:
+      repos:
+        - openstack/python-appcatalogclient
+      tags:
+        - type:library
+        - release:independent
 
 congress:
   ptl:
