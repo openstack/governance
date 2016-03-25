@@ -2728,6 +2728,11 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_aodh
       tags:
         - release:independent
+    openstack-ansible-os_barbican:
+      repos:
+        - openstack/openstack-ansible-os_barbican
+      tags:
+        - release:independent
     openstack-ansible-os_ceilometer:
       repos:
         - openstack/openstack-ansible-os_ceilometer
@@ -2761,6 +2766,11 @@ OpenStackAnsible:
     openstack-ansible-os_keystone:
       repos:
         - openstack/openstack-ansible-os_keystone
+      tags:
+        - release:independent
+    openstack-ansible-os_magnum:
+      repos:
+        - openstack/openstack-ansible-os_magnum
       tags:
         - release:independent
     openstack-ansible-os_neutron:
