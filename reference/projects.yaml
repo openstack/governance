@@ -2495,7 +2495,7 @@ neutron:
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
-        - release:has-stable-branches
+        - stable:follows-policy
         - type:service
         - starter-kit:compute
         - vulnerability:managed
@@ -2506,7 +2506,7 @@ neutron:
         - openstack/neutron-lib
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
+        - stable:follows-policy
         - type:library
         - vulnerability:managed
     neutron-specs:
@@ -2520,7 +2520,7 @@ neutron:
         - openstack/octavia
       tags:
         - release:independent
-        - release:has-stable-branches
+        - stable:follows-policy
     python-neutron-pd-driver:
       repos:
         - openstack/python-neutron-pd-driver
