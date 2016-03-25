@@ -774,7 +774,8 @@ heat:
       repos:
         - openstack/tosca-parser
       tags:
-        - release:none
+        - release:independent
+        - type:library
 
 horizon:
   ptl:
