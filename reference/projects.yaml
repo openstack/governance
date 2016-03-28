@@ -2497,6 +2497,7 @@ neutron:
     neutron:
       repos:
         - openstack/neutron
+        - openstack/neutron-dynamic-routing
         - openstack/neutron-fwaas
         - openstack/neutron-lbaas
         - openstack/neutron-vpnaas
