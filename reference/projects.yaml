@@ -1,8 +1,8 @@
 astara:
   ptl:
-    name: Adam Gandelman
-    irc: adam_g
-    email: adamg@ubuntu.com
+    name: Ryan Petrello
+    irc: ryanpetrello
+    email: ryan.petrello@dreamhost.com
   irc-channel: astara
   mission: >
     To provide an integrated network service orchestration (routing, firewall,
@@ -93,9 +93,9 @@ barbican:
 
 Chef OpenStack:
   ptl:
-    name: Jan Klare
-    irc: jklare
-    email: j.klare@x-ion.de
+    name: Samuel Cassiba
+    irc: sc`
+    email: sam@cassiba.com
   service: Chef cookbooks for deployment
   mission: >
     The Chef cookbooks for OpenStack allow to automate the building, operation
@@ -359,9 +359,9 @@ congress:
 
 cue:
   ptl:
-    name: Vipul Sabhaya
-    irc: vipul
-    email: vipuls@gmail.com
+    name: Min Pae
+    irc: sputnik13
+    email: sputnik13@gmail.com
   service: Message Broker service
   mission: >
     To provide a multi-tenant service that offers scalable and reliable
@@ -501,9 +501,9 @@ Documentation:
 
 dragonflow:
   ptl:
-    name: Eran Gampel
-    irc: gampel
-    email: eran.gampel@huawei.com
+    name: Gal Sagie
+    irc: gsagie
+    email: gal.sagie@huawei.com
   irc-channel: openstack-dragonflow
   mission: >
     Dragonflow is a distributed control plane implementation of Neutron.
@@ -543,9 +543,9 @@ ec2-api:
 
 freezer:
   ptl:
-    name: Fausto Marzi
-    irc: daemontool
-    email: fausto.marzi@gmail.com
+    name: Pierre Mathieu
+    irc: slashme
+    email: pi3rra@root.gg
   irc-channel: openstack-freezer
   service: Backup, Restore, and Disaster Recovery service
   mission: >
@@ -574,9 +574,9 @@ freezer:
 
 fuel:
   ptl:
-    name: Dmitry Borodaenko
-    irc: angdraug
-    email: dborodaenko@mirantis.com
+    name: Vladimir Kozhukalov
+    irc: kozhukalov
+    email:  vkozhukalov@mirantis.com
   irc-channel: fuel
   service: Deployment service
   mission: >
@@ -658,9 +658,9 @@ fuel:
 
 glance:
   ptl:
-    name: Flavio Percoco
-    irc: flaper87
-    email: flavio@redhat.com
+    name: Nikhil Komawar
+    irc: nikhil_k
+    email: nik.komawar@gmail.com
   irc-channel: openstack-glance
   service: Image service
   mission: >
@@ -709,9 +709,9 @@ glance:
 
 heat:
   ptl:
-    name: Sergey Kraynev
-    irc: skraynev
-    email: skraynev@mirantis.com
+    name: Thomas Herve
+    irc: therve
+    email: therve@redhat.com
   irc-channel: heat
   service: Orchestration service
   mission: >
@@ -775,9 +775,9 @@ heat:
 
 horizon:
   ptl:
-    name: David Lyle
-    irc: david-lyle
-    email: dklyle0@gmail.com
+    name: Rob Cresswell
+    irc: robcresswell
+    email: robert.cresswell@outlook.com
   irc-channel: openstack-horizon
   service: Dashboard
   mission: >
@@ -942,9 +942,9 @@ horizon:
 
 I18n:
   ptl:
-    name: Ying Chun Guo
-    irc: Daisy
-    email: guoyingc@cn.ibm.com
+    name: Kato Tomoyuki
+    irc: katomo
+    email: kato.tomoyuki@jp.fujitsu.com
   mission: >
     To make OpenStack ubiquitously accessible to people of
     all language backgrounds.
@@ -2110,9 +2110,9 @@ kuryr:
 
 magnum:
   ptl:
-    name: Adrian Otto
-    irc: adrian_otto
-    email: adrian.otto@rackspace.com
+    name: Hongbin Lu
+    irc: hongbin
+    email: hongbin.lu@huawei.com
   irc-channel: openstack-containers
   service: Containers service
   mission: >
@@ -2298,9 +2298,9 @@ monasca:
 
 murano:
   ptl:
-    name: Serg Melikyan
-    irc: sergmelikyan
-    email: smelikyan@mirantis.com
+    name: Kirill Zaitsev
+    irc: kzaitsev_mb
+    email: kzaitsev@mirantis.com
   irc-channel: murano
   service: Application Catalog service
   mission: >
@@ -2542,9 +2542,9 @@ neutron:
 
 nova:
   ptl:
-    name: John Garbutt
-    irc: johnthetubaguy
-    email: john@johngarbutt.com
+    name: Matt Riedemann
+    irc: mriedem
+    email: mriedem@us.ibm.com
   irc-channel: openstack-nova
   service: Compute service
   mission: >
@@ -2633,7 +2633,7 @@ OpenStack UX:
   ptl:
     name: Piet Kruithof
     irc: Piet
-    email: pieter.kruithof.jr@intel.com
+    email: pkruithofjr@gmail.com
   irc-channel: openstack-ux
   mission: >
     The mission of the UX Program is to help the teams improve the overall
@@ -2849,9 +2849,9 @@ OpenStackAnsible:
 
 oslo:
   ptl:
-    name: Davanum Srinivas
-    irc: dims
-    email: davanum@gmail.com
+    name: Josh Harlow
+    irc: harlowja
+    email: harlowja@gmail.com
   irc-channel: openstack-oslo
   service: Common libraries
   mission: >
@@ -3144,9 +3144,9 @@ oslo:
 
 Packaging-deb:
   ptl:
-    name: Thomas Goirand
-    irc: zigo
-    email: zigo@debian.org
+    name: Monty Taylor
+    irc: mordred
+    email: monty@inaugust.com
   mission: >
     Maintain packages for Debian (and other deb based distributions) as a
     community.
@@ -3509,9 +3509,9 @@ Puppet OpenStack:
 
 Quality Assurance:
   ptl:
-    name: Matthew Treinish
-    irc: mtreinish
-    email: mtreinish@kortar.org
+    name: Ken'ichi Ohmichi
+    irc: oomichi
+    email: ken-oomichi@wx.jp.nec.com
   irc-channel: openstack-qa
   mission: >
     Develop, maintain, and initiate tools and plans to ensure the upstream
@@ -3712,9 +3712,9 @@ Release Management:
 
 sahara:
   ptl:
-    name: Sergey Lukjanov
-    irc: SergeyLukjanov
-    email: slukjanov@mirantis.com
+    name: Vitaly Gridnev
+    irc: vgridnev
+    email: vgridnev@mirantis.com
   irc-channel: openstack-sahara
   service: Data Processing service
   mission: >
@@ -3997,9 +3997,9 @@ tacker:
 
 Telemetry:
   ptl:
-    name: Gordon Chung
-    irc: gordc
-    email: gord@live.ca
+    name: Julien Danjou
+    irc: jd___
+    email: julien@danjou.info
   irc-channel: openstack-telemetry
   service: Telemetry service
   mission: >
@@ -4079,9 +4079,9 @@ Telemetry:
 
 tripleo:
   ptl:
-    name: Dan Prince
-    irc: dprince
-    email: dprince@redhat.com
+    name: Steven Hardy
+    irc: shardy
+    email: shardy@redhat.com
   irc-channel: tripleo
   service: Deployment service
   mission: >
@@ -4184,9 +4184,9 @@ tripleo:
 
 trove:
   ptl:
-    name: Craig Vyvial
-    irc: cp16net
-    email: cp16net@gmail.com
+    name: Amrith Kumar
+    irc: amrith
+    email: amrith@tesora.com
   irc-channel: openstack-trove
   service: Database service
   mission: >
