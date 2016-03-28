@@ -395,6 +395,7 @@ designate:
     irc: mugsie
     email: graham.hayes@hpe.com
   service: DNS service
+  irc-channel: openstack-dns
   mission: >
     To provide scalable, on demand, self service access to authoritative DNS
     services, in technology-agnostic manner.
