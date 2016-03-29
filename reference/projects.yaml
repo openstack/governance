@@ -4081,7 +4081,6 @@ Telemetry:
       tags:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
-        - assert:supports-rolling-upgrade
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
