@@ -3959,9 +3959,9 @@ solum:
 
 Stable branch maintenance:
   ptl:
-    name: Matt Riedemann
-    irc: mriedem
-    email: mriedem@linux.vnet.ibm.com
+    name: Tony Breeds
+    irc: tonyb
+    email: tony@bakeyournoodle.com
   irc-channel: openstack-stable
   mission: >
     Defining, enforcing and accompanying project teams in the application
