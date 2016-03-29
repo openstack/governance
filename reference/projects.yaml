@@ -3830,6 +3830,11 @@ searchlight:
       tags:
         - type:library
         - release:cycle-with-intermediary
+    searchlight-ui:
+      repos:
+        - openstack/searchlight-ui
+      tags:
+        - release:cycle-with-intermediary
 
 Security:
   ptl:
