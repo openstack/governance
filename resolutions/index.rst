@@ -9,7 +9,7 @@ be expressed as a resolution.
 ====
 
 .. toctree::
-      :maxdepth: 1
+   :maxdepth: 1
    :glob:
 
    2016*
