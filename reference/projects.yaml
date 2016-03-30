@@ -2109,8 +2109,8 @@ kuryr:
     email: gal.sagie@huawei.com
   irc-channel: openstack-kuryr
   mission: >
-    Bridge between container framework networking models to OpenStack
-    networking abstraction.
+    Bridge between container framework networking and storage models
+    to OpenStack networking and storage abstractions.
   url: https://wiki.openstack.org/wiki/Kuryr
   deliverables:
     kuryr:
