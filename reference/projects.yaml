@@ -3391,6 +3391,11 @@ Puppet OpenStack:
         - openstack/puppet-ceilometer
       tags:
         - release:independent
+    puppet-ceph:
+      repos:
+        - openstack/puppet-ceph
+      tags:
+        - release:independent
     puppet-cinder:
       repos:
         - openstack/puppet-cinder
