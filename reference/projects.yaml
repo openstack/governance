@@ -4263,6 +4263,7 @@ trove:
         - type:library
         - release:managed
         - vulnerability:managed
+        - stable:follows-policy
     trove:
       repos:
         - openstack/trove
@@ -4273,10 +4274,12 @@ trove:
         - release:has-stable-branches
         - type:service
         - vulnerability:managed
+        - stable:follows-policy
     trove-dashboard:
       repos:
         - openstack/trove-dashboard
       tags:
+        - stable:follows-policy
         - release:cycle-with-milestones
         - release:has-stable-branches
     trove-integration:
