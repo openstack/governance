@@ -2475,7 +2475,7 @@ neutron:
       repos:
         - openstack/networking-ovn
       tags:
-        - release:independent
+        - release:cycle-with-milestones
     networking-plumgrid:
       repos:
         - openstack/networking-plumgrid
