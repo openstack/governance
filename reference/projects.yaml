@@ -416,6 +416,13 @@ designate:
         - openstack/designate-specs
       tags:
         - release:none
+    designate-tempest-plugin:
+      repos:
+        - openstack/designate-tempest-plugin
+      tags:
+        - release:independent
+        - type:library
+        - release:managed
     python-designateclient:
       repos:
         - openstack/python-designateclient
