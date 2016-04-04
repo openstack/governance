@@ -3804,6 +3804,7 @@ sahara:
         - release:has-stable-branches
         - type:service
         - vulnerability:managed
+        - assert:supports-upgrade
     sahara-tests:
       repos:
         - openstack/sahara-tests
