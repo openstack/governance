@@ -705,6 +705,7 @@ glance:
         - release:cycle-with-intermediary
         - type:library
         - release:managed
+        - vulnerability:managed
         - stable:follows-policy
     python-glanceclient:
       repos:
