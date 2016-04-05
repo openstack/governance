@@ -70,12 +70,6 @@ barbican:
       tags:
         - release:independent
         - type:library
-    kite:
-      repos:
-        - openstack/kite
-      tags:
-        - type:service
-        - release:independent
     python-barbicanclient:
       repos:
         - openstack/python-barbicanclient
@@ -84,12 +78,6 @@ barbican:
         - release:has-stable-branches
         - release:managed
         - type:library
-    python-kiteclient:
-      repos:
-        - openstack/python-kiteclient
-      tags:
-        - type:library
-        - release:independent
 
 Chef OpenStack:
   ptl:
