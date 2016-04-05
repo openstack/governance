@@ -17,8 +17,9 @@ OpenStack Project Teams
 
 OpenStack "Project Teams" are groups of people dedicated to the completion of
 the OpenStack project mission, which is ''to produce the ubiquitous Open Source
-Cloud Computing platform that will meet the needs of public and private clouds
-regardless of size, by being simple to implement and massively scalable''.
+Cloud Computing platform that enables building interoperable public and private
+clouds regardless of size, by being simple to implement and massively scalable
+while serving the cloud users' needs.''
 Project Teams may create any code repository and produce any deliverable they
 deem necessary to achieve their goals.
 
