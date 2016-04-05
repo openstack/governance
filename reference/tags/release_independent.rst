@@ -44,6 +44,18 @@ between the :ref:`tag-release:cycle-with-milestones`,
 :ref:`tag-release:cycle-with-intermediary`, :ref:`tag-release:independent`
 and :ref:`tag-release:none` models.
 
+.. warning::
+
+   By adopting this tag, projects indicate that they **are not part of
+   any OpenStack release** and will therefore **not be listed** on the
+   release series-specific pages on the `releases website`_. Projects
+   that want to be listed along with other parts of the OpenStack
+   release are encouraged to adopt a model such as
+   :ref:`tag-release:cycle-with-intermediary` and follow the release
+   schedule.
+
+.. _releases website: http://releases.openstack.org
+
 
 Requirements
 ============
