@@ -44,7 +44,11 @@ repo_validators = [
 
 
 def main():
-    filename = os.path.abspath('reference/projects.yaml')
+    script_path = os.path.abspath(os.path.dirname(__file__))
+    filename = os.path.abspath(os.path.join(script_path,
+                               '../reference/projects.yaml'))
+    if not os.path.isfile(filename):
+        sys.exit("Projects.yaml was not found at %s" % (filename))
     with open(filename, 'r') as f:
         teams = yaml.load(f.read())
     for team in teams:
