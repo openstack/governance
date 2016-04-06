@@ -4028,6 +4028,7 @@ tacker:
     tacker:
       repos:
         - openstack/tacker
+        - openstack/tacker-horizon
       tags:
         - release:cycle-with-intermediary
         - type:service
@@ -4037,11 +4038,6 @@ tacker:
       tags:
         - release:cycle-with-intermediary
         - type:library
-    tacker-horizon:
-      repos:
-        - openstack/tacker-horizon
-      tags:
-        - release:cycle-with-intermediary
     tacker-specs:
       repos:
         - openstack/tacker-specs
