@@ -2191,7 +2191,7 @@ mistral:
   ptl:
     name: Renat Akhmerov
     irc: rakhmerov
-    email: rakhmerov@mirantis.com
+    email: renat.akhmerov@gmail.com
   irc-channel: openstack-mistral
   service: Workflow service
   mission: >
