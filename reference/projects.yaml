@@ -2082,7 +2082,7 @@ kolla:
     name: Steven Dake
     irc: sdake
     email: stdake@cisco.com
-  irc-channel: kolla
+  irc-channel: openstack-kolla
   mission: >
     To provide production-ready containers and deployment tools for operating
     OpenStack clouds.
