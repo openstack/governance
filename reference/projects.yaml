@@ -4229,6 +4229,11 @@ tripleo:
         - openstack/tripleo-puppet-elements
       tags:
         - release:independent
+    tripleo-quickstart:
+      repos:
+        - openstack/tripleo-quickstart
+      tags:
+        - release:independent
     tripleo-specs:
       repos:
         - openstack/tripleo-specs
