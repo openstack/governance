@@ -1346,6 +1346,11 @@ Infrastructure:
         - openstack-infra/jenkins-job-builder
       tags:
         - release:independent
+    js-afs-blob-store:
+      repos:
+        - openstack-infra/js-afs-blob-store
+      tags:
+        - release:independent
     lodgeit:
       repos:
         - openstack-infra/lodgeit
