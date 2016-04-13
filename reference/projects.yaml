@@ -2312,6 +2312,11 @@ monasca:
         - openstack/monasca-ceilometer
       tags:
         - release:cycle-with-intermediary
+    monasca-transform:
+      repos:
+        - openstack/monasca-transform
+      tags:
+        - release:cycle-with-intermediary
 
 murano:
   ptl:
