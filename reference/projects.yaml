@@ -3810,6 +3810,7 @@ sahara:
         - release:has-stable-branches
         - type:service
         - vulnerability:managed
+        - assert:follows-standard-deprecation
         - assert:supports-upgrade
     sahara-tests:
       repos:
