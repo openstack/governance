@@ -2804,6 +2804,11 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_nova
       tags:
         - release:independent
+    openstack-ansible-os_rally:
+      repos:
+        - openstack/openstack-ansible-os_rally
+      tags:
+        - release:independent
     openstack-ansible-os_swift:
       repos:
         - openstack/openstack-ansible-os_swift
