@@ -601,7 +601,7 @@ fuel:
       tags:
         - type:service
         - assert:supports-upgrade
-        - release:independent
+        - release:cycle-trailing
     fuel-dev-tools:
       repos:
         - openstack/fuel-dev-tools
@@ -634,7 +634,7 @@ fuel:
       repos:
         - openstack/fuel-plugin-murano
       tags:
-        - release:independent
+        - release:cycle-trailing
     fuel-specs:
       repos:
         - openstack/fuel-specs
