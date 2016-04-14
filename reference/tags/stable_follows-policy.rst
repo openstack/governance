@@ -33,8 +33,7 @@ the CI system on their stable branches...
 
 That creates confusion for packagers and deployers of our software, which
 no longer know what to expect from a stable branch. Having stable branches
-(as described by the :ref:`tag-release:has-stable-branches` tag) is no longer
-a guarantee of an up-to-date source of safe fixes.
+is no longer a guarantee of an up-to-date source of safe fixes.
 
 To replace it, this tag is granted by the stable branch maintenance team only
 to deliverables which have stable branches maintained following the common

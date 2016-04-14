@@ -41,7 +41,6 @@ Release Management Tags
    release_cycle-with-intermediary
    release_independent
    release_none
-   release_has-stable-branches
    release_managed
    type_library
    type_service
