@@ -2774,6 +2774,11 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_glance
       tags:
         - release:independent
+    openstack-ansible-os_gnocchi:
+      repos:
+        - openstack/openstack-ansible-os_gnocchi
+      tags:
+        - release:independent
     openstack-ansible-os_heat:
       repos:
         - openstack/openstack-ansible-os_heat
