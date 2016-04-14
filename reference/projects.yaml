@@ -2318,6 +2318,11 @@ monasca:
         - openstack/monasca-transform
       tags:
         - release:cycle-with-intermediary
+    monasca-analytics:
+      repos:
+        - openstack/monasca-analytics
+      tags:
+        - release:independent
 
 murano:
   ptl:
