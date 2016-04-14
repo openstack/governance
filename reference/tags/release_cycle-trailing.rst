@@ -4,26 +4,31 @@
   Unported License.
   http://creativecommons.org/licenses/by/3.0/legalcode
 
-.. _`tag-release:independent`:
+.. _`tag-release:cycle-trailing`:
 
-===================
-release:independent
-===================
+========================
+ release:cycle-trailing
+========================
 
 This tag is part of the release category of tags, describing the release
-model for a given deliverable. Development in OpenStack is generally organized
-around 6-month cycles (like "kilo"), which involves releasing a "final"
-version at the very end of the development cycle. However, some projects opt
-to completely bypass the 6-month cycle and release independently. That is
-for example the case of projects that support the development infrastructure.
+model for a given deliverable. Development in OpenStack is organized
+around 6-month cycles (like "kilo"), generally with a "final" version at
+the very end of the development cycle. Some projects will publish a single
+release at the end of the cycle (and publish development milestones at
+predetermined times in the cycle schedule), while some others will release
+intermediary releases.
 
-The "release:independent" tag describes such projects.
-
+The "release:cycle-trailing" tag describes projects that follow the
+release cycle, but because they rely on the other projects being
+completed may not always publish their final release at the same time
+as those projects. For example, projects related to packaging or
+deploying OpenStack components need the final releases of those
+components to be available before they can run their own final tests.
 
 Application to current projects
 ===============================
 
-.. tagged-projects:: release:independent
+.. tagged-projects:: release:cycle-trailing
 
 
 Rationale
@@ -52,22 +57,20 @@ choose between the :ref:`tag-release:cycle-with-milestones`,
 
 .. warning::
 
-   By adopting this tag, projects indicate that they **are not part of
-   any OpenStack release** and will therefore **not be listed** on the
-   release series-specific pages on the `releases website`_. Projects
-   that want to be listed along with other parts of the OpenStack
-   release are encouraged to adopt a model such as
-   :ref:`tag-release:cycle-with-intermediary` and follow the release
-   schedule.
-
-.. _releases website: http://releases.openstack.org
-
+   This release model is not intended for use by components that have
+   programmatic dependencies on each other, such as one service that
+   calls another or a library used by multiple services. It is
+   intended for use by projects that truly cannot complete their work
+   without a "final" version of their dependency.
 
 Requirements
 ============
 
-* "release:independent" projects produce releases from time to time.
-
+* "release:cycle-trailing" projects commit to produce a release no
+  later than 2 weeks after the end of the 6-month development cycle.
+* Within the cycle, projects using this release model will produce
+  intermediate or milestone releases leading up to their final
+  release.
 
 Tag application process
 =======================
