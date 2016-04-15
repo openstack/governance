@@ -2150,12 +2150,12 @@ magnum:
       repos:
         - openstack/magnum-ui
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
     python-magnumclient:
       repos:
         - openstack/python-magnumclient
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
         - type:library
 
 manila:
