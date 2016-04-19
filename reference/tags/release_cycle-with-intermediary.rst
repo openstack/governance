@@ -37,18 +37,21 @@ time, providing a convenient reference point for downstream teams (stable
 branch maintenance, vulnerability management) and downstream users (in
 particular packagers of OpenStack distributions).
 
-This "final" release may be the only release of the development cycle, in
-which case the project publishes intermediary "development milestones" on
-a time-based schedule during the cycle. Or the project may release more often
-and make intermediary releases in the middle of the cycle.
+This "final" release may be the only release of the development cycle,
+in which case the project publishes intermediary "development
+milestones" on a time-based schedule during the cycle. Or the project
+may release more often and make intermediary releases in the middle of
+the cycle. Other projects trail the main release deadline, waiting for
+the final releases of components on which they rely.
 
 Describing which projects commit to follow which model is therefore a useful
 piece of information to provide to our users.
 
-A given deliverable can't have more than one model: it therefore must choose
-between the :ref:`tag-release:cycle-with-milestones`,
-:ref:`tag-release:cycle-with-intermediary`, :ref:`tag-release:independent`
-and :ref:`tag-release:none` models.
+A given deliverable can't have more than one model: it therefore must
+choose between the :ref:`tag-release:cycle-with-milestones`,
+:ref:`tag-release:cycle-with-intermediary`,
+:ref:`tag-release:independent`, :ref:`tag-release:cycle-trailing`, and
+:ref:`tag-release:none` models.
 
 
 Requirements

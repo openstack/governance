@@ -39,6 +39,7 @@ Release Management Tags
 
    release_cycle-with-milestones
    release_cycle-with-intermediary
+   release_cycle-trailing
    release_independent
    release_none
    release_managed
