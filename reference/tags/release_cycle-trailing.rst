@@ -61,7 +61,7 @@ choose between the :ref:`tag-release:cycle-with-milestones`,
    programmatic dependencies on each other, such as one service that
    calls another or a library used by multiple services. It is
    intended for use by projects that truly cannot complete their work
-   without a "final" version of their dependency.
+   without "final" versions of their dependencies.
 
 Requirements
 ============
