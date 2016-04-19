@@ -21,7 +21,6 @@ and reorder projects.yaml
 
 """
 
-import stable
 import teamstats
 
 import requests
@@ -38,9 +37,7 @@ team_validators = [
 ]
 
 # List of modules to validate repository based tags
-repo_validators = [
-    stable.ValidateStableBranches,
-]
+repo_validators = [ ]
 
 
 def main():

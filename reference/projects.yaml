@@ -17,25 +17,21 @@ astara:
         - openstack/astara
       tags:
         - release:cycle-with-milestones
-        - release:has-stable-branches
     astara-appliance:
       repos:
         - openstack/astara-appliance
       tags:
         - release:cycle-with-milestones
-        - release:has-stable-branches
     astara-horizon:
       repos:
         - openstack/astara-horizon
       tags:
         - release:cycle-with-milestones
-        - release:has-stable-branches
     astara-neutron:
       repos:
         - openstack/astara-neutron
       tags:
         - release:cycle-with-milestones
-        - release:has-stable-branches
 
 barbican:
   ptl:
@@ -56,7 +52,6 @@ barbican:
         - openstack/barbican
       tags:
         - release:cycle-with-milestones
-        - release:has-stable-branches
         - release:managed
         - type:service
     barbican-specs:
@@ -75,7 +70,6 @@ barbican:
         - openstack/python-barbicanclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - release:managed
         - type:library
 
@@ -208,7 +202,6 @@ cinder:
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
-        - release:has-stable-branches
         - type:service
         - vulnerability:managed
         - assert:follows-standard-deprecation
@@ -230,7 +223,6 @@ cinder:
         - openstack/python-brick-cinderclient-ext
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
     python-cinderclient:
@@ -238,7 +230,6 @@ cinder:
         - openstack/python-cinderclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - vulnerability:managed
@@ -336,7 +327,6 @@ congress:
       repos:
         - openstack/congress
       tags:
-        - release:has-stable-branches
         - release:cycle-with-milestones
         - type:service
     congress-specs:
@@ -401,7 +391,6 @@ designate:
         - openstack/designate-dashboard
       tags:
         - release:cycle-with-milestones
-        - release:has-stable-branches
         - release:managed
         - type:service
         - stable:follows-policy
@@ -422,7 +411,6 @@ designate:
         - openstack/python-designateclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - release:managed
         - type:library
         - stable:follows-policy
@@ -477,7 +465,6 @@ Documentation:
       repos:
         - openstack/openstack-manuals
       tags:
-        - release:has-stable-branches
         - release:none
     openstackdocstheme:
       repos:
@@ -495,7 +482,6 @@ Documentation:
       repos:
         - openstack/training-labs
       tags:
-        - release:has-stable-branches
         - release:cycle-with-milestones
     training-guides:
       repos:
@@ -524,7 +510,6 @@ dragonflow:
         - openstack/dragonflow
       tags:
         - release:independent
-        - release:has-stable-branches
 
 ec2-api:
   ptl:
@@ -615,7 +600,6 @@ fuel:
         - type:service
         - assert:supports-upgrade
         - release:independent
-        - release:has-stable-branches
     fuel-dev-tools:
       repos:
         - openstack/fuel-dev-tools
@@ -739,7 +723,6 @@ heat:
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
-        - release:has-stable-branches
         - type:service
         - vulnerability:managed
         - assert:follows-standard-deprecation
@@ -775,7 +758,6 @@ heat:
         - openstack/python-heatclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - vulnerability:managed
@@ -811,7 +793,6 @@ horizon:
         - openstack/django_openstack_auth
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -822,7 +803,6 @@ horizon:
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
-        - release:has-stable-branches
         - type:service
         - vulnerability:managed
         - assert:follows-standard-deprecation
@@ -838,7 +818,6 @@ horizon:
         - openstack/manila-ui
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - release:managed
     xstatic-angular:
       repos:
@@ -1937,7 +1916,6 @@ ironic:
         - tc-approved-release
         - release:managed
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:service
     ironic-inspector:
       repos:
@@ -1945,7 +1923,6 @@ ironic:
       tags:
         - release:managed
         - release:cycle-with-intermediary
-        - release:has-stable-branches
     ironic-inspector-specs:
       repos:
         - openstack/ironic-inspector-specs
@@ -1964,7 +1941,6 @@ ironic:
       tags:
         - release:managed
         - release:cycle-with-intermediary
-        - release:has-stable-branches
     ironic-specs:
       repos:
         - openstack/ironic-specs
@@ -1992,14 +1968,12 @@ ironic:
       tags:
         - release:managed
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
     python-ironicclient:
       repos:
         - openstack/python-ironicclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
     python-wsmanclient:
@@ -2030,7 +2004,6 @@ keystone:
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
-        - release:has-stable-branches
         - type:service
         - starter-kit:compute
         - vulnerability:managed
@@ -2055,7 +2028,6 @@ keystone:
         - openstack/keystonemiddleware
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -2064,7 +2036,6 @@ keystone:
         - openstack/pycadf
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -2073,7 +2044,6 @@ keystone:
         - openstack/python-keystoneclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - vulnerability:managed
@@ -2178,7 +2148,6 @@ manila:
         - openstack/manila
       tags:
         - release:cycle-with-milestones
-        - release:has-stable-branches
         - release:managed
         - type:service
         - assert:follows-standard-deprecation
@@ -2187,13 +2156,11 @@ manila:
         - openstack/manila-image-elements
       tags:
         - release:independent
-        - release:has-stable-branches
     python-manilaclient:
       repos:
         - openstack/python-manilaclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - release:managed
         - type:library
   extra-atcs:
@@ -2223,7 +2190,6 @@ mistral:
       tags:
         - type:service
         - release:cycle-with-milestones
-        - release:has-stable-branches
     mistral-specs:
       repos:
         - openstack/mistral-specs
@@ -2235,7 +2201,6 @@ mistral:
       tags:
         - type:library
         - release:cycle-with-intermediary
-        - release:has-stable-branches
 
 monasca:
   ptl:
@@ -2339,26 +2304,22 @@ murano:
         - openstack/murano
       tags:
         - release:cycle-with-milestones
-        - release:has-stable-branches
         - type:service
     murano-agent:
       repos:
         - openstack/murano-agent
       tags:
         - release:cycle-with-milestones
-        - release:has-stable-branches
     murano-apps:
       repos:
         - openstack/murano-apps
       tags:
         - release:cycle-with-milestones
-        - release:has-stable-branches
     murano-dashboard:
       repos:
         - openstack/murano-dashboard
       tags:
         - release:cycle-with-milestones
-        - release:has-stable-branches
     murano-deployment:
       repos:
         - openstack/murano-deployment
@@ -2374,7 +2335,6 @@ murano:
         - openstack/python-muranoclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
 
 neutron:
@@ -2401,7 +2361,6 @@ neutron:
         - openstack/networking-arista
       tags:
         - release:independent
-        - release:has-stable-branches
     networking-bagpipe:
       repos:
         - openstack/networking-bagpipe
@@ -2422,7 +2381,6 @@ neutron:
         - openstack/networking-cisco
       tags:
         - release:independent
-        - release:has-stable-branches
     networking-fortinet:
       repos:
         - openstack/networking-fortinet
@@ -2433,7 +2391,6 @@ neutron:
         - openstack/networking-hyperv
       tags:
         - release:independent
-        - release:has-stable-branches
     networking-infoblox:
       repos:
         - openstack/networking-infoblox
@@ -2449,7 +2406,6 @@ neutron:
         - openstack/networking-l2gw
       tags:
         - release:independent
-        - release:has-stable-branches
     networking-lenovo:
       repos:
         - openstack/networking-lenovo
@@ -2460,19 +2416,16 @@ neutron:
         - openstack/networking-midonet
       tags:
         - release:independent
-        - release:has-stable-branches
     networking-odl:
       repos:
         - openstack/networking-odl
       tags:
         - release:independent
-        - release:has-stable-branches
     networking-ofagent:
       repos:
         - openstack/networking-ofagent
       tags:
         - release:independent
-        - release:has-stable-branches
     networking-onos:
       repos:
         - openstack/networking-onos
@@ -2488,13 +2441,11 @@ neutron:
         - openstack/networking-plumgrid
       tags:
         - release:independent
-        - release:has-stable-branches
     networking-powervm:
       repos:
         - openstack/networking-powervm
       tags:
         - release:independent
-        - release:has-stable-branches
     networking-sfc:
       repos:
         - openstack/networking-sfc
@@ -2505,7 +2456,6 @@ neutron:
         - openstack/networking-vsphere
       tags:
         - release:independent
-        - release:has-stable-branches
     neutron:
       repos:
         - openstack/neutron
@@ -2552,7 +2502,6 @@ neutron:
         - openstack/python-neutronclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - vulnerability:managed
@@ -2561,7 +2510,6 @@ neutron:
         - openstack/vmware-nsx
       tags:
         - release:independent
-        - release:has-stable-branches
 
 nova:
   ptl:
@@ -2585,7 +2533,6 @@ nova:
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
-        - release:has-stable-branches
         - type:service
         - starter-kit:compute
         - vulnerability:managed
@@ -2603,7 +2550,6 @@ nova:
         - openstack/python-novaclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - vulnerability:managed
@@ -2613,7 +2559,6 @@ nova:
         - openstack/os-vif
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
 
 OpenStack client:
@@ -2633,7 +2578,6 @@ OpenStack client:
         - openstack/cliff
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
     os-client-config:
@@ -2641,7 +2585,6 @@ OpenStack client:
         - openstack/os-client-config
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - release:managed
         - type:library
     python-openstackclient:
@@ -2649,7 +2592,6 @@ OpenStack client:
         - openstack/python-openstackclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - release:managed
 
 OpenStack UX:
@@ -2910,7 +2852,6 @@ oslo:
         - openstack/automaton
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - release:managed
         - type:library
         - stable:follows-policy
@@ -2924,7 +2865,6 @@ oslo:
         - openstack/debtcollector
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -2953,7 +2893,6 @@ oslo:
         - openstack/futurist
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -2962,7 +2901,6 @@ oslo:
         - openstack/mox3
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -2975,7 +2913,7 @@ oslo:
       repos:
         - openstack/oslo-incubator
       tags:
-        - release:has-stable-branches
+        - release:none
     oslo-specs:
       repos:
         - openstack/oslo-specs
@@ -2986,7 +2924,6 @@ oslo:
         - openstack/oslo.cache
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -2995,7 +2932,6 @@ oslo:
         - openstack/oslo.concurrency
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3004,7 +2940,6 @@ oslo:
         - openstack/oslo.config
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - vulnerability:managed
@@ -3014,7 +2949,6 @@ oslo:
         - openstack/oslo.context
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3023,7 +2957,6 @@ oslo:
         - openstack/oslo.db
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3032,7 +2965,6 @@ oslo:
         - openstack/oslo.i18n
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3041,7 +2973,6 @@ oslo:
         - openstack/oslo.log
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3050,7 +2981,6 @@ oslo:
         - openstack/oslo.messaging
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
     oslo.middleware:
@@ -3058,7 +2988,6 @@ oslo:
         - openstack/oslo.middleware
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3067,7 +2996,6 @@ oslo:
         - openstack/oslo.policy
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3076,7 +3004,6 @@ oslo:
         - openstack/oslo.privsep
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3085,7 +3012,6 @@ oslo:
         - openstack/oslo.reports
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3094,7 +3020,6 @@ oslo:
         - openstack/oslo.rootwrap
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3103,7 +3028,6 @@ oslo:
         - openstack/oslo.serialization
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3112,7 +3036,6 @@ oslo:
         - openstack/oslo.service
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3121,7 +3044,6 @@ oslo:
         - openstack/oslo.utils
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3130,7 +3052,6 @@ oslo:
         - openstack/oslo.versionedobjects
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3139,7 +3060,6 @@ oslo:
         - openstack/oslo.vmware
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3148,7 +3068,6 @@ oslo:
         - openstack/oslosphinx
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3157,7 +3076,6 @@ oslo:
         - openstack/oslotest
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3166,7 +3084,6 @@ oslo:
         - openstack/osprofiler
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3191,7 +3108,6 @@ oslo:
         - openstack/stevedore
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3200,7 +3116,6 @@ oslo:
         - openstack/taskflow
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3209,7 +3124,6 @@ oslo:
         - openstack/tooz
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - stable:follows-policy
@@ -3612,7 +3526,6 @@ Quality Assurance:
       repos:
         - openstack-dev/devstack
       tags:
-        - release:has-stable-branches
         - release:none
     devstack-plugin-ceph:
       repos:
@@ -3638,7 +3551,6 @@ Quality Assurance:
       repos:
         - openstack-dev/grenade
       tags:
-        - release:has-stable-branches
         - release:none
     hacking:
       repos:
@@ -3780,7 +3692,6 @@ Release Management:
       repos:
         - openstack/requirements
       tags:
-        - release:has-stable-branches
         - release:none
     specs-cookiecutter:
       repos:
@@ -3809,7 +3720,6 @@ sahara:
         - openstack/python-saharaclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - vulnerability:managed
@@ -3823,7 +3733,6 @@ sahara:
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
-        - release:has-stable-branches
         - type:service
         - vulnerability:managed
         - assert:follows-standard-deprecation
@@ -3833,7 +3742,6 @@ sahara:
         - openstack/sahara-tests
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
     sahara-specs:
@@ -4020,7 +3928,6 @@ swift:
         - openstack/python-swiftclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - vulnerability:managed
@@ -4031,7 +3938,6 @@ swift:
         - tc-approved-release
         - release:managed
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:service
         - vulnerability:managed
         - assert:follows-standard-deprecation
@@ -4102,7 +4008,6 @@ Telemetry:
       tags:
         - assert:follows-standard-deprecation
         - release:managed
-        - release:has-stable-branches
         - release:cycle-with-milestones
         - type:service
     ceilometer:
@@ -4114,7 +4019,6 @@ Telemetry:
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
-        - release:has-stable-branches
         - type:service
     ceilometer-powervm:
       repos:
@@ -4131,7 +4035,6 @@ Telemetry:
         - openstack/ceilometermiddleware
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
     gnocchi:
@@ -4144,14 +4047,12 @@ Telemetry:
         - openstack/python-aodhclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
     python-ceilometerclient:
       repos:
         - openstack/python-ceilometerclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
     python-gnocchiclient:
@@ -4289,7 +4190,6 @@ trove:
         - openstack/python-troveclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
         - release:managed
         - vulnerability:managed
@@ -4302,7 +4202,6 @@ trove:
         - tc-approved-release
         - release:managed
         - release:cycle-with-milestones
-        - release:has-stable-branches
         - type:service
         - vulnerability:managed
         - stable:follows-policy
@@ -4315,7 +4214,6 @@ trove:
         - assert:follows-standard-deprecation
         - release:managed
         - release:cycle-with-milestones
-        - release:has-stable-branches
     trove-integration:
       repos:
         - openstack/trove-integration
@@ -4346,7 +4244,6 @@ winstackers:
         - openstack/os-win
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - type:library
 
 zaqar:
@@ -4368,7 +4265,6 @@ zaqar:
         - openstack/python-zaqarclient
       tags:
         - release:cycle-with-intermediary
-        - release:has-stable-branches
         - release:managed
         - type:library
     zaqar:
@@ -4376,7 +4272,6 @@ zaqar:
         - openstack/zaqar
       tags:
         - release:cycle-with-milestones
-        - release:has-stable-branches
         - release:managed
         - type:service
     zaqar-specs:
