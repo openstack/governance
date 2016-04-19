@@ -71,6 +71,8 @@ Requirements
 * Within the cycle, projects using this release model will produce
   intermediate or milestone releases leading up to their final
   release.
+* Release tags for deliverables using this tag are reviewed and
+  applied by the Release Management team.
 
 Tag application process
 =======================
