@@ -2008,6 +2008,11 @@ ironic:
       tags:
         - release:managed
         - type:library
+    virtualbmc:
+      repos:
+        - openstack/virtualbmc
+      tags:
+        - release:independent
 
 keystone:
   ptl:
