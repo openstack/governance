@@ -2761,11 +2761,6 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_swift
       tags:
         - release:independent
-    openstack-ansible-os_swift_sync:
-      repos:
-        - openstack/openstack-ansible-os_swift_sync
-      tags:
-        - release:independent
     openstack-ansible-os_tempest:
       repos:
         - openstack/openstack-ansible-os_tempest
