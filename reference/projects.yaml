@@ -4042,7 +4042,7 @@ tripleo:
       repos:
         - openstack/instack
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
         - type:library
     instack-undercloud:
       repos:
@@ -4053,27 +4053,27 @@ tripleo:
       repos:
         - openstack/os-apply-config
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
     os-cloud-config:
       repos:
         - openstack/os-cloud-config
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
     os-collect-config:
       repos:
         - openstack/os-collect-config
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
     os-net-config:
       repos:
         - openstack/os-net-config
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
     os-refresh-config:
       repos:
         - openstack/os-refresh-config
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
     python-tripleoclient:
       repos:
         - openstack/python-tripleoclient
@@ -4089,7 +4089,7 @@ tripleo:
       repos:
         - openstack/tripleo-docs
       tags:
-        - release:independent
+        - release:none
     tripleo-heat-templates:
       repos:
         - openstack/tripleo-heat-templates
@@ -4099,7 +4099,7 @@ tripleo:
       repos:
         - openstack/tripleo-image-elements
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
     tripleo-incubator:
       repos:
         - openstack/tripleo-incubator
@@ -4114,7 +4114,7 @@ tripleo:
       repos:
         - openstack/tripleo-quickstart
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
     tripleo-specs:
       repos:
         - openstack/tripleo-specs
@@ -4124,7 +4124,7 @@ tripleo:
       repos:
         - openstack/tripleo-ui
       tags:
-        - release:independent
+        - release:cycle-with-intermediary
 
 trove:
   ptl:
