@@ -2356,16 +2356,6 @@ neutron:
   tags:
     - team:diverse-affiliation
   deliverables:
-    networking-ale-omniswitch:
-      repos:
-        - openstack/networking-ale-omniswitch
-      tags:
-        - release:independent
-    networking-arista:
-      repos:
-        - openstack/networking-arista
-      tags:
-        - release:independent
     networking-bagpipe:
       repos:
         - openstack/networking-bagpipe
@@ -2379,31 +2369,6 @@ neutron:
     networking-calico:
       repos:
         - openstack/networking-calico
-      tags:
-        - release:independent
-    networking-cisco:
-      repos:
-        - openstack/networking-cisco
-      tags:
-        - release:independent
-    networking-fortinet:
-      repos:
-        - openstack/networking-fortinet
-      tags:
-        - release:independent
-    networking-hyperv:
-      repos:
-        - openstack/networking-hyperv
-      tags:
-        - release:independent
-    networking-infoblox:
-      repos:
-        - openstack/networking-infoblox
-      tags:
-        - release:independent
-    networking-fujitsu:
-      repos:
-        - openstack/networking-fujitsu
       tags:
         - release:independent
     networking-l2gw:
@@ -2441,24 +2406,9 @@ neutron:
         - openstack/networking-ovn
       tags:
         - release:cycle-with-milestones
-    networking-plumgrid:
-      repos:
-        - openstack/networking-plumgrid
-      tags:
-        - release:independent
-    networking-powervm:
-      repos:
-        - openstack/networking-powervm
-      tags:
-        - release:independent
     networking-sfc:
       repos:
         - openstack/networking-sfc
-      tags:
-        - release:independent
-    networking-vsphere:
-      repos:
-        - openstack/networking-vsphere
       tags:
         - release:independent
     neutron:
@@ -2510,11 +2460,6 @@ neutron:
         - type:library
         - release:managed
         - vulnerability:managed
-    vmware-nsx:
-      repos:
-        - openstack/vmware-nsx
-      tags:
-        - release:independent
 
 nova:
   ptl:
