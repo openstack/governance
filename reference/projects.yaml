@@ -3741,9 +3741,8 @@ sahara:
       repos:
         - openstack/sahara-tests
       tags:
-        - release:cycle-with-intermediary
+        - release:independent
         - type:library
-        - release:managed
     sahara-specs:
       repos:
         - openstack/sahara-specs
