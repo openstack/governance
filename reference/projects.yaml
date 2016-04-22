@@ -2671,11 +2671,6 @@ OpenStackAnsible:
         - openstack/openstack-ansible-galera_server
       tags:
         - release:cycle-trailing
-    openstack-ansible-ironic:
-      repos:
-        - openstack/openstack-ansible-ironic
-      tags:
-        - release:cycle-trailing
     openstack-ansible-lxc_container_create:
       repos:
         - openstack/openstack-ansible-lxc_container_create
@@ -2754,6 +2749,11 @@ OpenStackAnsible:
     openstack-ansible-os_horizon:
       repos:
         - openstack/openstack-ansible-os_horizon
+      tags:
+        - release:cycle-trailing
+    openstack-ansible-os_ironic:
+      repos:
+        - openstack/openstack-ansible-os_ironic
       tags:
         - release:cycle-trailing
     openstack-ansible-os_keystone:
