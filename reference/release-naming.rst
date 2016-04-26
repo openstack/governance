@@ -105,4 +105,5 @@ Release  Coordinator   Nominations Open  Poll Open   Poll Close  Geographic Regi
 M        Monty Taylor  2015-06-01        2015-06-08  2015-06-15  N/A
 N        Monty Taylor  2015-11-08        2015-11-30  2015-12-07  Texas Hill Country
 O        Monty Taylor  2015-11-08        2015-11-30  2015-12-07  Catalonia
+P        Monty Taylor  2016-05-10        2016-05-25  2016-06-01  New England
 =======  ============  ================  ==========  ==========  ==================
