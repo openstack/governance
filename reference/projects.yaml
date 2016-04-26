@@ -4225,6 +4225,8 @@ zaqar:
         - release:cycle-with-milestones
         - release:managed
         - type:service
+        - stable:follows-policy
+        - assert:follows-standard-deprecation
     zaqar-specs:
       repos:
         - openstack/zaqar-specs
