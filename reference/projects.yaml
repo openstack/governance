@@ -2107,10 +2107,10 @@ magnum:
     irc: hongbin
     email: hongbin.lu@huawei.com
   irc-channel: openstack-containers
-  service: Containers service
+  service: Container Infrastructure Management service
   mission: >
-    To provide a set of services for management of application containers
-    in a multitenant cloud environment.
+    To provide a set of services for provisioning, scaling, and managing
+    container orchestration engines.
   url: https://wiki.openstack.org/wiki/Magnum
   tags:
     - team:diverse-affiliation
