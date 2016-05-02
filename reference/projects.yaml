@@ -595,7 +595,6 @@ fuel:
         - openstack/fuel-ui
         - openstack/fuel-virtualbox
         - openstack/fuel-web
-        - openstack/shotgun
       tags:
         - type:service
         - assert:supports-upgrade
