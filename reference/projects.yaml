@@ -2076,7 +2076,7 @@ kolla:
       repos:
         - openstack/kolla
       tags:
-        - release:independent
+        - release:cycle-trailing
     kolla-mesos:
       repos:
         - openstack/kolla-mesos
