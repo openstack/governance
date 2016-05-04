@@ -2087,6 +2087,11 @@ kolla:
         - openstack/kolla
       tags:
         - release:cycle-trailing
+    kolla-kubernetes:
+      repos:
+        - openstack/kolla-kubernetes
+      tags:
+        - release:independent
     kolla-mesos:
       repos:
         - openstack/kolla-mesos
