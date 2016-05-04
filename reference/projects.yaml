@@ -818,6 +818,12 @@ horizon:
       tags:
         - release:cycle-with-intermediary
         - release:managed
+    tempest-horizon:
+      repos:
+        - openstack/tempest-horizon
+      tags:
+        - type:library
+        - release:independent
     xstatic-angular:
       repos:
         - openstack/xstatic-angular
