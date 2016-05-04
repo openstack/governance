@@ -2385,11 +2385,6 @@ neutron:
         - openstack/networking-l2gw
       tags:
         - release:independent
-    networking-lenovo:
-      repos:
-        - openstack/networking-lenovo
-      tags:
-        - release:independent
     networking-midonet:
       repos:
         - openstack/networking-midonet
