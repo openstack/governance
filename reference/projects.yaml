@@ -2335,11 +2335,13 @@ murano:
       tags:
         - release:cycle-with-milestones
         - type:service
+        - stable:follows-policy
     murano-agent:
       repos:
         - openstack/murano-agent
       tags:
         - release:cycle-with-milestones
+        - stable:follows-policy
     murano-apps:
       repos:
         - openstack/murano-apps
@@ -2350,6 +2352,7 @@ murano:
         - openstack/murano-dashboard
       tags:
         - release:cycle-with-milestones
+        - stable:follows-policy
     murano-deployment:
       repos:
         - openstack/murano-deployment
@@ -2366,6 +2369,7 @@ murano:
       tags:
         - release:cycle-with-intermediary
         - type:library
+        - stable:follows-policy
 
 neutron:
   ptl:
