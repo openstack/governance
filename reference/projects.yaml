@@ -449,6 +449,11 @@ Documentation:
         - openstack/faafo
       tags:
         - release:none
+    installguide-cookiecutter:
+      repos:
+        - openstack/installguide-cookiecutter
+      tags:
+        - release:none
     openstack-doc-tools:
       repos:
         - openstack/openstack-doc-tools
