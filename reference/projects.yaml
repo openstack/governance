@@ -1337,6 +1337,11 @@ Infrastructure:
         - openstack-infra/js-afs-blob-store
       tags:
         - release:independent
+    js-generator-openstack:
+      repos:
+        - openstack-infra/js-generator-openstack
+      tags:
+        - release:independent
     js-openstack-registry-hooks:
       repos:
         - openstack-infra/js-openstack-registry-hooks
