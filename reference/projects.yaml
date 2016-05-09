@@ -1353,6 +1353,11 @@ Infrastructure:
         - openstack-infra/js-generator-openstack
       tags:
         - release:independent
+    js-openstack-lib:
+      repos:
+        - openstack/js-openstack-lib
+      tags:
+        - release:independent
     js-openstack-registry-hooks:
       repos:
         - openstack-infra/js-openstack-registry-hooks
