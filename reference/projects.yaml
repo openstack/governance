@@ -542,6 +542,7 @@ freezer:
       repos:
         - openstack/freezer
         - openstack/freezer-api
+        - openstack/freezer-dr
       tags:
         - release:cycle-with-milestones
         - type:service
