@@ -2547,6 +2547,13 @@ OpenStack client:
         - release:cycle-with-intermediary
         - release:managed
         - type:library
+    osc-lib:
+      repos:
+        - openstack/osc-lib
+      tags:
+        - release:cycle-with-intermediary
+        - release:managed
+        - type:library
     python-openstackclient:
       repos:
         - openstack/python-openstackclient
