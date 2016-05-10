@@ -4598,6 +4598,8 @@ tripleo:
     instack-undercloud:
       repos:
         - openstack/instack-undercloud
+      tags:
+        - stable:follows-policy
     os-apply-config:
       repos:
         - openstack/os-apply-config
@@ -4618,12 +4620,16 @@ tripleo:
     puppet-tripleo:
       repos:
         - openstack/puppet-tripleo
+      tags:
+        - stable:follows-policy
     python-tripleoclient:
       repos:
         - openstack/python-tripleoclient
     tripleo-common:
       repos:
         - openstack/tripleo-common
+      tags:
+        - stable:follows-policy
     tripleo-docs:
       repos:
         - openstack/tripleo-docs
@@ -4632,6 +4638,8 @@ tripleo:
     tripleo-heat-templates:
       repos:
         - openstack/tripleo-heat-templates
+      tags:
+        - stable:follows-policy
     tripleo-image-elements:
       repos:
         - openstack/tripleo-image-elements
@@ -4641,6 +4649,8 @@ tripleo:
     tripleo-puppet-elements:
       repos:
         - openstack/tripleo-puppet-elements
+      tags:
+        - stable:follows-policy
     tripleo-quickstart:
       repos:
         - openstack/tripleo-quickstart
