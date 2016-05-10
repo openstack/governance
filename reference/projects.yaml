@@ -2787,6 +2787,77 @@ OpenStackAnsible:
       tags:
         - release:none
 
+OpenStackSalt:
+  ptl:
+    name: Ales Komarek
+    irc: cznewt
+    email: ales.komarek@tcpcloud.eu
+  service: SaltStack formulas for OpenStack deployment
+  irc-channel: openstack-salt
+  mission: >
+    This project provides scalable and reliable SaltStack
+    based IT automation for installing and operating
+    OpenStack deployments.
+  url: https://wiki.openstack.org/wiki/OpenStackSalt
+  tags:
+    - team:single-vendor
+  deliverables:
+    openstack-salt:
+      repos:
+        - openstack/openstack-salt
+      tags:
+        - release:independent
+    openstack-salt-specs:
+      repos:
+        - openstack/openstack-salt-specs
+      tags:
+        - release:none
+    salt-formula-ceilometer:
+      repos:
+        - openstack/salt-formula-ceilometer
+      tags:
+        - release:independent
+    salt-formula-cinder:
+      repos:
+        - openstack/salt-formula-cinder
+      tags:
+        - release:independent
+    salt-formula-glance:
+      repos:
+        - openstack/salt-formula-glance
+      tags:
+        - release:independent
+    salt-formula-heat:
+      repos:
+        - openstack/salt-formula-heat
+      tags:
+        - release:independent
+    salt-formula-horizon:
+      repos:
+        - openstack/salt-formula-horizon
+      tags:
+        - release:independent
+    salt-formula-keystone:
+      repos:
+        - openstack/salt-formula-keystone
+      tags:
+        - release:independent
+    salt-formula-neutron:
+      repos:
+        - openstack/salt-formula-neutron
+      tags:
+        - release:independent
+    salt-formula-nova:
+      repos:
+        - openstack/salt-formula-nova
+      tags:
+        - release:independent
+    salt-formula-opencontrail:
+      repos:
+        - openstack/salt-formula-opencontrail
+      tags:
+        - release:independent
+
 oslo:
   ptl:
     name: Josh Harlow
