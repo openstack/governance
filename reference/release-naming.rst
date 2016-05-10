@@ -2,13 +2,9 @@
 Release Naming
 ==============
 
-OpenStack coordinated releases are numbered using a time-based scheme
-and this version number should be used in all official documentation,
-marketing materials, and release artifacts.
-
-Additionally each OpenStack development cycle has a code-name that is
-proposed and chosen by the community.  This name might be used in
-preference to the version number to refer to the release at the end of
+Each OpenStack development cycle has a code-name that is
+proposed and chosen by the community.  This name is frequently used in
+preference to version numbers to refer to the release at the end of
 the cycle.  The process of choosing the name should be an enjoyable
 activity for the community to mark the software development cycle, and
 the name itself should be fun to use.
