@@ -21,8 +21,8 @@ for executing the release naming process, which consists of the
 following steps:
 
 #. The process to chose the name for a release begins once the
-   location of the design summit of the release to be named is
-   announced.
+   location of the summit that takes place during the development
+   cycle of the release to be named is announced.
 
 #. Anyone may propose a name that matches the `Release Name
    Criteria`_.  Proposed names should be added to a page on the
@@ -80,7 +80,7 @@ being chosen.
    character set are also acceptable.
 
 #. The name must refer to the physical or human geography of the
-   region encompassing the location of the OpenStack design summit for
+   region encompassing the location of the OpenStack summit for
    the corresponding release.  The exact boundaries of the geographic
    region under consideration must be declared before the opening of
    nominations, as part of the initiation of the selection process.
