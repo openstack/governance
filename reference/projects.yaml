@@ -2170,6 +2170,11 @@ manila:
         - openstack/manila-image-elements
       tags:
         - release:independent
+    manila-specs:
+      repos:
+        - openstack/manila-specs
+      tags:
+        - release:none
     python-manilaclient:
       repos:
         - openstack/python-manilaclient
