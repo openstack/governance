@@ -2600,187 +2600,187 @@ OpenStackAnsible:
       repos:
         - openstack/openstack-ansible
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-apt_package_pinning:
       repos:
         - openstack/openstack-ansible-apt_package_pinning
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-galera_client:
       repos:
         - openstack/openstack-ansible-galera_client
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-galera_server:
       repos:
         - openstack/openstack-ansible-galera_server
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-ironic:
       repos:
         - openstack/openstack-ansible-ironic
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-lxc_container_create:
       repos:
         - openstack/openstack-ansible-lxc_container_create
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-lxc_hosts:
       repos:
         - openstack/openstack-ansible-lxc_hosts
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-memcached_server:
       repos:
         - openstack/openstack-ansible-memcached_server
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-openstack_hosts:
       repos:
         - openstack/openstack-ansible-openstack_hosts
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-openstack_openrc:
       repos:
         - openstack/openstack-ansible-openstack_openrc
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_aodh:
       repos:
         - openstack/openstack-ansible-os_aodh
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_barbican:
       repos:
         - openstack/openstack-ansible-os_barbican
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_ceilometer:
       repos:
         - openstack/openstack-ansible-os_ceilometer
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_cinder:
       repos:
         - openstack/openstack-ansible-os_cinder
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_designate:
       repos:
         - openstack/openstack-ansible-os_designate
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_glance:
       repos:
         - openstack/openstack-ansible-os_glance
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_gnocchi:
       repos:
         - openstack/openstack-ansible-os_gnocchi
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_heat:
       repos:
         - openstack/openstack-ansible-os_heat
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_horizon:
       repos:
         - openstack/openstack-ansible-os_horizon
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_keystone:
       repos:
         - openstack/openstack-ansible-os_keystone
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_magnum:
       repos:
         - openstack/openstack-ansible-os_magnum
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_neutron:
       repos:
         - openstack/openstack-ansible-os_neutron
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_nova:
       repos:
         - openstack/openstack-ansible-os_nova
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_rally:
       repos:
         - openstack/openstack-ansible-os_rally
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_swift:
       repos:
         - openstack/openstack-ansible-os_swift
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_tempest:
       repos:
         - openstack/openstack-ansible-os_tempest
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-os_zaqar:
       repos:
         - openstack/openstack-ansible-os_zaqar
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-pip_install:
       repos:
         - openstack/openstack-ansible-pip_install
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-pip_lock_down:
       repos:
         - openstack/openstack-ansible-pip_lock_down
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-plugins:
       repos:
         - openstack/openstack-ansible-plugins
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-py_from_git:
       repos:
         - openstack/openstack-ansible-py_from_git
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-repo_build:
       repos:
         - openstack/openstack-ansible-repo_build
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-rsyslog_client:
       repos:
         - openstack/openstack-ansible-rsyslog_client
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-rabbitmq_server:
       repos:
         - openstack/openstack-ansible-rabbitmq_server
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-repo_server:
       repos:
         - openstack/openstack-ansible-repo_server
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-rsyslog_server:
       repos:
         - openstack/openstack-ansible-rsyslog_server
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-security:
       repos:
         - openstack/openstack-ansible-security
       tags:
-        - release:independent
+        - release:cycle-trailing
     openstack-ansible-specs:
       repos:
         - openstack/openstack-ansible-specs
