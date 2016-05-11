@@ -59,6 +59,8 @@ Requirements
 
 * "release:cycle-with-intermediary" projects commit to produce a release to
   match the end of the 6-month development cycle.
+* Release tags for deliverables using this tag are reviewed and
+  applied by the Release Management team.
 
 
 Tag application process

@@ -67,6 +67,8 @@ Requirements
 ============
 
 * "release:independent" projects produce releases from time to time.
+* Release tags for deliverables using this tag are managed without
+  oversight from the Release Management team.
 
 
 Tag application process

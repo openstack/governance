@@ -62,6 +62,8 @@ Requirements
   Management team before the start of the 6-month cycle.
 * "release:cycle-with-milestones" projects commit to produce a release to
   match the end of the 6-month development cycle.
+* Release tags for deliverables using this tag are reviewed and
+  applied by the Release Management team.
 
 
 Tag application process
