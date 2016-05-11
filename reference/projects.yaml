@@ -4199,6 +4199,12 @@ winstackers:
       tags:
         - release:cycle-with-intermediary
         - type:library
+    networking-hyperv:
+      repos:
+        - openstack/networking-hyperv
+      tags:
+        - release:cycle-with-intermediary
+        - type:library
 
 zaqar:
   ptl:
