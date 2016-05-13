@@ -449,11 +449,6 @@ Documentation:
         - openstack/faafo
       tags:
         - release:none
-    ha-guide:
-      repos:
-        - openstack/ha-guide
-      tags:
-        - release:none
     openstack-doc-tools:
       repos:
         - openstack/openstack-doc-tools
@@ -473,11 +468,6 @@ Documentation:
         - release:independent
         - type:library
         - release:managed
-    operations-guide:
-      repos:
-        - openstack/operations-guide
-      tags:
-        - release:none
     training-labs:
       repos:
         - openstack/training-labs
