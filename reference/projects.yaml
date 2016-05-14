@@ -15,6 +15,9 @@ astara:
     astara:
       repos:
         - openstack/astara
+      docs:
+        contributor: http://docs.akanda.io/en/latest/
+        api: http://akanda.readthedocs.io/en/latest/appliance.html#rest-api
       tags:
         - release:cycle-with-milestones
     astara-appliance:
@@ -51,6 +54,9 @@ barbican:
     barbican:
       repos:
         - openstack/barbican
+      docs:
+        contributor: http://docs.openstack.org/developer/barbican
+        api: http://docs.openstack.org/developer/barbican/api/index.html
       tags:
         - release:cycle-with-milestones
         - type:service
@@ -197,6 +203,9 @@ cinder:
     cinder:
       repos:
         - openstack/cinder
+      docs:
+        contributor: http://docs.openstack.org/developer/cinder/
+        api: http://developer.openstack.org/api-ref-blockstorage-v2.html
       tags:
         - tc-approved-release
         - release:cycle-with-milestones
@@ -253,6 +262,9 @@ cloudkitty:
     cloudkitty:
       repos:
         - openstack/cloudkitty
+      docs:
+        contributor: http://docs.openstack.org/developer/cloudkitty/
+        api: http://docs.openstack.org/developer/cloudkitty/webapi/v1.html
       tags:
         - release:cycle-with-intermediary
         - type:service
@@ -325,6 +337,9 @@ congress:
     congress:
       repos:
         - openstack/congress
+      docs:
+        contributor: http://docs.openstack.org/developer/congress/
+        api: http://docs.openstack.org/developer/congress/api.html
       tags:
         - release:cycle-with-milestones
         - type:service
@@ -362,6 +377,9 @@ designate:
     designate-dashboard:
       repos:
         - openstack/designate-dashboard
+      docs:
+        contributor: http://docs.openstack.org/developer/designate/
+        api: http://developer.openstack.org/api-ref/dns/
       tags:
         - release:cycle-with-milestones
         - release:managed
@@ -476,6 +494,8 @@ dragonflow:
     dragonflow:
       repos:
         - openstack/dragonflow
+      docs:
+        contributor: http://docs.openstack.org/developer/dragonflow/
       tags:
         - release:independent
 
@@ -516,6 +536,8 @@ freezer:
         - openstack/freezer
         - openstack/freezer-api
         - openstack/freezer-dr
+      docs:
+        contributor: null # doc/source exists in tree but is not published; wiki only docs
       tags:
         - release:cycle-with-milestones
         - type:service
@@ -582,6 +604,8 @@ fuel:
     fuel-docs:
       repos:
         - openstack/fuel-docs
+      docs:
+        contributor:  http://docs.openstack.org/developer/fuel-docs/devdocs/develop.html
       tags:
         - release:none
     fuel-lcm:
@@ -637,6 +661,9 @@ glance:
     glance:
       repos:
         - openstack/glance
+      docs:
+        contributor: http://docs.openstack.org/developer/glance/
+        api: http://developer.openstack.org/api-ref-image-v2.html # What to do with multiple versions of an API?
       tags:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -685,6 +712,9 @@ heat:
     heat:
       repos:
         - openstack/heat
+      docs:
+        contributor: http://docs.openstack.org/developer/heat/
+        api: http://developer.openstack.org/api-ref-orchestration-v1.html
       tags:
         - tc-approved-release
         - release:cycle-with-milestones
@@ -762,6 +792,9 @@ horizon:
     horizon:
       repos:
         - openstack/horizon
+      docs:
+        contributor: http://docs.openstack.org/developer/horizon/
+        api: http://docs.openstack.org/developer/horizon/#api-reference # Is not really needed to refer to in this file?
       tags:
         - tc-approved-release
         - release:cycle-with-milestones
@@ -1287,6 +1320,8 @@ Infrastructure:
     infra-manual:
       repos:
         - openstack-infra/infra-manual
+      docs:
+        contributor: http://docs.openstack.org/infra/manual
       tags:
         - release:none
     infra-specs:
@@ -1943,6 +1978,9 @@ ironic:
     ironic:
       repos:
         - openstack/ironic
+      docs:
+        contributor: http://docs.openstack.org/developer/ironic/
+        api: http://developer.openstack.org/api-ref/baremetal/
       tags:
         - tc-approved-release
         - release:cycle-with-intermediary
@@ -2038,6 +2076,9 @@ keystone:
     keystone:
       repos:
         - openstack/keystone
+      docs:
+        contributor: http://docs.openstack.org/developer/keystone/
+        api: http://developer.openstack.org/api-ref-identity-v3.html
       tags:
         - tc-approved-release
         - release:cycle-with-milestones
@@ -2104,6 +2145,8 @@ kolla:
     kolla:
       repos:
         - openstack/kolla
+      docs:
+        contributor: http://docs.openstack.org/developer/kolla/
       tags:
         - release:cycle-trailing
     kolla-kubernetes:
@@ -2126,6 +2169,8 @@ kuryr:
     kuryr:
       repos:
         - openstack/kuryr
+      docs:
+        contributor: http://docs.openstack.org/developer/kuryr/
       tags:
         - release:independent
     kuryr-libnetwork:
@@ -2156,6 +2201,9 @@ magnum:
     magnum:
       repos:
         - openstack/magnum
+      docs:
+        contributor: http://docs.openstack.org/developer/magnum/
+        api: null
       tags:
         - release:cycle-with-intermediary
         - type:service
@@ -2190,6 +2238,9 @@ manila:
     manila:
       repos:
         - openstack/manila
+      docs:
+        contributor: http://docs.openstack.org/developer/manila/
+        api: http://developer.openstack.org/api-ref-share-v2.html
       tags:
         - release:cycle-with-milestones
         - type:service
@@ -2247,6 +2298,9 @@ mistral:
       tags:
         - type:service
         - release:cycle-with-milestones
+      docs:
+        contributor: http://docs.openstack.org/developer/mistral/
+        api: http://docs.openstack.org/developer/mistral/developer/webapi/v2.html
     mistral-extra:
       repos:
         - openstack/mistral-extra
@@ -2282,6 +2336,9 @@ monasca:
     monasca-api:
       repos:
         - openstack/monasca-api
+      docs:
+        contributor: null
+        api: https://github.com/openstack/monasca-api/blob/master/docs/monasca-api-spec.md # markdown
       tags:
         - type:service
         - release:cycle-with-intermediary
@@ -2373,6 +2430,9 @@ murano:
     murano:
       repos:
         - openstack/murano
+      docs:
+        contributor: http://docs.openstack.org/developer/murano/
+        api: null
       tags:
         - release:cycle-with-milestones
         - type:service
@@ -2494,6 +2554,9 @@ neutron:
     neutron-vpnaas:
       repos:
         - openstack/neutron-vpnaas
+      docs:
+        contributor: http://docs.openstack.org/developer/neutron/
+        api: http://developer.openstack.org/api-ref/networking/
       tags:
         - release:cycle-with-milestones
         - stable:follows-policy
@@ -2568,6 +2631,9 @@ nova:
     nova:
       repos:
         - openstack/nova
+      docs:
+        contributor: http://docs.openstack.org/developer/nova/
+        api: http://developer.openstack.org/api-ref/compute/
       tags:
         - tc-approved-release
         - release:cycle-with-milestones
@@ -2857,6 +2923,8 @@ OpenStack client:
     cliff:
       repos:
         - openstack/cliff
+      docs:
+        contributor: http://docs.openstack.org/developer/cliff/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -2875,6 +2943,8 @@ OpenStack client:
     python-openstackclient:
       repos:
         - openstack/python-openstackclient
+      docs:
+        contributor: http://docs.openstack.org/developer/python-openstackclient/
       tags:
         - release:cycle-with-intermediary
 
@@ -2954,6 +3024,8 @@ OpenStackAnsible:
         - openstack/openstack-ansible-security
       tags:
         - release:cycle-trailing
+      docs:
+        contributor: http://docs.openstack.org/developer/openstack-ansible/
     openstack-ansible-ops:
       repos:
         - openstack/openstack-ansible-ops
@@ -3023,6 +3095,8 @@ OpenStackSalt:
     openstack-salt:
       repos:
         - openstack/openstack-salt
+      docs:
+        contributor: http://docs.openstack.org/developer/openstack-salt/
       tags:
         - release:independent
     openstack-salt-specs:
@@ -3104,6 +3178,8 @@ oslo:
     automaton:
       repos:
         - openstack/automaton
+      docs:
+        contributor: http://docs.openstack.org/developer/automaton/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3116,6 +3192,8 @@ oslo:
     debtcollector:
       repos:
         - openstack/debtcollector
+      docs:
+        contributor: http://docs.openstack.org/developer/debtcollector/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3143,6 +3221,8 @@ oslo:
     futurist:
       repos:
         - openstack/futurist
+      docs:
+        contributor: http://docs.openstack.org/developer/futurist/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3162,6 +3242,8 @@ oslo:
     oslo-incubator:
       repos:
         - openstack/oslo-incubator
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo-incubator/
       tags:
         - release:none
     oslo-specs:
@@ -3172,6 +3254,8 @@ oslo:
     oslo.cache:
       repos:
         - openstack/oslo.cache
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.cache/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3179,6 +3263,8 @@ oslo:
     oslo.concurrency:
       repos:
         - openstack/oslo.concurrency
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.concurrency/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3186,6 +3272,8 @@ oslo:
     oslo.config:
       repos:
         - openstack/oslo.config
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.config/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3194,6 +3282,8 @@ oslo:
     oslo.context:
       repos:
         - openstack/oslo.context
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.context/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3201,6 +3291,8 @@ oslo:
     oslo.db:
       repos:
         - openstack/oslo.db
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.db/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3208,6 +3300,8 @@ oslo:
     oslo.i18n:
       repos:
         - openstack/oslo.i18n
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.i18n/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3215,6 +3309,8 @@ oslo:
     oslo.log:
       repos:
         - openstack/oslo.log
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.log/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3222,12 +3318,16 @@ oslo:
     oslo.messaging:
       repos:
         - openstack/oslo.messaging
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.messaging/
       tags:
         - release:cycle-with-intermediary
         - type:library
     oslo.middleware:
       repos:
         - openstack/oslo.middleware
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.middleware/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3235,6 +3335,8 @@ oslo:
     oslo.policy:
       repos:
         - openstack/oslo.policy
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.policy/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3249,6 +3351,8 @@ oslo:
     oslo.reports:
       repos:
         - openstack/oslo.reports
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.reports/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3256,6 +3360,8 @@ oslo:
     oslo.rootwrap:
       repos:
         - openstack/oslo.rootwrap
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.rootwrap/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3263,6 +3369,8 @@ oslo:
     oslo.serialization:
       repos:
         - openstack/oslo.serialization
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.serialization/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3270,6 +3378,8 @@ oslo:
     oslo.service:
       repos:
         - openstack/oslo.service
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.service/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3282,6 +3392,8 @@ oslo:
     oslo.utils:
       repos:
         - openstack/oslo.utils
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.utils/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3289,6 +3401,8 @@ oslo:
     oslo.versionedobjects:
       repos:
         - openstack/oslo.versionedobjects
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.versionedobjects/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3296,6 +3410,8 @@ oslo:
     oslo.vmware:
       repos:
         - openstack/oslo.vmware
+      docs:
+        contributor: http://docs.openstack.org/developer/oslo.vmware/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3303,6 +3419,8 @@ oslo:
     oslosphinx:
       repos:
         - openstack/oslosphinx
+      docs:
+        contributor: http://docs.openstack.org/developer/oslosphinx/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3310,6 +3428,8 @@ oslo:
     oslotest:
       repos:
         - openstack/oslotest
+      docs:
+        contributor: http://docs.openstack.org/developer/oslotest/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3324,6 +3444,8 @@ oslo:
     pbr:
       repos:
         - openstack-dev/pbr
+      docs:
+        contributor: http://docs.openstack.org/developer/pbr/
       tags:
         - release:independent
         - type:library
@@ -3331,6 +3453,8 @@ oslo:
     pylockfile:
       repos:
         - openstack/pylockfile
+      docs:
+        contributor: http://docs.openstack.org/developer/pylockfile/
       tags:
         - release:independent
         - type:library
@@ -3338,6 +3462,8 @@ oslo:
     stevedore:
       repos:
         - openstack/stevedore
+      docs:
+        contributor: http://docs.openstack.org/developer/stevedore/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3345,6 +3471,8 @@ oslo:
     taskflow:
       repos:
         - openstack/taskflow
+      docs:
+        contributor: http://docs.openstack.org/developer/taskflow/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3352,6 +3480,8 @@ oslo:
     tooz:
       repos:
         - openstack/tooz
+      docs:
+        contributor: http://docs.openstack.org/developer/tooz/
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -3647,6 +3777,8 @@ Puppet OpenStack:
     puppet-openstack-guide:
       repos:
         - openstack/puppet-openstack-guide
+      docs:
+        contributor: http://docs.openstack.org/developer/puppet-openstack-guide/
       tags:
         - release:none
     puppet-openstack-integration:
@@ -3762,6 +3894,8 @@ Quality Assurance:
     devstack:
       repos:
         - openstack-dev/devstack
+      docs:
+        contributor: http://docs.openstack.org/developer/devstack/
       tags:
         - release:none
     devstack-plugin-ceph:
@@ -3828,6 +3962,8 @@ Quality Assurance:
     tempest:
       repos:
         - openstack/tempest
+      docs:
+        contributor: http://docs.openstack.org/developer/tempest/
       tags:
         - release:cycle-with-intermediary
     tempest-plugin-cookiecutter:
@@ -3865,6 +4001,8 @@ rally:
       repos:
         - openstack/rally
         - openstack/performance-docs
+      docs:
+        contributor: http://rally.readthedocs.org/en/latest/ # RTD
       tags:
         - release:independent
 
@@ -3883,6 +4021,8 @@ RefStack:
     refstack:
       repos:
         - openstack/refstack
+      docs:
+        contributor: null
       tags:
         - release:independent
         - type:service
@@ -3930,6 +4070,8 @@ Release Management:
     reno:
       repos:
         - openstack/reno
+      docs:
+        contributor: http://docs.openstack.org/developer/reno/
       tags:
         - release:independent
     requirements:
@@ -3973,6 +4115,9 @@ sahara:
         - openstack/sahara-dashboard
         - openstack/sahara-extra
         - openstack/sahara-image-elements
+      docs:
+        contributor: http://docs.openstack.org/developer/sahara/
+        api: http://docs.openstack.org/developer/sahara/restapi.html
       tags:
         - tc-approved-release
         - release:cycle-with-milestones
@@ -4007,6 +4152,8 @@ searchlight:
     searchlight:
       repos:
         - openstack/searchlight
+      docs:
+        contributor: http://docs.openstack.org/developer/searchlight/
       tags:
         - type:service
         - release:cycle-with-milestones
@@ -4051,6 +4198,8 @@ Security:
     bandit:
       repos:
         - openstack/bandit
+      docs:
+        contributor: http://docs.openstack.org/developer/bandit/
       tags:
         - release:independent
     ossa:
@@ -4094,6 +4243,9 @@ senlin:
     senlin:
       repos:
         - openstack/senlin
+      docs:
+        contributor: http://docs.openstack.org/developer/senlin/
+        api: http://developer.openstack.org/api-ref/clustering/
       tags:
         - release:cycle-with-milestones
         - type:service
@@ -4127,6 +4279,9 @@ smaug:
     smaug:
       repos:
         - openstack/smaug
+      docs:
+        contributor: null
+        api: null
       tags:
         - release:independent
         - type:service
@@ -4166,6 +4321,9 @@ solum:
     solum:
       repos:
         - openstack/solum
+      docs:
+        contributor: http://docs.openstack.org/developer/solum/
+        api: http://docs.openstack.org/developer/solum/develop_applications/webapi/index.html
       tags:
         - release:cycle-with-intermediary
         - type:service
@@ -4219,6 +4377,9 @@ swift:
     swift:
       repos:
         - openstack/swift
+      docs:
+        contributor: http://docs.openstack.org/developer/swift/
+        api: http://developer.openstack.org/api-ref/object-storage/
       tags:
         - tc-approved-release
         - release:cycle-with-intermediary
@@ -4256,6 +4417,9 @@ tacker:
       repos:
         - openstack/tacker
         - openstack/tacker-horizon
+      docs:
+        contributor: http://docs.openstack.org/developer/tacker/
+        api: http://docs.openstack.org/developer/tacker/devref/mano_api.html
       tags:
         - release:cycle-with-intermediary
         - type:service
@@ -4297,6 +4461,9 @@ Telemetry:
     ceilometer:
       repos:
         - openstack/ceilometer
+      docs:
+        contributor: http://docs.openstack.org/developer/ceilometer/
+        api: http://developer.openstack.org/api-ref-telemetry-v2.html #won't be in new nav
       tags:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -4391,6 +4558,8 @@ tripleo:
     os-cloud-config:
       repos:
         - openstack/os-cloud-config
+      docs:
+        contributor: http://docs.openstack.org/developer/os-cloud-config/
       tags:
         - release:cycle-with-intermediary
     os-collect-config:
@@ -4423,6 +4592,8 @@ tripleo:
     tripleo-docs:
       repos:
         - openstack/tripleo-docs
+      docs:
+        contributor: http://docs.openstack.org/developer/tripleo-docs/
       tags:
         - release:none
     tripleo-heat-templates:
@@ -4492,6 +4663,9 @@ trove:
     trove:
       repos:
         - openstack/trove
+      docs:
+        contributor: http://docs.openstack.org/developer/trove/
+        api: http://developer.openstack.org/api-ref-databases-v1.html # won't be in new nav
       tags:
         - tc-approved-release
         - release:cycle-with-milestones
@@ -4543,6 +4717,8 @@ vitrage:
     vitrage:
       repos:
         - openstack/vitrage
+      docs:
+        contributor: null #RST files are in repo, but not built to docs.openstack.org
       tags:
         - release:cycle-with-intermediary
         - type:service
@@ -4579,6 +4755,8 @@ watcher:
     watcher:
       repos:
         - openstack/watcher
+      docs:
+        contributor: http://docs.openstack.org/developer/watcher/
       tags:
         - release:cycle-with-intermediary
         - type:service
@@ -4617,6 +4795,8 @@ winstackers:
     os-win:
       repos:
         - openstack/os-win
+      docs:
+        contributor: null
       tags:
         - release:cycle-with-intermediary
         - type:library
@@ -4652,6 +4832,9 @@ zaqar:
     zaqar:
       repos:
         - openstack/zaqar
+      docs:
+        contributor: http://docs.openstack.org/developer/zaqar/
+        api: null
       tags:
         - release:cycle-with-milestones
         - type:service
