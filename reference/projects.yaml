@@ -4191,6 +4191,7 @@ tripleo:
         - openstack/tripleo-common
       tags:
         - release:cycle-trailing
+        - type:library
     tripleo-docs:
       repos:
         - openstack/tripleo-docs
