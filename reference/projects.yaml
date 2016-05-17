@@ -1184,6 +1184,14 @@ I18n:
       email: zero00072@gmail.com
       expires-in: January 2017
       comment: zero00072
+    - name: Carlos Munoz
+      email: camunoz@redhat.com
+      expires-in: April 2017
+      comment: Zanata development
+    - name: Alex Eng
+      email: aeng@redhat.com
+      expires-in: April 2017
+      comment: Zanata development
 
 Infrastructure:
   ptl:
