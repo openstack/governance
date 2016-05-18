@@ -57,8 +57,10 @@ choose between the :ref:`tag-release:cycle-with-milestones`,
 Requirements
 ============
 
-* "release:cycle-with-intermediary" projects commit to produce a release to
-  match the end of the 6-month development cycle.
+* "release:cycle-with-intermediary" projects commit to produce a
+  release near the end of the 6-month development cycle to be used
+  with projects using the other cycle-based release models that are
+  required to produce a release at that time.
 * Release tags for deliverables using this tag are reviewed and
   applied by the Release Management team.
 
