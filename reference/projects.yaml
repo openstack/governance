@@ -3542,7 +3542,7 @@ Puppet OpenStack:
       repos:
         - openstack/puppet-tripleo
       tags:
-        - release:independent
+        - release:cycle-trailing
     puppet-trove:
       repos:
         - openstack/puppet-trove
@@ -4154,7 +4154,7 @@ tripleo:
       repos:
         - openstack/instack-undercloud
       tags:
-        - release:independent
+        - release:cycle-trailing
     os-apply-config:
       repos:
         - openstack/os-apply-config
@@ -4184,13 +4184,13 @@ tripleo:
       repos:
         - openstack/python-tripleoclient
       tags:
-        - release:independent
+        - release:cycle-trailing
         - type:library
     tripleo-common:
       repos:
         - openstack/tripleo-common
       tags:
-        - release:independent
+        - release:cycle-trailing
     tripleo-docs:
       repos:
         - openstack/tripleo-docs
@@ -4200,7 +4200,7 @@ tripleo:
       repos:
         - openstack/tripleo-heat-templates
       tags:
-        - release:independent
+        - release:cycle-trailing
     tripleo-image-elements:
       repos:
         - openstack/tripleo-image-elements
@@ -4215,7 +4215,7 @@ tripleo:
       repos:
         - openstack/tripleo-puppet-elements
       tags:
-        - release:independent
+        - release:cycle-trailing
     tripleo-quickstart:
       repos:
         - openstack/tripleo-quickstart
