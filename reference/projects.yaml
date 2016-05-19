@@ -4102,6 +4102,14 @@ Telemetry:
         - openstack/gnocchi
       tags:
         - release:independent
+    panko:
+      repos:
+        - openstack/panko
+      tags:
+        - assert:follows-standard-deprecation
+        - release:managed
+        - release:cycle-with-intermediary
+        - type:service
     python-aodhclient:
       repos:
         - openstack/python-aodhclient
