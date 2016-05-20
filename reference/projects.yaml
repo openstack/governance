@@ -1940,12 +1940,14 @@ ironic:
         - release:managed
         - release:cycle-with-intermediary
         - type:service
+        - stable:follows-policy
     ironic-inspector:
       repos:
         - openstack/ironic-inspector
       tags:
         - release:managed
         - release:cycle-with-intermediary
+        - stable:follows-policy
     ironic-inspector-specs:
       repos:
         - openstack/ironic-inspector-specs
@@ -1958,12 +1960,14 @@ ironic:
         - release:cycle-with-intermediary
         - type:library
         - release:managed
+        - stable:follows-policy
     ironic-python-agent:
       repos:
         - openstack/ironic-python-agent
       tags:
         - release:managed
         - release:cycle-with-intermediary
+        - stable:follows-policy
     ironic-specs:
       repos:
         - openstack/ironic-specs
@@ -1992,6 +1996,7 @@ ironic:
         - release:managed
         - release:cycle-with-intermediary
         - type:library
+        - stable:follows-policy
     python-ironicclient:
       repos:
         - openstack/python-ironicclient
@@ -1999,6 +2004,7 @@ ironic:
         - release:cycle-with-intermediary
         - type:library
         - release:managed
+        - stable:follows-policy
     python-wsmanclient:
       repos:
         - openstack/python-wsmanclient
