@@ -2785,11 +2785,6 @@ OpenStackAnsible:
         - openstack/openstack-ansible-plugins
       tags:
         - release:cycle-trailing
-    openstack-ansible-py_from_git:
-      repos:
-        - openstack/openstack-ansible-py_from_git
-      tags:
-        - release:cycle-trailing
     openstack-ansible-repo_build:
       repos:
         - openstack/openstack-ansible-repo_build
