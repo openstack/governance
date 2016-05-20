@@ -2685,6 +2685,11 @@ OpenStackAnsible:
         - openstack/openstack-ansible-openstack_openrc
       tags:
         - release:cycle-trailing
+    openstack-ansible-ops:
+      repos:
+        - openstack/openstack-ansible-ops
+      tags:
+        - release:none
     openstack-ansible-os_aodh:
       repos:
         - openstack/openstack-ansible-os_aodh
