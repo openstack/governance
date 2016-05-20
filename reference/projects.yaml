@@ -206,6 +206,7 @@ cinder:
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
+        - stable:follows-policy
     cinder-specs:
       repos:
         - openstack/cinder-specs
