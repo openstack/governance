@@ -3104,6 +3104,11 @@ oslo:
         - type:library
         - release:managed
         - stable:follows-policy
+    oslo.tools:
+      repos:
+        - openstack/oslo.tools
+      tags:
+        - release:none
     oslo.utils:
       repos:
         - openstack/oslo.utils
