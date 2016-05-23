@@ -2131,6 +2131,16 @@ kuryr:
         - openstack/kuryr
       tags:
         - release:independent
+    kuryr-libnetwork:
+      repos:
+        - openstack/kuryr-libnetwork
+      tags:
+        - release:independent
+    kuryr-kubernetes:
+      repos:
+        - openstack/kuryr-kubernetes
+      tags:
+        - release:independent
 
 magnum:
   ptl:
