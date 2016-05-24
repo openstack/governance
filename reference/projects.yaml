@@ -4335,6 +4335,42 @@ trove:
       tags:
         - release:none
 
+vitrage:
+  ptl:
+    name: Ifat Afek
+    irc: ifat_afek
+    email: ifat.afek@nokia.com
+  irc-channel: openstack-vitrage
+  service: RCA (Root Cause Analysis) service
+  mission: >
+    To organize, analyze and visualize OpenStack alarms & events, yield
+    insights regarding the root cause of problems and deduce their existence
+    before they are directly detected.
+  url: https://wiki.openstack.org/wiki/Vitrage
+  deliverables:
+    vitrage:
+      repos:
+        - openstack/vitrage
+      tags:
+        - release:cycle-with-intermediary
+        - type:service
+    vitrage-specs:
+      repos:
+        - openstack/vitrage-specs
+      tags:
+        - release:none
+    python-vitrageclient:
+      repos:
+        - openstack/python-vitrageclient
+      tags:
+        - type:library
+        - release:cycle-with-intermediary
+    vitrage-dashboard:
+      repos:
+        - openstack/vitrage-dashboard
+      tags:
+        - release:cycle-with-intermediary
+
 watcher:
   ptl:
     name: Antoine Cabot
