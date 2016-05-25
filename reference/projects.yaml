@@ -4304,6 +4304,41 @@ trove:
       tags:
         - release:none
 
+watcher:
+  ptl:
+    name: Antoine Cabot
+    irc: acabot
+    email: antoine.cabot@b-com.com
+  irc-channel: openstack-watcher
+  service: Infrastructure Optimization service
+  mission: >
+    Watcher's goal is to provide a flexible and scalable resource optimization
+    service for multi-tenant OpenStack-based clouds.
+  url: https://wiki.openstack.org/wiki/Watcher
+  deliverables:
+    watcher:
+      repos:
+        - openstack/watcher
+      tags:
+        - release:cycle-with-intermediary
+        - type:service
+    watcher-specs:
+      repos:
+        - openstack/watcher-specs
+      tags:
+        - release:none
+    python-watcherclient:
+      repos:
+        - openstack/python-watcherclient
+      tags:
+        - release:cycle-with-intermediary
+        - type:library
+    watcher-dashboard:
+      repos:
+        - openstack/watcher-dashboard
+      tags:
+        - release:cycle-with-intermediary
+
 winstackers:
   ptl:
     name: Claudiu Belu
