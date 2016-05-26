@@ -474,6 +474,12 @@ Documentation:
         - release:independent
         - type:library
         - release:managed
+    os-api-ref:
+      repos:
+        - openstack/os-api-ref
+      tags:
+        - release:independent
+        - type:library
     training-labs:
       repos:
         - openstack/training-labs
