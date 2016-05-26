@@ -28,6 +28,8 @@ def _team_to_rst(name, info):
 
     if 'service' in info:
         title = "{0} ({1})".format(name.title(), info['service'])
+    elif name == 'I18n':
+        title = name
     else:
         title = name.title()
 
