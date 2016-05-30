@@ -3383,101 +3383,121 @@ Puppet OpenStack:
         - openstack/puppet-aodh
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-barbican:
       repos:
         - openstack/puppet-barbican
       tags:
-        - release:independent
+        - release:cycle-trailing
+        - release:managed
     puppet-ceilometer:
       repos:
         - openstack/puppet-ceilometer
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-ceph:
       repos:
         - openstack/puppet-ceph
       tags:
-        - release:independent
+        - release:cycle-trailing
+        - release:managed
     puppet-cinder:
       repos:
         - openstack/puppet-cinder
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-designate:
       repos:
         - openstack/puppet-designate
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-ec2api:
       repos:
         - openstack/puppet-ec2api
       tags:
-        - release:independent
+        - release:cycle-trailing
+        - release:managed
     puppet-glance:
       repos:
         - openstack/puppet-glance
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-gnocchi:
       repos:
         - openstack/puppet-gnocchi
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-heat:
       repos:
         - openstack/puppet-heat
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-horizon:
       repos:
         - openstack/puppet-horizon
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-ironic:
       repos:
         - openstack/puppet-ironic
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-keystone:
       repos:
         - openstack/puppet-keystone
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-magnum:
       repos:
         - openstack/puppet-magnum
       tags:
-        - release:independent
+        - release:cycle-trailing
+        - release:managed
     puppet-manila:
       repos:
         - openstack/puppet-manila
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-mistral:
       repos:
         - openstack/puppet-mistral
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-murano:
       repos:
         - openstack/puppet-murano
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-neutron:
       repos:
         - openstack/puppet-neutron
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-nova:
       repos:
         - openstack/puppet-nova
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-octavia:
       repos:
         - openstack/puppet-octavia
       tags:
-        - release:independent
+        - release:cycle-trailing
+        - release:managed
     puppet-openstack-cookiecutter:
       repos:
         - openstack/puppet-openstack-cookiecutter
@@ -3508,46 +3528,54 @@ Puppet OpenStack:
         - openstack/puppet-openstack_extras
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-openstack_spec_helper:
       repos:
         - openstack/puppet-openstack_spec_helper
       tags:
-        - release:cycle-trailing
+        - release:independent
     puppet-openstacklib:
       repos:
         - openstack/puppet-openstacklib
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-oslo:
       repos:
         - openstack/puppet-oslo
       tags:
-        - release:independent
+        - release:cycle-trailing
+        - release:managed
     puppet-ovn:
       repos:
         - openstack/puppet-ovn
       tags:
-        - release:independent
+        - release:cycle-trailing
+        - release:managed
     puppet-rally:
       repos:
         - openstack/puppet-rally
       tags:
-        - release:independent
+        - release:cycle-trailing
+        - release:managed
     puppet-sahara:
       repos:
         - openstack/puppet-sahara
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-swift:
       repos:
         - openstack/puppet-swift
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-tempest:
       repos:
         - openstack/puppet-tempest
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-tripleo:
       repos:
         - openstack/puppet-tripleo
@@ -3558,26 +3586,31 @@ Puppet OpenStack:
         - openstack/puppet-trove
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-vitrage:
       repos:
         - openstack/puppet-vitrage
       tags:
-        - release:independent
+        - release:cycle-trailing
+        - release:managed
     puppet-vswitch:
       repos:
         - openstack/puppet-vswitch
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-watcher:
       repos:
         - openstack/puppet-watcher
       tags:
         - release:cycle-trailing
+        - release:managed
     puppet-zaqar:
       repos:
         - openstack/puppet-zaqar
       tags:
         - release:cycle-trailing
+        - release:managed
 
 Quality Assurance:
   ptl:
