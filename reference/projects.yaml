@@ -3593,6 +3593,11 @@ Puppet OpenStack:
         - openstack/puppet-vswitch
       tags:
         - release:cycle-trailing
+    puppet-watcher:
+      repos:
+        - openstack/puppet-watcher
+      tags:
+        - release:cycle-trailing
     puppet-zaqar:
       repos:
         - openstack/puppet-zaqar
