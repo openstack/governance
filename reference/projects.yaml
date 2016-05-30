@@ -2721,6 +2721,11 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_cinder
       tags:
         - release:cycle-trailing
+    openstack-ansible-os_cloudkitty:
+      repos:
+        - openstack/openstack-ansible-os_cloudkitty
+      tags:
+        - release:cycle-trailing
     openstack-ansible-os_designate:
       repos:
         - openstack/openstack-ansible-os_designate
@@ -2769,6 +2774,11 @@ OpenStackAnsible:
     openstack-ansible-os_rally:
       repos:
         - openstack/openstack-ansible-os_rally
+      tags:
+        - release:cycle-trailing
+    openstack-ansible-os_sahara:
+      repos:
+        - openstack/openstack-ansible-os_sahara
       tags:
         - release:cycle-trailing
     openstack-ansible-os_swift:
