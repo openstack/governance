@@ -4275,6 +4275,12 @@ tripleo:
         - openstack/tripleo-ui
       tags:
         - release:cycle-with-intermediary
+    tripleo-validations:
+      repos:
+        - openstack/tripleo-validations
+      tags:
+        - release:cycle-with-intermediary
+        - type:library
 
 trove:
   ptl:
