@@ -2467,13 +2467,33 @@ neutron:
         - openstack/networking-sfc
       tags:
         - release:independent
+    neutron-fwaas:
+      repos:
+        - openstack/neutron-fwaas
+      tags:
+        - release:managed
+        - release:cycle-with-milestones
+        - stable:follows-policy
+        - assert:follows-standard-deprecation
+    neutron-lbaas:
+      repos:
+        - openstack/neutron-lbaas
+      tags:
+        - release:managed
+        - release:cycle-with-milestones
+        - stable:follows-policy
+        - assert:follows-standard-deprecation
+    neutron-vpnaas:
+      repos:
+        - openstack/neutron-vpnaas
+      tags:
+        - release:managed
+        - release:cycle-with-milestones
+        - stable:follows-policy
+        - assert:follows-standard-deprecation
     neutron:
       repos:
         - openstack/neutron
-        - openstack/neutron-dynamic-routing
-        - openstack/neutron-fwaas
-        - openstack/neutron-lbaas
-        - openstack/neutron-vpnaas
       tags:
         - tc-approved-release
         - release:managed
@@ -2485,6 +2505,12 @@ neutron:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - assert:supports-rolling-upgrade
+    neutron-dynamic-routing:
+      repos:
+        - openstack/neutron-dynamic-routing
+      tags:
+        - release:managed
+        - release:cycle-with-milestones
     neutron-lib:
       repos:
         - openstack/neutron-lib
