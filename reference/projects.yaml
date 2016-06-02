@@ -4324,6 +4324,14 @@ trove:
         - assert:follows-standard-deprecation
         - release:managed
         - release:cycle-with-milestones
+    trove-image-builder:
+      repos:
+        - openstack/trove-image-builder
+      tags:
+        - stable:follows-policy
+        - assert:follows-standard-deprecation
+        - release:managed
+        - release:cycle-with-milestones
     trove-integration:
       repos:
         - openstack/trove-integration
