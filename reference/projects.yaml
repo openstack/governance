@@ -3909,6 +3909,11 @@ Security:
         - openstack/ossa
       tags:
         - release:none
+    security-analysis:
+      repos:
+        - openstack/security-analysis
+      tags:
+        - release:none
     security-doc:
       repos:
         - openstack/security-doc
