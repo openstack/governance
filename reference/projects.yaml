@@ -3319,7 +3319,7 @@ Puppet OpenStack:
   mission: >
     The Puppet modules for OpenStack bring scalable and reliable IT automation
     to OpenStack cloud deployments.
-  url: https://wiki.openstack.org/wiki/Puppet
+  url: http://docs.openstack.org/developer/puppet-openstack-guide/
   deliverables:
     puppet-aodh:
       repos:
