@@ -815,12 +815,6 @@ horizon:
         - openstack/horizon-cisco-ui
       tags:
         - release:independent
-    manila-ui:
-      repos:
-        - openstack/manila-ui
-      tags:
-        - release:cycle-with-intermediary
-        - release:managed
     tempest-horizon:
       repos:
         - openstack/tempest-horizon
@@ -2219,6 +2213,12 @@ manila:
         - openstack/manila-specs
       tags:
         - release:none
+    manila-ui:
+      repos:
+        - openstack/manila-ui
+      tags:
+        - release:cycle-with-intermediary
+        - release:managed
     python-manilaclient:
       repos:
         - openstack/python-manilaclient
