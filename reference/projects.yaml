@@ -3570,6 +3570,12 @@ Puppet OpenStack:
       tags:
         - release:cycle-trailing
         - release:managed
+    puppet-tacker:
+      repos:
+        - openstack/puppet-tacker
+      tags:
+        - release:cycle-trailing
+        - release:managed
     puppet-tempest:
       repos:
         - openstack/puppet-tempest
