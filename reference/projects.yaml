@@ -3991,6 +3991,7 @@ swift:
         - type:library
         - release:managed
         - vulnerability:managed
+        - stable:follows-policy
     swift:
       repos:
         - openstack/swift
@@ -4000,6 +4001,7 @@ swift:
         - release:cycle-with-intermediary
         - type:service
         - vulnerability:managed
+        - stable:follows-policy
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - assert:supports-rolling-upgrade
