@@ -29,6 +29,11 @@ distribution of the consuming project. The list of acceptable licenses
 includes ASLv2, BSD (both forms), MIT, PSF, LGPL, ISC, and MPL. Licenses
 considered incompatible with this requirement include GPLv2, GPLv3, and AGPL.
 
+[A]GPL libraries used during validation or testing phases of development fall
+into a gray area - they are not presumed to be compatible or incompatible and
+instead are reviewed on a case by case basis. Please use legal-discuss@
+mailing list to bring up any such cases.
+
 **Projects run as part of the OpenStack Infrastructure** (in order to
 *produce* OpenStack software) may be licensed under any `OSI-approved license`_.
 
