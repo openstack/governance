@@ -3408,6 +3408,12 @@ Puppet OpenStack:
       tags:
         - release:cycle-trailing
         - release:managed
+    puppet-congress:
+      repos:
+        - openstack/puppet-congress
+      tags:
+        - release:cycle-trailing
+        - release:managed
     puppet-designate:
       repos:
         - openstack/puppet-designate
