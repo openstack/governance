@@ -1,3 +1,36 @@
+cue:
+  ptl:
+    name: Min Pae
+    irc: sputnik13
+    email: sputnik13@gmail.com
+  service: Message Broker service
+  retired-on: 2016-06-07
+  mission: >
+    To provide a multi-tenant service that offers scalable and reliable
+    provisioning and management capabilities for off-the-shelf message brokers.
+  url: https://wiki.openstack.org/wiki/Cue
+  tags:
+    - team:single-vendor
+  deliverables:
+    cue:
+      repos:
+        - openstack/cue
+      tags:
+        - type:service
+        - release:independent
+    cue-dashboard:
+      repos:
+        - openstack/cue-dashboard
+      tags:
+        - type:library
+        - release:independent
+    python-cueclient:
+      repos:
+        - openstack/python-cueclient
+      tags:
+        - type:library
+        - release:independent
+
 MagnetoDB:
   ptl: Ilya Sviridov (isviridov)
   service: Key-Value Store service

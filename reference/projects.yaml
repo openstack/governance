@@ -342,38 +342,6 @@ congress:
         - type:library
         - release:cycle-with-intermediary
 
-cue:
-  ptl:
-    name: Min Pae
-    irc: sputnik13
-    email: sputnik13@gmail.com
-  service: Message Broker service
-  mission: >
-    To provide a multi-tenant service that offers scalable and reliable
-    provisioning and management capabilities for off-the-shelf message brokers.
-  url: https://wiki.openstack.org/wiki/Cue
-  tags:
-    - team:single-vendor
-  deliverables:
-    cue:
-      repos:
-        - openstack/cue
-      tags:
-        - type:service
-        - release:independent
-    cue-dashboard:
-      repos:
-        - openstack/cue-dashboard
-      tags:
-        - type:library
-        - release:independent
-    python-cueclient:
-      repos:
-        - openstack/python-cueclient
-      tags:
-        - type:library
-        - release:independent
-
 designate:
   ptl:
     name: Graham Hayes
