@@ -2177,6 +2177,7 @@ manila:
         - type:service
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
+        - stable:follows-policy
     manila-image-elements:
       repos:
         - openstack/manila-image-elements
