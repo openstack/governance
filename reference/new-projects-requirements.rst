@@ -30,6 +30,12 @@ When considering new projects for addition, the TC will check that:
     * The project has regular public meetings on IRC and those meetings are
       logged and published (moving to official OpenStack meeting channels once
       the project's application is accepted, if they're not held there already)
+    * The project shall provide a level and open collaboration playing field
+      for all contributors. The project shall not benefit a single vendor, or
+      a single vendors product offerings; nor advantage contributors from a
+      single vendor organization due to access to source code, hardware,
+      resources or other proprietary technology available only to those
+      contributors.
 
   * Open Development:
 
