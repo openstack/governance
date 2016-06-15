@@ -2629,46 +2629,35 @@ OpenStackAnsible:
     openstack-ansible:
       repos:
         - openstack/openstack-ansible
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-apt_package_pinning:
-      repos:
         - openstack/openstack-ansible-apt_package_pinning
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-galera_client:
-      repos:
         - openstack/openstack-ansible-galera_client
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-galera_server:
-      repos:
         - openstack/openstack-ansible-galera_server
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-lxc_container_create:
-      repos:
         - openstack/openstack-ansible-lxc_container_create
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-lxc_hosts:
-      repos:
         - openstack/openstack-ansible-lxc_hosts
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-memcached_server:
-      repos:
         - openstack/openstack-ansible-memcached_server
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-openstack_hosts:
-      repos:
         - openstack/openstack-ansible-openstack_hosts
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-openstack_openrc:
-      repos:
         - openstack/openstack-ansible-openstack_openrc
+        - openstack/openstack-ansible-os_aodh
+        - openstack/openstack-ansible-os_ceilometer
+        - openstack/openstack-ansible-os_cinder
+        - openstack/openstack-ansible-os_glance
+        - openstack/openstack-ansible-os_heat
+        - openstack/openstack-ansible-os_horizon
+        - openstack/openstack-ansible-os_ironic
+        - openstack/openstack-ansible-os_keystone
+        - openstack/openstack-ansible-os_neutron
+        - openstack/openstack-ansible-os_nova
+        - openstack/openstack-ansible-os_swift
+        - openstack/openstack-ansible-os_tempest
+        - openstack/openstack-ansible-pip_install
+        - openstack/openstack-ansible-pip_lock_down
+        - openstack/openstack-ansible-plugins
+        - openstack/openstack-ansible-rabbitmq_server
+        - openstack/openstack-ansible-repo_build
+        - openstack/openstack-ansible-repo_server
+        - openstack/openstack-ansible-rsyslog_client
+        - openstack/openstack-ansible-rsyslog_server
+        - openstack/openstack-ansible-security
       tags:
         - release:cycle-trailing
     openstack-ansible-ops:
@@ -2676,24 +2665,9 @@ OpenStackAnsible:
         - openstack/openstack-ansible-ops
       tags:
         - release:none
-    openstack-ansible-os_aodh:
-      repos:
-        - openstack/openstack-ansible-os_aodh
-      tags:
-        - release:cycle-trailing
     openstack-ansible-os_barbican:
       repos:
         - openstack/openstack-ansible-os_barbican
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-os_ceilometer:
-      repos:
-        - openstack/openstack-ansible-os_ceilometer
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-os_cinder:
-      repos:
-        - openstack/openstack-ansible-os_cinder
       tags:
         - release:cycle-trailing
     openstack-ansible-os_cloudkitty:
@@ -2706,49 +2680,14 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_designate
       tags:
         - release:cycle-trailing
-    openstack-ansible-os_glance:
-      repos:
-        - openstack/openstack-ansible-os_glance
-      tags:
-        - release:cycle-trailing
     openstack-ansible-os_gnocchi:
       repos:
         - openstack/openstack-ansible-os_gnocchi
       tags:
         - release:cycle-trailing
-    openstack-ansible-os_heat:
-      repos:
-        - openstack/openstack-ansible-os_heat
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-os_horizon:
-      repos:
-        - openstack/openstack-ansible-os_horizon
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-os_ironic:
-      repos:
-        - openstack/openstack-ansible-os_ironic
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-os_keystone:
-      repos:
-        - openstack/openstack-ansible-os_keystone
-      tags:
-        - release:cycle-trailing
     openstack-ansible-os_magnum:
       repos:
         - openstack/openstack-ansible-os_magnum
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-os_neutron:
-      repos:
-        - openstack/openstack-ansible-os_neutron
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-os_nova:
-      repos:
-        - openstack/openstack-ansible-os_nova
       tags:
         - release:cycle-trailing
     openstack-ansible-os_rally:
@@ -2761,64 +2700,9 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_sahara
       tags:
         - release:cycle-trailing
-    openstack-ansible-os_swift:
-      repos:
-        - openstack/openstack-ansible-os_swift
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-os_tempest:
-      repos:
-        - openstack/openstack-ansible-os_tempest
-      tags:
-        - release:cycle-trailing
     openstack-ansible-os_zaqar:
       repos:
         - openstack/openstack-ansible-os_zaqar
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-pip_install:
-      repos:
-        - openstack/openstack-ansible-pip_install
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-pip_lock_down:
-      repos:
-        - openstack/openstack-ansible-pip_lock_down
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-plugins:
-      repos:
-        - openstack/openstack-ansible-plugins
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-repo_build:
-      repos:
-        - openstack/openstack-ansible-repo_build
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-rsyslog_client:
-      repos:
-        - openstack/openstack-ansible-rsyslog_client
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-rabbitmq_server:
-      repos:
-        - openstack/openstack-ansible-rabbitmq_server
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-repo_server:
-      repos:
-        - openstack/openstack-ansible-repo_server
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-rsyslog_server:
-      repos:
-        - openstack/openstack-ansible-rsyslog_server
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-security:
-      repos:
-        - openstack/openstack-ansible-security
       tags:
         - release:cycle-trailing
     openstack-ansible-specs:
