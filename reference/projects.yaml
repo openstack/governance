@@ -2486,6 +2486,7 @@ neutron:
       tags:
         - release:managed
         - release:cycle-with-milestones
+        - stable:follows-policy
     neutron-lib:
       repos:
         - openstack/neutron-lib
