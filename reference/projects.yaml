@@ -1626,6 +1626,11 @@ Infrastructure:
         - openstack-infra/puppet-openstack_health
       tags:
         - release:none
+    puppet-openstack_infra_spec_helper:
+      repos:
+        - openstack-infra/puppet-openstack_infra_spec_helper
+      tags:
+        - release:none
     puppet-openstackci:
       repos:
         - openstack-infra/puppet-openstackci
