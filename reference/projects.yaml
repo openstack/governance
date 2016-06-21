@@ -323,6 +323,8 @@ congress:
     services in order to monitor, enforce, and audit policy over
     dynamic infrastructure.
   url: https://wiki.openstack.org/wiki/Congress
+  tags:
+    - team:diverse-affiliation
   deliverables:
     congress:
       repos:
@@ -3946,6 +3948,8 @@ solum:
     application development process by automating the source-to-image
     process, and simplifying app-centric deployment.
   url: https://wiki.openstack.org/wiki/Solum
+  tags:
+    - team:single-vendor
   deliverables:
     python-solumclient:
       repos:
@@ -4434,6 +4438,8 @@ zaqar:
     scalable and highly-available manner, and to create and maintain
     associated Python libraries and documentation.
   url: https://wiki.openstack.org/wiki/Zaqar
+  tags:
+    - team:diverse-affiliation
   deliverables:
     python-zaqarclient:
       repos:
