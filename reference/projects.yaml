@@ -27,6 +27,7 @@ astara:
         - openstack/astara-horizon
       tags:
         - release:cycle-with-milestones
+        - type:horizon-plugin
     astara-neutron:
       repos:
         - openstack/astara-neutron
@@ -272,6 +273,7 @@ cloudkitty:
         - openstack/cloudkitty-dashboard
       tags:
         - release:cycle-with-intermediary
+        - type:horizon-plugin
 
 Community App Catalog:
   ptl:
@@ -533,6 +535,7 @@ freezer:
         - openstack/freezer-web-ui
       tags:
         - release:independent
+        - type:horizon-plugin
     python-freezerclient:
       repos:
         - openstack/python-freezerclient
@@ -785,6 +788,7 @@ horizon:
         - openstack/horizon-cisco-ui
       tags:
         - release:independent
+        - type:horizon-plugin
     tempest-horizon:
       repos:
         - openstack/tempest-horizon
@@ -1955,6 +1959,7 @@ ironic:
         - openstack/ironic-ui
       tags:
         - release:cycle-with-intermediary
+        - type:horizon-plugin
     ironic-webclient:
       repos:
         - openstack/ironic-webclient
@@ -2142,6 +2147,7 @@ magnum:
         - openstack/magnum-ui
       tags:
         - release:cycle-with-intermediary
+        - type:horizon-plugin
     python-magnumclient:
       repos:
         - openstack/python-magnumclient
@@ -2190,6 +2196,7 @@ manila:
       tags:
         - release:cycle-with-intermediary
         - release:managed
+        - type:horizon-plugin
     python-manilaclient:
       repos:
         - openstack/python-manilaclient
@@ -2290,6 +2297,7 @@ monasca:
         - openstack/monasca-ui
       tags:
         - release:cycle-with-intermediary
+        - type:horizon-plugin
     python-monascaclient:
       repos:
         - openstack/python-monascaclient
@@ -2362,6 +2370,7 @@ murano:
       tags:
         - release:cycle-with-milestones
         - stable:follows-policy
+        - type:horizon-plugin
     murano-deployment:
       repos:
         - openstack/murano-deployment
@@ -3820,6 +3829,7 @@ searchlight:
         - openstack/searchlight-ui
       tags:
         - release:cycle-with-intermediary
+        - type:horizon-plugin
 
 Security:
   ptl:
@@ -3901,7 +3911,7 @@ senlin:
         - openstack/senlin-dashboard
       tags:
         - release:cycle-with-intermediary
-        - type:library
+        - type:horizon-plugin
 
 smaug:
   ptl:
@@ -3967,6 +3977,7 @@ solum:
         - openstack/solum-dashboard
       tags:
         - release:cycle-with-intermediary
+        - type:horizon-plugin
     solum-infra-guestagent:
       repos:
         - openstack/solum-infra-guestagent
@@ -4308,6 +4319,7 @@ trove:
         - assert:follows-standard-deprecation
         - release:managed
         - release:cycle-with-milestones
+        - type:horizon-plugin
     trove-image-builder:
       repos:
         - openstack/trove-image-builder
@@ -4362,6 +4374,7 @@ vitrage:
         - openstack/vitrage-dashboard
       tags:
         - release:cycle-with-intermediary
+        - type:horizon-plugin
 
 watcher:
   ptl:
@@ -4397,6 +4410,7 @@ watcher:
         - openstack/watcher-dashboard
       tags:
         - release:cycle-with-intermediary
+        - type:horizon-plugin
 
 winstackers:
   ptl:
@@ -4467,3 +4481,4 @@ zaqar:
         - openstack/zaqar-ui
       tags:
         - release:independent
+        - type:horizon-plugin
