@@ -54,11 +54,11 @@ any of the following over the prior six months:
 * the sum of all reviews done against patches submitted to any of the git
   repositories managed by the team
 
-* the sum of all reviews done by core reviewers against patches submitted to any
-  of the git repositories managed by the team
+* the sum of all reviews done by active core reviewers against patches submitted
+  to any of the git repositories managed by the team
 
-* the union of the memberships of the core review teams associated with the git
-  repositories managed by the team
+* the union of the active members of the core review teams associated with the
+  git repositories managed by the team
 
 The application of this tag to new projects should be updated around the same
 time as the 6 month release. But the removal of this tag should happen shortly

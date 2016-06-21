@@ -53,11 +53,11 @@ should represent >80% of any of the following:
 * the sum of all reviews done against patches submitted to any of the git
   repositories managed by the team
 
-* the sum of all reviews done by core reviewers against patches submitted to any
-  of the git repositories managed by the team
+* the sum of all reviews done by active core reviewers against patches submitted
+  to any of the git repositories managed by the team
 
-* the union of the memberships of the core review teams associated with the git
-  repositories managed by the team
+* the union of the active memberships of the core review teams associated with
+  the git repositories managed by the team
 
 The timeline used for evaluation is based on the past 6 months, and should be
 updated around the same time as the 6 month release.
