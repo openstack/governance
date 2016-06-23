@@ -1,3 +1,5 @@
+.. _20150615_stackforge_resolution:
+
 ============================================
  2015-06-15 Stackforge Namespace Retirement
 ============================================
@@ -25,10 +27,9 @@ is complex for the Infrastructure team and very disruptive to
 developers, operators, and users.
 
 In order to simplify software development lifecycle transitions of
-Unofficial and Official OpenStack projects, all projects developed
-within the OpenStack project infrastructure will be permitted to use
-the "openstack/" namespace.  The use of the term "Stackforge" to
-describe unofficial projects should be considered deprecated.
+Stackforge and OpenStack projects, all projects developed within the
+OpenStack project infrastructure will be permitted to use the
+"openstack/" namespace.
 
 The "openstack/" namespace is intended to convey that projects
 contained within it are hosted on OpenStack infrastructure.  Only some
@@ -36,3 +37,8 @@ of the projects within will be official OpenStack projects
 themselves. As such, there should not be any new requirements such as
 CLA signing. This resolution should not alter the workflow of any of
 the projects.
+
+Updates
+=======
+
+This resolution is amended by :ref:`20160119_stackforge_resolution`.

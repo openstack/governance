@@ -1,3 +1,5 @@
+.. _20160106_mission_amendment:
+
 ========================================
  2016-01-06 OpenStack Mission amendment
 ========================================
@@ -27,3 +29,7 @@ the adoption of the following wording::
   simple to implement and massively scalable while serving the cloud users'
   needs.
 
+Updates
+=======
+
+This resolution is amended by :ref:`20160217_mission_amendment`.
