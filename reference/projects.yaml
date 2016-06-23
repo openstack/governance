@@ -1192,9 +1192,9 @@ Infrastructure:
         - openstack-infra/ansible-build-image
       tags:
         - release:none
-    ansible-puppet:
+    ansible-role-puppet:
       repos:
-        - openstack-infra/ansible-puppet
+        - openstack-infra/ansible-role-puppet
       tags:
         - release:none
     askbot-theme:
