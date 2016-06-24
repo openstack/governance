@@ -534,7 +534,7 @@ freezer:
       repos:
         - openstack/freezer-web-ui
       tags:
-        - release:independent
+        - release:cycle-with-milestones
         - type:horizon-plugin
     python-freezerclient:
       repos:
