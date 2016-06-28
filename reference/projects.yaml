@@ -594,7 +594,6 @@ fuel:
     fuel-lcm:
       repos:
         - openstack/fuel-octane
-        - openstack/fuel-upgrade
         - openstack/tuning-box
       tags:
         - release:independent
