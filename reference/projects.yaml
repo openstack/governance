@@ -2813,9 +2813,19 @@ OpenStackSalt:
         - openstack/salt-formula-nova
       tags:
         - release:independent
+    salt-formula-midonet:
+      repos:
+        - openstack/salt-formula-midonet
+      tags:
+        - release:independent
     salt-formula-opencontrail:
       repos:
         - openstack/salt-formula-opencontrail
+      tags:
+        - release:independent
+    salt-formula-swift:
+      repos:
+        - openstack/salt-formula-swift
       tags:
         - release:independent
 
