@@ -4492,5 +4492,5 @@ zaqar:
       repos:
         - openstack/zaqar-ui
       tags:
-        - release:independent
+        - release:cycle-with-milestones
         - type:horizon-plugin
