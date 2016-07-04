@@ -3445,11 +3445,6 @@ Puppet OpenStack:
         - openstack/puppet-openstack-integration
       tags:
         - release:independent
-    puppet-openstack-release-tools:
-      repos:
-        - openstack/puppet-openstack-release-tools
-      tags:
-        - release:independent
     puppet-openstack-specs:
       repos:
         - openstack/puppet-openstack-specs
