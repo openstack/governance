@@ -4,4 +4,5 @@ Ops Tags Team:
 Product Working Group:
   - repo: openstack/openstack-user-stories
 User Committee:
+  - repo: openstack/governance-uc
   - repo: openstack/uc-recognition
