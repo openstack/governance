@@ -53,7 +53,6 @@ barbican:
         - openstack/barbican
       tags:
         - release:cycle-with-milestones
-        - release:managed
         - type:service
     barbican-specs:
       repos:
@@ -71,7 +70,6 @@ barbican:
         - openstack/python-barbicanclient
       tags:
         - release:cycle-with-intermediary
-        - release:managed
         - type:library
 
 Chef OpenStack:
@@ -201,7 +199,6 @@ cinder:
         - openstack/cinder
       tags:
         - tc-approved-release
-        - release:managed
         - release:cycle-with-milestones
         - type:service
         - vulnerability:managed
@@ -219,21 +216,18 @@ cinder:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
     python-brick-cinderclient-ext:
       repos:
         - openstack/python-brick-cinderclient-ext
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
     python-cinderclient:
       repos:
         - openstack/python-cinderclient
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - vulnerability:managed
   extra-atcs:
     - name: Duncan Thomas
@@ -363,7 +357,6 @@ designate:
         - openstack/designate
       tags:
         - release:cycle-with-milestones
-        - release:managed
         - type:service
         - stable:follows-policy
     designate-dashboard:
@@ -385,13 +378,11 @@ designate:
       tags:
         - release:independent
         - type:library
-        - release:managed
     python-designateclient:
       repos:
         - openstack/python-designateclient
       tags:
         - release:cycle-with-intermediary
-        - release:managed
         - type:library
         - stable:follows-policy
 
@@ -440,7 +431,6 @@ Documentation:
       tags:
         - release:independent
         - type:library
-        - release:managed
     openstack-manuals:
       repos:
         - openstack/openstack-manuals
@@ -452,7 +442,6 @@ Documentation:
       tags:
         - release:independent
         - type:library
-        - release:managed
     os-api-ref:
       repos:
         - openstack/os-api-ref
@@ -653,7 +642,6 @@ glance:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - tc-approved-release
-        - release:managed
         - release:cycle-with-milestones
         - type:service
         - starter-kit:compute
@@ -670,7 +658,6 @@ glance:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - vulnerability:managed
         - stable:follows-policy
     python-glanceclient:
@@ -679,7 +666,6 @@ glance:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - vulnerability:managed
         - stable:follows-policy
 
@@ -702,7 +688,6 @@ heat:
         - openstack/heat
       tags:
         - tc-approved-release
-        - release:managed
         - release:cycle-with-milestones
         - type:service
         - vulnerability:managed
@@ -740,7 +725,6 @@ heat:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - vulnerability:managed
     tosca-parser:
       repos:
@@ -775,14 +759,12 @@ horizon:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     horizon:
       repos:
         - openstack/horizon
       tags:
         - tc-approved-release
-        - release:managed
         - release:cycle-with-milestones
         - type:service
         - vulnerability:managed
@@ -1929,7 +1911,6 @@ ironic:
         - openstack/ironic
       tags:
         - tc-approved-release
-        - release:managed
         - release:cycle-with-intermediary
         - type:service
         - stable:follows-policy
@@ -1937,7 +1918,6 @@ ironic:
       repos:
         - openstack/ironic-inspector
       tags:
-        - release:managed
         - release:cycle-with-intermediary
         - stable:follows-policy
     ironic-inspector-specs:
@@ -1951,13 +1931,11 @@ ironic:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     ironic-python-agent:
       repos:
         - openstack/ironic-python-agent
       tags:
-        - release:managed
         - release:cycle-with-intermediary
         - stable:follows-policy
     ironic-specs:
@@ -1986,7 +1964,6 @@ ironic:
       repos:
         - openstack/python-ironic-inspector-client
       tags:
-        - release:managed
         - release:cycle-with-intermediary
         - type:library
         - stable:follows-policy
@@ -1996,13 +1973,11 @@ ironic:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     python-wsmanclient:
       repos:
         - openstack/python-wsmanclient
       tags:
-        - release:managed
         - type:library
     virtualbmc:
       repos:
@@ -2029,7 +2004,6 @@ keystone:
         - openstack/keystone
       tags:
         - tc-approved-release
-        - release:managed
         - release:cycle-with-milestones
         - type:service
         - starter-kit:compute
@@ -2048,7 +2022,6 @@ keystone:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     keystonemiddleware:
       repos:
@@ -2056,7 +2029,6 @@ keystone:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     pycadf:
       repos:
@@ -2064,7 +2036,6 @@ keystone:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     python-keystoneclient:
       repos:
@@ -2072,7 +2043,6 @@ keystone:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - vulnerability:managed
         - stable:follows-policy
     python-keystoneclient-kerberos:
@@ -2186,7 +2156,6 @@ manila:
         - openstack/manila
       tags:
         - release:cycle-with-milestones
-        - release:managed
         - type:service
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -2206,14 +2175,12 @@ manila:
         - openstack/manila-ui
       tags:
         - release:cycle-with-intermediary
-        - release:managed
         - type:horizon-plugin
     python-manilaclient:
       repos:
         - openstack/python-manilaclient
       tags:
         - release:cycle-with-intermediary
-        - release:managed
         - type:library
   extra-atcs:
     - name: Denis Cavalcante
@@ -2468,7 +2435,6 @@ neutron:
       repos:
         - openstack/neutron-fwaas
       tags:
-        - release:managed
         - release:cycle-with-milestones
         - stable:follows-policy
         - assert:follows-standard-deprecation
@@ -2476,7 +2442,6 @@ neutron:
       repos:
         - openstack/neutron-lbaas
       tags:
-        - release:managed
         - release:cycle-with-milestones
         - stable:follows-policy
         - assert:follows-standard-deprecation
@@ -2484,7 +2449,6 @@ neutron:
       repos:
         - openstack/neutron-vpnaas
       tags:
-        - release:managed
         - release:cycle-with-milestones
         - stable:follows-policy
         - assert:follows-standard-deprecation
@@ -2493,7 +2457,6 @@ neutron:
         - openstack/neutron
       tags:
         - tc-approved-release
-        - release:managed
         - release:cycle-with-milestones
         - stable:follows-policy
         - type:service
@@ -2506,7 +2469,6 @@ neutron:
       repos:
         - openstack/neutron-dynamic-routing
       tags:
-        - release:managed
         - release:cycle-with-milestones
         - stable:follows-policy
     neutron-lib:
@@ -2540,7 +2502,6 @@ neutron:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - vulnerability:managed
 
 nova:
@@ -2563,7 +2524,6 @@ nova:
         - openstack/nova
       tags:
         - tc-approved-release
-        - release:managed
         - release:cycle-with-milestones
         - type:service
         - starter-kit:compute
@@ -2583,7 +2543,6 @@ nova:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - vulnerability:managed
         - stable:follows-policy
     os-vif:
@@ -2611,27 +2570,23 @@ OpenStack client:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
     os-client-config:
       repos:
         - openstack/os-client-config
       tags:
         - release:cycle-with-intermediary
-        - release:managed
         - type:library
     osc-lib:
       repos:
         - openstack/osc-lib
       tags:
         - release:cycle-with-intermediary
-        - release:managed
         - type:library
     python-openstackclient:
       repos:
         - openstack/python-openstackclient
       tags:
         - release:cycle-with-intermediary
-        - release:managed
 
 OpenStack UX:
   ptl:
@@ -2851,7 +2806,6 @@ oslo:
         - openstack/automaton
       tags:
         - release:cycle-with-intermediary
-        - release:managed
         - type:library
         - stable:follows-policy
     cookiecutter:
@@ -2865,7 +2819,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     devstack-plugin-amqp1:
       repos:
@@ -2893,7 +2846,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     mox3:
       repos:
@@ -2901,7 +2853,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslo-cookiecutter:
       repos:
@@ -2924,7 +2875,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslo.concurrency:
       repos:
@@ -2932,7 +2882,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslo.config:
       repos:
@@ -2940,7 +2889,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - vulnerability:managed
         - stable:follows-policy
     oslo.context:
@@ -2949,7 +2897,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslo.db:
       repos:
@@ -2957,7 +2904,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslo.i18n:
       repos:
@@ -2965,7 +2911,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslo.log:
       repos:
@@ -2973,7 +2918,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslo.messaging:
       repos:
@@ -2981,14 +2925,12 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
     oslo.middleware:
       repos:
         - openstack/oslo.middleware
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslo.policy:
       repos:
@@ -2996,7 +2938,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslo.privsep:
       repos:
@@ -3004,7 +2945,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslo.reports:
       repos:
@@ -3012,7 +2952,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslo.rootwrap:
       repos:
@@ -3020,7 +2959,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslo.serialization:
       repos:
@@ -3028,7 +2966,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslo.service:
       repos:
@@ -3036,7 +2973,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslo.tools:
       repos:
@@ -3049,7 +2985,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslo.versionedobjects:
       repos:
@@ -3057,7 +2992,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslo.vmware:
       repos:
@@ -3065,7 +2999,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslosphinx:
       repos:
@@ -3073,7 +3006,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     oslotest:
       repos:
@@ -3081,7 +3013,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     osprofiler:
       repos:
@@ -3089,7 +3020,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     pbr:
       repos:
@@ -3097,7 +3027,6 @@ oslo:
       tags:
         - release:independent
         - type:library
-        - release:managed
         - stable:follows-policy
     pylockfile:
       repos:
@@ -3105,7 +3034,6 @@ oslo:
       tags:
         - release:independent
         - type:library
-        - release:managed
         - stable:follows-policy
     stevedore:
       repos:
@@ -3113,7 +3041,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     taskflow:
       repos:
@@ -3121,7 +3048,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
     tooz:
       repos:
@@ -3129,7 +3055,6 @@ oslo:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - stable:follows-policy
 
 Packaging-deb:
@@ -3316,127 +3241,106 @@ Puppet OpenStack:
         - openstack/puppet-aodh
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-barbican:
       repos:
         - openstack/puppet-barbican
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-ceilometer:
       repos:
         - openstack/puppet-ceilometer
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-ceph:
       repos:
         - openstack/puppet-ceph
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-cinder:
       repos:
         - openstack/puppet-cinder
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-congress:
       repos:
         - openstack/puppet-congress
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-designate:
       repos:
         - openstack/puppet-designate
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-ec2api:
       repos:
         - openstack/puppet-ec2api
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-glance:
       repos:
         - openstack/puppet-glance
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-gnocchi:
       repos:
         - openstack/puppet-gnocchi
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-heat:
       repos:
         - openstack/puppet-heat
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-horizon:
       repos:
         - openstack/puppet-horizon
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-ironic:
       repos:
         - openstack/puppet-ironic
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-keystone:
       repos:
         - openstack/puppet-keystone
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-magnum:
       repos:
         - openstack/puppet-magnum
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-manila:
       repos:
         - openstack/puppet-manila
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-mistral:
       repos:
         - openstack/puppet-mistral
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-murano:
       repos:
         - openstack/puppet-murano
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-neutron:
       repos:
         - openstack/puppet-neutron
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-nova:
       repos:
         - openstack/puppet-nova
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-octavia:
       repos:
         - openstack/puppet-octavia
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-openstack-cookiecutter:
       repos:
         - openstack/puppet-openstack-cookiecutter
@@ -3467,7 +3371,6 @@ Puppet OpenStack:
         - openstack/puppet-openstack_extras
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-openstack_spec_helper:
       repos:
         - openstack/puppet-openstack_spec_helper
@@ -3478,49 +3381,41 @@ Puppet OpenStack:
         - openstack/puppet-openstacklib
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-oslo:
       repos:
         - openstack/puppet-oslo
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-ovn:
       repos:
         - openstack/puppet-ovn
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-rally:
       repos:
         - openstack/puppet-rally
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-sahara:
       repos:
         - openstack/puppet-sahara
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-swift:
       repos:
         - openstack/puppet-swift
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-tacker:
       repos:
         - openstack/puppet-tacker
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-tempest:
       repos:
         - openstack/puppet-tempest
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-tripleo:
       repos:
         - openstack/puppet-tripleo
@@ -3531,31 +3426,26 @@ Puppet OpenStack:
         - openstack/puppet-trove
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-vitrage:
       repos:
         - openstack/puppet-vitrage
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-vswitch:
       repos:
         - openstack/puppet-vswitch
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-watcher:
       repos:
         - openstack/puppet-watcher
       tags:
         - release:cycle-trailing
-        - release:managed
     puppet-zaqar:
       repos:
         - openstack/puppet-zaqar
       tags:
         - release:cycle-trailing
-        - release:managed
 
 Quality Assurance:
   ptl:
@@ -3780,7 +3670,6 @@ sahara:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - vulnerability:managed
     sahara:
       repos:
@@ -3790,7 +3679,6 @@ sahara:
         - openstack/sahara-image-elements
       tags:
         - tc-approved-release
-        - release:managed
         - release:cycle-with-milestones
         - type:service
         - vulnerability:managed
@@ -4029,7 +3917,6 @@ swift:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - vulnerability:managed
         - stable:follows-policy
     swift:
@@ -4037,7 +3924,6 @@ swift:
         - openstack/swift
       tags:
         - tc-approved-release
-        - release:managed
         - release:cycle-with-intermediary
         - type:service
         - vulnerability:managed
@@ -4109,7 +3995,6 @@ Telemetry:
         - openstack/aodh
       tags:
         - assert:follows-standard-deprecation
-        - release:managed
         - release:cycle-with-milestones
         - type:service
     ceilometer:
@@ -4119,7 +4004,6 @@ Telemetry:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - tc-approved-release
-        - release:managed
         - release:cycle-with-milestones
         - type:service
     ceilometer-powervm:
@@ -4138,7 +4022,6 @@ Telemetry:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
     gnocchi:
       repos:
         - openstack/gnocchi
@@ -4149,7 +4032,6 @@ Telemetry:
         - openstack/panko
       tags:
         - assert:follows-standard-deprecation
-        - release:managed
         - release:cycle-with-intermediary
         - type:service
     python-aodhclient:
@@ -4164,7 +4046,6 @@ Telemetry:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
     python-gnocchiclient:
       repos:
         - openstack/python-gnocchiclient
@@ -4308,7 +4189,6 @@ trove:
       tags:
         - release:cycle-with-intermediary
         - type:library
-        - release:managed
         - vulnerability:managed
         - stable:follows-policy
         - assert:follows-standard-deprecation
@@ -4317,7 +4197,6 @@ trove:
         - openstack/trove
       tags:
         - tc-approved-release
-        - release:managed
         - release:cycle-with-milestones
         - type:service
         - vulnerability:managed
@@ -4329,7 +4208,6 @@ trove:
       tags:
         - stable:follows-policy
         - assert:follows-standard-deprecation
-        - release:managed
         - release:cycle-with-milestones
         - type:horizon-plugin
     trove-image-builder:
@@ -4338,7 +4216,6 @@ trove:
       tags:
         - stable:follows-policy
         - assert:follows-standard-deprecation
-        - release:managed
         - release:cycle-with-milestones
     trove-integration:
       repos:
@@ -4472,14 +4349,12 @@ zaqar:
         - openstack/python-zaqarclient
       tags:
         - release:cycle-with-intermediary
-        - release:managed
         - type:library
     zaqar:
       repos:
         - openstack/zaqar
       tags:
         - release:cycle-with-milestones
-        - release:managed
         - type:service
         - stable:follows-policy
         - assert:follows-standard-deprecation
