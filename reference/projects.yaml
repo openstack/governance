@@ -601,6 +601,7 @@ fuel:
     fuel-plugin-murano:
       repos:
         - openstack/fuel-plugin-murano
+        - openstack/fuel-plugin-murano-tests
       tags:
         - release:cycle-trailing
     fuel-specs:
