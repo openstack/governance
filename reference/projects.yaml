@@ -3681,6 +3681,7 @@ sahara:
         - release:cycle-with-intermediary
         - type:library
         - vulnerability:managed
+        - stable:follows-policy
     sahara:
       repos:
         - openstack/sahara
@@ -3694,6 +3695,7 @@ sahara:
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
+        - stable:follows-policy
     sahara-tests:
       repos:
         - openstack/sahara-tests
