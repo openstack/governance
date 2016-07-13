@@ -2569,6 +2569,11 @@ OpenStack Charms:
         - openstack/charms.openstack
       tags:
         - release:independent
+    charm-aodh:
+      repos:
+        - openstack/charm-aodh
+      tags:
+        - release:independent
     charm-ceilometer:
       repos:
         - openstack/charm-ceilometer
