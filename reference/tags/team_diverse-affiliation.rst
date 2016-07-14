@@ -59,6 +59,9 @@ should represent >80% of any of the following:
 * the union of the active memberships of the core review teams associated with
   the git repositories managed by the team
 
+This tag is applied based on the `tools/teamstats.py` script. The output of this
+script is then reviewed by the TC to verify it matches the reality.
+
 The timeline used for evaluation is based on the past 6 months, and should be
 updated around the same time as the 6 month release.
 

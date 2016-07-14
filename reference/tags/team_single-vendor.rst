@@ -60,6 +60,9 @@ any of the following over the prior six months:
 * the union of the active members of the core review teams associated with the
   git repositories managed by the team
 
+This tag is applied based on the `tools/teamstats.py` script. The output of this
+script is then reviewed by the TC to verify it matches the reality.
+
 The application of this tag to new projects should be updated around the same
 time as the 6 month release. But the removal of this tag should happen shortly
 after it does not apply to a given project.
