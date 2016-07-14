@@ -12,6 +12,7 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
+import functools
 import os
 import sys
 import time
@@ -29,20 +30,50 @@ s = requests.session()
 
 six_months = int(time.time() - 30*6*24*60*60)  # 6 months ago
 
+# NOTE(flaper87): This value affects both, single-vendor and diverse-affiliation
+# tags and it's been tuned to a reasonable enough threshold to measure reviews
+# activeness. Changes to this value must be discussed separately.
+MIN_PERCENTAGE_REVIEWS = 0.02  # 2%
 MIN_REVIEWS = 30
 MIN_COMMITS = 6
 
 
+def _memoize(func):
+    cache = {}
+
+    @functools.wraps(func)
+    def memoized(*args, **kwargs):
+        key = (args, tuple(kwargs.items()))
+        try:
+            return cache[key]
+        except KeyError:
+            cache[key] = func(*args, **kwargs)
+        return cache[key]
+    return memoized
+
+
+@_memoize
+def _get_number_of_commits(group, start_date=six_months):
+    commits = s.get('http://stackalytics.com/api/'
+                    '1.0/stats/companies?metric=commits&release=all'
+                    '&project_type=all&module=%s&start_date=%s'
+                    % (group, start_date)).json()
+    return sum([company['metric'] for company in commits['stats']])
+
+
+@_memoize
 def get_team_size_stats(team):
     team_stats = {}
     group = "%s-group" % team.lower()
+    commits_total = _get_number_of_commits(group)
+    min_percent = int(commits_total * MIN_PERCENTAGE_REVIEWS)
     reviews = s.get('http://stackalytics.com/api/'
                     '1.0/stats/engineers?metric=marks&release=all'
                     '&start_date=%s&project_type=all'
                     '&module=%s' % (six_months, group)).json()
     team_stats['active_reviewers'] = 0
     for eng in reviews['stats']:
-        if eng['metric'] >= MIN_REVIEWS:
+        if eng['metric'] >= MIN_REVIEWS or eng['metric'] >= min_percent:
             team_stats['active_reviewers'] += 1
 
     team_stats['active_committers'] = 0
@@ -57,8 +88,12 @@ def get_team_size_stats(team):
     return team_stats
 
 
+@_memoize
 def get_core_reviews_by_company(group):
     # reviews by individual
+    commits_total = _get_number_of_commits(group)
+    min_percent = int(commits_total * MIN_PERCENTAGE_REVIEWS)
+
     reviews = s.get('http://stackalytics.com/api/'
                     '1.0/stats/engineers?metric=marks&release=all'
                     '&start_date=%s&project_type=all'
@@ -74,11 +109,14 @@ def get_core_reviews_by_company(group):
                         % (group, eng['id'],
                            six_months)).json()['stats'][0]['id']
         companies.setdefault(company, {'reviewers': 0, 'reviews': 0})
-        companies[company]['reviews'] += eng['metric']
-        companies[company]['reviewers'] += 1
+
+        if eng['metric'] >= MIN_REVIEWS or eng['metric'] >= min_percent:
+            companies[company]['reviews'] += eng['metric']
+            companies[company]['reviewers'] += 1
+
     return companies
 
-
+@_memoize
 def get_diversity_stats(project):
     team_stats = {}
     # commits by company
