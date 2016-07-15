@@ -4163,7 +4163,7 @@ Telemetry:
         - openstack/aodh
       tags:
         - assert:follows-standard-deprecation
-        - release:cycle-with-milestones
+        - release:cycle-with-intermediary
         - type:service
     ceilometer:
       repos:
@@ -4172,7 +4172,7 @@ Telemetry:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - tc-approved-release
-        - release:cycle-with-milestones
+        - release:cycle-with-intermediary
         - type:service
     ceilometer-powervm:
       repos:
