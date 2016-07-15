@@ -1874,6 +1874,11 @@ Infrastructure:
         - openstack-infra/userstory-dashboard
       tags:
         - release:independent
+    vinz:
+      repos:
+        - openstack-infra/vinz
+      tags:
+        - release:independent
     yaml2ical:
       repos:
         - openstack-infra/yaml2ical
