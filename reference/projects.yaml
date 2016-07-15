@@ -1769,6 +1769,11 @@ Infrastructure:
         - openstack-infra/puppet-user
       tags:
         - release:none
+    puppet-userstory_dashboard:
+      repos:
+        - openstack-infra/puppet-userstory_dashboard
+      tags:
+        - release:none
     puppet-vcsrepo:
       repos:
         - openstack-infra/puppet-vcsrepo
@@ -1864,6 +1869,11 @@ Infrastructure:
         - openstack-infra/trystack-site
       tags:
         - release:none
+    userstory-dashboard:
+      repos:
+        - openstack-infra/userstory-dashboard
+      tags:
+        - release:independent
     yaml2ical:
       repos:
         - openstack-infra/yaml2ical
