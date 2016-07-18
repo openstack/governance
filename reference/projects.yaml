@@ -589,6 +589,7 @@ fuel:
     fuel-lcm:
       repos:
         - openstack/fuel-octane
+        - openstack/fuel-nailgun-extension-cluster-upgrade
         - openstack/tuning-box
       tags:
         - release:independent
