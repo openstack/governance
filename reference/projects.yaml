@@ -652,7 +652,7 @@ glance:
         - openstack/glance-specs
       tags:
         - release:none
-    glance_store:
+    glance-store:
       repos:
         - openstack/glance_store
       tags:
