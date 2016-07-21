@@ -2205,10 +2205,14 @@ mistral:
       repos:
         - openstack/mistral
         - openstack/mistral-dashboard
-        - openstack/mistral-extra
       tags:
         - type:service
         - release:cycle-with-milestones
+    mistral-extra:
+      repos:
+        - openstack/mistral-extra
+      tags:
+        - release:none
     mistral-specs:
       repos:
         - openstack/mistral-specs
