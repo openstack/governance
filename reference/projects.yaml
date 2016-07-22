@@ -1914,6 +1914,8 @@ ironic:
         - release:cycle-with-intermediary
         - type:service
         - stable:follows-policy
+        - assert:supports-upgrade
+        - assert:follows-standard-deprecation
     ironic-inspector:
       repos:
         - openstack/ironic-inspector
