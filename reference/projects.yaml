@@ -472,8 +472,6 @@ dragonflow:
     It's designed to support containers networking and large scale
     production loads.
   url: https://wiki.openstack.org/wiki/Dragonflow
-  tags:
-    - team:single-vendor
   deliverables:
     dragonflow:
       repos:
@@ -2207,6 +2205,8 @@ mistral:
     them at scale and in a highly available manner, manage and monitor
     workflow execution state and state of individual tasks.
   url: https://wiki.openstack.org/wiki/Mistral
+  tags:
+    - team:diverse-affiliation
   deliverables:
     mistral:
       repos:
@@ -2242,8 +2242,6 @@ monasca:
     services that can be used by both operators and tenants to gain
     operational insight and visibility, ensuring availability and stability.
   url: https://wiki.openstack.org/wiki/Monasca
-  tags:
-    - team:single-vendor
   deliverables:
     monasca-api:
       repos:
@@ -3266,8 +3264,6 @@ Packaging-deb:
   mission: >
     Maintain packages for Debian (and other deb based distributions) as a
     community.
-  tags:
-    - team:single-vendor
   deliverables:
     deb-openstack-pkg-tools:
       repos:
@@ -3761,6 +3757,8 @@ rally:
     individual OpenStack components as well as full production OpenStack
     cloud deployments.
   url: https://wiki.openstack.org/wiki/Rally
+  tags:
+    - team:single-vendor
   deliverables:
     rally:
       repos:
@@ -4436,6 +4434,8 @@ vitrage:
     insights regarding the root cause of problems and deduce their existence
     before they are directly detected.
   url: https://wiki.openstack.org/wiki/Vitrage
+  tags:
+    - team:single-vendor
   deliverables:
     vitrage:
       repos:
