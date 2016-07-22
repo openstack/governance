@@ -2353,7 +2353,7 @@ murano:
       repos:
         - openstack/murano-apps
       tags:
-        - release:cycle-with-milestones
+        - release:none
     murano-dashboard:
       repos:
         - openstack/murano-dashboard
@@ -4412,7 +4412,7 @@ trove:
       tags:
         - stable:follows-policy
         - assert:follows-standard-deprecation
-        - release:cycle-with-milestones
+        - release:none
     trove-integration:
       repos:
         - openstack/trove-integration
