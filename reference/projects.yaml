@@ -2310,6 +2310,11 @@ monasca:
         - openstack/monasca-analytics
       tags:
         - release:independent
+    monasca-grafana-datasource:
+      repos:
+        - openstack/monasca-grafana-datasource
+      tags:
+        - release:independent
 
 murano:
   ptl:
