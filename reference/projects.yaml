@@ -2632,6 +2632,16 @@ OpenStack Charms:
         - openstack/charm-cinder-ceph
       tags:
         - release:independent
+    charm-designate:
+      repos:
+        - openstack/charm-designate
+      tags:
+        - release:independent
+    charm-designate-bind:
+      repos:
+        - openstack/charm-designate-bind
+      tags:
+        - release:independent
     charm-glance:
       repos:
         - openstack/charm-glance
