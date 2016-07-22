@@ -1540,6 +1540,11 @@ Infrastructure:
         - openstack-infra/puppet-infracloud
       tags:
         - release:none
+    puppet-ipsilon:
+      repos:
+        - openstack-infra/puppet-ipsilon
+      tags:
+        - release:none
     puppet-iptables:
       repos:
         - openstack-infra/puppet-iptables
