@@ -2578,7 +2578,7 @@ OpenStack Charms:
   mission: >
     Develop and maintain Juju Charms for deploying and managing
     OpenStack services.
-  url: http://charm-guide.readthedocs.io/
+  url: http://docs.openstack.org/developer/charm-guide
   tags:
     - team:single-vendor
   deliverables:
