@@ -2212,6 +2212,7 @@ mistral:
       repos:
         - openstack/mistral
         - openstack/mistral-dashboard
+        - openstack/mistral-lib
       tags:
         - type:service
         - release:cycle-with-milestones
