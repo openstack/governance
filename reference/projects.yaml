@@ -623,7 +623,7 @@ fuel:
 glance:
   ptl:
     name: Nikhil Komawar
-    irc: nikhil_k
+    irc: nikhil
     email: nik.komawar@gmail.com
   irc-channel: openstack-glance
   service: Image service
