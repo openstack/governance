@@ -3046,6 +3046,11 @@ OpenStackSalt:
         - openstack/salt-formula-keystone
       tags:
         - release:independent
+    salt-formula-kubernetes:
+      repos:
+        - openstack/salt-formula-kubernetes
+      tags:
+        - release:independent
     salt-formula-neutron:
       repos:
         - openstack/salt-formula-neutron
