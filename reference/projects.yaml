@@ -2667,11 +2667,76 @@ OpenStack Charms:
         - openstack/charm-heat
       tags:
         - release:independent
+    charm-interface-bind-rndc:
+      repos:
+        - openstack/charm-interface-bind-rndc
+      tags:
+        - release:none
+    charm-interface-hacluster:
+      repos:
+        - openstack/charm-interface-hacluster
+      tags:
+        - release:none
+    charm-interface-keystone:
+      repos:
+        - openstack/charm-interface-keystone
+      tags:
+        - release:none
+    charm-interface-keystone-credentials:
+      repos:
+        - openstack/charm-interface-keystone-credentials
+      tags:
+        - release:none
+    charm-interface-mysql-shared:
+      repos:
+        - openstack/charm-interface-mysql-shared
+      tags:
+        - release:none
+    charm-interface-neutron-plugin:
+      repos:
+        - openstack/charm-interface-neutron-plugin
+      tags:
+        - release:none
+    charm-interface-odl-controller-api:
+      repos:
+        - openstack/charm-interface-odl-controller-api
+      tags:
+        - release:none
+    charm-interface-openstack-ha:
+      repos:
+        - openstack/charm-interface-openstack-ha
+      tags:
+        - release:none
+    charm-interface-ovsdb-manager:
+      repos:
+        - openstack/charm-interface-ovsdb-manager
+      tags:
+        - release:none
+    charm-interface-rabbitmq:
+      repos:
+        - openstack/charm-interface-rabbitmq
+      tags:
+        - release:none
     charm-keystone:
       repos:
         - openstack/charm-keystone
       tags:
         - release:independent
+    charm-layer-openstack:
+      repos:
+        - openstack/charm-layer-openstack
+      tags:
+        - release:none
+    charm-layer-openstack-api:
+      repos:
+        - openstack/charm-layer-openstack-api
+      tags:
+        - release:none
+    charm-layer-openstack-principle:
+      repos:
+        - openstack/charm-layer-openstack-principle
+      tags:
+        - release:none
     charm-lxd:
       repos:
         - openstack/charm-lxd
