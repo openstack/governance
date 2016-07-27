@@ -3354,6 +3354,11 @@ Packaging-deb:
   tags:
     - team:single-vendor
   deliverables:
+    deb-auto-backports:
+      repos:
+        - openstack/deb-auto-backports
+      tags:
+        - release:none
     deb-openstack-pkg-tools:
       repos:
         - openstack/deb-openstack-pkg-tools
