@@ -3516,14 +3516,19 @@ Packaging-deb:
     Maintain packages for Debian (and other deb based distributions) as a
     community.
   deliverables:
+    deb-aodh:
+      repos:
+        - openstack/deb-aodh
+      tags:
+        - release:none
     deb-auto-backports:
       repos:
         - openstack/deb-auto-backports
       tags:
         - release:none
-    deb-openstack-pkg-tools:
+    deb-barbican:
       repos:
-        - openstack/deb-openstack-pkg-tools
+        - openstack/deb-barbican
       tags:
         - release:none
     deb-ceilometer:
@@ -3541,6 +3546,11 @@ Packaging-deb:
         - openstack/deb-cinder
       tags:
         - release:none
+    deb-congress:
+      repos:
+        - openstack/deb-congress
+      tags:
+        - release:none
     deb-designate:
       repos:
         - openstack/deb-designate
@@ -3554,6 +3564,11 @@ Packaging-deb:
     deb-glance:
       repos:
         - openstack/deb-glance
+      tags:
+        - release:none
+    deb-gnocchi:
+      repos:
+        - openstack/deb-gnocchi
       tags:
         - release:none
     deb-heat:
@@ -3571,9 +3586,24 @@ Packaging-deb:
         - openstack/deb-ironic
       tags:
         - release:none
+    deb-kazoo:
+      repos:
+        - openstack/deb-kazoo
+      tags:
+        - release:none
     deb-keystone:
       repos:
         - openstack/deb-keystone
+      tags:
+        - release:none
+    deb-manila:
+      repos:
+        - openstack/deb-manila
+      tags:
+        - release:none
+    deb-manila-ui:
+      repos:
+        - openstack/deb-manila-ui
       tags:
         - release:none
     deb-mistral:
@@ -3586,14 +3616,34 @@ Packaging-deb:
         - openstack/deb-mistral-dashboard
       tags:
         - release:none
+    deb-msgpack-python:
+      repos:
+        - openstack/deb-msgpack-python
+      tags:
+        - release:none
     deb-murano:
       repos:
         - openstack/deb-murano
       tags:
         - release:none
+    deb-murano-agent:
+      repos:
+        - openstack/deb-murano-agent
+      tags:
+        - release:none
     deb-murano-dashboard:
       repos:
         - openstack/deb-murano-dashboard
+      tags:
+        - release:none
+    deb-networking-arista:
+      repos:
+        - openstack/deb-networking-arista
+      tags:
+        - release:none
+    deb-networking-mlnx:
+      repos:
+        - openstack/deb-networking-mlnx
       tags:
         - release:none
     deb-neutron:
@@ -3621,9 +3671,1199 @@ Packaging-deb:
         - openstack/deb-nova
       tags:
         - release:none
+    deb-openstack-pkg-tools:
+      repos:
+        - openstack/deb-openstack-pkg-tools
+      tags:
+        - release:none
+    deb-os-apply-config:
+      repos:
+        - openstack/deb-os-apply-config
+      tags:
+        - release:none
+    deb-os-brick:
+      repos:
+        - openstack/deb-os-brick
+      tags:
+        - release:none
+    deb-os-client-config:
+      repos:
+        - openstack/deb-os-client-config
+      tags:
+        - release:none
+    deb-os-cloud-config:
+      repos:
+        - openstack/deb-os-cloud-config
+      tags:
+        - release:none
+    deb-os-collect-config:
+      repos:
+        - openstack/deb-os-collect-config
+      tags:
+        - release:none
+    deb-oslo.cache:
+      repos:
+        - openstack/deb-oslo.cache
+      tags:
+        - release:none
+    deb-oslo.concurrency:
+      repos:
+        - openstack/deb-oslo.concurrency
+      tags:
+        - release:none
+    deb-oslo.config:
+      repos:
+        - openstack/deb-oslo.config
+      tags:
+        - release:none
+    deb-oslo.context:
+      repos:
+        - openstack/deb-oslo.context
+      tags:
+        - release:none
+    deb-oslo.db:
+      repos:
+        - openstack/deb-oslo.db
+      tags:
+        - release:none
+    deb-oslo.i18n:
+      repos:
+        - openstack/deb-oslo.i18n
+      tags:
+        - release:none
+    deb-oslo.log:
+      repos:
+        - openstack/deb-oslo.log
+      tags:
+        - release:none
+    deb-oslo.messaging:
+      repos:
+        - openstack/deb-oslo.messaging
+      tags:
+        - release:none
+    deb-oslo.middleware:
+      repos:
+        - openstack/deb-oslo.middleware
+      tags:
+        - release:none
+    deb-oslo.policy:
+      repos:
+        - openstack/deb-oslo.policy
+      tags:
+        - release:none
+    deb-oslo.privsep:
+      repos:
+        - openstack/deb-oslo.privsep
+      tags:
+        - release:none
+    deb-oslo.reports:
+      repos:
+        - openstack/deb-oslo.reports
+      tags:
+        - release:none
+    deb-oslo.rootwrap:
+      repos:
+        - openstack/deb-oslo.rootwrap
+      tags:
+        - release:none
+    deb-oslo.serialization:
+      repos:
+        - openstack/deb-oslo.serialization
+      tags:
+        - release:none
+    deb-oslo.service:
+      repos:
+        - openstack/deb-oslo.service
+      tags:
+        - release:none
+    deb-oslosphinx:
+      repos:
+        - openstack/deb-oslosphinx
+      tags:
+        - release:none
+    deb-oslotest:
+      repos:
+        - openstack/deb-oslotest
+      tags:
+        - release:none
+    deb-oslo.utils:
+      repos:
+        - openstack/deb-oslo.utils
+      tags:
+        - release:none
+    deb-oslo.versionedobjects:
+      repos:
+        - openstack/deb-oslo.versionedobjects
+      tags:
+        - release:none
+    deb-oslo.vmware:
+      repos:
+        - openstack/deb-oslo.vmware
+      tags:
+        - release:none
+    deb-os-net-config:
+      repos:
+        - openstack/deb-os-net-config
+      tags:
+        - release:none
+    deb-os-refresh-config:
+      repos:
+        - openstack/deb-os-refresh-config
+      tags:
+        - release:none
+    deb-os-testr:
+      repos:
+        - openstack/deb-os-testr
+      tags:
+        - release:none
+    deb-os-vif:
+      repos:
+        - openstack/deb-os-vif
+      tags:
+        - release:none
+    deb-os-win:
+      repos:
+        - openstack/deb-os-win
+      tags:
+        - release:none
+    deb-python-aodhclient:
+      repos:
+        - openstack/deb-python-aodhclient
+      tags:
+        - release:none
+    deb-python-barbicanclient:
+      repos:
+        - openstack/deb-python-barbicanclient
+      tags:
+        - release:none
+    deb-python-ceilometerclient:
+      repos:
+        - openstack/deb-python-ceilometerclient
+      tags:
+        - release:none
+    deb-python-ceilometermiddleware:
+      repos:
+        - openstack/deb-python-ceilometermiddleware
+      tags:
+        - release:none
+    deb-python-cinderclient:
+      repos:
+        - openstack/deb-python-cinderclient
+      tags:
+        - release:none
+    deb-python-cliff:
+      repos:
+        - openstack/deb-python-cliff
+      tags:
+        - release:none
+    deb-python-coffin:
+      repos:
+        - openstack/deb-python-coffin
+      tags:
+        - release:none
+    deb-python-colander:
+      repos:
+        - openstack/deb-python-colander
+      tags:
+        - release:none
+    deb-python-concurrent.futures:
+      repos:
+        - openstack/deb-python-concurrent.futures
+      tags:
+        - release:none
+    deb-python-congressclient:
+      repos:
+        - openstack/deb-python-congressclient
+      tags:
+        - release:none
+    deb-python-cotyledon:
+      repos:
+        - openstack/deb-python-cotyledon
+      tags:
+        - release:none
+    deb-python-couleur:
+      repos:
+        - openstack/deb-python-couleur
+      tags:
+        - release:none
+    deb-python-crank:
+      repos:
+        - openstack/deb-python-crank
+      tags:
+        - release:none
+    deb-python-croniter:
+      repos:
+        - openstack/deb-python-croniter
+      tags:
+        - release:none
+    deb-python-csscompressor:
+      repos:
+        - openstack/deb-python-csscompressor
+      tags:
+        - release:none
+    deb-python-daemonize:
+      repos:
+        - openstack/deb-python-daemonize
+      tags:
+        - release:none
+    deb-python-dcos:
+      repos:
+        - openstack/deb-python-dcos
+      tags:
+        - release:none
+    deb-python-ddt:
+      repos:
+        - openstack/deb-python-ddt
+      tags:
+        - release:none
+    deb-python-debtcollector:
+      repos:
+        - openstack/deb-python-debtcollector
+      tags:
+        - release:none
+    deb-python-designateclient:
+      repos:
+        - openstack/deb-python-designateclient
+      tags:
+        - release:none
+    deb-python-django-appconf:
+      repos:
+        - openstack/deb-python-django-appconf
+      tags:
+        - release:none
+    deb-python-django-babel:
+      repos:
+        - openstack/deb-python-django-babel
+      tags:
+        - release:none
+    deb-python-django-bootstrap-form:
+      repos:
+        - openstack/deb-python-django-bootstrap-form
+      tags:
+        - release:none
+    deb-python-django-compressor:
+      repos:
+        - openstack/deb-python-django-compressor
+      tags:
+        - release:none
+    deb-python-django-discover-runner:
+      repos:
+        - openstack/deb-python-django-discover-runner
+      tags:
+        - release:none
+    deb-python-django-formtools:
+      repos:
+        - openstack/deb-python-django-formtools
+      tags:
+        - release:none
+    deb-python-django-openstack-auth:
+      repos:
+        - openstack/deb-python-django-openstack-auth
+      tags:
+        - release:none
+    deb-python-django-overextends:
+      repos:
+        - openstack/deb-python-django-overextends
+      tags:
+        - release:none
+    deb-python-django-pyscss:
+      repos:
+        - openstack/deb-python-django-pyscss
+      tags:
+        - release:none
+    deb-python-doc8:
+      repos:
+        - openstack/deb-python-doc8
+      tags:
+        - release:none
+    deb-python-dogpile.cache:
+      repos:
+        - openstack/deb-python-dogpile.cache
+      tags:
+        - release:none
+    deb-python-dogpile.core:
+      repos:
+        - openstack/deb-python-dogpile.core
+      tags:
+        - release:none
+    deb-python-editor:
+      repos:
+        - openstack/deb-python-editor
+      tags:
+        - release:none
+    deb-python-eventlet:
+      repos:
+        - openstack/deb-python-eventlet
+      tags:
+        - release:none
+    deb-python-extras:
+      repos:
+        - openstack/deb-python-extras
+      tags:
+        - release:none
+    deb-python-falcon:
+      repos:
+        - openstack/deb-python-falcon
+      tags:
+        - release:none
+    deb-python-fasteners:
+      repos:
+        - openstack/deb-python-fasteners
+      tags:
+        - release:none
+    deb-python-frozendict:
+      repos:
+        - openstack/deb-python-frozendict
+      tags:
+        - release:none
+    deb-python-fuelclient:
+      repos:
+        - openstack/deb-python-fuelclient
+      tags:
+        - release:none
+    deb-python-funcsigs:
+      repos:
+        - openstack/deb-python-funcsigs
+      tags:
+        - release:none
+    deb-python-functools32:
+      repos:
+        - openstack/deb-python-functools32
+      tags:
+        - release:none
+    deb-python-futurist:
+      repos:
+        - openstack/deb-python-futurist
+      tags:
+        - release:none
+    deb-python-gabbi:
+      repos:
+        - openstack/deb-python-gabbi
+      tags:
+        - release:none
+    deb-python-glanceclient:
+      repos:
+        - openstack/deb-python-glanceclient
+      tags:
+        - release:none
+    deb-python-gnocchiclient:
+      repos:
+        - openstack/deb-python-gnocchiclient
+      tags:
+        - release:none
+    deb-python-greenio:
+      repos:
+        - openstack/deb-python-greenio
+      tags:
+        - release:none
+    deb-python-happybase:
+      repos:
+        - openstack/deb-python-happybase
+      tags:
+        - release:none
+    deb-python-heatclient:
+      repos:
+        - openstack/deb-python-heatclient
+      tags:
+        - release:none
+    deb-python-hplefthandclient:
+      repos:
+        - openstack/deb-python-hplefthandclient
+      tags:
+        - release:none
+    deb-python-httpretty:
+      repos:
+        - openstack/deb-python-httpretty
+      tags:
+        - release:none
+    deb-python-ironicclient:
+      repos:
+        - openstack/deb-python-ironicclient
+      tags:
+        - release:none
+    deb-python-ironic-inspector-client:
+      repos:
+        - openstack/deb-python-ironic-inspector-client
+      tags:
+        - release:none
+    deb-python-jingo:
+      repos:
+        - openstack/deb-python-jingo
+      tags:
+        - release:none
+    deb-python-json-patch:
+      repos:
+        - openstack/deb-python-json-patch
+      tags:
+        - release:none
+    deb-python-jsonpath-rw:
+      repos:
+        - openstack/deb-python-jsonpath-rw
+      tags:
+        - release:none
+    deb-python-jsonpath-rw-ext:
+      repos:
+        - openstack/deb-python-jsonpath-rw-ext
+      tags:
+        - release:none
+    deb-python-json-pointer:
+      repos:
+        - openstack/deb-python-json-pointer
+      tags:
+        - release:none
+    deb-python-jsonrpclib:
+      repos:
+        - openstack/deb-python-jsonrpclib
+      tags:
+        - release:none
+    deb-python-jsonschema:
+      repos:
+        - openstack/deb-python-jsonschema
+      tags:
+        - release:none
+    deb-python-kafka:
+      repos:
+        - openstack/deb-python-kafka
+      tags:
+        - release:none
+    deb-python-keystoneclient:
+      repos:
+        - openstack/deb-python-keystoneclient
+      tags:
+        - release:none
+    deb-python-ldappool:
+      repos:
+        - openstack/deb-python-ldappool
+      tags:
+        - release:none
+    deb-python-lesscpy:
+      repos:
+        - openstack/deb-python-lesscpy
+      tags:
+        - release:none
+    deb-python-linecache2:
+      repos:
+        - openstack/deb-python-linecache2
+      tags:
+        - release:none
+    deb-python-magnumclient:
+      repos:
+        - openstack/deb-python-magnumclient
+      tags:
+        - release:none
+    deb-python-manilaclient:
+      repos:
+        - openstack/deb-python-manilaclient
+      tags:
+        - release:none
+    deb-python-memcache:
+      repos:
+        - openstack/deb-python-memcache
+      tags:
+        - release:none
+    deb-python-microversion-parse:
+      repos:
+        - openstack/deb-python-microversion-parse
+      tags:
+        - release:none
+    deb-python-misaka:
+      repos:
+        - openstack/deb-python-misaka
+      tags:
+        - release:none
+    deb-python-mistralclient:
+      repos:
+        - openstack/deb-python-mistralclient
+      tags:
+        - release:none
+    deb-python-monascaclient:
+      repos:
+        - openstack/deb-python-monascaclient
+      tags:
+        - release:none
+    deb-python-monotonic:
+      repos:
+        - openstack/deb-python-monotonic
+      tags:
+        - release:none
+    deb-python-mox3:
+      repos:
+        - openstack/deb-python-mox3
+      tags:
+        - release:none
+    deb-python-multi-key-dict:
+      repos:
+        - openstack/deb-python-multi-key-dict
+      tags:
+        - release:none
+    deb-python-muranoclient:
+      repos:
+        - openstack/deb-python-muranoclient
+      tags:
+        - release:none
+    deb-python-neutronclient:
+      repos:
+        - openstack/deb-python-neutronclient
+      tags:
+        - release:none
+    deb-python-nose-exclude:
+      repos:
+        - openstack/deb-python-nose-exclude
+      tags:
+        - release:none
+    deb-python-nosehtmloutput:
+      repos:
+        - openstack/deb-python-nosehtmloutput
+      tags:
+        - release:none
+    deb-python-nose-parameterized:
+      repos:
+        - openstack/deb-python-nose-parameterized
+      tags:
+        - release:none
+    deb-python-nose-timer:
+      repos:
+        - openstack/deb-python-nose-timer
+      tags:
+        - release:none
+    deb-python-novaclient:
+      repos:
+        - openstack/deb-python-novaclient
+      tags:
+        - release:none
+    deb-python-oauth2client:
+      repos:
+        - openstack/deb-python-oauth2client
+      tags:
+        - release:none
+    deb-python-openstackclient:
+      repos:
+        - openstack/deb-python-openstackclient
+      tags:
+        - release:none
+    deb-python-os-apply-config:
+      repos:
+        - openstack/deb-python-os-apply-config
+      tags:
+        - release:none
+    deb-python-os-brick:
+      repos:
+        - openstack/deb-python-os-brick
+      tags:
+        - release:none
+    deb-python-os-client-config:
+      repos:
+        - openstack/deb-python-os-client-config
+      tags:
+        - release:none
+    deb-python-os-cloud-config:
+      repos:
+        - openstack/deb-python-os-cloud-config
+      tags:
+        - release:none
+    deb-python-os-collect-config:
+      repos:
+        - openstack/deb-python-os-collect-config
+      tags:
+        - release:none
+    deb-python-oslo.cache:
+      repos:
+        - openstack/deb-python-oslo.cache
+      tags:
+        - release:none
+    deb-python-oslo.concurrency:
+      repos:
+        - openstack/deb-python-oslo.concurrency
+      tags:
+        - release:none
+    deb-python-oslo.config:
+      repos:
+        - openstack/deb-python-oslo.config
+      tags:
+        - release:none
+    deb-python-oslo.context:
+      repos:
+        - openstack/deb-python-oslo.context
+      tags:
+        - release:none
+    deb-python-oslo.db:
+      repos:
+        - openstack/deb-python-oslo.db
+      tags:
+        - release:none
+    deb-python-oslo.i18n:
+      repos:
+        - openstack/deb-python-oslo.i18n
+      tags:
+        - release:none
+    deb-python-oslo.log:
+      repos:
+        - openstack/deb-python-oslo.log
+      tags:
+        - release:none
+    deb-python-oslo.messaging:
+      repos:
+        - openstack/deb-python-oslo.messaging
+      tags:
+        - release:none
+    deb-python-oslo.middleware:
+      repos:
+        - openstack/deb-python-oslo.middleware
+      tags:
+        - release:none
+    deb-python-oslo.policy:
+      repos:
+        - openstack/deb-python-oslo.policy
+      tags:
+        - release:none
+    deb-python-oslo.privsep:
+      repos:
+        - openstack/deb-python-oslo.privsep
+      tags:
+        - release:none
+    deb-python-oslo.reports:
+      repos:
+        - openstack/deb-python-oslo.reports
+      tags:
+        - release:none
+    deb-python-oslo.rootwrap:
+      repos:
+        - openstack/deb-python-oslo.rootwrap
+      tags:
+        - release:none
+    deb-python-oslo.serialization:
+      repos:
+        - openstack/deb-python-oslo.serialization
+      tags:
+        - release:none
+    deb-python-oslo.service:
+      repos:
+        - openstack/deb-python-oslo.service
+      tags:
+        - release:none
+    deb-python-oslotest:
+      repos:
+        - openstack/deb-python-oslotest
+      tags:
+        - release:none
+    deb-python-oslo.utils:
+      repos:
+        - openstack/deb-python-oslo.utils
+      tags:
+        - release:none
+    deb-python-oslo.versionedobjects:
+      repos:
+        - openstack/deb-python-oslo.versionedobjects
+      tags:
+        - release:none
+    deb-python-oslo.vmware:
+      repos:
+        - openstack/deb-python-oslo.vmware
+      tags:
+        - release:none
+    deb-python-os-net-config:
+      repos:
+        - openstack/deb-python-os-net-config
+      tags:
+        - release:none
+    deb-python-osprofiler:
+      repos:
+        - openstack/deb-python-osprofiler
+      tags:
+        - release:none
+    deb-python-os-refresh-config:
+      repos:
+        - openstack/deb-python-os-refresh-config
+      tags:
+        - release:none
+    deb-python-os-testr:
+      repos:
+        - openstack/deb-python-os-testr
+      tags:
+        - release:none
+    deb-python-os-win:
+      repos:
+        - openstack/deb-python-os-win
+      tags:
+        - release:none
+    deb-python-pager:
+      repos:
+        - openstack/deb-python-pager
+      tags:
+        - release:none
+    deb-python-pbr:
+      repos:
+        - openstack/deb-python-pbr
+      tags:
+        - release:none
+    deb-python-pecan:
+      repos:
+        - openstack/deb-python-pecan
+      tags:
+        - release:none
+    deb-python-pika-pool:
+      repos:
+        - openstack/deb-python-pika-pool
+      tags:
+        - release:none
+    deb-python-pint:
+      repos:
+        - openstack/deb-python-pint
+      tags:
+        - release:none
+    deb-python-positional:
+      repos:
+        - openstack/deb-python-positional
+      tags:
+        - release:none
+    deb-python-proliantutils:
+      repos:
+        - openstack/deb-python-proliantutils
+      tags:
+        - release:none
+    deb-python-pulp:
+      repos:
+        - openstack/deb-python-pulp
+      tags:
+        - release:none
+    deb-python-pycadf:
+      repos:
+        - openstack/deb-python-pycadf
+      tags:
+        - release:none
+    deb-python-pydot-ng:
+      repos:
+        - openstack/deb-python-pydot-ng
+      tags:
+        - release:none
+    deb-python-pydotplus:
+      repos:
+        - openstack/deb-python-pydotplus
+      tags:
+        - release:none
+    deb-python-pyeclib:
+      repos:
+        - openstack/deb-python-pyeclib
+      tags:
+        - release:none
+    deb-python-pyghmi:
+      repos:
+        - openstack/deb-python-pyghmi
+      tags:
+        - release:none
+    deb-python-pygit2:
+      repos:
+        - openstack/deb-python-pygit2
+      tags:
+        - release:none
+    deb-python-pykmip:
+      repos:
+        - openstack/deb-python-pykmip
+      tags:
+        - release:none
+    deb-python-pymemcache:
+      repos:
+        - openstack/deb-python-pymemcache
+      tags:
+        - release:none
+    deb-python-pymysql:
+      repos:
+        - openstack/deb-python-pymysql
+      tags:
+        - release:none
+    deb-python-pyngus:
+      repos:
+        - openstack/deb-python-pyngus
+      tags:
+        - release:none
+    deb-python-pysaml2:
+      repos:
+        - openstack/deb-python-pysaml2
+      tags:
+        - release:none
+    deb-python-pytimeparse:
+      repos:
+        - openstack/deb-python-pytimeparse
+      tags:
+        - release:none
+    deb-python-pyvmomi:
+      repos:
+        - openstack/deb-python-pyvmomi
+      tags:
+        - release:none
+    deb-python-quantumclient:
+      repos:
+        - openstack/deb-python-quantumclient
+      tags:
+        - release:none
+    deb-python-rcssmin:
+      repos:
+        - openstack/deb-python-rcssmin
+      tags:
+        - release:none
+    deb-python-rednose:
+      repos:
+        - openstack/deb-python-rednose
+      tags:
+        - release:none
+    deb-python-reno:
+      repos:
+        - openstack/deb-python-reno
+      tags:
+        - release:none
+    deb-python-requests-kerberos:
+      repos:
+        - openstack/deb-python-requests-kerberos
+      tags:
+        - release:none
+    deb-python-requests-mock:
+      repos:
+        - openstack/deb-python-requests-mock
+      tags:
+        - release:none
+    deb-python-requests-unixsocket:
+      repos:
+        - openstack/deb-python-requests-unixsocket
+      tags:
+        - release:none
+    deb-python-retrying:
+      repos:
+        - openstack/deb-python-retrying
+      tags:
+        - release:none
+    deb-python-rfc3986:
+      repos:
+        - openstack/deb-python-rfc3986
+      tags:
+        - release:none
+    deb-python-rjsmin:
+      repos:
+        - openstack/deb-python-rjsmin
+      tags:
+        - release:none
+    deb-python-rtslib-fb:
+      repos:
+        - openstack/deb-python-rtslib-fb
+      tags:
+        - release:none
+    deb-python-saharaclient:
+      repos:
+        - openstack/deb-python-saharaclient
+      tags:
+        - release:none
+    deb-python-savannaclient:
+      repos:
+        - openstack/deb-python-savannaclient
+      tags:
+        - release:none
+    deb-python-scciclient:
+      repos:
+        - openstack/deb-python-scciclient
+      tags:
+        - release:none
+    deb-python-seamicroclient:
+      repos:
+        - openstack/deb-python-seamicroclient
+      tags:
+        - release:none
+    deb-python-semantic-version:
+      repos:
+        - openstack/deb-python-semantic-version
+      tags:
+        - release:none
+    deb-python-semver:
+      repos:
+        - openstack/deb-python-semver
+      tags:
+        - release:none
+    deb-python-senlinclient:
+      repos:
+        - openstack/deb-python-senlinclient
+      tags:
+        - release:none
+    deb-python-shotgun:
+      repos:
+        - openstack/deb-python-shotgun
+      tags:
+        - release:none
+    deb-python-sqlalchemy-utils:
+      repos:
+        - openstack/deb-python-sqlalchemy-utils
+      tags:
+        - release:none
+    deb-python-steadymark:
+      repos:
+        - openstack/deb-python-steadymark
+      tags:
+        - release:none
+    deb-python-swiftclient:
+      repos:
+        - openstack/deb-python-swiftclient
+      tags:
+        - release:none
+    deb-python-tackerclient:
+      repos:
+        - openstack/deb-python-tackerclient
+      tags:
+        - release:none
+    deb-python-taskflow:
+      repos:
+        - openstack/deb-python-taskflow
+      tags:
+        - release:none
+    deb-python-testtools:
+      repos:
+        - openstack/deb-python-testtools
+      tags:
+        - release:none
+    deb-python-toml:
+      repos:
+        - openstack/deb-python-toml
+      tags:
+        - release:none
+    deb-python-tooz:
+      repos:
+        - openstack/deb-python-tooz
+      tags:
+        - release:none
+    deb-python-tosca-parser:
+      repos:
+        - openstack/deb-python-tosca-parser
+      tags:
+        - release:none
+    deb-python-traceback2:
+      repos:
+        - openstack/deb-python-traceback2
+      tags:
+        - release:none
+    deb-python-trollius:
+      repos:
+        - openstack/deb-python-trollius
+      tags:
+        - release:none
+    deb-python-troveclient:
+      repos:
+        - openstack/deb-python-troveclient
+      tags:
+        - release:none
+    deb-python-tuskarclient:
+      repos:
+        - openstack/deb-python-tuskarclient
+      tags:
+        - release:none
+    deb-python-txaio:
+      repos:
+        - openstack/deb-python-txaio
+      tags:
+        - release:none
+    deb-python-warlock:
+      repos:
+        - openstack/deb-python-warlock
+      tags:
+        - release:none
+    deb-python-watcherclient:
+      repos:
+        - openstack/deb-python-watcherclient
+      tags:
+        - release:none
+    deb-python-weakrefmethod:
+      repos:
+        - openstack/deb-python-weakrefmethod
+      tags:
+        - release:none
+    deb-python-websocket-client:
+      repos:
+        - openstack/deb-python-websocket-client
+      tags:
+        - release:none
+    deb-python-wrapt:
+      repos:
+        - openstack/deb-python-wrapt
+      tags:
+        - release:none
+    deb-python-wsgi-intercept:
+      repos:
+        - openstack/deb-python-wsgi-intercept
+      tags:
+        - release:none
+    deb-python-wsme:
+      repos:
+        - openstack/deb-python-wsme
+      tags:
+        - release:none
+    deb-python-xstatic:
+      repos:
+        - openstack/deb-python-xstatic
+      tags:
+        - release:none
+    deb-python-xstatic-angular:
+      repos:
+        - openstack/deb-python-xstatic-angular
+      tags:
+        - release:none
+    deb-python-xstatic-angular-bootstrap:
+      repos:
+        - openstack/deb-python-xstatic-angular-bootstrap
+      tags:
+        - release:none
+    deb-python-xstatic-angular-cookies:
+      repos:
+        - openstack/deb-python-xstatic-angular-cookies
+      tags:
+        - release:none
+    deb-python-xstatic-angular-fileupload:
+      repos:
+        - openstack/deb-python-xstatic-angular-fileupload
+      tags:
+        - release:none
+    deb-python-xstatic-angular-gettext:
+      repos:
+        - openstack/deb-python-xstatic-angular-gettext
+      tags:
+        - release:none
+    deb-python-xstatic-angular-lrdragndrop:
+      repos:
+        - openstack/deb-python-xstatic-angular-lrdragndrop
+      tags:
+        - release:none
+    deb-python-xstatic-angular-mock:
+      repos:
+        - openstack/deb-python-xstatic-angular-mock
+      tags:
+        - release:none
+    deb-python-xstatic-bootstrap-datepicker:
+      repos:
+        - openstack/deb-python-xstatic-bootstrap-datepicker
+      tags:
+        - release:none
+    deb-python-xstatic-bootstrap-scss:
+      repos:
+        - openstack/deb-python-xstatic-bootstrap-scss
+      tags:
+        - release:none
+    deb-python-xstatic-bootswatch:
+      repos:
+        - openstack/deb-python-xstatic-bootswatch
+      tags:
+        - release:none
+    deb-python-xstatic-d3:
+      repos:
+        - openstack/deb-python-xstatic-d3
+      tags:
+        - release:none
+    deb-python-xstatic-font-awesome:
+      repos:
+        - openstack/deb-python-xstatic-font-awesome
+      tags:
+        - release:none
+    deb-python-xstatic-hogan:
+      repos:
+        - openstack/deb-python-xstatic-hogan
+      tags:
+        - release:none
+    deb-python-xstatic-jasmine:
+      repos:
+        - openstack/deb-python-xstatic-jasmine
+      tags:
+        - release:none
+    deb-python-xstatic-jquery:
+      repos:
+        - openstack/deb-python-xstatic-jquery
+      tags:
+        - release:none
+    deb-python-xstatic-jquery.bootstrap.wizard:
+      repos:
+        - openstack/deb-python-xstatic-jquery.bootstrap.wizard
+      tags:
+        - release:none
+    deb-python-xstatic-jquery-migrate:
+      repos:
+        - openstack/deb-python-xstatic-jquery-migrate
+      tags:
+        - release:none
+    deb-python-xstatic-jquery.quicksearch:
+      repos:
+        - openstack/deb-python-xstatic-jquery.quicksearch
+      tags:
+        - release:none
+    deb-python-xstatic-jquery.tablesorter:
+      repos:
+        - openstack/deb-python-xstatic-jquery.tablesorter
+      tags:
+        - release:none
+    deb-python-xstatic-jquery-ui:
+      repos:
+        - openstack/deb-python-xstatic-jquery-ui
+      tags:
+        - release:none
+    deb-python-xstatic-jsencrypt:
+      repos:
+        - openstack/deb-python-xstatic-jsencrypt
+      tags:
+        - release:none
+    deb-python-xstatic-magic-search:
+      repos:
+        - openstack/deb-python-xstatic-magic-search
+      tags:
+        - release:none
+    deb-python-xstatic-mdi:
+      repos:
+        - openstack/deb-python-xstatic-mdi
+      tags:
+        - release:none
+    deb-python-xstatic-qunit:
+      repos:
+        - openstack/deb-python-xstatic-qunit
+      tags:
+        - release:none
+    deb-python-xstatic-rickshaw:
+      repos:
+        - openstack/deb-python-xstatic-rickshaw
+      tags:
+        - release:none
+    deb-python-xstatic-roboto-fontface:
+      repos:
+        - openstack/deb-python-xstatic-roboto-fontface
+      tags:
+        - release:none
+    deb-python-xstatic-smart-table:
+      repos:
+        - openstack/deb-python-xstatic-smart-table
+      tags:
+        - release:none
+    deb-python-xstatic-spin:
+      repos:
+        - openstack/deb-python-xstatic-spin
+      tags:
+        - release:none
+    deb-python-xstatic-term.js:
+      repos:
+        - openstack/deb-python-xstatic-term.js
+      tags:
+        - release:none
+    deb-python-xvfbwrapper:
+      repos:
+        - openstack/deb-python-xvfbwrapper
+      tags:
+        - release:none
+    deb-python-yaql:
+      repos:
+        - openstack/deb-python-yaql
+      tags:
+        - release:none
+    deb-python-zaqarclient:
+      repos:
+        - openstack/deb-python-zaqarclient
+      tags:
+        - release:none
     deb-rally:
       repos:
         - openstack/deb-rally
+      tags:
+        - release:none
+    deb-ryu:
+      repos:
+        - openstack/deb-ryu
       tags:
         - release:none
     deb-sahara:
@@ -3631,9 +4871,29 @@ Packaging-deb:
         - openstack/deb-sahara
       tags:
         - release:none
+    deb-sahara-dashboard:
+      repos:
+        - openstack/deb-sahara-dashboard
+      tags:
+        - release:none
+    deb-senlin:
+      repos:
+        - openstack/deb-senlin
+      tags:
+        - release:none
     deb-spice-html5:
       repos:
         - openstack/deb-spice-html5
+      tags:
+        - release:none
+    deb-stevedore:
+      repos:
+        - openstack/deb-stevedore
+      tags:
+        - release:none
+    deb-subunit:
+      repos:
+        - openstack/deb-subunit
       tags:
         - release:none
     deb-swift:
@@ -3646,9 +4906,34 @@ Packaging-deb:
         - openstack/deb-tempest
       tags:
         - release:none
+    deb-testresources:
+      repos:
+        - openstack/deb-testresources
+      tags:
+        - release:none
     deb-trove:
       repos:
         - openstack/deb-trove
+      tags:
+        - release:none
+    deb-trove-dashboard:
+      repos:
+        - openstack/deb-trove-dashboard
+      tags:
+        - release:none
+    deb-watcher:
+      repos:
+        - openstack/deb-watcher
+      tags:
+        - release:none
+    deb-websockify:
+      repos:
+        - openstack/deb-websockify
+      tags:
+        - release:none
+    deb-zaqar:
+      repos:
+        - openstack/deb-zaqar
       tags:
         - release:none
 
