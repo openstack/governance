@@ -1,0 +1,38 @@
+.. -*- mode: rst -*-
+
+==================================
+ (one line goal description here)
+==================================
+
+Explain what the goal is in general terms. Include the reasoning and
+justification for applying the goal to all OpenStack projects.
+
+Gerrit Topic
+============
+
+To facilitate tracking, commits related to this goal should use the
+gerrit topic::
+
+  <insert topic here>
+
+Completion Criteria
+===================
+
+Enumerate the items that must be true in order to call the goal
+"completed" for a given project.
+
+#. one
+#. two
+
+References
+==========
+
+Provide reference links to previous discussions on the mailing list or
+IRC, etherpads, wiki pages, other forms of notes, and documentation
+that would be useful to a project team in working on the goal.
+
+Project Teams
+=============
+
+.. Use tools/build_team_section_for_goal.py to generate the rest of
+   the template and paste it into this section.
