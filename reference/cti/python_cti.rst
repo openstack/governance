@@ -1,3 +1,5 @@
+.. _cti-python:
+
 ====================================
 Consistent Testing Interface: Python
 ====================================
