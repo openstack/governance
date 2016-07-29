@@ -1226,6 +1226,11 @@ Infrastructure:
         - openstack-infra/gearman-plugin
       tags:
         - release:independent
+    germqtt:
+      repos:
+        - openstack-infra/germqtt
+      tags:
+        - release:independent
     gerrit:
       repos:
         - openstack-infra/gerrit
@@ -1496,6 +1501,11 @@ Infrastructure:
         - openstack-infra/puppet-exim
       tags:
         - release:none
+    puppet-germqtt:
+      repos:
+        - openstack-infra/puppet-germqtt
+      tags:
+        - release:none
     puppet-gerrit:
       repos:
         - openstack-infra/puppet-gerrit
@@ -1604,6 +1614,11 @@ Infrastructure:
     puppet-meetbot:
       repos:
         - openstack-infra/puppet-meetbot
+      tags:
+        - release:none
+    puppet-mosquitto:
+      repos:
+        - openstack-infra/puppet-mosquitto
       tags:
         - release:none
     puppet-mysql_backup:
