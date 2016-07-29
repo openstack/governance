@@ -90,11 +90,11 @@ def repo_exists(repo):
 
 
 def print_tag_missing(name, tag):
-    print ("* %s should have the tag '%s'" % (name, tag))
+    print("* %s should have the tag '%s'" % (name, tag))
 
 
 def print_bad_tag(name, tag):
-    print ("* %s should not have the tag '%s'" % (name, tag))
+    print("* %s should not have the tag '%s'" % (name, tag))
 
 if __name__ == '__main__':
     sys.exit(main())
