@@ -1216,6 +1216,11 @@ Infrastructure:
         - openstack-infra/elastic-recheck
       tags:
         - release:none
+    err2d2:
+      repos:
+        - openstack-infra/err2d2
+      tags:
+        - release:independent
     gear:
       repos:
         - openstack-infra/gear
