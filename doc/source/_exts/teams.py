@@ -59,31 +59,39 @@ def _team_to_rst(name, info):
         yield ''
     tags = info.get('tags', [])
     if tags:
-        yield 'Team based tags'
-        yield '----------------'
+        yield 'Team-based tags'
+        yield '---------------'
         yield ''
         for tag in tags:
             yield '- :ref:`tag-%s`' % tag
         yield ''
-    yield 'Deliverables and Tags'
-    yield '---------------------'
+    yield 'Deliverables'
+    yield '------------'
     yield ''
     deliverables = info.get('deliverables', [])
     if deliverables:
         for repo_name, deliverable in deliverables.items():
-            title = '- %s' %  repo_name
-            repos = deliverable.get('repos', [])
-            if repos:
-                repolist = " ("
-                for repo in repos:
-                    repolist += ':repo:`%s`, ' % repo
-                title += repolist[0:-2] + ")"
-            yield title
+            yield repo_name
+            yield '~' * len(repo_name)
+            yield ''
+            doc_urls = deliverable.get('docs', {})
+            doc_links = []
+            if doc_urls.get('contributor'):
+                doc_links.append('`Contributor <%s>`__' % doc_urls['contributor'])
+            if doc_urls.get('api'):
+                doc_links.append('`API <%s>`__' % doc_urls['api'])
+            yield ':Documentation: ' + ' | '.join(doc_links)
+            yield ':Repositories: ' + ', '.join(
+                ':repo:`%s`' % repo
+                for repo in deliverable.get('repos', [])
+            )
             tags = deliverable.get('tags', [])
-            if tags is not []:
+            if tags:
+                yield ':Tags:'
                 yield ''
-            for tag in tags:
-                yield '  - :ref:`tag-%s`' % tag
+                for tag in tags:
+                    yield '  - :ref:`tag-%s`' % tag
+                yield ''
     else:
         yield 'None'
     yield ''
