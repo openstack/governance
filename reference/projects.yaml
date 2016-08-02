@@ -2621,6 +2621,16 @@ OpenStack Charms:
         - openstack/charm-aodh
       tags:
         - release:independent
+    charm-barbican:
+      repos:
+        - openstack/charm-barbican
+      tags:
+        - release:independent
+    charm-barbican-softhsm:
+      repos:
+        - openstack/charm-barbican-softhsm
+      tags:
+        - release:independent
     charm-ceilometer:
       repos:
         - openstack/charm-ceilometer
