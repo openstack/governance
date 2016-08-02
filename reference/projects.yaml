@@ -2138,6 +2138,11 @@ kuryr:
         - openstack/kuryr-kubernetes
       tags:
         - release:independent
+    fuxi:
+      repos:
+        - openstack/fuxi
+      tags:
+        - release:independent
 
 magnum:
   ptl:
