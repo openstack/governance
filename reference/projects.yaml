@@ -3091,6 +3091,11 @@ OpenStackAnsible:
         - openstack/openstack-ansible-specs
       tags:
         - release:none
+    openstack-ansible-tests:
+      repos:
+        - openstack/openstack-ansible-tests
+      tags:
+        - release:none
 
 OpenStackSalt:
   ptl:
