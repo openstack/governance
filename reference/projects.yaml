@@ -4431,13 +4431,18 @@ tacker:
     tacker:
       repos:
         - openstack/tacker
-        - openstack/tacker-horizon
       docs:
         contributor: http://docs.openstack.org/developer/tacker/
         api: http://docs.openstack.org/developer/tacker/devref/mano_api.html
       tags:
         - release:cycle-with-intermediary
         - type:service
+    tacker-horizon:
+      repos:
+        - openstack/tacker-horizon
+      tags:
+        - release:cycle-with-intermediary
+        - type:horizon-plugin
     python-tackerclient:
       repos:
         - openstack/python-tackerclient
