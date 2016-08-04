@@ -129,6 +129,32 @@ multiple-winner election system (see below). The election is held 3 weeks prior
 to each design summit, with nominations due 4 weeks prior to the summit and
 elections held open for no less than five business days.
 
+If a seat on the TC is vacated before the end of the term for which
+the member was elected, the TC will select a replacement to serve out
+the remainder of the term. The mechanism for selecting the replacement
+depends on when the seat is vacated relative to the beginning of the
+candidacy period for the next scheduled TC election. Selected
+candidates must meet all other constraints for membership in the TC.
+
+* If the vacancy opens less than four weeks before the candidacy
+  period for the next scheduled TC election begins, and the seat
+  vacated would have been contested in the upcoming election anyway,
+  then the seat will remain open until the election and filled by the
+  normal election process.
+* If the vacancy opens less than four weeks before the candidacy
+  period for the next scheduled TC election begins and the seat would
+  not have been contested in the upcoming election, the candidates who
+  do not win seats in the election will be consulted in the order they
+  appear in the results until a candidate who is capable of serving
+  agrees to serve out the partial term.
+* If the vacancy opens with more than four weeks until the candidacy
+  period for the next scheduled TC election begins, regardless of
+  whether the vacated seat would have been contested in the next
+  election, the candidates who did not win seats in the most recent
+  previous TC election will be consulted in the order they appear in
+  the results until a candidate who is capable of serving agrees to
+  serve out the partial term.
+
 .. _atc:
 
 Voters for TC seats ("ATC")
@@ -149,8 +175,12 @@ decided by the TC itself, and is valid one year (two elections).
 Candidates for TC seats
 =======================
 
-Any Foundation individual member can propose their candidacy for an available,
-directly-elected TC seat.
+Any Foundation individual member can propose their candidacy for an
+available, directly-elected TC seat. `Appendix 4 of the Foundation
+Bylaws
+<http://www.openstack.org/legal/technical-committee-member-policy/>`__
+describe eligibility requirements and membership constraints for the
+Technical Committee.
 
 Initial committee
 =================
