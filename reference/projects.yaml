@@ -3626,6 +3626,11 @@ Packaging-deb:
         - openstack/deb-sahara
       tags:
         - release:none
+    deb-spice-html5:
+      repos:
+        - openstack/deb-spice-html5
+      tags:
+        - release:none
     deb-swift:
       repos:
         - openstack/deb-swift
