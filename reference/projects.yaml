@@ -3516,6 +3516,11 @@ Packaging-deb:
     Maintain packages for Debian (and other deb based distributions) as a
     community.
   deliverables:
+    deb-auto-backports:
+      repos:
+        - openstack/deb-auto-backports
+      tags:
+        - release:none
     deb-openstack-pkg-tools:
       repos:
         - openstack/deb-openstack-pkg-tools
