@@ -4864,7 +4864,7 @@ zaqar:
         - openstack/zaqar
       docs:
         contributor: http://docs.openstack.org/developer/zaqar/
-        api: null
+        api: http://developer.openstack.org/api-ref/messaging/
       tags:
         - release:cycle-with-milestones
         - type:service
