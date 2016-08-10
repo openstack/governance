@@ -4292,38 +4292,38 @@ senlin:
         - release:cycle-with-intermediary
         - type:horizon-plugin
 
-smaug:
+karbor:
   ptl:
     name: Saggi Mizrahi
     irc: saggi
     email: saggi.mizrahi@huawei.com
-  irc-channel: openstack-smaug
+  irc-channel: openstack-karbor
   service: Data Protection Orchestration Service
   mission: >
     To implement services and libraries to provide project aware
     data-protection orchestration of existing vendor solutions.
-  url: https://wiki.openstack.org/wiki/Smaug
+  url: https://wiki.openstack.org/wiki/Karbor
   tags:
     - team:single-vendor
   deliverables:
-    smaug:
+    karbor:
       repos:
-        - openstack/smaug
+        - openstack/karbor
       docs:
         contributor: null
         api: null
       tags:
         - release:independent
         - type:service
-    smaug-dashboard:
+    karbor-dashboard:
       repos:
-        - openstack/smaug-dashboard
+        - openstack/karbor-dashboard
       tags:
         - release:independent
         - type:library
-    python-smaugclient:
+    python-karborclient:
       repos:
-        - openstack/python-smaugclient
+        - openstack/python-karborclient
       tags:
         - release:independent
         - type:library
