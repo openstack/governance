@@ -4385,6 +4385,28 @@ Stable branch maintenance:
   url: https://wiki.openstack.org/wiki/StableBranch
   deliverables: {}
 
+storlets:
+  ptl:
+    name: Eran Rom
+    irc: eranrom
+    email: eran@itsonlyme.name
+  irc-channel: openstack-storlets
+  service: Compute inside Object Storage service
+  mission: >
+    To enable a user friendly, cost effective scalable and secure way for
+    executing storage centric user defined functions near the data within
+    OpenStack Swift
+  url: https://wiki.openstack.org/wiki/Storlets
+  tags:
+    - team:diverse-affiliation
+  deliverables:
+    storlets:
+      repos:
+        - openstack/storlets
+      tags:
+        - release:independent
+        - type:service
+
 swift:
   ptl:
     name: John Dickinson
