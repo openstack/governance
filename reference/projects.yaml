@@ -5414,6 +5414,11 @@ Puppet OpenStack:
         - openstack/puppet-ovn
       tags:
         - release:cycle-trailing
+    puppet-panko:
+      repos:
+        - openstack/puppet-panko
+      tags:
+        - release:cycle-trailing
     puppet-rally:
       repos:
         - openstack/puppet-rally
