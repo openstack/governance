@@ -651,9 +651,9 @@ glance:
   irc-channel: openstack-glance
   service: Image service
   mission: >
-    To provide a service where users can upload and discover data assets that
-    are meant to be used with other services, like images for Nova and
-    templates for Heat.
+    To provide services and associated libraries to store, browse, share,
+    distribute and manage bootable disk images, other data closely associated
+    with initializing compute resources, and metadata definitions.
   url: https://wiki.openstack.org/wiki/Glance
   tags:
     - team:diverse-affiliation
