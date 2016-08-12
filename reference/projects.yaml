@@ -4198,6 +4198,8 @@ Quality Assurance:
         - openstack-dev/bashate
       tags:
         - release:independent
+      docs:
+        contributor: http://docs.openstack.org/developer/bashate
     devstack:
       repos:
         - openstack-dev/devstack
@@ -4230,6 +4232,8 @@ Quality Assurance:
         - openstack-dev/grenade
       tags:
         - release:none
+      docs:
+        contributor: http://docs.openstack.org/developer/grenade
     hacking:
       repos:
         - openstack-dev/hacking
@@ -4256,6 +4260,8 @@ Quality Assurance:
       tags:
         - type:library
         - release:independent
+      docs:
+        contributor: http://docs.openstack.org/developer/os-testr
     qa-specs:
       repos:
         - openstack/qa-specs
@@ -4266,6 +4272,8 @@ Quality Assurance:
         - openstack/stackviz
       tags:
         - release:none
+      docs:
+        contributor: http://docs.openstack.org/developer/stackviz
     tempest:
       repos:
         - openstack/tempest
@@ -4284,6 +4292,8 @@ Quality Assurance:
       tags:
         - release:independent
         - type:library
+      docs:
+        contributor: http://docs.openstack.org/developer/tempest-lib
   extra-atcs:
     - name: Scott Moser
       email: smoser@ubuntu.com
