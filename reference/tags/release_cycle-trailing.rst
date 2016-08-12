@@ -69,8 +69,8 @@ Requirements
 * "release:cycle-trailing" projects commit to produce a release no
   later than 2 weeks after the end of the 6-month development cycle.
 * Within the cycle, projects using this release model will produce
-  intermediate or milestone releases leading up to their final
-  release.
+  intermediate or milestone releases (adhering to the same regular
+  deadlines) leading up to their final release.
 * Release tags for deliverables using this tag are reviewed and
   applied by the Release Management team.
 
