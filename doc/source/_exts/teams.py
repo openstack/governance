@@ -80,7 +80,8 @@ def _team_to_rst(name, info):
                 doc_links.append('`Contributor <%s>`__' % doc_urls['contributor'])
             if doc_urls.get('api'):
                 doc_links.append('`API <%s>`__' % doc_urls['api'])
-            yield ':Documentation: ' + ' | '.join(doc_links)
+            if doc_links:
+                yield ':Documentation: ' + ' | '.join(doc_links)
             yield ':Repositories: ' + ', '.join(
                 ':repo:`%s`' % repo
                 for repo in deliverable.get('repos', [])
