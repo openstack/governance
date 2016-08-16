@@ -663,7 +663,7 @@ glance:
         - openstack/glance
       docs:
         contributor: http://docs.openstack.org/developer/glance/
-        api: http://developer.openstack.org/api-ref-image-v2.html # What to do with multiple versions of an API?
+        api: http://developer.openstack.org/api-ref/image/
       tags:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
