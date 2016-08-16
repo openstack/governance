@@ -8,24 +8,24 @@ The pages in this part of the governance documentation describe
 OpenStack-wide goals for each release series.
 
 We use these OpenStack-wide goals to achieve visible common changes,
-push for basic levels of consistency and user experience, and
-efficiently repay the most obvious technical debt -- across all
-OpenStack projects. From a contributor perspective, they help bring
-together the whole community behind some shared goals. We know this
-work is worthwhile, because these goals are how we achive the
-OpenStack mission together. We will build these goals based on our
-shared values.
+push for basic levels of consistency and user experience, and efficiently
+improve certain areas where technical debt payments have become too high
+-- across all OpenStack projects. From a contributor perspective, the goals
+help unify the community's work as a whole, with some shared objectives. We
+know this work is worthwhile, because these goals are how we achieve the
+OpenStack mission together. We will build these goals based on our shared
+values.
 
-We know this process is working when
+We know this process is working when:
 
 * Users and operators see OpenStack working well as a platform, rather
-  than a collection of loosely related different projects.
+  than a collection of loosely-related, different projects.
 * We make progress on solving long-standing issues that would
   otherwise have lingered indefinitely at different stages of
   implementation in various projects.
 * All contributors and projects know they are valued members of the
   successful and thriving OpenStack community.
-* Marketing communication around release time is facilitated due to
+* We facilitate marketing communication around release time due to
   successful completion of community-wide goals during the cycle.
 
 Process Details
@@ -36,7 +36,7 @@ Identifying Goals
 
 The goal process enables the community of OpenStack projects to
 surface common concerns and work out specific technical strategies for
-addressing these concerns. This community input will enable the TC to
+addressing these concerns. This community input enables the TC to
 select specific community-wide goals for all projects to achieve
 during a development cycle. We need to consider the timing, cycle
 length, priority, and feasibility of the goals selected.
@@ -74,7 +74,7 @@ Team Acknowledgment of Goals
 
 After a goal is approved, each PTL is responsible for adding their
 planning artifact links to the goal document before the first
-milestone deadline.  The planning artifact is likely to be a link to a
+milestone deadline. The planning artifact is likely to be a link to a
 spec or bug, and the completion artifact is likely to be a link to one
 or more committed patches.
 
