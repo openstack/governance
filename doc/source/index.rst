@@ -28,6 +28,7 @@ Reference documents and Resolutions
    :titlesonly:
 
    reference/index
+   goals/index
    resolutions/index
    resolutions/superseded/index
 

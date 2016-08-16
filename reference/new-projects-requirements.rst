@@ -61,6 +61,11 @@ When considering new projects for addition, the TC will check that:
 
 * The project should have an active team of one or more contributors
 
+* The project participates in any goals specified by the TC, as
+  defined by :ref:`release-cycle-goals`. Any existing goals that are
+  not met should be prioritized and completed within the first year of
+  a team joining.
+
 * The project meets any policies that the TC requires all projects to
   meet. For instance, the :doc:`project-testing-interface`
 
