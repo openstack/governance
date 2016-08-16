@@ -3297,10 +3297,12 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_ceilometer
         - openstack/openstack-ansible-os_cinder
         - openstack/openstack-ansible-os_glance
+        - openstack/openstack-ansible-os_gnocchi
         - openstack/openstack-ansible-os_heat
         - openstack/openstack-ansible-os_horizon
         - openstack/openstack-ansible-os_ironic
         - openstack/openstack-ansible-os_keystone
+        - openstack/openstack-ansible-os_magnum
         - openstack/openstack-ansible-os_neutron
         - openstack/openstack-ansible-os_nova
         - openstack/openstack-ansible-os_swift
@@ -3336,16 +3338,6 @@ OpenStackAnsible:
     openstack-ansible-os_designate:
       repos:
         - openstack/openstack-ansible-os_designate
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-os_gnocchi:
-      repos:
-        - openstack/openstack-ansible-os_gnocchi
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-os_magnum:
-      repos:
-        - openstack/openstack-ansible-os_magnum
       tags:
         - release:cycle-trailing
     openstack-ansible-os_rally:
