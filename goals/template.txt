@@ -31,6 +31,15 @@ Provide reference links to previous discussions on the mailing list or
 IRC, etherpads, wiki pages, other forms of notes, and documentation
 that would be useful to a project team in working on the goal.
 
+Current State / Anticipated Impact
+==================================
+
+Provide a summary of the current state of any ongoing work related to
+the goal, including known blockers for any projects, projects that
+have completed the work already and can serve as examples, or other
+information useful to evaluate the scope of the goal and whether it
+would fit into the time given.
+
 Project Teams
 =============
 
