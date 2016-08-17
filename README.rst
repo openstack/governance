@@ -11,5 +11,9 @@ Directory structure:
         can be expressed as a resolution.
         Those must be named YYYYMMDD-short-name with YYYYMMDD being the
         proposal date in order to allow basic sorting.
+    goals/
+        Documentation for OpenStack community-wide goals, organized by
+        release cycle. These pages will be updated with project status
+        info over time, and if goals are revised.
 
 See https://wiki.openstack.org/wiki/Governance/TechnicalCommittee for details.
