@@ -2836,9 +2836,6 @@ neutron:
     neutron-vpnaas:
       repos:
         - openstack/neutron-vpnaas
-      docs:
-        contributor: http://docs.openstack.org/developer/neutron/
-        api: http://developer.openstack.org/api-ref/networking/
       tags:
         - release:cycle-with-milestones
         - stable:follows-policy
@@ -2846,6 +2843,8 @@ neutron:
     neutron:
       repos:
         - openstack/neutron
+      docs:
+        contributor: http://docs.openstack.org/developer/neutron/
       tags:
         - tc-approved-release
         - release:cycle-with-milestones
@@ -2865,6 +2864,8 @@ neutron:
     neutron-lib:
       repos:
         - openstack/neutron-lib
+      docs:
+        api: http://developer.openstack.org/api-ref/networking/
       tags:
         - release:cycle-with-intermediary
         - stable:follows-policy
