@@ -5682,11 +5682,6 @@ Release Management:
         contributor: http://docs.openstack.org/developer/reno/
       tags:
         - release:independent
-    requirements:
-      repos:
-        - openstack/requirements
-      tags:
-        - release:none
     specs-cookiecutter:
       repos:
         - openstack-dev/specs-cookiecutter
@@ -5697,6 +5692,24 @@ Release Management:
       email: chuck.short@canonical.com
       expires-in: January 2016
 
+requirements:
+  ptl:
+    name: Tony Breeds
+    irc: tonyb
+    email: tony@bakeyournoodle.com
+  irc-channel: openstack-requirements
+  mission: >
+    Coordinating the libraries used by OpenStack projects ensuring that all
+    libraries are compatible both technically and from a licensing standpoint.
+  url: https://wiki.openstack.org/wiki/Requirements
+  tags:
+    - team:diverse-affiliation
+  deliverables:
+    requirements:
+      repos:
+        - openstack/requirements
+      tags:
+        - release:none
 sahara:
   ptl:
     name: Vitaly Gridnev
