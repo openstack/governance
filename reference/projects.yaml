@@ -3130,6 +3130,11 @@ OpenStack Charms:
         - openstack/charm-lxd
       tags:
         - release:independent
+    charm-manila:
+      repos:
+        - openstack/charm-manila
+      tags:
+        - release:independent
     charm-neutron-api:
       repos:
         - openstack/charm-neutron-api
