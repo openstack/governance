@@ -2329,6 +2329,7 @@ ironic:
       repos:
         - openstack/python-wsmanclient
       tags:
+        - release:independent
         - type:library
     virtualbmc:
       repos:
