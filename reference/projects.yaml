@@ -370,6 +370,9 @@ designate:
     designate:
       repos:
         - openstack/designate
+      docs:
+        contributor: http://docs.openstack.org/developer/designate/#developer-documentation
+        api: http://developer.openstack.org/api-ref/dns/
       tags:
         - release:cycle-with-milestones
         - type:service
@@ -377,9 +380,6 @@ designate:
     designate-dashboard:
       repos:
         - openstack/designate-dashboard
-      docs:
-        contributor: http://docs.openstack.org/developer/designate/
-        api: http://developer.openstack.org/api-ref/dns/
       tags:
         - release:cycle-with-milestones
         - release:managed
