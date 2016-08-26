@@ -3206,7 +3206,7 @@ OpenStack Charms:
       tags:
         - release:independent
 
-OpenStack client:
+OpenStackClient:
   ptl:
     name: Dean Troyer
     irc: dtroyer
