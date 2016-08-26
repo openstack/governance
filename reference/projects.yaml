@@ -470,7 +470,7 @@ Documentation:
       repos:
         - openstack/training-labs
       tags:
-        - release:cycle-with-milestones
+        - release:none
     training-guides:
       repos:
         - openstack/training-guides
