@@ -2742,6 +2742,11 @@ murano:
         - openstack/murano-deployment
       tags:
         - release:independent
+    murano-pkg-check:
+      repos:
+        - openstack/murano-pkg-check
+      tags:
+        - release:independent
     murano-specs:
       repos:
         - openstack/murano-specs
