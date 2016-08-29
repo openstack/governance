@@ -3808,6 +3808,11 @@ Packaging-deb:
         - openstack/deb-auto-backports
       tags:
         - release:none
+    deb-bandit:
+      repos:
+        - openstack/deb-bandit
+      tags:
+        - release:none
     deb-barbican:
       repos:
         - openstack/deb-barbican
@@ -4336,6 +4341,11 @@ Packaging-deb:
     deb-python-greenio:
       repos:
         - openstack/deb-python-greenio
+      tags:
+        - release:none
+    deb-python-hacking:
+      repos:
+        - openstack/deb-python-hacking
       tags:
         - release:none
     deb-python-happybase:
