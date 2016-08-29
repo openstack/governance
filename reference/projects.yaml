@@ -377,6 +377,8 @@ designate:
         - release:cycle-with-milestones
         - type:service
         - stable:follows-policy
+        - assert:follows-standard-deprecation
+        - assert:supports-upgrade
     designate-dashboard:
       repos:
         - openstack/designate-dashboard
