@@ -3350,6 +3350,11 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_designate
       tags:
         - release:cycle-trailing
+    openstack-ansible-os_monasca:
+      repos:
+        - openstack/openstack-ansible-os_monasca
+      tags:
+        - release:cycle-trailing
     openstack-ansible-os_trove:
       repos:
         - openstack/openstack-ansible-os_trove
