@@ -3313,6 +3313,8 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_magnum
         - openstack/openstack-ansible-os_neutron
         - openstack/openstack-ansible-os_nova
+        - openstack/openstack-ansible-os_rally
+        - openstack/openstack-ansible-os_sahara
         - openstack/openstack-ansible-os_swift
         - openstack/openstack-ansible-os_tempest
         - openstack/openstack-ansible-pip_install
@@ -3346,16 +3348,6 @@ OpenStackAnsible:
     openstack-ansible-os_designate:
       repos:
         - openstack/openstack-ansible-os_designate
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-os_rally:
-      repos:
-        - openstack/openstack-ansible-os_rally
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-os_sahara:
-      repos:
-        - openstack/openstack-ansible-os_sahara
       tags:
         - release:cycle-trailing
     openstack-ansible-os_zaqar:
