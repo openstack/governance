@@ -40,10 +40,6 @@ the Oslo team:
 References
 ==========
 
-An estimated list of repositories owned by big tent teams with
-incubated Oslo code as of 5 August 2016:
-http://paste.openstack.org/show/550418/
-
 Reference documentation for the existing Oslo libraries:
 http://docs.openstack.org/developer/openstack-projects.html
 
@@ -51,6 +47,174 @@ Links to the Oslo specs covering graduation for various modules
 (useful for identifying which library a module moved to, and for
 finding "porting notes" written at the time of graduation):
 http://specs.openstack.org/openstack/oslo-specs/
+
+Current State / Anticipated Impact
+==================================
+
+On 5 Aug 2016 a review of git repositories owned by big tent project
+showed:
+
+::
+
+   $ for r in $(list-repos ); do
+     [ -d ~/repos/$r ] &&
+     (cd ~/repos/$r; [ -d */openstack/common ] &&
+         (echo $r; ls */openstack/common; echo )
+     ); done
+
+   openstack-dev/heat-cfnclient
+   exception.py
+   gettextutils.py
+   importutils.py
+   __init__.py
+   jsonutils.py
+   local.py
+   log.py
+   timeutils.py
+   
+   openstack-infra/python-storyboardclient
+   apiclient
+   _i18n.py
+   __init__.py
+   local.py
+   log.py
+   uuidutils.py
+   
+   openstack-infra/storyboard
+   fileutils.py
+   fixture
+   gettextutils.py
+   __init__.py
+   jsonutils.py
+   local.py
+   lockutils.py
+   processutils.py
+   py3kcompat
+   
+   openstack/castellan
+   fileutils.py
+   _i18n.py
+   __init__.py
+   local.py
+   
+   openstack/designate
+   __init__.py
+   memorycache.py
+   
+   openstack/heat
+   crypto
+   _i18n.py
+   __init__.py
+   README
+   
+   openstack/python-ceilometerclient
+   apiclient
+   _i18n.py
+   __init__.py
+   
+   openstack/python-cinderclient
+   apiclient
+   __init__.py
+   
+   openstack/python-cloudkittyclient
+   apiclient
+   cliutils.py
+   __init__.py
+   
+   openstack/python-congressclient
+   apiclient
+   gettextutils.py
+   __init__.py
+   
+   openstack/python-glanceclient
+   apiclient
+   _i18n.py
+   __init__.py
+   
+   openstack/python-heatclient
+   apiclient
+   cliutils.py
+   _i18n.py
+   __init__.py
+   
+   openstack/python-manilaclient
+   apiclient
+   cliutils.py
+   _i18n.py
+   __init__.py
+   uuidutils.py
+   
+   openstack/python-mistralclient
+   apiclient
+   cliutils.py
+   gettextutils.py
+   importutils.py
+   __init__.py
+   strutils.py
+   uuidutils.py
+   
+   openstack/python-monascaclient
+   apiclient
+   gettextutils.py
+   __init__.py
+   py3kcompat
+   
+   openstack/python-muranoclient
+   apiclient
+   __init__.py
+   
+   openstack/python-saharaclient
+   apiclient
+   cliutils.py
+   _i18n.py
+   __init__.py
+   
+   openstack/python-searchlightclient
+   apiclient
+   cliutils.py
+   _i18n.py
+   __init__.py
+   
+   openstack/python-smaugclient
+   apiclient
+   __init__.py
+   
+   openstack/python-solumclient
+   apiclient
+   cliutils.py
+   gettextutils.py
+   importutils.py
+   __init__.py
+   strutils.py
+   uuidutils.py
+   
+   openstack/python-troveclient
+   apiclient
+   __init__.py
+   
+   openstack/solum
+   excutils.py
+   fileutils.py
+   fixture
+   gettextutils.py
+   importutils.py
+   __init__.py
+   local.py
+   lockutils.py
+   log.py
+   strutils.py
+   uuidutils.py
+   
+   openstack/solum-infra-guestagent
+   config
+   gettextutils.py
+   importutils.py
+   __init__.py
+   jsonutils.py
+   local.py
+   log.py
+   strutils.py
+   timeutils.py
 
 Project Teams
 =============
