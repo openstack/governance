@@ -6423,6 +6423,27 @@ winstackers:
       tags:
         - release:cycle-with-intermediary
         - type:library
+  extra-atcs:
+    - name: Andrei Bacos
+      email: abacos@cloudbasesolutions.com
+      expires-in: July 2017
+      comment: abacos
+    - name: Costin Galan
+      email: cgalan@cloudbasesolutions.com
+      expires-in: July 2017
+      comment: cgalan
+    - name: Nichita Herciu
+      email: nherciu@cloudbasesolutions.com
+      expires-in: July 2017
+      comment: nherciu
+    - name: Octavian Ciuhandu
+      email: ociuhandu@cloudbasesolutions.com
+      expires-in: July 2017
+      comment: ociuhandu
+    - name: Remus Buzatu
+      email: rbuzatu@cloudbasesolutions.com
+      expires-in: July 2017
+      comment: rbuzatu
 
 zaqar:
   ptl:
