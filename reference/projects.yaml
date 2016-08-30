@@ -354,6 +354,13 @@ congress:
       tags:
         - type:library
         - release:cycle-with-intermediary
+  extra-atcs:
+    - name: Bryan Sullivan
+      email: Bryan.sullivan@att.com
+      expires-in: August 2017
+      comment: Bryan spent the last 6 months developing JuJu Charm and Puppet
+               installers for Congress, which he is now handing off to
+               other community members to upstream.
 
 designate:
   ptl:
