@@ -47,6 +47,29 @@ In corner cases where the change is time-sensitive (like a deliverable
 reorganization which blocks a release request), the chair may fast-track the
 change, but should report on that exception at the next TC meeting.
 
+Goal Updates from PTLs
+----------------------
+
+PTLs will acknowledge community-wide goals at the start of each cycle
+by providing links to artifacts for tracking the work, or an
+explanation of why work is not going to be done. They will also
+provide references to completion artifacts at the end of each cycle
+for goals where work was needed. These patches should be reviewed by
+TC members for completeness and clarity (is enough information
+provided for interested parties to track the work, or is the
+justification for not doing work clear enough).
+
+The patches to add team acknowledgments, planning artifacts, and
+completion artifacts to the goal document do not need to go through
+the formal vote process, and so lazy consensus rules will be used. If
+there is no objection posted one week after the most recent version of
+a change is proposed, then the change can be approved by the chair.
+
+If a TC member feels that one of these responses needs to be discussed
+by the entire TC, they should place it on the agenda for an upcoming
+meeting and the change should not be approved until after the
+discussion is completed.
+
 Rolling back fast-tracked changes
 ---------------------------------
 
