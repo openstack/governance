@@ -3350,6 +3350,16 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_designate
       tags:
         - release:cycle-trailing
+    openstack-ansible-os_trove:
+      repos:
+        - openstack/openstack-ansible-os_trove
+      tags:
+        - release:cycle-trailing
+    openstack-ansible-os_watcher:
+      repos:
+        - openstack/openstack-ansible-os_watcher
+      tags:
+        - release:cycle-trailing
     openstack-ansible-os_zaqar:
       repos:
         - openstack/openstack-ansible-os_zaqar
