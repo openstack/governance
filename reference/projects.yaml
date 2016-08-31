@@ -4300,6 +4300,11 @@ Packaging-deb:
         - openstack/deb-python-fasteners
       tags:
         - release:none
+    deb-python-fixtures:
+      repos:
+        - openstack/deb-python-fixtures
+      tags:
+        - release:none
     deb-python-frozendict:
       repos:
         - openstack/deb-python-frozendict
