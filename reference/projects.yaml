@@ -1660,6 +1660,11 @@ Infrastructure:
         - openstack-infra/log_processor
       tags:
         - release:independent
+    lpmqtt:
+      repos:
+        - openstack-infra/lpmqtt
+      tags:
+        - release:independent
     meetbot:
       repos:
         - openstack-infra/meetbot
@@ -1918,6 +1923,11 @@ Infrastructure:
     puppet-logstash:
       repos:
         - openstack-infra/puppet-logstash
+      tags:
+        - release:none
+    puppet-lpmqtt:
+      repos:
+        - openstack-infra/puppet-lpmqtt
       tags:
         - release:none
     puppet-mailman:
