@@ -5715,8 +5715,9 @@ requirements:
     email: tony@bakeyournoodle.com
   irc-channel: openstack-requirements
   mission: >
-    Coordinating the libraries used by OpenStack projects ensuring that all
-    libraries are compatible both technically and from a licensing standpoint.
+    Coordinating and converging the libraries used by OpenStack projects,
+    while ensuring that all libraries are compatible both technically and
+    from a licensing standpoint.
   url: https://wiki.openstack.org/wiki/Requirements
   tags:
     - team:diverse-affiliation
