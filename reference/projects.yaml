@@ -5320,6 +5320,11 @@ Puppet OpenStack:
         - openstack/puppet-glance
       tags:
         - release:cycle-trailing
+    puppet-glare:
+      repos:
+        - openstack/puppet-glare
+      tags:
+        - release:cycle-trailing
     puppet-gnocchi:
       repos:
         - openstack/puppet-gnocchi
