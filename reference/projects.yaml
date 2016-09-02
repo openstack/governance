@@ -6449,7 +6449,6 @@ winstackers:
         - openstack/networking-hyperv
       tags:
         - release:cycle-with-intermediary
-        - type:library
   extra-atcs:
     - name: Andrei Bacos
       email: abacos@cloudbasesolutions.com
