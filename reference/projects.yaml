@@ -4422,6 +4422,11 @@ Packaging-deb:
         - openstack/deb-python-kafka
       tags:
         - release:none
+    deb-python-keystoneauth1:
+      repos:
+        - openstack/deb-python-keystoneauth1
+      tags:
+        - release:none
     deb-python-keystoneclient:
       repos:
         - openstack/deb-python-keystoneclient
@@ -4820,6 +4825,11 @@ Packaging-deb:
     deb-python-requests-unixsocket:
       repos:
         - openstack/deb-python-requests-unixsocket
+      tags:
+        - release:none
+    deb-python-requestsexceptions:
+      repos:
+        - openstack/deb-python-requestsexceptions
       tags:
         - release:none
     deb-python-retrying:
