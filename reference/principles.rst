@@ -85,6 +85,17 @@ Leaders, specifically, should consider stepping down from their role when
 they can't fully focus on it anymore, and always ensure a good transition
 path with their successors.
 
+We value clear, friendly, and open communication
+------------------------------------------------
+
+OpenStack is a geographically distributed community, with members from different
+cultures whose first language may not be English. Both of those characteristics
+can make communication more difficult and lead to misunderstandings, but we
+encourage everyone to consciously work to overcome that challenge through careful
+and constructive writing and by looking for positive interpretations of unclear
+messages. Communicating clearly improves our ability to collaborate to solve
+technical challenges more effectively.
+
 OpenStack First, Project Team Second, Company Third
 ---------------------------------------------------
 
