@@ -3537,21 +3537,25 @@ oslo:
         - openstack/devstack-plugin-amqp1
       tags:
         - release:none
+        - type:devstack-plugin
     devstack-plugin-kafka:
       repos:
         - openstack/devstack-plugin-kafka
       tags:
         - release:none
+        - type:devstack-plugin
     devstack-plugin-pika:
       repos:
         - openstack/devstack-plugin-pika
       tags:
         - release:none
+        - type:devstack-plugin
     devstack-plugin-zmq:
       repos:
         - openstack/devstack-plugin-zmq
       tags:
         - release:none
+        - type:devstack-plugin
     futurist:
       repos:
         - openstack/futurist
@@ -5554,6 +5558,7 @@ Quality Assurance:
         - openstack/devstack-plugin-ceph
       tags:
         - release:none
+        - type:devstack-plugin
     devstack-plugin-cookiecutter:
       repos:
         - openstack-dev/devstack-plugin-cookiecutter
