@@ -5450,6 +5450,11 @@ Puppet OpenStack:
         - openstack/puppet-panko
       tags:
         - release:cycle-trailing
+    puppet-qdr:
+      repos:
+        - openstack/puppet-qdr
+      tags:
+        - release:cycle-trailing
     puppet-rally:
       repos:
         - openstack/puppet-rally
