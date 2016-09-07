@@ -2345,6 +2345,12 @@ ironic:
         - openstack/virtualbmc
       tags:
         - release:independent
+  extra-atcs:
+    - name: Sukhdev Kapur
+      email: sukhdevkapur@gmail.com
+      expires-in: September 2017
+      comment: Sukhdev has been leading the meetings for the ironic/neutron
+               integration efforts.
 
 keystone:
   ptl:
