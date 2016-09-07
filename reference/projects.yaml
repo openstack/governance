@@ -5480,11 +5480,6 @@ Puppet OpenStack:
         - openstack/puppet-tempest
       tags:
         - release:cycle-trailing
-    puppet-tripleo:
-      repos:
-        - openstack/puppet-tripleo
-      tags:
-        - release:cycle-trailing
     puppet-trove:
       repos:
         - openstack/puppet-trove
@@ -6245,6 +6240,11 @@ tripleo:
         - openstack/os-refresh-config
       tags:
         - release:cycle-with-intermediary
+    puppet-tripleo:
+      repos:
+        - openstack/puppet-tripleo
+      tags:
+        - release:cycle-trailing
     python-tripleoclient:
       repos:
         - openstack/python-tripleoclient
