@@ -4130,6 +4130,21 @@ Packaging-deb:
         - openstack/deb-os-win
       tags:
         - release:none
+    deb-python-aioeventlet:
+      repos:
+        - openstack/deb-python-aioeventlet
+      tags:
+        - release:none
+    deb-python-autobahn:
+      repos:
+        - openstack/deb-python-autobahn
+      tags:
+        - release:none
+    deb-python-automaton:
+      repos:
+        - openstack/deb-python-automaton
+      tags:
+        - release:none
     deb-python-aodhclient:
       repos:
         - openstack/deb-python-aodhclient
@@ -4138,6 +4153,21 @@ Packaging-deb:
     deb-python-barbicanclient:
       repos:
         - openstack/deb-python-barbicanclient
+      tags:
+        - release:none
+    deb-python-bashate:
+      repos:
+        - openstack/deb-python-bashate
+      tags:
+        - release:none
+    deb-python-cassandra-driver:
+      repos:
+        - openstack/deb-python-cassandra-driver
+      tags:
+        - release:none
+    deb-python-castellan:
+      repos:
+        - openstack/deb-python-castellan
       tags:
         - release:none
     deb-python-ceilometerclient:
@@ -4205,6 +4235,11 @@ Packaging-deb:
         - openstack/deb-python-csscompressor
       tags:
         - release:none
+    deb-python-cursive:
+      repos:
+        - openstack/deb-python-cursive
+      tags:
+        - release:none
     deb-python-daemonize:
       repos:
         - openstack/deb-python-daemonize
@@ -4228,6 +4263,16 @@ Packaging-deb:
     deb-python-designateclient:
       repos:
         - openstack/deb-python-designateclient
+      tags:
+        - release:none
+    deb-python-dib-utils:
+      repos:
+        - openstack/deb-python-dib-utils
+      tags:
+        - release:none
+    deb-python-diskimage-builder:
+      repos:
+        - openstack/deb-python-diskimage-builder
       tags:
         - release:none
     deb-python-django-appconf:
@@ -4350,6 +4395,11 @@ Packaging-deb:
         - openstack/deb-python-gabbi
       tags:
         - release:none
+    deb-python-glance-store:
+      repos:
+        - openstack/deb-python-glance-store
+      tags:
+        - release:none
     deb-python-glanceclient:
       repos:
         - openstack/deb-python-glanceclient
@@ -4388,6 +4438,11 @@ Packaging-deb:
     deb-python-httpretty:
       repos:
         - openstack/deb-python-httpretty
+      tags:
+        - release:none
+    deb-python-ironic-lib:
+      repos:
+        - openstack/deb-python-ironic-lib
       tags:
         - release:none
     deb-python-ironicclient:
