@@ -89,6 +89,8 @@ Chef OpenStack:
     The Chef cookbooks for OpenStack allow to automate the building, operation
     and consumption of OpenStack cloud deployments.
   url: https://wiki.openstack.org/wiki/Chef
+  tags:
+    - team:diverse-affiliation
   deliverables:
     cookbook-openstack-bare-metal:
       repos:
@@ -951,6 +953,8 @@ I18n:
     To make OpenStack ubiquitously accessible to people of
     all language backgrounds.
   url: https://wiki.openstack.org/wiki/I18nTeam
+  tags:
+    - team:diverse-affiliation
   deliverables:
     i18n:
       repos:
@@ -2735,8 +2739,6 @@ murano:
     deploy composite environments on an application abstraction level
     while managing the application lifecycle.
   url: https://wiki.openstack.org/wiki/Murano
-  tags:
-    - team:single-vendor
   deliverables:
     murano:
       repos:
@@ -3838,6 +3840,8 @@ Packaging-deb:
   mission: >
     Maintain packages for Debian (and other deb based distributions) as a
     community.
+  tags:
+    - team:single-vendor
   deliverables:
     deb-aodh:
       repos:
@@ -5922,6 +5926,8 @@ senlin:
     To implement clustering services and libraries for the management of groups
     of homogeneous objects exposed by other OpenStack services.
   url: https://wiki.openstack.org/wiki/Senlin
+  tags:
+    - team:single-vendor
   deliverables:
     senlin:
       repos:
@@ -6038,6 +6044,8 @@ Stable branch maintenance:
     of a common stable branch policy. Keeping CI working on stable branches.
     Creating and improving related tooling and automation.
   url: https://wiki.openstack.org/wiki/StableBranch
+  tags:
+    - team:diverse-affiliation
   deliverables: {}
 
 swift:
@@ -6138,8 +6146,6 @@ Telemetry:
     subsequent retrieval and analysis, and trigger actions when defined
     criteria are met.
   url: https://wiki.openstack.org/wiki/Telemetry
-  tags:
-    - team:diverse-affiliation
   deliverables:
     aodh:
       repos:
@@ -6219,6 +6225,8 @@ tripleo:
     Develop and maintain tooling and infrastructure able to deploy OpenStack in
     production, using OpenStack itself wherever possible.
   url: https://wiki.openstack.org/wiki/TripleO
+  tags:
+    - team:single-vendor
   deliverables:
     dib-utils:
       repos:
