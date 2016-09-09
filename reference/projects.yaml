@@ -3120,6 +3120,11 @@ OpenStack Charms:
         - openstack/charm-interface-rabbitmq
       tags:
         - release:none
+    charm-interface-service-control:
+      repos:
+        - openstack/charm-interface-service-control
+      tags:
+        - release:none
     charm-keystone:
       repos:
         - openstack/charm-keystone
