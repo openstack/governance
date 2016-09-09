@@ -15,7 +15,7 @@
 
 from docutils import nodes
 from docutils.parsers import rst
-from docutils.statemachine import ViewList
+from docutils import statemachine
 from sphinx.util.nodes import nested_parse_with_titles
 
 import projects
@@ -124,7 +124,7 @@ class TeamsListDirective(rst.Directive):
         all_teams = projects.get_project_data()
 
         # Build the view of the data to be parsed for rendering.
-        result = ViewList()
+        result = statemachine.ViewList()
         for team_name in sorted(all_teams.keys()):
             team_info = all_teams[team_name]
             for line in _team_to_rst(team_name, team_info):
