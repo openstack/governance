@@ -2470,6 +2470,7 @@ kuryr:
         contributor: http://docs.openstack.org/developer/kuryr/
       tags:
         - release:independent
+        - type:library
     kuryr-libnetwork:
       repos:
         - openstack/kuryr-libnetwork
