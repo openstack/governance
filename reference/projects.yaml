@@ -6244,22 +6244,22 @@ tripleo:
       docs:
         contributor: http://docs.openstack.org/developer/os-cloud-config/
       tags:
-        - release:cycle-with-intermediary
+        - release:cycle-with-milestones
     os-collect-config:
       repos:
         - openstack/os-collect-config
       tags:
-        - release:cycle-with-intermediary
+        - release:cycle-with-milestones
     os-net-config:
       repos:
         - openstack/os-net-config
       tags:
-        - release:cycle-with-intermediary
+        - release:cycle-with-milestones
     os-refresh-config:
       repos:
         - openstack/os-refresh-config
       tags:
-        - release:cycle-with-intermediary
+        - release:cycle-with-milestones
     puppet-tripleo:
       repos:
         - openstack/puppet-tripleo
@@ -6293,7 +6293,7 @@ tripleo:
       repos:
         - openstack/tripleo-image-elements
       tags:
-        - release:cycle-with-intermediary
+        - release:cycle-with-milestones
     tripleo-incubator:
       repos:
         - openstack/tripleo-incubator
@@ -6308,7 +6308,7 @@ tripleo:
       repos:
         - openstack/tripleo-quickstart
       tags:
-        - release:cycle-with-intermediary
+        - release:independent
     tripleo-specs:
       repos:
         - openstack/tripleo-specs
