@@ -47,6 +47,7 @@ Release Management Tags
    type_horizon-plugin
    type_library
    type_service
+   type_tempest-plugin
 
 Vulnerability Management Tags
 =============================

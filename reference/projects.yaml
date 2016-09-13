@@ -405,6 +405,7 @@ designate:
       tags:
         - release:independent
         - type:library
+        - type:tempest-plugin
     python-designateclient:
       repos:
         - openstack/python-designateclient
@@ -824,6 +825,7 @@ horizon:
       tags:
         - type:library
         - release:independent
+        - type:tempest-plugin
     xstatic-angular:
       repos:
         - openstack/xstatic-angular
@@ -5841,6 +5843,7 @@ sahara:
       tags:
         - release:independent
         - type:library
+        - type:tempest-plugin
     sahara-specs:
       repos:
         - openstack/sahara-specs
