@@ -3835,6 +3835,11 @@ Packaging-deb:
     Maintain packages for Debian (and other deb based distributions) as a
     community.
   deliverables:
+    deb-alembic:
+      repos:
+        - openstack/deb-alembic
+      tags:
+        - release:none
     deb-aodh:
       repos:
         - openstack/deb-aodh
@@ -4468,6 +4473,11 @@ Packaging-deb:
     deb-python-keystoneclient:
       repos:
         - openstack/deb-python-keystoneclient
+      tags:
+        - release:none
+    deb-python-keystonemiddleware:
+      repos:
+        - openstack/deb-python-keystonemiddleware
       tags:
         - release:none
     deb-python-ldappool:
