@@ -2901,6 +2901,7 @@ neutron:
       docs:
         api: http://developer.openstack.org/api-ref/networking/
       tags:
+        - tc-approved-release
         - release:cycle-with-intermediary
         - stable:follows-policy
         - type:library
