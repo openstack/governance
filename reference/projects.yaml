@@ -4022,6 +4022,41 @@ Packaging-deb:
         - openstack/deb-networking-arista
       tags:
         - release:none
+    deb-networking-cisco:
+      repos:
+        - openstack/deb-networking-cisco
+      tags:
+        - release:none
+    deb-networking-hyperv:
+      repos:
+        - openstack/deb-networking-hyperv
+      tags:
+        - release:none
+    deb-networking-l2gw:
+      repos:
+        - openstack/deb-networking-l2gw
+      tags:
+        - release:none
+    deb-networking-midonet:
+      repos:
+        - openstack/deb-networking-midonet
+      tags:
+        - release:none
+    deb-networking-nec:
+      repos:
+        - openstack/deb-networking-nec
+      tags:
+        - release:none
+    deb-networking-odl:
+      repos:
+        - openstack/deb-networking-odl
+      tags:
+        - release:none
+    deb-networking-ovn:
+      repos:
+        - openstack/deb-networking-ovn
+      tags:
+        - release:none
     deb-networking-mlnx:
       repos:
         - openstack/deb-networking-mlnx
@@ -4040,6 +4075,11 @@ Packaging-deb:
     deb-neutron-lbaas:
       repos:
         - openstack/deb-neutron-lbaas
+      tags:
+        - release:none
+    deb-neutron-taas:
+      repos:
+        - openstack/deb-neutron-taas
       tags:
         - release:none
     deb-neutron-vpnaas:
