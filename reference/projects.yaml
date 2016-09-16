@@ -4658,6 +4658,11 @@ Packaging-deb:
         - openstack/deb-python-keystonemiddleware
       tags:
         - release:none
+    deb-python-kmip:
+      repos:
+        - openstack/deb-python-kmip
+      tags:
+        - release:none
     deb-python-ldappool:
       repos:
         - openstack/deb-python-ldappool
@@ -4728,6 +4733,11 @@ Packaging-deb:
         - openstack/deb-python-muranoclient
       tags:
         - release:none
+    deb-python-neutron-lib:
+      repos:
+        - openstack/deb-python-neutron-lib
+      tags:
+        - release:none
     deb-python-neutronclient:
       repos:
         - openstack/deb-python-neutronclient
@@ -4768,9 +4778,29 @@ Packaging-deb:
         - openstack/deb-python-openstackclient
       tags:
         - release:none
+    deb-python-openstackdocstheme:
+      repos:
+        - openstack/deb-python-openstackdocstheme
+      tags:
+        - release:none
+    deb-python-openstacksdk:
+      repos:
+        - openstack/deb-python-openstacksdk
+      tags:
+        - release:none
+    deb-python-os-api-ref:
+      repos:
+        - openstack/deb-python-os-api-ref
+      tags:
+        - release:none
     deb-python-os-apply-config:
       repos:
         - openstack/deb-python-os-apply-config
+      tags:
+        - release:none
+    deb-python-os-vif:
+      repos:
+        - openstack/deb-python-os-vif
       tags:
         - release:none
     deb-python-os-brick:
@@ -4791,6 +4821,11 @@ Packaging-deb:
     deb-python-os-collect-config:
       repos:
         - openstack/deb-python-os-collect-config
+      tags:
+        - release:none
+    deb-python-osc-lib:
+      repos:
+        - openstack/deb-python-osc-lib
       tags:
         - release:none
     deb-python-oslo.cache:
@@ -5036,6 +5071,11 @@ Packaging-deb:
     deb-python-reno:
       repos:
         - openstack/deb-python-reno
+      tags:
+        - release:none
+    deb-python-requestbuilder:
+      repos:
+        - openstack/deb-python-requestbuilder
       tags:
         - release:none
     deb-python-requests-kerberos:
@@ -5416,6 +5456,11 @@ Packaging-deb:
     deb-senlin:
       repos:
         - openstack/deb-senlin
+      tags:
+        - release:none
+    deb-senlin-dashboard:
+      repos:
+        - openstack/deb-senlin-dashboard
       tags:
         - release:none
     deb-spice-html5:
