@@ -4087,14 +4087,44 @@ Packaging-deb:
         - openstack/deb-neutron-vpnaas
       tags:
         - release:none
+    deb-nodepool:
+      repos:
+        - openstack/deb-nodepool
+      tags:
+        - release:none
     deb-nova:
       repos:
         - openstack/deb-nova
       tags:
         - release:none
+    deb-novnc:
+      repos:
+        - openstack/deb-novnc
+      tags:
+        - release:none
+    deb-openstack-doc-tools:
+      repos:
+        - openstack/deb-openstack-doc-tools
+      tags:
+        - release:none
+    deb-openstack-meta-packages:
+      repos:
+        - openstack/deb-openstack-meta-packages
+      tags:
+        - release:none
+    deb-openstack-nose:
+      repos:
+        - openstack/deb-openstack-nose
+      tags:
+        - release:none
     deb-openstack-pkg-tools:
       repos:
         - openstack/deb-openstack-pkg-tools
+      tags:
+        - release:none
+    deb-openstack-trove:
+      repos:
+        - openstack/deb-openstack-trove
       tags:
         - release:none
     deb-os-apply-config:
@@ -5055,6 +5085,11 @@ Packaging-deb:
     deb-python-taskflow:
       repos:
         - openstack/deb-python-taskflow
+      tags:
+        - release:none
+    deb-python-tempest-lib:
+      repos:
+        - openstack/deb-python-testtools
       tags:
         - release:none
     deb-python-testtools:
