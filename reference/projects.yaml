@@ -174,7 +174,7 @@ cinder:
         - openstack/cinder
       docs:
         contributor: http://docs.openstack.org/developer/cinder/
-        api: http://developer.openstack.org/api-ref-blockstorage-v2.html
+        api: http://developer.openstack.org/api-ref/block-storage/
       tags:
         - tc-approved-release
         - release:cycle-with-milestones
@@ -698,7 +698,7 @@ heat:
         - openstack/heat
       docs:
         contributor: http://docs.openstack.org/developer/heat/
-        api: http://developer.openstack.org/api-ref-orchestration-v1.html
+        api: http://developer.openstack.org/api-ref/orchestration/
       tags:
         - tc-approved-release
         - release:cycle-with-milestones
@@ -2396,7 +2396,7 @@ keystone:
         - openstack/keystone
       docs:
         contributor: http://docs.openstack.org/developer/keystone/
-        api: http://developer.openstack.org/api-ref-identity-v3.html
+        api: http://developer.openstack.org/api-ref/identity/
       tags:
         - tc-approved-release
         - release:cycle-with-milestones
@@ -2527,7 +2527,7 @@ magnum:
         - openstack/magnum
       docs:
         contributor: http://docs.openstack.org/developer/magnum/
-        api: null
+        api: http://developer.openstack.org/api-ref/container-infrastructure-management/
       tags:
         - release:cycle-with-intermediary
         - type:service
@@ -2564,7 +2564,7 @@ manila:
         - openstack/manila
       docs:
         contributor: http://docs.openstack.org/developer/manila/
-        api: http://developer.openstack.org/api-ref-share-v2.html
+        api: http://developer.openstack.org/api-ref/shared-file-systems/
       tags:
         - release:cycle-with-milestones
         - type:service
@@ -6346,6 +6346,9 @@ Telemetry:
     aodh:
       repos:
         - openstack/aodh
+      docs:
+        contributor: http://docs.openstack.org/developer/aodh/
+        api: http://docs.openstack.org/developer/aodh/webapi/v2.html
       tags:
         - assert:follows-standard-deprecation
         - release:cycle-with-intermediary
@@ -6355,8 +6358,7 @@ Telemetry:
         - openstack/ceilometer
       docs:
         contributor: http://docs.openstack.org/developer/ceilometer/
-        # won't be in new nav
-        api: http://developer.openstack.org/api-ref-telemetry-v2.html
+        api: null
       tags:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -6565,8 +6567,7 @@ trove:
         - openstack/trove
       docs:
         contributor: http://docs.openstack.org/developer/trove/
-        # won't be in new nav
-        api: http://developer.openstack.org/api-ref-databases-v1.html
+        api: http://developer.openstack.org/api-ref/database/
       tags:
         - tc-approved-release
         - release:cycle-with-milestones
