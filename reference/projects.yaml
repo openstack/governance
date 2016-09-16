@@ -3902,6 +3902,21 @@ Packaging-deb:
         - openstack/deb-designate-dashboard
       tags:
         - release:none
+    deb-fonts-materialdesignicons-webfont:
+      repos:
+        - openstack/deb-fonts-materialdesignicons-webfont
+      tags:
+        - release:none
+    deb-fonts-roboto-fontface:
+      repos:
+        - openstack/deb-fonts-roboto-fontface
+      tags:
+        - release:none
+    deb-git-review:
+      repos:
+        - openstack/deb-git-review
+      tags:
+        - release:none
     deb-glance:
       repos:
         - openstack/deb-glance
@@ -3917,6 +3932,11 @@ Packaging-deb:
         - openstack/deb-heat
       tags:
         - release:none
+    deb-heat-cfntools:
+      repos:
+        - openstack/deb-heat-cfntools
+      tags:
+        - release:none
     deb-horizon:
       repos:
         - openstack/deb-horizon
@@ -3925,6 +3945,16 @@ Packaging-deb:
     deb-ironic:
       repos:
         - openstack/deb-ironic
+      tags:
+        - release:none
+    deb-ironic-inspector:
+      repos:
+        - openstack/deb-ironic-inspector
+      tags:
+        - release:none
+    deb-ironic-ui:
+      repos:
+        - openstack/deb-ironic-ui
       tags:
         - release:none
     deb-kazoo:
@@ -3937,6 +3967,11 @@ Packaging-deb:
         - openstack/deb-keystone
       tags:
         - release:none
+    deb-magnum:
+      repos:
+        - openstack/deb-magnum
+      tags:
+        - release:none
     deb-manila:
       repos:
         - openstack/deb-manila
@@ -3945,6 +3980,11 @@ Packaging-deb:
     deb-manila-ui:
       repos:
         - openstack/deb-manila-ui
+      tags:
+        - release:none
+    deb-migrate:
+      repos:
+        - openstack/deb-migrate
       tags:
         - release:none
     deb-mistral:
