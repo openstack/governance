@@ -3119,6 +3119,11 @@ OpenStack Charms:
         - openstack/charm-interface-neutron-plugin
       tags:
         - release:none
+    charm-interface-neutron-plugin-api-subordinate:
+      repos:
+        - openstack/charm-interface-neutron-plugin-api-subordinate
+      tags:
+        - release:none
     charm-interface-odl-controller-api:
       repos:
         - openstack/charm-interface-odl-controller-api
