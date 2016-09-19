@@ -1,3 +1,4 @@
+---
 astara:
   ptl:
     name: Ryan Petrello
@@ -378,7 +379,8 @@ designate:
       repos:
         - openstack/designate
       docs:
-        contributor: http://docs.openstack.org/developer/designate/#developer-documentation
+        contributor:
+          http://docs.openstack.org/developer/designate/#developer-documentation
         api: http://developer.openstack.org/api-ref/dns/
       tags:
         - release:cycle-with-milestones
@@ -547,7 +549,8 @@ freezer:
         - openstack/freezer-api
         - openstack/freezer-dr
       docs:
-        contributor: null # doc/source exists in tree but is not published; wiki only docs
+        # doc/source exists in tree but is not published; wiki only docs
+        contributor: null
       tags:
         - release:cycle-with-milestones
         - type:service
@@ -573,7 +576,7 @@ fuel:
   ptl:
     name: Vladimir Kozhukalov
     irc: kozhukalov
-    email:  vkozhukalov@mirantis.com
+    email: vkozhukalov@mirantis.com
   irc-channel: fuel
   service: Deployment service
   mission: >
@@ -615,7 +618,8 @@ fuel:
       repos:
         - openstack/fuel-docs
       docs:
-        contributor:  http://docs.openstack.org/developer/fuel-docs/devdocs/develop.html
+        contributor:
+          http://docs.openstack.org/developer/fuel-docs/devdocs/develop.html
       tags:
         - release:none
     fuel-lcm:
@@ -805,7 +809,8 @@ horizon:
         - openstack/horizon
       docs:
         contributor: http://docs.openstack.org/developer/horizon/
-        api: http://docs.openstack.org/developer/horizon/#api-reference # Is not really needed to refer to in this file?
+        # Is not really needed to refer to in this file?
+        api: http://docs.openstack.org/developer/horizon/#api-reference
       tags:
         - tc-approved-release
         - release:cycle-with-milestones
@@ -2611,7 +2616,8 @@ mistral:
         - release:cycle-with-milestones
       docs:
         contributor: http://docs.openstack.org/developer/mistral/
-        api: http://docs.openstack.org/developer/mistral/developer/webapi/v2.html
+        api:
+          http://docs.openstack.org/developer/mistral/developer/webapi/v2.html
     mistral-extra:
       repos:
         - openstack/mistral-extra
@@ -2649,7 +2655,10 @@ monasca:
         - openstack/monasca-api
       docs:
         contributor: null
-        api: https://github.com/openstack/monasca-api/blob/master/docs/monasca-api-spec.md # markdown
+        # markdown
+        api:
+          https://github.com/openstack/monasca-api/blob/master/docs/
+          monasca-api-spec.md
       tags:
         - type:service
         - release:cycle-with-intermediary
@@ -5920,7 +5929,8 @@ rally:
         - openstack/rally
         - openstack/performance-docs
       docs:
-        contributor: http://rally.readthedocs.org/en/latest/ # RTD
+        # RTD
+        contributor: http://rally.readthedocs.org/en/latest/
       tags:
         - release:independent
 
@@ -6256,7 +6266,9 @@ solum:
         - openstack/solum
       docs:
         contributor: http://docs.openstack.org/developer/solum/
-        api: http://docs.openstack.org/developer/solum/develop_applications/webapi/index.html
+        api:
+          http://docs.openstack.org/developer/solum/develop_applications/
+          webapi/index.html
       tags:
         - release:cycle-with-intermediary
         - type:service
@@ -6401,7 +6413,8 @@ Telemetry:
         - openstack/ceilometer
       docs:
         contributor: http://docs.openstack.org/developer/ceilometer/
-        api: http://developer.openstack.org/api-ref-telemetry-v2.html #won't be in new nav
+        # won't be in new nav
+        api: http://developer.openstack.org/api-ref-telemetry-v2.html
       tags:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -6608,7 +6621,8 @@ trove:
         - openstack/trove
       docs:
         contributor: http://docs.openstack.org/developer/trove/
-        api: http://developer.openstack.org/api-ref-databases-v1.html # won't be in new nav
+        # won't be in new nav
+        api: http://developer.openstack.org/api-ref-databases-v1.html
       tags:
         - tc-approved-release
         - release:cycle-with-milestones
@@ -6661,7 +6675,8 @@ vitrage:
       repos:
         - openstack/vitrage
       docs:
-        contributor: null #RST files are in repo, but not built to docs.openstack.org
+        # RST files are in repo, but not built to docs.openstack.org
+        contributor: null
       tags:
         - release:cycle-with-intermediary
         - type:service
