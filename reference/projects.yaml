@@ -90,6 +90,11 @@ Chef OpenStack:
     and consumption of OpenStack cloud deployments.
   url: https://wiki.openstack.org/wiki/Chef
   deliverables:
+    cookbook-openstack-application-catalog:
+      repos:
+        - openstack/cookbook-openstack-application-catalog
+      tags:
+        - release:independent
     cookbook-openstack-bare-metal:
       repos:
         - openstack/cookbook-openstack-bare-metal
