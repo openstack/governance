@@ -3003,6 +3003,11 @@ OpenStack Charms:
   tags:
     - team:single-vendor
   deliverables:
+    charms.ceph:
+      repos:
+        - openstack/charms.ceph
+      tags:
+        - release:independent
     charms.openstack:
       repos:
         - openstack/charms.openstack
