@@ -20,14 +20,14 @@ import re
 from docutils import nodes
 from docutils.parsers import rst
 from docutils.parsers.rst import directives
-from docutils.parsers.rst.directives.tables import Table
+from docutils.parsers.rst.directives import tables
 from docutils.statemachine import ViewList
 from sphinx.util.nodes import nested_parse_with_titles
 
 import projects
 
 
-class ExtraATCsTable(Table):
+class ExtraATCsTable(tables.Table):
     """List the extra ATCs for the given project.
     """
 

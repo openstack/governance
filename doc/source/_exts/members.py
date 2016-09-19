@@ -16,7 +16,7 @@
 import re
 
 from docutils import nodes
-from docutils.parsers.rst.directives.tables import Table
+from docutils.parsers.rst.directives import tables
 from docutils.parsers.rst import directives
 
 # Full name (IRC nickname) [expires in] {role}
@@ -39,7 +39,7 @@ def _parse_members_file(app, filename):
             yield m.groupdict()
 
 
-class MembersTable(Table):
+class MembersTable(tables.Table):
     """Insert the members table using the referenced file as source.
     """
 

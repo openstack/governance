@@ -15,7 +15,7 @@
 
 from docutils import nodes
 from docutils.parsers import rst
-from docutils.statemachine import ViewList
+from docutils import statemachine
 from sphinx.util.nodes import nested_parse_with_titles
 
 import projects
@@ -43,7 +43,7 @@ class TaggedProjectsDirective(rst.Directive):
             return [error]
 
         # Build the view of the data to be parsed for rendering.
-        result = ViewList()
+        result = statemachine.ViewList()
         project_data = _projects_by_tag.get(tagname)
         source_name = '<' + __name__ + '>'
         if not project_data:
