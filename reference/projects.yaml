@@ -4638,6 +4638,11 @@ Packaging-deb:
         - openstack/deb-python-jsonschema
       tags:
         - release:none
+    deb-python-k8sclient:
+      repos:
+        - openstack/deb-python-k8sclient
+      tags:
+        - release:none
     deb-python-kafka:
       repos:
         - openstack/deb-python-kafka
