@@ -3991,6 +3991,16 @@ Packaging-deb:
         - openstack/deb-keystone
       tags:
         - release:none
+    deb-liberasurecode:
+      repos:
+        - openstack/deb-liberasurecode
+      tags:
+        - release:none
+    deb-libisal:
+      repos:
+        - openstack/deb-libisal
+      tags:
+        - release:none
     deb-magnum:
       repos:
         - openstack/deb-magnum
@@ -5501,9 +5511,24 @@ Packaging-deb:
         - openstack/deb-subunit
       tags:
         - release:none
+    deb-swauth:
+      repos:
+        - openstack/deb-swauth
+      tags:
+        - release:none
     deb-swift:
       repos:
         - openstack/deb-swift
+      tags:
+        - release:none
+    deb-swift-bench:
+      repos:
+        - openstack/deb-swift-bench
+      tags:
+        - release:none
+    deb-swift-plugin-s3:
+      repos:
+        - openstack/deb-swift-plugin-s3
       tags:
         - release:none
     deb-tempest:
