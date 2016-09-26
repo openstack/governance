@@ -633,6 +633,7 @@ fuel:
       repos:
         - openstack/fuel-nailgun-extension-cluster-upgrade
         - openstack/fuel-nailgun-extension-iac
+        - openstack/fuel-nailgun-extension-converted-serializers
         - openstack/fuel-octane
         - openstack/tuning-box
       tags:
