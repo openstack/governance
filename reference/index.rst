@@ -7,6 +7,8 @@ Reference documents which need to be revised over time.
 .. toctree::
    :maxdepth: 1
 
+   opens
+   principles
    charter
    projects/index
    new-projects-requirements
@@ -18,5 +20,4 @@ Reference documents which need to be revised over time.
    tags/index
    Template for new tags <tag-template>
    Requirements for previously-used incubation/integration process <incubation-integration-requirements>
-   opens
    house-rules
