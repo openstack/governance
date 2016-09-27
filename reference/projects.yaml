@@ -2648,7 +2648,7 @@ monasca:
   ptl:
     name: Roland Hochmuth
     irc: rhochmuth
-    email: roland.hochmuth@hp.com
+    email: roland.hochmuth@hpe.com
   irc-channel: openstack-monasca
   service: Monitoring
   mission: >
@@ -2745,7 +2745,7 @@ murano:
   ptl:
     name: Kirill Zaitsev
     irc: kzaitsev_mb
-    email: k.zaitsev@me.com
+    email: kzaitsev@mirantis.com
   irc-channel: murano
   service: Application Catalog service
   mission: >
