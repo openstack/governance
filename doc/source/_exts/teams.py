@@ -111,7 +111,7 @@ def _write_team_pages(app):
         filename = 'reference/projects/%s.rst' % slug
         app.info('generating team page for %s' % team)
         with open(filename, 'w') as f:
-            f.write('\n'.join(_team_to_rst(team, info)))
+            f.write('\n'.join(_team_to_rst(team, info)).encode('utf-8'))
         files.append(filename)
     return files
 

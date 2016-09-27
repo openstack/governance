@@ -38,4 +38,4 @@ def setup(app):
     filename = os.path.abspath('reference/projects.yaml')
     app.info('reading %s' % filename)
     with open(filename, 'r') as f:
-        _projects_yaml = yaml.load(f.read())
+        _projects_yaml = yaml.load(f.read().decode('utf-8'))
