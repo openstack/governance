@@ -3827,6 +3827,11 @@ Packaging-deb:
         - openstack/deb-glance
       tags:
         - release:none
+    deb-glare:
+      repos:
+        - openstack/deb-glare
+      tags:
+        - release:none
     deb-gnocchi:
       repos:
         - openstack/deb-gnocchi
