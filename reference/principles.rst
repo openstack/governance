@@ -82,6 +82,15 @@ the constituent businesses are essential, they must be balanced with each other
 lest OpenStack decisions unwittingly be made by unelected people behind
 closed doors.
 
+Contribution Is Our Currency
+----------------------------
+
+The way change is implemented in OpenStack is by someone stepping up and doing
+the work. While there is a hierarchical elected leadership structure, change is
+not implemented in a top down approach. The real work is done by people stepping
+up and contributing. Contribution is the mechanism for making change happen and
+it is also how trust is built between community members.
+
 OpenStack Primarily Produces Software
 -------------------------------------
 
@@ -113,4 +122,3 @@ a choice made by its participants in the first place. If you disagree with
 the principles or processes we follow, we encourage you to either participate
 in improving them within our community governance rules, or seek a different
 community that is better aligned with your ideals or opinions.
-
