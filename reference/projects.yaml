@@ -706,6 +706,7 @@ heat:
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
+        - stable:follows-policy
     heat-cfnclient:
       repos:
         - openstack-dev/heat-cfnclient
@@ -739,6 +740,7 @@ heat:
         - release:cycle-with-intermediary
         - type:library
         - vulnerability:managed
+        - stable:follows-policy
     tosca-parser:
       repos:
         - openstack/tosca-parser
