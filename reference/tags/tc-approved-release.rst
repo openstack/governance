@@ -38,11 +38,12 @@ programs only related to a subset of the projects.
 
 The projects included in this group should generally represent the
 most mature OpenStack projects. OpenStack Foundation commercial
-trademark programs use criteria developed by the DefCore subcommittee
-of the Foundation board of directors. This criteria is partially based
-on a set of capabilities provided by OpenStack Projects. The
-capabilities adopted by DefCore are ones that are mature, well
-adopted, and not expected to change in the near future.
+trademark programs use criteria developed by the Interop working group
+(formerly the DefCore committee) of the Foundation board of
+directors. This criteria is partially based on a set of capabilities
+provided by OpenStack Projects. The capabilities adopted by the
+Interop committee are ones that are mature, well adopted, and not
+expected to change in the near future.
 
 This tag is applied to projects the TC considers suitable to be
 included in the set of "Trademark Designated OpenStack Software" as
@@ -69,18 +70,18 @@ Tag application process
 
 The sole purpose of this tag is defining the pool of projects that
 could be used for the OpenStack Trademark program. It is the role of
-the Board (as well as working groups like DefCore) to best understand
-the demand for the commercial trademark by OpenStack users and
-vendors.
+the Board (as well as working groups like the Interop committee) to
+best understand the demand for the commercial trademark by OpenStack
+users and vendors.
 
-As such changes to this tag are expected to come from the DefCore
-committee based on their judgment that that the marketplace has
-evolved and a new set of projects should be listed. They should
-propose adding or removing this tag to a project by proposing a change
-to the openstack/governance repository. The change is reviewed by the
-Technical Committee and approved using standard resolution approval
-rules, including discussion at at least one Technical Committee public
-IRC meeting.
+As such, changes to this tag are expected to come from the Interop
+working group based on their judgment that the marketplace has evolved
+and a new set of projects should be used in future versions of
+trademark programs. They should propose adding or removing this tag to
+a project by proposing a change to the openstack/governance
+repository. The change is reviewed by the Technical Committee and
+approved using standard resolution approval rules, including
+discussion at at least one Technical Committee public IRC meeting.
 
 
 
