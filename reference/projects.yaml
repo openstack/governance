@@ -2341,6 +2341,42 @@ ironic:
       comment: Sukhdev has been leading the meetings for the ironic/neutron
                integration efforts.
 
+karbor:
+  ptl:
+    name: Saggi Mizrahi
+    irc: saggi
+    email: ficoos@gmail.com
+  irc-channel: openstack-karbor
+  service: Data Protection Orchestration Service
+  mission: >
+    To implement services and libraries to provide project aware
+    data-protection orchestration of existing vendor solutions.
+  url: https://wiki.openstack.org/wiki/Karbor
+  tags:
+    - team:single-vendor
+  deliverables:
+    karbor:
+      repos:
+        - openstack/karbor
+      docs:
+        contributor: null
+        api: null
+      tags:
+        - release:independent
+        - type:service
+    karbor-dashboard:
+      repos:
+        - openstack/karbor-dashboard
+      tags:
+        - release:independent
+        - type:library
+    python-karborclient:
+      repos:
+        - openstack/python-karborclient
+      tags:
+        - release:independent
+        - type:library
+
 keystone:
   ptl:
     name: Steve Martinelli
@@ -3235,46 +3271,6 @@ OpenStack Charms:
       tags:
         - release:independent
 
-OpenStackClient:
-  ptl:
-    name: Dean Troyer
-    irc: dtroyer
-    email: dtroyer@gmail.com
-  irc-channel: openstack-sdks
-  service: Command-line client
-  mission: >
-    Provide a single command-line interface for OpenStack services with a
-    uniform command set and format.
-  url: https://wiki.openstack.org/wiki/OpenStackClient
-  deliverables:
-    cliff:
-      repos:
-        - openstack/cliff
-      docs:
-        contributor: http://docs.openstack.org/developer/cliff/
-      tags:
-        - release:cycle-with-intermediary
-        - type:library
-    os-client-config:
-      repos:
-        - openstack/os-client-config
-      tags:
-        - release:cycle-with-intermediary
-        - type:library
-    osc-lib:
-      repos:
-        - openstack/osc-lib
-      tags:
-        - release:cycle-with-intermediary
-        - type:library
-    python-openstackclient:
-      repos:
-        - openstack/python-openstackclient
-      docs:
-        contributor: http://docs.openstack.org/developer/python-openstackclient/
-      tags:
-        - release:cycle-with-intermediary
-
 OpenStack UX:
   ptl:
     name: Piet Kruithof
@@ -3409,6 +3405,46 @@ OpenStackAnsible:
         - openstack/openstack-ansible-tests
       tags:
         - release:none
+
+OpenStackClient:
+  ptl:
+    name: Dean Troyer
+    irc: dtroyer
+    email: dtroyer@gmail.com
+  irc-channel: openstack-sdks
+  service: Command-line client
+  mission: >
+    Provide a single command-line interface for OpenStack services with a
+    uniform command set and format.
+  url: https://wiki.openstack.org/wiki/OpenStackClient
+  deliverables:
+    cliff:
+      repos:
+        - openstack/cliff
+      docs:
+        contributor: http://docs.openstack.org/developer/cliff/
+      tags:
+        - release:cycle-with-intermediary
+        - type:library
+    os-client-config:
+      repos:
+        - openstack/os-client-config
+      tags:
+        - release:cycle-with-intermediary
+        - type:library
+    osc-lib:
+      repos:
+        - openstack/osc-lib
+      tags:
+        - release:cycle-with-intermediary
+        - type:library
+    python-openstackclient:
+      repos:
+        - openstack/python-openstackclient
+      docs:
+        contributor: http://docs.openstack.org/developer/python-openstackclient/
+      tags:
+        - release:cycle-with-intermediary
 
 oslo:
   ptl:
@@ -6146,42 +6182,6 @@ senlin:
       tags:
         - release:cycle-with-intermediary
         - type:horizon-plugin
-
-karbor:
-  ptl:
-    name: Saggi Mizrahi
-    irc: saggi
-    email: ficoos@gmail.com
-  irc-channel: openstack-karbor
-  service: Data Protection Orchestration Service
-  mission: >
-    To implement services and libraries to provide project aware
-    data-protection orchestration of existing vendor solutions.
-  url: https://wiki.openstack.org/wiki/Karbor
-  tags:
-    - team:single-vendor
-  deliverables:
-    karbor:
-      repos:
-        - openstack/karbor
-      docs:
-        contributor: null
-        api: null
-      tags:
-        - release:independent
-        - type:service
-    karbor-dashboard:
-      repos:
-        - openstack/karbor-dashboard
-      tags:
-        - release:independent
-        - type:library
-    python-karborclient:
-      repos:
-        - openstack/python-karborclient
-      tags:
-        - release:independent
-        - type:library
 
 solum:
   ptl:
