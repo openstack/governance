@@ -1,6 +1,6 @@
-====================================================
- OpenStack Technical Committee Governance Documents
-====================================================
+===============================
+ OpenStack Technical Committee
+===============================
 
 The OpenStack Technical Committee is one of the governing bodies of the
 OpenStack project. It is an elected group that represents the contributors
