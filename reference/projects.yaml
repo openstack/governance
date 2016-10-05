@@ -5573,6 +5573,11 @@ Puppet OpenStack:
         - openstack/puppet-cinder
       tags:
         - release:cycle-trailing
+    puppet-cloudkitty:
+      repos:
+        - openstack/puppet-cloudkitty
+      tags:
+        - release:cycle-trailing
     puppet-congress:
       repos:
         - openstack/puppet-congress
