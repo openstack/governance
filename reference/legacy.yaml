@@ -185,3 +185,22 @@ OpenStackSalt:
         - openstack/salt-formula-swift
       tags:
         - release:independent
+
+fuel:
+  irc-channel: fuel
+  service: Deployment service
+  url: https://wiki.openstack.org/wiki/Fuel
+  partial: yes
+  deliverables:
+    - fuel:
+        retired-on: 2015-03-29
+        repos:
+          - openstack/shotgun
+    - fuel:
+        retired-on: 2015-06-23
+        repos:
+          - openstack/fuel-mirror
+    - fuel-lcm:
+        retired-on: 2015-09-29
+        repos:
+          - openstack/fuel-upgrade
