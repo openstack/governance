@@ -11,8 +11,9 @@ Project Naming Process
 ----------------------
 
 The Technical Committee reviews the incoming project proposals through the
-openstack/governance repository with an update to the doc/source/reference/
-projects.yaml file. TC members should review the patches with these guidelines.
+`openstack/governance <http://git.openstack.org/cgit/openstack/governance/>`_
+repository with an update to the ``doc/source/reference/projects.yaml`` file.
+TC members should review the patches with these guidelines.
 
 Project Name Guidelines
 -----------------------
@@ -63,7 +64,7 @@ conventions do not indicate a legal right to the name.
 
 If you have a question about legal use of the OpenStack name or logo, refer to
 the `OpenStack Brand website <http://www.openstack.org/brand>`_. Refer to
-`Documentation Conventions <https://wiki.openstack.org/wiki/Documentation/Conventions#Service_and_project_names>`_
+`Documentation Conventions <http://docs.openstack.org/contributor-guide/writing-style/general-writing-guidelines.html>`_
 and ask for guidance on the openstack-docs mailing
 list if you have questions about using the names in context. As a final
 arbitration or decision point, refer to the `IBM Style Guide <https://www.redbooks.ibm.com/Redbooks.nsf/ibmpressisbn/9780132101301?Open>`_
