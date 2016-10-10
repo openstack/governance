@@ -6,7 +6,7 @@ OpenStack has a set of guiding principles that are used to inform and shape
 decisions. These principles are not aspirational. Rather, they form the
 bedrock upon which the OpenStack community and software are built.
 
-First and foremost, OpenStack follows :doc:`reference/opens`. All four of
+First and foremost, OpenStack follows :doc:`opens`. All four of
 them are essential, and most of the principles described in this document
 derive from them. In their personal interactions, our community members
 are also bound by the rules described in the
