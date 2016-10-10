@@ -2762,14 +2762,14 @@ murano:
         contributor: http://docs.openstack.org/developer/murano/
         api: null
       tags:
-        - release:cycle-with-milestones
+        - release:cycle-with-intermediary
         - type:service
         - stable:follows-policy
     murano-agent:
       repos:
         - openstack/murano-agent
       tags:
-        - release:cycle-with-milestones
+        - release:cycle-with-intermediary
         - stable:follows-policy
     murano-apps:
       repos:
@@ -2780,7 +2780,7 @@ murano:
       repos:
         - openstack/murano-dashboard
       tags:
-        - release:cycle-with-milestones
+        - release:cycle-with-intermediary
         - stable:follows-policy
         - type:horizon-plugin
     murano-deployment:
