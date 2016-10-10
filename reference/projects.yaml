@@ -5530,12 +5530,12 @@ Packaging-rpm:
       repos:
         - openstack/pymod2pkg
       tags:
-        - release:none
+        - release:independent
     renderspec:
       repos:
         - openstack/renderspec
       tags:
-        - release:none
+        - release:independent
 
 Puppet OpenStack:
   ptl:
