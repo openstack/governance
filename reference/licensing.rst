@@ -31,8 +31,10 @@ considered incompatible with this requirement include GPLv2, GPLv3, and AGPL.
 
 [A]GPL libraries used during validation or testing phases of development fall
 into a gray area - they are not presumed to be compatible or incompatible and
-instead are reviewed on a case by case basis. Please use legal-discuss@
+instead are reviewed on a case by case basis. Please use the `legal-discuss`_
 mailing list to bring up any such cases.
+
+.. _legal-discuss: http://lists.openstack.org/cgi-bin/mailman/listinfo/legal-discuss
 
 **Projects run as part of the OpenStack Infrastructure** (in order to
 *produce* OpenStack software) may be licensed under any `OSI-approved license`_.
