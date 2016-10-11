@@ -5505,6 +5505,11 @@ Packaging-deb:
         - openstack/deb-zaqar
       tags:
         - release:none
+    deb-zaqar-ui:
+      repos:
+        - openstack/deb-zaqar-ui
+      tags:
+        - release:none
 
 Packaging-rpm:
   ptl:
