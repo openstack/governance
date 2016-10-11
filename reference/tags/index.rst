@@ -42,7 +42,6 @@ Release Management Tags
    release_cycle-trailing
    release_independent
    release_none
-   release_managed
    type_devstack-plugin
    type_horizon-plugin
    type_library
