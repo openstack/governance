@@ -6463,7 +6463,7 @@ tripleo:
       repos:
         - openstack/os-apply-config
       tags:
-        - release:cycle-with-intermediary
+        - release:cycle-with-milestones
     os-cloud-config:
       repos:
         - openstack/os-cloud-config
