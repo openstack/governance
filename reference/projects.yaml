@@ -361,7 +361,6 @@ designate:
         - openstack/designate-dashboard
       tags:
         - release:cycle-with-milestones
-        - release:managed
         - type:horizon-plugin
         - stable:follows-policy
     designate-specs:
