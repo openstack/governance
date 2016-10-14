@@ -3362,6 +3362,11 @@ OpenStackAnsible:
         - openstack/openstack-ansible-ops
       tags:
         - release:none
+    openstack-ansible-os_almanach:
+      repos:
+        - openstack/openstack-ansible-os_almanach
+      tags:
+        - release:none
     openstack-ansible-os_barbican:
       repos:
         - openstack/openstack-ansible-os_barbican
