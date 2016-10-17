@@ -85,11 +85,12 @@ closed doors.
 Contribution Is Our Currency
 ----------------------------
 
-The way change is implemented in OpenStack is by someone stepping up and doing
-the work. While there is a hierarchical elected leadership structure, change is
-not implemented in a top down approach. The real work is done by people stepping
-up and contributing. Contribution is the mechanism for making change happen and
-it is also how trust is built between community members.
+Change happens in OpenStack because anyone in the community can identify an
+issue and volunteer to do the necessary work. Contribution is the mechanism
+of change and how trust is built between community members. Though elected
+leadership exists, that leadership is not solely responsible for change.
+The entire OpenStack community is empowered to identify problems and, where
+possible, assemble the teams to resolve them.
 
 OpenStack Primarily Produces Software
 -------------------------------------
