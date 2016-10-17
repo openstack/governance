@@ -73,7 +73,7 @@ anything is posted to that wiki by one of its members at least one day before
 the meeting time. For a meeting to be actually held, at least half of the
 members need to be present (rounded up: in a 13-member committee that means a
 minimum of 7 people present). Non-members affected by a given discussion are
-strongly encouraged to participate to the meeting and voice their opinion,
+strongly encouraged to participate in the meeting and voice their opinion,
 though only TC members can ultimately cast a vote.
 
 Motions
