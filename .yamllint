@@ -1,0 +1,8 @@
+---
+rules:
+  line-length:
+    # Allow some of our longer URLs
+    max: 90
+    allow-non-breakable-words: yes           # Default
+    allow-non-breakable-inline-mappings: no  # Default
+  truthy: disable
