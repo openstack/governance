@@ -3372,32 +3372,32 @@ OpenStackAnsible:
       repos:
         - openstack/openstack-ansible-os_barbican
       tags:
-        - release:cycle-trailing
+        - release:none
     openstack-ansible-os_cloudkitty:
       repos:
         - openstack/openstack-ansible-os_cloudkitty
       tags:
-        - release:cycle-trailing
+        - release:none
     openstack-ansible-os_designate:
       repos:
         - openstack/openstack-ansible-os_designate
       tags:
-        - release:cycle-trailing
+        - release:none
     openstack-ansible-os_monasca:
       repos:
         - openstack/openstack-ansible-os_monasca
       tags:
-        - release:cycle-trailing
+        - release:none
     openstack-ansible-os_watcher:
       repos:
         - openstack/openstack-ansible-os_watcher
       tags:
-        - release:cycle-trailing
+        - release:none
     openstack-ansible-os_zaqar:
       repos:
         - openstack/openstack-ansible-os_zaqar
       tags:
-        - release:cycle-trailing
+        - release:none
     openstack-ansible-specs:
       repos:
         - openstack/openstack-ansible-specs
