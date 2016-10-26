@@ -586,9 +586,9 @@ Completion Artifacts:
 tripleo
 -------
 
-Planning Artifacts:
+Planning Artifacts: https://bugs.launchpad.net/tripleo/+bug/1636767
 
-Completion Artifacts:
+Completion Artifacts: https://review.openstack.org/390808
 
 trove
 -----
