@@ -113,6 +113,13 @@ outside of community processes, and decisions made outside of OpenStack
 governance are generally rejected because they, by definition, did not
 include the community.
 
+OpenStack Leaders Exist to Serve Their Community
+------------------------------------------------
+
+OpenStack leaders hold their positions only in order to serve the people
+they lead. The TC only exists to serve the technical community. PTLs
+exist to serve the contributors to and users of their projects.
+
 Participation is Voluntary
 --------------------------
 
