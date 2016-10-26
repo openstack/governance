@@ -481,9 +481,7 @@ Completion Artifacts:
 manila
 ------
 
-Planning Artifacts:
-
-Completion Artifacts:
+This work is already done.
 
 mistral
 -------
