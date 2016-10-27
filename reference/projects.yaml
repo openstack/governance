@@ -4990,6 +4990,11 @@ Packaging-deb:
         - openstack/deb-python-pykmip
       tags:
         - release:none
+    deb-python-pyldap:
+      repos:
+        - openstack/deb-python-pyldap
+      tags:
+        - release:none
     deb-python-pymemcache:
       repos:
         - openstack/deb-python-pymemcache
