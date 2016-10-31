@@ -3132,6 +3132,11 @@ OpenStack Charms:
         - openstack/charm-interface-keystone-credentials
       tags:
         - release:none
+    charm-interface-manila-plugin:
+      repos:
+        - openstack/charm-interface-manila-plugin
+      tags:
+        - release:none
     charm-interface-mysql-shared:
       repos:
         - openstack/charm-interface-mysql-shared
@@ -3200,6 +3205,11 @@ OpenStack Charms:
     charm-manila:
       repos:
         - openstack/charm-manila
+      tags:
+        - release:independent
+    charm-manila-generic:
+      repos:
+        - openstack/charm-manila-generic
       tags:
         - release:independent
     charm-neutron-api:
