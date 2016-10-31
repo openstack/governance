@@ -3350,6 +3350,7 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_sahara
         - openstack/openstack-ansible-os_swift
         - openstack/openstack-ansible-os_tempest
+        - openstack/openstack-ansible-os_trove
         - openstack/openstack-ansible-pip_install
         - openstack/openstack-ansible-pip_lock_down
         - openstack/openstack-ansible-plugins
@@ -3391,11 +3392,6 @@ OpenStackAnsible:
     openstack-ansible-os_monasca:
       repos:
         - openstack/openstack-ansible-os_monasca
-      tags:
-        - release:cycle-trailing
-    openstack-ansible-os_trove:
-      repos:
-        - openstack/openstack-ansible-os_trove
       tags:
         - release:cycle-trailing
     openstack-ansible-os_watcher:
