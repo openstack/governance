@@ -32,7 +32,7 @@ designated as official OpenStack projects. The projects are listed in
 Project Team Leads
 ==================
 
-Project Team leads ("PTLs") manage day-to-day operations, drive the team goals
+Project Team Leads ("PTLs") manage day-to-day operations, drive the team goals
 and resolve technical disputes within their team. Each team
 should be self-managing by the contributors, and all disputes should be
 resolved through active debate and discussion by the community itself. However
