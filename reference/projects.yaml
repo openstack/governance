@@ -2528,7 +2528,8 @@ magnum:
         - openstack/magnum
       docs:
         contributor: http://docs.openstack.org/developer/magnum/
-        api: http://developer.openstack.org/api-ref/container-infrastructure-management/
+        api: http://developer.openstack.org/api-ref/container-\
+            infrastructure-management/
       tags:
         - release:cycle-with-intermediary
         - type:service
@@ -6178,6 +6179,11 @@ Security:
         - openstack/syntribos
       tags:
         - release:independent
+    syntribos-openstack-templates:
+      repos:
+        - openstack/syntribos-openstack-templates
+      tags:
+        - release:none
 
 senlin:
   ptl:
