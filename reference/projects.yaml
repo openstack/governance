@@ -5907,7 +5907,7 @@ Quality Assurance:
   extra-atcs:
     - name: Scott Moser
       email: smoser@ubuntu.com
-      expires-in: May 2016
+      expires-in: Oct 2017
 
 rally:
   ptl:
