@@ -2346,7 +2346,7 @@ karbor:
   ptl:
     name: Saggi Mizrahi
     irc: saggi
-    email: ficoos@gmail.com
+    email: saggi@mizrahi.cc
   irc-channel: openstack-karbor
   service: Data Protection Orchestration Service
   mission: >
