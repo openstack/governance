@@ -251,6 +251,7 @@ Infrastructure
 --------------
 
 Planning Artifacts:
+  - https://storyboard.openstack.org/#!/story/2000776
 
 Completion Artifacts:
 
