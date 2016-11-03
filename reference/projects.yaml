@@ -2583,6 +2583,11 @@ manila:
         - openstack/manila-specs
       tags:
         - release:none
+    manila-test-image:
+      repos:
+        - openstack/manila-test-image
+      tags:
+        - release:none
     manila-ui:
       repos:
         - openstack/manila-ui
