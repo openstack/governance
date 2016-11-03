@@ -10,7 +10,7 @@ TC Managed Tags
    :glob:
 
    starter-kit_compute
-   tc-approved-release
+   tc_approved-release
 
 Team Description Tags
 =====================
