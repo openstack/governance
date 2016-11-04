@@ -6091,6 +6091,7 @@ searchlight:
     name: Steve Mclellan
     irc: sjmc7
     email: steven.j.mclellan@gmail.com
+  irc-channel: openstack-searchlight
   service: Search service
   mission: >
     To provide advanced and scalable indexing and search across multi-tenant
