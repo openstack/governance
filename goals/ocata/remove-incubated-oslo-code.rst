@@ -551,9 +551,16 @@ Completion Artifacts:
 senlin
 ------
 
+The Senlin repos don't rely on oslo-incubator and are consuming
+the oslo.* libraries.
+
 Planning Artifacts:
 
+None
+
 Completion Artifacts:
+
+None
 
 smaug
 -----
