@@ -932,6 +932,11 @@ I18n:
         - openstack/i18n
       tags:
         - release:none
+    i18n-specs:
+      repos:
+        - openstack/i18n-specs
+      tags:
+        - release:none
   extra-atcs:
     - name: Lenka Husakova
       email: lenka.husakova@ultimum.io
