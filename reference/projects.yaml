@@ -3243,6 +3243,11 @@ OpenStack Charms:
         - openstack/charm-nova-compute
       tags:
         - release:independent
+    charm-nova-compute-proxy:
+      repos:
+        - openstack/charm-nova-compute-proxy
+      tags:
+        - release:independent
     charm-odl-controller:
       repos:
         - openstack/charm-odl-controller
@@ -3281,6 +3286,11 @@ OpenStack Charms:
     charm-swift-storage:
       repos:
         - openstack/charm-swift-storage
+      tags:
+        - release:independent
+    charm-tempest:
+      repos:
+        - openstack/charm-tempest
       tags:
         - release:independent
 
