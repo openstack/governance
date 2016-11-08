@@ -541,9 +541,11 @@ Completion Artifacts:
 sahara
 ------
 
-Planning Artifacts:
+Planning Artifacts: None
 
 Completion Artifacts:
+
+`Sahara Completion <https://review.openstack.org/#/c/351376/>`_
 
 searchlight
 -----------
