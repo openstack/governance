@@ -908,9 +908,6 @@ horizon:
       tags:
         - release:independent
   extra-atcs:
-    - name: Piet Kruithof
-      email: pieter.c.kruithof-jr@hp.com
-      expires-in: February 2016
     - name: Neill Cox
       email: neill@ingenious.com.au
       expires-in: March 2017
@@ -3310,19 +3307,6 @@ OpenStack UX:
         - openstack/openstack-ux
       tags:
         - release:none
-  extra-atcs:
-    - name: Piet Kruithof
-      email: pkruithofjr@gmail.com
-      expires-in: September 2016
-    - name: Eric Peterson
-      email: eric.peterson1@twcable.com
-      expires-in: September 2016
-    - name: Ju Lim
-      email: julim@redhat.com
-      expires-in: September 2016
-    - name: Michael Hinnant
-      email: michael.hinnant@hp.com
-      expires-in: September 2016
 
 OpenStackAnsible:
   ptl:
@@ -6027,10 +6011,6 @@ Release Management:
         - openstack-dev/specs-cookiecutter
       tags:
         - release:none
-  extra-atcs:
-    - name: Chuck Short
-      email: chuck.short@canonical.com
-      expires-in: January 2016
 
 requirements:
   ptl:
