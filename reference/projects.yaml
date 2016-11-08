@@ -3058,6 +3058,11 @@ OpenStack Charms:
         - openstack/charm-ceph-osd
       tags:
         - release:independent
+    charm-ceph-fs:
+      repos:
+        - openstack/charm-ceph-fs
+      tags:
+        - release:independent
     charm-ceph-radosgw:
       repos:
         - openstack/charm-ceph-radosgw
