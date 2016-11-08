@@ -99,10 +99,10 @@ than two votes.
 Election for PTL seats
 ======================
 
-PTL seats are completely renewed every 6 months. A separate election is run for
-each project team. These elections are collectively held 5 weeks prior to each
-design summit, with nominations due 6 weeks prior to the summit and elections
-held open for no less than five business days.
+PTL seats are completely renewed every development cycle. A separate election
+is run for each project team. These elections are collectively held no later
+than 3 weeks prior to each cycle final release date (on or before 'R-3' week)
+and should be held open for no less than four business days.
 
 Voters for PTL seats ("APC")
 ============================
@@ -125,9 +125,9 @@ Election for TC seats
 The 13 TC seats are partially renewed every 6 months using staggered elections:
 6 seats are renewed every (Northern hemisphere) Fall, and 7 seats are renewed
 every Spring. Seats are valid for one-year terms. For this election we'll use a
-multiple-winner election system (see below). The election is held 3 weeks prior
-to each design summit, with nominations due 4 weeks prior to the summit and
-elections held open for no less than five business days.
+multiple-winner election system (see below). The election is held no later than
+3 weeks prior to each OpenStack Summit (on or before 'S-3' week), with
+elections held open for no less than four business days.
 
 If a seat on the TC is vacated before the end of the term for which
 the member was elected, the TC will select a replacement to serve out
