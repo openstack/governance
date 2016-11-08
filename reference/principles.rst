@@ -22,22 +22,30 @@ repositories and teams allows contributors to focus on their areas of
 interest and expertise, but does not make OpenStack a loose collection of
 disconnected projects.
 
-OpenStack First, Project Team Second, Company Third
----------------------------------------------------
+OpenStack Primarily Produces Software
+-------------------------------------
 
-OpenStack leaders are expected to put the needs of OpenStack first in
-their decision making, before the needs of any individual project team.
-They are also expected to put the needs of their project team before the
-needs of the organization they work for, if any. They can of course
-represent the needs of their project team or their company, but in case
-of conflicts of interest, they should be ready to put those needs aside
-and make the best call for OpenStack as a whole.
+While the software that OpenStack produces has well defined and documented
+APIs, the primary output of OpenStack is software, not API definitions.
+We expect people who say they run "OpenStack" to run the software produced by
+and in the community, rather than alternative implementations of the API.
 
-Representative Democracy
-------------------------
+OpenStack is Built for our Users
+--------------------------------
 
-While we strive to build community consensus around decisions, all decisions
-are finally made or delegated by people who have been democratically elected.
+OpenStack is ultimately built to be deployed and used. We need to factor the
+needs of our existing and anticipated users (operators but also application
+developers) when making decisions.
+
+Contribution Is Our Currency
+----------------------------
+
+Change happens in OpenStack because anyone in the community can identify an
+issue and volunteer to do the necessary work. Contribution is the mechanism
+of change and how trust is built between community members. Though elected
+leadership exists, that leadership is not solely responsible for change.
+The entire OpenStack community is empowered to identify problems and, where
+possible, assemble the teams to resolve them.
 
 One Contributor, One Vote
 -------------------------
@@ -49,6 +57,19 @@ not the only way to contribute). Efforts to limit the electorate to those
 who make quantifiable contributions, no matter the form, are intended only
 to prevent gaming of the system, not as a value judgement on relative worth
 of the various different forms of community contributions.
+
+Representative Democracy
+------------------------
+
+While we strive to build community consensus around decisions, all decisions
+are finally made or delegated by people who have been democratically elected.
+
+OpenStack Leaders Exist to Serve Their Community
+------------------------------------------------
+
+OpenStack leaders hold their positions only in order to serve the people
+they lead. The TC only exists to serve the technical community. PTLs
+exist to serve the contributors to and users of their projects.
 
 Changes in Leadership are Good
 ------------------------------
@@ -64,12 +85,16 @@ Leaders, specifically, should consider stepping down from their role when
 they can't fully focus on it anymore, and always ensure a good transition
 path with their successors.
 
-OpenStack is Built for our Users
---------------------------------
+OpenStack First, Project Team Second, Company Third
+---------------------------------------------------
 
-OpenStack is ultimately built to be deployed and used. We need to factor the
-needs of our existing and anticipated users (operators but also application
-developers) when making decisions.
+OpenStack leaders are expected to put the needs of OpenStack first in
+their decision making, before the needs of any individual project team.
+They are also expected to put the needs of their project team before the
+needs of the organization they work for, if any. They can of course
+represent the needs of their project team or their company, but in case
+of conflicts of interest, they should be ready to put those needs aside
+and make the best call for OpenStack as a whole.
 
 Empowering Businesses, on a Level Playing Field
 -----------------------------------------------
@@ -81,24 +106,6 @@ would not truly be a place where everyone can collaborate. While the needs of
 the constituent businesses are essential, they must be balanced with each other
 lest OpenStack decisions unwittingly be made by unelected people behind
 closed doors.
-
-Contribution Is Our Currency
-----------------------------
-
-Change happens in OpenStack because anyone in the community can identify an
-issue and volunteer to do the necessary work. Contribution is the mechanism
-of change and how trust is built between community members. Though elected
-leadership exists, that leadership is not solely responsible for change.
-The entire OpenStack community is empowered to identify problems and, where
-possible, assemble the teams to resolve them.
-
-OpenStack Primarily Produces Software
--------------------------------------
-
-While the software that OpenStack produces has well defined and documented
-APIs, the primary output of OpenStack is software, not API definitions.
-We expect people who say they run "OpenStack" to run the software produced by
-and in the community, rather than alternative implementations of the API.
 
 We all should Always Follow the OpenStack Way
 ---------------------------------------------
@@ -113,13 +120,6 @@ principles of Open Design and Open Community. Large code changes designed
 outside of community processes, and decisions made outside of OpenStack
 governance are generally rejected because they, by definition, did not
 include the community.
-
-OpenStack Leaders Exist to Serve Their Community
-------------------------------------------------
-
-OpenStack leaders hold their positions only in order to serve the people
-they lead. The TC only exists to serve the technical community. PTLs
-exist to serve the contributors to and users of their projects.
 
 Participation is Voluntary
 --------------------------
