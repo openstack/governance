@@ -30,6 +30,7 @@ Project Assertions Tags
    assert_follows-standard-deprecation
    assert_supports-upgrade
    assert_supports-rolling-upgrade
+   assert_supports-zero-downtime-upgrade
 
 Release Management Tags
 =======================
