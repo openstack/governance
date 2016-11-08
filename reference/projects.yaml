@@ -18,7 +18,7 @@ barbican:
         - openstack/barbican
       docs:
         contributor: http://docs.openstack.org/developer/barbican
-        api: http://docs.openstack.org/developer/barbican/api/index.html
+        api: http://developer.openstack.org/api-guide/key-manager/
       tags:
         - release:cycle-with-milestones
         - type:service
