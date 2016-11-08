@@ -31,6 +31,7 @@ Project Assertions Tags
    assert_supports-upgrade
    assert_supports-rolling-upgrade
    assert_supports-zero-downtime-upgrade
+   assert_supports-zero-impact-upgrade
 
 Release Management Tags
 =======================
