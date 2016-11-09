@@ -6550,6 +6550,7 @@ tripleo:
     tripleo-quickstart:
       repos:
         - openstack/tripleo-quickstart
+        - openstack/tripleo-quickstart-extras
       tags:
         - release:independent
     tripleo-specs:
