@@ -329,7 +329,14 @@ Release Management
 
 Planning Artifacts:
 
+  The release tools do not use Oslo libraries. We have a few
+  references to openstack/common, cleaned up by the patches listed
+  below.
+
 Completion Artifacts:
+
+* https://review.openstack.org/392281
+* https://review.openstack.org/391715
 
 Security
 --------
