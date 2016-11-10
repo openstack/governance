@@ -33,23 +33,6 @@ Project Assertions Tags
    assert_supports-zero-downtime-upgrade
    assert_supports-zero-impact-upgrade
 
-Release Management Tags
-=======================
-
-.. toctree::
-   :maxdepth: 1
-
-   release_cycle-with-milestones
-   release_cycle-with-intermediary
-   release_cycle-trailing
-   release_independent
-   release_none
-   type_devstack-plugin
-   type_horizon-plugin
-   type_library
-   type_service
-   type_tempest-plugin
-
 Vulnerability Management Tags
 =============================
 
