@@ -306,9 +306,15 @@ Completion Artifacts:
 Puppet OpenStack
 ----------------
 
+The puppet modules do not rely on oslo-incubator or openstack/common.
+
 Planning Artifacts:
 
+  None
+
 Completion Artifacts:
+
+  None
 
 Quality Assurance
 -----------------
