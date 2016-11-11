@@ -827,6 +827,11 @@ horizon:
         - openstack/xstatic-angular-smart-table
       tags:
         - release:independent
+    xstatic-angular-ui-router:
+      repos:
+        - openstack/xstatic-angular-ui-router
+      tags:
+        - release:independent
     xstatic-bootstrap-datepicker:
       repos:
         - openstack/xstatic-bootstrap-datepicker
