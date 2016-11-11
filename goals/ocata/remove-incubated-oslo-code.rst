@@ -613,7 +613,11 @@ trove
 
 Planning Artifacts:
 
+`Trove Client Planning <https://bugs.launchpad.net/python-troveclient/+bug/1638627>`_
+
 Completion Artifacts:
+
+`Trove Client Commit <https://review.openstack.org/#/c/296667/>`_
 
 vitrage
 -------
