@@ -598,9 +598,23 @@ Completion Artifacts:
 solum
 -----
 
+Solum repos do not rely on oslo-incubator and are consuming oslo.*
+libraries
+
 Planning Artifacts:
 
+None
+
 Completion Artifacts:
+
+* https://review.openstack.org/#/c/391337/
+* https://review.openstack.org/#/c/388675/
+* https://review.openstack.org/#/c/388536/
+* https://review.openstack.org/#/c/365211/
+* https://review.openstack.org/#/c/365208/
+* https://review.openstack.org/#/c/365024/
+* https://review.openstack.org/#/c/389502/
+
 
 swift
 -----
