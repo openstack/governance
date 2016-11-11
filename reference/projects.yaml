@@ -6174,7 +6174,12 @@ Security:
       repos:
         - openstack/syntribos-openstack-templates
       tags:
-        - release:none
+        - release:independent
+    syntribos-payloads:
+      repos:
+        - openstack/syntribos-payloads
+      tags:
+        - release:independent
 
 senlin:
   ptl:
