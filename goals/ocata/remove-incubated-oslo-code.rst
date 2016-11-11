@@ -528,9 +528,16 @@ Completion Artifacts:
 neutron
 -------
 
+The neutron repos do not rely on oslo-incubator.
+They consume the oslo.* libraries.
+
 Planning Artifacts:
 
+None
+
 Completion Artifacts:
+
+https://bugs.launchpad.net/neutron/+bug/1639103
 
 nova
 ----
