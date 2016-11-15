@@ -176,7 +176,7 @@ cinder:
         contributor: http://docs.openstack.org/developer/cinder/
         api: http://developer.openstack.org/api-ref/block-storage/
       tags:
-        - tc-approved-release
+        - tc:approved-release
         - release:cycle-with-milestones
         - type:service
         - vulnerability:managed
@@ -650,7 +650,7 @@ glance:
       tags:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
-        - tc-approved-release
+        - tc:approved-release
         - release:cycle-with-milestones
         - type:service
         - starter-kit:compute
@@ -699,7 +699,7 @@ heat:
         contributor: http://docs.openstack.org/developer/heat/
         api: http://developer.openstack.org/api-ref/orchestration/
       tags:
-        - tc-approved-release
+        - tc:approved-release
         - release:cycle-with-milestones
         - type:service
         - vulnerability:managed
@@ -782,7 +782,7 @@ horizon:
         # Is not really needed to refer to in this file?
         api: http://docs.openstack.org/developer/horizon/#api-reference
       tags:
-        - tc-approved-release
+        - tc:approved-release
         - release:cycle-with-milestones
         - type:service
         - vulnerability:managed
@@ -2265,7 +2265,7 @@ ironic:
         contributor: http://docs.openstack.org/developer/ironic/
         api: http://developer.openstack.org/api-ref/baremetal/
       tags:
-        - tc-approved-release
+        - tc:approved-release
         - release:cycle-with-intermediary
         - type:service
         - stable:follows-policy
@@ -2406,7 +2406,7 @@ keystone:
         contributor: http://docs.openstack.org/developer/keystone/
         api: http://developer.openstack.org/api-ref/identity/
       tags:
-        - tc-approved-release
+        - tc:approved-release
         - release:cycle-with-milestones
         - type:service
         - starter-kit:compute
@@ -2892,7 +2892,7 @@ neutron:
       docs:
         contributor: http://docs.openstack.org/developer/neutron/
       tags:
-        - tc-approved-release
+        - tc:approved-release
         - release:cycle-with-milestones
         - stable:follows-policy
         - type:service
@@ -2913,7 +2913,7 @@ neutron:
       docs:
         api: http://developer.openstack.org/api-ref/networking/
       tags:
-        - tc-approved-release
+        - tc:approved-release
         - release:cycle-with-intermediary
         - stable:follows-policy
         - type:library
@@ -2960,7 +2960,7 @@ nova:
         contributor: http://docs.openstack.org/developer/nova/
         api: http://developer.openstack.org/api-ref/compute/
       tags:
-        - tc-approved-release
+        - tc:approved-release
         - release:cycle-with-milestones
         - type:service
         - starter-kit:compute
@@ -6066,7 +6066,7 @@ sahara:
         contributor: http://docs.openstack.org/developer/sahara/
         api: http://docs.openstack.org/developer/sahara/restapi.html
       tags:
-        - tc-approved-release
+        - tc:approved-release
         - release:cycle-with-milestones
         - type:service
         - vulnerability:managed
@@ -6310,7 +6310,7 @@ swift:
         contributor: http://docs.openstack.org/developer/swift/
         api: http://developer.openstack.org/api-ref/object-storage/
       tags:
-        - tc-approved-release
+        - tc:approved-release
         - release:cycle-with-intermediary
         - type:service
         - vulnerability:managed
@@ -6402,7 +6402,7 @@ Telemetry:
       tags:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
-        - tc-approved-release
+        - tc:approved-release
         - release:cycle-with-intermediary
         - type:service
     ceilometer-powervm:
@@ -6629,7 +6629,7 @@ trove:
         contributor: http://docs.openstack.org/developer/trove/
         api: http://developer.openstack.org/api-ref/database/
       tags:
-        - tc-approved-release
+        - tc:approved-release
         - release:cycle-with-milestones
         - type:service
         - vulnerability:managed
