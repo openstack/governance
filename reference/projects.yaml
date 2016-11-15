@@ -6469,6 +6469,25 @@ Telemetry:
         - type:library
         - release:independent
 
+tricircle:
+  ptl:
+    name: Chaoyi Huang
+    irc: joehuang
+    email: joehuang@huawei.com
+  irc-channel: openstack-tricircle
+  service: Networking automation across Neutron service
+  mission: >
+    To provide networking automation across Neutron in multi-region OpenStack
+    clouds deployment.
+  url: https://wiki.openstack.org/wiki/Tricircle
+  deliverables:
+    tricircle:
+      repos:
+        - openstack/tricircle
+      tags:
+        - release:cycle-with-intermediary
+        - type:service
+
 tripleo:
   ptl:
     name: Emilien Macchi
