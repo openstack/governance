@@ -204,3 +204,22 @@ fuel:
         retired-on: 2015-09-29
         repos:
           - openstack/fuel-upgrade
+
+neutron:
+  irc-channel: openstack-neutron
+  service: Networking service
+  url: https://wiki.openstack.org/wiki/Neutron
+  partial: yes
+  deliverables:
+    - networking-l2gw:
+        retired-on: 2016-11-01
+        repos:
+          - openstack/networking-l2gw
+    - networking-onos:
+        retired-on: 2016-11-01
+        repos:
+          - openstack/networking-onos
+    - neutron-vpnaas:
+        retired-on: 2016-11-01
+        repos:
+          - openstack/neutron-vpnaas

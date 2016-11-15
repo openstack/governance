@@ -2847,11 +2847,6 @@ neutron:
         - openstack/networking-calico
       tags:
         - release:independent
-    networking-l2gw:
-      repos:
-        - openstack/networking-l2gw
-      tags:
-        - release:independent
     networking-midonet:
       repos:
         - openstack/networking-midonet
@@ -2865,11 +2860,6 @@ neutron:
     networking-ofagent:
       repos:
         - openstack/networking-ofagent
-      tags:
-        - release:independent
-    networking-onos:
-      repos:
-        - openstack/networking-onos
       tags:
         - release:independent
     networking-ovn:
@@ -2892,13 +2882,6 @@ neutron:
     neutron-lbaas:
       repos:
         - openstack/neutron-lbaas
-      tags:
-        - release:cycle-with-milestones
-        - stable:follows-policy
-        - assert:follows-standard-deprecation
-    neutron-vpnaas:
-      repos:
-        - openstack/neutron-vpnaas
       tags:
         - release:cycle-with-milestones
         - stable:follows-policy
