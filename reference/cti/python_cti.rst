@@ -35,6 +35,11 @@ Projects which are compatible with Python 3 must also be able to do:
 
  - tox -epy35
 
+Some basic prerequisites for test running (system packages, database
+configuration, custom filesystem types) are acceptable as long as they are
+documented in a visible location such as a CONTRIBUTING, TESTING, or README
+file in the root of the repository.
+
 Requirements Listing
 --------------------
 
