@@ -1718,6 +1718,9 @@ ironic:
     ironic-inspector-specs:
       repos:
         - openstack/ironic-inspector-specs
+    ironic-inspector-tempest-plugin:
+      repos:
+        - openstack/ironic-inspector-tempest-plugin
     ironic-lib:
       repos:
         - openstack/ironic-lib
@@ -1731,6 +1734,9 @@ ironic:
     ironic-specs:
       repos:
         - openstack/ironic-specs
+    ironic-tempest-plugin:
+      repos:
+        - openstack/ironic-tempest-plugin
     ironic-ui:
       repos:
         - openstack/ironic-ui
