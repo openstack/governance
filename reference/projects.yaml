@@ -5823,6 +5823,13 @@ Quality Assurance:
         - release:independent
       docs:
         contributor: http://docs.openstack.org/developer/bashate
+    coverage2sql:
+      repos:
+        - openstack/coverage2sql
+      docs:
+        contributor: http://docs.openstack.org/developer/coverage2sql
+      tags:
+        - release:independent
     devstack:
       repos:
         - openstack-dev/devstack
