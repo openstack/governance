@@ -1743,6 +1743,9 @@ ironic:
     ironic-ui:
       repos:
         - openstack/ironic-ui
+    molteniron:
+      repos:
+        - openstack/molteniron
     python-ironic-inspector-client:
       repos:
         - openstack/python-ironic-inspector-client
