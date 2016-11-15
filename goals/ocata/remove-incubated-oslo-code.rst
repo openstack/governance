@@ -544,7 +544,11 @@ nova
 
 Planning Artifacts:
 
+None
+
 Completion Artifacts:
+
+`<https://review.openstack.org/#/c/287753/>`_
 
 oslo
 ----
