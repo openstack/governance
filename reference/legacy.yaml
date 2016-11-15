@@ -227,3 +227,22 @@ neutron:
         retired-on: 2016-10-31
         repos:
           - openstack/python-neutron-pd-driver
+
+ironic:
+  irc-channel: openstack-ironic
+  service: Bare Metal service
+  url: https://wiki.openstack.org/wiki/Ironic
+  partial: yes
+  deliverables:
+    - ironic-webclient
+        retired-on: 2016-11-28
+        repos:
+          - openstack/ironic-webclient
+    - python-dracclient
+        retired-on: 2016-11-28
+        repos:
+          - openstack/python-dracclient
+    - python-wsmanclient
+        retired-on: 2016-11-28
+        repos:
+          - openstack/python-wsmanclient
