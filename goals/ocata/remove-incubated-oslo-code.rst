@@ -439,6 +439,8 @@ glance
 
 Planning Artifacts:
 
+* https://bugs.launchpad.net/glance/+bug/1639487
+
 Completion Artifacts:
 
 heat
