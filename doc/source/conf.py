@@ -34,6 +34,7 @@ extensions = [
     'projects',
     'teams',
     'tags',
+    'badges',
 ]
 
 todo_include_todos = True
