@@ -238,7 +238,13 @@ Documentation
 
 Planning Artifacts:
 
+  The Documentation tools do not use anymore Oslo libraries. We had
+  one references to openstack/common, cleaned up by the patch listed
+  below.
+
 Completion Artifacts:
+
+* https://review.openstack.org/#/c/391707/
 
 I18n
 ----
