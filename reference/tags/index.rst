@@ -12,6 +12,12 @@ TC Managed Tags
    starter-kit_compute
    tc_approved-release
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   tc-approved-release
+
 Team Description Tags
 =====================
 

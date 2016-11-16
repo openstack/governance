@@ -6,7 +6,7 @@ Official OpenStack projects need to follow a number of rules when it comes
 to licensing.
 
 In order to be considered for inclusion in the
-:ref:`tag-tc-approved-release`, the project must be licensed under `Apache
+:ref:`tag-tc:approved-release`, the project must be licensed under `Apache
 License, Version 2.0`_ (ASLv2).
 
 .. _Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
