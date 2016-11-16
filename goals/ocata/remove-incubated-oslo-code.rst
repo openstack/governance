@@ -613,9 +613,11 @@ Completion Artifacts:
 swift
 -----
 
-Planning Artifacts:
+The swift repos do not rely on oslo-incubator.
 
-Completion Artifacts:
+Planning Artifacts: None
+
+Completion Artifacts: None
 
 tacker
 ------
