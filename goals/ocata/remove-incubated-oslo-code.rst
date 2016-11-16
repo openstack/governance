@@ -360,13 +360,6 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-astara
-------
-
-Planning Artifacts:
-
-Completion Artifacts:
-
 barbican
 --------
 
