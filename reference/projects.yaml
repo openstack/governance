@@ -2160,12 +2160,6 @@ neutron:
       tags:
         - stable:follows-policy
         - assert:follows-standard-deprecation
-    neutron-lbaas:
-      repos:
-        - openstack/neutron-lbaas
-      tags:
-        - stable:follows-policy
-        - assert:follows-standard-deprecation
     neutron:
       repos:
         - openstack/neutron
@@ -2196,12 +2190,6 @@ neutron:
     neutron-specs:
       repos:
         - openstack/neutron-specs
-    octavia:
-      repos:
-        - openstack/neutron-lbaas-dashboard
-        - openstack/octavia
-      tags:
-        - stable:follows-policy
     python-neutronclient:
       repos:
         - openstack/python-neutronclient
@@ -2249,6 +2237,37 @@ nova:
     os-vif:
       repos:
         - openstack/os-vif
+
+octavia:
+  ptl:
+    name: Michael Johnson
+    irc: johnsom
+    email: johnsomor@gmail.com
+  irc-channel: openstack-lbaas
+  service: Load-balancing service
+  mission: >
+    To provide scalable, on demand, self service access to load-balancer
+    services, in technology-agnostic manner.
+  url: https://wiki.openstack.org/wiki/Octavia
+  tags:
+    - team:diverse-affiliation
+  deliverables:
+    neutron-lbaas:
+      repos:
+        - openstack/neutron-lbaas
+      tags:
+        - stable:follows-policy
+        - assert:follows-standard-deprecation
+    octavia:
+      repos:
+        - openstack/octavia
+      tags:
+        - stable:follows-policy
+    octavia-dashboard:
+      repos:
+        - openstack/neutron-lbaas-dashboard
+      tags:
+        - stable:follows-policy
 
 OpenStack Charms:
   ptl:
