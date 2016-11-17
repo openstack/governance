@@ -4683,12 +4683,6 @@ trove:
       tags:
         - stable:follows-policy
         - assert:follows-standard-deprecation
-    trove-image-builder:
-      repos:
-        - openstack/trove-image-builder
-      tags:
-        - stable:follows-policy
-        - assert:follows-standard-deprecation
     trove-integration:
       repos:
         - openstack/trove-integration
