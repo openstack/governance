@@ -666,6 +666,11 @@ Completion Artifacts:
 zaqar
 -----
 
+The Zaqar repo doesn't rely on oslo-incubator and are consuming
+the oslo.* libraries.
+
 Planning Artifacts:
 
 Completion Artifacts:
+
+`Zaqar Client Commit <https://review.openstack.org/388638/>`_
