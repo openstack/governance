@@ -448,7 +448,14 @@ heat
 
 Planning Artifacts:
 
+None
+
 Completion Artifacts:
+
+Already removed from heat and heat-cfnclient.
+
+python-heatclient:
+https://review.openstack.org/#/q/project:openstack/python-heatclient+topic:goal-remove-incubated-oslo-code
 
 horizon
 -------
