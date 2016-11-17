@@ -222,9 +222,16 @@ Project Teams
 Chef OpenStack
 --------------
 
+The Chef cookbooks do not use any Python code directly, they consume
+upstream packages, and thus are not affected by this goal.
+
 Planning Artifacts:
 
+  None
+
 Completion Artifacts:
+
+  None
 
 Community App Catalog
 ---------------------
