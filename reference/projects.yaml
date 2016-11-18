@@ -1222,9 +1222,6 @@ Infrastructure:
     activity-board:
       repos:
         - openstack-infra/activity-board
-    ansible-build-image:
-      repos:
-        - openstack-infra/ansible-build-image
     ansible-role-puppet:
       repos:
         - openstack-infra/ansible-role-puppet
