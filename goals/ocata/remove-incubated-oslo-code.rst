@@ -387,6 +387,11 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+cinder: NA
+os-brick: NA
+python-cinderclient: https://review.openstack.org/#/c/393610/
+python-brick-cinderclient-ext: NA
+
 cloudkitty
 ----------
 
