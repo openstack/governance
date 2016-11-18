@@ -223,3 +223,7 @@ neutron:
         retired-on: 2016-11-01
         repos:
           - openstack/neutron-vpnaas
+    - python-neutron-pd-driver:
+        retired-on: 2016-10-31
+        repos:
+          - openstack/python-neutron-pd-driver
