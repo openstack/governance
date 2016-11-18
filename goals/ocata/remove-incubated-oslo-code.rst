@@ -453,9 +453,12 @@ Completion Artifacts:
 horizon
 -------
 
-Planning Artifacts:
+The Horizon repos does not rely on oslo-incubator and consumes
+the oslo.* libraries.
 
-Completion Artifacts:
+Planning Artifacts: None
+
+Completion Artifacts: None
 
 ironic
 ------
