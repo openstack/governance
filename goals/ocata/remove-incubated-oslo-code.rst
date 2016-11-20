@@ -352,6 +352,10 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+* Anchor: No incubated oslo code
+* Bandit: No incubated oslo code
+* Syntribos: No incubated oslo code
+
 Stable branch maintenance
 -------------------------
 
