@@ -559,9 +559,23 @@ Completion Artifacts:
 oslo
 ----
 
+History:
+
+* http://www.slideshare.net/doughellmann/taking-the-long-view-how-the-oslo-program-reduces-technical-debt
+
 Planning Artifacts:
 
+* https://github.com/openstack/oslo-specs/blob/master/specs/policy/incubator.rst
+
 Completion Artifacts:
+
+* https://github.com/openstack/oslo-specs/blob/master/specs/policy/incubator.rst#revision-history (delete
+  graduating modules immediately after the library is released)
+* http://lists.openstack.org/pipermail/openstack-dev/2016-June/097228.html (the
+  closing/shutdown of the oslo-incubator, what's leftover is now just a set
+  of tools for PTL or other community folks in oslo.tools)
+* https://review.openstack.org/#/c/323706/ and
+  https://review.openstack.org/#/c/320680/ (farewell reviews)
 
 rally
 -----
