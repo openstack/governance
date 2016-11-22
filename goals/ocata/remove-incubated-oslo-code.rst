@@ -229,9 +229,16 @@ Completion Artifacts:
 Community App Catalog
 ---------------------
 
+The Community App Catalog does not rely on oslo-incubator
+or openstack/common.
+
 Planning Artifacts:
 
+  None
+
 Completion Artifacts:
+
+  None
 
 Documentation
 -------------
