@@ -265,9 +265,15 @@ Completion Artifacts:
 OpenStack UX
 ------------
 
+OpenStack UX does not use oslo-incubator or any openstack/common modules.
+
 Planning Artifacts:
 
+None
+
 Completion Artifacts:
+
+None
 
 OpenStack client
 ----------------
