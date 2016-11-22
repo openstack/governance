@@ -391,6 +391,8 @@ cloudkitty
 Planning Artifacts:
 
 Completion Artifacts:
+cloudkitty: NA
+python-cloudkittyclient: https://review.openstack.org/#/c/391885
 
 congress
 --------
