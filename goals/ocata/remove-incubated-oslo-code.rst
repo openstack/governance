@@ -420,9 +420,13 @@ Completion Artifacts:
 ec2-api
 -------
 
+This work is already done.
+
 Planning Artifacts:
 
 Completion Artifacts:
+
+`EC2-API Completion <https://review.openstack.org/#/c/297305/>`_
 
 freezer
 -------
