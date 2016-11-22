@@ -663,9 +663,16 @@ Completion Artifacts:
 vitrage
 -------
 
+The Vitrage repos do not rely on oslo-incubator.
+They consume the oslo.* libraries.
+
 Planning Artifacts:
 
+None
+
 Completion Artifacts:
+
+None
 
 watcher
 -------
