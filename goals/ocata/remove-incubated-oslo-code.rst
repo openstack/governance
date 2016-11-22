@@ -513,9 +513,15 @@ This work is already done.
 mistral
 -------
 
-Planning Artifacts:
+This work is already done.
 
 Completion Artifacts:
+
+python-mistralclient:
+https://review.openstack.org/#/c/393076/
+https://review.openstack.org/#/c/393084/
+https://review.openstack.org/#/c/395055/
+https://review.openstack.org/#/c/395082/
 
 monasca
 -------
