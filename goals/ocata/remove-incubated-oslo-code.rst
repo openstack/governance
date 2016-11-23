@@ -676,9 +676,16 @@ Completion Artifacts:
 watcher
 -------
 
+The Watcher repos don't rely on oslo-incubator and are consuming
+the oslo.* libraries.
+
 Planning Artifacts:
 
+None
+
 Completion Artifacts:
+
+None
 
 winstackers
 -----------
