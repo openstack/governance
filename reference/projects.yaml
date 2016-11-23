@@ -2522,6 +2522,9 @@ OpenStackAnsible:
     openstack-ansible-os_monasca:
       repos:
         - openstack/openstack-ansible-os_monasca
+    openstack-ansible-os_monasca-agent:
+      repos:
+        - openstack/openstack-ansible-os_monasca-agent
     openstack-ansible-os_watcher:
       repos:
         - openstack/openstack-ansible-os_watcher
