@@ -127,6 +127,9 @@ Participation is Voluntary
 The leadership of OpenStack should not need to find itself in a position
 of enforcing the rules because participation in the OpenStack community is
 a choice made by its participants in the first place. If you disagree with
-the principles or processes we follow, we encourage you to either participate
-in improving them within our community governance rules, or seek a different
-community that is better aligned with your ideals or opinions.
+the principles or processes we follow, you may of course seek a different
+community that is better aligned with your ideals or opinions.  However, if
+you are committed to the mission of OpenStack and our Four Open ideals, we
+encourage you to contribute to OpenStack and participate in improving the
+OpenStack processes and the documenting of our principles from within our
+community according to our rules of governance.
