@@ -13,7 +13,7 @@ Each python project must be able to do:
 
 Projects which are compatible with Python 3 must also be able to do:
 
- - Unit tests for python3.4
+ - Unit tests for python3.5
 
 Specific commands
 -----------------
@@ -33,7 +33,7 @@ Projects that are translated should also support:
 
 Projects which are compatible with Python 3 must also be able to do:
 
- - tox -epy34
+ - tox -epy35
 
 Requirements Listing
 --------------------
