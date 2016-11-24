@@ -664,7 +664,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-`Trove Client Commit <https://review.openstack.org/#/c/296667/>`_
+`Trove Client Commit <https://review.openstack.org/#/c/396267/>`_
 
 vitrage
 -------
