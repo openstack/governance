@@ -804,6 +804,20 @@ Completion Artifacts:
 
 None
 
+tricircle
+---------
+
+Tricircle does't rely on oslo-incubator or any openstack/common modules,
+it is consuming the oslo.* libraries.
+
+Planning Artifacts:
+
+None
+
+Completion Artifacts:
+
+None
+
 tripleo
 -------
 
