@@ -31,6 +31,32 @@ project:
 Tools and approaches vary by language, please choose which language is
 relevant to you.
 
+The following operating systems are the most popular when deploying OpenStack:
+
+- Ubuntu (`latest LTS`_)
+- CentOS (`latest stable`_)
+
+  .. note::
+
+    The CentOS distribution is derived from the sources of Red Hat Enterprise Linux (RHEL).
+    In reality, RHEL is more popular than CentOS but we can't use this platform
+    on upstream gates, so we rely on CentOS.
+
+Each project should run some functional tests on these platforms so we make sure
+OpenStack works with distros used in production. The scope of these functional tests
+are discussed for every project, and may adjust their coverage depending of resources
+and support investment.
+These tests are run by using existing tooling, which comes with a reasonable
+expectation that it's viable on the indicated distributions.
+
+Sometimes, these distributions might not support all dependencies required
+by new features in OpenStack. Development of these features should not be
+blocked, though it has to be documented in project release notes, and some
+tests might have to be skipped on these distributions.
+
+.. _latest LTS: https://wiki.ubuntu.com/Releases
+.. _latest stable: https://www.centos.org/download/
+
 .. toctree::
    :maxdepth: 1
    :glob:
