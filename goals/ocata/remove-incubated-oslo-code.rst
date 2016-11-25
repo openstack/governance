@@ -511,9 +511,16 @@ Completion Artifacts:
 kolla
 -----
 
+The kolla repos does not rely on oslo-incubator and consumed the oslo.*
+libraries.
+
 Planning Artifacts:
 
+  None
+
 Completion Artifacts:
+
+  None
 
 kuryr
 -----
