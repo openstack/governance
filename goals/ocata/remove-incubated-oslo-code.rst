@@ -293,7 +293,13 @@ OpenStackAnsible
 
 Planning Artifacts:
 
+  OpenStack-Ansible is a downstream consumer, as a result
+  OpenStack-Ansible does not carry or consume Oslo Incubator code
+  directly. No work required.
+
 Completion Artifacts:
+
+  N/A
 
 OpenStackSalt
 -------------
