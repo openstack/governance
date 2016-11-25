@@ -721,9 +721,15 @@ Completion Artifacts:
 winstackers
 -----------
 
-Planning Artifacts:
+The Winstackers repos does not rely on oslo-incubator and consumes the oslo.*
+libraries.
+
+Planning Artifacts: None
 
 Completion Artifacts:
+
+* https://review.openstack.org/#/c/398760/
+* https://review.openstack.org/#/c/398758/
 
 zaqar
 -----
