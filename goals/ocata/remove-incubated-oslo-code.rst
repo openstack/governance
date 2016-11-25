@@ -440,9 +440,15 @@ Completion Artifacts:
 dragonflow
 ----------
 
-Planning Artifacts:
+The Dragonflow project does not use oslo-incubator or any openstack/common
+modules. There was one references to openstack/common, cleaned up by
+the patch listed below.
+
+Planning Artifacts: None
 
 Completion Artifacts:
+
+* https://review.openstack.org/#/c/385391/
 
 ec2-api
 -------
