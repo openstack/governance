@@ -565,9 +565,18 @@ Completion Artifacts:
 monasca
 -------
 
+Monasca no longer uses oslo-incubated code. We had a few references
+to openstack/common, that were cleaned up by the patches listed below.
+
 Planning Artifacts:
 
+None
+
 Completion Artifacts:
+
+* https://review.openstack.org/#/c/395021/
+* https://review.openstack.org/#/c/395014/
+* https://review.openstack.org/#/c/395009/
 
 murano
 ------
