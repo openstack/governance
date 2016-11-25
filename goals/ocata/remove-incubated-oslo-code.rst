@@ -610,6 +610,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+`Searchlight Completion <https://review.openstack.org/#/c/396695/>`_
+
 senlin
 ------
 
