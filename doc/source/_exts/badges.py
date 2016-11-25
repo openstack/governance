@@ -15,6 +15,8 @@ Generate badges for the projects
 """
 
 import os
+from itertools import izip_longest
+
 from PIL import ImageFont
 
 import projects
@@ -41,7 +43,7 @@ SVG_ROOT = """<?xml version="1.0" standalone="no"?>
 %s
 </svg>
 """
-FLAT_BADGE_TEMPLATE = """<svg id="{left_text}:{right_text}" width="{width}" height="20" y="{svg_y}">
+FLAT_BADGE_TEMPLATE = """<svg id="{left_text}:{right_text}" width="{width}" height="20" x="{svg_x}" y="{svg_y}">
 <a target="_blank" xlink:href="{link}">
   <linearGradient id="smooth:{left_text}:{right_text}" x2="0" y2="100%">
     <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
@@ -69,8 +71,7 @@ FLAT_BADGE_TEMPLATE = """<svg id="{left_text}:{right_text}" width="{width}" heig
 """
 
 
-def _generate_badge(left_text, right_text, count,
-                    link=None, colorscheme='brightgreen'):
+def _generate_badge(left_text, right_text, link=None, colorscheme='brightgreen'):
 
     font = ImageFont.truetype('DejaVuSans.ttf', 11)
     left_width = font.getsize(left_text)[0] + PADDING
@@ -79,8 +80,9 @@ def _generate_badge(left_text, right_text, count,
 
     data = {
         'link': link or '',
+        'svg_x': 0,
+        'svg_y': 0,
         'color': COLOR_SCHEME[colorscheme],
-        'svg_y': (24 * count),
         'width': width,
         'left_width': left_width,
         'left_text': left_text,
@@ -90,17 +92,15 @@ def _generate_badge(left_text, right_text, count,
         'right_x': left_width + right_width / 2 - 1,
     }
 
-    return FLAT_BADGE_TEMPLATE.format(**data)
+    return data
 
 
 def _generate_tag_badges(tags):
-    count = 0
     badges = []
 
-    badges.append(_generate_badge('project', 'official', count).encode('utf-8'))
+    badges.append(_generate_badge('project', 'official'))
 
     for tag in tags:
-        count += 1
         # NOTE(flaper87): will submit other patches to make these
         # tags consistent with the rest.
         if tag in ['starter-kit:compute', 'tc-approved-release']:
@@ -109,9 +109,37 @@ def _generate_tag_badges(tags):
             group, tname = tag.split(':')
 
         link = BASE_TAGS_URL + '%s.html' % tag.replace(':', '_')
-        badges.append(_generate_badge(group, tname, count,
-                                      link, colorscheme='blue').encode('utf-8'))
+        badges.append(_generate_badge(group, tname, link, colorscheme='blue'))
     return badges
+
+
+def _organize_badges(badges):
+    sbadges = sorted(badges, key=lambda badge: badge['width'])
+
+    # NOTE(flaper87): 3 is just an extra padding in case there are two badges
+    # with the same width in the same row
+    col_width = sbadges[-1]['width'] + 3
+
+    # NOTE(flaper87): 4 is the number of columns
+    ziped = izip_longest(*(iter(sbadges),) * 4)
+
+    for y, group in enumerate(ziped):
+        for x, badge in enumerate(group):
+
+            # NOTE(flaper87): izip_longest fills the
+            # empty slots with None. We don't care about
+            # those.
+            if badge is None:
+                break
+
+            badge['svg_y'] = 24 * y
+            badge['svg_x'] = x * col_width
+            yield badge
+
+
+def _to_svg(badges):
+    for badge in badges:
+        yield FLAT_BADGE_TEMPLATE.format(**badge).encode('utf-8')
 
 
 def _generate_teams_badges(app):
@@ -123,7 +151,8 @@ def _generate_teams_badges(app):
         os.mkdir(badges_dir)
 
     filename = os.path.join(badges_dir, 'project-unofficial.svg')
-    svg = _generate_badge('project', 'unofficial', 0, colorscheme='red').encode('utf-8')
+    svg_data = _generate_badge('project', 'unofficial', colorscheme='red')
+    svg = FLAT_BADGE_TEMPLATE.format(**svg_data).encode('utf-8')
     with open(filename, 'w') as f:
         f.write(SVG_ROOT % svg)
     files.append(filename)
@@ -133,8 +162,8 @@ def _generate_teams_badges(app):
 
         for name, deliverable in info['deliverables'].items():
             tags = info.get('tags', []) + deliverable.get('tags', [])
-            badges = _generate_tag_badges(tags)
-            svg = '\n'.join(badges)
+            badges = _organize_badges(_generate_tag_badges(tags))
+            svg = '\n'.join(_to_svg(badges))
 
             for repo in deliverable.get('repos', []):
                 repo_name = repo.split('/')[1]
