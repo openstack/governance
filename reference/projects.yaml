@@ -2483,8 +2483,10 @@ OpenStackAnsible:
         - openstack/openstack-ansible-openstack_hosts
         - openstack/openstack-ansible-openstack_openrc
         - openstack/openstack-ansible-os_aodh
+        - openstack/openstack-ansible-os_barbican
         - openstack/openstack-ansible-os_ceilometer
         - openstack/openstack-ansible-os_cinder
+        - openstack/openstack-ansible-os_designate
         - openstack/openstack-ansible-os_glance
         - openstack/openstack-ansible-os_gnocchi
         - openstack/openstack-ansible-os_heat
@@ -2516,15 +2518,9 @@ OpenStackAnsible:
     openstack-ansible-os_almanach:
       repos:
         - openstack/openstack-ansible-os_almanach
-    openstack-ansible-os_barbican:
-      repos:
-        - openstack/openstack-ansible-os_barbican
     openstack-ansible-os_cloudkitty:
       repos:
         - openstack/openstack-ansible-os_cloudkitty
-    openstack-ansible-os_designate:
-      repos:
-        - openstack/openstack-ansible-os_designate
     openstack-ansible-os_monasca:
       repos:
         - openstack/openstack-ansible-os_monasca
