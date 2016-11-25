@@ -459,6 +459,10 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+* https://review.openstack.org/380452
+
+* https://review.openstack.org/394780
+
 heat
 ----
 
