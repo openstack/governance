@@ -2396,6 +2396,12 @@ OpenStack Charms:
     charm-manila-generic:
       repos:
         - openstack/charm-manila-generic
+    charm-mistral:
+      repos:
+        - openstack/charm-mistral
+    charm-murano:
+      repos:
+        - openstack/charm-murano
     charm-neutron-api:
       repos:
         - openstack/charm-neutron-api
@@ -2444,6 +2450,9 @@ OpenStack Charms:
     charm-tempest:
       repos:
         - openstack/charm-tempest
+    charm-trove:
+      repos:
+        - openstack/charm-trove
 
 OpenStack UX:
   ptl:
