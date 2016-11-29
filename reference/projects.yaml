@@ -2145,9 +2145,6 @@ neutron:
     networking-bgpvpn:
       repos:
         - openstack/networking-bgpvpn
-    networking-calico:
-      repos:
-        - openstack/networking-calico
     networking-midonet:
       repos:
         - openstack/networking-midonet

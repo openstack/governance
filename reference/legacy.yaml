@@ -211,6 +211,10 @@ neutron:
   url: https://wiki.openstack.org/wiki/Neutron
   partial: yes
   deliverables:
+    - networking-calico:
+        retired-on: 2016-11-17
+        repos:
+          - openstack/networking-calico
     - networking-l2gw:
         retired-on: 2016-11-01
         repos:
