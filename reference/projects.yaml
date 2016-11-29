@@ -4822,3 +4822,25 @@ zaqar:
     zaqar-ui:
       repos:
         - openstack/zaqar-ui
+
+zun:
+  ptl:
+    name: Hongbin Lu
+    irc: hongbin
+    email: hongbin.lu@huawei.com
+  irc-channel: openstack-zun
+  service: Containers service
+  mission: >
+    To provide an OpenStack containers service that integrates with various
+    container technologies for managing application containers on OpenStack.
+  url: https://wiki.openstack.org/wiki/Zun
+  deliverables:
+    python-zunclient:
+      repos:
+        - openstack/python-zunclient
+    zun:
+      repos:
+        - openstack/zun
+    zun-ui:
+      repos:
+        - openstack/zun-ui
