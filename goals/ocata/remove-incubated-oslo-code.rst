@@ -386,7 +386,14 @@ Stable branch maintenance
 
 Planning Artifacts:
 
+    The stable team doesn't have any code repositories and therefore has
+    nothing to do.  It could be argued that the stable team is responsible for
+    the stable branches of all projects but nature of the stable projects
+    precludes code refactors.
+
 Completion Artifacts:
+
+    Not Applicable
 
 Telemetry
 ---------
