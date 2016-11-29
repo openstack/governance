@@ -647,7 +647,11 @@ rally
 
 Planning Artifacts:
 
+None
+
 Completion Artifacts:
+
+`Rally Completion <https://review.openstack.org/#/c/152847/>`_
 
 sahara
 ------
