@@ -58,6 +58,7 @@ project doesn't actually meet the documented criteria.
 
    assert_follows-standard-deprecation
    assert_supports-upgrade
+   assert_supports-accessible-upgrade
    assert_supports-rolling-upgrade
    assert_supports-zero-downtime-upgrade
    assert_supports-zero-impact-upgrade
