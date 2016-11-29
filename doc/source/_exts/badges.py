@@ -15,7 +15,7 @@ Generate badges for the projects
 """
 
 import os
-from itertools import izip_longest
+from itertools import chain, izip_longest
 
 from PIL import ImageFont
 
@@ -39,8 +39,10 @@ COLOR_SCHEME = {
 SVG_ROOT = """<?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
 "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
-%s
+<svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css"
+ height="{height}" width="{width}" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+ version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+{svg}
 </svg>
 """
 FLAT_BADGE_TEMPLATE = """<svg id="{left_text}:{right_text}" width="{width}" height="20" x="{svg_x}" y="{svg_y}">
@@ -123,7 +125,9 @@ def _organize_badges(badges):
     # NOTE(flaper87): 4 is the number of columns
     ziped = izip_longest(*(iter(sbadges),) * 4)
 
+    result = []
     for y, group in enumerate(ziped):
+        result.append([])
         for x, badge in enumerate(group):
 
             # NOTE(flaper87): izip_longest fills the
@@ -132,10 +136,11 @@ def _organize_badges(badges):
             if badge is None:
                 break
 
-            badge['svg_y'] = 24 * y
+            badge['height'] = 20
+            badge['svg_y'] = (20 + 4) * y
             badge['svg_x'] = x * col_width
-            yield badge
-
+            result[y].append(badge)
+    return result
 
 def _to_svg(badges):
     for badge in badges:
@@ -154,7 +159,7 @@ def _generate_teams_badges(app):
     svg_data = _generate_badge('project', 'unofficial', colorscheme='red')
     svg = FLAT_BADGE_TEMPLATE.format(**svg_data).encode('utf-8')
     with open(filename, 'w') as f:
-        f.write(SVG_ROOT % svg)
+        f.write(SVG_ROOT.format(height=20, width=106, svg=svg))
     files.append(filename)
 
     for team, info in all_teams.items():
@@ -163,13 +168,16 @@ def _generate_teams_badges(app):
         for name, deliverable in info['deliverables'].items():
             tags = info.get('tags', []) + deliverable.get('tags', [])
             badges = _organize_badges(_generate_tag_badges(tags))
-            svg = '\n'.join(_to_svg(badges))
+            svg = '\n'.join(_to_svg(chain(*badges)))
+
+            root_width = badges[0][-1]['svg_x'] + badges[0][-1]['width']
+            root_height = badges[-1][0]['svg_y'] + badges[-1][0]['height']
 
             for repo in deliverable.get('repos', []):
                 repo_name = repo.split('/')[1]
                 filename = os.path.join(badges_dir, '%s.svg' % projects.slugify(repo_name))
                 with open(filename, 'w') as f:
-                    f.write(SVG_ROOT % svg)
+                    f.write(SVG_ROOT.format(height=root_height, width=root_width, svg=svg))
                 files.append(filename)
 
     return files
