@@ -118,27 +118,34 @@ def _generate_tag_badges(tags):
 def _organize_badges(badges):
     sbadges = sorted(badges, key=lambda badge: badge['width'])
 
-    # NOTE(flaper87): 3 is just an extra padding in case there are two badges
-    # with the same width in the same row
-    col_width = sbadges[-1]['width'] + 3
-
     # NOTE(flaper87): 4 is the number of columns
-    ziped = izip_longest(*(iter(sbadges),) * 4)
+    ziped = list(izip_longest(*(iter(sbadges),) * 4))
 
     result = []
     for y, group in enumerate(ziped):
         result.append([])
+        col_x = 0
         for x, badge in enumerate(group):
-
             # NOTE(flaper87): izip_longest fills the
             # empty slots with None. We don't care about
             # those.
             if badge is None:
                 break
 
+            width_badge = ziped[-1][x]
+            if width_badge is None:
+                if len(ziped) > 1:
+                    width_badge = ziped[-2][x]
+                else:
+                    width_badge = badge
+
             badge['height'] = 20
             badge['svg_y'] = (20 + 4) * y
-            badge['svg_x'] = x * col_width
+
+            # NOTE(flaper87): 3 is just an extra padding in case there are two badges
+            # with the same width in the same row
+            badge['svg_x'] = col_x
+            col_x += width_badge['width'] + 3
             result[y].append(badge)
     return result
 
@@ -170,7 +177,7 @@ def _generate_teams_badges(app):
             badges = _organize_badges(_generate_tag_badges(tags))
             svg = '\n'.join(_to_svg(chain(*badges)))
 
-            root_width = badges[0][-1]['svg_x'] + badges[0][-1]['width']
+            root_width = badges[-1][-1]['svg_x'] + badges[-1][-1]['width']
             root_height = badges[-1][0]['svg_y'] + badges[-1][0]['height']
 
             for repo in deliverable.get('repos', []):
