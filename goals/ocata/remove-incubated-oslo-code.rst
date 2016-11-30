@@ -477,9 +477,15 @@ Completion Artifacts:
 freezer
 -------
 
+Freezer repos do not rely on oslo-incubator and use oslo.* libraries.
+
 Planning Artifacts:
 
+  None
+
 Completion Artifacts:
+
+  None
 
 fuel
 ----
