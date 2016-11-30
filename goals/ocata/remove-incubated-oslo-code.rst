@@ -263,9 +263,15 @@ Completion Artifacts:
 I18n
 ----
 
+OpenStack I18n does not use oslo-incubator or any openstack/common modules.
+
 Planning Artifacts:
 
+  None
+
 Completion Artifacts:
+
+  None
 
 Infrastructure
 --------------
