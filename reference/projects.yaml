@@ -22,6 +22,9 @@ barbican:
     barbican-specs:
       repos:
         - openstack/barbican-specs
+    barbican-tempest-plugin:
+      repos:
+        - openstack/barbican-tempest-plugin
     castellan:
       repos:
         - openstack/castellan
