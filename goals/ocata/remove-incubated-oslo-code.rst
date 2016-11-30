@@ -409,7 +409,11 @@ barbican
 
 Planning Artifacts:
 
+* https://bugs.launchpad.net/castellan/+bug/1643909
+
 Completion Artifacts:
+
+* https://review.openstack.org/#/c/390809/
 
 cinder
 ------
