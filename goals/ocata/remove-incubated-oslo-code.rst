@@ -754,9 +754,16 @@ Completion Artifacts: None
 tacker
 ------
 
+The Tacker repos do not rely on oslo-incubator.
+They consume the oslo.* libraries.
+
 Planning Artifacts:
 
+None
+
 Completion Artifacts:
+
+None
 
 tripleo
 -------
