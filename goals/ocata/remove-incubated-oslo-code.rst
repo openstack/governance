@@ -565,6 +565,19 @@ Planning Artifacts: None
 
 Completion Artifacts: None
 
+karbor
+-----
+
+This work is already done.
+
+Planning Artifacts:
+
+   None
+
+Completion Artifacts:
+
+   `Karbor Client <https://review.openstack.org/#/c/378212/>`_
+
 keystone
 --------
 
@@ -738,13 +751,6 @@ None
 Completion Artifacts:
 
 None
-
-smaug
------
-
-Planning Artifacts:
-
-Completion Artifacts:
 
 solum
 -----
