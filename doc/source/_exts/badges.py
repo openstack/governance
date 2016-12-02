@@ -42,10 +42,15 @@ SVG_ROOT = """<?xml version="1.0" standalone="no"?>
 <svg contentScriptType="text/ecmascript" zoomAndPan="magnify" contentStyleType="text/css"
  height="{height}" width="{width}" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
  version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title id="os:gov:badges:title">
+    This is a container for a set of OpenStack badges indicating the status and
+    features of this project and its repository
+  </title>
 {svg}
 </svg>
 """
 FLAT_BADGE_TEMPLATE = """<svg id="{left_text}:{right_text}" width="{width}" height="20" x="{svg_x}" y="{svg_y}">
+<title>{left_text}:{right_text}</title>
 <a target="_blank" xlink:href="{link}">
   <linearGradient id="smooth:{left_text}:{right_text}" x2="0" y2="100%">
     <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
