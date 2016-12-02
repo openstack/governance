@@ -616,9 +616,11 @@ Completion Artifacts:
 magnum
 ------
 
-Planning Artifacts:
+This work is already done.
 
-Completion Artifacts:
+Planning Artifacts: None
+
+Completion Artifacts: None
 
 manila
 ------
