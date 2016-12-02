@@ -1740,12 +1740,6 @@ ironic:
     ironic-ui:
       repos:
         - openstack/ironic-ui
-    ironic-webclient:
-      repos:
-        - openstack/ironic-webclient
-    python-dracclient:
-      repos:
-        - openstack/python-dracclient
     python-ironic-inspector-client:
       repos:
         - openstack/python-ironic-inspector-client
@@ -1756,9 +1750,6 @@ ironic:
         - openstack/python-ironicclient
       tags:
         - stable:follows-policy
-    python-wsmanclient:
-      repos:
-        - openstack/python-wsmanclient
     virtualbmc:
       repos:
         - openstack/virtualbmc
