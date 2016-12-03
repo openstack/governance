@@ -3889,7 +3889,7 @@ Packaging-deb:
 Packaging-rpm:
   ptl:
     name: Haïkel Guémar
-    irc: hguemar
+    irc: number80
     email: hguemar@fedoraproject.org
   mission: >
     To make OpenStack easier to update and consume by operators and
