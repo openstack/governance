@@ -177,6 +177,9 @@ cloudkitty:
     cloudkitty-dashboard:
       repos:
         - openstack/cloudkitty-dashboard
+    cloudkitty-specs:
+      repos:
+        - openstack/cloudkitty-specs
 
 Community App Catalog:
   ptl:
