@@ -11,10 +11,11 @@
 # under the License.
 
 import abc
+import six
 
 
+@six.add_metaclass(abc.ABCMeta)
 class ValidatorBase(object):
-    __metaclass__ = abc.ABCMeta
 
     @staticmethod
     @abc.abstractmethod
