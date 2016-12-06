@@ -4418,9 +4418,6 @@ solum:
     solum-dashboard:
       repos:
         - openstack/solum-dashboard
-    solum-infra-guestagent:
-      repos:
-        - openstack/solum-infra-guestagent
     solum-specs:
       repos:
         - openstack/solum-specs

@@ -250,3 +250,14 @@ ironic:
         retired-on: 2016-11-28
         repos:
           - openstack/python-wsmanclient
+
+solum:
+  irc-channel: solum
+  service: Software Development Lifecycle Automation service
+  url: https://wiki.openstack.org/wiki/Solum
+  partial: yes
+  deliverables:
+    - solum-infra-guestagent:
+        retired-on: 2016-11-24
+        repos:
+          - openstack/solum-infra-guestagent
