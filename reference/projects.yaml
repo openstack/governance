@@ -165,8 +165,6 @@ cloudkitty:
     is to fit in-between the raw metrics from OpenStack and the billing system
     of a provider for chargeback purposes.
   url: https://wiki.openstack.org/wiki/CloudKitty
-  tags:
-    - team:single-vendor
   deliverables:
     cloudkitty:
       repos:
@@ -481,8 +479,6 @@ glance:
     distribute and manage bootable disk images, other data closely associated
     with initializing compute resources, and metadata definitions.
   url: https://wiki.openstack.org/wiki/Glance
-  tags:
-    - team:diverse-affiliation
   deliverables:
     glance:
       repos:
@@ -2258,8 +2254,6 @@ octavia:
     To provide scalable, on demand, self service access to load-balancer
     services, in technology-agnostic manner.
   url: https://wiki.openstack.org/wiki/Octavia
-  tags:
-    - team:diverse-affiliation
   deliverables:
     neutron-lbaas:
       repos:
@@ -4376,8 +4370,6 @@ senlin:
     To implement clustering services and libraries for the management of groups
     of homogeneous objects exposed by other OpenStack services.
   url: https://wiki.openstack.org/wiki/Senlin
-  tags:
-    - team:single-vendor
   deliverables:
     senlin:
       repos:
@@ -4489,6 +4481,8 @@ tacker:
     and libraries for end-to-end life-cycle management of Network Services
     and Virtual Network Functions (VNFs).
   url: https://wiki.openstack.org/wiki/Tacker
+  tags:
+    - team:diverse-affiliation
   deliverables:
     tacker:
       repos:
@@ -4856,6 +4850,8 @@ zun:
     To provide an OpenStack containers service that integrates with various
     container technologies for managing application containers on OpenStack.
   url: https://wiki.openstack.org/wiki/Zun
+  tags:
+    - team:diverse-affiliation
   deliverables:
     python-zunclient:
       repos:
