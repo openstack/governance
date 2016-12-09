@@ -888,3 +888,17 @@ Planning Artifacts:
 Completion Artifacts:
 
 `Zaqar Client Commit <https://review.openstack.org/388638/>`_
+
+zun
+-----
+
+The zun repos does not rely on oslo-incubator and consumed the oslo.*
+libraries.
+
+Planning Artifacts:
+
+  None
+
+Completion Artifacts:
+
+  None
