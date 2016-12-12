@@ -238,15 +238,15 @@ ironic:
   url: https://wiki.openstack.org/wiki/Ironic
   partial: yes
   deliverables:
-    - ironic-webclient
+    - ironic-webclient:
         retired-on: 2016-11-28
         repos:
           - openstack/ironic-webclient
-    - python-dracclient
+    - python-dracclient:
         retired-on: 2016-11-28
         repos:
           - openstack/python-dracclient
-    - python-wsmanclient
+    - python-wsmanclient:
         retired-on: 2016-11-28
         repos:
           - openstack/python-wsmanclient
