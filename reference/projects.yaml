@@ -4130,6 +4130,11 @@ Quality Assurance:
         - openstack/os-testr
       docs:
         contributor: http://docs.openstack.org/developer/os-testr
+    patrole:
+      repos:
+        - openstack/patrole
+      docs:
+        contributor: http://docs.openstack.org/developer/patrole
     qa-specs:
       repos:
         - openstack/qa-specs
