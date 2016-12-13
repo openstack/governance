@@ -62,15 +62,3 @@ Requirements
   are run concurrently under load. *A measurement of API response times must
   show that there are no statistically significant outliers during the upgrade
   process when compared to normal operations.*
-
-Tag application process
-=======================
-
-Assertion tags are set by the project team PTL or suitable designee based on
-meeting the above criteria. The Technical Committee may exceptionally remove
-the tag if they find that the project doesn't actually follow the requirements
-for the assertion.
-
-The project asserting this tag should do so when the above requirements are met
-for the reference implementation(s) or configuration(s) officially adopted by
-that project.

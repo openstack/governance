@@ -65,15 +65,3 @@ Requirements
   regression by implementing a zero-downtime gate job wherein both a new
   version of the service and an old version of the service are run
   concurrently.
-
-Tag application process
-=======================
-
-Assertion tags are set by the project team PTL or suitable designee based on
-meeting the above criteria. The Technical Committee may exceptionally remove
-the tag if they find that the project doesn't actually follow the requirements
-for the assertion.
-
-The project asserting this tag should do so when the above requirements are met
-for the reference implementation(s) or configuration(s) officially adopted by
-that project.

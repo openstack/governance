@@ -58,15 +58,3 @@ Requirements
   meaningful-to-operators rolling upgrade scenario) and available
   testing resources. At least one representative arrangement must be
   tested full-stack in the gate.
-
-Tag application process
-=======================
-
-Assertion tags are set by the project team PTL or suitable designee
-based on meeting the above criteria. The Technical Committee may
-exceptionally remove the tag if they find that the project doesn't
-actually follow the requirements for the assertion.
-
-The project asserting this tag should do so when the above
-requirements are met for the reference implementation(s) or
-configuration(s) officially adopted by that project.

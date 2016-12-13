@@ -99,11 +99,3 @@ In addition, projects assert that:
 Note: this tag can currently only be applied to services (type:service
 deliverables). The tag definition may evolve in the future to include library
 feature deprecation policy and be applicable to libraries as a result.
-
-
-Tag application process
-=======================
-
-Assertion tags are set by the project team PTL. The Technical Committee may
-exceptionally remove the tag if they find that the project doesn't actually
-follow the requirements for the assertion.
