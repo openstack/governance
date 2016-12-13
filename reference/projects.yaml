@@ -578,9 +578,6 @@ horizon:
   tags:
     - team:diverse-affiliation
   deliverables:
-    django-openstack-auth-kerberos:
-      repos:
-        - openstack/django-openstack-auth-kerberos
     django_openstack_auth:
       repos:
         - openstack/django_openstack_auth

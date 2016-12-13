@@ -205,6 +205,17 @@ fuel:
         repos:
           - openstack/fuel-upgrade
 
+horizon:
+  irc-channel: openstack-horizon
+  service: Dashboard
+  url: https://wiki.openstack.org/wiki/Horizon
+  partial: yes
+  deliverables:
+    django-openstack-auth-kerberos:
+      retired-on: 2016-12-02
+      repos:
+        - openstack/django-openstack-auth-kerberos
+
 neutron:
   irc-channel: openstack-neutron
   service: Networking service
