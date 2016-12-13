@@ -86,6 +86,7 @@ def _team_to_rst(name, info):
                 ':repo:`%s`' % repo
                 for repo in deliverable.get('repos', [])
             )
+            yield ''
             tags = deliverable.get('tags', [])
             if tags:
                 yield ':Tags:'
