@@ -1719,8 +1719,12 @@ ironic:
     ironic-inspector:
       repos:
         - openstack/ironic-inspector
+      docs:
+        contributor: http://docs.openstack.org/developer/ironic-inspector/
       tags:
         - stable:follows-policy
+        - assert:supports-upgrade
+        - assert:follows-standard-deprecation
     ironic-inspector-specs:
       repos:
         - openstack/ironic-inspector-specs
