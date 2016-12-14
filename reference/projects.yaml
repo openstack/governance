@@ -1924,8 +1924,7 @@ magnum:
         - openstack/magnum
       docs:
         contributor: http://docs.openstack.org/developer/magnum/
-        api: http://developer.openstack.org/api-ref/container-\
-            infrastructure-management/
+        api: http://developer.openstack.org/api-ref/container-infrastructure-management/
     magnum-specs:
       repos:
         - openstack/magnum-specs
