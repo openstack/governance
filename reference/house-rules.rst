@@ -26,7 +26,7 @@ Delegated tags
 --------------
 
 Some tags are delegated to a specific team, like
-:ref:`tag-stable:follows-policy`, :ref:`tag-release:cycle-with-intermediary`
+:ref:`tag-stable:follows-policy`
 or :ref:`tag-vulnerability:managed`. Those need to get approved by the
 corresponding team PTL, and can be directly approved by the chair once this
 approval is given.
