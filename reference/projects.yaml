@@ -2338,6 +2338,9 @@ OpenStack Charms:
     charm-cinder-ceph:
       repos:
         - openstack/charm-cinder-ceph
+    charm-cloudkitty:
+      repos:
+        - openstack/charm-cloudkitty
     charm-designate:
       repos:
         - openstack/charm-designate
