@@ -48,9 +48,6 @@ Chef OpenStack:
     cookbook-openstack-application-catalog:
       repos:
         - openstack/cookbook-openstack-application-catalog
-    cookbook-openstack-bare-metal:
-      repos:
-        - openstack/cookbook-openstack-bare-metal
     cookbook-openstack-block-storage:
       repos:
         - openstack/cookbook-openstack-block-storage
@@ -66,12 +63,6 @@ Chef OpenStack:
     cookbook-openstack-dashboard:
       repos:
         - openstack/cookbook-openstack-dashboard
-    cookbook-openstack-data-processing:
-      repos:
-        - openstack/cookbook-openstack-data-processing
-    cookbook-openstack-database:
-      repos:
-        - openstack/cookbook-openstack-database
     cookbook-openstack-identity:
       repos:
         - openstack/cookbook-openstack-identity
@@ -84,9 +75,6 @@ Chef OpenStack:
     cookbook-openstack-network:
       repos:
         - openstack/cookbook-openstack-network
-    cookbook-openstack-object-storage:
-      repos:
-        - openstack/cookbook-openstack-object-storage
     cookbook-openstack-ops-database:
       repos:
         - openstack/cookbook-openstack-ops-database

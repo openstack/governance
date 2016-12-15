@@ -38,6 +38,32 @@ astara:
         - openstack/astara-neutron
       tags:
         - release:cycle-with-milestones
+Chef OpenStack:
+  ptl:
+    name: Samuel Cassiba
+    irc: sc`
+    email: s@cassiba.com
+  service: Chef cookbooks for deployment
+  mission: >
+    The Chef cookbooks for OpenStack allow to automate the building, operation
+    and consumption of OpenStack cloud deployments.
+  url: https://wiki.openstack.org/wiki/Chef
+  partial: yes
+  tags:
+    - team:diverse-affiliation
+  deliverables:
+    cookbook-openstack-bare-metal:
+      repos:
+        - openstack/cookbook-openstack-bare-metal
+    cookbook-openstack-data-processing:
+      repos:
+        - openstack/cookbook-openstack-data-processing
+    cookbook-openstack-database:
+      repos:
+        - openstack/cookbook-openstack-database
+    cookbook-openstack-object-storage:
+      repos:
+        - openstack/cookbook-openstack-object-storage
 cue:
   ptl:
     name: Min Pae
