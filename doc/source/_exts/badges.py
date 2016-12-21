@@ -23,7 +23,7 @@ import projects
 
 
 PADDING = 8
-BASE_TAGS_URL = 'http://governance.openstack.org/reference/tags/'
+BASE_TAGS_URL = 'https://governance.openstack.org/tc/reference/tags/'
 COLOR_SCHEME = {
   "brightgreen":    "#4c1",
   "green":          "#97CA00",
