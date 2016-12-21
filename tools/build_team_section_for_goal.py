@@ -36,7 +36,7 @@ def main():
     filename = os.path.abspath('reference/projects.yaml')
     with open(filename, 'r') as f:
         projects = [k for k in yaml.safe_load(f.read())]
-    projects.sort()
+    projects.sort(key=lambda x: x.lower())
 
     for p in projects:
         print(p)
