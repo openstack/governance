@@ -69,20 +69,6 @@ Based on how requirements are defined, this tag is only applicable for projects
 where their primary deliverables are represented by commits and reviews in git.
 An example of where this doesn't make sense is the release management team.
 
-Tag application process
-=======================
-
-The criteria for this tag is very objective.  The TC could approve any future
-updates to the tag definition and otherwise defer application of the tag.  A
-method for delegating this is TBD, so in the meantime, we default back to the
-following process:
-
-Anyone may propose adding or removing this tag to a set of projects by
-proposing a change to the openstack/governance repository. The change is
-reviewed by the Technical Committee and approved using standard resolution
-approval rules, including discussion at at least one Technical Committee
-public IRC meeting.
-
 
 Deprecation
 ===========

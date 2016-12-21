@@ -201,10 +201,7 @@ Requirements
 Tag application process
 =======================
 
-The TC is responsible for maintaining the tags in the 'starter kit' category.
-
-There is no need to apply for addition/removal. Changes externally proposed
-will be reviewed and approved by the TC.
+There is no need to apply for addition or removal.
 
 Deprecation
 ===========

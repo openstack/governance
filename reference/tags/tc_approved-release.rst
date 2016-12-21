@@ -74,16 +74,10 @@ the Board (as well as working groups like the Interop committee) to
 best understand the demand for the commercial trademark by OpenStack
 users and vendors.
 
-As such, changes to this tag are expected to come from the Interop
-working group based on their judgment that the marketplace has evolved
-and a new set of projects should be used in future versions of
-trademark programs. They should propose adding or removing this tag to
-a project by proposing a change to the openstack/governance
-repository. The change is reviewed by the Technical Committee and
-approved using standard resolution approval rules, including
-discussion at at least one Technical Committee public IRC meeting.
-
-
+As such, changes proposing to add or remove this tag are expected to
+come from the Interop working group based on their judgment that the
+marketplace has evolved and a new set of projects should be used in
+future versions of trademark programs.
 
 Deprecation
 ===========

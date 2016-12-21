@@ -57,11 +57,3 @@ Requirements
   to validate that cold upgrades from the previous stable release are
   not broken. Any upgrade tasks that would be documented as above are
   codified in the testing to demonstrate correctness.
-
-Tag application process
-=======================
-
-Assertion tags are set by the project team PTL or suitable designee
-based on meeting the above criteria. The Technical Committee may
-exceptionally remove the tag if they find that the project doesn't
-actually follow the requirements for the assertion.

@@ -53,10 +53,9 @@ stable branches.
 Tag application process
 =======================
 
-Anyone may propose adding or removing this tag to a set of deliverables by
-proposing a change to the openstack/governance repository. The change is
-reviewed by the `Stable Branch Maintenance team`_, and the Technical Committee
-finally approves it using its lazy consensus approval rule.
+Proposals to add or remove this tag must be reviewed by the
+`Stable Branch Maintenance team`_ prior to final approval by
+the Technical Committee.
 
 
 Deprecation
