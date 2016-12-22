@@ -4688,6 +4688,9 @@ tripleo:
       repos:
         - openstack/tripleo-quickstart
         - openstack/tripleo-quickstart-extras
+    tripleo-repos:
+      repos:
+        - openstack/tripleo-repos
     tripleo-specs:
       repos:
         - openstack/tripleo-specs
