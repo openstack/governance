@@ -1835,9 +1835,6 @@ keystone:
       tags:
         - vulnerability:managed
         - stable:follows-policy
-    python-keystoneclient-kerberos:
-      repos:
-        - openstack/python-keystoneclient-kerberos
 
 kolla:
   ptl:

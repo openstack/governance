@@ -242,6 +242,17 @@ horizon:
       repos:
         - openstack/django-openstack-auth-kerberos
 
+keystone:
+  irc-channel: openstack-keystone
+  service: Identity service
+  url: https://wiki.openstack.org/wiki/Keystone
+  partial: yes
+  deliverables:
+    python-keystoneclient-kerberos:
+      retired-on: 2016-12-23
+      repos:
+        - openstack/python-keystoneclient-kerberos
+
 neutron:
   irc-channel: openstack-neutron
   service: Networking service
