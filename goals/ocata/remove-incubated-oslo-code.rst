@@ -280,6 +280,12 @@ Planning Artifacts:
   - https://storyboard.openstack.org/#!/story/2000776
 
 Completion Artifacts:
+  - https://review.openstack.org/394436
+  - https://review.openstack.org/394508
+  - https://review.openstack.org/394509
+  - https://review.openstack.org/394570
+  - https://review.openstack.org/394571
+  - https://review.openstack.org/395116
 
 OpenStack Charms
 ----------------
