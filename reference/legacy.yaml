@@ -38,6 +38,7 @@ astara:
         - openstack/astara-neutron
       tags:
         - release:cycle-with-milestones
+
 Chef OpenStack:
   ptl:
     name: Samuel Cassiba
@@ -64,6 +65,7 @@ Chef OpenStack:
     cookbook-openstack-object-storage:
       repos:
         - openstack/cookbook-openstack-object-storage
+
 cue:
   ptl:
     name: Min Pae
@@ -97,6 +99,70 @@ cue:
         - type:library
         - release:independent
 
+fuel:
+  irc-channel: fuel
+  service: Deployment service
+  url: https://wiki.openstack.org/wiki/Fuel
+  partial: yes
+  deliverables:
+    - fuel:
+        retired-on: 2015-03-29
+        repos:
+          - openstack/shotgun
+    - fuel:
+        retired-on: 2015-06-23
+        repos:
+          - openstack/fuel-mirror
+    - fuel-lcm:
+        retired-on: 2015-09-29
+        repos:
+          - openstack/fuel-upgrade
+
+horizon:
+  irc-channel: openstack-horizon
+  service: Dashboard
+  url: https://wiki.openstack.org/wiki/Horizon
+  partial: yes
+  deliverables:
+    django-openstack-auth-kerberos:
+      retired-on: 2016-12-02
+      repos:
+        - openstack/django-openstack-auth-kerberos
+
+ironic:
+  irc-channel: openstack-ironic
+  service: Bare Metal service
+  url: https://wiki.openstack.org/wiki/Ironic
+  partial: yes
+  deliverables:
+    - ironic-webclient:
+        retired-on: 2016-11-28
+        repos:
+          - openstack/ironic-webclient
+    - python-dracclient:
+        retired-on: 2016-11-28
+        repos:
+          - openstack/python-dracclient
+    - python-wsmanclient:
+        retired-on: 2016-11-28
+        repos:
+          - openstack/python-wsmanclient
+
+keystone:
+  irc-channel: openstack-keystone
+  service: Identity service
+  url: https://wiki.openstack.org/wiki/Keystone
+  partial: yes
+  deliverables:
+    python-keystoneclient-kerberos:
+      retired-on: 2016-12-23
+      repos:
+        - openstack/python-keystoneclient-kerberos
+    keystoneauth-saml2:
+      retired-on: 2016-01-11
+      repos:
+        - openstack/keystoneauth-saml2
+
 MagnetoDB:
   ptl: Ilya Sviridov (isviridov)
   service: Key-Value Store service
@@ -122,6 +188,33 @@ MagnetoDB:
       tags:
         - release:cycle-with-intermediary
         - type:library
+
+neutron:
+  irc-channel: openstack-neutron
+  service: Networking service
+  url: https://wiki.openstack.org/wiki/Neutron
+  partial: yes
+  deliverables:
+    - networking-calico:
+        retired-on: 2016-11-17
+        repos:
+          - openstack/networking-calico
+    - networking-l2gw:
+        retired-on: 2016-11-01
+        repos:
+          - openstack/networking-l2gw
+    - networking-onos:
+        retired-on: 2016-11-01
+        repos:
+          - openstack/networking-onos
+    - neutron-vpnaas:
+        retired-on: 2016-11-01
+        repos:
+          - openstack/neutron-vpnaas
+    - python-neutron-pd-driver:
+        retired-on: 2016-10-31
+        repos:
+          - openstack/python-neutron-pd-driver
 
 OpenStackSalt:
   ptl:
@@ -211,97 +304,6 @@ OpenStackSalt:
         - openstack/salt-formula-swift
       tags:
         - release:independent
-
-fuel:
-  irc-channel: fuel
-  service: Deployment service
-  url: https://wiki.openstack.org/wiki/Fuel
-  partial: yes
-  deliverables:
-    - fuel:
-        retired-on: 2015-03-29
-        repos:
-          - openstack/shotgun
-    - fuel:
-        retired-on: 2015-06-23
-        repos:
-          - openstack/fuel-mirror
-    - fuel-lcm:
-        retired-on: 2015-09-29
-        repos:
-          - openstack/fuel-upgrade
-
-horizon:
-  irc-channel: openstack-horizon
-  service: Dashboard
-  url: https://wiki.openstack.org/wiki/Horizon
-  partial: yes
-  deliverables:
-    django-openstack-auth-kerberos:
-      retired-on: 2016-12-02
-      repos:
-        - openstack/django-openstack-auth-kerberos
-
-keystone:
-  irc-channel: openstack-keystone
-  service: Identity service
-  url: https://wiki.openstack.org/wiki/Keystone
-  partial: yes
-  deliverables:
-    python-keystoneclient-kerberos:
-      retired-on: 2016-12-23
-      repos:
-        - openstack/python-keystoneclient-kerberos
-    keystoneauth-saml2:
-      retired-on: 2016-01-11
-      repos:
-        - openstack/keystoneauth-saml2
-
-neutron:
-  irc-channel: openstack-neutron
-  service: Networking service
-  url: https://wiki.openstack.org/wiki/Neutron
-  partial: yes
-  deliverables:
-    - networking-calico:
-        retired-on: 2016-11-17
-        repos:
-          - openstack/networking-calico
-    - networking-l2gw:
-        retired-on: 2016-11-01
-        repos:
-          - openstack/networking-l2gw
-    - networking-onos:
-        retired-on: 2016-11-01
-        repos:
-          - openstack/networking-onos
-    - neutron-vpnaas:
-        retired-on: 2016-11-01
-        repos:
-          - openstack/neutron-vpnaas
-    - python-neutron-pd-driver:
-        retired-on: 2016-10-31
-        repos:
-          - openstack/python-neutron-pd-driver
-
-ironic:
-  irc-channel: openstack-ironic
-  service: Bare Metal service
-  url: https://wiki.openstack.org/wiki/Ironic
-  partial: yes
-  deliverables:
-    - ironic-webclient:
-        retired-on: 2016-11-28
-        repos:
-          - openstack/ironic-webclient
-    - python-dracclient:
-        retired-on: 2016-11-28
-        repos:
-          - openstack/python-dracclient
-    - python-wsmanclient:
-        retired-on: 2016-11-28
-        repos:
-          - openstack/python-wsmanclient
 
 solum:
   irc-channel: solum
