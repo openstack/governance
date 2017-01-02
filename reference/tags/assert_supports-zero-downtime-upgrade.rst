@@ -15,7 +15,7 @@ the project team themselves about their maturity.
 
 The ``assert:supports-zero-downtime-upgrade`` tag asserts that in addition to a
 project supporting `minimal rolling upgrade capabilities
-<https://governance.openstack.org/reference/tags/assert_supports-rolling-upgrade.html>`_,
+<https://governance.openstack.org/tc/reference/tags/assert_supports-rolling-upgrade.html>`_,
 it does so *without incurring any disruption to API availability*.
 
 Application to current projects

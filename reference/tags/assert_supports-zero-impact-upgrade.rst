@@ -15,7 +15,7 @@ the project team themselves about their maturity.
 
 The ``assert:supports-zero-impact-upgrade`` tag asserts that in addition to a
 project supporting `zero-downtime, rolling upgrade capabilities
-<https://governance.openstack.org/reference/tags/assert_supports-zero-downtime-upgrade.html>`_,
+<https://governance.openstack.org/tc/reference/tags/assert_supports-zero-downtime-upgrade.html>`_,
 it does so *without incurring any perceivable performance penalty*.
 
 Application to current projects
