@@ -2573,6 +2573,9 @@ OpenStackClient:
         - openstack/cliff
       docs:
         contributor: http://docs.openstack.org/developer/cliff/
+    openstackclient:
+      repos:
+        - openstack/openstackclient
     os-client-config:
       repos:
         - openstack/os-client-config
