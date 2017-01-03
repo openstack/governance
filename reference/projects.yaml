@@ -315,6 +315,9 @@ Documentation:
     os-api-ref:
       repos:
         - openstack/os-api-ref
+    rst2bash:
+      repos:
+        - openstack/rst2bash
     training-labs:
       repos:
         - openstack/training-labs
