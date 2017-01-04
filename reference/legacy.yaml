@@ -252,6 +252,10 @@ keystone:
       retired-on: 2016-12-23
       repos:
         - openstack/python-keystoneclient-kerberos
+    keystoneauth-saml2:
+      retired-on: 2016-01-11
+      repos:
+        - openstack/keystoneauth-saml2
 
 neutron:
   irc-channel: openstack-neutron
