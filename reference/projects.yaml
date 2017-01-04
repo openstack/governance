@@ -121,6 +121,7 @@ cinder:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - stable:follows-policy
+        - assert:supports-rolling-upgrade
     cinder-specs:
       repos:
         - openstack/cinder-specs
