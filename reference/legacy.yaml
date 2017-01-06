@@ -99,6 +99,16 @@ cue:
         - type:library
         - release:independent
 
+Documentation:
+  irc-channel: openstack-doc
+  url: https://wiki.openstack.org/wiki/Documentation
+  partial: yes
+  deliverables:
+    api-tools:
+      retired-on: 2017-01-09
+      repos:
+        - openstack/fairy-slipper
+
 fuel:
   irc-channel: fuel
   service: Deployment service
