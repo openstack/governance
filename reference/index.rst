@@ -12,6 +12,7 @@ Reference documents which need to be revised over time.
    charter
    projects/index
    new-projects-requirements
+   new-language-requirements
    licensing
    service-project-naming
    project-testing-interface
