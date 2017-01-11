@@ -527,6 +527,9 @@ heat:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - stable:follows-policy
+    heat-agents:
+      repos:
+        - openstack/heat-agents
     heat-cfnclient:
       repos:
         - openstack-dev/heat-cfnclient
