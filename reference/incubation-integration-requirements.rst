@@ -50,6 +50,8 @@ API
 * Project APIs should be reasonably stable
 * Project must have a REST API with at least a JSON entity representation
 * Project must have a Python client library API for its REST API
+* API service is made available as a WSGI application
+
 
 QA
 --
