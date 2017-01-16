@@ -2066,6 +2066,9 @@ monasca:
     monasca-grafana-datasource:
       repos:
         - openstack/monasca-grafana-datasource
+    monasca-kibana-plugin:
+      repos:
+        - openstack/monasca-kibana-plugin
 
 murano:
   ptl:
