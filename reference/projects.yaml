@@ -19,6 +19,8 @@ barbican:
       docs:
         contributor: http://docs.openstack.org/developer/barbican
         api: http://developer.openstack.org/api-guide/key-manager/
+      tags:
+        - vulnerability:managed
     barbican-specs:
       repos:
         - openstack/barbican-specs
@@ -28,9 +30,13 @@ barbican:
     castellan:
       repos:
         - openstack/castellan
+      tags:
+        - vulnerability:managed
     python-barbicanclient:
       repos:
         - openstack/python-barbicanclient
+      tags:
+        - vulnerability:managed
 
 Chef OpenStack:
   ptl:
