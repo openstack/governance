@@ -2354,6 +2354,9 @@ OpenStack Charms:
     charm-interface-keystone:
       repos:
         - openstack/charm-interface-keystone
+    charm-interface-keystone-admin:
+      repos:
+        - openstack/charm-interface-keystone-admin
     charm-interface-keystone-credentials:
       repos:
         - openstack/charm-interface-keystone-credentials
