@@ -159,10 +159,11 @@ Guarantee compatible functionality for the base common libraries
 ----------------------------------------------------------------
 
 Most OpenStack projects rely on a set of base common libraries that provide a
-seamless experience to operators and users of OpenStack. Any new language must
-provide a compatible behavior with these libraries either by developing a
-counterpart version of the library in the language or proving that the language
-itself (or any existing library) is capable of guaranteeing compatibility.
+seamless experience to operators and users of OpenStack. The team proposing a
+new language must provide a compatible behavior with these libraries either by
+developing a counterpart version of the library in the language or proving that
+the language itself (or any existing library) is capable of guaranteeing
+compatibility.
 
 The following libraries have an impact on the operator's and user's experience,
 therefore their behavior is considered critical and it must be guaranteed by any
@@ -173,5 +174,5 @@ new language:
 
 Once the above requirements have been addressed, a final resolution should be
 brought up to the TC. This resolution will mark the language as an official
-language in the ecosystem. The language can be used by other projects from this
-moment on.
+language in the ecosystem. OpenStack projects consuming this language can be
+released from this moment on.
