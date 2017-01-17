@@ -12,7 +12,6 @@ barbican:
   url: https://wiki.openstack.org/wiki/Barbican
   tags:
     - team:diverse-affiliation
-    - assert:follows-standard-deprecation
   deliverables:
     barbican:
       repos:
@@ -22,6 +21,8 @@ barbican:
         api: http://developer.openstack.org/api-guide/key-manager/
       tags:
         - vulnerability:managed
+        - assert:follows-standard-deprecation
+        - stable:follows-policy
     barbican-specs:
       repos:
         - openstack/barbican-specs
