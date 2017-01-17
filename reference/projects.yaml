@@ -292,9 +292,6 @@ Documentation:
     api-site:
       repos:
         - openstack/api-site
-    api-tools:
-      repos:
-        - openstack/fairy-slipper
     docs-specs:
       repos:
         - openstack/docs-specs
