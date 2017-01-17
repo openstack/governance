@@ -1878,6 +1878,8 @@ kuryr:
     Bridge between container framework networking and storage models
     to OpenStack networking and storage abstractions.
   url: https://wiki.openstack.org/wiki/Kuryr
+  tags:
+    - team:diverse-affiliation
   deliverables:
     kuryr:
       repos:
@@ -2247,6 +2249,8 @@ octavia:
     To provide scalable, on demand, self service access to load-balancer
     services, in technology-agnostic manner.
   url: https://wiki.openstack.org/wiki/Octavia
+  tags:
+    - team:diverse-affiliation
   deliverables:
     neutron-lbaas:
       repos:
@@ -4175,8 +4179,6 @@ rally:
     individual OpenStack components as well as full production OpenStack
     cloud deployments.
   url: https://wiki.openstack.org/wiki/Rally
-  tags:
-    - team:single-vendor
   deliverables:
     rally:
       repos:
@@ -4409,8 +4411,6 @@ solum:
     application development process by automating the source-to-image
     process, and simplifying app-centric deployment.
   url: https://wiki.openstack.org/wiki/Solum
-  tags:
-    - team:single-vendor
   deliverables:
     python-solumclient:
       repos:
@@ -4457,8 +4457,6 @@ storlets:
     executing storage centric user defined functions near the data within
     OpenStack Swift
   url: https://wiki.openstack.org/wiki/Storlets
-  tags:
-    - team:diverse-affiliation
   deliverables:
     storlets:
       repos:
