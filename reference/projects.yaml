@@ -4104,6 +4104,9 @@ Quality Assurance:
     devstack-plugin-cookiecutter:
       repos:
         - openstack-dev/devstack-plugin-cookiecutter
+    devstack-tools:
+      repos:
+        - openstack/devstack-tools
     devstack-vagrant:
       repos:
         - openstack-dev/devstack-vagrant
