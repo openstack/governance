@@ -1414,6 +1414,9 @@ Infrastructure:
     puppet-elasticsearch:
       repos:
         - openstack-infra/puppet-elasticsearch
+    puppet-ethercalc:
+      repos:
+        - openstack-infra/puppet-ethercalc
     puppet-etherpad_lite:
       repos:
         - openstack-infra/puppet-etherpad_lite
