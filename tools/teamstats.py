@@ -102,17 +102,16 @@ def get_core_reviews_by_company(group):
     for eng in reviews['stats']:
         if eng['core'] != 'master':
             continue
-        company = s.get('http://stackalytics.com/api/1.0/'
-                        'stats/companies?metric=marks&'
-                        'module=%s&user_id=%s&project_type=all'
-                        '&release=all&start_date=%s'
-                        % (group, eng['id'],
-                           six_months)).json()['stats'][0]['id']
-        companies.setdefault(company, {'reviewers': 0, 'reviews': 0})
+        for stat in s.get('http://stackalytics.com/api/1.0/stats/'
+                          'companies?metric=marks&module=%s&user_id=%s&'
+                          'project_type=all&release=all&start_date=%s' %
+                          (group, eng['id'], six_months)).json()['stats']:
+            company = stat['id']
+            companies.setdefault(company, {'reviewers': 0, 'reviews': 0})
 
-        if eng['metric'] >= MIN_REVIEWS or eng['metric'] >= min_percent:
-            companies[company]['reviews'] += eng['metric']
-            companies[company]['reviewers'] += 1
+            if eng['metric'] >= MIN_REVIEWS or eng['metric'] >= min_percent:
+                companies[company]['reviews'] += stat['metric']
+                companies[company]['reviewers'] += 1
 
     return companies
 
