@@ -1893,6 +1893,9 @@ kuryr:
     fuxi:
       repos:
         - openstack/fuxi
+    fuxi-kubernetes:
+      repos:
+        - openstack/fuxi-kubernetes
 
 magnum:
   ptl:
