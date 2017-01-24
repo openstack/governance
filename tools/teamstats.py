@@ -16,6 +16,7 @@ import functools
 import os
 import sys
 import time
+import uuid
 
 import requests
 import requests_cache
@@ -107,6 +108,10 @@ def get_core_reviews_by_company(group):
                           'project_type=all&release=all&start_date=%s' %
                           (group, eng['id'], six_months)).json()['stats']:
             company = stat['id']
+            if company == '*independent':
+                # several independent reviewers are not working in one company
+                company = 'independent-%s' % uuid.uuid4()
+
             companies.setdefault(company, {'reviewers': 0, 'reviews': 0})
 
             if eng['metric'] >= MIN_REVIEWS or eng['metric'] >= min_percent:
