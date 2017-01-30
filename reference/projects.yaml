@@ -4625,6 +4625,9 @@ tricircle:
     tricircle:
       repos:
         - openstack/tricircle
+    python-tricircleclient:
+      repos:
+        - openstack/python-tricircleclient
 
 tripleo:
   ptl:
