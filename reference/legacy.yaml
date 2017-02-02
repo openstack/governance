@@ -1,4 +1,9 @@
 ---
+# List of projects that were previously official, and have been dropped from
+# the official list.  We track these temporarily to manage voter rolls.  When a
+# no-longer-official project has been delisted long enough that its
+# contributors are no longer eligible to vote, the associated entry should be
+# removed from this file.
 astara:
   ptl:
     name: Ryan Petrello
