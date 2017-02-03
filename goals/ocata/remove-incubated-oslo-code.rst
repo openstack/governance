@@ -702,6 +702,22 @@ Completion Artifacts:
 
 `<https://review.openstack.org/#/c/287753/>`_
 
+octavia
+-------
+
+The octavia project does not use oslo incubator and the last references
+were removed in the patch listed below.
+Technically this was done while we were part of neutron, but documenting
+here for clarity.
+
+Planning Artifacts:
+
+None
+
+Completion Artifacts:
+
+https://review.openstack.org/#/c/393564/
+
 oslo
 ----
 
