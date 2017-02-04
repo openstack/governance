@@ -252,7 +252,7 @@ class ValidateSingleVendor(base.ValidatorBase):
 def main():
     filename = os.path.abspath('reference/projects.yaml')
     with open(filename, 'r') as f:
-        projects = [k for k in yaml.load(f.read())]
+        projects = [k for k in yaml.safe_load(f.read())]
         projects.sort()
     print '<Team> (top commit % | top review % | top core review % | ' \
         'top core reviewer %)'
