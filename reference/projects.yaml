@@ -2406,6 +2406,9 @@ OpenStack Charms:
     charm-keystone:
       repos:
         - openstack/charm-keystone
+    charm-layer-ceph-base:
+      repos:
+        - openstack/charm-layer-ceph-base
     charm-layer-openstack:
       repos:
         - openstack/charm-layer-openstack
