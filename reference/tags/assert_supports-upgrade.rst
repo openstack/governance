@@ -53,6 +53,10 @@ Requirements
 * The project provides an upgrade impact section on the release notes
   page that highlights anything that must be done by operators for
   each cycle outside the normal upgrade procedures.
+* The upgrade procedure does not result in any state changes to
+  controlled resources, but may disrupt their accessibility. This
+  allowance is eliminated by the
+  :ref:`tag-assert:supports-accessible-upgrade` tag.
 * Full stack integration testing is performed on every proposed commit
   to validate that cold upgrades from the previous stable release are
   not broken. Any upgrade tasks that would be documented as above are
