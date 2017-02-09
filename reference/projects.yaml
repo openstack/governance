@@ -2395,6 +2395,9 @@ OpenStack Charms:
     charm-interface-keystone-credentials:
       repos:
         - openstack/charm-interface-keystone-credentials
+    charm-interface-keystone-domain-backend:
+      repos:
+        - openstack/charm-interface-keystone-domain-backend
     charm-interface-manila-plugin:
       repos:
         - openstack/charm-interface-manila-plugin
@@ -2425,6 +2428,9 @@ OpenStack Charms:
     charm-keystone:
       repos:
         - openstack/charm-keystone
+    charm-keystone-ldap:
+      repos:
+        - openstack/charm-keystone-ldap
     charm-layer-ceph-base:
       repos:
         - openstack/charm-layer-ceph-base
