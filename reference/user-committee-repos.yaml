@@ -6,6 +6,8 @@ Ops Tags Team:
   - repo: openstack/ops-tags-team
 Product Working Group:
   - repo: openstack/openstack-user-stories
+Scientific Working Group:
+  - repo: openstack/scientific-wg
 User Committee:
   - repo: openstack/governance-uc
   - repo: openstack/uc-recognition
