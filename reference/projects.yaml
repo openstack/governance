@@ -1872,10 +1872,12 @@ kolla:
       repos:
         - openstack/kolla-ansible
       docs:
-        contributor: http://docs.openstack.org/developer/kolla/
+        contributor: http://docs.openstack.org/developer/kolla-ansible/
     kolla-kubernetes:
       repos:
         - openstack/kolla-kubernetes
+      docs:
+        contributor: http://docs.openstack.org/developer/kolla-kubernetes/
 
 kuryr:
   ptl:
