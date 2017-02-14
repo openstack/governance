@@ -51,6 +51,7 @@ via WSGI:
 .. (emilien) I built this list based on my research. Please comment if
    something is wrong or missing.
    This list reflects the projects where API can't be deployed via WSGI.
+
 * cloudkitty
 * congress
 * designate
@@ -70,7 +71,9 @@ via WSGI:
 * zun
 
 .. (emilien) TODO
+
 These projects already deploy devstack with API service via WSGI:
+
 * aodh
 * ceilometer
 * cinder
