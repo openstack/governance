@@ -4614,6 +4614,9 @@ Telemetry:
     python-gnocchiclient:
       repos:
         - openstack/python-gnocchiclient
+    python-pankoclient:
+      repos:
+        - openstack/python-pankoclient
 
 tricircle:
   ptl:
