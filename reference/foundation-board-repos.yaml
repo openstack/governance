@@ -1,7 +1,7 @@
 ---
 # List of repositories owned by Foundation board and subcommittes
-DefCore subcommittee:
-  - repo: openstack/defcore
+Interop Working Group:
+  - repo: openstack/interop
 
 Transparency subcommittee:
   - repo: openstack/transparency-policy

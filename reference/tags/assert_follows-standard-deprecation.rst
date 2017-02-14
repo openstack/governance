@@ -62,10 +62,10 @@ features deprecation:
    the cost is then very related to the number of people using the feature
    and how dependent they are to that feature.
 
-#. If the deliverable is part of a defcore set, the project will check if the
-   deprecated feature is part of the exposed capabilities. If it is, the
-   obsolescence date (see below) additionally needs to take into account
-   defcore capabilities deprecation schedule.
+#. If the deliverable is part of an Interop Working Group Guideline, the
+   project will check if the deprecated feature is part of the exposed
+   capabilities. If it is, the obsolescence date (see below) additionally
+   needs to take into account Interop WG capabilities deprecation schedule.
 
 #. Based on that data, an obsolescence date will be set. At the very minimum
    the feature (or API, or configuration option) should be marked deprecated
