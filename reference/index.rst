@@ -14,6 +14,7 @@ Reference documents which need to be revised over time.
    new-projects-requirements
    new-language-requirements
    licensing
+   base-services
    service-project-naming
    project-testing-interface
    irc
