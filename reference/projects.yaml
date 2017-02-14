@@ -4484,9 +4484,6 @@ storlets:
     storlets:
       repos:
         - openstack/storlets
-      tags:
-        - release:independent
-        - type:service
 
 swift:
   ptl:
