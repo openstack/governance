@@ -2369,6 +2369,9 @@ OpenStack Charms:
     charm-interface-bind-rndc:
       repos:
         - openstack/charm-interface-bind-rndc
+    charm-interface-ceph-mds:
+      repos:
+        - openstack/charm-interface-ceph-mds
     charm-interface-hacluster:
       repos:
         - openstack/charm-interface-hacluster
