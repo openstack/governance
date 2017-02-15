@@ -41,7 +41,7 @@ todo_include_todos = True
 
 # Define shorthand roles for making links to common destinations.
 extlinks = {
-    'repo': ('http://git.openstack.org/cgit/%s', ''),
+    'repo': ('https://git.openstack.org/cgit/%s', ''),
 }
 
 # Add any paths that contain templates here, relative to this directory.
