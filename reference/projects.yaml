@@ -12,6 +12,7 @@ barbican:
   url: https://wiki.openstack.org/wiki/Barbican
   tags:
     - team:diverse-affiliation
+    - assert:follows-standard-deprecation
   deliverables:
     barbican:
       repos:
