@@ -2253,6 +2253,9 @@ nova:
       tags:
         - vulnerability:managed
         - stable:follows-policy
+    os-traits:
+      repos:
+        - openstack/os-traits
     os-vif:
       repos:
         - openstack/os-vif
