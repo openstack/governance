@@ -231,9 +231,14 @@ Completion Artifacts:
 Chef OpenStack
 --------------
 
-Planning Artifacts:
+The Chef cookbooks do not provide any Python code directly, they consume
+downstream packages, and thus are not directly affected by this goal. Once
+a package is available in a python3 variant, deployers can use variables
+in order to select these packages instead of python2.
 
-Completion Artifacts:
+Planning Artifacts: None
+
+Completion Artifacts: None
 
 cinder
 ------

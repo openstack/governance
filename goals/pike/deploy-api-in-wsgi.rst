@@ -100,9 +100,14 @@ Completion Artifacts:
 Chef OpenStack
 --------------
 
-Planning Artifacts:
+The Chef cookbooks do not provide any API directly, they consume
+downstream packages, and thus are not directly affected by this goal.
+When packages support deploying API services via WSGI, the
+corresponding cookbooks use it.
 
-Completion Artifacts:
+Planning Artifacts: None
+
+Completion Artifacts: None
 
 cinder
 ------
