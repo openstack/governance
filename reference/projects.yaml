@@ -4228,7 +4228,7 @@ RefStack:
   service: Interoperability Test Report
   mission: >
     RefStack is a test result collection and reporting service to support the
-    DefCore interoperability testing process.
+    Interop Working Group interoperability testing process.
   url: https://wiki.openstack.org/wiki/RefStack
   deliverables:
     refstack:
