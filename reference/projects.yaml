@@ -4605,9 +4605,15 @@ Telemetry:
     gnocchi:
       repos:
         - openstack/gnocchi
+      docs:
+        contributor: https://docs.openstack.org/developer/gnocchi/
+        api: https://docs.openstack.org/developer/gnocchi/rest.html
     panko:
       repos:
         - openstack/panko
+      docs:
+        contributor: https://docs.openstack.org/developer/panko/
+        api: https://docs.openstack.org/developer/panko/webapi/v2.html
       tags:
         - assert:follows-standard-deprecation
     python-aodhclient:
