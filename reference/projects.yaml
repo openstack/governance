@@ -1753,6 +1753,9 @@ ironic:
     molteniron:
       repos:
         - openstack/molteniron
+    networking-baremetal:
+      repos:
+        - openstack/networking-baremetal
     python-ironic-inspector-client:
       repos:
         - openstack/python-ironic-inspector-client
