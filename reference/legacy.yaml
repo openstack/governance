@@ -320,6 +320,21 @@ OpenStackSalt:
       tags:
         - release:independent
 
+OpenStack UX:
+  ptl:
+    name: Piet Kruithof
+    irc: Piet
+    email: pkruithofjr@gmail.com
+  irc-channel: openstack-ux
+  mission: >
+    The mission of the UX Program is to help the teams improve the overall
+    user experience of their projects.
+  url: https://wiki.openstack.org/wiki/UX
+  deliverables:
+    openstack-ux:
+      repos:
+        - openstack/openstack-ux
+
 solum:
   irc-channel: solum
   service: Software Development Lifecycle Automation service
