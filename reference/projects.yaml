@@ -2277,6 +2277,11 @@ octavia:
       tags:
         - stable:follows-policy
         - assert:follows-standard-deprecation
+    neutron-lbaas-dashboard:
+      repos:
+        - openstack/neutron-lbaas-dashboard
+      tags:
+        - stable:follows-policy
     octavia:
       repos:
         - openstack/octavia
@@ -2284,7 +2289,15 @@ octavia:
         - stable:follows-policy
     octavia-dashboard:
       repos:
-        - openstack/neutron-lbaas-dashboard
+        - openstack/octavia-dashboard
+      tags:
+        - stable:follows-policy
+    octavia-tempest-plugin:
+      repos:
+        - openstack/octavia-tempest-plugin
+    python-octaviaclient:
+      repos:
+        - openstack/python-octaviaclient
       tags:
         - stable:follows-policy
 
