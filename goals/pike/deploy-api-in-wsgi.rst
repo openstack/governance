@@ -228,7 +228,12 @@ keystone
 
 Planning Artifacts:
 
+  Keystone has no planning documents at this time since support was
+  introduced prior to Kilo.
+
 Completion Artifacts:
+
+  http://git.openstack.org/cgit/openstack-dev/devstack/commit/?id=a00e5f8810b6ca3b0b5d63cc228125e19bc91955
 
 kolla
 -----
