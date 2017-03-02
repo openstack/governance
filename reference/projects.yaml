@@ -2137,6 +2137,9 @@ murano:
         - openstack/python-muranoclient
       tags:
         - stable:follows-policy
+    yaql:
+      repos:
+        - openstack/yaql
 
 neutron:
   ptl:
