@@ -354,7 +354,26 @@ Puppet OpenStack
 
 Planning Artifacts:
 
+Projects where we plan to add support:
+
+* puppet-zaqar
+
 Completion Artifacts:
+
+Projects that already support WSGI deployments for API:
+
+* puppet-aodh
+* puppet-barbican
+* puppet-ceilometer
+* puppet-cinder
+* puppet-gnocchi
+* puppet-heat
+* puppet-ironic
+* puppet-keystone
+* puppet-mistral
+* puppet-nova
+* puppet-panko
+* puppet-vitrage
 
 Quality Assurance
 -----------------
