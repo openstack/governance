@@ -2341,6 +2341,9 @@ OpenStack Charms:
     charm-ceph-radosgw:
       repos:
         - openstack/charm-ceph-radosgw
+    charm-ceph-proxy:
+      repos:
+        - openstack/charm-ceph-proxy
     charm-cinder:
       repos:
         - openstack/charm-cinder
