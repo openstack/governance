@@ -306,6 +306,13 @@ glance
 
 Planning Artifacts:
 
+* `Glance Spec Lite
+  <http://specs.openstack.org/openstack/glance-specs/specs/pike/approved/glance/lite-specs.html>`_
+* `Glance Store Spec Lite
+  <http://specs.openstack.org/openstack/glance-specs/specs/pike/approved/glance_store/lite-specs.html>`_
+* `Glance Client Spec Lite
+  <http://specs.openstack.org/openstack/glance-specs/specs/pike/approved/python-glanceclient/lite-specs.html>`_
+
 Completion Artifacts:
 
 heat
