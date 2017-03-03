@@ -398,6 +398,8 @@ sahara
 ------
 
 Planning Artifacts:
+Update devstack plugin to deploy in WSGI with Apache
+Launchpad bug: https://bugs.launchpad.net/sahara/+bug/1673198
 
 Completion Artifacts:
 
