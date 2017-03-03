@@ -179,6 +179,9 @@ glance
 
 Planning Artifacts:
 
+* `Glance Spec Lite
+  <http://specs.openstack.org/openstack/glance-specs/specs/pike/approved/glance/lite-specs.html>`_
+
 Completion Artifacts:
 
 heat
