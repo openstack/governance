@@ -106,7 +106,7 @@ cinder:
   ptl:
     name: Sean McGinnis
     irc: smcginnis
-    email: sean_mcginnis@dell.com
+    email: sean.mcginnis@gmail.com
   irc-channel: openstack-cinder
   service: Block Storage service
   mission: >
