@@ -199,12 +199,16 @@ nova
 ~~~~
 
 Unit test porting is in progress, and the tests that have been ported
-are used in a voting gate job. 3077 tests remain as of 2016-09-22.
+are used in a voting gate job. 63 unit tests remain as of 2017-03-02.
 
 There is a known issue with a race condition that trips up mox-based
 tests. A large number of tests need to be rewritten to use mock
 instead, and so that part of the work is likely to be deferred beyond
 Pike and treated as a longer-term ongoing effort.
+
+``gate-tempest-dsvm-py35-ubuntu-xenial`` is gating on Nova changes.
+
+All nova functional tests are also passing with py35 and gating on nova.
 
 swift
 ~~~~~
@@ -424,6 +428,8 @@ nova
 ----
 
 Planning Artifacts:
+
+`https://blueprints.launchpad.net/nova/+spec/goal-python35`_
 
 Completion Artifacts:
 
