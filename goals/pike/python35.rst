@@ -487,8 +487,10 @@ Puppet OpenStack
 ----------------
 
 Planning Artifacts:
+Nothing is planned since Puppet OpenStack doesn't contain Python code.
 
 Completion Artifacts:
+None.
 
 Quality Assurance
 -----------------
