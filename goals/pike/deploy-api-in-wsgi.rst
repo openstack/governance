@@ -488,7 +488,27 @@ tripleo
 
 Planning Artifacts:
 
+During Pike, we plan to migrate some services under WSGI with Apache:
+
+* Heat APIs
+* Ironic API when https://bugs.launchpad.net/ironic/+bug/1608252 will
+  be fixed.
+* Mistral API when https://bugs.launchpad.net/mistral/+bug/1663368 will
+  be fixed.
+* Nova API when it will be officially supported by Nova team.
+
 Completion Artifacts:
+
+TripleO already deploy some services under WSGI with Apache:
+
+* Aodh API
+* Barbican
+* Ceilometer API
+* Cinder API
+* Gnocchi API
+* Keystone
+* Nova Placement
+* Panko API
 
 trove
 -----
