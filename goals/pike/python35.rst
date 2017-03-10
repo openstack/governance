@@ -573,7 +573,12 @@ Stable branch maintenance
 
 Planning Artifacts:
 
+    The stable team doesn't have any code repositories and therefore has
+    nothing to do.
+
 Completion Artifacts:
+
+    Not Applicable
 
 swift
 -----
