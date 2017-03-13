@@ -1772,6 +1772,9 @@ ironic:
         - openstack/python-ironicclient
       tags:
         - stable:follows-policy
+    sushy:
+      repos:
+        - openstack/sushy
     virtualbmc:
       repos:
         - openstack/virtualbmc
