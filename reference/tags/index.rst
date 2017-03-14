@@ -78,3 +78,11 @@ Stable Maintenance Tags
    :maxdepth: 1
 
    stable_follows-policy
+
+Documentation Tags
+==================
+
+.. toctree::
+   :maxdepth: 1
+
+   docs_follows-policy
