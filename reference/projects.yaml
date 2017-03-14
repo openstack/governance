@@ -1249,6 +1249,9 @@ Infrastructure:
     devstack-gate:
       repos:
         - openstack-infra/devstack-gate
+    diskimage-builder:
+      repos:
+        - openstack/diskimage-builder
     elastic-recheck:
       repos:
         - openstack-infra/elastic-recheck
@@ -4697,9 +4700,6 @@ tripleo:
     dib-utils:
       repos:
         - openstack/dib-utils
-    diskimage-builder:
-      repos:
-        - openstack/diskimage-builder
     instack:
       repos:
         - openstack/instack
