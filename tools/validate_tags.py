@@ -47,7 +47,7 @@ def main():
     if not os.path.isfile(filename):
         sys.exit("Projects.yaml was not found at %s" % (filename))
     with open(filename, 'r') as f:
-        teams = yaml.load(f.read())
+        teams = yaml.safe_load(f.read())
     for team in teams:
         # Check team based tags
         for validator in team_validators:
