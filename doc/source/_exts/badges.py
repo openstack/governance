@@ -15,7 +15,8 @@ Generate badges for the projects
 """
 
 import os
-from itertools import chain, izip_longest
+from itertools import chain
+from itertools import zip_longest
 
 from PIL import ImageFont
 
@@ -124,14 +125,14 @@ def _organize_badges(badges):
     sbadges = sorted(badges, key=lambda badge: badge['width'])
 
     # NOTE(flaper87): 4 is the number of columns
-    ziped = list(izip_longest(*(iter(sbadges),) * 4))
+    ziped = list(zip_longest(*(iter(sbadges),) * 4))
 
     result = []
     for y, group in enumerate(ziped):
         result.append([])
         col_x = 0
         for x, badge in enumerate(group):
-            # NOTE(flaper87): izip_longest fills the
+            # NOTE(flaper87): zip_longest fills the
             # empty slots with None. We don't care about
             # those.
             if badge is None:
@@ -156,7 +157,7 @@ def _organize_badges(badges):
 
 def _to_svg(badges):
     for badge in badges:
-        yield FLAT_BADGE_TEMPLATE.format(**badge).encode('utf-8')
+        yield FLAT_BADGE_TEMPLATE.format(**badge)
 
 
 def _generate_teams_badges(app):
@@ -169,8 +170,8 @@ def _generate_teams_badges(app):
 
     filename = os.path.join(badges_dir, 'project-unofficial.svg')
     svg_data = _generate_badge('project', 'unofficial', colorscheme='red')
-    svg = FLAT_BADGE_TEMPLATE.format(**svg_data).encode('utf-8')
-    with open(filename, 'w') as f:
+    svg = FLAT_BADGE_TEMPLATE.format(**svg_data)
+    with open(filename, 'w', encoding='utf-8') as f:
         f.write(SVG_ROOT.format(height=20, width=106, svg=svg))
     files.append(filename)
 

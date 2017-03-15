@@ -55,9 +55,9 @@ class ExtraATCsTable(tables.Table):
         try:
             col_widths = self.get_column_widths(len(self.HEADERS))
             title, messages = self.make_title()
-        except SystemMessagePropagation, detail:
+        except SystemMessagePropagation as detail:
             return [detail.args[0]]
-        except Exception, err:
+        except Exception as err:
             error = self.state_machine.reporter.error(
                 'Error processing memberstable directive:\n%s' % err,
                 nodes.literal_block(self.block_text, self.block_text),
@@ -125,7 +125,7 @@ class ExtraATCsTable(tables.Table):
                 # in re match group with empty string.
                 cell = row.get(self.HEADER_MAP[h]) or ''
                 entry = nodes.entry()
-                para = nodes.paragraph(text=unicode(cell))
+                para = nodes.paragraph(text=str(cell))
                 entry += para
                 trow += entry
             rows.append(trow)
