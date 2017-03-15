@@ -37,7 +37,7 @@ team_validators = [
 ]
 
 # List of modules to validate repository based tags
-repo_validators = [ ]
+repo_validators = []
 
 
 def main():
