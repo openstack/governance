@@ -338,6 +338,8 @@ I18n
 
 Planning Artifacts:
 
+    * https://blueprints.launchpad.net/openstack-i18n/+spec/python35-support
+
 Completion Artifacts:
 
 Infrastructure
