@@ -1641,18 +1641,12 @@ Infrastructure:
     releasestatus:
       repos:
         - openstack-infra/releasestatus
-    requestsexceptions:
-      repos:
-        - openstack-infra/requestsexceptions
     reviewday:
       repos:
         - openstack-infra/reviewday
     reviewstats:
       repos:
         - openstack-infra/reviewstats
-    shade:
-      repos:
-        - openstack-infra/shade
     statusbot:
       repos:
         - openstack-infra/statusbot
@@ -4451,6 +4445,29 @@ senlin:
     senlin-dashboard:
       repos:
         - openstack/senlin-dashboard
+
+shade:
+  ptl:
+    name: Monty Taylor
+    irc: mordred
+    email: mordred@inaugust.com
+  irc-channel: openstack-shade
+  service: Multi-cloud interoperability library
+  mission: >
+    To hide deployer differences in OpenStack clouds for end users, empowering
+    developers to easily write applications that consume multiple clouds.
+  url: https://docs.openstack.org/infra/shade
+  deliverables:
+    requestsexceptions:
+      repos:
+        - openstack-infra/requestsexceptions
+      tags:
+        - assert:follows-standard-deprecation
+    shade:
+      repos:
+        - openstack-infra/shade
+      tags:
+        - assert:follows-standard-deprecation
 
 solum:
   ptl:
