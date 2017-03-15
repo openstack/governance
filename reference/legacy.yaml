@@ -218,6 +218,10 @@ neutron:
         retired-on: 2016-11-01
         repos:
           - openstack/networking-l2gw
+    - networking-ofagent:
+        retired-on: 2017-03-03
+        repos:
+          - openstack/networking-ofagent
     - networking-onos:
         retired-on: 2016-11-01
         repos:

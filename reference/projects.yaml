@@ -2176,9 +2176,6 @@ neutron:
     networking-odl:
       repos:
         - openstack/networking-odl
-    networking-ofagent:
-      repos:
-        - openstack/networking-ofagent
     networking-ovn:
       repos:
         - openstack/networking-ovn
