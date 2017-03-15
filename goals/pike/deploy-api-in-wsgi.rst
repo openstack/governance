@@ -203,7 +203,12 @@ I18n
 
 Planning Artifacts:
 
+    The I18n team does not have any API services and therefore has
+    nothing to do.
+
 Completion Artifacts:
+
+    Not Applicable
 
 Infrastructure
 --------------
