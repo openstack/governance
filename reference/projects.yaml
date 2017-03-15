@@ -2596,6 +2596,9 @@ OpenStackAnsible:
     openstack-ansible-os_cloudkitty:
       repos:
         - openstack/openstack-ansible-os_cloudkitty
+    openstack-ansible-os_molteniron:
+      repos:
+        - openstack/openstack-ansible-os_molteniron
     openstack-ansible-os_monasca:
       repos:
         - openstack/openstack-ansible-os_monasca
