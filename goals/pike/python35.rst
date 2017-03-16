@@ -524,7 +524,12 @@ Release Management
 
 Planning Artifacts:
 
+https://etherpad.openstack.org/p/pike-relmgt-plan
+
 Completion Artifacts:
+
+* Port the releases repository jobs to use python 3.5: https://review.openstack.org/#/q/project:openstack/releases+topic:goal-python35
+* Switch the releases repo to gate on python 3.5: https://review.openstack.org/#/c/441459/
 
 requirements
 ------------
