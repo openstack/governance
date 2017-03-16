@@ -1800,8 +1800,8 @@ karbor:
       repos:
         - openstack/karbor
       docs:
-        contributor: null
-        api: null
+        contributor: https://docs.openstack.org/developer/karbor/
+        api: https://developer.openstack.org/api-ref/data-protection-orchestration/
     karbor-dashboard:
       repos:
         - openstack/karbor-dashboard
