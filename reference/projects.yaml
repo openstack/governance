@@ -250,7 +250,7 @@ designate:
   ptl:
     name: Tim Simmons
     irc: timsim
-    email: tim.simmons@rackspace.com
+    email: tim.r.simmons@gmail.com
   service: DNS service
   irc-channel: openstack-dns
   mission: >
