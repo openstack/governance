@@ -388,7 +388,14 @@ Quality Assurance
 
 Planning Artifacts:
 
+The only project that includes a python web application is the API part
+of OpenStack Health, which is not an OpenStack control plane service.
+OpenStack Health API is deployed as a WSGI application as part of OpenStack
+infra. Further details in https://etherpad.openstack.org/p/pike-qa-goals-wsgi.
+
 Completion Artifacts:
+
+Nothing to be done.
 
 rally
 -----
