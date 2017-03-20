@@ -349,3 +349,18 @@ solum:
         retired-on: 2016-11-24
         repos:
           - openstack/solum-infra-guestagent
+
+Telemetry:
+  irc-channel: openstack-telemetry
+  service: Telemetry service
+  url: https://wiki.openstack.org/wiki/Telemetry
+  partial: yes
+  deliverables:
+    - gnocchi:
+        retired-on: 2017-03-20
+        repos:
+          - openstack/gnocchi
+    - python-gnocchiclient:
+        retired-on: 2017-03-20
+        repos:
+          - openstack/python-gnocchiclient
