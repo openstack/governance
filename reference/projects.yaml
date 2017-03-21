@@ -2274,6 +2274,9 @@ nova:
     os-vif:
       repos:
         - openstack/os-vif
+    osc-placement:
+      repos:
+        - openstack/osc-placement
 
 octavia:
   ptl:
