@@ -366,7 +366,15 @@ keystone
 
 Planning Artifacts:
 
+* Keystone has no planning documentation at this time since Python 3 support
+  has already been implemented.
+
 Completion Artifacts:
+
+* `keystone <http://git.openstack.org/cgit/openstack/keystone/tree/setup.cfg#n19>`_
+* `keystonemiddleware <http://git.openstack.org/cgit/openstack/keystonemiddleware/tree/setup.cfg#n19>`_
+* `python-keystoneclient <http://git.openstack.org/cgit/openstack/python-keystoneclient/tree/setup.cfg#n19>`_
+* `keystoneauth <http://git.openstack.org/cgit/openstack/keystoneauth/tree/setup.cfg#n19>`_
 
 kolla
 -----
