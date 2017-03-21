@@ -3969,6 +3969,7 @@ Packaging-rpm:
     To make OpenStack easier to update and consume by operators and
     provide tooling to package all OpenStack projects directly for
     all RPM based distributions.
+  irc-channel: openstack-rpm-packaging
   deliverables:
     rpm-packaging:
       repos:
