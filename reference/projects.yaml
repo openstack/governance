@@ -2267,8 +2267,6 @@ octavia:
     To provide scalable, on demand, self service access to load-balancer
     services, in technology-agnostic manner.
   url: https://wiki.openstack.org/wiki/Octavia
-  tags:
-    - team:diverse-affiliation
   deliverables:
     neutron-lbaas:
       repos:
@@ -2622,6 +2620,8 @@ OpenStackClient:
     Provide a single command-line interface for OpenStack services with a
     uniform command set and format.
   url: https://wiki.openstack.org/wiki/OpenStackClient
+  tags:
+    - team:diverse-affiliation
   deliverables:
     cliff:
       repos:
@@ -4251,6 +4251,8 @@ RefStack:
     RefStack is a test result collection and reporting service to support the
     Interop Working Group interoperability testing process.
   url: https://wiki.openstack.org/wiki/RefStack
+  tags:
+    - team:diverse-affiliation
   deliverables:
     refstack:
       repos:
