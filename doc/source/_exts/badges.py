@@ -14,9 +14,9 @@
 Generate badges for the projects
 """
 
-import os
 from itertools import chain
 from itertools import zip_longest
+import os
 
 from PIL import ImageFont
 
@@ -26,15 +26,15 @@ import projects
 PADDING = 8
 BASE_TAGS_URL = 'https://governance.openstack.org/tc/reference/tags/'
 COLOR_SCHEME = {
-  "brightgreen":    "#4c1",
-  "green":          "#97CA00",
-  "yellow":         "#dfb317",
-  "yellowgreen":    "#a4a61d",
-  "orange":         "#fe7d37",
-  "red":            "#e05d44",
-  "blue":           "#007ec6",
-  "grey":           "#555",
-  "lightgrey":      "#9f9f9f",
+    "brightgreen": "#4c1",
+    "green": "#97CA00",
+    "yellow": "#dfb317",
+    "yellowgreen": "#a4a61d",
+    "orange": "#fe7d37",
+    "red": "#e05d44",
+    "blue": "#007ec6",
+    "grey": "#555",
+    "lightgrey": "#9f9f9f",
 }
 
 SVG_ROOT = """<?xml version="1.0" standalone="no"?>
@@ -154,6 +154,7 @@ def _organize_badges(badges):
             col_x += width_badge['width'] + 3
             result[y].append(badge)
     return result
+
 
 def _to_svg(badges):
     for badge in badges:

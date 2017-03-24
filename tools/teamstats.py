@@ -120,6 +120,7 @@ def get_core_reviews_by_company(group):
 
     return companies
 
+
 @_memoize
 def get_diversity_stats(project):
     team_stats = {}
@@ -177,7 +178,7 @@ def get_diversity_stats(project):
         if core_reviewers_total else 0)
     team_stats['core_reviewers_top2'] = (
         ((float(core_reviewers_values[0]) + float(core_reviewers_values[1])) /
-        core_reviewers_total * 100) if core_reviewers_total else 0)
+         core_reviewers_total * 100) if core_reviewers_total else 0)
 
     return team_stats
 

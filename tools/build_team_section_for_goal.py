@@ -29,7 +29,7 @@ def main():
     parser = argparse.ArgumentParser(
         'build the "Project Teams" section of a goal document',
     )
-    args = parser.parse_args()
+    parser.parse_args()
 
     print('Paste this output to the end of the goals file:\n')
 

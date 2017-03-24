@@ -19,6 +19,7 @@ import re
 from docutils import nodes
 from docutils.parsers.rst import directives
 from docutils.parsers.rst.directives import tables
+from docutils.utils import SystemMessagePropagation
 
 import projects
 
@@ -40,9 +41,6 @@ class ExtraATCsTable(tables.Table):
                    }
 
     def run(self):
-        env = self.state.document.settings.env
-        app = env.app
-
         project = self.options.get('project')
         if not project:
             error = self.state_machine.reporter.error(
@@ -62,7 +60,7 @@ class ExtraATCsTable(tables.Table):
                 'Error processing memberstable directive:\n%s' % err,
                 nodes.literal_block(self.block_text, self.block_text),
                 line=self.lineno,
-                )
+            )
             return [error]
 
         all_teams = projects.get_project_data()

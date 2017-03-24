@@ -3,7 +3,6 @@
 """
 
 import csv
-import sys
 
 with open('defcore.csv', 'r') as infile:
     reader = csv.reader(infile)
