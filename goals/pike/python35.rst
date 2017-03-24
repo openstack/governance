@@ -429,7 +429,7 @@ nova
 
 Planning Artifacts:
 
-`https://blueprints.launchpad.net/nova/+spec/goal-python35`_
+* https://blueprints.launchpad.net/nova/+spec/goal-python35
 
 Completion Artifacts:
 
