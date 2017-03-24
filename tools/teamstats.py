@@ -155,7 +155,7 @@ def get_diversity_stats(project):
     team_stats['reviews_top2'] = (
         (float(sum(top2)) / reviews_total * 100) if reviews_total else 0)
     core_review_values = [company['reviews'] for company in
-                          core_reviews_by_company.itervalues()]
+                          core_reviews_by_company.values()]
     if len(core_review_values) == 1:
         core_review_values = [core_review_values[0], 0]
     core_review_values.sort(reverse=True)
@@ -167,7 +167,7 @@ def get_diversity_stats(project):
         ((float(core_review_values[0]) + float(core_review_values[1])) /
          core_reviews_total * 100) if core_reviews_total else 0)
     core_reviewers_values = [company['reviewers'] for company in
-                             core_reviews_by_company.itervalues()]
+                             core_reviews_by_company.values()]
     if len(core_reviewers_values) == 1:
         core_reviewers_values = [core_reviewers_values[0], 0]
     core_reviewers_values.sort(reverse=True)
@@ -210,19 +210,19 @@ def is_single_vendor(team):
 
 def print_diversity(team):
     team_stats = get_diversity_stats(team)
-    print '%-18s (%.2f%% | %.2f%% | %.2f%% | %.2f%%)' % (
+    print('%-18s (%.2f%% | %.2f%% | %.2f%% | %.2f%%)' % (
         team, team_stats['commits_top'], team_stats['reviews_top'],
-        team_stats['core_reviews_top'], team_stats['core_reviewers_top'])
-    print '%-18s (%.2f%% | %.2f%% | %.2f%% | %.2f%%)' % (
+        team_stats['core_reviews_top'], team_stats['core_reviewers_top']))
+    print('%-18s (%.2f%% | %.2f%% | %.2f%% | %.2f%%)' % (
         '', team_stats['commits_top2'], team_stats['reviews_top2'],
-        team_stats['core_reviews_top2'], team_stats['core_reviewers_top2'])
+        team_stats['core_reviews_top2'], team_stats['core_reviewers_top2']))
 
 
 def print_team_size(team):
     team_stats = get_team_size_stats(team)
-    print '%-18s (%6s | %6s)' % (
+    print('%-18s (%6s | %6s)' % (
         '', team_stats['active_committers'],
-        team_stats['active_reviewers'])
+        team_stats['active_reviewers']))
 
 
 class ValidateDiversity(base.ValidatorBase):
@@ -254,11 +254,11 @@ def main():
     with open(filename, 'r') as f:
         projects = [k for k in yaml.safe_load(f.read())]
         projects.sort()
-    print '<Team> (top commit % | top review % | top core review % | ' \
-        'top core reviewer %)'
-    print '       (top 2 commit % | top 2 review % | top 2 core review % | ' \
-        'top 2 core reviewer %)'
-    print '       (active committers | active reviewers)'
+    print('<Team> (top commit % | top review % | top core review % | '
+          'top core reviewer %)')
+    print('       (top 2 commit % | top 2 review % | top 2 core review % | '
+          'top 2 core reviewer %)')
+    print('       (active committers | active reviewers)')
     for project in projects:
         print_diversity(project)
         print_team_size(project)

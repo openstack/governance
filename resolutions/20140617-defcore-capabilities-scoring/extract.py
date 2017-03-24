@@ -21,7 +21,7 @@ with open('defcore.csv', 'r') as infile:
     # Add the spreadsheet row numbers
     for i, row in enumerate(rows, 3):
         row.insert(0, str(i))
-    print rows[0]
+    print(rows[0])
     rows[0][0] = 'Row'
 
     # Candidate Capabilities,TC Future Direction,Complete,Stable
@@ -33,9 +33,9 @@ with open('defcore.csv', 'r') as infile:
 
     header = ' '.join('=' * wid for wid in widths)
 
-    print header
-    print fmt.format(*rows[0])
-    print header
+    print(header)
+    print(fmt.format(*rows[0]))
+    print(header)
     for row in rows[1:]:
-        print fmt.format(*row)
-    print header
+        print(fmt.format(*row))
+    print(header)
