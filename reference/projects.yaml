@@ -4637,12 +4637,6 @@ Telemetry:
     ceilometermiddleware:
       repos:
         - openstack/ceilometermiddleware
-    gnocchi:
-      repos:
-        - openstack/gnocchi
-      docs:
-        contributor: https://docs.openstack.org/developer/gnocchi/
-        api: https://docs.openstack.org/developer/gnocchi/rest.html
     panko:
       repos:
         - openstack/panko
@@ -4657,9 +4651,6 @@ Telemetry:
     python-ceilometerclient:
       repos:
         - openstack/python-ceilometerclient
-    python-gnocchiclient:
-      repos:
-        - openstack/python-gnocchiclient
     python-pankoclient:
       repos:
         - openstack/python-pankoclient
