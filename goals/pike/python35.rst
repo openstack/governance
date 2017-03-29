@@ -183,6 +183,7 @@ Projects with Unit Tests Voting
 * solum
 * stevedore
 * taskflow
+* tripleo
 * trove
 * watcher
 * zaqar
@@ -616,9 +617,144 @@ Completion Artifacts:
 tripleo
 -------
 
-Planning Artifacts:
+TripleO only has two types of tests, unit and integration (the tripleo-ci
+jobs).  The unit tests are already running and voting on the TripleO
+Python projects, but there is a problem with using Python 3 in the integration
+tests.  These tests are dependent on downstream packaging, and downstream does
+not currently package Python 3 versions of all the OpenStack dependencies.  As
+of the Atlanta PTG they were not planning to start that work in the near
+future either.
 
-Completion Artifacts:
+It may be possible to get Python 3 dependencies from other sources, but then
+TripleO would lose the insulation against broken dependencies that RDO
+provides through its promotion system.  This is similar to the upper
+constraints system in OpenStack proper.
+
+Basically TripleO has a circular dependency on the "allowing downstream
+packaging to catch up" part of the goal.  Given that, the team's plan was to
+focus on ensuring every Python project in TripleO is gating on py35 and to
+improve unit test coverage of the projects so there is a better chance of
+TripleO working on Python 3 once that becomes possible from a packaging
+perspective.
+
+* dib-utils
+
+This repository doesn't contain Python code (only bash).
+
+* instack
+
+  - Planning Artifacts: none.
+
+  - Completion Artifacts: py35 unit tests are passing and gating.
+
+* instack-undercloud
+
+  - Planning Artifacts: none.
+
+  - Completion Artifacts: py35 unit tests are passing and gating.
+
+* os-apply-config
+
+  - Planning Artifacts: none.
+
+  - Completion Artifacts: py35 unit tests are passing and gating.
+
+* os-collect-config
+
+  - Planning Artifacts: none.
+
+  - Completion Artifacts: py35 unit tests are passing and gating.
+
+* os-net-config
+
+  - Planning Artifacts: none.
+
+  - Completion Artifacts: py35 unit tests are passing and gating.
+
+* os-refresh-config
+
+  - Planning Artifacts: none.
+
+  - Completion Artifacts: py35 unit tests are passing and gating.
+
+* puppet-tripleo
+
+  - Planning Artifacts: none, this project is written in Puppet and Ruby.
+
+  - Completion Artifacts: none, this project is written in Puppet and Ruby.
+
+* python-tripleoclient
+
+  - Planning Artifacts: none.
+
+  - Completion Artifacts: py35 unit tests are passing and gating.
+
+* tripleo-common
+
+  - Planning Artifacts: none.
+
+  - Completion Artifacts: py35 unit tests are passing and gating.
+
+* tripleo-docs
+
+  - Planning Artifacts: none, this project is written in RST.
+
+  - Completion Artifacts: none, this project is written in RST.
+
+* tripleo-heat-templates
+
+  - Planning Artifacts: https://blueprints.launchpad.net/tripleo/+spec/support-python-35
+
+  - Completion Artifacts: None.
+
+* tripleo-image-elements
+
+This repository doesn't contain Python code (only bash).
+
+* tripleo-incubator
+
+This project is deprecated and will be removed soon if not in Pike.
+
+* tripleo-puppet-elements
+
+This repository doesn't contain Python code (only bash).
+
+* tripleo-quickstart
+
+  - Planning Artifacts: None, these are Ansible playbooks.
+
+  - Completion Artifacts: None
+
+* tripleo-quickstart-extras
+
+  - Planning Artifacts: None, these are Ansible playbooks.
+
+  - Completion Artifacts: none
+
+* tripleo-repos
+
+  - Planning Artifacts: make Python jobs working (WIP).
+
+  - Completion Artifacts: none
+
+* tripleo-specs
+
+  - Planning Artifacts: none, this project is written in RST.
+
+  - Completion Artifacts: none, this project is written in RST.
+
+* tripleo-ui
+
+  - Planning Artifacts: none, this project is written in Javascript and CSS.
+
+  - Completion Artifacts: none, this project is written in Javascript and CSS.
+
+* tripleo-validations
+
+  - Planning Artifacts: None, these are Ansible playbooks.
+
+  - Completion Artifacts: none
+
 
 trove
 -----
