@@ -203,12 +203,12 @@ I18n
 
 Planning Artifacts:
 
-    The I18n team does not have any API services and therefore has
-    nothing to do.
+* The I18n team does not have any API services and therefore has
+  nothing to do
 
 Completion Artifacts:
 
-    Not Applicable
+* None
 
 Infrastructure
 --------------
@@ -236,12 +236,12 @@ keystone
 
 Planning Artifacts:
 
-  Keystone has no planning documents at this time since support was
+* Keystone has no planning documents at this time since support was
   introduced prior to Kilo.
 
 Completion Artifacts:
 
-  http://git.openstack.org/cgit/openstack-dev/devstack/commit/?id=a00e5f8810b6ca3b0b5d63cc228125e19bc91955
+* http://git.openstack.org/cgit/openstack-dev/devstack/commit/?id=a00e5f8810b6ca3b0b5d63cc228125e19bc91955
 
 kolla
 -----
@@ -393,14 +393,14 @@ Quality Assurance
 
 Planning Artifacts:
 
-The only project that includes a python web application is the API part
-of OpenStack Health, which is not an OpenStack control plane service.
-OpenStack Health API is deployed as a WSGI application as part of OpenStack
-infra. Further details in https://etherpad.openstack.org/p/pike-qa-goals-wsgi.
+* The only project that includes a python web application is the API part
+  of OpenStack Health, which is not an OpenStack control plane service.
+  OpenStack Health API is deployed as a WSGI application as part of OpenStack
+  infra. Further details in https://etherpad.openstack.org/p/pike-qa-goals-wsgi.
 
 Completion Artifacts:
 
-Nothing to be done.
+* None
 
 rally
 -----
@@ -428,19 +428,20 @@ requirements
 
 Planning Artifacts:
 
-    The requirements team do not have any API services and therefore has
-    nothing to do.
+* The requirements team do not have any API services and therefore has
+  nothing to do.
 
 Completion Artifacts:
 
-    Not Applicable
+* None
 
 sahara
 ------
 
 Planning Artifacts:
-Update devstack plugin to deploy in WSGI with Apache
-Launchpad bug: https://bugs.launchpad.net/sahara/+bug/1673198
+
+* Update devstack plugin to deploy in WSGI with Apache
+* Launchpad bug: https://bugs.launchpad.net/sahara/+bug/1673198
 
 Completion Artifacts:
 
@@ -477,12 +478,12 @@ Stable branch maintenance
 
 Planning Artifacts:
 
-    The stable team doesn't have any code repositories and therefore has
-    nothing to do.
+* The stable team doesn't have any code repositories and therefore has
+  nothing to do.
 
 Completion Artifacts:
 
-    Not Applicable
+* None
 
 swift
 -----
