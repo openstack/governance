@@ -126,10 +126,21 @@ def get_diversity_stats(project):
     team_stats = {}
     # commits by company
     group = "%s-group" % project.lower()
-    commits = s.get('http://stackalytics.com/api/'
-                    '1.0/stats/companies?metric=commits&release=all'
-                    '&project_type=all&module=%s&start_date=%s'
-                    % (group, six_months)).json()
+    commit_resp = s.get('http://stackalytics.com/api/'
+                        '1.0/stats/companies?metric=commits&release=all'
+                        '&project_type=all&module=%s&start_date=%s'
+                        % (group, six_months))
+    if commit_resp.status_code == 404:
+        # The project in question doesn't have a group in stackalytics because
+        # it's part of a different group. Just look for it without the group
+        # suffix (e.g. during shade transition, there is no shade-group because
+        # the shade repo was in infra-group)
+        group = project.lower()
+        commit_resp = s.get('http://stackalytics.com/api/'
+                            '1.0/stats/companies?metric=commits&release=all'
+                            '&project_type=all&module=%s&start_date=%s'
+                            % (group, six_months))
+    commits = commit_resp.json()
     # reviews by company
     reviews = s.get('http://stackalytics.com/api/'
                     '1.0/stats/companies?metric=marks&release=all'
