@@ -10,6 +10,9 @@ The Technical Committee is formally defined in the
 `OpenStack Foundation bylaws`_ (in particular article 4.1(b), article 4.13
 and Appendix 4) and further refined in the :doc:`reference/charter`.
 
+Upstream work under the Technical Committee is organized under official
+:doc:`reference/projects/index` and more informal `Working Groups`_.
+
 These pages contain OpenStack Technical Committee reference documents
 and track official resolutions voted by the committee.
 
@@ -38,5 +41,7 @@ Reference documents and Resolutions
   governance changes.
 
 .. _`OpenStack Foundation bylaws`: http://www.openstack.org/legal/bylaws-of-the-openstack-foundation/
+
+.. _`Working Groups`: https://wiki.openstack.org/wiki/Upstream_Working_Groups
 
 .. _TechnicalCommittee: https://wiki.openstack.org/wiki/Governance/TechnicalCommittee
