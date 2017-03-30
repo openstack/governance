@@ -222,6 +222,8 @@ ironic
 
 Planning Artifacts:
 
+  RFE: https://bugs.launchpad.net/ironic/+bug/1513005
+
 Completion Artifacts:
 
 karbor
