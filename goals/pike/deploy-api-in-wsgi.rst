@@ -95,6 +95,8 @@ barbican
 
 Planning Artifacts:
 
+* https://blueprints.launchpad.net/barbican/+spec/goal-deploy-api-in-wsgi
+
 Completion Artifacts:
 
 Chef OpenStack

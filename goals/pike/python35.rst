@@ -226,6 +226,8 @@ barbican
 
 Planning Artifacts:
 
+* https://blueprints.launchpad.net/barbican/+spec/goal-py3
+
 Completion Artifacts:
 
 Chef OpenStack
