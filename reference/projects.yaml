@@ -1203,11 +1203,15 @@ I18n:
       comment: bokaitseng
     - name: Carlos Munoz
       email: camunoz@redhat.com
-      expires-in: April 2017
+      expires-in: April 2018
       comment: Zanata development
     - name: Alex Eng
       email: aeng@redhat.com
-      expires-in: April 2017
+      expires-in: April 2018
+      comment: Zanata development
+    - name: Patrick Huang
+      email: pahuang@redhat.com
+      expires-in: April 2018
       comment: Zanata development
 
 Infrastructure:
