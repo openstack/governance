@@ -29,11 +29,6 @@ barbican:
     barbican-tempest-plugin:
       repos:
         - openstack/barbican-tempest-plugin
-    castellan:
-      repos:
-        - openstack/castellan
-      tags:
-        - vulnerability:managed
     python-barbicanclient:
       repos:
         - openstack/python-barbicanclient
@@ -2684,6 +2679,12 @@ oslo:
         contributor: http://docs.openstack.org/developer/automaton/
       tags:
         - stable:follows-policy
+    castellan:
+      repos:
+        - openstack/castellan
+      tags:
+        - stable:follows-policy
+        - vulnerability:managed
     cookiecutter:
       repos:
         - openstack-dev/cookiecutter
