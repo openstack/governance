@@ -2889,6 +2889,9 @@ oslo:
         contributor: http://docs.openstack.org/developer/pylockfile/
       tags:
         - stable:follows-policy
+    sphinx-feature-classification:
+      repos:
+        - openstack/sphinx-feature-classification
     stevedore:
       repos:
         - openstack/stevedore
