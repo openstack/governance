@@ -7,6 +7,10 @@ By becoming an official OpenStack Project, they place
 themselves under the authority of the OpenStack Technical Committee. In return,
 their contributors get to vote in the Technical Committee election.
 
+Official project teams are documented in the `reference/projects.yaml` file
+from the `openstack/governance` repository. To propose an addition or a
+change, propose the corresponding `projects.yaml` file change for review.
+
 When considering new projects for addition, the TC will check that:
 
 * The project aligns with the OpenStack Mission:
@@ -73,6 +77,11 @@ In order to do an evaluation against this criteria, the TC expects the project
 to be set up and have some history to evaluate.  A few months of operating and
 following these project requirements is a rough guideline for how long
 to wait before applying to be approved by the TC.
+
+However, in order to facilitate adoption of existing established projects,
+candidate projects may ask the Technical Committee for an early answer on
+the question of alignment with the OpenStack Mission, before the project is
+set up on OpenStack development infrastructure.
 
 Once a project has joined OpenStack, it may create additional source code
 repositories as needed at the discretion of its Project Team Lead (PTL) without
