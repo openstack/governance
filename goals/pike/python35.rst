@@ -672,5 +672,7 @@ zun
 
 Planning Artifacts:
 
+* https://blueprints.launchpad.net/zun/+spec/support-python-35
+
 Completion Artifacts:
 
