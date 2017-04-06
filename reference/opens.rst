@@ -20,12 +20,12 @@ We use the Apache License, 2.0.
 Open Design
 -----------
 
-**We are committed to an open design process.**  Every six months the
-development community holds a design summit to gather requirements and write
-specifications for the upcoming release.  The design summits, which are **open
-to the public**, include users, developers, and upstream projects. We gather
-requirements and produce an approved roadmap used to guide development for the
-next six months.
+**We are committed to an open design process.**  Every development
+cycle the OpenStack community holds face-to-face events to gather
+requirements and write specifications for the upcoming release. Those
+events, which are **open to anyone**, include users, developers, and
+upstream projects. We gather requirements, define priorities and flesh
+out technical design to guide development for the next development cycle.
 
 The community controls the design process. You can help make this software
 meet your needs.
