@@ -25,7 +25,7 @@ When considering new projects for addition, the TC will check that:
     * The proposed project uses an open source license (preferably the Apache
       v2.0 license, since it is necessary if the project wants to be used in
       an OpenStack trademark program)
-    * Project must have no library dependencies which effectively restrict
+    * The project must have no library dependencies which effectively restrict
       how the project may be distributed or deployed
 
   * Open Community:

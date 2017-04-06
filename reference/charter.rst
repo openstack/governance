@@ -107,7 +107,7 @@ and should be held open for no less than four business days.
 Voters for PTL seats ("APC")
 ============================
 
-Voters for a given project's PTL election are the active project contributors
+Voters for a given project's PTL election are the Active Project Contributors
 ("APC"), which are a subset of the Foundation Individual Members. Individual
 Members who committed a change to a repository of a project over the last two
 6-month release cycles are considered APC for that project team.

@@ -17,8 +17,8 @@ One OpenStack
 -------------
 
 OpenStack is one community with one common mission, producing one framework
-of collaborating components. Our organization into separate source code
-repositories and teams allows contributors to focus on their areas of
+of collaborating components. Our organization is split into separate source
+code repositories and teams allowing contributors to focus on their areas of
 interest and expertise, but does not make OpenStack a loose collection of
 disconnected projects.
 
@@ -69,7 +69,7 @@ OpenStack Leaders Exist to Serve Their Community
 
 OpenStack leaders hold their positions only in order to serve the people
 they lead. The TC only exists to serve the technical community. PTLs
-exist to serve the contributors to and users of their projects.
+exist to serve the contributors and users of their projects.
 
 Changes in Leadership are Good
 ------------------------------

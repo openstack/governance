@@ -21,7 +21,7 @@ Current list of base services
 
 **An oslo.messaging-compatible message queue**
   Some inter-process and inter-service communication in OpenStack
-  components is accomplished using message queues, through oslo.messaging
+  components is accomplished using message queues through oslo.messaging
   as an indirection layer. While most OpenStack deployments use RabbitMQ,
   other message queues are supported.
 
