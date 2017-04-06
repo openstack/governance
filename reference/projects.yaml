@@ -2689,6 +2689,8 @@ oslo:
     castellan:
       repos:
         - openstack/castellan
+      docs:
+        contributor: https://docs.openstack.org/developer/castellan/
       tags:
         - stable:follows-policy
         - vulnerability:managed
