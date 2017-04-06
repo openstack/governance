@@ -1771,6 +1771,9 @@ ironic:
     sushy:
       repos:
         - openstack/sushy
+    sushy-tools:
+      repos:
+        - openstack/sushy-tools
     virtualbmc:
       repos:
         - openstack/virtualbmc
