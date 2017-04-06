@@ -505,10 +505,12 @@ Puppet OpenStack
 ----------------
 
 Planning Artifacts:
-Nothing is planned since Puppet OpenStack doesn't contain Python code.
+
+* Nothing is planned since Puppet OpenStack doesn't contain Python code
 
 Completion Artifacts:
-None.
+
+* None
 
 Quality Assurance
 -----------------
@@ -536,7 +538,7 @@ Release Management
 
 Planning Artifacts:
 
-https://etherpad.openstack.org/p/pike-relmgt-plan
+* https://etherpad.openstack.org/p/pike-relmgt-plan
 
 Completion Artifacts:
 
@@ -590,12 +592,12 @@ Stable branch maintenance
 
 Planning Artifacts:
 
-    The stable team doesn't have any code repositories and therefore has
-    nothing to do.
+* The stable team doesn't have any code repositories and therefore has
+  nothing to do
 
 Completion Artifacts:
 
-    Not Applicable
+* None
 
 swift
 -----
