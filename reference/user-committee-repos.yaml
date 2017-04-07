@@ -1,6 +1,7 @@
 ---
 # List of repositories owned by the User Committee and subcommittees
 Enterprise Working Group:
+  - repo: openstack/enterprise-wg
   - repo: openstack/workload-ref-archs
 Ops Tags Team:
   - repo: openstack/ops-tags-team
