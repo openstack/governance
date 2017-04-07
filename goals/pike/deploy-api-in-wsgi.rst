@@ -308,6 +308,13 @@ nova
 
 Planning Artifacts:
 
+Nova is tracking the work in the `devstack-uwsgi etherpad`_. The placement
+service already runs under mod_wsgi in devstack but that will be changed to
+uwsgi. There is also a bug in nova-api that needs to be fixed before we can
+deploy it under uswgi in devstack for testing.
+
+.. _devstack-uwsgi etherpad: https://etherpad.openstack.org/p/devstack-uwsgi
+
 Completion Artifacts:
 
 octavia
