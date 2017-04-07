@@ -2018,7 +2018,6 @@ mistral:
       repos:
         - openstack/mistral
         - openstack/mistral-dashboard
-        - openstack/mistral-lib
       docs:
         contributor: http://docs.openstack.org/developer/mistral/
         api:
@@ -2032,6 +2031,9 @@ mistral:
     python-mistralclient:
       repos:
         - openstack/python-mistralclient
+    mistral-lib:
+      repos:
+        - openstack/mistral-lib
 
 monasca:
   ptl:
