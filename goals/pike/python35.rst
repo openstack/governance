@@ -452,7 +452,17 @@ octavia
 
 Planning Artifacts:
 
+All python 3.5 unit, functional, and tempest tests are in place.
+Unit and functional tests are voting, scenario tests are blocked pending
+diskimage-builder patches for python 3.5. Specifically this patch:
+https://review.openstack.org/#/c/449721/
+
 Completion Artifacts:
+
+* setup.cfg: https://review.openstack.org/#/c/341070/
+* Unit tests are voting: https://review.openstack.org/#/c/337946
+* Functional tests voting: https://review.openstack.org/446148
+* Scenario tests voting: Pending DIB patch
 
 OpenStack Charms
 ----------------
