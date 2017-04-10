@@ -475,7 +475,12 @@ solum
 
 Planning Artifacts:
 
+* https://blueprints.launchpad.net/solum/+spec/solum-api-under-wsgi
+
 Completion Artifacts:
+
+* Add wsgi script file: https://review.openstack.org/#/c/448400/
+* Enable wsgi on devstack jobs: https://review.openstack.org/#/c/448410/
 
 Stable branch maintenance
 -------------------------
