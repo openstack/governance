@@ -554,7 +554,11 @@ trove
 
 Planning Artifacts:
 
+* https://bugs.launchpad.net/trove/+bug/1681478
+
 Completion Artifacts:
+
+* https://review.openstack.org/455477
 
 vitrage
 -------
