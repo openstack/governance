@@ -191,7 +191,12 @@ heat
 
 Planning Artifacts:
 
+* Heat has no planning documents at this time since the support was
+  introduced and enabled by default at Ocata.
+
 Completion Artifacts:
+
+* `heat <http://git.openstack.org/cgit/openstack/heat/commit/?id=6ef5fa9adc8886ed339132b5e5e27cee4000f762>`_
 
 horizon
 -------
