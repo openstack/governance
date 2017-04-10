@@ -233,6 +233,8 @@ karbor
 
 Planning Artifacts:
 
+* https://bugs.launchpad.net/karbor/+bug/1681500
+
 Completion Artifacts:
 
 keystone
