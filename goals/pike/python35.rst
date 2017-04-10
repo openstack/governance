@@ -263,6 +263,9 @@ congress
 
 Planning Artifacts:
 
+* https://blueprints.launchpad.net/congress/+spec/support-python3
+* https://bugs.launchpad.net/congress/+bug/1681577
+
 Completion Artifacts:
 
 designate
