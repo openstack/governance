@@ -473,6 +473,10 @@ OpenStackAnsible
 
 Planning Artifacts:
 
+* https://blueprints.launchpad.net/openstack-ansible/+spec/goal-python35
+
+NB Dependent on upstream projects achieving python35 goal.
+
 Completion Artifacts:
 
 OpenStackClient
