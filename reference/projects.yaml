@@ -4732,11 +4732,6 @@ tripleo:
     os-apply-config:
       repos:
         - openstack/os-apply-config
-    os-cloud-config:
-      repos:
-        - openstack/os-cloud-config
-      docs:
-        contributor: http://docs.openstack.org/developer/os-cloud-config/
     os-collect-config:
       repos:
         - openstack/os-collect-config

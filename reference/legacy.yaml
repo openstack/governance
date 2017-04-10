@@ -364,3 +364,16 @@ Telemetry:
         retired-on: 2017-03-20
         repos:
           - openstack/python-gnocchiclient
+
+tripleo:
+  irc-channel: tripleo
+  partial: yes
+  service: Deployment service
+  url: https://wiki.openstack.org/wiki/TripleO
+  deliverables:
+    - os-cloud-config:
+        repos:
+          - openstack/os-cloud-config
+        retired-on: 2017-03-28
+        docs:
+          contributor: http://docs.openstack.org/developer/os-cloud-config/
