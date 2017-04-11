@@ -277,6 +277,10 @@ Documentation
 
 Planning Artifacts:
 
+* https://blueprints.launchpad.net/openstack-doc-tools/+spec/support-python3.5
+
+Note: This applies to the doc-tools and openstackdoctheme repos.
+
 Completion Artifacts:
 
 dragonflow
