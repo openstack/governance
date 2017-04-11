@@ -2117,8 +2117,8 @@ murano:
       repos:
         - openstack/murano
       docs:
-        contributor: http://docs.openstack.org/developer/murano/
-        api: null
+        contributor: https://docs.openstack.org/developer/murano/
+        api: https://developer.openstack.org/api-ref/application-catalog/v1/
       tags:
         - stable:follows-policy
     murano-agent:
