@@ -287,7 +287,12 @@ monasca
 
 Planning Artifacts:
 
+* https://review.openstack.org/442365
+
 Completion Artifacts:
+
+* https://review.openstack.org/439577
+* https://review.openstack.org/436890
 
 murano
 ------
