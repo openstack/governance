@@ -172,6 +172,7 @@ Projects with Unit Tests Voting
 * python-openstackclient
 * python-saharaclient
 * python-senlinclient
+* python-solumclient
 * python-swiftclient
 * python-troveclient
 * python-tuskarclient
@@ -181,6 +182,7 @@ Projects with Unit Tests Voting
 * searchlight
 * senlin
 * solum
+* solum-dashboard
 * stevedore
 * taskflow
 * trove
@@ -587,7 +589,14 @@ solum
 
 Planning Artifacts:
 
+* Solum has no planning documentation at this time since Python 3 support
+  has already been implemented.
+
 Completion Artifacts:
+
+* `solum <http://git.openstack.org/cgit/openstack/solum/tree/setup.cfg#n20>`_
+* `python-solumclient <http://git.openstack.org/cgit/openstack/python-solumclient/tree/setup.cfg#n19>`_
+* `solum-dashboard <http://git.openstack.org/cgit/openstack/solum-dashboard/tree/setup.cfg#n13>`_
 
 Stable branch maintenance
 -------------------------
