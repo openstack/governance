@@ -648,7 +648,11 @@ vitrage
 
 Planning Artifacts:
 
+* https://blueprints.launchpad.net/vitrage/+spec/support-python-35
+
 Completion Artifacts:
+
+* None
 
 watcher
 -------

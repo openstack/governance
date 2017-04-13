@@ -561,7 +561,12 @@ vitrage
 
 Planning Artifacts:
 
+* None. The Vitrage devstack jobs already deploy the Vitrage API in WSGI
+  with Apache
+
 Completion Artifacts:
+
+* None
 
 watcher
 -------
