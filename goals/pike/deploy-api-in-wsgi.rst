@@ -57,7 +57,7 @@ via WSGI:
 * designate
 * freezer
 * glance
-* kuryr
+* kuryr-libnetwork
 * magnum
 * murano
 * neutron
@@ -258,6 +258,11 @@ kuryr
 -----
 
 Planning Artifacts:
+
+* https://blueprints.launchpad.net/kuryr-libnetwork/+spec/deploy-kuryr-libnetwork-api-in-wsgi
+* https://blueprints.launchpad.net/fuxi/+spec/goal-deploy-api-in-wsgi
+* Only kuryr-libnetwork and fuxi includes an API server of some sort. Other projects do
+  not serve APIs, so nothing to be done there.
 
 Completion Artifacts:
 
