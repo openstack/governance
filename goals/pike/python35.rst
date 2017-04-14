@@ -519,7 +519,13 @@ Quality Assurance
 
 Planning Artifacts:
 
+QA projects already mostly support python 3.5.
+The little left to be done to is tracked in this etherpad:
+https://etherpad.openstack.org/p/pike-qa-goals-py35
+
 Completion Artifacts:
+
+https://review.openstack.org/#/q/branch:master+topic:qa_py35_ack
 
 rally
 -----
