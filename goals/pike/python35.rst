@@ -647,7 +647,14 @@ trove
 
 Planning Artifacts:
 
+Trove already has voting python35 gate jobs. The classifier has been
+added to setup.cfg. There are no specific planning artifacts for this
+project.
+
 Completion Artifacts:
+
+* https://review.openstack.org/#/c/454699/
+* https://review.openstack.org/#/c/454697/
 
 vitrage
 -------
