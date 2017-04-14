@@ -425,7 +425,12 @@ Release Management
 
 Planning Artifacts:
 
+* The Release management team doesn't have any API services and therefore
+  has nothing to do
+
 Completion Artifacts:
+
+* None
 
 requirements
 ------------
