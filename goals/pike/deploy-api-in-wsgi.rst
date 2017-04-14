@@ -575,6 +575,14 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+Watcher API may now works with mod-wsgi.
+Patchset https://review.openstack.org/#/c/450740/ provided the following
+changes:
+
+* wsgi app script files, to run watcher-api under Apache HTTPd.
+* updated devstack plugin to run watcher-api default with mod-wsgi.
+* document to deploy watcher-api behind wsgi.
+
 winstackers
 -----------
 
