@@ -30,7 +30,7 @@ the ``openstack`` CLI command.
 
 The history of this decision is that the documentation contributors wanted the
 least amount of cognitive overhead when writing and reviewing. Learning rules
-about case can be difficult across multiple projects and with hundreds of
+about case can be difficult across multiple projects with hundreds of
 documentation contributors and thousands of changes and additions. Lowercase
 for project names as a rule is then easiest to review and enforce at this scale
 and growth pattern.
@@ -74,5 +74,3 @@ Developer documentation may refer to the project name, but end-user, operator,
 administrator, and application developer documentation must refer to the
 service name. When reviewing service names, consider the consumers of the
 information.
-
-
