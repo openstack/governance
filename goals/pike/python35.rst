@@ -180,6 +180,7 @@ Projects with Unit Tests Voting
 * sahara
 * searchlight
 * senlin
+* shade
 * solum
 * stevedore
 * taskflow

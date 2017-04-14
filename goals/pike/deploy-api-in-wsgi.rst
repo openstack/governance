@@ -475,6 +475,18 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+shade
+-----
+
+Planning Artifacts:
+
+* The shade team does not have any API services and therefore has
+  nothing to do.
+
+Completion Artifacts:
+
+* None
+
 solum
 -----
 
