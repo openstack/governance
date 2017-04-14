@@ -1340,6 +1340,9 @@ Infrastructure:
     meetbot:
       repos:
         - openstack-infra/meetbot
+    mqtt_statsd:
+      repos:
+        - openstack-infra/mqtt_statsd
     nodepool:
       repos:
         - openstack-infra/nodepool
@@ -1511,6 +1514,9 @@ Infrastructure:
     puppet-mosquitto:
       repos:
         - openstack-infra/puppet-mosquitto
+    puppet-mqtt_statsd:
+      repos:
+        - openstack-infra/puppet-mqtt_statsd
     puppet-mysql_backup:
       repos:
         - openstack-infra/puppet-mysql_backup
