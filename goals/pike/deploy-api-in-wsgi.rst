@@ -301,7 +301,12 @@ neutron
 
 Planning Artifacts:
 
+* https://bugs.launchpad.net/neutron/+bug/1666779
+
 Completion Artifacts:
+
+* Expose neutron app as a wsgi script: https://review.openstack.org/#/c/409351/
+* Enable neutron wsgi in devstack: https://review.openstack.org/#/c/439191/
 
 nova
 ----
