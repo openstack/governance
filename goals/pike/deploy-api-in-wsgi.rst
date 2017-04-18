@@ -619,5 +619,9 @@ zun
 
 Planning Artifacts:
 
+* https://blueprints.launchpad.net/zun/+spec/deploy-zun-api-in-wsgi
+
 Completion Artifacts:
 
+* Add wsgi script file: https://review.openstack.org/#/c/437190/
+* Enable wsgi on devstack jobs: https://review.openstack.org/#/c/438774/
