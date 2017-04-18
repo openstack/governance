@@ -320,6 +320,10 @@ octavia
 
 Planning Artifacts:
 
+The octavia API is already implemented as a wsgi application, we just need to
+setup the web server integration.  This is work in progress here:
+https://review.openstack.org/440934
+
 Completion Artifacts:
 
 OpenStack Charms
