@@ -137,6 +137,8 @@ congress
 
 Planning Artifacts:
 
+* https://bugs.launchpad.net/congress/+bug/1670517
+
 Completion Artifacts:
 
 designate
