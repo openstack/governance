@@ -384,6 +384,8 @@ karbor
 
 Planning Artifacts:
 
+* https://bugs.launchpad.net/karbor/+bug/1681622
+
 Completion Artifacts:
 
 keystone
