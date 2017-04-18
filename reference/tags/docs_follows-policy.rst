@@ -48,7 +48,7 @@ maintaining projects outside of the starter-kit set, and deployment projects,
 apply for this tag. Having the tag indicates that the project teams commit
 to provide accurate documentation every release. In these cases, the
 documentation team will review the project team's guides, but won't
-necessarily contribute significanly to ongoing maintenance.
+necessarily contribute significantly to ongoing maintenance.
 
 Requirements
 ============
