@@ -62,6 +62,7 @@ project doesn't actually meet the documented criteria.
    assert_supports-rolling-upgrade
    assert_supports-zero-downtime-upgrade
    assert_supports-zero-impact-upgrade
+   status_maintenance-mode
 
 Vulnerability Management Tags
 =============================
