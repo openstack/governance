@@ -20,7 +20,7 @@ status:maintenance-mode
 The status:maintenance-mode tag is a project team level tag.
 
 There are situations the project team or the TC wish to indicate that
-a project team is in a transient period of low activity (which we call
+a project team is in a period of low activity (which we call
 'maintenance-mode'). This is accomplished by applying the
 status:maintenance-mode tag to the project team.
 
@@ -63,7 +63,9 @@ the project team.
   actions required to cause a release to be available as part of the
   regular OpenStack release schedule
 * the project team will fix and release fixes to security issues
-  raised by the VMT.
+  raised by the VMT
+* the project team will keep their project in line with the global
+  requirements list
 
 When a project team is in maintenance-mode, the following are
 explicitly not guaranteed.
@@ -84,13 +86,13 @@ This tag is applied either by the Technical Committee or the project
 team (voluntarily).
 
 The application of the tag requires a change to be submitted to the
-governance repository by the PTL or a member of the Technical
-Committee. The change should include a justification for why the tag
-should be applied or removed.
+governance repository. The change should include a justification for
+why the tag should be applied or removed.
 
-The change is reviewed by the Technical Committee and approved using
-standard resolution approval rules, including discussion at at least
-one Technical Committee public IRC meeting.
+The change is reviewed by the Technical Committee and discussed with
+the project team. It should be approved using standard resolution
+approval rules, including discussion at at least one Technical
+Committee public IRC meeting.
 
 Deprecation
 ===========
