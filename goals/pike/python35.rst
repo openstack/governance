@@ -333,7 +333,16 @@ heat
 
 Planning Artifacts:
 
+* Heat will enable python35 gates for voting.
+* heat-agents repo support for python35
+* heat-templates repo support for python35
+* heat-cfntools repo support for python35
+
 Completion Artifacts:
+
+* `heat <http://git.openstack.org/cgit/openstack/heat/tree/setup.cfg#n19>`_
+* `python-heatclient <http://git.openstack.org/cgit/openstack/python-heatclient/tree/setup.cfg#n21>`_
+* `heat-translator <http://git.openstack.org/cgit/openstack/heat-translator/tree/setup.cfg#n20>`_
 
 horizon
 -------
