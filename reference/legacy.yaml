@@ -71,6 +71,36 @@ Chef OpenStack:
       repos:
         - openstack/cookbook-openstack-object-storage
 
+Community App Catalog:
+  ptl:
+    name: Matthew Wagoner
+    irc: olaph
+    email: zxkuqyb@gmail.com
+  irc-channel: openstack-app-catalog
+  retired-on: 2017-04-04
+  mission: >
+    To build and maintain the OpenStack Community App Catalog
+    in order to benefit all OpenStack clouds by giving users a
+    central location from which to find and retrieve
+    applications and other OpenStack components that can be
+    immediately deployed into their OpenStack clouds, and by
+    giving application developers a highly visible place to
+    share their work with the OpenStack community.
+  url: https://wiki.openstack.org/wiki/App-Catalog
+  deliverables:
+    app-catalog:
+      repos:
+        - openstack/app-catalog
+    app-catalog-common:
+      repos:
+        - openstack/app-catalog-common
+    app-catalog-ui:
+      repos:
+        - openstack/app-catalog-ui
+    python-appcatalogclient:
+      repos:
+        - openstack/python-appcatalogclient
+
 cue:
   ptl:
     name: Min Pae
