@@ -810,7 +810,12 @@ watcher
 
 Planning Artifacts:
 
+* Functional tests should be run in a py35 environment.
+
 Completion Artifacts:
+
+* Watcher has gates for testing py27 and py35 unit tests. Functional tests are
+  passing with a py27 and py34.
 
 winstackers
 -----------
