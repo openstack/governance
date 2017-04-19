@@ -487,6 +487,7 @@ Planning Artifacts:
 * Launchpad bug: https://bugs.launchpad.net/sahara/+bug/1673198
 
 Completion Artifacts:
+ * Enable wsgi jobs: https://review.openstack.org/#/c/454083/
 
 searchlight
 -----------
