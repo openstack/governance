@@ -447,6 +447,8 @@ monasca
 
 Planning Artifacts:
 
+* https://storyboard.openstack.org/#!/story/2000975
+
 Completion Artifacts:
 
 murano
