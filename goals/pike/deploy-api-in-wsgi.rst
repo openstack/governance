@@ -153,6 +153,10 @@ Documentation
 
 Planning Artifacts:
 
+* https://blueprints.launchpad.net/openstack-manuals/+spec/document-api-endpoints-wsgi
+
+Note: Dependent on upstream projects achieving deploy-api-in-wsgi goal.
+
 Completion Artifacts:
 
 dragonflow
