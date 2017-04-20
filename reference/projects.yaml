@@ -2580,6 +2580,9 @@ OpenStackAnsible:
     openstack-ansible-os_cloudkitty:
       repos:
         - openstack/openstack-ansible-os_cloudkitty
+    openstack-ansible-os_karbor:
+      repos:
+        - openstack/openstack-ansible-os_karbor
     openstack-ansible-os_molteniron:
       repos:
         - openstack/openstack-ansible-os_molteniron
