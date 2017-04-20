@@ -6,7 +6,7 @@ Enterprise Working Group:
 Ops Tags Team:
   - repo: openstack/ops-tags-team
 Product Working Group:
-  - repo: openstack/openstack-user-stories
+  - repo: openstack/development-proposals
 Scientific Working Group:
   - repo: openstack/scientific-wg
 User Committee:
