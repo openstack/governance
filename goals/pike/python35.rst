@@ -135,6 +135,7 @@ Projects with Unit Tests Voting
 * mistral
 * murano
 * murano-agent
+* murano-dashboard
 * neutron
 * neutron-fwaas
 * neutron-lbaas
@@ -167,6 +168,7 @@ Projects with Unit Tests Voting
 * python-keystoneclient
 * python-manilaclient
 * python-marconiclient
+* python-muranoclient
 * python-neutronclient
 * python-novaclient
 * python-openstackclient
@@ -456,7 +458,16 @@ murano
 
 Planning Artifacts:
 
+* Murano has no planning documentation at this time since Python 3 support
+  has already been implemented and all major murano projects have py3.5 gates
+  voting.
+
 Completion Artifacts:
+
+* `murano <http://git.openstack.org/cgit/openstack/murano/tree/setup.cfg#n36>`_
+* `murano-dashboard <http://git.openstack.org/cgit/openstack/murano-dashboard/tree/setup.cfg#n41>`_
+* `murano-agent <http://git.openstack.org/cgit/openstack/murano-agent/tree/setup.cfg#n21>`_
+* `python-muranoclient <http://git.openstack.org/cgit/openstack/python-muranoclient/tree/setup.cfg#n23>`_
 
 neutron
 -------

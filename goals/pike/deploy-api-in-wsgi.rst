@@ -317,7 +317,12 @@ murano
 
 Planning Artifacts:
 
+* `murano-api-bp <https://blueprints.launchpad.net/murano/+spec/murano-api-wsgi>`_
+
 Completion Artifacts:
+
+* https://review.openstack.org/#/c/442327/
+* https://review.openstack.org/#/c/442936/
 
 neutron
 -------
