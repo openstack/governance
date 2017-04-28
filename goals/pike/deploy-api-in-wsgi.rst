@@ -29,10 +29,30 @@ For all projects:
 #. Provide WSGI application script file(s) (e.g. to be used by web server).
    There shouldn't be any web server restriction and the application could be
    deploying to any web server that support WSGI applications.
-#. Switch devstack jobs to deploy control-plane API services in WSGI with Apache.
-   Usage of Apache is already the default in Devstack, let's keep using it
-   for consistency unless there is some efforts to support another web server but
-   this is not the case at this time.
+#. Switch devstack jobs to deploy control-plane API services under
+   uwsgi with Apache acting as a front end proxy.
+
+uwsgi vs. mod_wsgi
+------------------
+
+When this effort was first approved, the push was to use
+``mod_wsgi``. mod_wsgi has many issues when being used in devstack for
+development or testing.
+
+- services log to a very different location / format
+- start/stop/restart/status of services is now very different
+  depending on if they are api services or workers
+- apache restarts trigger restarts of all API services, and take long
+  enough that intermittent races can occur.
+- API servers still need dedicated ports for certain parts of their
+  config.
+
+The effort was pushed forward because at the time no one signed up to
+do the ground work for the uwsgi transition in devstack. That work was
+done here -
+http://lists.openstack.org/pipermail/openstack-dev/2017-April/115423.html
+with the intent that the ``mod_wsgi`` support is deleted from devstack
+in Queens.
 
 References
 ==========
