@@ -4635,6 +4635,9 @@ tripleo:
     os-refresh-config:
       repos:
         - openstack/os-refresh-config
+    paunch:
+      repos:
+        - openstack/paunch
     puppet-tripleo:
       repos:
         - openstack/puppet-tripleo
