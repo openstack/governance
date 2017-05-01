@@ -3606,9 +3606,6 @@ Packaging-deb:
     deb-python-saharaclient:
       repos:
         - openstack/deb-python-saharaclient
-    deb-python-savannaclient:
-      repos:
-        - openstack/deb-python-savannaclient
     deb-python-scciclient:
       repos:
         - openstack/deb-python-scciclient
