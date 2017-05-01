@@ -1228,6 +1228,9 @@ Infrastructure:
     err2d2:
       repos:
         - openstack-infra/err2d2
+    featuretracker:
+      repos:
+        - openstack-infra/featuretracker
     gear:
       repos:
         - openstack-infra/gear
@@ -1410,6 +1413,9 @@ Infrastructure:
     puppet-exim:
       repos:
         - openstack-infra/puppet-exim
+    puppet-featuretracker:
+      repos:
+        - openstack-infra/puppet-featuretracker
     puppet-germqtt:
       repos:
         - openstack-infra/puppet-germqtt
@@ -1590,9 +1596,6 @@ Infrastructure:
     puppet-user:
       repos:
         - openstack-infra/puppet-user
-    puppet-userstory_dashboard:
-      repos:
-        - openstack-infra/puppet-userstory_dashboard
     puppet-vcsrepo:
       repos:
         - openstack-infra/puppet-vcsrepo
@@ -1647,9 +1650,6 @@ Infrastructure:
     trystack-site:
       repos:
         - openstack-infra/trystack-site
-    userstory-dashboard:
-      repos:
-        - openstack-infra/userstory-dashboard
     vinz:
       repos:
         - openstack-infra/vinz
