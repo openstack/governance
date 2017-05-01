@@ -476,6 +476,9 @@ neutron
 
 Planning Artifacts:
 
+* Bug to track broad effort of enabling jobs:
+  https://bugs.launchpad.net/neutron/+bug/1683301
+
 Completion Artifacts:
 
 nova
