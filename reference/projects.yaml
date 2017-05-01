@@ -2212,7 +2212,7 @@ nova:
   ptl:
     name: Matt Riedemann
     irc: mriedem
-    email: mriedem@us.ibm.com
+    email: mriedem.os@gmail.com
   irc-channel: openstack-nova
   service: Compute service
   mission: >
