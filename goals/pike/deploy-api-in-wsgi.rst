@@ -375,6 +375,10 @@ OpenStackAnsible
 
 Planning Artifacts:
 
+* https://blueprints.launchpad.net/openstack-ansible/+spec/goal-deploy-api-in-wsgi
+
+NB Individual roles are dependent on the upstream project achieving the deploy-api-in-wsgi goal.
+
 Completion Artifacts:
 
 OpenStackClient
