@@ -31,9 +31,10 @@ When considering new projects for addition, the TC will check that:
   * Open Community:
 
     * The leadership is chosen by the contributors to the project
-    * The project has regular public meetings on IRC and those meetings are
-      logged and published (moving to official OpenStack meeting channels once
-      the project's application is accepted, if they're not held there already)
+    * If the project has meetings, regular or otherwise, they should be public
+      and in IRC. They should all be logged and published (moving to official
+      OpenStack meeting channels once the project's application is accepted,
+      if they're not held there already)
     * The project shall provide a level and open collaboration playing field
       for all contributors. The project shall not benefit a single vendor, or
       a single vendors product offerings; nor advantage contributors from a
