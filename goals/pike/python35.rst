@@ -122,6 +122,7 @@ Projects with Unit Tests Voting
 * congress
 * cue
 * designate
+* fuxi
 * glance
 * gnocchi
 * heat
@@ -130,6 +131,9 @@ Projects with Unit Tests Voting
 * keystone
 * keystoneauth
 * keystonemiddleware
+* kuryr
+* kuryr-kubernetes
+* kuryr-libnetwork
 * magnum
 * manila
 * mistral
@@ -423,7 +427,13 @@ kuryr
 
 Planning Artifacts:
 
+* https://blueprints.launchpad.net/kuryr-kubernetes/+spec/goal-python35
+* https://blueprints.launchpad.net/kuryr-libnetwork/+spec/goal-python35
+* https://blueprints.launchpad.net/fuxi/+spec/goal-python35
+
 Completion Artifacts:
+
+* `kuryr <http://git.openstack.org/cgit/openstack/kuryr/tree/setup.cfg#n19>`_
 
 magnum
 ------
