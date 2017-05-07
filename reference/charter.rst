@@ -76,16 +76,23 @@ minimum of 7 people present). Non-members affected by a given discussion are
 strongly encouraged to participate in the meeting and voice their opinion,
 though only TC members can ultimately cast a vote.
 
+.. _charter-motions-section:
+
 Motions
 =======
 
-Before being put to a vote, motions presented before the TC should be discussed
-publicly on the development mailing-list for a minimum of 4 business days to
-give a chance to the wider community to express their opinion. TC members can
-vote positively, negatively, or abstain. Decisions need more positive votes
-than negative votes (ties mean the motion is rejected), and a minimum of
-positive votes of at least one third of the total number of TC members (rounded
-up: in a 13-member committee that means a minimum of 5 approvers).
+Motions presented before the TC should be discussed publicly to give a chance to
+the wider community to express their opinion. Motions should therefore be
+announced on the development mailing list and posted to Gerrit for review for a
+minimum of 7 calendar days.
+
+TC members can vote positively, negatively, or abstain (using the
+"RollCall-Vote" in Gerrit). Decisions need more positive votes than negative
+votes (ties mean the motion is rejected), and a minimum of positive votes of at
+least one third of the total number of TC members (rounded up: in a 13-member
+committee that means a minimum of 5 approvers). After a motion receives
+sufficient votes to pass, it must stay open for further comments and voting for
+a minimum of 3 calendar days.
 
 Election for PTL seats
 ======================
