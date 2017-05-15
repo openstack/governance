@@ -1332,6 +1332,12 @@ Infrastructure:
     openstack-planet:
       repos:
         - openstack/openstack-planet
+    openstack-zuul-jobs:
+      repos:
+        - openstack-infra/openstack-zuul-jobs
+    openstack-zuul-roles:
+      repos:
+        - openstack-infra/openstack-zuul-roles
     openstackid:
       repos:
         - openstack-infra/openstackid
