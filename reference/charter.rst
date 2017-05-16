@@ -87,15 +87,6 @@ than negative votes (ties mean the motion is rejected), and a minimum of
 positive votes of at least one third of the total number of TC members (rounded
 up: in a 13-member committee that means a minimum of 5 approvers).
 
-Proxying
-========
-
-When a TC member is unable to make a meeting, they are encouraged to name a proxy
-that will represent their opinion and vote on their behalf during the meeting.
-Only members really present at the meeting (directly or proxied) can vote.
-A TC member may proxy another member, but nobody should ever represent more
-than two votes.
-
 Election for PTL seats
 ======================
 
