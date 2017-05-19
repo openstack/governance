@@ -416,6 +416,8 @@ OpenStackClient
 
 Planning Artifacts:
 
+None of the OpenStackClient deliverables have services so no work is required for this goal.
+
 Completion Artifacts:
 
 oslo
