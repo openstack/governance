@@ -378,9 +378,15 @@ Completion Artifacts:
 Infrastructure
 --------------
 
-Planning Artifacts:
-
-Completion Artifacts:
+The Infrastructure team actively avoids maintaining deliverables
+which are Python dependencies of deliverables within the TC Approved
+Release or of other official teams, so our needs for Python 3
+support differ somewhat. While we do actively test most of our
+Python-based tools and utilities against Python 3, our
+responsibility to this community goal is that we have ensured our CI
+system provides sufficient Python 3 support to allow other teams to
+adequately test their deliverables. To the extent that this goal was
+predicated on that work, it is already complete for Infra.
 
 ironic
 ------
