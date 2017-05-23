@@ -1668,6 +1668,12 @@ Infrastructure:
     zuul:
       repos:
         - openstack-infra/zuul
+    zuul-base-jobs:
+      repos:
+        - openstack-infra/zuul-base-jobs
+    zuul-jobs:
+      repos:
+        - openstack-infra/zuul-jobs
     zuul-packaging:
       repos:
         - openstack-infra/zuul-packaging
