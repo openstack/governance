@@ -38,23 +38,19 @@ Reference documents and Resolutions
 How to propose governance changes
 =================================
 
-Motions need to be presented before Friday 0800 UTC to be added to the next
-Tuesday meeting agenda for discussion. They should either be posted as a
-proposed change to the governance repository (on review.openstack.org) or as
-a "[tc]" thread to openstack-dev@lists.openstack.org (with a pointer to that
-thread being posted to openstack-tc@lists.openstack.org to make sure it gets
-the required attention from TC members). Upon verification, the chair will
-put the motion on the `agenda for the next meeting`_.
+Motions should be posted for discussion as a proposed change to the
+openstack/governance repository (on review.openstack.org) and/or as a
+"[tc]" thread to the openstack-dev@lists.openstack.org mailing-list.
+Upon verification, the chair will put the motion on the
+`current proposals tracker`_.
 
-There might be a backlog of requests, in which case the discussion will be
-scheduled for a subsequent meeting. We use Gerrit to record votes, so before
-being formally voted on or approved, motions will have to be presented as a
-change in the governance git repository. You can find instructions on how to
-do that in the `Developer's guide section of the Infra manual`_. Please
-contact the TC chair in case you need help. Note that a number of simpler
-changes do not require formal voting by the majority of the Technical
-Committee membership. Those exceptions are listed in the
-:doc:`reference/house-rules` document.
+We use Gerrit to record votes, so before being formally voted on or approved,
+motions will have to be presented as a change in the openstack/governance git
+repository. You can find instructions on how to do that in the
+`Developer's guide section of the Infra manual`_. Please contact the TC chair
+in case you need help. Note that a number of simpler changes do not require
+formal voting by the majority of the Technical Committee membership. Those
+exceptions are listed in the :doc:`reference/house-rules` document.
 
 
 .. _`OpenStack Foundation bylaws`: http://www.openstack.org/legal/bylaws-of-the-openstack-foundation/
@@ -63,6 +59,6 @@ Committee membership. Those exceptions are listed in the
 
 .. _TechnicalCommittee: https://wiki.openstack.org/wiki/Governance/TechnicalCommittee
 
-.. _`agenda for the next meeting`: https://wiki.openstack.org/wiki/Meetings/TechnicalCommittee
+.. _`current proposals tracker`: https://wiki.openstack.org/wiki/Meetings/TechnicalCommittee
 
 .. _`Developer's guide section of the Infra manual`: https://docs.openstack.org/infra/manual/developers.html
