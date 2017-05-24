@@ -136,7 +136,13 @@ cinder
 
 Planning Artifacts:
 
+DevStack change still needed to properly run cinder-api under Apache:
+
+https://review.openstack.org/#/c/441266/
+
 Completion Artifacts:
+
+https://review.openstack.org/#/c/207020/
 
 cloudkitty
 ----------
