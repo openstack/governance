@@ -533,7 +533,12 @@ searchlight
 
 Planning Artifacts:
 
+* https://blueprints.launchpad.net/searchlight/+spec/deploy-via-wsgi
+
 Completion Artifacts:
+
+* Deploy in devstack under  wsgi (reworking to move away from mod_wsgi):
+  https://review.openstack.org/#/c/456627/
 
 Security
 --------
