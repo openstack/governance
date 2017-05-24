@@ -25,6 +25,11 @@ Current list of base services
   as an indirection layer. While most OpenStack deployments use RabbitMQ,
   other message queues are supported.
 
+**Etcd**
+  OpenStack components may use Etcd, a distributed reliable key-value store
+  for distributed key locking, storing configuration, keeping track of
+  service live-ness and other scenarios.
+
 **Keystone**
   Keystone handles AuthN/AuthZ for OpenStack components.
   Deployments can assume that Keystone will be present to perform that role.
