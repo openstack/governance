@@ -1845,6 +1845,10 @@ keystone:
       tags:
         - vulnerability:managed
         - stable:follows-policy
+    ldappool:
+      repos:
+        - openstack/ldappool
+
 
 kolla:
   ptl:
