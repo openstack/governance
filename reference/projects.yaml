@@ -18,7 +18,7 @@ barbican:
         - openstack/barbican
       docs:
         contributor: http://docs.openstack.org/developer/barbican
-        api: http://developer.openstack.org/api-guide/key-manager/
+        api: http://developer.openstack.org/api-ref/key-manager/
       tags:
         - vulnerability:managed
         - assert:follows-standard-deprecation
@@ -163,7 +163,7 @@ cloudkitty:
         - openstack/cloudkitty
       docs:
         contributor: http://docs.openstack.org/developer/cloudkitty/
-        api: http://docs.openstack.org/developer/cloudkitty/webapi/v1.html
+        api: http://docs.openstack.org/developer/cloudkitty/webapi/root.html
     python-cloudkittyclient:
       repos:
         - openstack/python-cloudkittyclient
@@ -336,6 +336,8 @@ ec2-api:
     ec2-api:
       repos:
         - openstack/ec2-api
+      docs:
+        api: http://developer.openstack.org/api-ref/ec2-api/
 
 freezer:
   ptl:
@@ -2004,7 +2006,7 @@ mistral:
       docs:
         contributor: http://docs.openstack.org/developer/mistral/
         api:
-          http://docs.openstack.org/developer/mistral/developer/webapi/v2.html
+          http://docs.openstack.org/developer/mistral/developer/webapi/index.html
     mistral-extra:
       repos:
         - openstack/mistral-extra
@@ -2102,8 +2104,8 @@ murano:
       repos:
         - openstack/murano
       docs:
-        contributor: https://docs.openstack.org/developer/murano/
-        api: https://developer.openstack.org/api-ref/application-catalog/v1/
+        contributor: http://docs.openstack.org/developer/murano/
+        api: http://developer.openstack.org/api-ref/application-catalog/
       tags:
         - stable:follows-policy
     murano-agent:
@@ -4264,7 +4266,7 @@ sahara:
         - openstack/sahara-image-elements
       docs:
         contributor: http://docs.openstack.org/developer/sahara/
-        api: http://docs.openstack.org/developer/sahara/restapi.html
+        api: http://developer.openstack.org/api-ref/data-processing/
       tags:
         - tc:approved-release
         - vulnerability:managed
@@ -4295,6 +4297,7 @@ searchlight:
         - openstack/searchlight
       docs:
         contributor: http://docs.openstack.org/developer/searchlight/
+        api: http://developer.openstack.org/api-ref/search/
     searchlight-specs:
       repos:
         - openstack/searchlight-specs
