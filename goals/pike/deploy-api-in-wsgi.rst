@@ -606,7 +606,13 @@ Telemetry
 
 Planning Artifacts:
 
+* panko: https://review.openstack.org/#/c/467796/
+
 Completion Artifacts:
+
+* aodh: https://review.openstack.org/#/c/292245/
+* ceilometer: api is deprecated
+* gnocchi: out of openstack but already has uwsgi
 
 tricircle
 ---------
