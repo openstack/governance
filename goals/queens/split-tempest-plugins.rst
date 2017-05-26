@@ -530,6 +530,18 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+shade
+-----
+
+Planning Artifacts:
+
+* The shade team does not have tempest plugins and therefore has
+  nothing to do.
+
+Completion Artifacts:
+
+* None
+
 solum
 -----
 
