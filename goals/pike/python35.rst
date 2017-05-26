@@ -547,7 +547,15 @@ OpenStackClient
 
 Planning Artifacts:
 
+* https://blueprints.launchpad.net/python-openstackclient/+spec/pike-goal-python35
+
 Completion Artifacts:
+
+* `cliff <http://git.openstack.org/cgit/openstack/cliff/tree/setup.cfg#n15>`_
+* `openstackclient <http://git.openstack.org/cgit/openstack/openstackclient/tree/setup.cfg#n20>`_
+* `os-client-config <http://git.openstack.org/cgit/openstack/os-client-config/tree/setup.cfg#n19>`_
+* `osc-lib <http://git.openstack.org/cgit/openstack/osc-lib/tree/setup.cfg#n19>`_
+* `python-openstackclient <http://git.openstack.org/cgit/openstack/python-openstackclient/tree/setup.cfg#n19>`_
 
 oslo
 ----
