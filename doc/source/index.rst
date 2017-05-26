@@ -41,11 +41,11 @@ Office hours
 TC members will hold office hours on the #openstack-dev IRC channel at the
 following times every week:
 
-* 09:00 UTC on Tuesdays
+* `09:00 UTC on Tuesdays <http://www.timeanddate.com/worldclock/fixedtime.html?hour=09&min=00&sec=0>`__
 
-* 01:00 UTC on Wednesdays
+* `01:00 UTC on Wednesdays <http://www.timeanddate.com/worldclock/fixedtime.html?hour=01&min=00&sec=0>`__
 
-* 15:00 UTC on Thursdays
+* `15:00 UTC on Thursdays <http://www.timeanddate.com/worldclock/fixedtime.html?hour=15&min=00&sec=0>`__
 
 Don't hesitate to reach out on those hours if you have any question!
 
