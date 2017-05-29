@@ -70,6 +70,10 @@ Note, there is no change in governance or ownership of a repository involved
 with this change. The new plugin repo/project will still be owned by the
 project it was spun out from.
 
+More detailed recommended steps for accomplishing the split can be found here:
+
+https://etherpad.openstack.org/p/tempest-separate-plugin
+
 References
 ==========
 
