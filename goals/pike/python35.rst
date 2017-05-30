@@ -320,6 +320,13 @@ freezer
 
 Planning Artifacts:
 
+* All freezer unit tests are passing with py35 and gating on different freezer
+  components.
+* https://review.openstack.org/#/c/466807/
+* https://review.openstack.org/#/c/466811/
+* https://review.openstack.org/#/c/466813/
+* https://review.openstack.org/#/c/466816/
+
 Completion Artifacts:
 
 fuel
