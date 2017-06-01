@@ -594,6 +594,13 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+* Support tests for Apache (swift): https://review.openstack.org/#/c/23585/
+* Add example Apache config files (swift):
+  https://review.openstack.org/#/c/33169/
+* enable apache2 server as front end for swift (devstack):
+  https://review.openstack.org/#/c/33946/
+
+
 tacker
 ------
 
