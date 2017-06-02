@@ -1902,6 +1902,9 @@ kuryr:
     fuxi:
       repos:
         - openstack/fuxi
+    fuxi-golang:
+      repos:
+        - openstack/fuxi-golang
     fuxi-kubernetes:
       repos:
         - openstack/fuxi-kubernetes
