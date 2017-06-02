@@ -664,7 +664,12 @@ searchlight
 
 Planning Artifacts:
 
+* Searchlight has no planning documentation at this time since Python 3 support
+  has already been implemented.
+
 Completion Artifacts:
+
+* http://git.openstack.org/cgit/openstack/searchlight/tree/setup.cfg#n19
 
 Security
 --------
