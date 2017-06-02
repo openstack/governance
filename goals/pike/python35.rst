@@ -406,6 +406,10 @@ Planning Artifacts:
 * https://bugs.launchpad.net/karbor/+bug/1681622
 
 Completion Artifacts:
+* `karbor classifier <https://git.openstack.org/cgit/openstack/karbor/tree/setup.cfg#n19>`_
+* `karbor-dashboard classifier <https://git.openstack.org/cgit/openstack/karbor-dashboard/tree/setup.cfg#n19>`_
+* `python-karborclient classifier <https://git.openstack.org/cgit/openstack/python-karborclient/tree/setup.cfg#n19>`_
+* `python 3 jobs <https://review.openstack.org/302072/>`_
 
 keystone
 --------
