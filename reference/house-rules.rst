@@ -2,10 +2,11 @@
  House rules for governance changes approval
 =============================================
 
-While most of the governance changes call for a formal discussion and
-vote by the Technical Committee membership, we also have a number of
-exceptions to that general rule, in order to speed up the processing
-of smaller changes. This document lists those "house rules" for reference.
+While most of the governance changes follow the rules described in the
+:ref:`charter-motions-section` section and call for a formal discussion and vote
+by the Technical Committee membership, we also have a number of exceptions to
+that general rule, in order to speed up the processing of smaller changes. This
+document lists those "house rules" for reference.
 
 Typo fixes
 ----------
