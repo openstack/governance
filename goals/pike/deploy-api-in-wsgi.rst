@@ -273,6 +273,10 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+* https://review.openstack.org/453705/
+* https://review.openstack.org/455734/
+* https://review.openstack.org/467536/
+
 keystone
 --------
 
