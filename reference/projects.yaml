@@ -2390,6 +2390,9 @@ OpenStack Charms:
     charm-glance:
       repos:
         - openstack/charm-glance
+    charm-glusterfs:
+      repos:
+        - openstack/charm-glusterfs
     charm-guide:
       repos:
         - openstack/charm-guide
@@ -2474,6 +2477,9 @@ OpenStack Charms:
     charm-manila-generic:
       repos:
         - openstack/charm-manila-generic
+    charm-manila-glusterfs:
+      repos:
+        - openstack/charm-manila-glusterfs
     charm-mistral:
       repos:
         - openstack/charm-mistral
