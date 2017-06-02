@@ -251,9 +251,9 @@ Completion Artifacts:
 Infrastructure
 --------------
 
-Planning Artifacts:
-
-Completion Artifacts:
+The Infrastructure team does not maintain any OpenStack trademark
+program services, much less any with REST APIs, so has no current
+need for WSGI conversion.
 
 ironic
 ------
