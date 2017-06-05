@@ -8,7 +8,10 @@ discussion of any OpenStack related topic, and ``#openstack-dev``
 likewise for development topics.
 
 Many projects also have their own channels, though this is not
-required.
+required. The ``#openstack-tc`` channel is used by members of the
+Technical Committee for discussions related to OpenStack governance and
+everyone in the community is welcome to join and participate in the
+conversations or when they have a question or a concern.
 
 As a community we strive for open communication that accommodates many
 schedules, styles, cultures, and preferences.  We maintain IRC

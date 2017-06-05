@@ -38,7 +38,7 @@ Reference documents and Resolutions
 Office hours
 ============
 
-TC members will hold office hours on the #openstack-dev IRC channel at the
+TC members will hold office hours on the #openstack-tc IRC channel at the
 following times every week:
 
 * 09:00 UTC on Tuesdays
