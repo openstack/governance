@@ -35,6 +35,20 @@ Reference documents and Resolutions
    resolutions/index
    resolutions/superseded/index
 
+Office hours
+============
+
+TC members will hold office hours on the #openstack-dev IRC channel at the
+following times every week:
+
+* 09:00 UTC on Tuesdays
+
+* 01:00 UTC on Wednesdays
+
+* 15:00 UTC on Thursdays
+
+Don't hesitate to reach out on those hours if you have any question!
+
 How to propose governance changes
 =================================
 
