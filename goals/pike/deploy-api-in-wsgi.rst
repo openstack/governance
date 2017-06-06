@@ -75,7 +75,6 @@ via WSGI:
 * cloudkitty
 * congress
 * designate
-* freezer
 * glance
 * kuryr-libnetwork
 * magnum
@@ -97,6 +96,7 @@ These projects already deploy devstack with API service via WSGI:
 * aodh
 * ceilometer
 * cinder
+* freezer
 * gnocchi
 * ironic
 * keystone
@@ -204,7 +204,18 @@ freezer
 
 Planning Artifacts:
 
+* Freezer has no planning documents at this time since support was
+  introduced prior to Newton.
+
 Completion Artifacts:
+
+Freezer is already using wsgi to deploy the api service since Newton release.
+Freezer supports two ways of running dsvm gate job, apache2 (with mod_wsgi) or
+apache2 (with mod_proxy and uwsgi). The default way for running devstack is
+apache2 with mod_proxy and uwsgi.
+
+https://review.openstack.org/#/c/471080/
+
 
 fuel
 ----
