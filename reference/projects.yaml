@@ -22,6 +22,7 @@ barbican:
       tags:
         - vulnerability:managed
         - assert:follows-standard-deprecation
+        - assert:supports-upgrade
         - stable:follows-policy
     barbican-specs:
       repos:
