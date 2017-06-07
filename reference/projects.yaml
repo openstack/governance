@@ -1832,6 +1832,9 @@ keystone:
     keystone-specs:
       repos:
         - openstack/keystone-specs
+    keystone-tempest-plugin:
+      repos:
+        - openstack/keystone-tempest-plugin
     keystoneauth:
       repos:
         - openstack/keystoneauth
