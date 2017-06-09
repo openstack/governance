@@ -1914,6 +1914,9 @@ kuryr:
     kuryr-kubernetes:
       repos:
         - openstack/kuryr-kubernetes
+    kuryr-tempest-plugin:
+      repos:
+        - openstack/kuryr-tempest-plugin
     fuxi:
       repos:
         - openstack/fuxi
