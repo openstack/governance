@@ -1679,6 +1679,9 @@ Infrastructure:
     zuul-packaging:
       repos:
         - openstack-infra/zuul-packaging
+    zuul-sphinx:
+      repos:
+        - openstack-infra/zuul-sphinx
 
 ironic:
   ptl:
