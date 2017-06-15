@@ -3963,6 +3963,9 @@ Puppet OpenStack:
     puppet-freezer:
       repos:
         - openstack/puppet-freezer
+    puppet-ganesha:
+      repos:
+        - openstack/puppet-ganesha
     puppet-glance:
       repos:
         - openstack/puppet-glance
