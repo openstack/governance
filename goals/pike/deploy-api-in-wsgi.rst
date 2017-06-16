@@ -151,6 +151,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+https://review.openstack.org/#/c/366043/
+
 Community App Catalog
 ---------------------
 
