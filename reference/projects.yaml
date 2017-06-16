@@ -4800,8 +4800,7 @@ vitrage:
       repos:
         - openstack/vitrage
       docs:
-        # RST files are in repo, but not built to docs.openstack.org
-        contributor: null
+        contributor: http://docs.openstack.org/developer/vitrage/
     vitrage-specs:
       repos:
         - openstack/vitrage-specs
