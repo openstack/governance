@@ -38,8 +38,9 @@ Reference documents and Resolutions
 Office hours
 ============
 
-TC members will hold office hours on the #openstack-tc IRC channel at the
-following times every week:
+Beyond discussing on the mailing-list and participating in ad-hoc IRC meetings,
+TC members will hold office hours (for one hour) on the #openstack-tc IRC
+channel at the following times every week:
 
 * `09:00 UTC on Tuesdays <http://www.timeanddate.com/worldclock/fixedtime.html?hour=09&min=00&sec=0>`__
 
@@ -47,7 +48,9 @@ following times every week:
 
 * `15:00 UTC on Thursdays <http://www.timeanddate.com/worldclock/fixedtime.html?hour=15&min=00&sec=0>`__
 
-Don't hesitate to reach out on those hours if you have any question!
+You can contact TC members at any time, but there will be an effort to
+be present at those specific hours. So don't hesitate to reach out if you
+have any question!
 
 How to propose governance changes
 =================================
