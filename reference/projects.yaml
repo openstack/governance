@@ -1358,6 +1358,9 @@ Infrastructure:
     project-config-example:
       repos:
         - openstack-infra/project-config-example
+    ptgbot:
+      repos:
+        - openstack/ptgbot
     publications:
       repos:
         - openstack-infra/publications
@@ -1544,6 +1547,9 @@ Infrastructure:
     puppet-project_config:
       repos:
         - openstack-infra/puppet-project_config
+    puppet-ptgbot:
+      repos:
+        - openstack-infra/puppet-ptgbot
     puppet-puppet:
       repos:
         - openstack-infra/puppet-puppet
