@@ -148,7 +148,6 @@ fuel:
   irc-channel: fuel
   service: Deployment service
   url: https://wiki.openstack.org/wiki/Fuel
-  partial: yes
   deliverables:
     - fuel:
         retired-on: 2015-03-29
@@ -162,6 +161,61 @@ fuel:
         retired-on: 2015-09-29
         repos:
           - openstack/fuel-upgrade
+    - fuel:
+        retired-on: 2017-06-20
+        repos:
+          - openstack/fuel-agent
+          - openstack/fuel-astute
+          - openstack/fuel-library
+          - openstack/fuel-main
+          - openstack/fuel-menu
+          - openstack/fuel-nailgun-agent
+          - openstack/fuel-ostf
+          - openstack/fuel-qa
+          - openstack/fuel-ui
+          - openstack/fuel-virtualbox
+          - openstack/fuel-web
+    - fuel-dev-tools:
+        retired-on: 2017-06-20
+        repos:
+          - openstack/fuel-dev-tools
+    - fuel-devops:
+        retired-on: 2017-06-20
+        repos:
+          - openstack/fuel-devops
+    - fuel-docs:
+        retired-on: 2017-06-20
+        repos:
+          - openstack/fuel-docs
+    - fuel-lcm:
+        retired-on: 2017-06-20
+        repos:
+          - openstack/fuel-nailgun-extension-cluster-upgrade
+          - openstack/fuel-nailgun-extension-iac
+          - openstack/fuel-nailgun-extension-converted-serializers
+          - openstack/fuel-octane
+          - openstack/tuning-box
+    - fuel-plugins:
+        retired-on: 2017-06-20
+        repos:
+          - openstack/fuel-plugins
+    - fuel-plugin-murano:
+        retired-on: 2017-06-20
+        repos:
+          - openstack/fuel-plugin-murano
+          - openstack/fuel-plugin-murano-tests
+    - fuel-specs:
+        retired-on: 2017-06-20
+        repos:
+          - openstack/fuel-specs
+    - fuel-stats:
+        retired-on: 2017-06-20
+        repos:
+          - openstack/fuel-stats
+    - python-fuelclient:
+        retired-on: 2017-06-20
+        repos:
+          - openstack/python-fuelclient
 
 horizon:
   irc-channel: openstack-horizon
