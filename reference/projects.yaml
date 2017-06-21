@@ -1307,6 +1307,9 @@ Infrastructure:
     lodgeit:
       repos:
         - openstack-infra/lodgeit
+    logstash-filters:
+      repos:
+        - openstack-infra/logstash-filters
     log_processor:
       repos:
         - openstack-infra/log_processor
