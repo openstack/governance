@@ -1738,6 +1738,9 @@ ironic:
         - openstack/ironic-python-agent
       tags:
         - stable:follows-policy
+    ironic-python-agent-builder:
+      repos:
+        - openstack/ironic-python-agent-builder
     ironic-specs:
       repos:
         - openstack/ironic-specs
