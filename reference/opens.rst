@@ -46,8 +46,8 @@ community.  Most decisions are made using a `lazy consensus
 <http://www.apache.org/foundation/glossary.html#LazyConsensus>`_ model. All
 processes are documented, open and transparent.
 
-The technical governance of the project is a community meritocracy with
-contributors electing technical leads and members of the Technical Committee.
+The technical governance of the project is provided by the community itself,
+with contributors electing team leads and members of the Technical Committee.
 
 All project meetings are held in public IRC channels and recorded. Additional
 technical communication is through public mailing lists and is archived.
