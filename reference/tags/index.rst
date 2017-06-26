@@ -57,6 +57,7 @@ project doesn't actually meet the documented criteria.
    :maxdepth: 1
 
    assert_follows-standard-deprecation
+   assert_supports-api-interoperability
    assert_supports-upgrade
    assert_supports-accessible-upgrade
    assert_supports-rolling-upgrade
