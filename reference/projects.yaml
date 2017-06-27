@@ -364,6 +364,9 @@ freezer:
     freezer-specs:
       repos:
         - openstack/freezer-specs
+    freezer-tempest-plugin:
+      repos:
+        - openstack/freezer-tempest-plugin
     freezer-web-ui:
       repos:
         - openstack/freezer-web-ui
