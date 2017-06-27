@@ -2238,6 +2238,9 @@ neutron:
         - openstack/python-neutronclient
       tags:
         - vulnerability:managed
+    neutron-fwaas-dashboard:
+      repos:
+        - openstack/neutron-fwaas-dashboard
 
 nova:
   ptl:
