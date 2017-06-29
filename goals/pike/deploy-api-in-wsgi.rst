@@ -409,6 +409,9 @@ https://review.openstack.org/440934
 
 Completion Artifacts:
 
+* https://review.openstack.org/440934
+* https://review.openstack.org/478637
+
 OpenStack Charms
 ----------------
 
