@@ -398,6 +398,8 @@ deploy it under uswgi in devstack for testing.
 
 Completion Artifacts:
 
+* Enable nova wsgi in devstack: https://review.openstack.org/#/c/457715/
+
 octavia
 -------
 
