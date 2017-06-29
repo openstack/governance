@@ -196,6 +196,8 @@ congress:
       docs:
         contributor: http://docs.openstack.org/developer/congress/
         api: http://docs.openstack.org/developer/congress/api.html
+      tags:
+        - stable:follows-policy
     congress-dashboard:
       repos:
         - openstack/congress-dashboard
