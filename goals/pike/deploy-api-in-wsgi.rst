@@ -236,6 +236,11 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+* Glance supports running as a wsgi app with this branch:
+  https://review.openstack.org/#/q/status:merged+project:openstack/glance+branch:master+topic:goal-deploy-api-in-wsgi
+* Devstack is now deploying glance as a wsgi app under uwsgi with apache with:
+  https://review.openstack.org/459451
+
 heat
 ----
 
