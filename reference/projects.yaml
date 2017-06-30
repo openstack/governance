@@ -46,8 +46,6 @@ Chef OpenStack:
     The Chef cookbooks for OpenStack allow to automate the building, operation
     and consumption of OpenStack cloud deployments.
   url: https://wiki.openstack.org/wiki/Chef
-  tags:
-    - team:diverse-affiliation
   deliverables:
     cookbook-openstack-application-catalog:
       repos:
@@ -224,6 +222,8 @@ designate:
     To provide scalable, on demand, self service access to authoritative DNS
     services, in technology-agnostic manner.
   url: https://wiki.openstack.org/wiki/Designate
+  tags:
+    - team:diverse-affiliation
   deliverables:
     designate:
       repos:
@@ -4160,8 +4160,6 @@ RefStack:
     RefStack is a test result collection and reporting service to support the
     Interop Working Group interoperability testing process.
   url: https://wiki.openstack.org/wiki/RefStack
-  tags:
-    - team:diverse-affiliation
   deliverables:
     refstack:
       repos:
@@ -4276,6 +4274,8 @@ searchlight:
     To provide advanced and scalable indexing and search across multi-tenant
     cloud resources.
   url: https://wiki.openstack.org/wiki/Searchlight
+  tags:
+    - team:diverse-affiliation
   deliverables:
     searchlight:
       repos:
@@ -4698,6 +4698,8 @@ trove:
     for both relational and non-relational database engines, and to continue to
     improve its fully-featured and extensible open source framework.
   url: https://wiki.openstack.org/wiki/Trove
+  tags:
+    - team:diverse-affiliation
   deliverables:
     python-troveclient:
       repos:
@@ -4782,6 +4784,8 @@ watcher:
     Watcher's goal is to provide a flexible and scalable resource optimization
     service for multi-tenant OpenStack-based clouds.
   url: https://wiki.openstack.org/wiki/Watcher
+  tags:
+    - team:diverse-affiliation
   deliverables:
     watcher:
       repos:
