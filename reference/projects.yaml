@@ -4649,6 +4649,9 @@ tripleo:
     python-tripleoclient:
       repos:
         - openstack/python-tripleoclient
+    tempest-tripleo-ui:
+      repos:
+        - openstack/tempest-tripleo-ui
     tripleo-common:
       repos:
         - openstack/tripleo-common
