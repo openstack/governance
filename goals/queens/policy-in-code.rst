@@ -46,7 +46,7 @@ Gerrit Topic
 To facilitate tracking, commits related to this goal should use the
 gerrit topic::
 
-  <policy-and-docs-in-code>
+  policy-and-docs-in-code
 
 Completion Criteria
 ===================
