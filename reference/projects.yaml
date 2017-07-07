@@ -2246,7 +2246,7 @@ octavia:
     irc: johnsom
     email: johnsomor@gmail.com
   irc-channel: openstack-lbaas
-  service: Load-balancing service
+  service: Load-balancer service
   mission: >
     To provide scalable, on demand, self service access to load-balancer
     services, in technology-agnostic manner.
@@ -2264,6 +2264,9 @@ octavia:
       tags:
         - stable:follows-policy
     octavia:
+      docs:
+        contributor: https://docs.openstack.org/developer/octavia/
+        api: https://developer.openstack.org/api-ref/load-balancer/
       repos:
         - openstack/octavia
       tags:
