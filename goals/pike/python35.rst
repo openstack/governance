@@ -537,7 +537,8 @@ Completion Artifacts:
 * setup.cfg: https://review.openstack.org/#/c/341070/
 * Unit tests are voting: https://review.openstack.org/#/c/337946
 * Functional tests voting: https://review.openstack.org/446148
-* Scenario tests voting: Pending DIB patch
+* Scenario tests voting: https://review.openstack.org/#/c/458311/
+                         https://review.openstack.org/#/c/477689/
 
 OpenStack Charms
 ----------------
