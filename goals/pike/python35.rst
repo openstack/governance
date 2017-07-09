@@ -743,7 +743,12 @@ tricircle
 
 Planning Artifacts:
 
+* None
+
 Completion Artifacts:
+
+* Support Python35 in Tricircle: https://review.openstack.org/#/c/417553/
+* Add Python35 job for Tricircle: https://review.openstack.org/#/c/418655/
 
 tripleo
 -------
