@@ -30,6 +30,11 @@ barbican:
     barbican-tempest-plugin:
       repos:
         - openstack/barbican-tempest-plugin
+    castellan-ui:
+      repos:
+        - openstack/castellan-ui
+      tags:
+        - vulnerability:managed
     python-barbicanclient:
       repos:
         - openstack/python-barbicanclient
