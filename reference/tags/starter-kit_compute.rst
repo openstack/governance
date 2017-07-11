@@ -71,10 +71,10 @@ Starter Kit implies this is not the end point, but just a beginning.
 Why is this needed?
 -------------------
 
-The big tent has been great for expanding the scope and features that
-are part of OpenStack. However that has scared and confused many
-members of our community who used the integrated release as their
-starting point, and see that now going away. Smaller Operators,
+The 'big tent' project structure reform of 2014 has been great for expanding
+the scope and features that are part of OpenStack. However that has scared and
+confused many members of our community who used the integrated release as
+their starting point, and see that now going away. Smaller Operators,
 Trainers, Hobbyists all have been asking the question, "where do I
 start?".
 

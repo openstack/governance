@@ -64,7 +64,7 @@ Reference documentation for the existing WSGI deployments:
 Current State / Anticipated Impact
 ==================================
 
-On 12 Jan 2017 a review of git repositories owned by big tent project
+On 12 Jan 2017 a review of git repositories owned by official projects
 showed the projects that don't support their control-plane API services deployed
 via WSGI:
 

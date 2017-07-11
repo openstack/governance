@@ -7,7 +7,7 @@
 The Oslo team has moved all previously incubated code from the
 ``openstack/oslo-incubator`` repository into separate library
 repositories and released those libraries to the Python Package
-Index. Many of our big tent project teams are still using the old,
+Index. Many of our official project teams are still using the old,
 unsupported, incubated versions of the code. The Oslo team has been
 working to remove that incubated code from projects, and the time has
 come to finish that work.
@@ -51,7 +51,7 @@ http://specs.openstack.org/openstack/oslo-specs/
 Current State / Anticipated Impact
 ==================================
 
-On 5 Aug 2016 a review of git repositories owned by big tent project
+On 5 Aug 2016 a review of git repositories owned by official projects
 showed:
 
 ::

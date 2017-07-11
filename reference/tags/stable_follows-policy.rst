@@ -24,7 +24,7 @@ Application to current deliverables
 Rationale
 =========
 
-In the big tent, all project teams can create stable branches, with the
+All OpenStack project teams can create stable branches, with the
 name of their choice. However, some of those branches do not follow the
 `Stable branch policy`_: some approve backports that modify the behavior
 of the software, some backport new features, some do not actively backport
