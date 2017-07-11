@@ -4691,6 +4691,9 @@ tripleo:
     tripleo-ui:
       repos:
         - openstack/tripleo-ui
+    tripleo-upgrade:
+      repos:
+        - openstack/tripleo-upgrade
     tripleo-validations:
       repos:
         - openstack/tripleo-validations
