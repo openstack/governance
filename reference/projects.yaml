@@ -41,6 +41,39 @@ barbican:
       tags:
         - vulnerability:managed
 
+blazar:
+  ptl:
+    name: Masahito Muroi
+    irc: masahito
+    email: muroi.masahito@lab.ntt.co.jp
+  irc-channel: openstack-blazar
+  service: Resource reservation service
+  mission: >
+    Blazar's goal is to provide resource reservations in
+    OpenStack clouds for different resource types, both
+    virtual (instances, volumes, etc) and physical (hosts,
+    storage, etc.).
+  url: https://wiki.openstack.org/wiki/Blazar
+  tags:
+    - team:single-vendor
+  deliverables:
+    blazar:
+      repos:
+        - openstack/blazar
+      docs:
+        # Replaced with docs.openstack.org after merged.
+        contributor: http://blazar.readthedocs.io/en/latest/devref/how.to.contribute.html
+        api: http://blazar.readthedocs.io/en/latest/restapi/index.html
+    blazar-nova:
+      repos:
+        - openstack/blazar-nova
+    python-blazarclient:
+      repos:
+        - openstack/python-blazarclient
+    blazar-dashboard:
+      repos:
+        - openstack/blazar-dashboard
+
 Chef OpenStack:
   ptl:
     name: Jan Klare
