@@ -51,9 +51,6 @@ gerrit topic::
 Completion Criteria
 ===================
 
-Enumerate the items that must be true in order to call the goal
-"completed" for a given project.
-
 For all projects:
 
 #. Use `oslo.policy` to register default policies in code that map to the
