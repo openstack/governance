@@ -4389,6 +4389,11 @@ shade:
     developers to easily write applications that consume multiple clouds.
   url: https://docs.openstack.org/infra/shade
   deliverables:
+    os-service-types:
+      repos:
+        - openstack/os-service-types
+      tags:
+        - assert:follows-standard-deprecation
     requestsexceptions:
       repos:
         - openstack-infra/requestsexceptions
