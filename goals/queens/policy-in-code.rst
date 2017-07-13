@@ -39,6 +39,15 @@ more flexible set of roles by introducing better, or more granular, defaults.
 The change is backwards compatible and allows operators to continue overriding
 policies their deployment relies on.
 
+Champion
+========
+
+Goals need a main driver to project-manage them to completion. Project teams
+need assistance, reminders and sometimes direct help in order for them to
+complete the goals.
+
+Lance Bragstad (lbragstad) has volunteered to drive this goal.
+
 
 Gerrit Topic
 ============

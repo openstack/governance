@@ -47,6 +47,14 @@ installing a service) For community development and testing it means we are
 actually ensuring API compatibility across releases. It also means for packagers
 that you don't have to install all of a project repo to ship a plugin package.
 
+Champion
+========
+
+Goals need a main driver to project-manage them to completion. Project teams
+need assistance, reminders and sometimes direct help in order for them to
+complete the goals.
+
+Chandan Kumar (chandankumar) has volunteered to drive this goal.
 
 Gerrit Topic
 ============
