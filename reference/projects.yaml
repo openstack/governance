@@ -3016,9 +3016,6 @@ Packaging-deb:
     deb-mistral:
       repos:
         - openstack/deb-mistral
-    deb-mistral-dashboard:
-      repos:
-        - openstack/deb-mistral-dashboard
     deb-msgpack-python:
       repos:
         - openstack/deb-msgpack-python
