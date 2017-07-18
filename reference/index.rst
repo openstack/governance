@@ -10,6 +10,7 @@ Reference documents which need to be revised over time.
    opens
    principles
    charter
+   technical-committee-vision-2019
    projects/index
    top-5-help-wanted
    new-projects-requirements
