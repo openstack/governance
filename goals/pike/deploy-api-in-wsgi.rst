@@ -664,7 +664,11 @@ tricircle
 
 Planning Artifacts:
 
+* None
+
 Completion Artifacts:
+
+* Tricircle Admin API: https://review.openstack.org/#/c/440175/
 
 tripleo
 -------
