@@ -18,7 +18,7 @@ To help with setting the context of this vision, please review these documents:
 
 ----
 
-The first OpenStack Summit of 2019 is great time to review how the
+The first OpenStack Summit of 2019 is a great time to review how the
 OpenStack community has evolved over the last few years. We've made
 progress on a new way to understand reference architectures, on using
 individual components of OpenStack on their own, on working with other
