@@ -1,7 +1,7 @@
 
-=====================================
- Technical Committee Vision for 2019
-=====================================
+===========================================================
+ Technical Committee Vision for 2019 (Drafted April, 2017)
+===========================================================
 
 This document was written in June of 2017 as if it were created in
 March 2019, looking back at what the OpenStack Technical Committee has been
@@ -9,6 +9,11 @@ involved with over the last few years. The aim is to describe an aspirational
 yet realistic end goal. It doesn't intend to list out all the tasks needed to
 reach the end goal, nor does it intend to stop evolving the direction as the
 enviroment changes between now and 2019.
+
+.. note::
+
+   This is the vision of the TC from April 2017. Future TCs may
+   publish new visions for the future.
 
 To help with setting the context of this vision, please review these documents:
 
