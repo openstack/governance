@@ -143,6 +143,14 @@ Documentation:
       retired-on: 2017-01-09
       repos:
         - openstack/fairy-slipper
+    faafo:
+      retired-on: 2017-07-19
+      repos:
+        - openstack/faafo
+    api-site:
+      retired-on: 2017-07-19
+      repos:
+        - openstack/api-site
 
 fuel:
   irc-channel: fuel
