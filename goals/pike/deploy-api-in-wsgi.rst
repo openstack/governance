@@ -142,7 +142,8 @@ https://review.openstack.org/#/c/441266/
 
 Completion Artifacts:
 
-https://review.openstack.org/#/c/207020/
+* https://review.openstack.org/#/c/207020/
+* https://review.openstack.org/#/c/441266/
 
 cloudkitty
 ----------
