@@ -314,7 +314,18 @@ octavia
 
 Planning Artifacts:
 
+Octavia implemented this as part of our new endpoint in Pike.
+
+The tracking bug was:
+https://bugs.launchpad.net/octavia/+bug/1690481
+
 Completion Artifacts:
+
+The final RBAC patch in the chain was:
+https://review.openstack.org/#/c/475980/
+
+The policy documentation is available here:
+https://docs.openstack.org/octavia/latest/configuration/policy.html
 
 OpenStack Charms
 ----------------
