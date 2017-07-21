@@ -614,51 +614,79 @@ I18n:
       comment: stanislavulrych (cs)
     - name: Eugen Block
       email: eblock@nde.ag
-      expires-in: January 2018
+      expires-in: July 2018
       comment: eblock (de)
     - name: Frank Kloeker
-      email: eumel@arcor.de
-      expires-in: January 2018
+      email: f.kloeker@telekom.de
+      expires-in: July 2018
       comment: eumel8 (de)
     - name: Andreas Jaeger
       email: jaegerandi@gmail.com
-      expires-in: January 2018
+      expires-in: July 2018
       comment: jaegerandi (de)
     - name: Robert Simai
       email: robert.simai@suse.com
-      expires-in: January 2018
+      expires-in: July 2018
       comment: rsimai (de)
     - name: Andi Chandler
       email: andi@gowling.com
       expires-in: January 2018
       comment: andibing (en-GB)
+    - name: Julie Pichon
+      email: jpichon@redhat.com
+      expires-in: July 2018
+      comment: jpichon (en-GB)
+    - name: Carlos Camacho
+      email: ccamacho@redhat.com
+      expires-in: July 2018
+      comment: ccamacho (es)
     - name: Marcellin Fom Tchassem
       email: mf6510@att.com
       expires-in: January 2018
       comment: ciello89 (fr)
     - name: Corinne Verheyde
       email: cverheyd@gmail.com
-      expires-in: January 2018
+      expires-in: July 2018
       comment: corin (fr)
     - name: Gérald LONLAS
       email: g.lonlas@gmail.com
       expires-in: January 2018
       comment: geraldlonlas (fr)
+    - name: JF Taltavull
+      email: jftalta@gmail.com
+      expires-in: July 2018
+      comment: jftalta (fr)
+    - name: Cedric Savignan
+      email: liced@liced.fr
+      expires-in: July 2018
+      comment: liced (fr)
+    - name: Oussema Cherni
+      email: oussemos@gmail.com
+      expires-in: July 2018
+      comment: oussemos (fr)
     - name: suhartono
       email: cloudsuhartono@gmail.com
-      expires-in: January 2018
+      expires-in: July 2018
       comment: suhartono (id)
     - name: Akihiro Motoki
       email: amotoki@gmail.com
-      expires-in: January 2018
+      expires-in: July 2018
       comment: amotoki (ja)
+    - name: Hidekazu Nakamura
+      email: hid-nakamura@vf.jp.nec.com
+      expires-in: July 2018
+      comment: hidekazuna (ja)
+    - name: Shintaro Mizuno
+      email: mizuno.shintaro@lab.ntt.co.jp
+      expires-in: July 2018
+      comment: shintaro (ja)
     - name: Shu Muto
       email: shu-mutou@rf.jp.nec.com
-      expires-in: January 2018
+      expires-in: July 2018
       comment: shu (ja)
     - name: KATO Tomoyuki
       email: kato.tomoyuki@jp.fujitsu.com
-      expires-in: January 2018
+      expires-in: July 2018
       comment: to222 (ja)
     - name: Yoshiki Eguchi
       email: yoshiki.eguchi@gmail.com
@@ -666,16 +694,36 @@ I18n:
       comment: yeguchi (ja)
     - name: Yuko Katabami
       email: yukokatabami@gmail.com
-      expires-in: January 2018
+      expires-in: July 2018
       comment: ykatabam (ja)
+    - name: Yukinori Yagisawa
+      email: yukky37@gmail.com
+      expires-in: July 2018
+      comment: yukinori_yagisawa (ja)
     - name: Yusuke Higashino
       email: yusuke_higashino@adoc.co.jp
-      expires-in: January 2018
+      expires-in: July 2018
       comment: yusuke1219 (ja)
+    - name: Hyeunjee Kim
+      email: beyond.torvalds@gmail.com
+      expires-in: July 2018
+      comment: betorvalds (ko-KR)
     - name: Ian Y. Choi
       email: ianyrchoi@gmail.com
       expires-in: January 2018
       comment: ianychoi (ko-KR)
+    - name: Jun-Sik Shin
+      email: jsshin@smartx.kr
+      expires-in: July 2018
+      comment: jsshin (ko-KR)
+    - name: youngwoo Kim
+      email: koain@naver.com
+      expires-in: July 2018
+      comment: koain (ko-KR)
+    - name: SeongSoo Cho
+      email: nexusz99@gmail.com
+      expires-in: July 2018
+      comment: nexusz99 (ko-KR)
     - name: HYUNGBAI PARK
       email: openstack.make@gmail.com
       expires-in: January 2018
@@ -686,19 +734,31 @@ I18n:
       comment: seonhopark (ko-KR)
     - name: Sungjin Kang
       email: gang.sungjin@gmail.com
-      expires-in: January 2018
+      expires-in: July 2018
       comment: ujuc (ko-KR)
+    - name: Eunseop Shin
+      email: kairos9603@khu.ac.kr
+      expires-in: July 2018
+      comment: vi01et (ko-KR)
+    - name: Wonil Choi
+      email: wonil0522@gmail.com
+      expires-in: July 2018
+      comment: wonil22 (ko-KR)
     - name: Łukasz Jernas
       email: deejay1@srem.org
       expires-in: January 2018
       comment: deejay1 (pl-PL)
+    - name: Fernando Pimenta
+      email: fernando.c.pimenta@gmail.com
+      expires-in: July 2018
+      comment: fcpimenta (pt-BR)
     - name: José Mello
       email: jose.eduardo.jr@gmail.com
       expires-in: January 2018
       comment: josemello (pt-BR)
     - name: Ilya Alekseyev
       email: ilyaalekseyev@acm.org
-      expires-in: January 2018
+      expires-in: July 2018
       comment: adiantum (ru)
     - name: Aleksey Alekseenko
       email: 9118250541@mail.ru
@@ -706,7 +766,7 @@ I18n:
       comment: aleksey (ru)
     - name: Artem
       email: amikhalev90@gmail.com
-      expires-in: January 2018
+      expires-in: July 2018
       comment: amikhalev (ru)
     - name: Alexander
       email: ainikitenkov@gmail.com
@@ -720,6 +780,10 @@ I18n:
       email: dmakarov@hystax.com
       expires-in: January 2018
       comment: dmakarov (ru)
+    - name: Fedor Tarasenko
+      email: dor.tarasenko@gmail.com
+      expires-in: July 2018
+      comment: ftarasenko (ru)
     - name: Irina Kochetova
       email: ikochetova@hystax.com
       expires-in: January 2018
@@ -742,16 +806,8 @@ I18n:
       comment: nsmirnov (ru)
     - name: Thomas Vysokos
       email: thomas.vysokos@hivemind.agency
-      expires-in: January 2018
+      expires-in: July 2018
       comment: thomas_vysokos (ru)
-    - name: Valentin Chikunov
-      email: vchikunov@hystax.com
-      expires-in: January 2018
-      comment: valentin (ru)
-    - name: Valeriy Ponomaryov
-      email: vponomaryov@mirantis.com
-      expires-in: January 2018
-      comment: vponomaryov (ru)
     - name: Vladimir Sokolov
       email: vsokolov@hystax.com
       expires-in: January 2018
@@ -772,9 +828,17 @@ I18n:
       email: evgind@gmail.com
       expires-in: January 2018
       comment: duyarli (tr-TR)
+    - name: işbaran akçayır
+      email: isbaran@gmail.com
+      expires-in: July 2018
+      comment: isbaran (tr-TR)
+    - name: blkart
+      email: blkart.org@gmail.com
+      expires-in: July 2018
+      comment: blkart (zh-CN)
     - name: Wu Han
       email: wu.han@h3c.com
-      expires-in: January 2018
+      expires-in: July 2018
       comment: h3c_wuhan (zh-CN)
     - name: linlin
       email: 469923498@qq.com
@@ -786,7 +850,7 @@ I18n:
       comment: liujiong (zh-CN)
     - name: liujunpeng
       email: liujunpeng@inspur.com
-      expires-in: January 2018
+      expires-in: July 2018
       comment: liujunpeng (zh-CN)
     - name: maoshuai
       email: fwsakura@163.com
@@ -798,328 +862,48 @@ I18n:
       comment: petro (zh-CN)
     - name: sunanchen
       email: KF.sunanchen@h3c.com
-      expires-in: January 2018
+      expires-in: July 2018
       comment: sunanchen (zh-CN)
     - name: Tony
       email: tfu@redhat.com
-      expires-in: January 2018
+      expires-in: July 2018
       comment: tfu (zh-CN)
+    - name: TigerFang
+      email: tigerfun@126.com
+      expires-in: July 2018
+      comment: tigerfang (zh-CN)
+    - name: vuuv
+      email: froms2008@gmail.com
+      expires-in: July 2018
+      comment: vuuv (zh-CN)
+    - name: 徐和康
+      email: 1092181938@qq.com
+      expires-in: July 2018
+      comment: xhkjoe (zh-CN)
+    - name: BillXiang
+      email: m13250816269@163.com
+      expires-in: July 2018
+      comment: xiangbinbin (zh-CN)
     - name: zenglulu
       email: zengluul@gmail.com
       expires-in: January 2018
       comment: zenglulu (zh-CN)
+    - name: Gaoxiao Zhu
+      email: zhu.gaoxiao@h3c.com
+      expires-in: July 2018
+      comment: zhugaoxiao (zh-CN)
     - name: zzxwill
       email: zzxwill@gmail.com
-      expires-in: January 2018
+      expires-in: July 2018
       comment: zzxwill (zh-CN)
-    - name: Lenka Husakova
-      email: lenka.husakova@ultimum.io
-      expires-in: July 2017
-      comment: lenkahusakova
-    - name: Zbyněk Schwarz
-      email: zbynek.schwarz@gmail.com
-      expires-in: July 2017
-      comment: tsbook
-    - name: Alex Loew
-      email: alex.loew.al@gmail.com
-      expires-in: July 2017
-      comment: loewal
-    - name: Carsten Duch
-      email: carsten.duch@posteo.de
-      expires-in: July 2017
-      comment: cduch
-    - name: Dirk Wallerstorfer
-      email: dirk.wallerstorfer@ruxit.com
-      expires-in: July 2017
-      comment: wall_dirk
-    - name: Lisa Stemmler
-      email: lstemmle@redhat.com
-      expires-in: July 2017
-      comment: lstemmle
-    - name: Monika Wolf
-      email: vcomas3@de.ibm.com
-      expires-in: July 2017
-      comment: vcomas3
-    - name: Bokai Tseng
-      email: robert.cresswell@outlook.com
-      expires-in: July 2017
-      comment: robcresswell
-    - name: Alberto Laporte
-      email: alberto.riveralaporte@rackspace.com
-      expires-in: July 2017
-      comment: hybridpollo
-    - name: Alberto Molina Coballes
-      email: alb.molina@gmail.com
-      expires-in: July 2017
-      comment: albertomolina
-    - name: Marian Tort
-      email: marian.tort@gmail.com
-      expires-in: July 2017
-      comment: mariantb
-    - name: Eduardo Gonzalez Gutierrez
-      email: dabarren@gmail.com
-      expires-in: July 2017
-      comment: egongu90
-    - name: Jose Porrua
-      email: jose.porrua@netapp.com
-      expires-in: July 2017
-      comment: porrua
-    - name: Pablo Caruana
-      email: pcaruana@redhat.com
-      expires-in: July 2017
-      comment: pcaruana
-    - name: Pablo Iranzo Gomez
-      email: Pablo.Iranzo@gmail.com
-      expires-in: July 2017
-      comment: iranzo
-    - name: Angelique Pillal
-      email: pillal@fr.ibm.com
-      expires-in: July 2017
-      comment: angelique_pillal16
-    - name: Cedric Savignan
-      email: liced@liced.fr
-      expires-in: July 2017
-      comment: liced
-    - name: Gael Rehault
-      email: gael_rehault@dell.com
-      expires-in: July 2017
-      comment: gael__
-    - name: JF Taltavull
-      email: jftalta@gmail.com
-      expires-in: July 2017
-      comment: jftalta
-    - name: Corina Roe
-      email: croe@redhat.com
-      expires-in: July 2017
-      comment: croe
-    - name: Maxime Coquerel
-      email: max.coquerel@gmail.com
-      expires-in: July 2017
-      comment: zigmax
-    - name: SOURDET Henri
-      email: hsourdet@gmail.com
-      expires-in: July 2017
-      comment: henris
-    - name: Kevin Tibi
-      email: kodokuu@gmail.com
-      expires-in: July 2017
-      comment: kodokuu
-    - name: Martine Marin
-      email: mmarin@fr.ibm.com
-      expires-in: July 2017
-      comment: mmarin
-    - name: Nicolas Fournier
-      email: nicolas.fournier3@gmail.com
-      expires-in: July 2017
-      comment: nikoul
-    - name: Romain Chantereau
-      email: rchanter@redhat.com
-      expires-in: July 2017
-      comment: romainsc
-    - name: Sylvie Chesneau
-      email: sissicdf@fr.ibm.com
-      expires-in: July 2017
-      comment: sylvie_chesneau
-    - name: Alessandra
-      email: alessandra@translated.net
-      expires-in: July 2017
-      comment: alessandra
-    - name: Doraly Navarro
-      email: doralynavarro@gmail.com
-      expires-in: July 2017
-      comment: dynarro
-    - name: Remo Mattei
-      email: remo@rm.ht
-      expires-in: July 2017
-      comment: itlinux
-    - name: Haruki Yamanashi
-      email: h.yamanashi@jp.fujitsu.com
-      expires-in: July 2017
-      comment: haruki
-    - name: Kyohei MORIYAMA
-      email: flogofrein@gmail.com
-      expires-in: July 2017
-      comment: sasukeh
-    - name: Masami Sasahara
-      email: ebb0de1@jp.ibm.com
-      expires-in: July 2017
-      comment: masami_sasahara
-    - name: Mie Yamamoto
-      email: myamamot@redhat.com
-      expires-in: July 2017
-      comment: myamamot
-    - name: otsuka
-      email: otsuka@ap-com.co.jp
-      expires-in: July 2017
-      comment: otsuka
-    - name: Tsutomu Kimura
-      email: ebb0de2@jp.ibm.com
-      expires-in: July 2017
-      comment: tsutomu_kimura
-    - name: Yuta Hono
-      email: yuta.hono@ntt.com
-      expires-in: July 2017
-      comment: yuta_hono
-    - name: dongbinseo
-      email: chuinggun@naver.com
-      expires-in: July 2017
-      comment: chuinggun
-    - name: jtjang
-      email: jang.jitae@gmail.com
-      expires-in: July 2017
-      comment: jitaejang
-    - name: SeYeon Lee
-      email: sy_lee@kr.ibm.com
-      expires-in: July 2017
-      comment: seyeon
-    - name: Taekho Nam
-      email: career.thnam@gmail.com
-      expires-in: July 2017
-      comment: thnam
-    - name: Andre
-      email: andrecbezerra@gmail.com
-      expires-in: July 2017
-      comment: andrecampos
-    - name: Carlos Marques
-      email: marquesc@br.ibm.com
-      expires-in: July 2017
-      comment: marquesc
-    - name: Eric Baum
-      email: ecbaum@gmail.com
-      expires-in: July 2017
-      comment: ericbaum
-    - name: Marcelo Dieder
-      email: marcelodieder@gmail.com
-      expires-in: July 2017
-      comment: marcelodieder
-    - name: sandro
-      email: sandro@conacloud.com.br
-      expires-in: July 2017
-      comment: sanporci
-    - name: Fedor Tarasenko
-      email: feodor.tarasenko@gmail.com
-      expires-in: July 2017
-      comment: ftarasenko
-    - name: Grigory Mokhin
-      email: mokhin@gmail.com
-      expires-in: July 2017
-      comment: mokhin2
-    - name: Kirill Zaitsev
-      email: k.zaitsev@me.com
-      expires-in: July 2017
-      comment: kzaitsev
-    - name: Nikita Burtsev
-      email: nikita.burtsev@gmail.com
-      expires-in: July 2017
-      comment: nburtsev
-    - name: komatineni
-      email: komatineni@gmail.com
-      expires-in: July 2017
-      comment: komatineni
-    - name: Mücahit Büyükyılmaz
-      email: mucahit@deltanoc.com
-      expires-in: July 2017
-      comment: mucahit
-    - name: BillXiang
-      email: m13250816269@163.com
-      expires-in: July 2017
-      comment: billxiang
-    - name: Carl
-      email: cai.hui@zte.com.cn
-      expires-in: July 2017
-      comment: caihui
-    - name: Chancy Chou
-      email: sixloop@hotmail.com
-      expires-in: July 2017
-      comment: zhouchangxun
-    - name: gecong
-      email: ge.cong@zte.com.cn
-      expires-in: July 2017
-      comment: gecong
-    - name: hanchao
-      email: han.chaoB@h3c.com
-      expires-in: July 2017
-      comment: openstackhc
-    - name: Huiyuan
-      email: changhuiyuan@gmail.com
-      expires-in: July 2017
-      comment: changhuiyuan
-    - name: lindayang
-      email: duleish@cn.ibm.com
-      expires-in: July 2017
-      comment: lindayang
-    - name: Lucas Palm
-      email: lapalm@us.ibm.com
-      expires-in: July 2017
-      comment: lapalm
-    - name: mimisheep
-      email: 157815086@qq.com
-      expires-in: July 2017
-      comment: mimisheep
-    - name: Shengjing Zhu
-      email: zsj950618@gmail.com
-      expires-in: July 2017
-      comment: zhsj
-    - name: Sun Jing
-      email: sun.jing22@zte.com.cn
-      expires-in: July 2017
-      comment: sunjing
-    - name: vuuv
-      email: froms2008@gmail.com
-      expires-in: July 2017
-      comment: vuuv
-    - name: Yu Long
-      email: yulongxn@163.com
-      expires-in: July 2017
-      comment: lony
-    - name: zhengjie
-      email: zhengjie7800@126.com
-      expires-in: July 2017
-      comment: zhengjie7800
-    - name: Gaoxiao Zhu
-      email: zhugaoxiao@gmail.com
-      expires-in: July 2017
-      comment: zhugaoxiao
-    - name: Ying Chun Guo
-      email: guoyingc@cn.ibm.com
-      expires-in: July 2017
-      comment: daisyycguo
-    - name: Webber Guo
-      email: webber.g@inwinstack.com
-      expires-in: July 2017
-      comment: webberguo
-    - name: Cristina Xu
-      email: cristxu@tw.ibm.com
-      expires-in: July 2017
-      comment: jenniferkuo
-    - name: Danny Ho
-      email: danny.h@inwinstack.com
-      expires-in: July 2017
-      comment: danny
-    - name: Gene Kuo
-      email: igene@igene.tw
-      expires-in: July 2017
-      comment: igene
-    - name: Terry Tai
-      email: terry@cloudcube.com.tw
-      expires-in: July 2017
-      comment: terrytai820
-    - name: Willy Chen
-      email: willy810405@gmail.com
-      expires-in: July 2017
-      comment: willychen
-    - name: Yue-Lin Jiang
-      email: cathy90703@gmail.com
-      expires-in: July 2017
-      comment: max821214
-    - name: James Lee
-      email: cijie.l@inwinStack.com
-      expires-in: July 2017
-      comment: jameslee
-    - name: Bokai Tseng
-      email: pilot9527@gmail.com
-      expires-in: July 2017
-      comment: bokaitseng
+    - name: Tom Fifield
+      email: tom@openstack.org
+      expires-in: July 2018
+      comment: fifieldt (ja, zh-TW)
+    - name: Ching Kuo
+      email: gene@openstack.org
+      expires-in: July 2018
+      comment: igene (zh-TW)
     - name: Carlos Munoz
       email: camunoz@redhat.com
       expires-in: April 2018
