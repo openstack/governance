@@ -351,7 +351,15 @@ keystone
 
 Planning Artifacts:
 
+The keystone team followed the documented steps outlined in this goal as the
+planning document.
+
 Completion Artifacts:
+
+The following review removed the tempest plugin that keystone was maintaining
+in tree and links to the new repository the plugin was moved to:
+
+  http://git.openstack.org/cgit/openstack/keystone/commit/?id=6f4e37e9e6810e24f45d034261f4a6ec4aa85fb1
 
 kolla
 -----
