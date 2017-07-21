@@ -4635,6 +4635,9 @@ winstackers:
         - openstack/os-win
       docs:
         contributor: null
+    oswin-tempest-plugin:
+      repos:
+        - openstack/oswin-tempest-plugin
     networking-hyperv:
       repos:
         - openstack/networking-hyperv
