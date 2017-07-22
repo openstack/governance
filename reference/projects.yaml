@@ -132,6 +132,9 @@ cinder:
     cinder-specs:
       repos:
         - openstack/cinder-specs
+    cinder-tempest-plugin:
+      repos:
+        - openstack/cinder-tempest-plugin
     os-brick:
       repos:
         - openstack/os-brick
