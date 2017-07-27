@@ -209,7 +209,7 @@ nova
 ~~~~
 
 Unit test porting is in progress, and the tests that have been ported
-are used in a voting gate job. 63 unit tests remain as of 2017-03-02.
+are used in a voting gate job. 66 unit tests remain as of 2017-07-26.
 
 There is a known issue with a race condition that trips up mox-based
 tests. A large number of tests need to be rewritten to use mock
@@ -521,6 +521,8 @@ Planning Artifacts:
 * https://blueprints.launchpad.net/nova/+spec/goal-python35
 
 Completion Artifacts:
+
+* https://review.openstack.org/#/c/436540/
 
 octavia
 -------
