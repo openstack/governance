@@ -2141,6 +2141,9 @@ OpenStack Charms:
     charm-cloudkitty:
       repos:
         - openstack/charm-cloudkitty
+    charm-deployment-guide:
+      repos:
+        - openstack/charm-deployment-guide
     charm-designate:
       repos:
         - openstack/charm-designate
