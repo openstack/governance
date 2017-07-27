@@ -11,8 +11,8 @@ License, Version 2.0`_ (ASLv2).
 
 .. _Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
 
-**OpenStack projects and libraries produced under the Big Tent**
-should generally be licensed under ASLv2, and otherwise must be
+**OpenStack projects and libraries** (produced by official OpenStack project
+teams) should generally be licensed under ASLv2, and otherwise must be
 licensed under a license supported by the `Contributor License
 Agreement`_ (CLA) which allows redistribution by the OpenStack
 Foundation under ASLv2 (currently only the MIT and both forms of the
