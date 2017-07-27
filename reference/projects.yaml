@@ -274,15 +274,9 @@ Documentation:
   tags:
     - team:diverse-affiliation
   deliverables:
-    api-site:
-      repos:
-        - openstack/api-site
     docs-specs:
       repos:
         - openstack/docs-specs
-    faafo:
-      repos:
-        - openstack/faafo
     installguide-cookiecutter:
       repos:
         - openstack/installguide-cookiecutter
