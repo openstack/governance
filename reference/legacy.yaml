@@ -157,73 +157,67 @@ fuel:
   service: Deployment service
   url: https://wiki.openstack.org/wiki/Fuel
   deliverables:
-    - fuel:
-        retired-on: 2015-03-29
-        repos:
-          - openstack/shotgun
-    - fuel:
-        retired-on: 2015-06-23
-        repos:
-          - openstack/fuel-mirror
-    - fuel-lcm:
-        retired-on: 2015-09-29
-        repos:
-          - openstack/fuel-upgrade
-    - fuel:
-        retired-on: 2017-06-20
-        repos:
-          - openstack/fuel-agent
-          - openstack/fuel-astute
-          - openstack/fuel-library
-          - openstack/fuel-main
-          - openstack/fuel-menu
-          - openstack/fuel-nailgun-agent
-          - openstack/fuel-ostf
-          - openstack/fuel-qa
-          - openstack/fuel-ui
-          - openstack/fuel-virtualbox
-          - openstack/fuel-web
-    - fuel-dev-tools:
-        retired-on: 2017-06-20
-        repos:
-          - openstack/fuel-dev-tools
-    - fuel-devops:
-        retired-on: 2017-06-20
-        repos:
-          - openstack/fuel-devops
-    - fuel-docs:
-        retired-on: 2017-06-20
-        repos:
-          - openstack/fuel-docs
-    - fuel-lcm:
-        retired-on: 2017-06-20
-        repos:
-          - openstack/fuel-nailgun-extension-cluster-upgrade
-          - openstack/fuel-nailgun-extension-iac
-          - openstack/fuel-nailgun-extension-converted-serializers
-          - openstack/fuel-octane
-          - openstack/tuning-box
-    - fuel-plugins:
-        retired-on: 2017-06-20
-        repos:
-          - openstack/fuel-plugins
-    - fuel-plugin-murano:
-        retired-on: 2017-06-20
-        repos:
-          - openstack/fuel-plugin-murano
-          - openstack/fuel-plugin-murano-tests
-    - fuel-specs:
-        retired-on: 2017-06-20
-        repos:
-          - openstack/fuel-specs
-    - fuel-stats:
-        retired-on: 2017-06-20
-        repos:
-          - openstack/fuel-stats
-    - python-fuelclient:
-        retired-on: 2017-06-20
-        repos:
-          - openstack/python-fuelclient
+    fuel:
+      retired-on: 2017-06-20
+      repos:
+        - openstack/fuel-agent
+        - openstack/fuel-astute
+        - openstack/fuel-library
+        - openstack/fuel-main
+        - openstack/fuel-menu
+        - openstack/fuel-mirror
+          # fuel-mirror was retired separately on 2015-06-23
+        - openstack/fuel-nailgun-agent
+        - openstack/fuel-ostf
+        - openstack/fuel-qa
+        - openstack/fuel-ui
+        - openstack/fuel-virtualbox
+        - openstack/fuel-web
+          # shotgun was retired separately on 2015-03-29
+        - openstack/shotgun
+    fuel-dev-tools:
+      retired-on: 2017-06-20
+      repos:
+        - openstack/fuel-dev-tools
+    fuel-devops:
+      retired-on: 2017-06-20
+      repos:
+        - openstack/fuel-devops
+    fuel-docs:
+      retired-on: 2017-06-20
+      repos:
+        - openstack/fuel-docs
+    fuel-lcm:
+      retired-on: 2017-06-20
+      repos:
+        - openstack/fuel-nailgun-extension-cluster-upgrade
+        - openstack/fuel-nailgun-extension-iac
+        - openstack/fuel-nailgun-extension-converted-serializers
+        - openstack/fuel-octane
+        - openstack/fuel-upgrade
+          # fuel-upgrade was retired separately on 2015-09-29
+        - openstack/tuning-box
+    fuel-plugins:
+      retired-on: 2017-06-20
+      repos:
+        - openstack/fuel-plugins
+    fuel-plugin-murano:
+      retired-on: 2017-06-20
+      repos:
+        - openstack/fuel-plugin-murano
+        - openstack/fuel-plugin-murano-tests
+    fuel-specs:
+      retired-on: 2017-06-20
+      repos:
+        - openstack/fuel-specs
+    fuel-stats:
+      retired-on: 2017-06-20
+      repos:
+        - openstack/fuel-stats
+    python-fuelclient:
+      retired-on: 2017-06-20
+      repos:
+        - openstack/python-fuelclient
 
 horizon:
   irc-channel: openstack-horizon
@@ -242,18 +236,18 @@ ironic:
   url: https://wiki.openstack.org/wiki/Ironic
   partial: yes
   deliverables:
-    - ironic-webclient:
-        retired-on: 2016-11-28
-        repos:
-          - openstack/ironic-webclient
-    - python-dracclient:
-        retired-on: 2016-11-28
-        repos:
-          - openstack/python-dracclient
-    - python-wsmanclient:
-        retired-on: 2016-11-28
-        repos:
-          - openstack/python-wsmanclient
+    ironic-webclient:
+      retired-on: 2016-11-28
+      repos:
+        - openstack/ironic-webclient
+    python-dracclient:
+      retired-on: 2016-11-28
+      repos:
+        - openstack/python-dracclient
+    python-wsmanclient:
+      retired-on: 2016-11-28
+      repos:
+        - openstack/python-wsmanclient
 
 keystone:
   irc-channel: openstack-keystone
@@ -302,30 +296,30 @@ neutron:
   url: https://wiki.openstack.org/wiki/Neutron
   partial: yes
   deliverables:
-    - networking-calico:
-        retired-on: 2016-11-17
-        repos:
-          - openstack/networking-calico
-    - networking-l2gw:
-        retired-on: 2016-11-01
-        repos:
-          - openstack/networking-l2gw
-    - networking-ofagent:
-        retired-on: 2017-03-03
-        repos:
-          - openstack/networking-ofagent
-    - networking-onos:
-        retired-on: 2016-11-01
-        repos:
-          - openstack/networking-onos
-    - neutron-vpnaas:
-        retired-on: 2016-11-01
-        repos:
-          - openstack/neutron-vpnaas
-    - python-neutron-pd-driver:
-        retired-on: 2016-10-31
-        repos:
-          - openstack/python-neutron-pd-driver
+    networking-calico:
+      retired-on: 2016-11-17
+      repos:
+        - openstack/networking-calico
+    networking-l2gw:
+      retired-on: 2016-11-01
+      repos:
+        - openstack/networking-l2gw
+    networking-ofagent:
+      retired-on: 2017-03-03
+      repos:
+        - openstack/networking-ofagent
+    networking-onos:
+      retired-on: 2016-11-01
+      repos:
+        - openstack/networking-onos
+    neutron-vpnaas:
+      retired-on: 2016-11-01
+      repos:
+        - openstack/neutron-vpnaas
+    python-neutron-pd-driver:
+      retired-on: 2016-10-31
+      repos:
+        - openstack/python-neutron-pd-driver
 
 OpenStackSalt:
   ptl:
@@ -437,10 +431,10 @@ solum:
   url: https://wiki.openstack.org/wiki/Solum
   partial: yes
   deliverables:
-    - solum-infra-guestagent:
-        retired-on: 2016-11-24
-        repos:
-          - openstack/solum-infra-guestagent
+    solum-infra-guestagent:
+      retired-on: 2016-11-24
+      repos:
+        - openstack/solum-infra-guestagent
 
 Telemetry:
   irc-channel: openstack-telemetry
@@ -448,14 +442,14 @@ Telemetry:
   url: https://wiki.openstack.org/wiki/Telemetry
   partial: yes
   deliverables:
-    - gnocchi:
-        retired-on: 2017-03-20
-        repos:
-          - openstack/gnocchi
-    - python-gnocchiclient:
-        retired-on: 2017-03-20
-        repos:
-          - openstack/python-gnocchiclient
+    gnocchi:
+      retired-on: 2017-03-20
+      repos:
+        - openstack/gnocchi
+    python-gnocchiclient:
+      retired-on: 2017-03-20
+      repos:
+        - openstack/python-gnocchiclient
 
 tripleo:
   irc-channel: tripleo
@@ -463,9 +457,9 @@ tripleo:
   service: Deployment service
   url: https://wiki.openstack.org/wiki/TripleO
   deliverables:
-    - os-cloud-config:
-        repos:
-          - openstack/os-cloud-config
-        retired-on: 2017-03-28
-        docs:
-          contributor: http://docs.openstack.org/developer/os-cloud-config/
+    os-cloud-config:
+      repos:
+        - openstack/os-cloud-config
+      retired-on: 2017-03-28
+      docs:
+        contributor: http://docs.openstack.org/developer/os-cloud-config/
