@@ -4603,6 +4603,9 @@ watcher:
     watcher-specs:
       repos:
         - openstack/watcher-specs
+    watcher-tempest-plugin:
+      repos:
+        - openstack/watcher-tempest-plugin
     python-watcherclient:
       repos:
         - openstack/python-watcherclient
