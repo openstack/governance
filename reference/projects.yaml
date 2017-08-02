@@ -2144,6 +2144,9 @@ OpenStack Charms:
     charm-designate-bind:
       repos:
         - openstack/charm-designate-bind
+    charm-gnocchi:
+      repos:
+        - openstack/charm-gnocchi
     charm-glance:
       repos:
         - openstack/charm-glance
@@ -2162,9 +2165,15 @@ OpenStack Charms:
     charm-interface-bind-rndc:
       repos:
         - openstack/charm-interface-bind-rndc
+    charm-interface-ceph-client:
+      repos:
+        - openstack/charm-interface-ceph-client
     charm-interface-ceph-mds:
       repos:
         - openstack/charm-interface-ceph-mds
+    charm-interface-gnocchi:
+      repos:
+        - openstack/charm-interface-gnocchi
     charm-interface-hacluster:
       repos:
         - openstack/charm-interface-hacluster
