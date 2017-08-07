@@ -491,6 +491,9 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+* https://review.openstack.org/480160
+* https://review.openstack.org/479165
+
 murano
 ------
 
