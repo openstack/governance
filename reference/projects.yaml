@@ -1805,6 +1805,9 @@ monasca:
     monasca-log-api:
       repos:
         - openstack/monasca-log-api
+    monasca-events-api:
+      repos:
+        - openstack/monasca-events-api
     monasca-notification:
       repos:
         - openstack/monasca-notification
