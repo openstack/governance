@@ -289,6 +289,9 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+* ironic: PARTIAL (using mod_wsgi instead of uWSGI)
+* ironic-inspector: TODO (Queens)
+
 karbor
 ------
 
