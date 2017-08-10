@@ -8,8 +8,8 @@ eligible candidate identify themselves, the following process will be used to
 determine leadership for any program in this situation.
 
 #. Programs without a minimum of one eligible candidate are identified to the
-   Technical Committee by the Election Officials, as soon as possible after the
-   nomination period has expired.
+   Technical Committee by the Election Officials, before the conclusion of
+   the election.
 
 #. The Technical Committee can appoint a leader to any programs in this
    situation, by mutual agreement of the Technical Committee and the proposed
