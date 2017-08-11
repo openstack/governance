@@ -277,9 +277,6 @@ Documentation:
     docs-specs:
       repos:
         - openstack/docs-specs
-    installguide-cookiecutter:
-      repos:
-        - openstack/installguide-cookiecutter
     openstack-doc-tools:
       repos:
         - openstack/openstack-doc-tools

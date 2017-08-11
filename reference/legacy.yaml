@@ -139,6 +139,10 @@ Documentation:
   url: https://wiki.openstack.org/wiki/Documentation
   partial: yes
   deliverables:
+    api-site:
+      retired-on: 2017-07-19
+      repos:
+        - openstack/api-site
     api-tools:
       retired-on: 2017-01-09
       repos:
@@ -147,10 +151,10 @@ Documentation:
       retired-on: 2017-07-19
       repos:
         - openstack/faafo
-    api-site:
-      retired-on: 2017-07-19
+    installguide-cookiecutter:
+      retired-on: 2017-08-01
       repos:
-        - openstack/api-site
+        - openstack/installguide-cookiecutter
 
 fuel:
   irc-channel: fuel
