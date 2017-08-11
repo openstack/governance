@@ -119,6 +119,9 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+* https://review.openstack.org/#/c/476996/
+* https://review.openstack.org/#/c/476995/
+
 Chef OpenStack
 --------------
 
