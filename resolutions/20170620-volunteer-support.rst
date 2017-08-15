@@ -18,7 +18,8 @@ Given all this, the term "upstream support" is more complicated than it
 would first appear. It could be getting a reply to a mailing list post,
 fixing a bug you reported, getting your code reviewed and merged, getting
 help in IRC to debug a production issue or something else. In this document
-we what needs to be in place to help provide some level of "upstream support".
+we describe what needs to be in place to help provide some level of
+"upstream support".
 
 Implemented Upstream
 ====================
