@@ -2572,6 +2572,8 @@ oslo:
         - openstack/oslo.messaging
       docs:
         contributor: http://docs.openstack.org/developer/oslo.messaging/
+      tags:
+        - stable:follows-policy
     oslo.middleware:
       repos:
         - openstack/oslo.middleware
