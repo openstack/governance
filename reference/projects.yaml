@@ -4247,9 +4247,9 @@ Stable branch maintenance:
 
 storlets:
   ptl:
-    name: Eran Rom
-    irc: eranrom
-    email: eran@itsonlyme.name
+    name: Kota Tsuyuzaki
+    irc: kota_
+    email: tsuyuzaki.kota@lab.ntt.co.jp
   irc-channel: openstack-storlets
   service: Compute inside Object Storage service
   mission: >
