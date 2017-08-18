@@ -293,7 +293,18 @@ murano
 
 Planning Artifacts:
 
+Murano implemented this toward the end of Pike-2 milestone.
+
+The blueprint used was:
+https://blueprints.launchpad.net/murano/+spec/policy-in-code
+
 Completion Artifacts:
+
+The final RBAC patch in the chain was:
+https://review.openstack.org/#/c/473562/
+
+The policy documentation is available here:
+https://docs.openstack.org/murano/latest/admin/murano_policies.html
 
 neutron
 -------
