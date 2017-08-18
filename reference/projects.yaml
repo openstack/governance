@@ -1615,11 +1615,15 @@ kolla:
         - openstack/kolla
       docs:
         contributor: http://docs.openstack.org/developer/kolla/
+      tags:
+        - stable:follows-policy
     kolla-ansible:
       repos:
         - openstack/kolla-ansible
       docs:
         contributor: http://docs.openstack.org/developer/kolla-ansible/
+      tags:
+        - stable:follows-policy
     kolla-kubernetes:
       repos:
         - openstack/kolla-kubernetes
