@@ -954,3 +954,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+* Classifier: https://git.openstack.org/cgit/openstack/zun/tree/setup.cfg
+* Unit tests: All unit tests are passed in python 3.5. There is a voting check and gate job setup called 'gate-zun-python35'.
+* Functional tests: Zun doesn't have functional tests.
+* Integration tests: All integration tests are passed in python 3.5. There is a voting check and gate job setup: https://review.openstack.org/#/c/491623/
+
