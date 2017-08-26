@@ -4233,6 +4233,9 @@ solum:
     solum-specs:
       repos:
         - openstack/solum-specs
+    solum-tempest-plugin:
+      repos:
+        - openstack/solum-tempest-plugin
 
 Stable branch maintenance:
   ptl:
