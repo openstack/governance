@@ -47,7 +47,7 @@ worked on. Some of the points can be automated - ensuring channels are logged,
 for example - whereas others require doing more community work to ensure
 cross-communication is not lost with the new model.
 
-This model, as well as other recent changes in the community, encourage project
+This model and other recent changes in the community encourage project
 teams to rely more on the mailing list and to provide team updates. By doing
 this, we'll make sure more information about every project is available to other
 members of the community in a common place.
