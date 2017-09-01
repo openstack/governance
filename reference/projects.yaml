@@ -2516,11 +2516,6 @@ oslo:
     oslo-cookiecutter:
       repos:
         - openstack-dev/oslo-cookiecutter
-    oslo-incubator:
-      repos:
-        - openstack/oslo-incubator
-      docs:
-        contributor: https://docs.openstack.org/oslo-incubator/latest/
     oslo-specs:
       repos:
         - openstack/oslo-specs

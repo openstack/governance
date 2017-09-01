@@ -429,6 +429,17 @@ OpenStack UX:
       repos:
         - openstack/openstack-ux
 
+oslo:
+  irc-channel: openstack-oslo
+  service: Common libraries
+  partial: yes
+  url: https://wiki.openstack.org/wiki/Oslo
+  deliverables:
+    oslo-incubator:
+      retired-on: 2016-05-25
+      repos:
+        - openstack/oslo-incubator
+
 solum:
   irc-channel: solum
   service: Software Development Lifecycle Automation service
