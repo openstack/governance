@@ -1742,6 +1742,33 @@ manila:
       email: dencaval@gmail.com
       expires-in: March 2017
 
+masakari:
+  ptl:
+    name: Sampath Priyankara
+    irc: samP
+    email: sam47priya@gmail.com
+  irc-channel: openstack-masakari
+  service: Instances High Availability Service
+  mission: >
+    Provide instances high availability service for OpenStack
+    clouds by automatically recover the instances from failures.
+  url: https://wiki.openstack.org/wiki/Masakari
+  tags:
+    - team:single-vendor
+  deliverables:
+    masakari:
+      repos:
+        - openstack/masakari
+    masakari-monitors:
+      repos:
+        - openstack/masakari-monitors
+    masakari-specs:
+      repos:
+        - openstack/masakari-specs
+    python-masakariclient:
+      repos:
+        - openstack/python-masakariclient
+
 mistral:
   ptl:
     name: Renat Akhmerov
