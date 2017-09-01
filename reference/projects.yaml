@@ -43,9 +43,9 @@ barbican:
 
 Chef OpenStack:
   ptl:
-    name: Jan Klare
-    irc: jklare
-    email: j.klare@cloudbau.de
+    name: Samuel Cassiba
+    irc: sc\`
+    email: s@cassiba.com
   service: Chef cookbooks for deployment
   mission: >
     The Chef cookbooks for OpenStack allow to automate the building, operation
@@ -103,9 +103,9 @@ Chef OpenStack:
 
 cinder:
   ptl:
-    name: Sean McGinnis
-    irc: smcginnis
-    email: sean.mcginnis@gmail.com
+    name: Jay Bryant
+    irc: jungleboyj
+    email: jsbryant@electronicjungle.net
   irc-channel: openstack-cinder
   service: Block Storage service
   mission: >
@@ -220,9 +220,9 @@ congress:
 
 designate:
   ptl:
-    name: Tim Simmons
-    irc: timsim
-    email: tim.r.simmons@gmail.com
+    name: Graham Hayes
+    irc: mugsie
+    email: graham@hayes.ie
   service: DNS service
   irc-channel: openstack-dns
   mission: >
@@ -262,9 +262,9 @@ designate:
 
 Documentation:
   ptl:
-    name: Alexandra Settle
-    irc: asettle
-    email: a.settle@outlook.com
+    name: Petr Kovar
+    irc: pkovar
+    email: pkovar@redhat.com
   irc-channel: openstack-doc
   mission: >
     Provide documentation for core OpenStack projects to promote OpenStack.
@@ -321,9 +321,9 @@ dragonflow:
 
 ec2-api:
   ptl:
-    name: Alexandre Levine
-    irc: alexandrelevine
-    email: alexandrelevine@gmail.com
+    name: Andrey Pavlov
+    irc: andrey-mp
+    email: andrey.mp@gmail.com
   irc-channel: openstack-ec2api
   service: EC2 API compatibility layer for OpenStack
   mission: >
@@ -376,7 +376,7 @@ glance:
   ptl:
     name: Brian Rosmaita
     irc: rosmaita
-    email: brian.rosmaita@rackspace.com
+    email: rosmaita.fossdev@gmail.com
   irc-channel: openstack-glance
   service: Image service
   mission: >
@@ -470,9 +470,9 @@ heat:
 
 horizon:
   ptl:
-    name: Rob Cresswell
-    irc: robcresswell
-    email: robert.cresswell@outlook.com
+    name: Ying Zuo
+    irc: ying_zuo
+    email: yinzuo@cisco.com
   irc-channel: openstack-horizon
   service: Dashboard
   mission: >
@@ -582,9 +582,9 @@ horizon:
 
 I18n:
   ptl:
-    name: Ian Y. Choi
-    irc: ianychoi
-    email: ianyrchoi@gmail.com
+    name: Frank Kloeker
+    irc: eumel8
+    email: f.kloeker@telekom.de
   mission: >
     To make OpenStack ubiquitously accessible to people of
     all language backgrounds.
@@ -910,9 +910,9 @@ I18n:
 
 Infrastructure:
   ptl:
-    name: Jeremy Stanley
-    irc: fungi
-    email: fungi@yuggoth.org
+    name: Clark Boylan
+    irc: clarkb
+    email: clark.boylan@gmail.com
   irc-channel: openstack-infra
   mission: >
     Develop and maintain the tooling and infrastructure needed to support the
@@ -1513,9 +1513,9 @@ ironic:
 
 karbor:
   ptl:
-    name: Yuval Brik
-    irc: yuval
-    email: yuval@brik.org.il
+    name: Chen Ying
+    irc: chenying
+    email: ying.chen@huawei.com
   irc-channel: openstack-karbor
   service: Data Protection Orchestration Service
   mission: >
@@ -1669,9 +1669,9 @@ kuryr:
 
 magnum:
   ptl:
-    name: Adrian Otto
-    irc: Adrian_Otto
-    email: adrian.otto@rackspace.com
+    name: Spyros Trigazis
+    irc: strigazi
+    email: spyridon.trigazis@cern.ch
   irc-channel: openstack-containers
   service: Container Infrastructure Management service
   mission: >
@@ -1781,9 +1781,9 @@ mistral:
 
 monasca:
   ptl:
-    name: Roland Hochmuth
-    irc: rhochmuth
-    email: roland.hochmuth@hpe.com
+    name: Witold Bedyk
+    irc: witek
+    email: witold.bedyk@est.fujitsu.com
   irc-channel: openstack-monasca
   service: Monitoring
   mission: >
@@ -1851,9 +1851,9 @@ monasca:
 
 murano:
   ptl:
-    name: Felipe Monteiro
-    irc: felipemonteiro
-    email: felipe.monteiro@att.com
+    name: Rong Zhu
+    irc: zhurong
+    email: aaronzhu1121@gmail.com
   irc-channel: murano
   service: Application Catalog service
   mission: >
@@ -2310,9 +2310,9 @@ OpenStack Charms:
 
 OpenStackAnsible:
   ptl:
-    name: Andy McCrae
-    irc: andymccr
-    email: andy.mccrae@gmail.com
+    name: Jean-Philippe Evrard
+    irc: evrardjp
+    email: jean-philippe@evrard.me
   service: Ansible playbooks and roles for deployment
   irc-channel: openstack-ansible
   mission: >
@@ -3669,9 +3669,9 @@ Packaging-deb:
 
 Packaging-rpm:
   ptl:
-    name: Igor Yozhikov
-    irc: IgorYozhikov
-    email: iyozhikov@mirantis.com
+    name: Thomas Bechtold
+    irc: toabctl
+    email: tbechtold@suse.com
   mission: >
     To make OpenStack easier to update and consume by operators and
     provide tooling to package all OpenStack projects directly for
@@ -3693,9 +3693,9 @@ Packaging-rpm:
 
 Puppet OpenStack:
   ptl:
-    name: Alex Schultz
-    irc: mwhahaha
-    email: aschultz@redhat.com
+    name: Mohammed Naser
+    irc: mnaser
+    email: mnaser@vexxhost.com
   service: Puppet modules for deployment
   mission: >
     The Puppet modules for OpenStack bring scalable and reliable IT automation
@@ -3963,9 +3963,9 @@ rally:
 
 RefStack:
   ptl:
-    name: Catherine Diep
-    irc: catherineD
-    email: cdiep@us.ibm.com
+    name: Chris Hoge
+    irc: hogepodge
+    email: chris@openstack.org
   irc-channel: refstack
   service: Interoperability Test Report
   mission: >
@@ -3984,9 +3984,9 @@ RefStack:
 
 Release Management:
   ptl:
-    name: Thierry Carrez
-    irc: ttx
-    email: thierry@openstack.org
+    name: Sean McGinnis
+    irc: smcginnis
+    email: sean.mcginnis@gmail.com
   irc-channel: openstack-release
   mission: >
     Coordinating the release of OpenStack deliverables, by defining the
@@ -4020,9 +4020,9 @@ Release Management:
 
 requirements:
   ptl:
-    name: Tony Breeds
-    irc: tonyb
-    email: tony@bakeyournoodle.com
+    name: Matthew Thode
+    irc: prometheanfire
+    email: mthode@mthode.org
   irc-channel: openstack-requirements
   mission: >
     Coordinating and converging the libraries used by OpenStack projects,
@@ -4107,9 +4107,9 @@ searchlight:
 
 Security:
   ptl:
-    name: Robert Clark
-    irc: hyakuhei
-    email: hyakuhei@gmail.com
+    name: Luke Hinds
+    irc: lhinds
+    email: lhinds@redhat.com
   mission: >
     To provide developers and consumers of OpenStack with appropriate security
     guidance and advice. To develop tooling that enhances levels of security
@@ -4152,9 +4152,9 @@ Security:
 
 senlin:
   ptl:
-    name: Qiming Teng
-    irc: Qiming
-    email: tengqim@cn.ibm.com
+    name: Ruijie Yuan
+    irc: ruijie
+    email: cnjie0616@gmail.com
   irc-channel: senlin
   service: Clustering service
   mission: >
@@ -4205,9 +4205,9 @@ shade:
 
 solum:
   ptl:
-    name: Devdatta Kulkarni
-    irc: devkulkarni
-    email: kulkarni.devdatta@gmail.com
+    name: Rong Zhu
+    irc: zhurong
+    email: aaronzhu1121@gmail.com
   irc-channel: solum
   service: Software Development Lifecycle Automation service
   mission: >
@@ -4339,9 +4339,9 @@ tacker:
 
 Telemetry:
   ptl:
-    name: Julien Danjou
-    irc: jd__
-    email: julien@danjou.info
+    name: Gordon Chung
+    irc: gordc
+    email: gord@live.ca
   irc-channel: openstack-telemetry
   service: Telemetry service
   mission: >
@@ -4398,9 +4398,9 @@ Telemetry:
 
 tricircle:
   ptl:
-    name: Chaoyi Huang
-    irc: joehuang
-    email: joehuang@huawei.com
+    name: Zhiyuan Cai
+    irc: zhiyuan
+    email: luckyvega.g@gmail.com
   irc-channel: openstack-tricircle
   service: Networking automation across Neutron service
   mission: >
@@ -4417,9 +4417,9 @@ tricircle:
 
 tripleo:
   ptl:
-    name: Emilien Macchi
-    irc: emilienm
-    email: emilien@redhat.com
+    name: Alex Schultz
+    irc: mwhahaha
+    email: aschultz@redhat.com
   irc-channel: tripleo
   service: Deployment service
   mission: >
