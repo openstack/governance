@@ -1906,6 +1906,9 @@ murano:
     yaql:
       repos:
         - openstack/yaql
+    murano-tempest-plugin:
+      repos:
+        - openstack/murano-tempest-plugin
 
 neutron:
   ptl:
