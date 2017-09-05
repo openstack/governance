@@ -474,9 +474,7 @@ Completion Artifacts:
 storlets
 --------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 swift
 -----
