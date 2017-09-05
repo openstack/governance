@@ -152,9 +152,7 @@ Completion Artifacts:
 Documentation
 -------------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 dragonflow
 ----------
