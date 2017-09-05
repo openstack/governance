@@ -439,9 +439,7 @@ Completion Artifacts:
 Security
 --------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 senlin
 ------
