@@ -383,9 +383,7 @@ Completion Artifacts:
 Puppet OpenStack
 ----------------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 Quality Assurance
 -----------------
