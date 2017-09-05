@@ -341,9 +341,7 @@ https://docs.openstack.org/octavia/latest/configuration/policy.html
 OpenStack Charms
 ----------------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 OpenStackAnsible
 ----------------
