@@ -159,9 +159,7 @@ Completion Artifacts:
 dragonflow
 ----------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 ec2-api
 -------
