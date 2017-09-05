@@ -355,9 +355,7 @@ Completion Artifacts:
 OpenStackClient
 ---------------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 oslo
 ----
