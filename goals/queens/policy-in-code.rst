@@ -411,9 +411,7 @@ Completion Artifacts:
 Release Management
 ------------------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 requirements
 ------------
