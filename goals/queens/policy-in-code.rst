@@ -404,9 +404,7 @@ Completion Artifacts:
 RefStack
 --------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 Release Management
 ------------------
