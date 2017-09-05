@@ -249,9 +249,7 @@ Completion Artifacts:
 kolla
 -----
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 kuryr
 -----
