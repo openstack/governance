@@ -418,9 +418,7 @@ Completion Artifacts:
 requirements
 ------------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 sahara
 ------
