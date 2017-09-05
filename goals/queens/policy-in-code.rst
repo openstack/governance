@@ -316,9 +316,18 @@ Completion Artifacts:
 nova
 ----
 
+Note that nova moved policy into code during the Newton release and formally
+documented it in Pike.
+
 Planning Artifacts:
 
+* `nova policy-in-code specification <http://specs.openstack.org/openstack/nova-specs/specs/newton/implemented/policy-in-code.html>`_
+* `nova policy-docs specification <http://specs.openstack.org/openstack/nova-specs/specs/pike/approved/policy-docs.html>`_
+
 Completion Artifacts:
+
+* `nova policy-in-code implementation <https://review.openstack.org/#/q/topic:bp/policy-in-code+project:openstack/nova+status:merged>`_
+* `nova policy-docs implementation <https://review.openstack.org/#/q/topic:bp/policy-docs+project:openstack/nova+status:merged>`_
 
 octavia
 -------
