@@ -10,7 +10,7 @@ for Python repos is re-used here.
 A major criteria here is to not create an environment that is totally
 foreign to what developers are accustomed to in their respective
 communities.  Remember these are first OpenStack projects
-and they follow OpenStack processes where feasable.
+and they follow OpenStack processes where feasible.
 
 Each golang project must be able to do:
 

@@ -86,7 +86,7 @@ The Rackspace cloud files team started experimenting with using Golang and from
 that the Hummingbird project was born. Today, Hummingbird serves as a very good
 proof of concept that we can solve all the problems that have been mentioned in
 a timely manner. Yes, the Swift team will still need to re-write the Object
-server, but a signficant amount of that work has already been done, plus it has
+server, but a significant amount of that work has already been done, plus it has
 been show to already work in production with excellent performance and
 scalability results [4]_.
 

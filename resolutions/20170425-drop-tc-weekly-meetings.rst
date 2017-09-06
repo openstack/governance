@@ -89,7 +89,7 @@ makes it clear when something will be debated so people can join in that
 debate, and the debate is clearly recorded in the meeting logs.
 
 Using the current meeting format and agendas for debate artificially limits the
-bandwidth to what can be agreed within one hour a week. Loosing this restriction
+bandwidth to what can be agreed within one hour a week. Losing this restriction
 should allow for much higher bandwidth, if we are successful.
 
 While email and gerrit conversations provide a good asynchronous mechanism to

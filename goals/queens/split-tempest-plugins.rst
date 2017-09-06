@@ -1,7 +1,7 @@
 .. -*- mode: rst -*-
 
 ==================================================
-Split Tempest Plugins into Seperate Repos/Projects
+Split Tempest Plugins into Separate Repos/Projects
 ==================================================
 
 Tempest plugins rely on setuptools entrypoints and therefore can be included
@@ -69,7 +69,7 @@ Completion Criteria
 
 For all projects with a bundled tempest plugin:
 
-#. Create a new seperate repo for the tempest plugin
+#. Create a new separate repo for the tempest plugin
 #. Migrate all the functionality from the bundled plugin to the new repo
 #. Switch gating jobs to use the new plugin project instead of the bundled one
 #. Delete the bundled tempest plugin from the project repo
@@ -85,7 +85,7 @@ https://etherpad.openstack.org/p/tempest-separate-plugin
 References
 ==========
 
-The tempest documentation elaborates on why seperate plugins are a better
+The tempest documentation elaborates on why separate plugins are a better
 pattern:
 
 http://docs.openstack.org/developer/tempest/plugin.html#standalone-plugin-vs-in-repo-plugin
