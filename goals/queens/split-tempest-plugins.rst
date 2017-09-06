@@ -529,6 +529,11 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+The Sahara team was already compliant before that the goal was defined. Here
+is the commit link for the same:
+
+http://git.openstack.org/cgit/openstack/sahara/commit/?id=83a6a2868377dd61530a9de80c6ca49061c5f248
+
 searchlight
 -----------
 
