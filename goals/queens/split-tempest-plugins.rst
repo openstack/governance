@@ -637,7 +637,15 @@ watcher
 
 Planning Artifacts:
 
+The watcher team followed the documented steps outlined in this goal as the
+planning document.
+
 Completion Artifacts:
+
+The following review removed the tempest plugin that watcher was maintaining
+in tree and links to the new repository the plugin was moved to:
+
+http://git.openstack.org/cgit/openstack/watcher/commit/?id=0c4b439c5ea1206263f39c118daf6d2ff1422480
 
 winstackers
 -----------
