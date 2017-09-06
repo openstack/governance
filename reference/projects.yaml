@@ -1690,6 +1690,9 @@ magnum:
     magnum-specs:
       repos:
         - openstack/magnum-specs
+    magnum-tempest-plugin:
+      repos:
+        - openstack/magnum-tempest-plugin
     magnum-ui:
       repos:
         - openstack/magnum-ui
