@@ -238,13 +238,13 @@ keystone
 
 Planning Artifacts:
 
-* `policy-in-code specification <http://specs.openstack.org/openstack/keystone-specs/specs/keystone/pike/policy-in-code.html>`_
-* `policy-docs specification <http://specs.openstack.org/openstack/keystone-specs/specs/keystone/pike/policy-docs.html>`_
+* `keystone policy-in-code specification <http://specs.openstack.org/openstack/keystone-specs/specs/keystone/pike/policy-in-code.html>`_
+* `keystone policy-docs specification <http://specs.openstack.org/openstack/keystone-specs/specs/keystone/pike/policy-docs.html>`_
 
 Completion Artifacts:
 
-* `policy-in-code implementation <https://review.openstack.org/#/q/status:merged+project:openstack/keystone+branch:master+topic:bp/policy-in-code>`_
-* `policy-docs implementation <https://review.openstack.org/#/q/status:merged+project:openstack/keystone+branch:master+topic:bp/policy-docs>`_
+* `keystone policy-in-code implementation <https://review.openstack.org/#/q/status:merged+project:openstack/keystone+branch:master+topic:bp/policy-in-code>`_
+* `keystone policy-docs implementation <https://review.openstack.org/#/q/status:merged+project:openstack/keystone+branch:master+topic:bp/policy-docs>`_
 
 kolla
 -----
