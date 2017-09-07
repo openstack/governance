@@ -471,7 +471,12 @@ Packaging-deb
 
 Planning Artifacts:
 
+* The Packaging-deb team does not have tempest plugins and therefore has
+  nothing to do.
+
 Completion Artifacts:
+
+* Not applicable.
 
 Packaging-rpm
 -------------
