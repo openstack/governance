@@ -436,7 +436,12 @@ OpenStack Charms
 
 Planning Artifacts:
 
+* The OpenStack Charms team does not have tempest plugins and therefore has
+  nothing to do.
+
 Completion Artifacts:
+
+* Not applicable.
 
 OpenStack UX
 ------------
