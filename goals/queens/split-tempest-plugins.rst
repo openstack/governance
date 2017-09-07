@@ -478,7 +478,12 @@ Packaging-rpm
 
 Planning Artifacts:
 
+* The Packaging-rpm team does not have tempest plugins and therefore has
+  nothing to do.
+
 Completion Artifacts:
+
+* Not applicable.
 
 Puppet OpenStack
 ----------------
