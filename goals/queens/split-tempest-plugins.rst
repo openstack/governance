@@ -323,7 +323,12 @@ I18n
 
 Planning Artifacts:
 
+* The I18n team does not have tempest plugins and therefore has nothing
+  to do.
+
 Completion Artifacts:
+
+* Not applicable.
 
 Infrastructure
 --------------
