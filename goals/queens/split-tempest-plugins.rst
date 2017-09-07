@@ -88,7 +88,7 @@ References
 The tempest documentation elaborates on why seperate plugins are a better
 pattern:
 
-http://docs.openstack.org/developer/tempest/plugin.html#standalone-plugin-vs-in-repo-plugin
+https://docs.openstack.org/tempest/latest/plugin.html#standalone-plugin-vs-in-repo-plugin
 
 The following links may be useful to developers attempting to create their
 tempest plugin project:
