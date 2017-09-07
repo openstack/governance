@@ -616,7 +616,12 @@ tripleo
 
 Planning Artifacts:
 
+* The tripleo team does not have tempest plugins and therefore has nothing
+  to do.
+
 Completion Artifacts:
+
+* Not applicable
 
 trove
 -----
