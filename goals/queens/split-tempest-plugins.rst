@@ -267,7 +267,12 @@ Documentation
 
 Planning Artifacts:
 
+* The Documentation team does not maintain tempest plugins and therefore has
+  nothing to do.
+
 Completion Artifacts:
+
+* Not applicable.
 
 dragonflow
 ----------
