@@ -485,7 +485,12 @@ Puppet OpenStack
 
 Planning Artifacts:
 
+* The Puppet OpenStack team does not have tempest plugins and therefore has
+  nothing to do.
+
 Completion Artifacts:
+
+* Not applicable
 
 Quality Assurance
 -----------------
