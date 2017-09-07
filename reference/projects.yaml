@@ -4734,6 +4734,9 @@ zun:
     zun:
       repos:
         - openstack/zun
+      docs:
+        contributor: https://docs.openstack.org/zun/latest/
+        api: https://developer.openstack.org/api-ref/application-container/
     zun-tempest-plugin:
       repos:
         - openstack/zun-tempest-plugin
