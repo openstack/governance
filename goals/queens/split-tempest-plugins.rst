@@ -257,13 +257,6 @@ Completion Artifacts:
 
 * Not applicable.
 
-Community App Catalog
----------------------
-
-Planning Artifacts:
-
-Completion Artifacts:
-
 congress
 --------
 
@@ -316,13 +309,6 @@ Completion Artifacts:
 
 freezer
 -------
-
-Planning Artifacts:
-
-Completion Artifacts:
-
-fuel
-----
 
 Planning Artifacts:
 
@@ -514,13 +500,6 @@ Planning Artifacts:
 Completion Artifacts:
 
 * Not applicable.
-
-OpenStack UX
-------------
-
-Planning Artifacts:
-
-Completion Artifacts:
 
 OpenStackAnsible
 ----------------
