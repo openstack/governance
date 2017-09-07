@@ -225,7 +225,12 @@ Chef OpenStack
 
 Planning Artifacts:
 
+* The Chef OpenStack team does not have tempest plugins and therefore has
+  nothing to do.
+
 Completion Artifacts:
+
+* Not applicable.
 
 cinder
 ------
