@@ -77,3 +77,54 @@ Glance PTL (rosmaita), the TC sponsor for this item (flaper87) or starting a new
 email thread on the ML using the tag `[glance]`.
 
 .. _`Glance`: https://governance.openstack.org/tc/reference/projects/glance.html
+
+
+3. Community Infrastructure Sysadmins
+=====================================
+
+The Infrastructure_ team is responsible for designing, building and
+maintaining the systems that are used in the day to day operation of
+the OpenStack project as a whole; this includes development,
+testing, and collaboration tools. All of the software it runs is
+open source, and under public configuration management so that
+everyone in the community has the opportunity to participate. One
+very effective way to get involved in OpenStack, gaining a deep
+understanding of and visibility within the community, is by helping
+operate this infrastructure. Attrition due to shifts in employment
+or availability of personal time impacts the team's ability to
+support the community effectively, and so there is a constant need
+for new contributors who can commit to investing sufficient effort
+to overcome the steep learning curve associated with these varied
+technologies.
+
+Because our community is global, its support needs span most
+timezones. Unfortunately, the bulk of long-term contributors to
+Infrastructure are concentrated in the Americas and so this leaves
+APAC and EMEA community members with far fewer options for immediate
+assistance with urgent issues. Gaining more contributors who are
+active during those times (whether they live in those parts of the
+World or not) would provide a substantial benefit to the community.
+This is not necessarily as easy as it sounds because it's harder to
+get as much overlap with the current bulk of the team for shadowing
+and knowledge transfer, but there are still some existing team
+members in those timezones who can help mitigate that somewhat.
+
+In particular, the team seeks developers and systems administrators
+with a background both in maintaining Unix/Linux servers and free
+software, and places heavy emphasis on systems automation and
+configuration management (primarily Ansible and Puppet at the
+moment). Everything possible goes through code review, and gets
+extensively documented and communicated with the rest of the
+community over IRC and mailing lists. Server resources are donated
+by companies operating OpenStack services, and the team also
+operates a persistent deployment of OpenStack too, so there is
+substantial opportunity both for people who have experience in those
+technologies as well as anyone wishing to gain more familiarity with
+them.
+
+Join the #openstack-infra channel on the Freenode IRC network or
+reach out through the openstack-infra mailing lists on
+lists.openstack.org if you would like to get involved. It's a
+rewarding chance to learn and help others, but most of all it's fun!
+
+.. _Infrastructure: :ref:project-infrastructure
