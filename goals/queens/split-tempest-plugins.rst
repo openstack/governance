@@ -534,7 +534,12 @@ searchlight
 
 Planning Artifacts:
 
+* The searchlight team does not have tempest plugins and therefore has nothing
+  to do.
+
 Completion Artifacts:
+
+* Not applicable.
 
 Security
 --------
