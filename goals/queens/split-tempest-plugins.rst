@@ -344,7 +344,12 @@ karbor
 
 Planning Artifacts:
 
+* The karbor team does not have tempest plugins and therefore has nothing
+  to do.
+
 Completion Artifacts:
+
+* Not applicable.
 
 keystone
 --------
