@@ -1906,9 +1906,9 @@ murano:
 
 neutron:
   ptl:
-    name: Kevin Benton
-    irc: kevinbenton
-    email: kevin@benton.pub
+    name: Miguel Lavalle
+    irc: mlavalle
+    email: miguel.lavalle@huawei.com
   irc-channel: openstack-neutron
   service: Networking service
   mission: >
