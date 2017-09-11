@@ -4089,6 +4089,7 @@ searchlight:
   url: https://wiki.openstack.org/wiki/Searchlight
   tags:
     - team:diverse-affiliation
+    - status:maintenance-mode
   deliverables:
     searchlight:
       repos:
