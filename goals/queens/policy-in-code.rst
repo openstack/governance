@@ -222,7 +222,14 @@ Completion Artifacts:
 ironic
 ------
 
+The ironic project moved default policies into code during the Newton release.
+The Queens release will focus on documenting policies and using the new
+``DocumentedRuleDefault`` object.
+
 Planning Artifacts:
+
+* `policy-in-code bug <https://bugs.launchpad.net/ironic/+bug/1526752>`_
+* `documenting policy bug <https://bugs.launchpad.net/ironic/+bug/1716772>`_
 
 Completion Artifacts:
 
@@ -235,6 +242,8 @@ Completion Artifacts:
 
 keystone
 --------
+
+The keystone project completed this work in the Pike release.
 
 Planning Artifacts:
 
@@ -332,7 +341,7 @@ https://bugs.launchpad.net/octavia/+bug/1690481
 
 Completion Artifacts:
 
-The final RBAC patch in the chain was:
+The final RBAC patch in the chain merged while Pike was still in development:
 https://review.openstack.org/#/c/475980/
 
 The policy documentation is available here:
