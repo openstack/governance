@@ -71,11 +71,13 @@ config files in the projects.
 unittest running
 ----------------
 
-OpenStack uses testrepository as its test runner, which supports a number
-of things, most importantly to the expanded project is the subunit output
+OpenStack uses testrepository and stestr as its test runner, which supports a
+number of things, most importantly to the expanded project is the subunit output
 stream collection. This is useful for aggregating and displaying test output.
 In support of that, the oslotest library is built on top of testtools,
-testscenarios and fixtures.
+testscenarios and fixtures. The usage of the testrepository project is
+deprecated and things are being migrated to stestr which is an active and
+currently maintained fork of testrepository.
 
 
 Project Configuration
