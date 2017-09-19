@@ -406,9 +406,7 @@ Goal not applicable.
 requirements
 ------------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 sahara
 ------
