@@ -295,7 +295,12 @@ dragonflow
 
 Planning Artifacts:
 
+* The dragnonflow team does not have tempest plugins and therefore has nothing
+  to do.
+
 Completion Artifacts:
+
+* Not applicable.
 
 ec2-api
 -------
