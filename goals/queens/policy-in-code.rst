@@ -437,9 +437,7 @@ Completion Artifacts:
 shade
 -----
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 solum
 -----
