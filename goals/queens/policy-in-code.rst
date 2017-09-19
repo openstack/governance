@@ -204,9 +204,7 @@ Completion Artifacts:
 I18n
 ----
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 Infrastructure
 --------------
