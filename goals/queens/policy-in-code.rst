@@ -396,9 +396,7 @@ Goal not applicable.
 RefStack
 --------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 Release Management
 ------------------
