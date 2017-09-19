@@ -487,9 +487,7 @@ Completion Artifacts:
 tripleo
 -------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 trove
 -----
