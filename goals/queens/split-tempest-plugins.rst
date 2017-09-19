@@ -402,7 +402,12 @@ kolla
 
 Planning Artifacts:
 
+* The kolla team does not have tempest plugins and therefore has nothing
+  to do.
+
 Completion Artifacts:
+
+* Not applicable.
 
 kuryr
 -----
