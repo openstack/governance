@@ -391,9 +391,7 @@ Goal not applicable.
 rally
 -----
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 RefStack
 --------
