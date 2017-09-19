@@ -268,6 +268,11 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+The Designate team was already compliant before that the goal was defined.
+Here is the tempest plugin repo:
+
+http://git.openstack.org/cgit/openstack/designate-tempest-plugin
+
 Documentation
 -------------
 
