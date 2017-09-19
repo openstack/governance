@@ -694,7 +694,12 @@ storlets
 
 Planning Artifacts:
 
+* The storlets team does not have tempest plugins and therefore has nothing
+  to do.
+
 Completion Artifacts:
+
+* Not applicable.
 
 swift
 -----
