@@ -4734,6 +4734,9 @@ zun:
     zun:
       repos:
         - openstack/zun
+    zun-tempest-plugin:
+      repos:
+        - openstack/zun-tempest-plugin
     zun-ui:
       repos:
         - openstack/zun-ui
