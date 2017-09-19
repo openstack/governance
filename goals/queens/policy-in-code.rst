@@ -449,9 +449,7 @@ Completion Artifacts:
 Stable branch maintenance
 -------------------------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 storlets
 --------
