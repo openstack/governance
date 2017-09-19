@@ -218,7 +218,13 @@ barbican
 
 Planning Artifacts:
 
+The barbican project does not have in-tree tempest plugin.
+
 Completion Artifacts:
+
+The barbican team is maintaining it's tempest plugin in a seperate repo:
+
+http://git.openstack.org/cgit/openstack/barbican-tempest-plugin
 
 Chef OpenStack
 --------------
