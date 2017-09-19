@@ -666,7 +666,13 @@ winstackers
 
 Planning Artifacts:
 
+The os-win project does not have in-tree tempest plugin.
+
 Completion Artifacts:
+
+The Winstackers team is maintaining its tempest plugin in a seperate repo:
+
+http://git.openstack.org/cgit/openstack/oswin-tempest-plugin
 
 zaqar
 -----
