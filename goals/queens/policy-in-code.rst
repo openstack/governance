@@ -364,9 +364,7 @@ Goal not applicable.
 oslo
 ----
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 Packaging-deb
 -------------
