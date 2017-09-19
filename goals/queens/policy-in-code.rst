@@ -374,9 +374,7 @@ Goal not applicable.
 Packaging-rpm
 -------------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 Puppet OpenStack
 ----------------
