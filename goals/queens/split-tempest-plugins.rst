@@ -346,7 +346,12 @@ Infrastructure
 
 Planning Artifacts:
 
+* The Infrastructure team does not have tempest plugins and therefore has
+  nothing to do.
+
 Completion Artifacts:
+
+* Not applicable
 
 ironic
 ------
