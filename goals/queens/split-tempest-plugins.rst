@@ -250,7 +250,12 @@ cloudkitty
 
 Planning Artifacts:
 
+* The cloudkitty team does not have tempest plugins and therefore has nothing
+  to do.
+
 Completion Artifacts:
+
+* Not applicable.
 
 Community App Catalog
 ---------------------
