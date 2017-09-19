@@ -359,7 +359,12 @@ OpenStackAnsible
 
 Planning Artifacts:
 
+We'll have to adapt on the other project's completion artifacts, and everything
+will be analysed case by case.
+
 Completion Artifacts:
+
+We already have a mechanism to adapt to policy in code (see our Keystone Role).
 
 OpenStackClient
 ---------------
