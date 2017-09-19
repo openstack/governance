@@ -401,9 +401,7 @@ Goal not applicable.
 Release Management
 ------------------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 requirements
 ------------
