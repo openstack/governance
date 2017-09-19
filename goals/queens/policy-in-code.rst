@@ -117,9 +117,7 @@ Completion Artifacts:
 Chef OpenStack
 --------------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 cinder
 ------
