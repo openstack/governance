@@ -513,9 +513,7 @@ Completion Artifacts:
 winstackers
 -----------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 zaqar
 -----
