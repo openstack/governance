@@ -329,6 +329,11 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+The Horizon team was already compliant before that the goal was defined. Here
+is the tempest plugin repo:
+
+http://git.openstack.org/cgit/openstack/tempest-horizon
+
 I18n
 ----
 
