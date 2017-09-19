@@ -389,7 +389,13 @@ kuryr
 
 Planning Artifacts:
 
+The kuryr project does not have in-tree tempest plugin.
+
 Completion Artifacts:
+
+The kuryr team is maintaining it's tempest plugin in a seperate repo:
+
+http://git.openstack.org/cgit/openstack/kuryr-tempest-plugin
 
 magnum
 ------
