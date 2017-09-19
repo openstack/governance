@@ -578,7 +578,12 @@ RefStack
 
 Planning Artifacts:
 
+* The RefStack team does not have tempest plugins and therefore has nothing
+  to do.
+
 Completion Artifacts:
+
+* Not applicable.
 
 Release Management
 ------------------
