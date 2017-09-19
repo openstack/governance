@@ -250,9 +250,7 @@ Completion Artifacts:
 kuryr
 -----
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 magnum
 ------
