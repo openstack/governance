@@ -369,9 +369,7 @@ Goal not applicable.
 Packaging-deb
 -------------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 Packaging-rpm
 -------------
