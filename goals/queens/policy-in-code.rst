@@ -454,9 +454,7 @@ Goal not applicable.
 storlets
 --------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 swift
 -----
