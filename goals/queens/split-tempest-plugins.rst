@@ -594,7 +594,13 @@ solum
 
 Planning Artifacts:
 
+The solum project does not have in-tree tempest plugin.
+
 Completion Artifacts:
+
+The solum team is maintaining it's tempest plugin in a seperate repo:
+
+http://git.openstack.org/cgit/openstack/solum-tempest-plugin
 
 Stable branch maintenance
 -------------------------
