@@ -359,9 +359,7 @@ We already have a mechanism to adapt to policy in code (see our Keystone Role).
 OpenStackClient
 ---------------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 oslo
 ----
