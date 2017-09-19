@@ -386,9 +386,7 @@ Completion Artifacts:
 Quality Assurance
 -----------------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not applicable.
 
 rally
 -----
