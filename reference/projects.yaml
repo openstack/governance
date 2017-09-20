@@ -229,8 +229,6 @@ designate:
     To provide scalable, on demand, self service access to authoritative DNS
     services, in technology-agnostic manner.
   url: https://wiki.openstack.org/wiki/Designate
-  tags:
-    - team:diverse-affiliation
   deliverables:
     designate:
       repos:
@@ -387,6 +385,8 @@ glance:
     distribute and manage bootable disk images, other data closely associated
     with initializing compute resources, and metadata definitions.
   url: https://wiki.openstack.org/wiki/Glance
+  tags:
+    - team:diverse-affiliation
   deliverables:
     glance:
       repos:
@@ -428,8 +428,6 @@ heat:
     To orchestrate composite cloud applications using a declarative
     template format through an OpenStack-native REST API.
   url: https://wiki.openstack.org/wiki/Heat
-  tags:
-    - team:diverse-affiliation
   deliverables:
     heat:
       repos:
@@ -1758,8 +1756,6 @@ mistral:
     them at scale and in a highly available manner, manage and monitor
     workflow execution state and state of individual tasks.
   url: https://wiki.openstack.org/wiki/Mistral
-  tags:
-    - team:diverse-affiliation
   deliverables:
     mistral:
       repos:
@@ -1867,6 +1863,8 @@ murano:
     deploy composite environments on an application abstraction level
     while managing the application lifecycle.
   url: https://wiki.openstack.org/wiki/Murano
+  tags:
+    - team:diverse-affiliation
   deliverables:
     murano:
       repos:
@@ -3956,6 +3954,8 @@ rally:
     individual OpenStack components as well as full production OpenStack
     cloud deployments.
   url: https://wiki.openstack.org/wiki/Rally
+  tags:
+    - team:diverse-affiliation
   deliverables:
     rally:
       repos:
@@ -4281,8 +4281,6 @@ swift:
   irc-channel: openstack-swift
   service: Object Storage service
   url: https://wiki.openstack.org/wiki/Swift
-  tags:
-    - team:diverse-affiliation
   deliverables:
     python-swiftclient:
       repos:
@@ -4528,8 +4526,6 @@ trove:
     for both relational and non-relational database engines, and to continue to
     improve its fully-featured and extensible open source framework.
   url: https://wiki.openstack.org/wiki/Trove
-  tags:
-    - team:diverse-affiliation
   deliverables:
     python-troveclient:
       repos:
@@ -4585,8 +4581,6 @@ vitrage:
     insights regarding the root cause of problems and deduce their existence
     before they are directly detected.
   url: https://wiki.openstack.org/wiki/Vitrage
-  tags:
-    - team:single-vendor
   deliverables:
     vitrage:
       repos:
