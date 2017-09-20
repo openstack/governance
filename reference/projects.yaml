@@ -265,9 +265,9 @@ Documentation:
     email: pkovar@redhat.com
   irc-channel: openstack-doc
   mission: >
-    Provide documentation for core OpenStack projects to promote OpenStack.
-    Develop and maintain tools and processes to ensure quality, accurate
-    documentation. Treat documentation like OpenStack code.
+    The documentation team provides guidance, assistance, tooling, and style
+    guides enabling OpenStack project teams to produce consistent, accurate,
+    and high-quality documentation.
   url: https://wiki.openstack.org/wiki/Documentation
   tags:
     - team:diverse-affiliation
