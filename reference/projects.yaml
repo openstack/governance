@@ -1976,6 +1976,9 @@ neutron:
     neutron-specs:
       repos:
         - openstack/neutron-specs
+    neutron-tempest-plugin:
+      repos:
+        - openstack/neutron-tempest-plugin
     ovsdbapp:
       repos:
         - openstack/ovsdbapp
