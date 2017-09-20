@@ -4707,6 +4707,9 @@ zaqar:
     zaqar-specs:
       repos:
         - openstack/zaqar-specs
+    zaqar-tempest-plugin:
+      repos:
+        - openstack/zaqar-tempest-plugin
     zaqar-ui:
       repos:
         - openstack/zaqar-ui
