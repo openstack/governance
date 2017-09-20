@@ -1,8 +1,8 @@
-========================================
-Consistent Testing Interface: JavaScript
-========================================
+=====================================
+Project Testing Interface: JavaScript
+=====================================
 
-This document outlines common ways to meet the Consistent Testing Interface
+This document outlines common ways to meet the Project Testing Interface
 requirements for JavaScript. Each JavaScript project must be able to do:
 
  - Codestyle checks.

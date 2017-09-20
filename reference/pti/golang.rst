@@ -1,6 +1,6 @@
-================================
-Consistent Testing Interface: Go
-================================
+=============================
+Project Testing Interface: Go
+=============================
 
 Go language (golang) repositories shall use the following interface
 for testing and automation purposes.  This includes both pure golang

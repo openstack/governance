@@ -95,7 +95,7 @@ Current State / Anticipated Impact
 
 Python 3.5 will be available in all of the long-term-support versions
 of the operating systems on which we support deployment, and is listed
-as part of our Python testing interface (:ref:`cti-python`).
+as part of our Project Testing Interface for Python (:ref:`pti-python`).
 
 Our CI infrastructure supports Python 3.
 
