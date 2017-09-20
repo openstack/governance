@@ -489,7 +489,12 @@ nova
 
 Planning Artifacts:
 
+* The nova team does not have tempest plugins and therefore has nothing
+  to do.
+
 Completion Artifacts:
+
+* Not applicable.
 
 octavia
 -------
