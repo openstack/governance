@@ -2020,6 +2020,7 @@ nova:
         - assert:supports-upgrade
         - assert:supports-rolling-upgrade
         - stable:follows-policy
+        - assert:supports-api-interoperability
     nova-specs:
       repos:
         - openstack/nova-specs
