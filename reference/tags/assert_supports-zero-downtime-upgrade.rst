@@ -55,8 +55,7 @@ Requirements
 * While all requests to the control plane must be eventually processed,
   performance degradation during the upgrade is acceptable. This may include
   slow HTTP responses and delayed request handling (such as messages queuing up
-  on the message bus). A more restrictive tag,
-  :ref:`tag-assert:supports-zero-impact-upgrade` removes this allowance.
+  on the message bus).
 
 * In addition to the full stack integration testing required by the
   :ref:`tag-assert:supports-rolling-upgrade` tag, services should be capable of
