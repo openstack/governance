@@ -4519,9 +4519,9 @@ tripleo:
 
 trove:
   ptl:
-    name: Amrith Kumar
-    irc: amrith
-    email: amrith@amrith.org
+    name: Manoj Kumar
+    irc: kumarmn
+    email: kumarmn@us.ibm.com
   irc-channel: openstack-trove
   service: Database service
   mission: >
