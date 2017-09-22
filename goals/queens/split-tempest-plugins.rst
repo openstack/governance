@@ -527,7 +527,13 @@ OpenStackAnsible
 
 Planning Artifacts:
 
+* The OpenStackAnsible team does not have tempest plugins and therefore has
+  nothing to do.
+
 Completion Artifacts:
+
+* The OpenStack Ansible Deployment tool is ready to handle the installation and configuration of
+  tempest plugins.
 
 OpenStackClient
 ---------------
