@@ -4181,6 +4181,9 @@ senlin:
     senlin-dashboard:
       repos:
         - openstack/senlin-dashboard
+    senlin-tempest-plugin:
+      repos:
+        - openstack/senlin-tempest-plugin
 
 shade:
   ptl:
