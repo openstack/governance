@@ -57,10 +57,8 @@ this item (dhellmann).
 early projects in OpenStack and it's deployed in almost every OpenStack cloud.
 Without Glance, Nova can't boot instances.
 
-Glance is struggling to find new contributors that would be willing to provide
-reviews, to work on bugs or to work on new features. This struggle started as a
-result of the latest lay-offs that happened at the end of 2016 and beginning of
-2017.
+Glance is looking for new contributors who would be willing to provide reviews,
+to work on bugs, or to work on new features.
 
 Glance is a great project to ramp up on OpenStack and it's a great project for
 developers regardless of their experience. Glance has welcomed interns, junior
@@ -70,7 +68,7 @@ and contribute to OpenStack.
 Glance is a critical project in OpenStack. Contributions to the future of the
 image registry are essential to the stability of OpenStack. More importantly,
 Glance is not "done". There's significant technical debt that needs to be taken
-care off and several features that can be implemented.
+care of and several features that can be implemented.
 
 Interested? Join the Glance IRC channel (#openstack-glance) or reach out to the
 Glance PTL (rosmaita), the TC sponsor for this item (flaper87) or starting a new
