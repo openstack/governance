@@ -1762,6 +1762,9 @@ manila:
     manila-specs:
       repos:
         - openstack/manila-specs
+    manila-tempest-plugin:
+      repos:
+        - openstack/manila-tempest-plugin
     manila-test-image:
       repos:
         - openstack/manila-test-image
