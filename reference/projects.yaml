@@ -2363,11 +2363,9 @@ OpenStackAnsible:
     while also being simple to operate, upgrade, and grow.
   url: https://wiki.openstack.org/wiki/OpenStackAnsible
   deliverables:
-    ansible-hardening:
-      repos:
-        - openstack/ansible-hardening
     openstack-ansible:
       repos:
+        - openstack/ansible-hardening
         - openstack/openstack-ansible
         - openstack/openstack-ansible-apt_package_pinning
         - openstack/openstack-ansible-ceph_client
