@@ -251,6 +251,22 @@ congress:
                installers for Congress, which he is now handing off to
                other community members to upstream.
 
+cyborg:
+  ptl:
+    name: Zhipeng Huang
+    irc: zhipeng
+    email: huangzhipeng@huawei.com
+  irc-channel: openstack-cyborg
+  service: Accelerator Life Cycle Management
+  mission: >
+    To provide a general management framework for accelerators (FPGA,GPU,SoC,
+    NVMe SSD,DPDK/SPDK,eBPF/XDP ...)
+  url: https://wiki.openstack.org/wiki/Cyborg
+  deliverables:
+    cyborg:
+      repos:
+        - openstack/cyborg
+
 designate:
   ptl:
     name: Graham Hayes
