@@ -194,19 +194,24 @@ address or identity, and should map to the developer's canonical identity.
 Documentation
 -------------
 
-Developer Documentation
+Narrative Documentation
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-OpenStack projects use Sphinx to produce project documentation from
-in-tree sources in ``doc/source`` and the HTML output in ``doc/build``.
+In order to reuse existing templates, styles, and tooling, OpenStack uses
+Sphinx to generate our Narrative Project documentation.
+
+In addition to the normal PTI :ref:`pti-documentation` requirements, for
+developer convenience, Go projects are recommended to provide:
 
     :code:`make docs`
         Generate HTML documentation from the in-tree developer docs
 
-If the project contains a ``setup.py`` file, it is expected that the ``docs``
-target will pass through to the equivalent to ``python setup.py build_sphinx``.
-If no ``setup.py`` is present the equivalent of ``make -f doc/Makefile html``
-will be executed.
+that should:
+
+* Either install any needed distro dependencies from the ``doc`` tag in
+  ``bindep.txt`` or emit an error if they are not installed.
+* Install Python dependencies for Sphinx from ``doc/requirements.txt``.
+* Execute ``sphinx-build -b html doc/source doc/build``
 
 Source
 ~~~~~~
@@ -238,14 +243,6 @@ Translations
 A common translation process is not yet well-defined in the golang community.
 This section will be completed once a process is developed that is compatible
 with the existing OpenStack translation workflow.
-
-Release Tools
--------------
-
-OpenStack release tooling uses ``setup.py`` as an interface for the release
-process.  It is expected that golang projects will also use ``setup.py`` for
-some of its interface to these tools, however it may be desirable to investigate
-alternate interfaces if Sphinx docs are the only primary use otherwise.
 
 Build Tools
 -----------
