@@ -162,6 +162,7 @@ cinder:
         - assert:supports-upgrade
         - stable:follows-policy
         - assert:supports-rolling-upgrade
+        - assert:supports-accessible-upgrade
     cinder-specs:
       repos:
         - openstack/cinder-specs
@@ -2068,6 +2069,7 @@ nova:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - assert:supports-rolling-upgrade
+        - assert:supports-accessible-upgrade
         - stable:follows-policy
     nova-specs:
       repos:
