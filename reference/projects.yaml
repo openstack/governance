@@ -4238,12 +4238,18 @@ shade:
     irc: mordred
     email: mordred@inaugust.com
   irc-channel: openstack-shade
-  service: Multi-cloud interoperability library
+  service: Multi-cloud Python SDK for End Users
   mission: >
-    To hide deployer differences in OpenStack clouds for end users, empowering
-    developers to easily write applications that consume multiple clouds.
+    To provide a multi-cloud aware Python SDK for the OpenStack REST API
+    exposing both the full set of low-level APIs as well as curated higher
+    level business logic.
   url: https://docs.openstack.org/shade/latest/
   deliverables:
+    python-openstacksdk:
+      repos:
+        - openstack/python-openstacksdk
+      tags:
+        - assert:follows-standard-deprecation
     os-service-types:
       repos:
         - openstack/os-service-types
