@@ -18,6 +18,7 @@ The following tasks are required for every project. Every project must:
 - Generate a code coverage report
 - Generate a source tarball
 - Generate documentation
+- Generate releasenotes
 
 The following are other common tasks, which may not be relevant for every
 project:
@@ -63,6 +64,37 @@ emitted into ``doc/build``.
 .. code-block:: bash
 
   sphinx-build -b html doc/source doc/build
+
+Language specific instructions supplement these and are in addition to them.
+
+Release Notes
+-------------
+
+OpenStack uses `reno <https://docs.openstack.org/reno/latest/>`_ for generating
+release notes regardless of programming language.
+
+To support releasenotes generation, projects should:
+
+* Have releasenotes documentation source in ``releasenotes/``
+* Configure ``openstackdocstheme`` to be used in
+  ``releasenotes/source/conf.py``.
+* Optionally list distro package pre-reqs for dependencies in ``bindep.txt``
+  using the ``releasenotes`` tag.
+* Optionally list requirements needed in ``releasenotes/requirements.txt``.
+  The list of requirements is:
+
+  * Sphinx
+  * reno
+  * openstackdocstheme
+
+Assuming requirements have been properly installed, the following command
+should work with no addiitonal setup and should result in the releasenotes
+being emitted into ``releasenotes/build/html``.
+
+.. code-block:: bash
+
+  sphinx-build -a -E -W -d releasenotes/build/doctrees -b html \
+      releasenotes/source releasenotes/build/html
 
 Language specific instructions supplement these and are in addition to them.
 

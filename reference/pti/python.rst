@@ -132,3 +132,19 @@ The project infrastructure will not use ``tox -edocs`` to build the
 documentation. Therefore it is **STRONGLY** discouraged for people to put
 additional logic into the command section of that tox environment. Additional
 logic needed around Sphinx generation should go into Sphinx plugins.
+
+Release Notes
+-------------
+
+As a convenience for developers, it is recommended that projects provide
+a ``releasenotes`` environment for tox that will run
+
+.. code-block:: bash
+
+  sphinx-build -a -E -W -d releasenotes/build/doctrees -b html \
+      releasenotes/source releasenotes/build/html
+
+The project infrastructure will not use ``tox -ereleasenotes`` to build the
+documentation. Therefore it is **STRONGLY** discouraged for people to put
+additional logic into the command section of that tox environment. Additional
+logic needed around releasenotes generation should go into reno.
