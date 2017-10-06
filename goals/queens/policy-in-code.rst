@@ -213,7 +213,11 @@ heat
 
 Planning Artifacts:
 
+* `heat specification <https://specs.openstack.org/openstack/heat-specs/specs/queens/policy-in-code.html>`_
+
 Completion Artifacts:
+
+* `heat implementation <https://review.openstack.org/#/q/(status:open+OR+status:merged)+project:openstack/heat++%22policy+in+code%22>`_
 
 horizon
 -------
