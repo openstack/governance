@@ -1801,7 +1801,7 @@ masakari:
   service: Instances High Availability Service
   mission: >
     Provide instances high availability service for OpenStack
-    clouds by automatically recover the instances from failures.
+    clouds by automatically recovering the instances from failures.
   url: https://wiki.openstack.org/wiki/Masakari
   tags:
     - team:single-vendor
