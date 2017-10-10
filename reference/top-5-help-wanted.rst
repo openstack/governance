@@ -50,35 +50,10 @@ this item (dhellmann).
 .. _`plan`: https://review.openstack.org/#/c/472275/
 
 
-2. Glance Contributors
-======================
-
-`Glance`_ is a service to manage images for OpenStack clouds. It's one of the
-early projects in OpenStack and it's deployed in almost every OpenStack cloud.
-Without Glance, Nova can't boot instances.
-
-Glance is looking for new contributors who would be willing to provide reviews,
-to work on bugs, or to work on new features.
-
-Glance is a great project to ramp up on OpenStack and it's a great project for
-developers regardless of their experience. Glance has welcomed interns, junior
-developers, and more senior developers. In every case, it's a great way to grow
-and contribute to OpenStack.
-
-Glance is a critical project in OpenStack. Contributions to the future of the
-image registry are essential to the stability of OpenStack. More importantly,
-Glance is not "done". There's significant technical debt that needs to be taken
-care of and several features that can be implemented.
-
-Interested? Join the Glance IRC channel (#openstack-glance) or reach out to the
-Glance PTL (rosmaita), the TC sponsor for this item (flaper87) or starting a new
-email thread on the ML using the tag `[glance]`.
-
-.. _`Glance`: https://governance.openstack.org/tc/reference/projects/glance.html
-
-
-3. Community Infrastructure Sysadmins
+2. Community Infrastructure Sysadmins
 =====================================
+
+*TC Sponsor: Jeremy Stanley (fungi)*
 
 The Infrastructure_ team is responsible for designing, building and
 maintaining the systems that are used in the day to day operation of
@@ -126,3 +101,30 @@ lists.openstack.org if you would like to get involved. It's a
 rewarding chance to learn and help others, but most of all it's fun!
 
 .. _Infrastructure: :ref:project-infrastructure
+
+
+3. Glance Contributors
+======================
+
+`Glance`_ is a service to manage images for OpenStack clouds. It's one of the
+early projects in OpenStack and it's deployed in almost every OpenStack cloud.
+Without Glance, Nova can't boot instances.
+
+Glance is looking for new contributors who would be willing to provide reviews,
+to work on bugs, or to work on new features.
+
+Glance is a great project to ramp up on OpenStack and it's a great project for
+developers regardless of their experience. Glance has welcomed interns, junior
+developers, and more senior developers. In every case, it's a great way to grow
+and contribute to OpenStack.
+
+Glance is a critical project in OpenStack. Contributions to the future of the
+image registry are essential to the stability of OpenStack. More importantly,
+Glance is not "done". There's significant technical debt that needs to be taken
+care of and several features that can be implemented.
+
+Interested? Join the Glance IRC channel (#openstack-glance) or reach out to the
+Glance PTL (rosmaita), the TC sponsor for this item (flaper87) or starting a new
+email thread on the ML using the tag `[glance]`.
+
+.. _`Glance`: https://governance.openstack.org/tc/reference/projects/glance.html
