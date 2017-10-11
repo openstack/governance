@@ -2368,6 +2368,30 @@ OpenStack Charms:
       repos:
         - openstack/charm-trove
 
+OpenStack-Helm:
+  ptl:
+    name: Matt McEuen
+    irc: mattmceuen
+    email: matt.mceuen@att.com
+  service: Helm charts for OpenStack services
+  irc-channel: openstack-helm
+  mission: >
+    To provide a collection of Helm charts that simply, resiliently,
+    and flexibly deploy OpenStack and related services on Kubernetes.
+  url: https://wiki.openstack.org/wiki/Openstack-helm
+  deliverables:
+    openstack-helm:
+      repos:
+        - openstack/openstack-helm
+      docs:
+        contributor: https://docs.openstack.org/openstack-helm/latest/
+    openstack-helm-addons:
+      repos:
+        - openstack/openstack-helm-addons
+    openstack-helm-infra:
+      repos:
+        - openstack/openstack-helm-infra
+
 OpenStackAnsible:
   ptl:
     name: Jean-Philippe Evrard
