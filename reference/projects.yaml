@@ -4071,6 +4071,11 @@ RefStack:
     refstack-client:
       repos:
         - openstack/refstack-client
+    python-tempestconf:
+      repos:
+        - openstack/python-tempestconf
+      docs:
+        contributor: null
 
 Release Management:
   ptl:
