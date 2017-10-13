@@ -534,4 +534,9 @@ zun
 
 Planning Artifacts:
 
+TBD, checking with the Zun team to see if they want a specification for this or
+if this can serve as the planning artifact.
+
 Completion Artifacts:
+
+* `zun implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+status:merged+project:openstack/zun>`_
