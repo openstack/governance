@@ -1,8 +1,8 @@
-.. _cti-python:
+.. _pti-python:
 
-====================================
-Consistent Testing Interface: Python
-====================================
+=================================
+Project Testing Interface: Python
+=================================
 
 Each python project must be able to do:
 
