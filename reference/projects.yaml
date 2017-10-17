@@ -500,6 +500,9 @@ heat:
     heat-cfntools:
       repos:
         - openstack/heat-cfntools
+    heat-dashboard:
+      repos:
+        - openstack/heat-dashboard
     heat-specs:
       repos:
         - openstack/heat-specs
