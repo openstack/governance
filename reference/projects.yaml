@@ -2772,13 +2772,6 @@ oslo:
         contributor: https://docs.openstack.org/pbr/latest/
       tags:
         - stable:follows-policy
-    pylockfile:
-      repos:
-        - openstack/pylockfile
-      docs:
-        contributor: https://docs.openstack.org/pylockfile/latest/
-      tags:
-        - stable:follows-policy
     sphinx-feature-classification:
       repos:
         - openstack/sphinx-feature-classification

@@ -439,6 +439,10 @@ oslo:
       retired-on: 2016-05-25
       repos:
         - openstack/oslo-incubator
+    pylockfile:
+      retired-on: 2017-09-30
+      repos:
+        - openstack/pylockfile
 
 solum:
   irc-channel: solum
