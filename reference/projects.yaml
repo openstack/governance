@@ -349,6 +349,9 @@ Documentation:
     whereto:
       repos:
         - openstack/whereto
+    contributor-guide:
+      repos:
+        - openstack/contributor-guide
 
 dragonflow:
   ptl:
