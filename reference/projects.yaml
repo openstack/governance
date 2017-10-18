@@ -4531,6 +4531,15 @@ tripleo:
     ansible-role-k8s-cookiecutter:
       repos:
         - openstack/ansible-role-k8s-cookiecutter
+    ansible-role-k8s-keystone:
+      repos:
+        - openstack/ansible-role-k8s-keystone
+    ansible-role-k8s-mariadb:
+      repos:
+        - openstack/ansible-role-k8s-mariadb
+    ansible-role-k8s-tripleo:
+      repos:
+        - openstack/ansible-role-k8s-tripleo
     dib-utils:
       repos:
         - openstack/dib-utils
