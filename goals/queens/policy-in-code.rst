@@ -138,7 +138,11 @@ congress
 
 Planning Artifacts:
 
+* `congress planning <https://bugs.launchpad.net/congress/+bug/1724714>`_
+
 Completion Artifacts:
+
+* `congress implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+(status:open+OR+status:merged)+project:openstack/congress>`_
 
 designate
 ---------
