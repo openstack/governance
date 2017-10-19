@@ -489,7 +489,11 @@ tricircle
 
 Planning Artifacts:
 
+This document was used as the planning artifact for tricircle.
+
 Completion Artifacts:
+
+* `policy-in-code implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+status:merged+project:openstack/tricircle>`_
 
 tripleo
 -------
