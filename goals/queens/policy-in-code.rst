@@ -222,10 +222,13 @@ The Queens release will focus on documenting policies and using the new
 
 Planning Artifacts:
 
-* `policy-in-code bug <https://bugs.launchpad.net/ironic/+bug/1526752>`_
-* `documenting policy bug <https://bugs.launchpad.net/ironic/+bug/1716772>`_
+* `ironic policy-in-code bug <https://bugs.launchpad.net/ironic/+bug/1526752>`_
+* `ironic documenting policy bug <https://bugs.launchpad.net/ironic/+bug/1716772>`_
 
 Completion Artifacts:
+
+* `ironic documented policy-in-code implementation <https://review.openstack.org/#/c/502519/>`_
+* `ironic policy documentation <https://docs.openstack.org/ironic/latest/configuration/policy.html>`_
 
 karbor
 ------
