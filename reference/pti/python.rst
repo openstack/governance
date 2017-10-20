@@ -25,7 +25,8 @@ To drive the above tasks, the following commands should be supported in a clean 
  - tox -epy27
  - tox -epep8
  - tox -ecover
- - tox -evenv python setup.py sdist
+ - python setup.py sdist
+ - python setup.py bdist_wheel
  - tox -evenv python setup.py build_sphinx
 
 Projects that are translated should also support:
