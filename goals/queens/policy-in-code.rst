@@ -425,7 +425,14 @@ sahara
 
 Planning Artifacts:
 
+We used the community goal document found in
+https://governance.openstack.org/tc/goals/queens/policy-in-code.html as
+planning artifact.
+
 Completion Artifacts:
+
+The goal was implemented in https://review.openstack.org/#/c/503221/ and can be
+marked as done.
 
 searchlight
 -----------
