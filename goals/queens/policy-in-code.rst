@@ -267,7 +267,11 @@ magnum
 
 Planning Artifacts:
 
+* `magnum blueprint <https://blueprints.launchpad.net/magnum/+spec/policy-in-code>`_
+
 Completion Artifacts:
+
+* `magnum implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+status:merged+project:openstack/magnum>`_
 
 manila
 ------
