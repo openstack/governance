@@ -157,6 +157,28 @@ into the :code:`npm run document` command. Additional logic needed around
 Sphinx generation should go into Sphinx plugins which should be listed in
 ``doc/requirements.txt``.
 
+Generate Release Notes
+======================
+:Command: :code:`npm run releasenotes`
+
+OpenStack uses `reno <https://docs.openstack.org/reno/latest/>`_ for generating
+release notes.
+
+In addition to the normal PTI :ref:`pti-documentation` requirements, Javascript
+projects are recommended to provide an :code:`npm run releasenotes` command for
+developer convenience that should:
+
+* Either install any needed distro dependencies from the ``releasenotes`` tag
+  in ``bindep.txt`` or emit an error if they are not installed.
+* Install Python dependencies for Sphinx from
+  ``releasenotes/requirements.txt``.
+* Execute: ``sphinx-build -a -E -W -d releasenotes/build/doctrees -b html releasenotes/source releasenotes/build/html``
+
+The project infrastructure will not use :code:`npm run releasenotes` to build
+the release notes. Therefore it is **STRONGLY** discouraged for people to put
+additional logic into the :code:`npm run releasenotes` command. Additional
+logic needed should go into reno.
+
 .. _NPM package scripts: https://docs.npmjs.com/misc/scripts
 .. _ESLint: http://eslint.org
 .. _eslint-config-openstack: http://git.openstack.org/cgit/openstack/eslint-config-openstack

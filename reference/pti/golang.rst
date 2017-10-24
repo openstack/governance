@@ -234,6 +234,9 @@ Release notes
 OpenStack uses Reno to manage release notes.  This uses Sphinx to generate
 the final HTML documentation.
 
+In addition to the normal PTI :ref:`pti-documentation` requirements, for
+developer convenience, Go projects are recommended to provide:
+
     :code:`make releasenotes`
         Generate HTML release notes
 
