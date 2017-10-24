@@ -110,8 +110,25 @@ files in to $project/locale as well.
 Documentation
 -------------
 
-Developer docs are generated from Sphinx sources in the tree. Additionally,
-there are end user docs and API docs which are maintained outside of the
-context of a project's repo. To support documentation generation, projects
-should have sphinx documentation source in doc/source and build_sphinx should
-output the documentation to doc/build.
+In addition to the normal PTI :ref:`pti-documentation` requirements, Python
+projects should put the following into their setup.cfg so that
+``python setup.py build_sphinx`` continues to work:
+
+::
+
+  [build_sphinx]
+  source-dir = doc/source
+  build-dir = doc/build
+
+It may be assumed that the project will be installed before Sphinx is run
+using ``pip install .``.
+
+As a convenience for developers, it is recommended that projects provide
+a ``docs`` environment for tox that will run either
+``sphinx-build -b html doc/source doc/build`` or
+``python setup.py build_sphinx``.
+
+The project infrastructure will not use ``tox -edocs`` to build the
+documentation. Therefore it is **STRONGLY** discouraged for people to put
+additional logic into the command section of that tox environment. Additional
+logic needed around Sphinx generation should go into Sphinx plugins.

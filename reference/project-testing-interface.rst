@@ -31,6 +31,44 @@ project:
 Tools and approaches vary by language, please choose which language is
 relevant to you.
 
+.. _pti-documentation:
+
+Documentation
+-------------
+
+OpenStack has decided to standardize on using Sphinx for project documentation,
+regardless of programming language.
+
+.. note:: The use of sphinx for documentation is intended for documentation
+          that is not written inside of docstrings or code comments.
+          Languages, such as Go, that natively support a system for documenting
+          the code through code comments, should use those native systems.
+          Sphinx is intended to be used for documentation that is not written
+          inline with the code.
+
+To support documentation generation, projects should:
+
+* Have sphinx documentation source in ``doc/source``
+* List python dependencies needed for documentation in ``doc/requirements.txt``
+* List distro package pre-reqs for dependencies in ``bindep.txt`` using the
+  ``doc`` tag.
+* Depend on ``openstackdocstheme`` for documentation and configure it to be
+  used in ``doc/source/conf.py``.
+
+Assuming requirements have been properly installed as indicated by
+``doc/requirements.txt`` and ``bindep.txt``, the following command should
+work with no additional setup and should result in the documentation being
+emitted into ``doc/build``.
+
+.. code-block:: bash
+
+  sphinx-build -b html doc/source doc/build
+
+Language specific instructions supplement these and are in addition to them.
+
+Linux Distributions
+-------------------
+
 The following operating systems are the most popular when deploying OpenStack:
 
 - Ubuntu (`latest LTS`_)

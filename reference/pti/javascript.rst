@@ -140,8 +140,22 @@ Generate Documentation
 :Command: :code:`npm run document`
 
 In order to reuse existing templates, styles, and tooling, OpenStack uses
-Sphinx to generate our JavaScript Project documentation. All documentation
-output should be placed in the :code:`publish-docs` directory.
+Sphinx to generate our JavaScript Project documentation.
+
+In addition to the normal PTI :ref:`pti-documentation` requirements, Javascript
+projects are recommended to provide an :code:`npm run document` command for
+developer convenience that should:
+
+* Either install any needed distro dependencies from the ``doc`` tag in
+  ``bindep.txt`` or emit an error if they are not installed.
+* Install Python dependencies for Sphinx from ``doc/requirements.txt``.
+* Execute ``sphinx-build -b html doc/source doc/build``
+
+The project infrastructure will not use ``npm`` to build the documentation.
+Therefore it is **STRONGLY** discouraged for people to put additional logic
+into the :code:`npm run document` command. Additional logic needed around
+Sphinx generation should go into Sphinx plugins which should be listed in
+``doc/requirements.txt``.
 
 .. _NPM package scripts: https://docs.npmjs.com/misc/scripts
 .. _ESLint: http://eslint.org
