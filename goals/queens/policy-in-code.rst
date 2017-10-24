@@ -197,9 +197,7 @@ Completion Artifacts:
 horizon
 -------
 
-Planning Artifacts:
-
-Completion Artifacts:
+Goal not appliable.
 
 I18n
 ----
