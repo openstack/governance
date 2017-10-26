@@ -145,7 +145,12 @@ designate
 
 Planning Artifacts:
 
+* `designate policy-in-code blueprint <https://blueprints.launchpad.net/designate/+spec/policy-in-code>`_
+
 Completion Artifacts:
+
+* `designate documented policy-in-code implementation <https://review.openstack.org/#/q/status:merged+project:openstack/designate+branch:master+topic:policy-and-docs-in-code>`_
+* `designate policy documentation <https://docs.openstack.org/designate/latest/admin/policy.html>`_
 
 Documentation
 -------------
