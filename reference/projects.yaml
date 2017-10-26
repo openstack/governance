@@ -4174,8 +4174,41 @@ sahara:
     sahara:
       repos:
         - openstack/sahara
+      docs:
+        contributor: https://docs.openstack.org/sahara/latest/
+        api: https://developer.openstack.org/api-ref/data-processing/
+      tags:
+        - tc:approved-release
+        - vulnerability:managed
+        - assert:follows-standard-deprecation
+        - assert:supports-upgrade
+        - stable:follows-policy
+    sahara-dashboard:
+      repos:
         - openstack/sahara-dashboard
+      docs:
+        contributor: https://docs.openstack.org/sahara/latest/
+        api: https://developer.openstack.org/api-ref/data-processing/
+      tags:
+        - tc:approved-release
+        - vulnerability:managed
+        - assert:follows-standard-deprecation
+        - assert:supports-upgrade
+        - stable:follows-policy
+    sahara-extra:
+      repos:
         - openstack/sahara-extra
+      docs:
+        contributor: https://docs.openstack.org/sahara/latest/
+        api: https://developer.openstack.org/api-ref/data-processing/
+      tags:
+        - tc:approved-release
+        - vulnerability:managed
+        - assert:follows-standard-deprecation
+        - assert:supports-upgrade
+        - stable:follows-policy
+    sahara-image-elements:
+      repos:
         - openstack/sahara-image-elements
       docs:
         contributor: https://docs.openstack.org/sahara/latest/
