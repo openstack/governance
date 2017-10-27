@@ -262,6 +262,8 @@ congress
 
 Planning Artifacts:
 
+* `congress planning <https://bugs.launchpad.net/congress/+bug/1724713>`_
+
 Completion Artifacts:
 
 designate
