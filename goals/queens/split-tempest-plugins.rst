@@ -243,7 +243,11 @@ cinder
 
 Planning Artifacts:
 
-Completion Artifacts:
+https://blueprints.launchpad.net/cinder/+spec/goal-split-tempest-plugin
+
+Completion Artifacts (work still in progress):
+
+https://review.openstack.org/#/q/topic:goal-split-tempest-plugins+(status:open+OR+status:merged)+message:cinder
 
 cloudkitty
 ----------
