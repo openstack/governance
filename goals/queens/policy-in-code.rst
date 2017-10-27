@@ -226,6 +226,22 @@ Completion Artifacts:
 * `ironic documented policy-in-code implementation <https://review.openstack.org/#/c/502519/>`_
 * `ironic policy documentation <https://docs.openstack.org/ironic/latest/configuration/policy.html>`_
 
+ironic-inspector
+----------------
+
+Until Queens, ironic-inspector project had no configurable API access policies.
+They were implemented in Queens, with documented policies in code
+from the start.
+
+Planning Artifacts:
+
+* `inspector policy-in-code bug <https://bugs.launchpad.net/ironic-inspector/+bug/1719812>`_
+
+Completion Artifacts:
+
+* `inspector policies implementation <https://review.openstack.org/#/c/507826/>`_
+* `inspector policies documentation <https://docs.openstack.org/ironic-inspector/latest/configuration/policy.html>`_
+
 karbor
 ------
 
