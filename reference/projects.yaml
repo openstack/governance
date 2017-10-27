@@ -4555,6 +4555,9 @@ tripleo:
   tags:
     - team:single-vendor
   deliverables:
+    ansible-role-k8s-cookiecutter:
+      repos:
+        - openstack/ansible-role-k8s-cookiecutter
     dib-utils:
       repos:
         - openstack/dib-utils
