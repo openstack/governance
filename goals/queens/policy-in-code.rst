@@ -187,6 +187,9 @@ glance
 
 Planning Artifacts:
 
+* `Spec Lite: Community Goal: Register and Document Policy in Code
+  <http://specs.openstack.org/openstack/glance-specs/specs/queens/approved/glance/spec-lite-policy-and-docs-in-code.html>`_
+
 Completion Artifacts:
 
 heat
