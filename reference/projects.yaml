@@ -1831,6 +1831,9 @@ masakari:
     python-masakariclient:
       repos:
         - openstack/python-masakariclient
+    masakari-dashboard:
+      repos:
+        - openstack/masakari-dashboard
 
 mistral:
   ptl:
