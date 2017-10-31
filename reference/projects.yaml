@@ -1498,6 +1498,7 @@ ironic:
         - tc:approved-release
         - stable:follows-policy
         - assert:supports-upgrade
+        - assert:supports-rolling-upgrade
         - assert:follows-standard-deprecation
     ironic-inspector:
       repos:
