@@ -837,3 +837,7 @@ zun
 Planning Artifacts:
 
 Completion Artifacts:
+
+The Zun team is maintaining its tempest plugin in a seperate repo:
+
+https://git.openstack.org/cgit/openstack/zun-tempest-plugin
