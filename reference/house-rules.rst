@@ -42,11 +42,12 @@ revision of the change is posted), then the change can be approved by the
 chair.
 
 One exception to this would be significant team mission statement changes,
-which should be approved by a formal vote after an in-meeting discussion.
+which should be approved by a formal vote after discussion on the mailing list
+or the gerrit change.
 
 In corner cases where the change is time-sensitive (like a deliverable
 reorganization which blocks a release request), the chair may fast-track the
-change, but should report on that exception at the next TC meeting.
+change, but should report on that exception in the TC update.
 
 Goal Updates from PTLs
 ----------------------
@@ -67,9 +68,8 @@ there is no objection posted one week after the most recent version of
 a change is proposed, then the change can be approved by the chair.
 
 If a TC member feels that one of these responses needs to be discussed
-by the entire TC, they should place it on the agenda for an upcoming
-meeting and the change should not be approved until after the
-discussion is completed.
+by the entire TC, they should bring it up on the mailing list and the change
+should not be approved until after the discussion is completed.
 
 Rolling back fast-tracked changes
 ---------------------------------
@@ -77,4 +77,4 @@ Rolling back fast-tracked changes
 As a safety net, if any member disagrees with any change that was fast-tracked
 under one of those house rules, that member can propose a revert of the
 change. Such revert should be directly approved by the chair and the change
-be put on the agenda of the next TC meeting for further discussion.
+be discussed on the mailing list or on the re-proposed change in gerrit.
