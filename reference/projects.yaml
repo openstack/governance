@@ -2499,6 +2499,9 @@ OpenStackAnsible:
     openstack-ansible-os_cloudkitty:
       repos:
         - openstack/openstack-ansible-os_cloudkitty
+    openstack-ansible-os_congress:
+      repos:
+        - openstack/openstack-ansible-os_congress
     openstack-ansible-os_freezer:
       repos:
         - openstack/openstack-ansible-os_freezer
