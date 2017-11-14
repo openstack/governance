@@ -1673,15 +1673,11 @@ kolla:
         - openstack/kolla
       docs:
         contributor: https://docs.openstack.org/kolla/latest/
-      tags:
-        - stable:follows-policy
     kolla-ansible:
       repos:
         - openstack/kolla-ansible
       docs:
         contributor: https://docs.openstack.org/kolla-ansible/latest/
-      tags:
-        - stable:follows-policy
     kolla-kubernetes:
       repos:
         - openstack/kolla-kubernetes
