@@ -509,6 +509,9 @@ heat:
     heat-specs:
       repos:
         - openstack/heat-specs
+    heat-tempest-plugin:
+      repos:
+        - openstack/heat-tempest-plugin
     heat-templates:
       repos:
         - openstack/heat-templates
