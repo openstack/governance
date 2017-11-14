@@ -69,16 +69,56 @@ Virtual Environment Management
 To support sensible testing across multiple python versions, we use tox
 config files in the projects.
 
-unittest running
-----------------
+Python test running
+-------------------
 
-OpenStack uses testrepository and stestr as its test runner, which supports a
-number of things, most importantly to the expanded project is the subunit output
-stream collection. This is useful for aggregating and displaying test output.
-In support of that, the oslotest library is built on top of testtools,
-testscenarios and fixtures. The usage of the testrepository project is
-deprecated and things are being migrated to stestr which is an active and
-currently maintained fork of testrepository.
+OpenStack uses stestr as its test runner. stestr should be used for running
+all python tests, this includes unit tests, functional tests, and integration
+tests. stestr is used because of its real time subunit output and its support
+for parallel execution of tests. In addition, stestr only runs tests conforming
+to the python stdlib unittest model (and extensions on it like testtools). This
+enables people to use any test runner they prefer locally. Other popular test
+runners often include a testing ecosystem which is tied directly to the runner.
+Using these precludes the use of alternative runners for other users.
+
+To have a consistent interface via tox between projects' unit test
+jobs the command for running stestr in tox should be set to::
+
+    stestr run '{posargs}'
+
+.. note::
+    While the use of wrapper scripts can sometimes be useful as a short term
+    crutch to work around a specific temporary issues, it should be avoided
+    because it creates a divergent experience between projects, and can mask
+    real issues.
+
+If there are additional mandatory args needed for running a test suite they
+can be added before the posargs. (this way the end user experience is the same)
+For example::
+
+    stestr --test-path ./tests/unit run '{posargs}'
+
+However, these arguments should try to be minimized because it just adds to the
+complexity that people will need to understand when running tests on a project.
+
+Coverage Jobs
+-------------
+
+For coverage jobs you need to invoke the test runner in the same way as for the
+normal unit test jobs, but to switch the python executable to be
+``coverage run``. To do this you need to setup the tox ``cover`` job like::
+
+  [testenv:cover]
+  setenv =
+      PYTHON=coverage run --source $project --parallel-mode
+  commands =
+      stestr run '{posargs}'
+      coverage combine
+      coverage html -d cover
+      coverage xml -o cover/coverage.xml
+
+Specifically, the output html directory ``cover`` and the ``coverage.xml`` file
+added to that directory are mandatory output artifacts.
 
 
 Project Configuration
