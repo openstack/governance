@@ -829,7 +829,13 @@ zaqar
 
 Planning Artifacts:
 
+The watcher team followed the documented steps outlined in this goal as the
+planning document.
+
 Completion Artifacts:
+
+https://review.openstack.org/504899 marks the removel of intree bundled tempest
+plugin from Zaqar leading to marks the completion of the goal.
 
 zun
 ---
