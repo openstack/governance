@@ -472,6 +472,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+* `senlin implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+project:openstack/senlin+status:merged>`_
+
 shade
 -----
 
