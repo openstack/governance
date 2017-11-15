@@ -44,7 +44,7 @@ decentralized documentation team. On the long-term they will become a
 reference go-to person in their project, and respected mentors in the
 OpenStack community.
 
-Interested? Contact the Documentation PTL (asettle) or the TC sponsor for
+Interested? Contact the Documentation PTL (pkovar) or the TC sponsor for
 this item (dhellmann).
 
 .. _`plan`: https://review.openstack.org/#/c/472275/
