@@ -11,7 +11,7 @@ Reference documents which need to be revised over time.
    principles
    charter
    projects/index
-   top-5-help-wanted
+   help-most-needed
    new-projects-requirements
    new-language-requirements
    licensing

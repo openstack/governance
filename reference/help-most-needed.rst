@@ -1,9 +1,9 @@
-========================
- Top 5 help wanted list
-========================
+=========================
+ 'Help most needed' list
+=========================
 
-This document lists areas where the OpenStack Technical Committee seeks
-contributions to significantly help OpenStack as a whole. While in most
+This document lists at most 5 areas where the OpenStack Technical Committee
+seeks contributions to significantly help OpenStack as a whole. While in most
 cases things happen naturally through the normal contribution dynamics
 in the community, in some cases a `tragedy of the commons`_ is at play.
 Guidance, leadership and proper recognition of efforts is therefore needed
