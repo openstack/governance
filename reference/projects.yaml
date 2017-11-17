@@ -214,6 +214,9 @@ cloudkitty:
     cloudkitty-specs:
       repos:
         - openstack/cloudkitty-specs
+    cloudkitty-tempest-plugin:
+      repos:
+        - openstack/cloudkitty-tempest-plugin
 
 congress:
   ptl:
