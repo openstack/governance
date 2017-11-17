@@ -11,7 +11,7 @@ The Technical Committee is formally defined in the
 and Appendix 4) and further refined in the :doc:`reference/charter`.
 
 Upstream work under the Technical Committee is organized under official
-:doc:`reference/projects/index` and more informal `Working Groups`_.
+:doc:`reference/projects/index`, and :doc:`reference/working-groups`.
 
 These pages contain OpenStack Technical Committee reference documents
 and track official resolutions voted by the committee.
