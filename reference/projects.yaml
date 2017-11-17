@@ -4628,6 +4628,9 @@ tripleo:
     tripleo-common:
       repos:
         - openstack/tripleo-common
+    tripleo-common-tempest-plugin:
+      repos:
+        - openstack/tripleo-common-tempest-plugin
     tripleo-docs:
       repos:
         - openstack/tripleo-docs
