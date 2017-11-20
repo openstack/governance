@@ -80,15 +80,9 @@ To support releasenotes generation, projects should:
   ``releasenotes/source/conf.py``.
 * Optionally list distro package pre-reqs for dependencies in ``bindep.txt``
   using the ``releasenotes`` tag.
-* Optionally list requirements needed in ``releasenotes/requirements.txt``.
-  The list of requirements is:
-
-  * Sphinx
-  * reno
-  * openstackdocstheme
 
 Assuming requirements have been properly installed, the following command
-should work with no addiitonal setup and should result in the releasenotes
+should work with no additional setup and should result in the releasenotes
 being emitted into ``releasenotes/build/html``.
 
 .. code-block:: bash

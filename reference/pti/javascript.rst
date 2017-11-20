@@ -170,8 +170,6 @@ developer convenience that should:
 
 * Either install any needed distro dependencies from the ``releasenotes`` tag
   in ``bindep.txt`` or emit an error if they are not installed.
-* Install Python dependencies for Sphinx from
-  ``releasenotes/requirements.txt``.
 * Execute: ``sphinx-build -a -E -W -d releasenotes/build/doctrees -b html releasenotes/source releasenotes/build/html``
 
 The project infrastructure will not use :code:`npm run releasenotes` to build
