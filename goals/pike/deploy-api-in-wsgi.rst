@@ -720,12 +720,11 @@ vitrage
 
 Planning Artifacts:
 
-* None. The Vitrage devstack jobs already deploy the Vitrage API in WSGI
-  with Apache
+* None.
 
 Completion Artifacts:
 
-* None
+* https://review.openstack.org/#/c/478518/
 
 watcher
 -------
