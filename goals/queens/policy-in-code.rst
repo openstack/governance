@@ -180,6 +180,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+* `Freezer API implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+(status:open+OR+status:merged)+project:openstack/freezer-api>`_
+
 fuel
 ----
 
