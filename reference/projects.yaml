@@ -61,9 +61,8 @@ blazar:
       repos:
         - openstack/blazar
       docs:
-        # Replaced with docs.openstack.org after merged.
-        contributor: http://blazar.readthedocs.io/en/latest/devref/how.to.contribute.html
-        api: http://blazar.readthedocs.io/en/latest/restapi/index.html
+        contributor: https://docs.openstack.org/blazar/latest/
+        api: https://docs.openstack.org/blazar/latest/restapi/index.html
     blazar-nova:
       repos:
         - openstack/blazar-nova
