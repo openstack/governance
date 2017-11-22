@@ -4540,9 +4540,6 @@ Telemetry:
     python-aodhclient:
       repos:
         - openstack/python-aodhclient
-    python-ceilometerclient:
-      repos:
-        - openstack/python-ceilometerclient
     python-pankoclient:
       repos:
         - openstack/python-pankoclient
