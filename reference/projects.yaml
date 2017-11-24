@@ -1745,7 +1745,7 @@ loci:
   mission: >
     To provide CI/CD friendly, lightweight OCI compliant container tooling and
     images for OpenStack services
-  url: https://wiki.openstack.org/wiki/loci
+  url: https://wiki.openstack.org/wiki/LOCI
   deliverables:
     loci:
       repos:
