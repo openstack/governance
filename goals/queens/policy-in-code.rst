@@ -465,7 +465,13 @@ searchlight
 
 Planning Artifacts:
 
+* Work was done without the need for a bug / blueprint
+
 Completion Artifacts:
+
+* `searchlight policy-in-code implementation <https://review.openstack.org/#/q/status:merged+project:openstack/searchlight+branch:master+topic:policy-and-docs-in-code>`_
+* `searchlight policy documentation <https://docs.openstack.org/searchlight/latest/configuration/policy.html>`_
+
 
 Security
 --------
