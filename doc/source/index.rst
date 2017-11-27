@@ -72,10 +72,6 @@ exceptions are listed in the :doc:`reference/house-rules` document.
 
 .. _`OpenStack Foundation bylaws`: http://www.openstack.org/legal/bylaws-of-the-openstack-foundation/
 
-.. _`Working Groups`: https://wiki.openstack.org/wiki/Upstream_Working_Groups
-
-.. _TechnicalCommittee: https://wiki.openstack.org/wiki/Governance/TechnicalCommittee
-
 .. _`current proposals tracker`: https://wiki.openstack.org/wiki/Meetings/TechnicalCommittee
 
 .. _`Developer's guide section of the Infra manual`: https://docs.openstack.org/infra/manual/developers.html
