@@ -24,7 +24,7 @@ Realize the team name will not become a trademark.
 
 In documentation on `docs.openstack.org <http://docs.openstack.org>`_, project
 names are consistently lowercase, such as nova and keystone. The documentation
-also uses lowercase when referring to file names such as `nova.conf`, and when
+also uses lowercase when referring to file names such as ``nova.conf``, and when
 referring to the Command Line Interfaces (CLI) for those projects including
 the ``openstack`` CLI command.
 
