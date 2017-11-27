@@ -131,7 +131,11 @@ cloudkitty
 
 Planning Artifacts:
 
+Cloudkitty used this document as the planning artifact for this goal.
+
 Completion Artifacts:
+
+* `cloudkitty implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+(status:open+OR+status:merged)+project:openstack/cloudkitty>`_
 
 congress
 --------
