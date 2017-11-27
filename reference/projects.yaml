@@ -4667,6 +4667,9 @@ tripleo:
     tripleo-incubator:
       repos:
         - openstack/tripleo-incubator
+    tripleo-ipsec:
+      repos:
+        - openstack/tripleo-ipsec
     tripleo-puppet-elements:
       repos:
         - openstack/tripleo-puppet-elements
