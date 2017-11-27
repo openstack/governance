@@ -16,9 +16,6 @@ barbican:
     barbican:
       repos:
         - openstack/barbican
-      docs:
-        contributor: https://docs.openstack.org/barbican/latest/
-        api: https://developer.openstack.org/api-ref/key-manager/
       tags:
         - vulnerability:managed
         - assert:follows-standard-deprecation
@@ -58,9 +55,6 @@ blazar:
     blazar:
       repos:
         - openstack/blazar
-      docs:
-        contributor: https://docs.openstack.org/blazar/latest/
-        api: https://docs.openstack.org/blazar/latest/restapi/index.html
     blazar-nova:
       repos:
         - openstack/blazar-nova
@@ -149,9 +143,6 @@ cinder:
     cinder:
       repos:
         - openstack/cinder
-      docs:
-        contributor: https://docs.openstack.org/cinder/latest/
-        api: https://developer.openstack.org/api-ref/block-storage/
       tags:
         - tc:approved-release
         - vulnerability:managed
@@ -199,9 +190,6 @@ cloudkitty:
     cloudkitty:
       repos:
         - openstack/cloudkitty
-      docs:
-        contributor: https://docs.openstack.org/cloudkitty/latest/
-        api: https://docs.openstack.org/cloudkitty/latest/webapi/root.html
     python-cloudkittyclient:
       repos:
         - openstack/python-cloudkittyclient
@@ -233,9 +221,6 @@ congress:
     congress:
       repos:
         - openstack/congress
-      docs:
-        contributor: https://docs.openstack.org/congress/latest/
-        api: https://docs.openstack.org/congress/latest/api.html
       tags:
         - stable:follows-policy
     congress-dashboard:
@@ -290,10 +275,6 @@ designate:
     designate:
       repos:
         - openstack/designate
-      docs:
-        contributor:
-          https://docs.openstack.org/designate/latest/
-        api: https://developer.openstack.org/api-ref/dns/
       tags:
         - tc:approved-release
         - stable:follows-policy
@@ -380,8 +361,6 @@ dragonflow:
     dragonflow:
       repos:
         - openstack/dragonflow
-      docs:
-        contributor: https://docs.openstack.org/dragonflow/latest/
 
 ec2-api:
   ptl:
@@ -399,8 +378,6 @@ ec2-api:
     ec2-api:
       repos:
         - openstack/ec2-api
-      docs:
-        api: https://developer.openstack.org/api-ref/ec2-api/
 
 freezer:
   ptl:
@@ -420,9 +397,6 @@ freezer:
         - openstack/freezer
         - openstack/freezer-api
         - openstack/freezer-dr
-      docs:
-        # doc/source exists in tree but is not published; wiki only docs
-        contributor: null
     freezer-specs:
       repos:
         - openstack/freezer-specs
@@ -454,9 +428,6 @@ glance:
     glance:
       repos:
         - openstack/glance
-      docs:
-        contributor: https://docs.openstack.org/glance/latest/
-        api: https://developer.openstack.org/api-ref/image/
       tags:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -495,9 +466,6 @@ heat:
     heat:
       repos:
         - openstack/heat
-      docs:
-        contributor: https://docs.openstack.org/heat/latest/
-        api: https://developer.openstack.org/api-ref/orchestration/
       tags:
         - tc:approved-release
         - vulnerability:managed
@@ -560,10 +528,6 @@ horizon:
     horizon:
       repos:
         - openstack/horizon
-      docs:
-        contributor: https://docs.openstack.org/horizon/latest/
-        # Is not really needed to refer to in this file?
-        api: https://docs.openstack.org/horizon/latest/#api-reference
       tags:
         - tc:approved-release
         - vulnerability:managed
@@ -1069,8 +1033,6 @@ Infrastructure:
     infra-manual:
       repos:
         - openstack-infra/infra-manual
-      docs:
-        contributor: https://docs.openstack.org/infra/manual
     infra-specs:
       repos:
         - openstack-infra/infra-specs
@@ -1504,9 +1466,6 @@ ironic:
     ironic:
       repos:
         - openstack/ironic
-      docs:
-        contributor: https://docs.openstack.org/ironic/latest/
-        api: https://developer.openstack.org/api-ref/baremetal/
       tags:
         - tc:approved-release
         - stable:follows-policy
@@ -1517,8 +1476,6 @@ ironic:
     ironic-inspector:
       repos:
         - openstack/ironic-inspector
-      docs:
-        contributor: https://docs.openstack.org/ironic-inspector/latest/
       tags:
         - stable:follows-policy
         - assert:supports-upgrade
@@ -1602,9 +1559,6 @@ karbor:
     karbor:
       repos:
         - openstack/karbor
-      docs:
-        contributor: https://docs.openstack.org/karbor/latest/
-        api: https://developer.openstack.org/api-ref/data-protection-orchestration/
     karbor-dashboard:
       repos:
         - openstack/karbor-dashboard
@@ -1629,9 +1583,6 @@ keystone:
     keystone:
       repos:
         - openstack/keystone
-      docs:
-        contributor: https://docs.openstack.org/keystone/latest/
-        api: https://developer.openstack.org/api-ref/identity/
       tags:
         - tc:approved-release
         - starter-kit:compute
@@ -1687,18 +1638,12 @@ kolla:
     kolla:
       repos:
         - openstack/kolla
-      docs:
-        contributor: https://docs.openstack.org/kolla/latest/
     kolla-ansible:
       repos:
         - openstack/kolla-ansible
-      docs:
-        contributor: https://docs.openstack.org/kolla-ansible/latest/
     kolla-kubernetes:
       repos:
         - openstack/kolla-kubernetes
-      docs:
-        contributor: https://docs.openstack.org/kolla-kubernetes/latest/
 
 kuryr:
   ptl:
@@ -1714,8 +1659,6 @@ kuryr:
     kuryr:
       repos:
         - openstack/kuryr
-      docs:
-        contributor: https://docs.openstack.org/kuryr/latest/
     kuryr-libnetwork:
       repos:
         - openstack/kuryr-libnetwork
@@ -1749,8 +1692,6 @@ loci:
     loci:
       repos:
         - openstack/loci
-      docs:
-        contributor: https://docs.openstack.org/loci/latest/
 
 magnum:
   ptl:
@@ -1769,9 +1710,6 @@ magnum:
     magnum:
       repos:
         - openstack/magnum
-      docs:
-        contributor: https://docs.openstack.org/magnum/latest/
-        api: https://developer.openstack.org/api-ref/container-infrastructure-management/
     magnum-specs:
       repos:
         - openstack/magnum-specs
@@ -1803,9 +1741,6 @@ manila:
     manila:
       repos:
         - openstack/manila
-      docs:
-        contributor: https://docs.openstack.org/manila/latest/
-        api: https://developer.openstack.org/api-ref/shared-file-systems/
       tags:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -1879,10 +1814,6 @@ mistral:
       repos:
         - openstack/mistral
         - openstack/mistral-dashboard
-      docs:
-        contributor: https://docs.openstack.org/mistral/latest/
-        api:
-          https://docs.openstack.org/mistral/latest/developer/webapi/index.html
     mistral-extra:
       repos:
         - openstack/mistral-extra
@@ -1914,12 +1845,6 @@ monasca:
     monasca-api:
       repos:
         - openstack/monasca-api
-      docs:
-        contributor: null
-        # markdown
-        api:
-          https://github.com/openstack/monasca-api/blob/master/docs/
-          monasca-api-spec.md
     monasca-log-api:
       repos:
         - openstack/monasca-log-api
@@ -1987,9 +1912,6 @@ murano:
     murano:
       repos:
         - openstack/murano
-      docs:
-        contributor: https://docs.openstack.org/murano/latest/
-        api: https://developer.openstack.org/api-ref/application-catalog/
       tags:
         - stable:follows-policy
     murano-agent:
@@ -2067,8 +1989,6 @@ neutron:
     neutron:
       repos:
         - openstack/neutron
-      docs:
-        contributor: https://docs.openstack.org/neutron/latest/
       tags:
         - tc:approved-release
         - stable:follows-policy
@@ -2085,8 +2005,6 @@ neutron:
     neutron-lib:
       repos:
         - openstack/neutron-lib
-      docs:
-        api: https://developer.openstack.org/api-ref/networking/
       tags:
         - tc:approved-release
         - stable:follows-policy
@@ -2127,9 +2045,6 @@ nova:
     nova:
       repos:
         - openstack/nova
-      docs:
-        contributor: https://docs.openstack.org/nova/latest/
-        api: https://developer.openstack.org/api-ref/compute/
       tags:
         - tc:approved-release
         - starter-kit:compute
@@ -2183,9 +2098,6 @@ octavia:
       tags:
         - stable:follows-policy
     octavia:
-      docs:
-        contributor: https://docs.openstack.org/octavia/latest/
-        api: https://developer.openstack.org/api-ref/load-balancer/
       repos:
         - openstack/octavia
       tags:
@@ -2455,8 +2367,6 @@ OpenStack-Helm:
     openstack-helm:
       repos:
         - openstack/openstack-helm
-      docs:
-        contributor: https://docs.openstack.org/openstack-helm/latest/
     openstack-helm-addons:
       repos:
         - openstack/openstack-helm-addons
@@ -2518,8 +2428,6 @@ OpenStackAnsible:
         - openstack/openstack-ansible-rsyslog_client
         - openstack/openstack-ansible-rsyslog_server
         - openstack/openstack-ansible-security
-      docs:
-        contributor: https://docs.openstack.org/openstack-ansible/latest/
     openstack-ansible-ops:
       repos:
         - openstack/openstack-ansible-ops
@@ -2589,8 +2497,6 @@ OpenStackClient:
     cliff:
       repos:
         - openstack/cliff
-      docs:
-        contributor: https://docs.openstack.org/cliff/latest/
     openstackclient:
       repos:
         - openstack/openstackclient
@@ -2603,8 +2509,6 @@ OpenStackClient:
     python-openstackclient:
       repos:
         - openstack/python-openstackclient
-      docs:
-        contributor: https://docs.openstack.org/python-openstackclient/latest/
 
 oslo:
   ptl:
@@ -2624,15 +2528,11 @@ oslo:
     automaton:
       repos:
         - openstack/automaton
-      docs:
-        contributor: https://docs.openstack.org/automaton/latest/
       tags:
         - stable:follows-policy
     castellan:
       repos:
         - openstack/castellan
-      docs:
-        contributor: https://docs.openstack.org/castellan/latest/
       tags:
         - stable:follows-policy
         - vulnerability:managed
@@ -2642,8 +2542,6 @@ oslo:
     debtcollector:
       repos:
         - openstack/debtcollector
-      docs:
-        contributor: https://docs.openstack.org/debtcollector/latest/
       tags:
         - stable:follows-policy
     devstack-plugin-amqp1:
@@ -2661,8 +2559,6 @@ oslo:
     futurist:
       repos:
         - openstack/futurist
-      docs:
-        contributor: https://docs.openstack.org/futurist/latest/
       tags:
         - stable:follows-policy
     mox3:
@@ -2679,72 +2575,52 @@ oslo:
     oslo.cache:
       repos:
         - openstack/oslo.cache
-      docs:
-        contributor: https://docs.openstack.org/oslo.cache/latest/
       tags:
         - stable:follows-policy
     oslo.concurrency:
       repos:
         - openstack/oslo.concurrency
-      docs:
-        contributor: https://docs.openstack.org/oslo.concurrency/latest/
       tags:
         - stable:follows-policy
     oslo.config:
       repos:
         - openstack/oslo.config
-      docs:
-        contributor: https://docs.openstack.org/oslo.config/latest/
       tags:
         - vulnerability:managed
         - stable:follows-policy
     oslo.context:
       repos:
         - openstack/oslo.context
-      docs:
-        contributor: https://docs.openstack.org/oslo.context/latest/
       tags:
         - stable:follows-policy
     oslo.db:
       repos:
         - openstack/oslo.db
-      docs:
-        contributor: https://docs.openstack.org/oslo.db/latest/
       tags:
         - stable:follows-policy
     oslo.i18n:
       repos:
         - openstack/oslo.i18n
-      docs:
-        contributor: https://docs.openstack.org/oslo.i18n/latest/
       tags:
         - stable:follows-policy
     oslo.log:
       repos:
         - openstack/oslo.log
-      docs:
-        contributor: https://docs.openstack.org/oslo.log/latest/
       tags:
         - stable:follows-policy
     oslo.messaging:
       repos:
         - openstack/oslo.messaging
-      docs:
-        contributor: https://docs.openstack.org/oslo.messaging/latest/
       tags:
         - stable:follows-policy
     oslo.middleware:
       repos:
         - openstack/oslo.middleware
-      docs:
-        contributor: https://docs.openstack.org/oslo.middleware/latest/
       tags:
         - stable:follows-policy
     oslo.policy:
       repos:
         - openstack/oslo.policy
-      docs:
-        contributor: https://docs.openstack.org/oslo.policy/latest/
       tags:
         - stable:follows-policy
     oslo.privsep:
@@ -2755,29 +2631,21 @@ oslo:
     oslo.reports:
       repos:
         - openstack/oslo.reports
-      docs:
-        contributor: https://docs.openstack.org/oslo.reports/latest/
       tags:
         - stable:follows-policy
     oslo.rootwrap:
       repos:
         - openstack/oslo.rootwrap
-      docs:
-        contributor: https://docs.openstack.org/oslo.rootwrap/latest/
       tags:
         - stable:follows-policy
     oslo.serialization:
       repos:
         - openstack/oslo.serialization
-      docs:
-        contributor: https://docs.openstack.org/oslo.serialization/latest/
       tags:
         - stable:follows-policy
     oslo.service:
       repos:
         - openstack/oslo.service
-      docs:
-        contributor: https://docs.openstack.org/oslo.service/latest/
       tags:
         - stable:follows-policy
     oslo.tools:
@@ -2786,36 +2654,26 @@ oslo:
     oslo.utils:
       repos:
         - openstack/oslo.utils
-      docs:
-        contributor: https://docs.openstack.org/oslo.utils/latest/
       tags:
         - stable:follows-policy
     oslo.versionedobjects:
       repos:
         - openstack/oslo.versionedobjects
-      docs:
-        contributor: https://docs.openstack.org/oslo.versionedobjects/latest/
       tags:
         - stable:follows-policy
     oslo.vmware:
       repos:
         - openstack/oslo.vmware
-      docs:
-        contributor: https://docs.openstack.org/oslo.vmware/latest/
       tags:
         - stable:follows-policy
     oslosphinx:
       repos:
         - openstack/oslosphinx
-      docs:
-        contributor: https://docs.openstack.org/oslosphinx/latest/
       tags:
         - stable:follows-policy
     oslotest:
       repos:
         - openstack/oslotest
-      docs:
-        contributor: https://docs.openstack.org/oslotest/latest/
       tags:
         - stable:follows-policy
     osprofiler:
@@ -2826,8 +2684,6 @@ oslo:
     pbr:
       repos:
         - openstack-dev/pbr
-      docs:
-        contributor: https://docs.openstack.org/pbr/latest/
       tags:
         - stable:follows-policy
     sphinx-feature-classification:
@@ -2836,22 +2692,16 @@ oslo:
     stevedore:
       repos:
         - openstack/stevedore
-      docs:
-        contributor: https://docs.openstack.org/stevedore/latest/
       tags:
         - stable:follows-policy
     taskflow:
       repos:
         - openstack/taskflow
-      docs:
-        contributor: https://docs.openstack.org/taskflow/latest/
       tags:
         - stable:follows-policy
     tooz:
       repos:
         - openstack/tooz
-      docs:
-        contributor: https://docs.openstack.org/tooz/latest/
       tags:
         - stable:follows-policy
 
@@ -3928,8 +3778,6 @@ Puppet OpenStack:
     puppet-openstack-guide:
       repos:
         - openstack/puppet-openstack-guide
-      docs:
-        contributor: https://docs.openstack.org/puppet-openstack-guide/latest/
     puppet-openstack-integration:
       repos:
         - openstack/puppet-openstack-integration
@@ -4005,18 +3853,12 @@ Quality Assurance:
     bashate:
       repos:
         - openstack-dev/bashate
-      docs:
-        contributor: https://docs.openstack.org/bashate/latest/
     coverage2sql:
       repos:
         - openstack/coverage2sql
-      docs:
-        contributor: https://docs.openstack.org/coverage2sql/latest/
     devstack:
       repos:
         - openstack-dev/devstack
-      docs:
-        contributor: https://docs.openstack.org/devstack/latest/
     devstack-plugin-ceph:
       repos:
         - openstack/devstack-plugin-ceph
@@ -4035,8 +3877,6 @@ Quality Assurance:
     grenade:
       repos:
         - openstack-dev/grenade
-      docs:
-        contributor: https://docs.openstack.org/grenade/latest/
     hacking:
       repos:
         - openstack-dev/hacking
@@ -4052,34 +3892,24 @@ Quality Assurance:
     os-testr:
       repos:
         - openstack/os-testr
-      docs:
-        contributor: https://docs.openstack.org/os-testr/latest/
     patrole:
       repos:
         - openstack/patrole
-      docs:
-        contributor: https://docs.openstack.org/patrole/latest/
     qa-specs:
       repos:
         - openstack/qa-specs
     stackviz:
       repos:
         - openstack/stackviz
-      docs:
-        contributor: https://docs.openstack.org/stackviz/latest/
     tempest:
       repos:
         - openstack/tempest
-      docs:
-        contributor: https://docs.openstack.org/tempest/latest/
     tempest-plugin-cookiecutter:
       repos:
         - openstack/tempest-plugin-cookiecutter
     tempest-lib:
       repos:
         - openstack/tempest-lib
-      docs:
-        contributor: https://docs.openstack.org/tempest-lib/latest/
   extra-atcs:
     - name: Scott Moser
       email: smoser@ubuntu.com
@@ -4102,9 +3932,6 @@ rally:
       repos:
         - openstack/rally
         - openstack/performance-docs
-      docs:
-        # RTD
-        contributor: http://rally.readthedocs.org/en/latest/
 
 RefStack:
   ptl:
@@ -4121,16 +3948,12 @@ RefStack:
     refstack:
       repos:
         - openstack/refstack
-      docs:
-        contributor: null
     refstack-client:
       repos:
         - openstack/refstack-client
     python-tempestconf:
       repos:
         - openstack/python-tempestconf
-      docs:
-        contributor: null
 
 Release Management:
   ptl:
@@ -4162,8 +3985,6 @@ Release Management:
     reno:
       repos:
         - openstack/reno
-      docs:
-        contributor: https://docs.openstack.org/reno/latest/
     specs-cookiecutter:
       repos:
         - openstack-dev/specs-cookiecutter
@@ -4206,9 +4027,6 @@ sahara:
     sahara:
       repos:
         - openstack/sahara
-      docs:
-        contributor: https://docs.openstack.org/sahara/latest/
-        api: https://developer.openstack.org/api-ref/data-processing/
       tags:
         - tc:approved-release
         - vulnerability:managed
@@ -4258,9 +4076,6 @@ searchlight:
     searchlight:
       repos:
         - openstack/searchlight
-      docs:
-        contributor: https://docs.openstack.org/searchlight/latest/
-        api: https://developer.openstack.org/api-ref/search/
     searchlight-specs:
       repos:
         - openstack/searchlight-specs
@@ -4292,8 +4107,6 @@ Security:
     bandit:
       repos:
         - openstack/bandit
-      docs:
-        contributor: https://docs.openstack.org/bandit/latest/
     ossa:
       repos:
         - openstack/ossa
@@ -4331,9 +4144,6 @@ senlin:
     senlin:
       repos:
         - openstack/senlin
-      docs:
-        contributor: https://docs.openstack.org/senlin/latest/
-        api: https://developer.openstack.org/api-ref/clustering/
     python-senlinclient:
       repos:
         - openstack/python-senlinclient
@@ -4399,11 +4209,6 @@ solum:
     solum:
       repos:
         - openstack/solum
-      docs:
-        contributor: https://docs.openstack.org/solum/latest/
-        api:
-          https://docs.openstack.org/solum/latest//develop_applications/
-          webapi/index.html
     solum-dashboard:
       repos:
         - openstack/solum-dashboard
@@ -4464,9 +4269,6 @@ swift:
     swift:
       repos:
         - openstack/swift
-      docs:
-        contributor: https://docs.openstack.org/swift/latest/
-        api: https://developer.openstack.org/api-ref/object-storage/
       tags:
         - tc:approved-release
         - vulnerability:managed
@@ -4499,9 +4301,6 @@ tacker:
     tacker:
       repos:
         - openstack/tacker
-      docs:
-        contributor: https://docs.openstack.org/tacker/latest/
-        api: https://docs.openstack.org/tacker/latest/devref/mano_api.html
     tacker-horizon:
       repos:
         - openstack/tacker-horizon
@@ -4529,17 +4328,11 @@ Telemetry:
     aodh:
       repos:
         - openstack/aodh
-      docs:
-        contributor: https://docs.openstack.org/aodh/latest/
-        api: https://docs.openstack.org/aodh/latest//webapi/v2.html
       tags:
         - assert:follows-standard-deprecation
     ceilometer:
       repos:
         - openstack/ceilometer
-      docs:
-        contributor: https://docs.openstack.org/ceilometer/latest/
-        api: null
       tags:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -4556,9 +4349,6 @@ Telemetry:
     panko:
       repos:
         - openstack/panko
-      docs:
-        contributor: https://docs.openstack.org/panko/latest/
-        api: https://docs.openstack.org/panko/latest/webapi/v2.html
       tags:
         - assert:follows-standard-deprecation
     python-aodhclient:
@@ -4657,8 +4447,6 @@ tripleo:
     tripleo-docs:
       repos:
         - openstack/tripleo-docs
-      docs:
-        contributor: https://docs.openstack.org/tripleo-docs/latest/
     tripleo-heat-templates:
       repos:
         - openstack/tripleo-heat-templates
@@ -4719,9 +4507,6 @@ trove:
     trove:
       repos:
         - openstack/trove
-      docs:
-        contributor: https://docs.openstack.org/trove/latest/
-        api: https://developer.openstack.org/api-ref/database/
       tags:
         - tc:approved-release
         - vulnerability:managed
@@ -4767,8 +4552,6 @@ vitrage:
     vitrage:
       repos:
         - openstack/vitrage
-      docs:
-        contributor: https://docs.openstack.org/vitrage/latest/
     vitrage-specs:
       repos:
         - openstack/vitrage-specs
@@ -4796,8 +4579,6 @@ watcher:
     watcher:
       repos:
         - openstack/watcher
-      docs:
-        contributor: https://docs.openstack.org/watcher/latest/
     watcher-specs:
       repos:
         - openstack/watcher-specs
@@ -4828,8 +4609,6 @@ winstackers:
     os-win:
       repos:
         - openstack/os-win
-      docs:
-        contributor: null
     oswin-tempest-plugin:
       repos:
         - openstack/oswin-tempest-plugin
@@ -4880,9 +4659,6 @@ zaqar:
     zaqar:
       repos:
         - openstack/zaqar
-      docs:
-        contributor: https://docs.openstack.org/zaqar/latest/
-        api: https://developer.openstack.org/api-ref/messaging/
       tags:
         - stable:follows-policy
         - assert:follows-standard-deprecation
@@ -4916,9 +4692,6 @@ zun:
     zun:
       repos:
         - openstack/zun
-      docs:
-        contributor: https://docs.openstack.org/zun/latest/
-        api: https://developer.openstack.org/api-ref/application-container/
     zun-tempest-plugin:
       repos:
         - openstack/zun-tempest-plugin
