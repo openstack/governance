@@ -1553,6 +1553,9 @@ ironic:
     networking-baremetal:
       repos:
         - openstack/networking-baremetal
+    networking-generic-switch:
+      repos:
+        - openstack/networking-generic-switch
     python-ironic-inspector-client:
       repos:
         - openstack/python-ironic-inspector-client
