@@ -528,7 +528,11 @@ Telemetry
 
 Planning Artifacts:
 
+This document was used as the planning document for the Telemetry project.
+
 Completion Artifacts:
+
+* `panko implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+status:merged+project:openstack/panko>`_
 
 tricircle
 ---------
