@@ -124,7 +124,12 @@ cinder
 
 Planning Artifacts:
 
+* `cinder policy-in-code blueprint <https://blueprints.launchpad.net/cinder/+spec/policy-in-code>`_
+
 Completion Artifacts:
+
+* `cinder policy-in-code implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+project:openstack/cinder>`_
+* `cinder documentation update <https://review.openstack.org/#/c/512187/>`_
 
 cloudkitty
 ----------
