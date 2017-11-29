@@ -17,8 +17,8 @@ This tag exists in the 'team' category, which as the name implies,
 covers information about the team itself.
 
 
-Application to current projects
-===============================
+Application to current teams
+============================
 
 It's worth pointing out that the criteria used for this tag is applied across
 all git repositories managed by a team.

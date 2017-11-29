@@ -19,8 +19,8 @@ The "assert:supports-api-interoperability" tag asserts that the project will
 follow the API interoperability guidelines and that they will not change (or
 remove) an API in a way that will break existing users of an API.
 
-Application to current projects
-===============================
+Application to current deliverables
+===================================
 
 .. tagged-projects:: assert:supports-api-interoperability
 

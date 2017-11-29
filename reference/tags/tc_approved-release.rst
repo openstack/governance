@@ -20,8 +20,8 @@ OpenStack Foundation Board as candidates for trademark use under the
 OpenStack Foundation trademark policy.
 
 
-Application to current projects
-===============================
+Application to current deliverables
+===================================
 
 .. tagged-projects:: tc:approved-release
 

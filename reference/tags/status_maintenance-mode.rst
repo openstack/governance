@@ -24,8 +24,8 @@ a project team is in a period of low activity (which we call
 'maintenance-mode'). This is accomplished by applying the
 status:maintenance-mode tag to the project team.
 
-Application to current projects
-===============================
+Application to current teams
+============================
 
 .. tagged-projects:: status:maintenance-mode
 

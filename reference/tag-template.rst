@@ -29,14 +29,15 @@ proposed-tag-name (should match the tags/proposed-tag-name.rst filename)
 Introduction paragraph -- a short summary of what this tag will mean.
 
 
-Application to current projects
-===============================
+Application to current deliverables
+===================================
 
 As part of the application you need to go through the exercise of applying
-the proposed tag to at least some subset of the current project list. This
+the proposed tag to at least some subset of the current deliverables or teams
+(depending on whether the tag applies to teams or deliverables). This
 will serve as an example of how the tag should be applied in the real world.
 You may also submit (as a subsequent change) the corresponding governance
-change to immediately apply the proposed tag to projects.
+change to immediately apply the proposed tag to deliverables or teams.
 
 .. tagged-projects:: <tag name>
 

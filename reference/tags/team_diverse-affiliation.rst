@@ -17,8 +17,8 @@ about the team itself.  Another example of a tag that could exist in this
 category is one that conveys the size of the team that is actively contributing.
 
 
-Application to current projects
-===============================
+Application to current teams
+============================
 
 It's worth pointing out that the criteria used for this tag is applied across
 all git repositories managed by a team.
