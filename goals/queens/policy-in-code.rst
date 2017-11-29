@@ -304,7 +304,11 @@ manila
 
 Planning Artifacts:
 
+* `manila blueprint <https://blueprints.launchpad.net/manila/+spec/policy-in-code>`_
+
 Completion Artifacts:
+
+* `manila implementation <https://review.openstack.org/#/q/status:merged+project:openstack/manila+branch:master+topic:policy-and-docs-in-code>`_
 
 mistral
 -------
