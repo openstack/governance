@@ -4531,6 +4531,9 @@ tripleo:
     ansible-role-k8s-cookiecutter:
       repos:
         - openstack/ansible-role-k8s-cookiecutter
+    ansible-role-k8s-glance:
+      repos:
+        - openstack/ansible-role-k8s-glance
     ansible-role-k8s-keystone:
       repos:
         - openstack/ansible-role-k8s-keystone
