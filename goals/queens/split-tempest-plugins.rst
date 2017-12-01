@@ -434,6 +434,18 @@ The kuryr team is maintaining it's tempest plugin in a seperate repo:
 
 http://git.openstack.org/cgit/openstack/kuryr-tempest-plugin
 
+loci
+----
+
+Planning Artifacts:
+
+* The loci team does not have tempest plugins and therefore has nothing
+  to do.
+
+Completion Artifacts:
+
+* Not applicable.
+
 magnum
 ------
 
