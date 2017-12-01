@@ -254,12 +254,13 @@ cloudkitty
 
 Planning Artifacts:
 
-* The cloudkitty team does not have tempest plugins and therefore has nothing
-  to do.
+The cloudkitty project does not have in-tree tempest plugin.
 
 Completion Artifacts:
 
-* Not applicable.
+The cloudkitty team is maintaining it's tempest plugin in a seperate repo:
+
+http://git.openstack.org/cgit/openstack/cloudkitty-tempest-plugin
 
 congress
 --------
