@@ -293,6 +293,7 @@ designate:
           https://docs.openstack.org/designate/latest/
         api: https://developer.openstack.org/api-ref/dns/
       tags:
+        - tc:approved-release
         - stable:follows-policy
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
