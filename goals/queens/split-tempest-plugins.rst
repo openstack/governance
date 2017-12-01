@@ -270,6 +270,18 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+cyborg
+------
+
+Planning Artifacts:
+
+* The cyborg team does not have tempest plugins and therefore has nothing
+  to do.
+
+Completion Artifacts:
+
+* Not applicable.
+
 designate
 ---------
 
