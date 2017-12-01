@@ -469,6 +469,10 @@ Telemetry:
       retired-on: 2017-03-20
       repos:
         - openstack/python-gnocchiclient
+    python-ceilometerclient:
+      retired-on: 2017-11-22
+      repos:
+        - openstack/python-ceilometerclient
 
 tripleo:
   irc-channel: tripleo
