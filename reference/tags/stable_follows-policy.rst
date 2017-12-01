@@ -10,6 +10,10 @@
  stable:follows-policy
 =======================
 
+Downstream users of OpenStack (users, but also packagers and lifecycle
+management tools) need to know whether they can count on a source
+of reliable bugfixes for a given component.
+
 This tag indicates that a project team maintains stable branches for a given
 deliverable, and that those stable branches are maintained following the common
 `Stable branch policy`_, as defined by the Stable branch maintenance team.
@@ -45,6 +49,11 @@ follow the policy.
 
 Requirements
 ============
+
+The tag can only be applied to software components of an OpenStack cloud
+(openstack, openstack-operations on the map) and associated libraries
+(openstack-libs). It is not meant be applied to SDKs (openstack-user)
+or deployment tools (openstack-lifecyclemanagement).
 
 Deliverables must follow the `Stable branch policy`_ in all currently active
 stable branches.
