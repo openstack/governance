@@ -448,6 +448,18 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+masakari
+--------
+
+Planning Artifacts:
+
+* The masakari team does not have tempest plugins and therefore has nothing
+  to do.
+
+Completion Artifacts:
+
+* Not applicable.
+
 mistral
 -------
 
