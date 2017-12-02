@@ -311,7 +311,12 @@ mistral
 
 Planning Artifacts:
 
+* mistral used this document as the planning artifact
+
 Completion Artifacts:
+
+* `mistral policy-in-code implementation <https://review.openstack.org/#/q/project:openstack/mistral++topic:policy-and-docs-in-code+status:merged>`_
+* `mistral policy documentation <https://docs.openstack.org/mistral/latest/configuration/policy-guide.html>`_
 
 monasca
 -------
