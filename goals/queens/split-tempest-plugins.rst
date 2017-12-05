@@ -493,6 +493,8 @@ octavia
 
 Planning Artifacts:
 
+* `Octavia tracking story <https://storyboard.openstack.org/#!/story/2001387>`_
+
 Completion Artifacts:
 
 OpenStack Charms
