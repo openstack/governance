@@ -467,7 +467,13 @@ murano
 
 Planning Artifacts:
 
+The murano project does not have in-tree tempest plugin.
+
 Completion Artifacts:
+
+The murano team is maintaining it's tempest plugin in a seperate repo:
+
+http://git.openstack.org/cgit/openstack/murano-tempest-plugin
 
 neutron
 -------
