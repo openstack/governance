@@ -37,6 +37,7 @@ Team Description Tags
 .. toctree::
    :maxdepth: 1
 
+   status_maintenance-mode
    team_diverse-affiliation
    team_single-vendor
 
@@ -62,7 +63,6 @@ project doesn't actually meet the documented criteria.
    assert_supports-accessible-upgrade
    assert_supports-rolling-upgrade
    assert_supports-zero-downtime-upgrade
-   status_maintenance-mode
 
 Vulnerability Management Tags
 =============================

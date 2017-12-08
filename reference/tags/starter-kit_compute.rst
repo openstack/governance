@@ -14,9 +14,8 @@ A common starting point for a Compute oriented OpenStack cloud that
 can be expanded over time to include more of the OpenStack universe.
 
 
-Application to current projects
-===============================
-
+Application to current deliverables
+===================================
 
 .. tagged-projects:: starter-kit:compute
 

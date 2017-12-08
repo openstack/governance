@@ -18,8 +18,8 @@ features that the project supports.
 The "assert:supports-rolling-upgrade" tag asserts that the project
 will support minimal rolling upgrade capabilities.
 
-Application to current projects
-===============================
+Application to current deliverables
+===================================
 
 .. tagged-projects:: assert:supports-rolling-upgrade
 

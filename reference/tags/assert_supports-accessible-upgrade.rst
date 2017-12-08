@@ -18,8 +18,8 @@ project supporting basic :ref:`upgrade capabilities
 <tag-assert:supports-upgrade>`, it does so *without disrupting the
 accessibility of controlled resources.*.
 
-Application to current projects
-===============================
+Application to current deliverables
+===================================
 
 .. tagged-projects:: assert:supports-accessible-upgrade
 

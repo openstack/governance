@@ -16,8 +16,8 @@ practices and policies for review and verification. It does not indicate that
 the documentation team has taken ownership of producing the documentation for
 the deliverable.
 
-Application to current projects
-===============================
+Application to current deliverables
+===================================
 
 .. tagged-projects:: docs:follows-policy
 

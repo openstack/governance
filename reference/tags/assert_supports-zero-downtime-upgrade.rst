@@ -18,8 +18,8 @@ project supporting `minimal rolling upgrade capabilities
 <https://governance.openstack.org/tc/reference/tags/assert_supports-rolling-upgrade.html>`_,
 it does so *without incurring any disruption to API availability*.
 
-Application to current projects
-===============================
+Application to current deliverables
+===================================
 
 .. tagged-projects:: assert:supports-zero-downtime-upgrade
 

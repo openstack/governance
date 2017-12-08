@@ -19,8 +19,8 @@ The "assert:follows-standard-deprecation" tag asserts that the project will
 follow standard feature deprecation rules as described here.
 
 
-Application to current projects
-===============================
+Application to current deliverables
+===================================
 
 .. tagged-projects:: assert:follows-standard-deprecation
 
