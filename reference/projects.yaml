@@ -1452,9 +1452,6 @@ Infrastructure:
     system-config:
       repos:
         - openstack-infra/system-config
-    tripleo-ci:
-      repos:
-        - openstack-infra/tripleo-ci
     trystack-site:
       repos:
         - openstack-infra/trystack-site
@@ -4648,6 +4645,9 @@ tripleo:
     tempest-tripleo-ui:
       repos:
         - openstack/tempest-tripleo-ui
+    tripleo-ci:
+      repos:
+        - openstack-infra/tripleo-ci
     tripleo-common:
       repos:
         - openstack/tripleo-common
