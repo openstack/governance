@@ -824,12 +824,14 @@ tripleo
 
 Planning Artifacts:
 
-* The tripleo team does not have tempest plugins and therefore has nothing
-  to do.
+The tripleo project does not have in-tree tempest plugin.
 
 Completion Artifacts:
 
-* Not applicable
+The tripleo team is maintaining its tempest plugin in a seperate repo for
+testing tripleo workflows:
+
+http://git.openstack.org/cgit/openstack/tripleo-common-tempest-plugin
 
 trove
 -----
