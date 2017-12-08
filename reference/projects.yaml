@@ -1101,6 +1101,9 @@ Infrastructure:
     logstash-filters:
       repos:
         - openstack-infra/logstash-filters
+    log-classify:
+      repos:
+        - openstack-infra/log-classify
     log_processor:
       repos:
         - openstack-infra/log_processor
