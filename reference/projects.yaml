@@ -4561,6 +4561,9 @@ vitrage:
     vitrage-specs:
       repos:
         - openstack/vitrage-specs
+    vitrage-tempest-plugin:
+      repos:
+        - openstack/vitrage-tempest-plugin
     python-vitrageclient:
       repos:
         - openstack/python-vitrageclient
