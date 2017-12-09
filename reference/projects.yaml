@@ -378,6 +378,9 @@ ec2-api:
     ec2-api:
       repos:
         - openstack/ec2-api
+    ec2api-tempest-plugin:
+      repos:
+        - openstack/ec2api-tempest-plugin
 
 freezer:
   ptl:
