@@ -4360,6 +4360,9 @@ Telemetry:
     python-pankoclient:
       repos:
         - openstack/python-pankoclient
+    telemetry-tempest-plugin:
+      repos:
+        - openstack/telemetry-tempest-plugin
 
 tricircle:
   ptl:
