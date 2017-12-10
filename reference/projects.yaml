@@ -1132,9 +1132,6 @@ Infrastructure:
     puppet-apparmor:
       repos:
         - openstack-infra/puppet-apparmor
-    puppet-apps_site:
-      repos:
-        - openstack-infra/puppet-apps_site
     puppet-askbot:
       repos:
         - openstack-infra/puppet-askbot
