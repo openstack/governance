@@ -6,3 +6,4 @@ yamllint>=0.5.2
 requests-cache
 Pillow>=2.4.0 # PIL License
 hacking!=0.13.0,<0.14,>=0.12.0 # Apache-2.0
+whereto>=0.3.0  # Apache-2.0
