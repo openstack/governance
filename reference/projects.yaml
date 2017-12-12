@@ -4162,13 +4162,13 @@ shade:
     name: Monty Taylor
     irc: mordred
     email: mordred@inaugust.com
-  irc-channel: openstack-shade
+  irc-channel: openstack-sdks
   service: Multi-cloud Python SDK for End Users
   mission: >
     To provide a multi-cloud aware Python SDK for the OpenStack REST API
     exposing both the full set of low-level APIs as well as curated higher
     level business logic.
-  url: https://docs.openstack.org/shade/latest/
+  url: https://docs.openstack.org/python-openstacksdk/latest/
   tags:
     - team:diverse-affiliation
   deliverables:
@@ -4182,6 +4182,8 @@ shade:
         - openstack/os-service-types
       tags:
         - assert:follows-standard-deprecation
+      docs:
+        contributor: https://docs.openstack.org/os-service-types/latest/
     requestsexceptions:
       repos:
         - openstack-infra/requestsexceptions
@@ -4192,6 +4194,8 @@ shade:
         - openstack-infra/shade
       tags:
         - assert:follows-standard-deprecation
+      docs:
+        contributor: https://docs.openstack.org/shade/latest/
 
 solum:
   ptl:
