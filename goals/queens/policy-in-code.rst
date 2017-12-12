@@ -580,7 +580,11 @@ watcher
 
 Planning Artifacts:
 
+* `watcher policy-in-code blueprint <https://blueprints.launchpad.net/watcher/+spec/policy-and-docs-in-code>`_
+
 Completion Artifacts:
+
+* `watcher policy-in-code implementation <https://review.openstack.org/#/q/project:+openstack/watcher+topic:policy-and-docs-in-code+status:merged>`_
 
 winstackers
 -----------
