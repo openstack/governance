@@ -1823,6 +1823,9 @@ mistral:
     mistral-specs:
       repos:
         - openstack/mistral-specs
+    mistral-tempest-plugin:
+      repos:
+        - openstack/mistral-tempest-plugin
     python-mistralclient:
       repos:
         - openstack/python-mistralclient
