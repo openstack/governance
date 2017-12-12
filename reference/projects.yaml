@@ -2503,9 +2503,6 @@ OpenStackClient:
     openstackclient:
       repos:
         - openstack/openstackclient
-    os-client-config:
-      repos:
-        - openstack/os-client-config
     osc-lib:
       repos:
         - openstack/osc-lib
@@ -2533,6 +2530,9 @@ OpenStackSDK:
         - openstack/python-openstacksdk
       tags:
         - assert:follows-standard-deprecation
+    os-client-config:
+      repos:
+        - openstack/os-client-config
     os-service-types:
       repos:
         - openstack/os-service-types
