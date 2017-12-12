@@ -229,6 +229,9 @@ congress:
     congress-specs:
       repos:
         - openstack/congress-specs
+    congress-tempest-plugin:
+      repos:
+        - openstack/congress-tempest-plugin
     python-congressclient:
       repos:
         - openstack/python-congressclient
