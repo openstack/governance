@@ -798,7 +798,12 @@ tacker
 
 Planning Artifacts:
 
+* The tacker team does not have tempest plugins and therefore has nothing
+  to do.
+
 Completion Artifacts:
+
+* Not applicable.
 
 Telemetry
 ---------
