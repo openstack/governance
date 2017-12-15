@@ -288,6 +288,9 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+* https://review.openstack.org/#/c/525349/
+* https://review.openstack.org/#/c/525423/
+
 designate
 ---------
 
