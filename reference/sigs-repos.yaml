@@ -2,3 +2,5 @@
 # List of repositories owned by SIGs
 meta:
   - repo: openstack/governance-sigs
+self-healing:
+  - repo: openstack/self-healing-sig
