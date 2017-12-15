@@ -166,3 +166,28 @@ Glance PTL (rosmaita), the TC sponsor for this item (flaper87) or starting a new
 email thread on the ML using the tag `[glance]`.
 
 .. _`Glance`: https://governance.openstack.org/tc/reference/projects/glance.html
+
+5. Goal Champions
+=================
+
+Things get done in OpenStack when a group of people work together
+toward a shared goal. In order to do that, one or more people in the
+group need to step up and coordinate the group, keep track of
+progress, call for and chair regular meetings, and publish status
+updates.  PTLs do this work for project teams, leaders do it for
+various cross-project working groups and SIGs, and champions do it to
+help us complete :ref:`release-cycle-goals` over a cycle.
+
+The work of those champions is essential to the success of OpenStack,
+and yet it is often challenging to find volunteers for those
+positions. Contributing as a goal champion takes time (several hours
+per week), and that commitment needs to be properly recognized and
+celebrated.
+
+Volunteers for this role will make a direct impact on the productivity
+of others, become respected leaders in OpenStack community, build
+influence among their peers, and make great candidates for future
+elected leadership positions in OpenStack.
+
+If you are interested in helping with community goals, contact the TC
+sponsor for this item (dhellmann).
