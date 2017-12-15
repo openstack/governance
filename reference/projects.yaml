@@ -283,6 +283,7 @@ designate:
         - stable:follows-policy
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
+        - assert:supports-accessible-upgrade
     designate-dashboard:
       repos:
         - openstack/designate-dashboard
