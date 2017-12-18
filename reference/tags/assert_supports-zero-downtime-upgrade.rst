@@ -11,10 +11,10 @@ assert:supports-zero-downtime-upgrade
 =====================================
 
 This tag is part of the assert category of tags, which are assertions made by
-the project team themselves about their maturity.
+the project team themselves about their deliverables maturity.
 
 The ``assert:supports-zero-downtime-upgrade`` tag asserts that in addition to a
-project supporting `minimal rolling upgrade capabilities
+deliverable supporting `minimal rolling upgrade capabilities
 <https://governance.openstack.org/tc/reference/tags/assert_supports-rolling-upgrade.html>`_,
 it does so *without incurring any disruption to API availability*.
 
@@ -27,17 +27,19 @@ Application to current deliverables
 Rationale
 =========
 
-OpenStack projects represent code that is installed and deployed on many
+OpenStack components represent code that is installed and deployed on many
 distributed systems in order to provide services to users. Operators need to
-know what projects support an upgrade process that eliminates downtime of the
+know what services support an upgrade process that eliminates downtime of the
 control plane entirely.
 
 Requirements
 ============
 
-* The project is already tagged as ``type:service``.
+* The deliverable is a software component of an OpenStack cloud
+  (openstack, openstack-operations on the map) delivering a long-lived
+  service with an API.
 
-* The project has already successfully asserted both the
+* The deliverable has already successfully asserted both the
   :ref:`tag-assert:supports-upgrade` and
   :ref:`tag-assert:supports-rolling-upgrade` tags. All the requirements for
   those tags are requirements for this tag, and assertion of both those tags

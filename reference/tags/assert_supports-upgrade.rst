@@ -11,11 +11,11 @@ assert:supports-upgrade
 =======================
 
 This tag is part of the assert category of tags, which are assertions
-made by the project team themselves about their maturity. One such
-assertion (or self-imposed contract) is about the cold-upgrade
-features that the project supports.
+made by the project team themselves about their deliverables maturity. One
+such assertion (or self-imposed contract) is about the cold-upgrade
+features that the deliverable supports.
 
-The "assert:supports-upgrade" tag asserts that the project will
+The "assert:supports-upgrade" tag asserts that the deliverable will
 support minimal cold (offline) upgrade capabilities.
 
 Application to current deliverables
@@ -27,9 +27,9 @@ Application to current deliverables
 Rationale
 =========
 
-OpenStack projects represent code that is installed and deployed on
+OpenStack components represent code that is installed and deployed on
 many distributed systems in order to provide services to
-users. Operators need to know what projects support a controlled and
+users. Operators need to know what services support a controlled and
 planned upgrade process from release to release in order to make good
 decisions about what to expose to users. Utilizing an OpenStack
 project in a deployment where smooth upgrades are not provided is a
@@ -38,7 +38,9 @@ danger that operators should be aware of.
 Requirements
 ============
 
-* The project is already tagged as type:service.
+* The deliverable is a software component of an OpenStack cloud
+  (openstack, openstack-operations on the map) delivering a long-lived
+  service with an API.
 * Configuration from release N-1 is supported in release N. Sane
   defaults for new configuration variables are provided in such a way
   that deployed code from N can be expected to run without operator
@@ -48,7 +50,7 @@ Requirements
   without data loss. This must be actively tested full-stack on every
   proposed commit in the gate, with resources present and working
   before and after the upgrade step.
-* A procedure for general upgrades of the project is defined and does
+* A procedure for general upgrades of the deliverable is defined and does
   not change substantially from cycle to cycle.
 * The project provides an upgrade impact section on the release notes
   page that highlights anything that must be done by operators for

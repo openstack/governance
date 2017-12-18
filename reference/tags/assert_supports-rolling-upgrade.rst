@@ -11,11 +11,11 @@ assert:supports-rolling-upgrade
 ===============================
 
 This tag is part of the assert category of tags, which are assertions
-made by the project team themselves about their maturity. One such
-assertion (or self-imposed contract) is about the rolling upgrade
-features that the project supports.
+made by the project team themselves about their deliverables maturity. One
+such assertion (or self-imposed contract) is about the rolling upgrade
+features that the deliverable supports.
 
-The "assert:supports-rolling-upgrade" tag asserts that the project
+The "assert:supports-rolling-upgrade" tag asserts that the deliverable
 will support minimal rolling upgrade capabilities.
 
 Application to current deliverables
@@ -27,16 +27,18 @@ Application to current deliverables
 Rationale
 =========
 
-OpenStack projects represent code that is installed and deployed on
+OpenStack components represent code that is installed and deployed on
 many distributed systems in order to provide services to
-users. Operators need to know what projects support a rolling upgrade
+users. Operators need to know what services support a rolling upgrade
 process to avoid significant downtime.
 
 Requirements
 ============
 
-* The project is already tagged as type:service.
-* The project has already successfully asserted the supports-upgrade
+* The deliverable is a software component of an OpenStack cloud
+  (openstack, openstack-operations on the map) delivering a long-lived
+  service with an API.
+* The deliverable has already successfully asserted the supports-upgrade
   tag. All the requirements for that tag are requirements for this
   tag, and assertion of that tag is a requirement to assert this tag.
 * The project has a defined plan that allows operators to roll out new
