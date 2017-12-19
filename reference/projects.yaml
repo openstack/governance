@@ -4543,6 +4543,9 @@ trove:
     trove-specs:
       repos:
         - openstack/trove-specs
+    trove-tempest-plugin:
+      repos:
+        - openstack/trove-tempest-plugin
   extra-atcs:
     - name: Nourhene Bziouech
       email: nourhene.bziouech@supcom.tn
