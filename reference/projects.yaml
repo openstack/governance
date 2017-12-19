@@ -2038,6 +2038,15 @@ neutron:
     neutron-fwaas-dashboard:
       repos:
         - openstack/neutron-fwaas-dashboard
+    neutron-vpnaas:
+      repos:
+        - openstack/neutron-vpnaas
+      tags:
+        - stable:follows-policy
+        - assert:follows-standard-deprecation
+    neutron-vpnaas-dashboard:
+      repos:
+        - openstack/neutron-vpnaas-dashboard
 
 nova:
   ptl:
