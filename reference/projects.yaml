@@ -1869,6 +1869,9 @@ monasca:
     monasca-persister:
       repos:
         - openstack/monasca-persister
+    monasca-tempest-plugin:
+      repos:
+        - openstack/monasca-tempest-plugin
     monasca-thresh:
       repos:
         - openstack/monasca-thresh
