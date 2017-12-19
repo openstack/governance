@@ -234,6 +234,15 @@ horizon:
       repos:
         - openstack/django-openstack-auth-kerberos
 
+Infrastructure:
+  irc-channel: openstack-infra
+  partial: yes
+  deliverables:
+    puppet-apps_site:
+      retired-on: 2017-12-10
+      repos:
+        - openstack-infra/puppet-apps_site
+
 ironic:
   irc-channel: openstack-ironic
   service: Bare Metal service
