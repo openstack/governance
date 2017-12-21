@@ -579,7 +579,13 @@ trove
 
 Planning Artifacts:
 
+We used the community goal document found in
+https://governance.openstack.org/tc/goals/queens/policy-in-code.html as
+planning artifact.
+
 Completion Artifacts:
+
+* `trove policy-in-code implementation <https://review.openstack.org/#/q/project:openstack/trove+topic:policy-and-docs-in-code+status:merged>`_
 
 vitrage
 -------
