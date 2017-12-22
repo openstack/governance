@@ -453,6 +453,964 @@ oslo:
       repos:
         - openstack/pylockfile
 
+Packaging-deb:
+  ptl:
+    name: Thomas Goirand
+    irc: zigo
+    email: zigo@debian.org
+  retired-on: 2017-12-01
+  mission: >
+    Maintain packages for Debian (and other deb based distributions) as a
+    community.
+  tags:
+    - team:single-vendor
+  deliverables:
+    deb-alembic:
+      repos:
+        - openstack/deb-alembic
+    deb-aodh:
+      repos:
+        - openstack/deb-aodh
+    deb-auto-backports:
+      repos:
+        - openstack/deb-auto-backports
+    deb-bandit:
+      repos:
+        - openstack/deb-bandit
+    deb-barbican:
+      repos:
+        - openstack/deb-barbican
+    deb-ceilometer:
+      repos:
+        - openstack/deb-ceilometer
+    deb-ceilometermiddleware:
+      repos:
+        - openstack/deb-ceilometermiddleware
+    deb-cinder:
+      repos:
+        - openstack/deb-cinder
+    deb-congress:
+      repos:
+        - openstack/deb-congress
+    deb-designate:
+      repos:
+        - openstack/deb-designate
+    deb-designate-dashboard:
+      repos:
+        - openstack/deb-designate-dashboard
+    deb-fonts-materialdesignicons-webfont:
+      repos:
+        - openstack/deb-fonts-materialdesignicons-webfont
+    deb-fonts-roboto-fontface:
+      repos:
+        - openstack/deb-fonts-roboto-fontface
+    deb-git-review:
+      repos:
+        - openstack/deb-git-review
+    deb-glance:
+      repos:
+        - openstack/deb-glance
+    deb-glare:
+      repos:
+        - openstack/deb-glare
+    deb-gnocchi:
+      repos:
+        - openstack/deb-gnocchi
+    deb-heat:
+      repos:
+        - openstack/deb-heat
+    deb-heat-cfntools:
+      repos:
+        - openstack/deb-heat-cfntools
+    deb-horizon:
+      repos:
+        - openstack/deb-horizon
+    deb-ironic:
+      repos:
+        - openstack/deb-ironic
+    deb-ironic-inspector:
+      repos:
+        - openstack/deb-ironic-inspector
+    deb-ironic-ui:
+      repos:
+        - openstack/deb-ironic-ui
+    deb-kazoo:
+      repos:
+        - openstack/deb-kazoo
+    deb-keystone:
+      repos:
+        - openstack/deb-keystone
+    deb-liberasurecode:
+      repos:
+        - openstack/deb-liberasurecode
+    deb-libisal:
+      repos:
+        - openstack/deb-libisal
+    deb-magnum:
+      repos:
+        - openstack/deb-magnum
+    deb-manila:
+      repos:
+        - openstack/deb-manila
+    deb-manila-ui:
+      repos:
+        - openstack/deb-manila-ui
+    deb-migrate:
+      repos:
+        - openstack/deb-migrate
+    deb-mistral:
+      repos:
+        - openstack/deb-mistral
+    deb-msgpack-python:
+      repos:
+        - openstack/deb-msgpack-python
+    deb-murano:
+      repos:
+        - openstack/deb-murano
+    deb-murano-agent:
+      repos:
+        - openstack/deb-murano-agent
+    deb-murano-dashboard:
+      repos:
+        - openstack/deb-murano-dashboard
+    deb-networking-arista:
+      repos:
+        - openstack/deb-networking-arista
+    deb-networking-cisco:
+      repos:
+        - openstack/deb-networking-cisco
+    deb-networking-hyperv:
+      repos:
+        - openstack/deb-networking-hyperv
+    deb-networking-l2gw:
+      repos:
+        - openstack/deb-networking-l2gw
+    deb-networking-midonet:
+      repos:
+        - openstack/deb-networking-midonet
+    deb-networking-nec:
+      repos:
+        - openstack/deb-networking-nec
+    deb-networking-odl:
+      repos:
+        - openstack/deb-networking-odl
+    deb-networking-ovn:
+      repos:
+        - openstack/deb-networking-ovn
+    deb-networking-mlnx:
+      repos:
+        - openstack/deb-networking-mlnx
+    deb-neutron:
+      repos:
+        - openstack/deb-neutron
+    deb-neutron-fwaas:
+      repos:
+        - openstack/deb-neutron-fwaas
+    deb-neutron-lbaas:
+      repos:
+        - openstack/deb-neutron-lbaas
+    deb-neutron-taas:
+      repos:
+        - openstack/deb-neutron-taas
+    deb-neutron-vpnaas:
+      repos:
+        - openstack/deb-neutron-vpnaas
+    deb-nodepool:
+      repos:
+        - openstack/deb-nodepool
+    deb-nova:
+      repos:
+        - openstack/deb-nova
+    deb-novnc:
+      repos:
+        - openstack/deb-novnc
+    deb-openstack-doc-tools:
+      repos:
+        - openstack/deb-openstack-doc-tools
+    deb-openstack-meta-packages:
+      repos:
+        - openstack/deb-openstack-meta-packages
+    deb-openstack-nose:
+      repos:
+        - openstack/deb-openstack-nose
+    deb-openstack-pkg-tools:
+      repos:
+        - openstack/deb-openstack-pkg-tools
+    deb-openstack-trove:
+      repos:
+        - openstack/deb-openstack-trove
+    deb-oslosphinx:
+      repos:
+        - openstack/deb-oslosphinx
+    deb-python-aioeventlet:
+      repos:
+        - openstack/deb-python-aioeventlet
+    deb-python-autobahn:
+      repos:
+        - openstack/deb-python-autobahn
+    deb-python-automaton:
+      repos:
+        - openstack/deb-python-automaton
+    deb-python-aodhclient:
+      repos:
+        - openstack/deb-python-aodhclient
+    deb-python-barbicanclient:
+      repos:
+        - openstack/deb-python-barbicanclient
+    deb-python-bashate:
+      repos:
+        - openstack/deb-python-bashate
+    deb-python-cassandra-driver:
+      repos:
+        - openstack/deb-python-cassandra-driver
+    deb-python-castellan:
+      repos:
+        - openstack/deb-python-castellan
+    deb-python-ceilometerclient:
+      repos:
+        - openstack/deb-python-ceilometerclient
+    deb-python-ceilometermiddleware:
+      repos:
+        - openstack/deb-python-ceilometermiddleware
+    deb-python-cinderclient:
+      repos:
+        - openstack/deb-python-cinderclient
+    deb-python-cliff:
+      repos:
+        - openstack/deb-python-cliff
+    deb-python-coffin:
+      repos:
+        - openstack/deb-python-coffin
+    deb-python-colander:
+      repos:
+        - openstack/deb-python-colander
+    deb-python-concurrent.futures:
+      repos:
+        - openstack/deb-python-concurrent.futures
+    deb-python-congressclient:
+      repos:
+        - openstack/deb-python-congressclient
+    deb-python-cotyledon:
+      repos:
+        - openstack/deb-python-cotyledon
+    deb-python-couleur:
+      repos:
+        - openstack/deb-python-couleur
+    deb-python-crank:
+      repos:
+        - openstack/deb-python-crank
+    deb-python-croniter:
+      repos:
+        - openstack/deb-python-croniter
+    deb-python-csscompressor:
+      repos:
+        - openstack/deb-python-csscompressor
+    deb-python-cursive:
+      repos:
+        - openstack/deb-python-cursive
+    deb-python-daemonize:
+      repos:
+        - openstack/deb-python-daemonize
+    deb-python-dcos:
+      repos:
+        - openstack/deb-python-dcos
+    deb-python-ddt:
+      repos:
+        - openstack/deb-python-ddt
+    deb-python-debtcollector:
+      repos:
+        - openstack/deb-python-debtcollector
+    deb-python-designateclient:
+      repos:
+        - openstack/deb-python-designateclient
+    deb-python-dib-utils:
+      repos:
+        - openstack/deb-python-dib-utils
+    deb-python-diskimage-builder:
+      repos:
+        - openstack/deb-python-diskimage-builder
+    deb-python-django-appconf:
+      repos:
+        - openstack/deb-python-django-appconf
+    deb-python-django-babel:
+      repos:
+        - openstack/deb-python-django-babel
+    deb-python-django-bootstrap-form:
+      repos:
+        - openstack/deb-python-django-bootstrap-form
+    deb-python-django-compressor:
+      repos:
+        - openstack/deb-python-django-compressor
+    deb-python-django-discover-runner:
+      repos:
+        - openstack/deb-python-django-discover-runner
+    deb-python-django-formtools:
+      repos:
+        - openstack/deb-python-django-formtools
+    deb-python-django-openstack-auth:
+      repos:
+        - openstack/deb-python-django-openstack-auth
+    deb-python-django-overextends:
+      repos:
+        - openstack/deb-python-django-overextends
+    deb-python-django-pyscss:
+      repos:
+        - openstack/deb-python-django-pyscss
+    deb-python-doc8:
+      repos:
+        - openstack/deb-python-doc8
+    deb-python-dogpile.cache:
+      repos:
+        - openstack/deb-python-dogpile.cache
+    deb-python-dogpile.core:
+      repos:
+        - openstack/deb-python-dogpile.core
+    deb-python-editor:
+      repos:
+        - openstack/deb-python-editor
+    deb-python-eventlet:
+      repos:
+        - openstack/deb-python-eventlet
+    deb-python-extras:
+      repos:
+        - openstack/deb-python-extras
+    deb-python-falcon:
+      repos:
+        - openstack/deb-python-falcon
+    deb-python-fasteners:
+      repos:
+        - openstack/deb-python-fasteners
+    deb-python-fixtures:
+      repos:
+        - openstack/deb-python-fixtures
+    deb-python-frozendict:
+      repos:
+        - openstack/deb-python-frozendict
+    deb-python-fuelclient:
+      repos:
+        - openstack/deb-python-fuelclient
+    deb-python-funcsigs:
+      repos:
+        - openstack/deb-python-funcsigs
+    deb-python-functools32:
+      repos:
+        - openstack/deb-python-functools32
+    deb-python-futurist:
+      repos:
+        - openstack/deb-python-futurist
+    deb-python-gabbi:
+      repos:
+        - openstack/deb-python-gabbi
+    deb-python-glance-store:
+      repos:
+        - openstack/deb-python-glance-store
+    deb-python-glanceclient:
+      repos:
+        - openstack/deb-python-glanceclient
+    deb-python-gnocchiclient:
+      repos:
+        - openstack/deb-python-gnocchiclient
+    deb-python-greenio:
+      repos:
+        - openstack/deb-python-greenio
+    deb-python-hacking:
+      repos:
+        - openstack/deb-python-hacking
+    deb-python-happybase:
+      repos:
+        - openstack/deb-python-happybase
+    deb-python-heatclient:
+      repos:
+        - openstack/deb-python-heatclient
+    deb-python-hplefthandclient:
+      repos:
+        - openstack/deb-python-hplefthandclient
+    deb-python-httpretty:
+      repos:
+        - openstack/deb-python-httpretty
+    deb-python-ironic-lib:
+      repos:
+        - openstack/deb-python-ironic-lib
+    deb-python-ironicclient:
+      repos:
+        - openstack/deb-python-ironicclient
+    deb-python-ironic-inspector-client:
+      repos:
+        - openstack/deb-python-ironic-inspector-client
+    deb-python-jingo:
+      repos:
+        - openstack/deb-python-jingo
+    deb-python-json-patch:
+      repos:
+        - openstack/deb-python-json-patch
+    deb-python-jsonpath-rw:
+      repos:
+        - openstack/deb-python-jsonpath-rw
+    deb-python-jsonpath-rw-ext:
+      repos:
+        - openstack/deb-python-jsonpath-rw-ext
+    deb-python-json-pointer:
+      repos:
+        - openstack/deb-python-json-pointer
+    deb-python-jsonrpclib:
+      repos:
+        - openstack/deb-python-jsonrpclib
+    deb-python-jsonschema:
+      repos:
+        - openstack/deb-python-jsonschema
+    deb-python-k8sclient:
+      repos:
+        - openstack/deb-python-k8sclient
+    deb-python-kafka:
+      repos:
+        - openstack/deb-python-kafka
+    deb-python-keystoneauth1:
+      repos:
+        - openstack/deb-python-keystoneauth1
+    deb-python-keystoneclient:
+      repos:
+        - openstack/deb-python-keystoneclient
+    deb-python-keystonemiddleware:
+      repos:
+        - openstack/deb-python-keystonemiddleware
+    deb-python-kmip:
+      repos:
+        - openstack/deb-python-kmip
+    deb-python-ldappool:
+      repos:
+        - openstack/deb-python-ldappool
+    deb-python-lesscpy:
+      repos:
+        - openstack/deb-python-lesscpy
+    deb-python-linecache2:
+      repos:
+        - openstack/deb-python-linecache2
+    deb-python-magnumclient:
+      repos:
+        - openstack/deb-python-magnumclient
+    deb-python-manilaclient:
+      repos:
+        - openstack/deb-python-manilaclient
+    deb-python-memcache:
+      repos:
+        - openstack/deb-python-memcache
+    deb-python-microversion-parse:
+      repos:
+        - openstack/deb-python-microversion-parse
+    deb-python-misaka:
+      repos:
+        - openstack/deb-python-misaka
+    deb-python-mistralclient:
+      repos:
+        - openstack/deb-python-mistralclient
+    deb-python-monascaclient:
+      repos:
+        - openstack/deb-python-monascaclient
+    deb-python-monotonic:
+      repos:
+        - openstack/deb-python-monotonic
+    deb-python-mox3:
+      repos:
+        - openstack/deb-python-mox3
+    deb-python-multi-key-dict:
+      repos:
+        - openstack/deb-python-multi-key-dict
+    deb-python-muranoclient:
+      repos:
+        - openstack/deb-python-muranoclient
+    deb-python-neutron-lib:
+      repos:
+        - openstack/deb-python-neutron-lib
+    deb-python-neutronclient:
+      repos:
+        - openstack/deb-python-neutronclient
+    deb-python-nose-exclude:
+      repos:
+        - openstack/deb-python-nose-exclude
+    deb-python-nosehtmloutput:
+      repos:
+        - openstack/deb-python-nosehtmloutput
+    deb-python-nose-parameterized:
+      repos:
+        - openstack/deb-python-nose-parameterized
+    deb-python-nose-timer:
+      repos:
+        - openstack/deb-python-nose-timer
+    deb-python-novaclient:
+      repos:
+        - openstack/deb-python-novaclient
+    deb-python-oauth2client:
+      repos:
+        - openstack/deb-python-oauth2client
+    deb-python-openstackclient:
+      repos:
+        - openstack/deb-python-openstackclient
+    deb-python-openstackdocstheme:
+      repos:
+        - openstack/deb-python-openstackdocstheme
+    deb-python-openstacksdk:
+      repos:
+        - openstack/deb-python-openstacksdk
+    deb-python-os-api-ref:
+      repos:
+        - openstack/deb-python-os-api-ref
+    deb-python-os-apply-config:
+      repos:
+        - openstack/deb-python-os-apply-config
+    deb-python-os-vif:
+      repos:
+        - openstack/deb-python-os-vif
+    deb-python-os-brick:
+      repos:
+        - openstack/deb-python-os-brick
+    deb-python-os-client-config:
+      repos:
+        - openstack/deb-python-os-client-config
+    deb-python-os-cloud-config:
+      repos:
+        - openstack/deb-python-os-cloud-config
+    deb-python-os-collect-config:
+      repos:
+        - openstack/deb-python-os-collect-config
+    deb-python-osc-lib:
+      repos:
+        - openstack/deb-python-osc-lib
+    deb-python-oslo.cache:
+      repos:
+        - openstack/deb-python-oslo.cache
+    deb-python-oslo.concurrency:
+      repos:
+        - openstack/deb-python-oslo.concurrency
+    deb-python-oslo.config:
+      repos:
+        - openstack/deb-python-oslo.config
+    deb-python-oslo.context:
+      repos:
+        - openstack/deb-python-oslo.context
+    deb-python-oslo.db:
+      repos:
+        - openstack/deb-python-oslo.db
+    deb-python-oslo.i18n:
+      repos:
+        - openstack/deb-python-oslo.i18n
+    deb-python-oslo.log:
+      repos:
+        - openstack/deb-python-oslo.log
+    deb-python-oslo.messaging:
+      repos:
+        - openstack/deb-python-oslo.messaging
+    deb-python-oslo.middleware:
+      repos:
+        - openstack/deb-python-oslo.middleware
+    deb-python-oslo.policy:
+      repos:
+        - openstack/deb-python-oslo.policy
+    deb-python-oslo.privsep:
+      repos:
+        - openstack/deb-python-oslo.privsep
+    deb-python-oslo.reports:
+      repos:
+        - openstack/deb-python-oslo.reports
+    deb-python-oslo.rootwrap:
+      repos:
+        - openstack/deb-python-oslo.rootwrap
+    deb-python-oslo.serialization:
+      repos:
+        - openstack/deb-python-oslo.serialization
+    deb-python-oslo.service:
+      repos:
+        - openstack/deb-python-oslo.service
+    deb-python-oslotest:
+      repos:
+        - openstack/deb-python-oslotest
+    deb-python-oslo.utils:
+      repos:
+        - openstack/deb-python-oslo.utils
+    deb-python-oslo.versionedobjects:
+      repos:
+        - openstack/deb-python-oslo.versionedobjects
+    deb-python-oslo.vmware:
+      repos:
+        - openstack/deb-python-oslo.vmware
+    deb-python-os-net-config:
+      repos:
+        - openstack/deb-python-os-net-config
+    deb-python-osprofiler:
+      repos:
+        - openstack/deb-python-osprofiler
+    deb-python-os-refresh-config:
+      repos:
+        - openstack/deb-python-os-refresh-config
+    deb-python-os-testr:
+      repos:
+        - openstack/deb-python-os-testr
+    deb-python-os-win:
+      repos:
+        - openstack/deb-python-os-win
+    deb-python-pager:
+      repos:
+        - openstack/deb-python-pager
+    deb-python-pbr:
+      repos:
+        - openstack/deb-python-pbr
+    deb-python-pecan:
+      repos:
+        - openstack/deb-python-pecan
+    deb-python-pika-pool:
+      repos:
+        - openstack/deb-python-pika-pool
+    deb-python-pint:
+      repos:
+        - openstack/deb-python-pint
+    deb-python-positional:
+      repos:
+        - openstack/deb-python-positional
+    deb-python-proliantutils:
+      repos:
+        - openstack/deb-python-proliantutils
+    deb-python-pulp:
+      repos:
+        - openstack/deb-python-pulp
+    deb-python-pycadf:
+      repos:
+        - openstack/deb-python-pycadf
+    deb-python-pydot-ng:
+      repos:
+        - openstack/deb-python-pydot-ng
+    deb-python-pydotplus:
+      repos:
+        - openstack/deb-python-pydotplus
+    deb-python-pyeclib:
+      repos:
+        - openstack/deb-python-pyeclib
+    deb-python-pyghmi:
+      repos:
+        - openstack/deb-python-pyghmi
+    deb-python-pygit2:
+      repos:
+        - openstack/deb-python-pygit2
+    deb-python-pykmip:
+      repos:
+        - openstack/deb-python-pykmip
+    deb-python-pyldap:
+      repos:
+        - openstack/deb-python-pyldap
+    deb-python-pymemcache:
+      repos:
+        - openstack/deb-python-pymemcache
+    deb-python-pymysql:
+      repos:
+        - openstack/deb-python-pymysql
+    deb-python-pyngus:
+      repos:
+        - openstack/deb-python-pyngus
+    deb-python-pysaml2:
+      repos:
+        - openstack/deb-python-pysaml2
+    deb-python-pytimeparse:
+      repos:
+        - openstack/deb-python-pytimeparse
+    deb-python-pyvmomi:
+      repos:
+        - openstack/deb-python-pyvmomi
+    deb-python-quantumclient:
+      repos:
+        - openstack/deb-python-quantumclient
+    deb-python-rcssmin:
+      repos:
+        - openstack/deb-python-rcssmin
+    deb-python-rednose:
+      repos:
+        - openstack/deb-python-rednose
+    deb-python-reno:
+      repos:
+        - openstack/deb-python-reno
+    deb-python-requestbuilder:
+      repos:
+        - openstack/deb-python-requestbuilder
+    deb-python-requests-kerberos:
+      repos:
+        - openstack/deb-python-requests-kerberos
+    deb-python-requests-mock:
+      repos:
+        - openstack/deb-python-requests-mock
+    deb-python-requests-unixsocket:
+      repos:
+        - openstack/deb-python-requests-unixsocket
+    deb-python-requestsexceptions:
+      repos:
+        - openstack/deb-python-requestsexceptions
+    deb-python-retrying:
+      repos:
+        - openstack/deb-python-retrying
+    deb-python-rfc3986:
+      repos:
+        - openstack/deb-python-rfc3986
+    deb-python-rjsmin:
+      repos:
+        - openstack/deb-python-rjsmin
+    deb-python-rtslib-fb:
+      repos:
+        - openstack/deb-python-rtslib-fb
+    deb-python-saharaclient:
+      repos:
+        - openstack/deb-python-saharaclient
+    deb-python-scciclient:
+      repos:
+        - openstack/deb-python-scciclient
+    deb-python-seamicroclient:
+      repos:
+        - openstack/deb-python-seamicroclient
+    deb-python-semantic-version:
+      repos:
+        - openstack/deb-python-semantic-version
+    deb-python-semver:
+      repos:
+        - openstack/deb-python-semver
+    deb-python-senlinclient:
+      repos:
+        - openstack/deb-python-senlinclient
+    deb-python-shotgun:
+      repos:
+        - openstack/deb-python-shotgun
+    deb-python-sqlalchemy-utils:
+      repos:
+        - openstack/deb-python-sqlalchemy-utils
+    deb-python-steadymark:
+      repos:
+        - openstack/deb-python-steadymark
+    deb-python-swiftclient:
+      repos:
+        - openstack/deb-python-swiftclient
+    deb-python-tackerclient:
+      repos:
+        - openstack/deb-python-tackerclient
+    deb-python-taskflow:
+      repos:
+        - openstack/deb-python-taskflow
+    deb-python-tempest-lib:
+      repos:
+        - openstack/deb-python-testtools
+    deb-python-testtools:
+      repos:
+        - openstack/deb-python-testtools
+    deb-python-toml:
+      repos:
+        - openstack/deb-python-toml
+    deb-python-tooz:
+      repos:
+        - openstack/deb-python-tooz
+    deb-python-tosca-parser:
+      repos:
+        - openstack/deb-python-tosca-parser
+    deb-python-traceback2:
+      repos:
+        - openstack/deb-python-traceback2
+    deb-python-trollius:
+      repos:
+        - openstack/deb-python-trollius
+    deb-python-troveclient:
+      repos:
+        - openstack/deb-python-troveclient
+    deb-python-tuskarclient:
+      repos:
+        - openstack/deb-python-tuskarclient
+    deb-python-txaio:
+      repos:
+        - openstack/deb-python-txaio
+    deb-python-warlock:
+      repos:
+        - openstack/deb-python-warlock
+    deb-python-watcherclient:
+      repos:
+        - openstack/deb-python-watcherclient
+    deb-python-weakrefmethod:
+      repos:
+        - openstack/deb-python-weakrefmethod
+    deb-python-websocket-client:
+      repos:
+        - openstack/deb-python-websocket-client
+    deb-python-wrapt:
+      repos:
+        - openstack/deb-python-wrapt
+    deb-python-wsgi-intercept:
+      repos:
+        - openstack/deb-python-wsgi-intercept
+    deb-python-wsme:
+      repos:
+        - openstack/deb-python-wsme
+    deb-python-xstatic:
+      repos:
+        - openstack/deb-python-xstatic
+    deb-python-xstatic-angular:
+      repos:
+        - openstack/deb-python-xstatic-angular
+    deb-python-xstatic-angular-bootstrap:
+      repos:
+        - openstack/deb-python-xstatic-angular-bootstrap
+    deb-python-xstatic-angular-cookies:
+      repos:
+        - openstack/deb-python-xstatic-angular-cookies
+    deb-python-xstatic-angular-fileupload:
+      repos:
+        - openstack/deb-python-xstatic-angular-fileupload
+    deb-python-xstatic-angular-gettext:
+      repos:
+        - openstack/deb-python-xstatic-angular-gettext
+    deb-python-xstatic-angular-lrdragndrop:
+      repos:
+        - openstack/deb-python-xstatic-angular-lrdragndrop
+    deb-python-xstatic-angular-mock:
+      repos:
+        - openstack/deb-python-xstatic-angular-mock
+    deb-python-xstatic-angular-schema-form:
+      repos:
+        - openstack/deb-python-xstatic-angular-schema-form
+    deb-python-xstatic-bootstrap-datepicker:
+      repos:
+        - openstack/deb-python-xstatic-bootstrap-datepicker
+    deb-python-xstatic-bootstrap-scss:
+      repos:
+        - openstack/deb-python-xstatic-bootstrap-scss
+    deb-python-xstatic-bootswatch:
+      repos:
+        - openstack/deb-python-xstatic-bootswatch
+    deb-python-xstatic-d3:
+      repos:
+        - openstack/deb-python-xstatic-d3
+    deb-python-xstatic-font-awesome:
+      repos:
+        - openstack/deb-python-xstatic-font-awesome
+    deb-python-xstatic-hogan:
+      repos:
+        - openstack/deb-python-xstatic-hogan
+    deb-python-xstatic-jasmine:
+      repos:
+        - openstack/deb-python-xstatic-jasmine
+    deb-python-xstatic-jquery:
+      repos:
+        - openstack/deb-python-xstatic-jquery
+    deb-python-xstatic-jquery.bootstrap.wizard:
+      repos:
+        - openstack/deb-python-xstatic-jquery.bootstrap.wizard
+    deb-python-xstatic-jquery-migrate:
+      repos:
+        - openstack/deb-python-xstatic-jquery-migrate
+    deb-python-xstatic-jquery.quicksearch:
+      repos:
+        - openstack/deb-python-xstatic-jquery.quicksearch
+    deb-python-xstatic-jquery.tablesorter:
+      repos:
+        - openstack/deb-python-xstatic-jquery.tablesorter
+    deb-python-xstatic-jquery-ui:
+      repos:
+        - openstack/deb-python-xstatic-jquery-ui
+    deb-python-xstatic-jsencrypt:
+      repos:
+        - openstack/deb-python-xstatic-jsencrypt
+    deb-python-xstatic-magic-search:
+      repos:
+        - openstack/deb-python-xstatic-magic-search
+    deb-python-xstatic-mdi:
+      repos:
+        - openstack/deb-python-xstatic-mdi
+    deb-python-xstatic-objectpath:
+      repos:
+        - openstack/deb-python-xstatic-objectpath
+    deb-python-xstatic-qunit:
+      repos:
+        - openstack/deb-python-xstatic-qunit
+    deb-python-xstatic-rickshaw:
+      repos:
+        - openstack/deb-python-xstatic-rickshaw
+    deb-python-xstatic-roboto-fontface:
+      repos:
+        - openstack/deb-python-xstatic-roboto-fontface
+    deb-python-xstatic-smart-table:
+      repos:
+        - openstack/deb-python-xstatic-smart-table
+    deb-python-xstatic-spin:
+      repos:
+        - openstack/deb-python-xstatic-spin
+    deb-python-xstatic-term.js:
+      repos:
+        - openstack/deb-python-xstatic-term.js
+    deb-python-xstatic-tv4:
+      repos:
+        - openstack/deb-python-xstatic-tv4
+    deb-python-xvfbwrapper:
+      repos:
+        - openstack/deb-python-xvfbwrapper
+    deb-python-yaql:
+      repos:
+        - openstack/deb-python-yaql
+    deb-python-zaqarclient:
+      repos:
+        - openstack/deb-python-zaqarclient
+    deb-rally:
+      repos:
+        - openstack/deb-rally
+    deb-ryu:
+      repos:
+        - openstack/deb-ryu
+    deb-sahara:
+      repos:
+        - openstack/deb-sahara
+    deb-sahara-dashboard:
+      repos:
+        - openstack/deb-sahara-dashboard
+    deb-senlin:
+      repos:
+        - openstack/deb-senlin
+    deb-senlin-dashboard:
+      repos:
+        - openstack/deb-senlin-dashboard
+    deb-spice-html5:
+      repos:
+        - openstack/deb-spice-html5
+    deb-stevedore:
+      repos:
+        - openstack/deb-stevedore
+    deb-subunit:
+      repos:
+        - openstack/deb-subunit
+    deb-swauth:
+      repos:
+        - openstack/deb-swauth
+    deb-swift:
+      repos:
+        - openstack/deb-swift
+    deb-swift-bench:
+      repos:
+        - openstack/deb-swift-bench
+    deb-swift-plugin-s3:
+      repos:
+        - openstack/deb-swift-plugin-s3
+    deb-tempest:
+      repos:
+        - openstack/deb-tempest
+    deb-testresources:
+      repos:
+        - openstack/deb-testresources
+    deb-trove:
+      repos:
+        - openstack/deb-trove
+    deb-trove-dashboard:
+      repos:
+        - openstack/deb-trove-dashboard
+    deb-watcher:
+      repos:
+        - openstack/deb-watcher
+    deb-websockify:
+      repos:
+        - openstack/deb-websockify
+    deb-zaqar:
+      repos:
+        - openstack/deb-zaqar
+    deb-zaqar-ui:
+      repos:
+        - openstack/deb-zaqar-ui
+
 solum:
   irc-channel: solum
   service: Software Development Lifecycle Automation service
