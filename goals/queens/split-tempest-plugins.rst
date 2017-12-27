@@ -502,7 +502,15 @@ mistral
 
 Planning Artifacts:
 
+The mistral team followed the documented steps outlined in this goal as the
+planning document.
+
 Completion Artifacts:
+
+The following review removed the tempest plugin that mistral was maintaining
+in tree and links to the new repository the plugin was moved to:
+
+* https://review.openstack.org/#/c/526918/
 
 monasca
 -------
