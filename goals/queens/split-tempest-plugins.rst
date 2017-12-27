@@ -483,7 +483,15 @@ manila
 
 Planning Artifacts:
 
+The manila team followed the documented steps outlined in this goal as the
+planning document.
+
 Completion Artifacts:
+
+The following review removed the tempest plugin that manila was maintaining
+in tree and links to the new repository the plugin was moved to:
+
+* https://review.openstack.org/#/c/512300/
 
 masakari
 --------
