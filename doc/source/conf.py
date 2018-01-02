@@ -131,6 +131,8 @@ html_title = 'OpenStack Technical Committee Governance Documents'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_extra_path = ['_extra']
+
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
 git_cmd = "git log --pretty=format:'%ad, commit %h' --date=local -n1"
