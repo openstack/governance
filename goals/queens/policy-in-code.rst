@@ -556,6 +556,8 @@ Completion Artifacts:
 
 * `panko implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+status:merged+project:openstack/panko>`_
 
+* `aodh implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+status:merged+project:openstack/aodh>`_
+
 tricircle
 ---------
 
