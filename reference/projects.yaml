@@ -58,6 +58,9 @@ blazar:
     blazar-nova:
       repos:
         - openstack/blazar-nova
+    blazar-tempest-plugin:
+      repos:
+        - openstack/blazar-tempest-plugin
     python-blazarclient:
       repos:
         - openstack/python-blazarclient
