@@ -924,7 +924,9 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* None
+* https://review.openstack.org/491488
+* https://review.openstack.org/493758
+* https://review.openstack.org/526908
 
 watcher
 -------
