@@ -11,10 +11,10 @@ assert:supports-accessible-upgrade
 ==================================
 
 This tag is part of the assert category of tags, which are assertions made by
-the project team themselves about their maturity.
+the project team themselves about their deliverables maturity.
 
 The ``assert:supports-accessible-upgrade`` tag asserts that in addition to a
-project supporting basic :ref:`upgrade capabilities
+deliverable supporting basic :ref:`upgrade capabilities
 <tag-assert:supports-upgrade>`, it does so *without disrupting the
 accessibility of controlled resources.*.
 
@@ -27,17 +27,19 @@ Application to current deliverables
 Rationale
 =========
 
-Many OpenStack projects control and manage compute, networking and data storage
-resources for end users. Operators need to know which projects support an
+Many OpenStack services control and manage compute, networking and data storage
+resources for end users. Operators need to know which services support an
 upgrade process that maintains end user accessibility to controlled resources
 during the upgrade process.
 
 Requirements
 ============
 
-* The project is already tagged as ``type:service``.
+* The deliverable is a software component of an OpenStack cloud
+  (openstack, openstack-operations on the map) delivering a long-lived
+  service with an API.
 
-* The project has already successfully asserted the
+* The deliverable has already successfully asserted the
   :ref:`tag-assert:supports-upgrade` tag. All the requirements for that tag are
   requirements for this tag, and assertion that tag is a requirement to assert
   this tag.
