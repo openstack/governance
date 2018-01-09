@@ -11,7 +11,7 @@ assert:supports-accessible-upgrade
 ==================================
 
 This tag is part of the assert category of tags, which are assertions made by
-the project team themselves about their deliverables maturity.
+the project team themselves about the maturity of their deliverables.
 
 The ``assert:supports-accessible-upgrade`` tag asserts that in addition to a
 deliverable supporting basic :ref:`upgrade capabilities

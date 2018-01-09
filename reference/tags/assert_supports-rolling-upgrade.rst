@@ -11,7 +11,7 @@ assert:supports-rolling-upgrade
 ===============================
 
 This tag is part of the assert category of tags, which are assertions
-made by the project team themselves about their deliverables maturity. One
+made by the project team themselves about the maturity of their deliverables. One
 such assertion (or self-imposed contract) is about the rolling upgrade
 features that the deliverable supports.
 
