@@ -643,93 +643,321 @@ I18n:
       repos:
         - openstack/i18n-specs
   extra-atcs:
-    - name: Stanislav Ulrych
-      email: stanislav.ulrych@ultimum.io
-      expires-in: January 2018
-      comment: stanislavulrych (cs)
-    - name: Eugen Block
-      email: eblock@nde.ag
+    - name: Patrick Huang
+      email: pahuang@redhat.com
+      expires-in: January 2019
+      comment: Zanata development
+    - name: Alex Eng
+      email: aeng@redhat.com
+      expires-in: January 2019
+      comment: Zanata development
+    - name: Ilya Alekseyev
+      email: ilyaalekseyev@acm.org
+      expires-in: January 2019
+      comment: adiantum (ru)
+    - name: Alberto Molina Coballes
+      email: alb.molina@gmail.com
+      expires-in: January 2019
+      comment: albertomolina (es)
+    - name: Artem
+      email: amikhalev90@gmail.com
       expires-in: July 2018
-      comment: eblock (de)
-    - name: Frank Kloeker
-      email: f.kloeker@telekom.de
-      expires-in: July 2018
-      comment: eumel8 (de)
-    - name: Andreas Jaeger
-      email: jaegerandi@gmail.com
-      expires-in: July 2018
-      comment: jaegerandi (de)
-    - name: Robert Simai
-      email: robert.simai@suse.com
-      expires-in: July 2018
-      comment: rsimai (de)
+      comment: amikhalev (ru)
+    - name: Akihiro Motoki
+      email: amotoki@gmail.com
+      expires-in: January 2019
+      comment: amotoki (ja)
     - name: Andi Chandler
       email: andi@gowling.com
-      expires-in: January 2018
+      expires-in: January 2019
       comment: andibing (en-GB)
+    - name: Mücahit Büyükyılmaz
+      email: mucahit@konya.edu.tr
+      expires-in: January 2019
+      comment: anndro (tr-TR)
+    - name: Adriano Perri
+      email: adriano.perri@telekom.de
+      expires-in: January 2019
+      comment: aperri (de)
+    - name: Hyeunjee Kim
+      email: beyond.torvalds@gmail.com
+      expires-in: July 2018
+      comment: betorvalds (ko-KR)
+    - name: Bin
+      email: liubin@glab.cn
+      expires-in: January 2019
+      comment: bin (zh-CN)
+    - name: blkart
+      email: blkart.org@gmail.com
+      expires-in: July 2018
+      comment: blkart (zh-CN)
+    - name: bryan tak
+      email: neos346@gmail.com
+      expires-in: January 2019
+      comment: bryan_tak (ko-KR)
+    - name: Carlos Camacho
+      email: ccamacho@redhat.com
+      expires-in: January 2019
+      comment: ccamacho (es)
+    - name: Corinne Verheyde
+      email: cverheyd@gmail.com
+      expires-in: January 2019
+      comment: corin (fr)
+    - name: douglas santos costa
+      email: douglas.santos.mat@gmail.com
+      expires-in: January 2019
+      comment: dsantos (pt-BR)
+    - name: evgin
+      email: evgind@gmail.com
+      expires-in: January 2019
+      comment: duyarli (tr-TR)
+    - name: Eugen Block
+      email: eblock@nde.ag
+      expires-in: January 2019
+      comment: eblock (de)
+    - name: Eduardo Gonzalez Gutierrez
+      email: dabarren@gmail.com
+      expires-in: January 2019
+      comment: egongu90 (es)
+    - name: Frank Kloeker
+      email: f.kloeker@telekom.de
+      expires-in: January 2019
+      comment: eumel8 (de)
+    - name: Fernando Pimenta
+      email: fernando.c.pimenta@gmail.com
+      expires-in: January 2019
+      comment: fcpimenta (pt-BR)
+    - name: Tom Fifield
+      email: tom@openstack.org
+      expires-in: January 2019
+      comment: fifieldt (zh-CN)
+    - name: André Franciosi
+      email: andre@franciosi.org
+      expires-in: January 2019
+      comment: franciosi (pt-BR)
+    - name: Fedor Tarasenko
+      email: dor.tarasenko@gmail.com
+      expires-in: July 2018
+      comment: ftarasenko (ru)
+    - name: Georg Hennemann
+      email: georg.hennemann@t-systems.com
+      expires-in: January 2019
+      comment: gehennem (eo)
+    - name: Gérald LONLAS
+      email: g.lonlas@gmail.com
+      expires-in: January 2019
+      comment: geraldlonlas (fr)
+    - name: Omar Rivera
+      email: gr113x@att.com
+      expires-in: January 2019
+      comment: gomarivera (es)
+    - name: Wu Han
+      email: wu.han@h3c.com
+      expires-in: July 2018
+      comment: h3c_wuhan (zh-CN)
+    - name: Hidekazu Nakamura
+      email: hid-nakamura@vf.jp.nec.com
+      expires-in: January 2019
+      comment: hidekazuna (ja)
+    - name: Ian Y. Choi
+      email: ianyrchoi@gmail.com
+      expires-in: January 2019
+      comment: ianychoi (ko-KR)
+    - name: Gene Kuo
+      email: gene@openstack.org
+      expires-in: January 2019
+      comment: igene (zh-TW)
+    - name: işbaran akçayır
+      email: isbaran@gmail.com
+      expires-in: January 2019
+      comment: isbaran (tr-TR)
+    - name: Andreas Jaeger
+      email: jaegerandi@gmail.com
+      expires-in: January 2019
+      comment: jaegerandi (de)
+    - name: JF Taltavull
+      email: jftalta@gmail.com
+      expires-in: January 2019
+      comment: jftalta (fr)
+    - name: jtjang
+      email: jang.jitae@gmail.com
+      expires-in: January 2019
+      comment: jitaejang (ko-KR)
+    - name: johjuhyun
+      email: juhyun.joh@samsung.com
+      expires-in: January 2019
+      comment: johjuhyun (ko-KR)
+    - name: Jongwoo Han
+      email: jongwoohan@gmail.com
+      expires-in: January 2019
+      comment: jongwooh (ko-KR)
     - name: Julie Pichon
       email: jpichon@redhat.com
       expires-in: July 2018
       comment: jpichon (en-GB)
-    - name: Carlos Camacho
-      email: ccamacho@redhat.com
-      expires-in: July 2018
-      comment: ccamacho (es)
-    - name: Marcellin Fom Tchassem
-      email: mf6510@att.com
-      expires-in: January 2018
-      comment: ciello89 (fr)
-    - name: Corinne Verheyde
-      email: cverheyd@gmail.com
-      expires-in: July 2018
-      comment: corin (fr)
-    - name: Gérald LONLAS
-      email: g.lonlas@gmail.com
-      expires-in: January 2018
-      comment: geraldlonlas (fr)
-    - name: JF Taltavull
-      email: jftalta@gmail.com
-      expires-in: July 2018
-      comment: jftalta (fr)
-    - name: Cedric Savignan
+    - name: Jun-Sik Shin
+      email: jsshin@smartx.kr
+      expires-in: January 2019
+      comment: jsshin (ko-KR)
+    - name: youngwoo Kim
+      email: koain@naver.com
+      expires-in: January 2019
+      comment: koain (ko-KR)
+    - name: Cédric Savignan
       email: liced@liced.fr
-      expires-in: July 2018
+      expires-in: January 2019
       comment: liced (fr)
+    - name: liujunpeng
+      email: liujunpeng@inspur.com
+      expires-in: July 2018
+      comment: liujunpeng (zh-CN)
+    - name: Loic Nicolle
+      email: loic.nicolle@orange.com
+      expires-in: January 2019
+      comment: lnic (fr)
+    - name: Luigi Toscano
+      email: ltoscano@redhat.com
+      expires-in: January 2019
+      comment: ltoscano (it)
+    - name: Mateusz Kowalski
+      email: mateusz.kowalski@cern.ch
+      expires-in: January 2019
+      comment: makowals (de)
+    - name: Minchul Ko
+      email: kominchul@gmail.com
+      expires-in: January 2019
+      comment: michaelko (ko-KR)
+    - name: minwook-shin
+      email: minwook0106@gmail.com
+      expires-in: January 2019
+      comment: minwookshin (ko-KR)
+    - name: SeongSoo Cho
+      email: nexusz99@gmail.com
+      expires-in: July 2018
+      comment: nexusz99 (ko-KR)
+    - name: HYUNGBAI PARK
+      email: openstack.make@gmail.com
+      expires-in: January 2019
+      comment: openstack (ko-KR)
     - name: Oussema Cherni
       email: oussemos@gmail.com
       expires-in: July 2018
       comment: oussemos (fr)
-    - name: suhartono
-      email: cloudsuhartono@gmail.com
-      expires-in: July 2018
-      comment: suhartono (id)
-    - name: Akihiro Motoki
-      email: amotoki@gmail.com
-      expires-in: July 2018
-      comment: amotoki (ja)
-    - name: Hidekazu Nakamura
-      email: hid-nakamura@vf.jp.nec.com
-      expires-in: July 2018
-      comment: hidekazuna (ja)
+    - name: Pascal Larivée
+      email: pascal@larivee.photo
+      expires-in: January 2019
+      comment: plarivee (fr)
+    - name: Ricardo Bras
+      email: ricardojme@gmail.com
+      expires-in: January 2019
+      comment: ricardobras (pt-BR)
+    - name: WenChao Xiang
+      email: liverpool8056@163.com
+      expires-in: January 2019
+      comment: robin_x (zh-CN)
+    - name: Robert Simai
+      email: robert.simai@suse.com
+      expires-in: January 2019
+      comment: rsimai (de)
+    - name: Kyohei Moriyama
+      email: flogofrein@gmail.com
+      expires-in: January 2019
+      comment: sasukeh (ja)
+    - name: Sendy Aditya Suryana
+      email: sendzation@gmail.com
+      expires-in: January 2019
+      comment: sendz (id)
+    - name: SEOKJAE BARK
+      email: sj.bark@samsung.com
+      expires-in: January 2019
+      comment: seokjae (ko-KR)
     - name: Shintaro Mizuno
       email: mizuno.shintaro@lab.ntt.co.jp
       expires-in: July 2018
       comment: shintaro (ja)
     - name: Shu Muto
       email: shu-mutou@rf.jp.nec.com
-      expires-in: July 2018
+      expires-in: January 2019
       comment: shu (ja)
+    - name: Léonard TAVAE
+      email: leonard.tavae@gmail.com
+      expires-in: January 2019
+      comment: sitle (fr)
+    - name: suhartono
+      email: cloudsuhartono@gmail.com
+      expires-in: January 2019
+      comment: suhartono (id)
+    - name: sunanchen
+      email: KF.sunanchen@h3c.com
+      expires-in: July 2018
+      comment: sunanchen (zh-CN)
+    - name: Tony
+      email: tfu@redhat.com
+      expires-in: January 2019
+      comment: tfu (zh-CN)
+    - name: Thomas Vysokos
+      email: thomas.vysokos@hivemind.agency
+      expires-in: July 2018
+      comment: thomas_vysokos (ru)
+    - name: TigerFang
+      email: tigerfun@126.com
+      expires-in: January 2019
+      comment: tigerfang (zh-CN)
+    - name: Thomas Morin
+      email: tmmorin.orange@gmail.com
+      expires-in: January 2019
+      comment: tmorin (fr)
     - name: KATO Tomoyuki
       email: kato.tomoyuki@jp.fujitsu.com
       expires-in: July 2018
       comment: to222 (ja)
-    - name: Yoshiki Eguchi
-      email: yoshiki.eguchi@gmail.com
-      expires-in: January 2018
-      comment: yeguchi (ja)
+    - name: Zbyněk Schwarz
+      email: zbynek.schwarz@gmail.com
+      expires-in: January 2019
+      comment: tsbook (cs)
+    - name: Sungjin Kang
+      email: gang.sungjin@gmail.com
+      expires-in: January 2019
+      comment: ujuc (ko-KR)
+    - name: Eunseop Shin
+      email: kairos9603@khu.ac.kr
+      expires-in: January 2019
+      comment: vi01et (ko-KR)
+    - name: vuuv
+      email: froms2008@gmail.com
+      expires-in: January 2019
+      comment: vuuv (zh-CN)
+    - name: Wonil Choi
+      email: wonil0522@gmail.com
+      expires-in: January 2019
+      comment: wonil22 (ko-KR)
+    - name: ByungYeol Woo
+      email: wby1089@gmail.com
+      expires-in: January 2019
+      comment: woobee (ko-KR)
+    - name: 徐和康
+      email: 1092181938@qq.com
+      expires-in: July 2018
+      comment: xhkjoe (zh-CN)
+    - name: BillXiang
+      email: m13250816269@163.com
+      expires-in: July 2018
+      comment: xiangbinbin (zh-CN)
+    - name: yasemin demiral
+      email: yasemin.demiral@tubitak.gov.tr
+      expires-in: January 2019
+      comment: yasemindemiral (tr-TR)
+    - name: Yasir Mohammed Elsharif Elgaylani Elsharif
+      email: yasir.elsharif@gmail.com
+      expires-in: January 2019
+      comment: yasir (ar)
+    - name: Yuko Fukuda
+      email: fukuda.yuko@jp.fujitsu.com
+      expires-in: January 2019
+      comment: yfukuda (ja)
     - name: Yuko Katabami
       email: yukokatabami@gmail.com
-      expires-in: July 2018
+      expires-in: January 2019
       comment: ykatabam (ja)
     - name: Yukinori Yagisawa
       email: yukky37@gmail.com
@@ -739,218 +967,22 @@ I18n:
       email: yusuke_higashino@adoc.co.jp
       expires-in: July 2018
       comment: yusuke1219 (ja)
-    - name: Hyeunjee Kim
-      email: beyond.torvalds@gmail.com
-      expires-in: July 2018
-      comment: betorvalds (ko-KR)
-    - name: Ian Y. Choi
-      email: ianyrchoi@gmail.com
-      expires-in: January 2018
-      comment: ianychoi (ko-KR)
-    - name: Jun-Sik Shin
-      email: jsshin@smartx.kr
-      expires-in: July 2018
-      comment: jsshin (ko-KR)
-    - name: youngwoo Kim
-      email: koain@naver.com
-      expires-in: July 2018
-      comment: koain (ko-KR)
-    - name: SeongSoo Cho
-      email: nexusz99@gmail.com
-      expires-in: July 2018
-      comment: nexusz99 (ko-KR)
-    - name: HYUNGBAI PARK
-      email: openstack.make@gmail.com
-      expires-in: January 2018
-      comment: openstack (ko-KR)
-    - name: skywalker54
-      email: shpark@rockplace.co.kr
-      expires-in: January 2018
-      comment: seonhopark (ko-KR)
-    - name: Sungjin Kang
-      email: gang.sungjin@gmail.com
-      expires-in: July 2018
-      comment: ujuc (ko-KR)
-    - name: Eunseop Shin
-      email: kairos9603@khu.ac.kr
-      expires-in: July 2018
-      comment: vi01et (ko-KR)
-    - name: Wonil Choi
-      email: wonil0522@gmail.com
-      expires-in: July 2018
-      comment: wonil22 (ko-KR)
-    - name: Łukasz Jernas
-      email: deejay1@srem.org
-      expires-in: January 2018
-      comment: deejay1 (pl-PL)
-    - name: Fernando Pimenta
-      email: fernando.c.pimenta@gmail.com
-      expires-in: July 2018
-      comment: fcpimenta (pt-BR)
-    - name: José Mello
-      email: jose.eduardo.jr@gmail.com
-      expires-in: January 2018
-      comment: josemello (pt-BR)
-    - name: Ilya Alekseyev
-      email: ilyaalekseyev@acm.org
-      expires-in: July 2018
-      comment: adiantum (ru)
-    - name: Aleksey Alekseenko
-      email: 9118250541@mail.ru
-      expires-in: January 2018
-      comment: aleksey (ru)
-    - name: Artem
-      email: amikhalev90@gmail.com
-      expires-in: July 2018
-      comment: amikhalev (ru)
-    - name: Alexander
-      email: ainikitenkov@gmail.com
-      expires-in: January 2018
-      comment: anikitenkov (ru)
-    - name: Andrew
-      email: apapsujko@gmail.com
-      expires-in: January 2018
-      comment: apapsujko (ru)
-    - name: Dmitriy Makarov
-      email: dmakarov@hystax.com
-      expires-in: January 2018
-      comment: dmakarov (ru)
-    - name: Fedor Tarasenko
-      email: dor.tarasenko@gmail.com
-      expires-in: July 2018
-      comment: ftarasenko (ru)
-    - name: Irina Kochetova
-      email: ikochetova@hystax.com
-      expires-in: January 2018
-      comment: ikochetova (ru)
-    - name: Ivan Shashero
-      email: ishashero@hystax.com
-      expires-in: January 2018
-      comment: ishashero (ru)
-    - name: Ivan Startsev
-      email: istartsev67@gmail.com
-      expires-in: January 2018
-      comment: istartsev (ru)
-    - name: Maxim Bozhenko
-      email: mbozhenko@gmail.com
-      expires-in: January 2018
-      comment: mbozhenko (ru)
-    - name: Nickolay Smirnov
-      email: nsmirnov@hystax.com
-      expires-in: January 2018
-      comment: nsmirnov (ru)
-    - name: Thomas Vysokos
-      email: thomas.vysokos@hivemind.agency
-      expires-in: July 2018
-      comment: thomas_vysokos (ru)
-    - name: Vladimir Sokolov
-      email: vsokolov@hystax.com
-      expires-in: January 2018
-      comment: vsokolov (ru)
-    - name: Veronika Stepurova
-      email: vstepurova@hystax.com
-      expires-in: January 2018
-      comment: vstepurova (ru)
-    - name: Yulia Ryndenkova
-      email: yryndenkova@hystax.com
-      expires-in: January 2018
-      comment: yryndenkova (ru)
-    - name: Andrey V. Kononov
-      email: zloykaban@gmail.com
-      expires-in: January 2018
-      comment: zloykaban (ru)
-    - name: evgin
-      email: evgind@gmail.com
-      expires-in: January 2018
-      comment: duyarli (tr-TR)
-    - name: işbaran akçayır
-      email: isbaran@gmail.com
-      expires-in: July 2018
-      comment: isbaran (tr-TR)
-    - name: blkart
-      email: blkart.org@gmail.com
-      expires-in: July 2018
-      comment: blkart (zh-CN)
-    - name: Wu Han
-      email: wu.han@h3c.com
-      expires-in: July 2018
-      comment: h3c_wuhan (zh-CN)
-    - name: linlin
-      email: 469923498@qq.com
-      expires-in: January 2018
-      comment: linlin (zh-CN)
-    - name: Jiong Liu
-      email: liujiong@gohighsec.com
-      expires-in: January 2018
-      comment: liujiong (zh-CN)
-    - name: liujunpeng
-      email: liujunpeng@inspur.com
-      expires-in: July 2018
-      comment: liujunpeng (zh-CN)
-    - name: maoshuai
-      email: fwsakura@163.com
-      expires-in: January 2018
-      comment: maoshuai (zh-CN)
-    - name: Petro
-      email: wang-junjie@outlook.com
-      expires-in: January 2018
-      comment: petro (zh-CN)
-    - name: sunanchen
-      email: KF.sunanchen@h3c.com
-      expires-in: July 2018
-      comment: sunanchen (zh-CN)
-    - name: Tony
-      email: tfu@redhat.com
-      expires-in: July 2018
-      comment: tfu (zh-CN)
-    - name: TigerFang
-      email: tigerfun@126.com
-      expires-in: July 2018
-      comment: tigerfang (zh-CN)
-    - name: vuuv
-      email: froms2008@gmail.com
-      expires-in: July 2018
-      comment: vuuv (zh-CN)
-    - name: 徐和康
-      email: 1092181938@qq.com
-      expires-in: July 2018
-      comment: xhkjoe (zh-CN)
-    - name: BillXiang
-      email: m13250816269@163.com
-      expires-in: July 2018
-      comment: xiangbinbin (zh-CN)
-    - name: zenglulu
-      email: zengluul@gmail.com
-      expires-in: January 2018
-      comment: zenglulu (zh-CN)
+    - name: Zeus Arias Lucero
+      email: zeusariaslucero@gmail.com
+      expires-in: January 2019
+      comment: zeusal (es)
+    - name: zhonghuali
+      email: lizhonghua.li@huawei.com
+      expires-in: January 2019
+      comment: zhonghuali (zh-CN)
     - name: Gaoxiao Zhu
       email: zhu.gaoxiao@h3c.com
       expires-in: July 2018
       comment: zhugaoxiao (zh-CN)
     - name: zzxwill
       email: zzxwill@gmail.com
-      expires-in: July 2018
+      expires-in: January 2019
       comment: zzxwill (zh-CN)
-    - name: Tom Fifield
-      email: tom@openstack.org
-      expires-in: July 2018
-      comment: fifieldt (ja, zh-TW)
-    - name: Ching Kuo
-      email: gene@openstack.org
-      expires-in: July 2018
-      comment: igene (zh-TW)
-    - name: Carlos Munoz
-      email: camunoz@redhat.com
-      expires-in: April 2018
-      comment: Zanata development
-    - name: Alex Eng
-      email: aeng@redhat.com
-      expires-in: April 2018
-      comment: Zanata development
-    - name: Patrick Huang
-      email: pahuang@redhat.com
-      expires-in: April 2018
-      comment: Zanata development
 
 Infrastructure:
   ptl:
