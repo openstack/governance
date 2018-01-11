@@ -17,7 +17,7 @@ import copy
 import os.path
 
 import yaml
-
+import yamlordereddictloader
 
 _projects_yaml = {}
 
@@ -38,4 +38,7 @@ def setup(app):
     filename = os.path.abspath('reference/projects.yaml')
     app.info('reading %s' % filename)
     with open(filename, 'r', encoding='utf-8') as f:
-        _projects_yaml = yaml.safe_load(f.read())
+        _projects_yaml = yaml.load(
+            f.read(),
+            Loader=yamlordereddictloader.Loader,
+        )
