@@ -3018,6 +3018,9 @@ Quality Assurance:
     tempest-lib:
       repos:
         - openstack/tempest-lib
+    tempest-stress:
+      repos:
+        - openstack/tempest-stress
   extra-atcs:
     - name: Scott Moser
       email: smoser@ubuntu.com
