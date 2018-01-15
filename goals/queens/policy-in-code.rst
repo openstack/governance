@@ -519,7 +519,11 @@ solum
 
 Planning Artifacts:
 
+* `solum blueprint <https://blueprints.launchpad.net/solum/+spec/policy-in-code>`_
+
 Completion Artifacts:
+
+* `solum implementation <https://review.openstack.org/#/q/status:merged+project:openstack/solum+branch:master+topic:bp/policy-in-code>`_
 
 Stable branch maintenance
 -------------------------
