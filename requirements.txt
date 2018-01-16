@@ -4,3 +4,4 @@
 pydot2>=1.0.32
 PyYAML>=3.1.0
 six>=1.9.0
+yamlordereddictloader
