@@ -69,14 +69,22 @@ The actual goals shouldn't be completely new proposals (things no one
 else in the community has seen before) because there will have been
 discussion in the course of reaching consensus.
 
+Tracking Goal Progress
+----------------------
+
+After goals are approved, the goal champions will create one story per
+goal and one task per project per goal to track progress on
+completion.
+
 Team Acknowledgment of Goals
 ----------------------------
 
-After a goal is approved, each PTL is responsible for adding their
-planning artifact links to the goal document before the first
-milestone deadline. The planning artifact is likely to be a link to a
-spec or bug, and the completion artifact is likely to be a link to one
-or more committed patches.
+Each PTL is responsible for updating the storyboard task used to track the
+goal progress for their project to set the status to "Progress" and to
+include planning artifact links before the first milestone
+deadline. The planning artifact is likely to be a link to a spec or
+bug, and the completion artifact is likely to be a link to one or more
+committed patches.
 
 This step is also the indication that a project team is signing up as
 agreeing to the goal and committing to do the work to complete the
@@ -89,16 +97,19 @@ that it is finished.
 All project teams are expected to prioritize these goals above other
 work.
 
-If the goal does not apply to a project or the project has already met
-the goal, the PTL should explain why that is the case, instead of
-linking to planning artifacts.
+If the project has already met the goal, skip to the "Completing
+Goals" step.
+
+If the goal does not apply to a project, the PTL should explain why
+that is the case, instead of linking to planning artifacts.
 
 Completing Goals
 ----------------
 
-After a goal is completed, each PTL is responsible for ensuring that
-their completion artifacts are added to the goal document before the
-final release date for the cycle.
+After a goal is completed, each PTL is responsible for updating the
+storyboard task used to track the goal progress for their project to
+set the status to "Merged" and to add links to all completion
+artifacts, before the final release date for the cycle.
 
 If a goal is not completed, that information should be added, along
 with any references needed to track when that work will be completed.

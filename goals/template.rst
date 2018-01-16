@@ -5,6 +5,9 @@
 Explain what the goal is in general terms. Include the reasoning and
 justification for applying the goal to all OpenStack projects.
 
+:Storyboard Board: <put the link to the tracking board here>
+:Storyboard Story: <put the link to the story for this goal here>
+
 Gerrit Topic
 ============
 
@@ -37,9 +40,3 @@ the goal, including known blockers for any projects, projects that
 have completed the work already and can serve as examples, or other
 information useful to evaluate the scope of the goal and whether it
 would fit into the time given.
-
-Project Teams
-=============
-
-.. Use tools/build_team_section_for_goal.py to generate the rest of
-   the template and paste it into this section.
