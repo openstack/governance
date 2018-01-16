@@ -3608,17 +3608,6 @@ trove:
     trove-tempest-plugin:
       repos:
         - openstack/trove-tempest-plugin
-  extra-atcs:
-    - name: Nourhene Bziouech
-      email: nourhene.bziouech@supcom.tn
-      expires-in: September 2017
-      comment: Nourhene works at IBM on a project focused on getting
-               Trove to run on IBMs zSeries hardware. She contributed
-               an interesting set of techniques to allow Trove to run
-               on this hardware, to build images for this configuration,
-               and presented these at the OpenStack Summit in Barcelona
-               along with Mariam John, Gregory Haynes (both of IBM) and
-               Amrith Kumar (of Tesora).
 
 vitrage:
   ptl:
