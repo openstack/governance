@@ -1525,6 +1525,9 @@ ironic:
     networking-generic-switch:
       repos:
         - openstack/networking-generic-switch
+    networking-generic-switch-tempest-plugin:
+      repos:
+        - openstack/networking-generic-switch-tempest-plugin
     python-ironic-inspector-client:
       repos:
         - openstack/python-ironic-inspector-client
