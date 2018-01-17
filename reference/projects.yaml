@@ -2215,6 +2215,9 @@ OpenStack Charms:
     charm-gnocchi:
       repos:
         - openstack/charm-gnocchi
+    charm-panko:
+      repos:
+        - openstack/charm-panko
     charm-glance:
       repos:
         - openstack/charm-glance
