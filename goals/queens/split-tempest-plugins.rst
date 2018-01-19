@@ -226,6 +226,21 @@ The barbican team is maintaining it's tempest plugin in a seperate repo:
 
 http://git.openstack.org/cgit/openstack/barbican-tempest-plugin
 
+blazar
+------
+
+Planning Artifacts:
+
+The blazar team followed the documented steps outlined in this goal as the
+planning document.
+
+Completion Artifacts:
+
+The following review removed the tempest plugin that blazar was maintaining
+in tree and links to the new repository the plugin was moved to:
+
+* https://review.openstack.org/#/c/531138/
+
 Chef OpenStack
 --------------
 
