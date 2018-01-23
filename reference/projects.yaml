@@ -2361,6 +2361,9 @@ OpenStack Charms:
     charm-neutron-api:
       repos:
         - openstack/charm-neutron-api
+    charm-neutron-api-genericswitch:
+      repos:
+        - openstack/charm-neutron-api-genericswitch
     charm-neutron-api-odl:
       repos:
         - openstack/charm-neutron-api-odl
