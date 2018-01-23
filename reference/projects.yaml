@@ -2319,6 +2319,9 @@ OpenStack Charms:
     charm-interface-service-control:
       repos:
         - openstack/charm-interface-service-control
+    charm-ironic:
+      repos:
+        - openstack/charm-ironic
     charm-keystone:
       repos:
         - openstack/charm-keystone
