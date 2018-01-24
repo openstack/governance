@@ -149,7 +149,7 @@ of heavy emphasis on mentoring in the community, with multiple different
 efforts underway. There is the new OpenStack Ladder program, inspired
 by the Drupal Ladder program, which aims to bring more
 users and operators into the contributor space and ensure that they
-don’t feel overwhelmed by our contribution processes.
+don't feel overwhelmed by our contribution processes.
 
 Growing New Leaders
 -------------------
@@ -191,7 +191,7 @@ OpenStack that much more.
 When community members started taking deep dives into projects to
 which they don't normally contribute, there was a ton of
 enlightenment. Old prejudices took a backseat as we walked a mile in
-each other’s shoes. This new understanding is part of why hierarchical
+each other's shoes. This new understanding is part of why hierarchical
 quotas are now implemented and working in many services, and are now
 getting tested in the field. We expect most of the OpenStack projects,
 as well as a number of non OpenStack projects in adjacent communities

@@ -58,7 +58,7 @@ the threadpool overhead. It helps for systems calls that are going out to disk,
 but it slowed down calls to the data that is in buffer cache, so in reality
 using a threadpool brought a great cost to overall throughput, in some cases,
 users saw a 25% drop in throughput.  Another solution was to separate object
-server processes per disk. The solution also helped with slow disks and there’s
+server processes per disk. The solution also helped with slow disks and there's
 no need for a thread pool, but for super dense servers with many dozens of disks
 it meant that memory consumption spiked up, limiting the memory available for
 the filesystem.
