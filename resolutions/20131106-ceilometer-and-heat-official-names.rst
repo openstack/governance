@@ -24,7 +24,7 @@ The OpenStack Foundation bylaws state:
   Project is the Block Storage, Compute, Dashboard, Identity Service,
   Image Service, Networking, and Object Storage modules. The Secretary
   shall maintain a list of the modules in the Core OpenStack Project
-  which shall be posted on the Foundation’s website.
+  which shall be posted on the Foundation's website.
 
   4.13
 
