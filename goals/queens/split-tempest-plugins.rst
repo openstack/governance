@@ -420,7 +420,16 @@ ironic
 
 Planning Artifacts:
 
+The Ironic team followed the documented steps outlined in this goal as the
+planning document.
+
 Completion Artifacts:
+
+The following reviews removed the tempest plugin from Ironic and Ironic-inspector
+that  was maintained in tree and moved to ironic-tempest-plugin repo:
+
+* https://review.openstack.org/532585 (Ironic)
+* https://review.openstack.org/527743 (Ironic-inspector)
 
 karbor
 ------
