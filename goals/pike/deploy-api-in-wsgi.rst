@@ -365,12 +365,13 @@ monasca
 
 Planning Artifacts:
 
-* https://review.openstack.org/442365
+* https://storyboard.openstack.org/#!/story/2001464
 
 Completion Artifacts:
 
 * https://review.openstack.org/439577
 * https://review.openstack.org/436890
+* https://review.openstack.org/479447
 
 murano
 ------
