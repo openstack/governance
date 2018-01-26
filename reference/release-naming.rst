@@ -51,10 +51,11 @@ following steps:
    re-added during this period, and the Technical Committee may vote
    to add exceptional names (which do not meet the standard criteria).
 
-#. A Condorcet election is held among all OpenStack Foundation
-   Individual Members to rank the names.  The poll will include the
-   names along with any links to mailing list discussions provided by
-   the marketing community.
+#. A Condorcet election is held to rank the names. The poll will be
+   public, with the voting URL communicated through OpenStack mailing-lists
+   (openstack, openstack-dev, openstack-operators, openstack-foundation).
+   The poll will include the names along with any links to mailing list
+   discussions provided by the marketing community.
 
 #. The Foundation will perform a trademark check on the winning name.
    If there is a trademark conflict, then the Foundation will proceed
