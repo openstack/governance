@@ -50,7 +50,7 @@ Each project should list its operations dependencies in requirements.txt
 and additional dependencies required for testing in test-requirements.txt.
 If there are requirements that are specific to python3 or pypy support,
 those may be listed in requirements.txt or test-requirements.txt using
-environment makers.
+environment markers.
 
 Constraints
 ===========
