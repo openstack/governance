@@ -412,9 +412,15 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* ironic: PARTIAL (non-voting integration job without Swift)
+* ironic: DONE
+
+  Patch making the CI job voting: https://review.openstack.org/#/c/531398/
+
 * ironic-python-agent: TODO
-* ironic-inspector: PARTIAL (voting functional test job)
+
+* ironic-inspector: DONE
+
+  Patch making the CI job voting: https://review.openstack.org/#/c/531400/
 
 karbor
 ------
