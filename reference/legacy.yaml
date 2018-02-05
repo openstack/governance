@@ -1453,3 +1453,15 @@ tripleo:
       retired-on: 2017-03-28
       docs:
         contributor: http://docs.openstack.org/developer/os-cloud-config/
+
+trove:
+  irc-channel: openstack-trove
+  service: Database as a service
+  url: https://wiki.openstack.org/wiki/Trove
+  partial: yes
+  deliverables:
+    trove-integration:
+      retired-on: 2018-02-05
+      repos:
+        - openstack/trove-integration
+
