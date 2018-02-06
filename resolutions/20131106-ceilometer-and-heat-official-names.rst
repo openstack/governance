@@ -9,7 +9,7 @@ The OpenStack Foundation bylaws state:
   4.1(b)
 
   [..]
-  The “OpenStack Project” shall consist of a “Core OpenStack Project,”
+  The "OpenStack Project" shall consist of a "Core OpenStack Project,"
   library projects, gating projects and supporting projects. . The
   Core OpenStack Project means the software modules which are part of
   an integrated release and for which an OpenStack trademark may be
