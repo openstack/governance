@@ -3534,6 +3534,9 @@ tripleo:
   tags:
     - team:single-vendor
   deliverables:
+    ansible-role-k8s-cinder:
+      repos:
+        - openstack/ansible-role-k8s-cinder
     ansible-role-k8s-cookiecutter:
       repos:
         - openstack/ansible-role-k8s-cookiecutter
