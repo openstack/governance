@@ -544,9 +544,6 @@ horizon:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - stable:follows-policy
-    horizon-cisco-ui:
-      repos:
-        - openstack/horizon-cisco-ui
     tempest-horizon:
       repos:
         - openstack/tempest-horizon
