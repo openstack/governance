@@ -3084,6 +3084,9 @@ Quality Assurance:
     tempest-stress:
       repos:
         - openstack/tempest-stress
+    devstack-plugin-container:
+      repos:
+        - openstack/devstack-plugin-container
   extra-atcs:
     - name: Scott Moser
       email: smoser@ubuntu.com
