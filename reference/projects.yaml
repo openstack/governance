@@ -218,8 +218,6 @@ congress:
     services in order to monitor, enforce, and audit policy over
     dynamic infrastructure.
   url: https://wiki.openstack.org/wiki/Congress
-  tags:
-    - team:diverse-affiliation
   deliverables:
     congress:
       repos:
@@ -257,8 +255,6 @@ cyborg:
     To provide a general management framework for accelerators (FPGA,GPU,SoC,
     NVMe SSD,DPDK/SPDK,eBPF/XDP ...)
   url: https://wiki.openstack.org/wiki/Cyborg
-  tags:
-    - team:diverse-affiliation
   deliverables:
     cyborg:
       repos:
@@ -379,8 +375,6 @@ ec2-api:
   mission: >
     To provide an EC2-compatible API for accessing OpenStack features.
   url: https://wiki.openstack.org/wiki/EC2API
-  tags:
-    - team:single-vendor
   deliverables:
     ec2-api:
       repos:
@@ -432,8 +426,6 @@ glance:
     distribute and manage bootable disk images, other data closely associated
     with initializing compute resources, and metadata definitions.
   url: https://wiki.openstack.org/wiki/Glance
-  tags:
-    - team:diverse-affiliation
   deliverables:
     glance:
       repos:
@@ -1821,6 +1813,8 @@ masakari:
     Provide instances high availability service for OpenStack
     clouds by automatically recovering the instances from failures.
   url: https://wiki.openstack.org/wiki/Masakari
+  tags:
+    - team:single-vendor
   deliverables:
     masakari:
       repos:
@@ -1886,6 +1880,8 @@ monasca:
     services that can be used by both operators and tenants to gain
     operational insight and visibility, ensuring availability and stability.
   url: https://wiki.openstack.org/wiki/Monasca
+  tags:
+    - team:diverse-affiliation
   deliverables:
     monasca-api:
       repos:
@@ -1954,8 +1950,6 @@ murano:
     deploy composite environments on an application abstraction level
     while managing the application lifecycle.
   url: https://wiki.openstack.org/wiki/Murano
-  tags:
-    - team:diverse-affiliation
   deliverables:
     murano:
       repos:
@@ -2999,6 +2993,8 @@ qinling:
     Provide a serverless platform for managing functions that can be executed
     in a scalable, highly-available manner.
   url: https://wiki.openstack.org/wiki/Qinling
+  tags:
+    - team:single-vendor
   deliverables:
     qinling:
       repos:
@@ -3317,6 +3313,8 @@ senlin:
     To implement clustering services and libraries for the management of groups
     of homogeneous objects exposed by other OpenStack services.
   url: https://wiki.openstack.org/wiki/Senlin
+  tags:
+    - team:diverse-affiliation
   deliverables:
     senlin:
       repos:
@@ -3343,6 +3341,8 @@ solum:
     application development process by automating the source-to-image
     process, and simplifying app-centric deployment.
   url: https://wiki.openstack.org/wiki/Solum
+  tags:
+    - team:single-vendor
   deliverables:
     python-solumclient:
       repos:
@@ -3387,6 +3387,8 @@ storlets:
     executing storage centric user defined functions near the data within
     OpenStack Swift
   url: https://wiki.openstack.org/wiki/Storlets
+  tags:
+    - team:single-vendor
   deliverables:
     storlets:
       repos:
@@ -3436,8 +3438,6 @@ tacker:
     and libraries for end-to-end life-cycle management of Network Services
     and Virtual Network Functions (VNFs).
   url: https://wiki.openstack.org/wiki/Tacker
-  tags:
-    - team:diverse-affiliation
   deliverables:
     tacker:
       repos:
@@ -3647,8 +3647,6 @@ trove:
     for both relational and non-relational database engines, and to continue to
     improve its fully-featured and extensible open source framework.
   url: https://wiki.openstack.org/wiki/Trove
-  tags:
-    - team:single-vendor
   deliverables:
     python-troveclient:
       repos:
