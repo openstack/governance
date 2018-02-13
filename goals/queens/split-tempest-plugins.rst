@@ -894,7 +894,18 @@ Telemetry
 
 Planning Artifacts:
 
+* The telemetry team followed the documented steps outlined in this goal as
+  the planning document.
+
 Completion Artifacts:
+
+The following review removed the tempest plugin that telemetry team (Aodh,
+Panko, Ceilometer) was maintaining in tree and links to the new
+repository telemetry-tempest-plugin, was moved to:
+
+* https://review.openstack.org/530467
+* https://review.openstack.org/526299
+* https://review.openstack.org/525072
 
 tricircle
 ---------
