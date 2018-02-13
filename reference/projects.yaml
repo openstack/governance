@@ -3671,9 +3671,6 @@ trove:
       tags:
         - stable:follows-policy
         - assert:follows-standard-deprecation
-    trove-integration:
-      repos:
-        - openstack/trove-integration
     trove-specs:
       repos:
         - openstack/trove-specs
