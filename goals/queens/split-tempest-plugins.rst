@@ -282,9 +282,17 @@ congress
 
 Planning Artifacts:
 
+The congress team followed the documented steps outlined in this goal as
+the planning document.
+
 * `congress planning <https://bugs.launchpad.net/congress/+bug/1724713>`_
 
 Completion Artifacts:
+
+The following review removed the tempest plugin that congress was maintaining
+in tree and links to the new repository the plugin was moved to:
+
+* https://review.openstack.org/#/c/531689/
 
 cyborg
 ------
