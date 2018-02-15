@@ -100,13 +100,14 @@ opens.
 Polls
 -----
 
-=======  ============  ================  ==========  ==========  ==================
-Release  Coordinator   Nominations Open  Poll Open   Poll Close  Geographic Region
-=======  ============  ================  ==========  ==========  ==================
-M        Monty Taylor  2015-06-01        2015-06-08  2015-06-15  N/A
-N        Monty Taylor  2015-11-08        2015-11-30  2015-12-07  Texas Hill Country
-O        Monty Taylor  2015-11-08        2015-11-30  2015-12-07  Catalonia
-P        Monty Taylor  2016-06-22        2016-07-06  2016-07-13  New England
-Q        Monty Taylor  2016-06-22        2016-07-06  2016-07-13  New South Wales
-R        Monty Taylor  2017-03-22        2017-04-05  2017-04-12  British Columbia
-=======  ============  ================  ==========  ==========  ==================
+=======  =============  ================  ==========  ==========  ==================
+Release  Coordinator    Nominations Open  Poll Open   Poll Close  Geographic Region
+=======  =============  ================  ==========  ==========  ==================
+M        Monty Taylor   2015-06-01        2015-06-08  2015-06-15  N/A
+N        Monty Taylor   2015-11-08        2015-11-30  2015-12-07  Texas Hill Country
+O        Monty Taylor   2015-11-08        2015-11-30  2015-12-07  Catalonia
+P        Monty Taylor   2016-06-22        2016-07-06  2016-07-13  New England
+Q        Monty Taylor   2016-06-22        2016-07-06  2016-07-13  New South Wales
+R        Monty Taylor   2017-03-22        2017-04-05  2017-04-12  British Columbia
+S        Paul Belanger  2018-02-21        2018-03-14  2018-03-21  Berlin
+=======  =============  ================  ==========  ==========  ==================
