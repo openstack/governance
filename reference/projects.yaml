@@ -1835,7 +1835,7 @@ masakari:
 mistral:
   ptl:
     name: Dougal Matthews
-    irc: dmatthews
+    irc: d0ugal
     email: dougal@redhat.com
   irc-channel: openstack-mistral
   service: Workflow service
