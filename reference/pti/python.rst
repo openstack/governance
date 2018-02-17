@@ -84,7 +84,7 @@ Using these precludes the use of alternative runners for other users.
 To have a consistent interface via tox between projects' unit test
 jobs the command for running stestr in tox should be set to::
 
-    stestr run '{posargs}'
+    stestr run {posargs}
 
 .. note::
     While the use of wrapper scripts can sometimes be useful as a short term
