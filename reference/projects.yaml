@@ -3104,6 +3104,7 @@ rally:
     rally:
       repos:
         - openstack/rally
+        - openstack/rally-openstack
         - openstack/performance-docs
 
 RefStack:
