@@ -2449,6 +2449,9 @@ OpenStackAnsible:
     while also being simple to operate, upgrade, and grow.
   url: https://wiki.openstack.org/wiki/OpenStackAnsible
   deliverables:
+    ansible-config_template:
+      repos:
+        - openstack/ansible-config_template
     openstack-ansible:
       repos:
         - openstack/ansible-hardening
