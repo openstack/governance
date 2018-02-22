@@ -208,6 +208,15 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+* Glance did not complete this goal during the Queens cycle.  We will be
+  discussing refactoring the way Glance handles policies at the Rocky PTG.
+  In light of that (and in light of the fact that the development team is
+  currently under-powered), we felt that it did not make sense to work on
+  this goal during Queens.
+
+  See the spec proposal for refactoring Glance policies for details:
+  https://review.openstack.org/#/c/528021/
+
 heat
 ----
 
