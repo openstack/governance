@@ -24,8 +24,8 @@ benefits for operators and developers:
 #. Tooling can be used to generate complete policy files that include overrides
    from a specific policy file.
 #. Documentation describing each policy is `generated and available
-   <https://docs.openstack.org/developer/nova/sample_policy.html>`_ to assist
-   operators.
+   <https://docs.openstack.org/nova/queens/configuration/sample-policy.html>`_
+   to assist operators.
 #. Project developers have a way to communicate changing defaults to operators
    through a library. Think of this like marking configuration values for
    deprecation or removal. The important bit is that we have a programmatic way
