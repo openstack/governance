@@ -2905,6 +2905,9 @@ Puppet OpenStack:
     puppet-mistral:
       repos:
         - openstack/puppet-mistral
+    puppet-monasca:
+      repos:
+        - openstack/puppet-monasca
     puppet-murano:
       repos:
         - openstack/puppet-murano
