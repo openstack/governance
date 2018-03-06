@@ -2474,12 +2474,15 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_ironic
         - openstack/openstack-ansible-os_keystone
         - openstack/openstack-ansible-os_magnum
+        - openstack/openstack-ansible-os_molteniron
         - openstack/openstack-ansible-os_neutron
         - openstack/openstack-ansible-os_nova
+        - openstack/openstack-ansible-os_octavia
         - openstack/openstack-ansible-os_panko
         - openstack/openstack-ansible-os_rally
         - openstack/openstack-ansible-os_sahara
         - openstack/openstack-ansible-os_swift
+        - openstack/openstack-ansible-os_tacker
         - openstack/openstack-ansible-os_tempest
         - openstack/openstack-ansible-os_trove
         - openstack/openstack-ansible-pip_install
@@ -2509,9 +2512,6 @@ OpenStackAnsible:
     openstack-ansible-os_karbor:
       repos:
         - openstack/openstack-ansible-os_karbor
-    openstack-ansible-os_molteniron:
-      repos:
-        - openstack/openstack-ansible-os_molteniron
     openstack-ansible-os_monasca:
       repos:
         - openstack/openstack-ansible-os_monasca
@@ -2521,15 +2521,9 @@ OpenStackAnsible:
     openstack-ansible-os_monasca-ui:
       repos:
         - openstack/openstack-ansible-os_monasca-ui
-    openstack-ansible-os_octavia:
-      repos:
-        - openstack/openstack-ansible-os_octavia
     openstack-ansible-os_searchlight:
       repos:
         - openstack/openstack-ansible-os_searchlight
-    openstack-ansible-os_tacker:
-      repos:
-        - openstack/openstack-ansible-os_tacker
     openstack-ansible-os_watcher:
       repos:
         - openstack/openstack-ansible-os_watcher
