@@ -2700,6 +2700,9 @@ oslo:
         - openstack/oslo.i18n
       tags:
         - stable:follows-policy
+    oslo.limit:
+      repos:
+        - openstack/oslo.limit
     oslo.log:
       repos:
         - openstack/oslo.log
