@@ -1,6 +1,11 @@
+.. _20160504_defcore_test_location:
+
 ============================================================
  2016-05-04 Recommendation on Location of Tests for DefCore
 ============================================================
+
+.. note:: This resolution has been superseded by 
+          ref:`201180305_interop_test_location`
 
 At the Newton summit discussion about `QA, DefCore, and
 interoperability testing`_ the DefCore committee asked for direction
