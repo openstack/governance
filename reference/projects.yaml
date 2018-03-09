@@ -3572,6 +3572,9 @@ tripleo:
     ansible-role-k8s-tripleo:
       repos:
         - openstack/ansible-role-k8s-tripleo
+    ansible-role-redhat-subscription:
+      repos:
+        - openstack/ansible-role-redhat-subscription
     dib-utils:
       repos:
         - openstack/dib-utils
