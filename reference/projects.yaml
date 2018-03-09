@@ -2826,6 +2826,28 @@ Packaging-rpm:
       repos:
         - openstack/renderspec
 
+PowerStackers:
+  ptl:
+    name: Matthew Edmonds
+    irc: edmondsw
+    email: edmondsw@us.ibm.com
+  irc-channel: openstack-powervm
+  mission: >
+    To provide OpenStack support for the POWER CPU architecture.
+  url: https://wiki.openstack.org/wiki/PowerVM
+  tags:
+    - team:single-vendor
+  deliverables:
+    ceilometer-powervm:
+      repos:
+        - openstack/ceilometer-powervm
+    networking-powervm:
+      repos:
+        - openstack/networking-powervm
+    nova-powervm:
+      repos:
+        - openstack/nova-powervm
+
 Puppet OpenStack:
   ptl:
     name: Mohammed Naser
@@ -3476,9 +3498,6 @@ Telemetry:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - tc:approved-release
-    ceilometer-powervm:
-      repos:
-        - openstack/ceilometer-powervm
     telemetry-specs:
       repos:
         - openstack/telemetry-specs
