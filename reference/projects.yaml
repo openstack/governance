@@ -2826,14 +2826,15 @@ Packaging-rpm:
       repos:
         - openstack/renderspec
 
-PowerStackers:
+PowerVMStackers:
   ptl:
     name: Matthew Edmonds
     irc: edmondsw
     email: edmondsw@us.ibm.com
   irc-channel: openstack-powervm
   mission: >
-    To provide OpenStack support for the POWER CPU architecture.
+    To provide OpenStack support for the POWER CPU architecture on the PowerVM
+    hypervisor.
   url: https://wiki.openstack.org/wiki/PowerVM
   tags:
     - team:single-vendor
