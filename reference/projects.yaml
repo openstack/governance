@@ -554,12 +554,24 @@ horizon:
     xstatic-angular-lrdragndrop:
       repos:
         - openstack/xstatic-angular-lrdragndrop
+    xstatic-angular-material:
+      repos:
+        - openstack/xstatic-angular-material
+    xstatic-angular-notify:
+      repos:
+        - openstack/xstatic-angular-notify
     xstatic-angular-smart-table:
       repos:
         - openstack/xstatic-angular-smart-table
     xstatic-angular-ui-router:
       repos:
         - openstack/xstatic-angular-ui-router
+    xstatic-angular-uuid:
+      repos:
+        - openstack/xstatic-angular-uuid
+    xstatic-angular-vis:
+      repos:
+        - openstack/xstatic-angular-vis
     xstatic-bootstrap-datepicker:
       repos:
         - openstack/xstatic-bootstrap-datepicker
@@ -575,6 +587,9 @@ horizon:
     xstatic-hogan:
       repos:
         - openstack/xstatic-hogan
+    xstatic-filesaver:
+      repos:
+        - openstack/xstatic-filesaver
     xstatic-font-awesome:
       repos:
         - openstack/xstatic-font-awesome
@@ -590,9 +605,15 @@ horizon:
     xstatic-jquery.tablesorter:
       repos:
         - openstack/xstatic-jquery.tablesorter
+    xstatic-js-yaml:
+      repos:
+        - openstack/xstatic-js-yaml
     xstatic-jsencrypt:
       repos:
         - openstack/xstatic-jsencrypt
+    xstatic-json2yaml:
+      repos:
+        - openstack/xstatic-json2yaml
     xstatic-magic-search:
       repos:
         - openstack/xstatic-magic-search
@@ -608,6 +629,9 @@ horizon:
     xstatic-spin:
       repos:
         - openstack/xstatic-spin
+    xstatic-vis:
+      repos:
+        - openstack/xstatic-vis
   extra-atcs:
     - name: Neill Cox
       email: neill@ingenious.com.au
