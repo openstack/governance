@@ -1109,9 +1109,6 @@ Infrastructure:
     mqtt_statsd:
       repos:
         - openstack-infra/mqtt_statsd
-    nodepool:
-      repos:
-        - openstack-infra/nodepool
     nose-html-output:
       repos:
         - openstack-infra/nose-html-output
@@ -1457,21 +1454,9 @@ Infrastructure:
     zmq-event-publisher:
       repos:
         - openstack-infra/zmq-event-publisher
-    zuul:
-      repos:
-        - openstack-infra/zuul
-    zuul-base-jobs:
-      repos:
-        - openstack-infra/zuul-base-jobs
-    zuul-jobs:
-      repos:
-        - openstack-infra/zuul-jobs
     zuul-packaging:
       repos:
         - openstack-infra/zuul-packaging
-    zuul-sphinx:
-      repos:
-        - openstack-infra/zuul-sphinx
 
 ironic:
   ptl:
