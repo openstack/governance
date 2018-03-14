@@ -2455,6 +2455,15 @@ OpenStackAnsible:
     ansible-config_template:
       repos:
         - openstack/ansible-config_template
+    ansible-role-systemd_mount:
+      repos:
+        - openstack/ansible-role-systemd_mount
+    ansible-role-systemd_networkd:
+      repos:
+        - openstack/ansible-role-systemd_networkd
+    ansible-role-systemd_service:
+      repos:
+        - openstack/ansible-role-systemd_service
     openstack-ansible:
       repos:
         - openstack/ansible-hardening
