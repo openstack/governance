@@ -39,7 +39,7 @@ bandwidth for review attention.
 
 And trademark tests are expected to be changed rarely.
 
-It is resolved that trademark tests (and candidates thereof) for individual,
+It is resolved that trademark tests (and candidates thereof) for individual
 projects should live in one, and only one, of four possible locations, each
 with differing strategies for review and repository ownership (status in
 :ref:`projects`):
