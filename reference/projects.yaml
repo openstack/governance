@@ -1,4 +1,28 @@
 ---
+adjutant:
+  ptl:
+    name: Adrian Turjak
+    irc: adriant
+    email: adriant@catalyst.net.nz
+  irc-channel: openstack-adjutant
+  service: Operations Processes automation
+  mission: >
+    To provide an extensible API framework for exposing to users an
+    organization's automated business processes relating to account management
+    across OpenStack and external systems, that can be adapted to the unique
+    requirements of an organization's processes.
+  url: http://adjutant.readthedocs.io/
+  deliverables:
+    adjutant:
+      repos:
+        - openstack/adjutant
+    adjutant-ui:
+      repos:
+        - openstack/adjutant-ui
+    python-adjutantclient:
+      repos:
+        - openstack/python-adjutantclient
+
 barbican:
   ptl:
     name: Ade Lee
