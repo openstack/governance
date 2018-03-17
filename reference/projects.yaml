@@ -259,6 +259,9 @@ cyborg:
     cyborg:
       repos:
         - openstack/cyborg
+    cyborg-specs:
+      repos:
+        - openstack/cyborg-specs
 
 designate:
   ptl:
