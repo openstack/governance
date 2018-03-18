@@ -71,7 +71,7 @@ blazar:
 Chef OpenStack:
   ptl:
     name: Samuel Cassiba
-    irc: sc\`
+    irc: scas
     email: s@cassiba.com
   service: Chef cookbooks for deployment
   mission: >
