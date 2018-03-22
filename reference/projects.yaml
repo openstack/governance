@@ -1643,6 +1643,7 @@ keystone:
         - openstack/keystonemiddleware
       tags:
         - stable:follows-policy
+        - vulnerability:managed
     pycadf:
       repos:
         - openstack/pycadf
