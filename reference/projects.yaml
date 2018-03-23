@@ -474,6 +474,7 @@ heat:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - stable:follows-policy
+        - assert:supports-rolling-upgrade
     heat-agents:
       repos:
         - openstack/heat-agents
