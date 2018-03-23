@@ -262,6 +262,9 @@ cyborg:
     cyborg-specs:
       repos:
         - openstack/cyborg-specs
+    python-cyborgclient:
+      repos:
+        - openstack/python-cyborgclient
 
 designate:
   ptl:
