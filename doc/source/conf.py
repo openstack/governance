@@ -30,6 +30,7 @@ sys.path.insert(0, os.path.join(os.path.abspath('.'), '_exts'))
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
     'sphinx.ext.extlinks',
+    'sphinx.ext.todo',
     'atcs',
     'members',
     'projects',
