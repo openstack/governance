@@ -20,14 +20,15 @@ Projects which are compatible with Python 3 must also be able to do:
 Specific commands
 -----------------
 
-To drive the above tasks, the following commands should be supported in a clean tree:
+To drive the above tasks, the following commands should be supported in a clean
+tree:
 
  - tox -epy27
  - tox -epep8
  - tox -ecover
  - python setup.py sdist
  - python setup.py bdist_wheel
- - tox -evenv python setup.py build_sphinx
+ - sphinx-build -b html doc/source doc/build
 
 Projects that are translated should also support:
 
@@ -150,25 +151,15 @@ files in to $project/locale as well.
 Documentation
 -------------
 
-In addition to the normal PTI :ref:`pti-documentation` requirements, Python
-projects should put the following into their setup.cfg so that
-``python setup.py build_sphinx`` continues to work:
+In addition to the normal PTI :ref:`pti-documentation` requirements, as a
+convenience for developers, it is recommended that projects provide
+a ``docs`` environment for tox that will run
 
-::
+.. code-block:: bash
 
-  [build_sphinx]
-  source-dir = doc/source
-  build-dir = doc/build
+  sphinx-build -b html doc/source doc/build
 
-It may be assumed that the project will be installed before Sphinx is run
-using ``pip install .``.
-
-As a convenience for developers, it is recommended that projects provide
-a ``docs`` environment for tox that will run either
-``sphinx-build -b html doc/source doc/build`` or
-``python setup.py build_sphinx``.
-
-The project infrastructure will not use ``tox -edocs`` to build the
+The project infrastructure will not use ``tox -e docs`` to build the
 documentation. Therefore it is **STRONGLY** discouraged for people to put
 additional logic into the command section of that tox environment. Additional
 logic needed around Sphinx generation should go into Sphinx plugins.
