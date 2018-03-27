@@ -32,9 +32,13 @@ When considering new projects for addition, the TC will check that:
 
     * The leadership is chosen by the contributors to the project
     * If the project has meetings, regular or otherwise, they should be public
-      and in IRC. They should all be logged and published (moving to official
-      OpenStack meeting channels once the project's application is accepted,
-      if they're not held there already)
+      and in IRC. They should all be logged and published. Project teams have
+      discretion as to where meetings are held.  They can be in the project
+      specific IRC channel, if it exists or one of the general meeting channels
+      available.  The advantage of hosting meetings in the project specific
+      channel is that project participants not present can catch-up more
+      easily.  Whereas holding the meeting in a general channel gives extra
+      visibility and makes it easier to ping other contributors.
     * The project shall provide a level and open collaboration playing field
       for all contributors. The project shall not benefit a single vendor, or
       a single vendors product offerings; nor advantage contributors from a
