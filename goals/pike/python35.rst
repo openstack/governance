@@ -131,6 +131,7 @@ Projects with Unit Tests Voting
 * keystone
 * keystoneauth
 * keystonemiddleware
+* kolla
 * kuryr
 * kuryr-kubernetes
 * kuryr-libnetwork
@@ -455,7 +456,12 @@ kolla
 
 Planning Artifacts:
 
+* https://blueprints.launchpad.net/kolla/+spec/support-python-35
+
 Completion Artifacts:
+
+* https://review.openstack.org/#/c/414813/
+* https://review.openstack.org/#/c/341068/
 
 kuryr
 -----
