@@ -3598,6 +3598,9 @@ tripleo:
     ansible-role-k8s-mariadb:
       repos:
         - openstack/ansible-role-k8s-mariadb
+    ansible-role-k8s-rabbitmq:
+      repos:
+        - openstack/ansible-role-k8s-rabbitmq
     ansible-role-k8s-tripleo:
       repos:
         - openstack/ansible-role-k8s-tripleo
