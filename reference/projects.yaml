@@ -3008,6 +3008,9 @@ Puppet OpenStack:
     puppet-sahara:
       repos:
         - openstack/puppet-sahara
+    puppet-senlin:
+      repos:
+        - openstack/puppet-senlin
     puppet-swift:
       repos:
         - openstack/puppet-swift
