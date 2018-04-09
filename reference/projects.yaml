@@ -3634,6 +3634,9 @@ tripleo:
     paunch:
       repos:
         - openstack/paunch
+    puppet-pacemaker:
+      repos:
+        - openstack/puppet-pacemaker
     puppet-tripleo:
       repos:
         - openstack/puppet-tripleo
