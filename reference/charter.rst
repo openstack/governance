@@ -124,7 +124,7 @@ The 13 TC seats are partially renewed every 6 months using staggered elections:
 6 seats are renewed every (Northern hemisphere) Fall, and 7 seats are renewed
 every Spring. Seats are valid for one-year terms. For this election we'll use a
 multiple-winner election system (see below). The election is held no later than
-3 weeks prior to each OpenStack Summit (on or before 'S-3' week), with
+6 weeks prior to each OpenStack Summit (on or before 'S-6' week), with
 elections held open for no less than four business days.
 
 If a seat on the TC is vacated before the end of the term for which
