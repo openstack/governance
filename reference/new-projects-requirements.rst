@@ -93,6 +93,11 @@ repositories as needed at the discretion of its Project Team Lead (PTL) without
 prior approval from the TC as long as the additional source code repositories
 fall within the scope of the approved project mission statement.
 
+Releases of OpenStack deliverables are handled by the OpenStack Release
+Management team through the openstack/releases repository. Official projects
+are expected to relinquish direct tagging (and branch creation) rights in
+their Gerrit ACLs once their release jobs are functional.
+
 Official project teams are expected to participate in all `elections`_ held
 after the team is accepted as official, regardless of how recently the team
 leadership may have been established.
