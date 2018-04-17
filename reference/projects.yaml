@@ -3690,6 +3690,9 @@ tripleo:
     tripleo-validations:
       repos:
         - openstack/tripleo-validations
+    tripleo-ha-utils:
+      repos:
+        - openstack/tripleo-ha-utils
 
 trove:
   ptl:
