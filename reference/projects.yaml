@@ -97,6 +97,9 @@ Chef OpenStack:
     cookbook-openstack-dashboard:
       repos:
         - openstack/cookbook-openstack-dashboard
+    cookbook-openstack-dns:
+      repos:
+        - openstack/cookbook-openstack-dns
     cookbook-openstack-identity:
       repos:
         - openstack/cookbook-openstack-identity
