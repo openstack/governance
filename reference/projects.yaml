@@ -3590,6 +3590,9 @@ tripleo:
   tags:
     - team:single-vendor
   deliverables:
+    ansible-role-container-registry:
+      repos:
+        - openstack/ansible-role-container-registry
     ansible-role-k8s-cinder:
       repos:
         - openstack/ansible-role-k8s-cinder
