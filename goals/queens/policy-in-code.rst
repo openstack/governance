@@ -114,6 +114,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+* `barbican implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+project:openstack/barbican>`_
+
 Chef OpenStack
 --------------
 
