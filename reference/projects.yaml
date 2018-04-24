@@ -2276,6 +2276,9 @@ OpenStack Charms:
     charm-heat:
       repos:
         - openstack/charm-heat
+    charm-interface-bgp:
+      repos:
+        - openstack/charm-interface-bgp
     charm-interface-bind-rndc:
       repos:
         - openstack/charm-interface-bind-rndc
@@ -2381,6 +2384,9 @@ OpenStack Charms:
     charm-neutron-api-odl:
       repos:
         - openstack/charm-neutron-api-odl
+    charm-neutron-dynamic-routing:
+      repos:
+        - openstack/charm-neutron-dynamic-routing
     charm-neutron-gateway:
       repos:
         - openstack/charm-neutron-gateway
