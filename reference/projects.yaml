@@ -3617,6 +3617,9 @@ tripleo:
     ansible-role-redhat-subscription:
       repos:
         - openstack/ansible-role-redhat-subscription
+    ansible-role-tripleo-keystone:
+      repos:
+        - openstack/ansible-role-tripleo-keystone
     dib-utils:
       repos:
         - openstack/dib-utils
