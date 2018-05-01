@@ -266,6 +266,14 @@ ironic:
       repos:
         - openstack/python-wsmanclient
 
+kolla:
+  partial: yes
+  deliverables:
+    kolla-kubernetes:
+      retired-on: 2018-05-02
+      repos:
+        - openstack/kolla-kubernetes
+
 keystone:
   irc-channel: openstack-keystone
   service: Identity service
