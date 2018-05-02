@@ -323,6 +323,9 @@ Documentation:
   tags:
     - team:diverse-affiliation
   deliverables:
+    constellations:
+      repos:
+        - openstack/constellations
     docs-specs:
       repos:
         - openstack/docs-specs
