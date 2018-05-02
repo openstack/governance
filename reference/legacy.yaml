@@ -1451,6 +1451,12 @@ tripleo:
   service: Deployment service
   url: https://wiki.openstack.org/wiki/TripleO
   deliverables:
+    tripleo-incubator:
+      repos:
+        - openstack/tripleo-incubator
+      retired-on: 2018-05-02
+      docs:
+        contributor: https://docs.openstack.org/tripleo-incubator/latest/
     os-cloud-config:
       repos:
         - openstack/os-cloud-config

@@ -3677,9 +3677,6 @@ tripleo:
     tripleo-image-elements:
       repos:
         - openstack/tripleo-image-elements
-    tripleo-incubator:
-      repos:
-        - openstack/tripleo-incubator
     tripleo-ipsec:
       repos:
         - openstack/tripleo-ipsec
