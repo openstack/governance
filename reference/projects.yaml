@@ -2267,6 +2267,9 @@ OpenStack Charms:
     charm-glance:
       repos:
         - openstack/charm-glance
+    charm-glance-simplestreams-sync:
+      repos:
+        - openstack/charm-glance-simplestreams-sync
     charm-glusterfs:
       repos:
         - openstack/charm-glusterfs
