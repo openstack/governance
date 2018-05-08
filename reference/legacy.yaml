@@ -1415,6 +1415,15 @@ Packaging-deb:
       repos:
         - openstack/deb-zaqar-ui
 
+Security:
+  url: https://wiki.openstack.org/wiki/Security
+  partial: yes
+  deliverables:
+    bandit:
+      retired-on: 2018-04-26
+      repos:
+        - openstack/bandit
+
 solum:
   irc-channel: solum
   service: Software Development Lifecycle Automation service

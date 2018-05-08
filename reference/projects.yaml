@@ -3345,9 +3345,6 @@ Security:
     anchor:
       repos:
         - openstack/anchor
-    bandit:
-      repos:
-        - openstack/bandit
     ossa:
       repos:
         - openstack/ossa
