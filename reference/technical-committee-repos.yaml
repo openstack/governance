@@ -8,3 +8,4 @@ Technical Committee:
   - repo: openstack/project-team-guide
   - repo: openstack/service-types-authority
   - repo: openstack/election
+  - repo: openstack/goal-tools
