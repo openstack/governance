@@ -1692,9 +1692,6 @@ kolla:
     kolla-ansible:
       repos:
         - openstack/kolla-ansible
-    kolla-kubernetes:
-      repos:
-        - openstack/kolla-kubernetes
     kolla-cli:
       repos:
         - openstack/kolla-cli
