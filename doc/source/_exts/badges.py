@@ -161,7 +161,8 @@ def _to_svg(badges):
         yield FLAT_BADGE_TEMPLATE.format(**badge)
 
 
-def _generate_teams_badges(app):
+def _generate_teams_badges(app, exception=None):
+    app.info('Generating team badges')
     all_teams = projects.get_project_data()
     files = []
 
@@ -199,4 +200,4 @@ def _generate_teams_badges(app):
 
 def setup(app):
     app.info('loading badges extension')
-    _generate_teams_badges(app)
+    app.connect('build-finished', _generate_teams_badges)
