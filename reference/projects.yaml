@@ -2541,6 +2541,9 @@ OpenStackAnsible:
     openstack-ansible-os_almanach:
       repos:
         - openstack/openstack-ansible-os_almanach
+    openstack-ansible-os_blazar:
+      repos:
+        - openstack/openstack-ansible-os_blazar
     openstack-ansible-os_cloudkitty:
       repos:
         - openstack/openstack-ansible-os_cloudkitty
