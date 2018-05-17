@@ -2,6 +2,11 @@
  Minimal Requirements for Incubation and Integrated Status
 ===========================================================
 
+.. note:: The process described here is obsolete.
+  This document is retained only for historical reference. New projects seeking
+  to become part of OpenStack should refer to the
+  :doc:`new-projects-requirements` instead.
+
 Incubation
 ==========
 
