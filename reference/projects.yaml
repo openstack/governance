@@ -2639,8 +2639,6 @@ OpenStackSDK:
         - openstack/os-service-types
       tags:
         - assert:follows-standard-deprecation
-      docs:
-        contributor: https://docs.openstack.org/os-service-types/latest/
     requestsexceptions:
       repos:
         - openstack-infra/requestsexceptions
@@ -2651,8 +2649,6 @@ OpenStackSDK:
         - openstack-infra/shade
       tags:
         - assert:follows-standard-deprecation
-      docs:
-        contributor: https://docs.openstack.org/shade/latest/
 
 oslo:
   ptl:
