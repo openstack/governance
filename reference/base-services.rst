@@ -11,6 +11,29 @@ leverage advanced features exposed by those base services without fear of
 increasing the overall operational complexity for OpenStack deployers.
 
 
+Rationale
+=========
+
+There are two related reasons behind the existence of this list. First and
+most straightforward, as stated by the Definition above, OpenStack
+components are allowed to rely on a solution listed here without needing to
+provide an alternative or fallback mechanism to account for situations when
+the solution is not present. The other and perhaps more subtle reason is to
+drive consistency of implementation between different OpenStack components
+who may have similar needs but would otherwise likely end up embedding
+their own varied implementations.
+
+When someone developing a new feature is aware that there is a standard
+solution provided by this list, they are likely (and encouraged) to use it
+instead of designing something from scratch. This helps mitigate the risk
+that multiple components might otherwise independently provide similar but
+divergent solutions to the same basic problem space. It's also intended to
+encourage more useful base functionality by default across OpenStack
+components, because the perceived cost (to performance or complexity) of
+including this one extra dependency is lessened by each other component of
+the system which may also benefit from using it.
+
+
 Current list of base services
 =============================
 
