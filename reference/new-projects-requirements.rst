@@ -1,6 +1,6 @@
-======================================================
- Requirements for new OpenStack Projects applications
-======================================================
+=====================================================
+ Requirements for new OpenStack Project applications
+=====================================================
 
 Teams in OpenStack can be created as-needed and grow organically.
 By becoming an official OpenStack Project, they place
@@ -68,7 +68,7 @@ When considering new projects for addition, the TC will check that:
   User-facing API services should support Keystone for discovery and
   authentication.
 
-* The project should have an active team of one or more contributors
+* The project has an active team of one or more contributors.
 
 * The project participates in any goals specified by the TC, as
   defined by :ref:`release-cycle-goals`. Any existing goals that are
@@ -76,7 +76,7 @@ When considering new projects for addition, the TC will check that:
   a team joining.
 
 * The project meets any policies that the TC requires all projects to
-  meet. For instance, the :doc:`project-testing-interface`
+  meet. For instance, the :doc:`project-testing-interface`.
 
 In order to do an evaluation against this criteria, the TC expects the project
 to be set up and have some history to evaluate.  A few months of operating and
