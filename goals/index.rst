@@ -114,6 +114,24 @@ artifacts, before the final release date for the cycle.
 If a goal is not completed, that information should be added, along
 with any references needed to track when that work will be completed.
 
+Goal Champion Responsibilities
+------------------------------
+
+The "goal champion" is responsible for guiding teams to implement a
+goal, but is not responsible for doing the work themselves.
+
+The champion is typically somewhat familiar with the technical issues
+involved in a goal, at least enough to help teams find the information
+they need. The champion does not need to be an expert with the tools
+or libraries used for the goal, but some experience does help.
+
+The champion is responsible for configuring StoryBoard to track
+progress on their goal, and then ensuring that it is kept up to date
+as work progresses.
+
+The champion should check in with project teams regularly to ensure
+they are able to make progress on the work and have not become stuck.
+
 Release Cycles
 ==============
 
