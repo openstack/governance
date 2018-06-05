@@ -2478,6 +2478,9 @@ OpenStackAnsible:
     ansible-config_template:
       repos:
         - openstack/ansible-config_template
+    ansible-role-qdrouterd:
+      repos:
+        - openstack/ansible-role-qdrouterd
     ansible-role-python_venv_build:
       repos:
         - openstack/ansible-role-python_venv_build
@@ -2580,6 +2583,9 @@ OpenStackAnsible:
     openstack-ansible-os_zaqar:
       repos:
         - openstack/openstack-ansible-os_zaqar
+    openstack-ansible-os_zun:
+      repos:
+        - openstack/openstack-ansible-os_zun
     openstack-ansible-specs:
       repos:
         - openstack/openstack-ansible-specs
