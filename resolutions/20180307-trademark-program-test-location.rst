@@ -62,7 +62,7 @@ and the Trademark Program.
 
 .. note:: No overarching direction is provided here on what tooling must be
           used in the tests but it is generally expected that the tooling
-          should be aggreed by the people who are reviewing the code. If a
+          should be agreed by the people who are reviewing the code. If a
           project wants to use tooling other than the core tempest libraries
           (e.g., gabbi_) they should prefer a project specific plugin and be
           aware that their choice of tooling may limit the ability for

@@ -222,7 +222,7 @@ The barbican project does not have in-tree tempest plugin.
 
 Completion Artifacts:
 
-The barbican team is maintaining it's tempest plugin in a seperate repo:
+The barbican team is maintaining it's tempest plugin in a separate repo:
 
 http://git.openstack.org/cgit/openstack/barbican-tempest-plugin
 
@@ -273,7 +273,7 @@ The cloudkitty project does not have in-tree tempest plugin.
 
 Completion Artifacts:
 
-The cloudkitty team is maintaining it's tempest plugin in a seperate repo:
+The cloudkitty team is maintaining it's tempest plugin in a separate repo:
 
 http://git.openstack.org/cgit/openstack/cloudkitty-tempest-plugin
 
@@ -495,7 +495,7 @@ The kuryr project does not have in-tree tempest plugin.
 
 Completion Artifacts:
 
-The kuryr team is maintaining it's tempest plugin in a seperate repo:
+The kuryr team is maintaining it's tempest plugin in a separate repo:
 
 http://git.openstack.org/cgit/openstack/kuryr-tempest-plugin
 
@@ -584,7 +584,7 @@ The murano project does not have in-tree tempest plugin.
 
 Completion Artifacts:
 
-The murano team is maintaining it's tempest plugin in a seperate repo:
+The murano team is maintaining it's tempest plugin in a separate repo:
 
 http://git.openstack.org/cgit/openstack/murano-tempest-plugin
 
@@ -845,7 +845,7 @@ The solum project does not have in-tree tempest plugin.
 
 Completion Artifacts:
 
-The solum team is maintaining it's tempest plugin in a seperate repo:
+The solum team is maintaining it's tempest plugin in a separate repo:
 
 http://git.openstack.org/cgit/openstack/solum-tempest-plugin
 
@@ -936,7 +936,7 @@ The tripleo project does not have in-tree tempest plugin.
 
 Completion Artifacts:
 
-The tripleo team is maintaining its tempest plugin in a seperate repo for
+The tripleo team is maintaining its tempest plugin in a separate repo for
 testing tripleo workflows:
 
 http://git.openstack.org/cgit/openstack/tripleo-common-tempest-plugin
@@ -995,7 +995,7 @@ The os-win project does not have in-tree tempest plugin.
 
 Completion Artifacts:
 
-The Winstackers team is maintaining its tempest plugin in a seperate repo:
+The Winstackers team is maintaining its tempest plugin in a separate repo:
 
 http://git.openstack.org/cgit/openstack/oswin-tempest-plugin
 
@@ -1019,6 +1019,6 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-The Zun team is maintaining its tempest plugin in a seperate repo:
+The Zun team is maintaining its tempest plugin in a separate repo:
 
 https://git.openstack.org/cgit/openstack/zun-tempest-plugin
