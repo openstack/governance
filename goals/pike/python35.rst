@@ -358,6 +358,25 @@ Planning Artifacts:
 
 Completion Artifacts:
 
+* glance_store library: completed.  (For details, see the
+  `glance project py35 tracking etherpad
+  <https://etherpad.openstack.org/p/glance-pike-python35-goal>`_.)
+* python-glanceclient: completed.  (For details, see the
+  `glance project py35 tracking etherpad
+  <https://etherpad.openstack.org/p/glance-pike-python35-goal>`_.)
+* glance: not completed.
+
+  - Glance is affected by the eventlet ssl-handshake-drop problem in py35
+    (see `Bug #1482633 <https://bugs.launchpad.net/glance/+bug/1482633>`_)
+  - Fix will have to occur in eventlet (not sure that will actually happen)
+  - We've reconfigured the functional tests that were being skipped when
+    run under py35 and will run them as their own non-voting gate job
+    named 'glance-eventlet-ssl-handshake-broken-py35' so that it's obvious
+    that this issue exists (and, more optimistically, we can easily detect
+    when it's fixed).  (See https://review.openstack.org/#/c/571040/)
+  - There is a workaround, namely, use something like HAProxy to do SSL
+    termination before calls are forwarded to Glance.
+
 heat
 ----
 
