@@ -222,7 +222,7 @@ The barbican project does not have in-tree tempest plugin.
 
 Completion Artifacts:
 
-The barbican team is maintaining it's tempest plugin in a separate repo:
+The barbican team is maintaining its tempest plugin in a separate repo:
 
 http://git.openstack.org/cgit/openstack/barbican-tempest-plugin
 
@@ -273,7 +273,7 @@ The cloudkitty project does not have in-tree tempest plugin.
 
 Completion Artifacts:
 
-The cloudkitty team is maintaining it's tempest plugin in a separate repo:
+The cloudkitty team is maintaining its tempest plugin in a separate repo:
 
 http://git.openstack.org/cgit/openstack/cloudkitty-tempest-plugin
 
@@ -495,7 +495,7 @@ The kuryr project does not have in-tree tempest plugin.
 
 Completion Artifacts:
 
-The kuryr team is maintaining it's tempest plugin in a separate repo:
+The kuryr team is maintaining its tempest plugin in a separate repo:
 
 http://git.openstack.org/cgit/openstack/kuryr-tempest-plugin
 
@@ -584,7 +584,7 @@ The murano project does not have in-tree tempest plugin.
 
 Completion Artifacts:
 
-The murano team is maintaining it's tempest plugin in a separate repo:
+The murano team is maintaining its tempest plugin in a separate repo:
 
 http://git.openstack.org/cgit/openstack/murano-tempest-plugin
 
@@ -845,7 +845,7 @@ The solum project does not have in-tree tempest plugin.
 
 Completion Artifacts:
 
-The solum team is maintaining it's tempest plugin in a separate repo:
+The solum team is maintaining its tempest plugin in a separate repo:
 
 http://git.openstack.org/cgit/openstack/solum-tempest-plugin
 
