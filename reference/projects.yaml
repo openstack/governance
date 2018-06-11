@@ -88,6 +88,9 @@ Chef OpenStack:
     cookbook-openstack-client:
       repos:
         - openstack/cookbook-openstack-client
+    cookbook-openstackclient:
+      repos:
+        - openstack/cookbook-openstackclient
     cookbook-openstack-common:
       repos:
         - openstack/cookbook-openstack-common
