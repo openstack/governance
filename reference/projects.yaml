@@ -1029,6 +1029,9 @@ Infrastructure:
     activity-board:
       repos:
         - openstack-infra/activity-board
+    afsmon:
+      repos:
+        - openstack-infra/afsmon
     ansible-role-puppet:
       repos:
         - openstack-infra/ansible-role-puppet
