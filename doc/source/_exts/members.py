@@ -20,8 +20,8 @@ from docutils.parsers.rst import directives
 from docutils.parsers.rst.directives import tables
 from docutils.utils import SystemMessagePropagation
 
-# Full name (IRC nickname) [expires in] {role}
-_PATTERN = re.compile('(?P<name>.*)\s+\((?P<irc>.*)\)\s+\[(?P<date>.*)\](\s+\{(?P<role>.*)\})?')
+# Full name (IRC) <E-mail> [expires in] {role}
+_PATTERN = re.compile('(?P<name>.*)\s+\((?P<irc>.*)\)\s+\<(?P<email>.*)\>\s+\[(?P<date>.*)\](\s+\{(?P<role>.*)\})?')
 
 
 def _parse_members_file(app, filename):
@@ -44,10 +44,11 @@ class MembersTable(tables.Table):
     """Insert the members table using the referenced file as source.
     """
 
-    HEADERS = ('Full Name', 'IRC Nickname', 'Term Expires', 'Role')
+    HEADERS = ('Full Name', 'IRC', 'E-mail', 'Term Expires', 'Role')
     HEADER_MAP = {
         'Full Name': 'name',
-        'IRC Nickname': 'irc',
+        'IRC': 'irc',
+        'E-mail': 'email',
         'Term Expires': 'date',
         'Role': 'role',
     }
