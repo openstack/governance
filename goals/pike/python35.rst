@@ -1,5 +1,7 @@
 .. -*- mode: rst -*-
 
+.. _goal-support-python-3.5:
+
 ====================
  Support Python 3.5
 ====================
