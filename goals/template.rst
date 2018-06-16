@@ -8,6 +8,13 @@ justification for applying the goal to all OpenStack projects.
 :Storyboard Board: <put the link to the tracking board here>
 :Storyboard Story: <put the link to the story for this goal here>
 
+Champion
+========
+
+Goals need a main driver to project-manage them to completion. Project teams
+need assistance, reminders and sometimes direct help in order for them to
+complete the goals.
+
 Gerrit Topic
 ============
 
