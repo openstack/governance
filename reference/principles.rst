@@ -47,6 +47,27 @@ leadership exists, that leadership is not solely responsible for change.
 The entire OpenStack community is empowered to identify problems and, where
 possible, assemble the teams to resolve them.
 
+We Value Constructive Peer Review
+---------------------------------
+
+Peer review is a fundamental part of our culture. Reviewing submissions of
+code and documentation helps us find mistakes and become better programmers
+or writers. Peer review helps us build trust among team members and gives
+us an opportunity to teach each other about different parts of our software,
+CI system, and processes. Without the goodwill of contributors and reviewers,
+we would have no community.
+
+We want review comments to be constructive so that the review process fulfills
+its purpose. We do not want reviews to be used to block contributions based on
+minor issues, often called "nits". The focus should always be on incremental
+improvement of the system as a whole, rather than ensuring each individual
+change is perfect.
+
+We encourage reviewers who find minor aspects of a change they feel need to
+be changed, to engage the author in discussion versus downvoting, and
+collaborate on how best to move the change forward. Often this may result
+in a follow-up change, or revising the change under review.
+
 One Contributor, One Vote
 -------------------------
 
