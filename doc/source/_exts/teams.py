@@ -40,8 +40,8 @@ def _team_to_rst(name, info):
     yield '=' * len(title)
     yield ''
     yield ':Home Page: ' + info.get('url', '')
-    ptl = info.get('ptl', {'name': '', 'irc': ''})
-    yield ':PTL: %(name)s (``%(irc)s``)' % ptl
+    ptl = info.get('ptl', {'name': '', 'irc': '', 'email': ''})
+    yield ':PTL: %(name)s (``%(irc)s``) <%(email)s>' % ptl
     irc_channel = info.get('irc-channel')
     if irc_channel:
         yield ':IRC Channel: `#%s <%s%s>`__' % (
