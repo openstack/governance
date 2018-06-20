@@ -37,6 +37,18 @@ the system which may also benefit from using it.
 Current list of base services
 =============================
 
+**A Castellan-compatible key store**
+  OpenStack components may keep secrets in a key store, using Oslo's
+  Castellan library as an indirection layer. While OpenStack provides a
+  Castellan-compatible key store service, Barbican, other key store backends
+  are also available for Castellan. Note that in the context of the base
+  services set Castellan is intended only to provide an interface for
+  services to interact with a key store, and it should not be treated as a
+  means to proxy API calls from users to that key store. In order to reduce
+  unnecessary exposure risks, any user interaction with secret material
+  should be left to a dedicated API instead (preferably as provided by
+  Barbican).
+
 **An oslo.db-compatible database**
   OpenStack components store data in a database, using oslo.db as an
   indirection layer. While most OpenStack deployments use MySQL, other
