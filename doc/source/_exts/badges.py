@@ -185,7 +185,8 @@ def _generate_teams_badges(app, exception=None):
             badges = _organize_badges(_generate_tag_badges(tags))
             svg = '\n'.join(_to_svg(chain(*badges)))
 
-            root_width = badges[-1][-1]['svg_x'] + badges[-1][-1]['width']
+            root_width = max([bdg_row[-1]['width'] + bdg_row[-1]['svg_x']
+                              for bdg_row in badges])
             root_height = badges[-1][0]['svg_y'] + badges[-1][0]['height']
 
             for repo in deliverable.get('repos', []):
