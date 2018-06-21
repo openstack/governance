@@ -250,7 +250,7 @@ Completion Artifacts:
    You can follow Bug 1742813_ for more information.
 
    .. _1742813: https://bugs.launchpad.net/glance/+bug/1742813
-   
+
 * Glance supports running as a wsgi app with this branch:
   https://review.openstack.org/#/q/status:merged+project:openstack/glance+branch:master+topic:goal-deploy-api-in-wsgi
 * Devstack is now deploying glance as a wsgi app under uwsgi with apache with:
@@ -383,6 +383,7 @@ Completion Artifacts:
 * https://review.openstack.org/439577
 * https://review.openstack.org/436890
 * https://review.openstack.org/479447
+* https://review.openstack.org/560888
 
 murano
 ------
