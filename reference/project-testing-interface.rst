@@ -59,11 +59,11 @@ To support documentation generation, projects should:
 Assuming requirements have been properly installed as indicated by
 ``doc/requirements.txt`` and ``bindep.txt``, the following command should
 work with no additional setup and should result in the documentation being
-emitted into ``doc/build``.
+emitted into ``doc/build/html``.
 
 .. code-block:: bash
 
-  sphinx-build -b html doc/source doc/build
+  sphinx-build -b html doc/source doc/build/html
 
 Language specific instructions supplement these and are in addition to them.
 
