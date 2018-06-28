@@ -76,6 +76,17 @@ After goals are approved, the goal champions will create one story per
 goal and one task per project per goal to track progress on
 completion.
 
+.. note::
+
+   It is expected that some projects may not always be able to complete a goal
+   within the targeted cycle. If this is the case, existing projects are
+   encouraged to continue to track their progress once they are able to further
+   work on the goals.
+
+   New projects do not need to retroactively track past goals as part of the
+   created stories or in pre-StoryBoard documentation, whether the goals were
+   completed before or after becoming an official project.
+
 Team Acknowledgment of Goals
 ----------------------------
 
