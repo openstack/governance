@@ -3237,9 +3237,6 @@ Release Management:
     release-test:
       repos:
         - openstack/release-test
-    release-tools:
-      repos:
-        - openstack-infra/release-tools
     releases:
       repos:
         - openstack/releases
