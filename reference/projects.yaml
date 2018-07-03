@@ -10,8 +10,6 @@ barbican:
     To produce a secret storage and generation system capable of providing key
     management for services wishing to enable encryption features.
   url: https://wiki.openstack.org/wiki/Barbican
-  tags:
-    - team:diverse-affiliation
   deliverables:
     barbican:
       repos:
@@ -146,8 +144,6 @@ cinder:
     access to Block Storage resources via abstraction and automation on top of
     other block storage devices.
   url: https://wiki.openstack.org/wiki/Cinder
-  tags:
-    - team:diverse-affiliation
   deliverables:
     cinder:
       repos:
@@ -283,8 +279,6 @@ designate:
     To provide scalable, on demand, self service access to authoritative DNS
     services, in technology-agnostic manner.
   url: https://wiki.openstack.org/wiki/Designate
-  tags:
-    - team:diverse-affiliation
   deliverables:
     designate:
       repos:
@@ -323,8 +317,6 @@ Documentation:
     guides enabling OpenStack project teams to produce consistent, accurate,
     and high-quality documentation.
   url: https://wiki.openstack.org/wiki/Documentation
-  tags:
-    - team:diverse-affiliation
   deliverables:
     constellations:
       repos:
@@ -373,8 +365,6 @@ dragonflow:
     It's designed to support containers networking and large scale
     production loads.
   url: https://wiki.openstack.org/wiki/Dragonflow
-  tags:
-    - team:single-vendor
   deliverables:
     dragonflow:
       repos:
@@ -535,8 +525,6 @@ horizon:
     To provide an extensible unified web based user interface for all
     OpenStack services.
   url: https://wiki.openstack.org/wiki/Horizon
-  tags:
-    - team:diverse-affiliation
   deliverables:
     django_openstack_auth:
       repos:
@@ -662,8 +650,6 @@ I18n:
     To make OpenStack ubiquitously accessible to people of
     all language backgrounds.
   url: https://wiki.openstack.org/wiki/I18nTeam
-  tags:
-    - team:diverse-affiliation
   deliverables:
     i18n:
       repos:
@@ -1023,8 +1009,6 @@ Infrastructure:
     Develop and maintain the tooling and infrastructure needed to support the
     development process and general operation of the OpenStack project.
   url: https://docs.openstack.org/infra/system-config/
-  tags:
-    - team:diverse-affiliation
   deliverables:
     activity-board:
       repos:
@@ -1513,8 +1497,6 @@ ironic:
     managing and provisioning physical machines, and to do this in a
     security-aware and fault-tolerant manner.
   url: https://wiki.openstack.org/wiki/Ironic
-  tags:
-    - team:diverse-affiliation
   deliverables:
     bifrost:
       repos:
@@ -1633,8 +1615,6 @@ keystone:
     To facilitate API client authentication, service discovery, distributed
     multi-tenant authorization, and auditing.
   url: https://wiki.openstack.org/wiki/Keystone
-  tags:
-    - team:diverse-affiliation
   deliverables:
     keystone:
       repos:
@@ -1689,8 +1669,6 @@ kolla:
     To provide production-ready containers and deployment tools for operating
     OpenStack clouds.
   url: https://wiki.openstack.org/wiki/Kolla
-  tags:
-    - team:diverse-affiliation
   deliverables:
     kolla:
       repos:
@@ -1761,8 +1739,6 @@ magnum:
     To provide a set of services for provisioning, scaling, and managing
     container orchestration engines.
   url: https://wiki.openstack.org/wiki/Magnum
-  tags:
-    - team:diverse-affiliation
   deliverables:
     magnum:
       repos:
@@ -1792,8 +1768,6 @@ manila:
     in a multitenant cloud environment, similar to how OpenStack provides
     for block-based storage management through the Cinder project.
   url: https://wiki.openstack.org/wiki/Manila
-  tags:
-    - team:diverse-affiliation
   deliverables:
     manila:
       repos:
@@ -1836,8 +1810,6 @@ masakari:
     Provide instances high availability service for OpenStack
     clouds by automatically recovering the instances from failures.
   url: https://wiki.openstack.org/wiki/Masakari
-  tags:
-    - team:single-vendor
   deliverables:
     masakari:
       repos:
@@ -1903,8 +1875,6 @@ monasca:
     services that can be used by both operators and tenants to gain
     operational insight and visibility, ensuring availability and stability.
   url: https://wiki.openstack.org/wiki/Monasca
-  tags:
-    - team:diverse-affiliation
   deliverables:
     monasca-api:
       repos:
@@ -2024,8 +1994,6 @@ neutron:
     To implement services and associated libraries to provide on-demand,
     scalable, and technology-agnostic network abstraction.
   url: https://wiki.openstack.org/wiki/Neutron
-  tags:
-    - team:diverse-affiliation
   deliverables:
     networking-bagpipe:
       repos:
@@ -2113,8 +2081,6 @@ nova:
     scalable, on demand, self service access to compute resources, including
     bare metal, virtual machines, and containers.
   url: https://wiki.openstack.org/wiki/Nova
-  tags:
-    - team:diverse-affiliation
   deliverables:
     nova:
       repos:
@@ -2201,8 +2167,6 @@ OpenStack Charms:
     Develop and maintain Juju Charms for deploying and managing
     OpenStack services.
   url: https://docs.openstack.org/charm-guide/latest/
-  tags:
-    - team:single-vendor
   deliverables:
     charms.ceph:
       repos:
@@ -2456,8 +2420,6 @@ OpenStack-Helm:
     To provide a collection of Helm charts that simply, resiliently,
     and flexibly deploy OpenStack and related services on Kubernetes.
   url: https://wiki.openstack.org/wiki/Openstack-helm
-  tags:
-    - team:single-vendor
   deliverables:
     openstack-helm:
       repos:
@@ -2610,8 +2572,6 @@ OpenStackClient:
     Provide a single command-line interface for OpenStack services with a
     uniform command set and format.
   url: https://wiki.openstack.org/wiki/OpenStackClient
-  tags:
-    - team:diverse-affiliation
   deliverables:
     cliff:
       repos:
@@ -2638,8 +2598,6 @@ OpenStackSDK:
     exposing both the full set of low-level APIs as well as curated higher
     level business logic.
   url: https://docs.openstack.org/openstacksdk/latest/
-  tags:
-    - team:diverse-affiliation
   deliverables:
     openstacksdk:
       repos:
@@ -2677,8 +2635,6 @@ oslo:
     projects. The APIs provided by these libraries should be high quality,
     stable, consistent, documented and generally applicable.
   url: https://wiki.openstack.org/wiki/Oslo
-  tags:
-    - team:diverse-affiliation
   deliverables:
     automaton:
       repos:
@@ -2897,8 +2853,6 @@ PowerVMStackers:
     To provide OpenStack support for the POWER CPU architecture on the PowerVM
     hypervisor.
   url: https://wiki.openstack.org/wiki/PowerVM
-  tags:
-    - team:single-vendor
   deliverables:
     ceilometer-powervm:
       repos:
@@ -3080,8 +3034,6 @@ qinling:
     Provide a serverless platform for managing functions that can be executed
     in a scalable, highly-available manner.
   url: https://wiki.openstack.org/wiki/Qinling
-  tags:
-    - team:single-vendor
   deliverables:
     qinling:
       repos:
@@ -3101,8 +3053,6 @@ Quality Assurance:
     stability and quality of OpenStack, and its release readiness at any point
     during the release cycle.
   url: https://wiki.openstack.org/wiki/QA
-  tags:
-    - team:diverse-affiliation
   deliverables:
     bashate:
       repos:
@@ -3228,8 +3178,6 @@ Release Management:
     versioning rules and tools, then enabling project teams to produce
     their own releases.
   url: https://wiki.openstack.org/wiki/Release_Management
-  tags:
-    - team:diverse-affiliation
   deliverables:
     release-schedule-generator:
       repos:
@@ -3261,8 +3209,6 @@ requirements:
     while ensuring that all libraries are compatible both technically and
     from a licensing standpoint.
   url: https://wiki.openstack.org/wiki/Requirements
-  tags:
-    - team:diverse-affiliation
   deliverables:
     requirements:
       repos:
@@ -3331,7 +3277,6 @@ searchlight:
     cloud resources.
   url: https://wiki.openstack.org/wiki/Searchlight
   tags:
-    - team:diverse-affiliation
     - status:maintenance-mode
   deliverables:
     searchlight:
@@ -3359,8 +3304,6 @@ Security:
     for reported vulnerabilities and to foster new security initiatives to the
     benefit of the OpenStack community as a whole.
   url: https://wiki.openstack.org/wiki/Security
-  tags:
-    - team:diverse-affiliation
   deliverables:
     anchor:
       repos:
@@ -3398,8 +3341,6 @@ senlin:
     To implement clustering services and libraries for the management of groups
     of homogeneous objects exposed by other OpenStack services.
   url: https://wiki.openstack.org/wiki/Senlin
-  tags:
-    - team:diverse-affiliation
   deliverables:
     senlin:
       repos:
@@ -3426,8 +3367,6 @@ solum:
     application development process by automating the source-to-image
     process, and simplifying app-centric deployment.
   url: https://wiki.openstack.org/wiki/Solum
-  tags:
-    - team:single-vendor
   deliverables:
     python-solumclient:
       repos:
@@ -3456,8 +3395,6 @@ Stable branch maintenance:
     of a common stable branch policy. Keeping CI working on stable branches.
     Creating and improving related tooling and automation.
   url: https://wiki.openstack.org/wiki/StableBranch
-  tags:
-    - team:diverse-affiliation
   deliverables: {}
 
 storlets:
@@ -3472,8 +3409,6 @@ storlets:
     executing storage centric user defined functions near the data within
     OpenStack Swift
   url: https://wiki.openstack.org/wiki/Storlets
-  tags:
-    - team:single-vendor
   deliverables:
     storlets:
       repos:
@@ -3595,8 +3530,6 @@ tricircle:
     To provide networking automation across Neutron in multi-region OpenStack
     clouds deployment.
   url: https://wiki.openstack.org/wiki/Tricircle
-  tags:
-    - team:single-vendor
   deliverables:
     tricircle:
       repos:
@@ -3616,8 +3549,6 @@ tripleo:
     Develop and maintain tooling and infrastructure able to deploy OpenStack in
     production, using OpenStack itself wherever possible.
   url: https://wiki.openstack.org/wiki/TripleO
-  tags:
-    - team:single-vendor
   deliverables:
     ansible-role-container-registry:
       repos:
@@ -3816,8 +3747,6 @@ watcher:
     Watcher's goal is to provide a flexible and scalable resource optimization
     service for multi-tenant OpenStack-based clouds.
   url: https://wiki.openstack.org/wiki/Watcher
-  tags:
-    - team:diverse-affiliation
   deliverables:
     watcher:
       repos:
@@ -3846,8 +3775,6 @@ winstackers:
     into OpenStack. This includes producing projects containing Hyper-V /
     Windows related code, commonly used in OpenStack scenarios.
   url: https://wiki.openstack.org/wiki/Os-win
-  tags:
-    - team:single-vendor
   deliverables:
     os-win:
       repos:
@@ -3893,8 +3820,6 @@ zaqar:
     scalable and highly-available manner, and to create and maintain
     associated Python libraries and documentation.
   url: https://wiki.openstack.org/wiki/Zaqar
-  tags:
-    - team:diverse-affiliation
   deliverables:
     python-zaqarclient:
       repos:
@@ -3926,8 +3851,6 @@ zun:
     To provide an OpenStack containers service that integrates with various
     container technologies for managing application containers on OpenStack.
   url: https://wiki.openstack.org/wiki/Zun
-  tags:
-    - team:diverse-affiliation
   deliverables:
     python-zunclient:
       repos:

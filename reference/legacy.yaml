@@ -16,8 +16,6 @@ astara:
     load balancing, vpn) for connecting and security multi-tenant OpenStack
     environments.
   url: https://wiki.openstack.org/wiki/Astara
-  tags:
-    - team:single-vendor
   deliverables:
     astara:
       repos:
@@ -55,8 +53,6 @@ Chef OpenStack:
     and consumption of OpenStack cloud deployments.
   url: https://wiki.openstack.org/wiki/Chef
   partial: yes
-  tags:
-    - team:diverse-affiliation
   deliverables:
     cookbook-openstack-bare-metal:
       repos:
@@ -112,8 +108,6 @@ cue:
     To provide a multi-tenant service that offers scalable and reliable
     provisioning and management capabilities for off-the-shelf message brokers.
   url: https://wiki.openstack.org/wiki/Cue
-  tags:
-    - team:single-vendor
   deliverables:
     cue:
       repos:
@@ -359,8 +353,6 @@ OpenStackSalt:
     based IT automation for installing and operating
     OpenStack deployments.
   url: https://wiki.openstack.org/wiki/OpenStackSalt
-  tags:
-    - team:single-vendor
   deliverables:
     openstack-salt:
       repos:
@@ -474,8 +466,6 @@ Packaging-deb:
   mission: >
     Maintain packages for Debian (and other deb based distributions) as a
     community.
-  tags:
-    - team:single-vendor
   deliverables:
     deb-alembic:
       repos:

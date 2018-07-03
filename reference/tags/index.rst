@@ -38,8 +38,6 @@ Team Description Tags
    :maxdepth: 1
 
    status_maintenance-mode
-   team_diverse-affiliation
-   team_single-vendor
 
 Project Assertion Tags
 ======================
