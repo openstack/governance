@@ -2176,6 +2176,7 @@ octavia:
         - openstack/octavia
       tags:
         - stable:follows-policy
+        - assert:supports-upgrade
     octavia-dashboard:
       repos:
         - openstack/octavia-dashboard
