@@ -1423,6 +1423,14 @@ Packaging-deb:
       repos:
         - openstack/deb-zaqar-ui
 
+Release Management:
+  partial: yes
+  deliverables:
+    release-tools:
+      retired-on: 2018-06-29
+      repos:
+        - openstack-infra/release-tools
+
 Security:
   url: https://wiki.openstack.org/wiki/Security
   partial: yes
