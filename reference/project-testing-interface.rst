@@ -55,17 +55,32 @@ To support documentation generation, projects should:
   ``doc`` tag.
 * Depend on ``openstackdocstheme`` for documentation and configure it to be
   used in ``doc/source/conf.py``.
+* Have a ``docs`` environment set up in a ``tox.ini`` file within the
+  repository.
 
-Assuming requirements have been properly installed as indicated by
-``doc/requirements.txt`` and ``bindep.txt``, the following command should
-work with no additional setup and should result in the documentation being
-emitted into ``doc/build/html``.
+Assuming non-Python requirements have been properly installed as
+indicated by ``bindep.txt``, the following command should work with no
+additional setup and should result in the documentation being emitted
+into ``doc/build/html``.
 
 .. code-block:: bash
 
-  sphinx-build -b html doc/source doc/build/html
+  tox -e docs
 
-Language specific instructions supplement these and are in addition to them.
+.. note::
+
+   We strongly discourage project teams from adding commands to the
+   ``docs`` environment beyond:
+
+   .. code-block:: bash
+
+      sphinx-build -W -b html doc/source doc/build/html
+
+   Additional logic needed around Sphinx generation should go into
+   Sphinx plugins.
+
+Language specific instructions supplement these and are in addition to
+them.
 
 Release Notes
 -------------

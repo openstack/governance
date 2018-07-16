@@ -148,22 +148,6 @@ dir should be the $project.pot file. For instance, for nova, there should be
 nova/locale/nova.pot. Babel commands should be configured out output their .mo
 files in to $project/locale as well.
 
-Documentation
--------------
-
-In addition to the normal PTI :ref:`pti-documentation` requirements, as a
-convenience for developers, it is recommended that projects provide
-a ``docs`` environment for tox that will run
-
-.. code-block:: bash
-
-  sphinx-build -b html doc/source doc/build
-
-The project infrastructure will not use ``tox -e docs`` to build the
-documentation. Therefore it is **STRONGLY** discouraged for people to put
-additional logic into the command section of that tox environment. Additional
-logic needed around Sphinx generation should go into Sphinx plugins.
-
 Release Notes
 -------------
 
