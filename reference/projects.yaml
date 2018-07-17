@@ -3578,7 +3578,7 @@ tripleo:
         - openstack/ansible-role-k8s-tripleo
     ansible-role-openstack-operations:
       repos:
-        - opestack/ansible-role-openstack-operations
+        - openstack/ansible-role-openstack-operations
     ansible-role-redhat-subscription:
       repos:
         - openstack/ansible-role-redhat-subscription
