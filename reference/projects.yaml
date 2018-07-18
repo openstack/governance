@@ -3741,6 +3741,9 @@ tripleo:
     tempest-tripleo-ui:
       repos:
         - openstack/tempest-tripleo-ui
+    tripleo-ansible:
+      repos:
+        - openstack/tripleo-ansible
     tripleo-ci:
       repos:
         - openstack-infra/tripleo-ci
