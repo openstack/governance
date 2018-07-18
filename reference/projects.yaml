@@ -3704,7 +3704,7 @@ tripleo:
         - openstack/ansible-role-tripleo-ui
     ansible-role-tripleo-zaqar:
       repos:
-        - openstack/ansible-role-zaqar
+        - openstack/ansible-role-tripleo-zaqar
     dib-utils:
       repos:
         - openstack/dib-utils
