@@ -329,11 +329,15 @@ def get_one_status(change, delegates):
     return {
         'Topic': topic,
         'Subject': subject,
+        'Summary': '\n'.join([subject.strip(), '', url]),
         'Owner': owner,
         'URL': url,
         'Age': age.days,
         'Date': latest_created.date(),
         'Can Approve': can_approve,
+        'Status': '\n'.join([topic, can_approve,
+                             '{} days old'.format(age.days),
+                             earliest]),
         'Earliest': earliest,
         'Votes': votes,
     }
@@ -366,12 +370,8 @@ def main():
     )
 
     columns = (
-        'Topic',
-        'Subject',
-        'Can Approve',
-        'Earliest',
-        'URL',
-        'Age',
+        'Summary',
+        'Status',
         'Votes',
     )
 
@@ -379,9 +379,9 @@ def main():
         field_names=columns,
         hrules=prettytable.ALL,
     )
-    x.align['Subject'] = 'l'
-    x.align['Can Approve'] = 'l'
-    x.align['Age'] = 'r'
+    x.align['Summary'] = 'l'
+    x.align['Status'] = 'l'
+    x.align['Votes'] = 'l'
     for row in status:
         x.add_row([row[c] for c in columns])
     print(x.get_string())
