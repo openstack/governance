@@ -194,6 +194,7 @@ def get_one_status(change, delegates):
             time_to_approve = since_majority > datetime.timedelta(3)
         else:
             time_to_approve = False
+            earliest = '4 days after majority'
 
         if votes_to_approve and time_to_approve:
             parts.append('YES')
@@ -241,6 +242,7 @@ def get_one_status(change, delegates):
             time_to_approve = since_majority > datetime.timedelta(3)
         else:
             time_to_approve = False
+            earliest = '4 days after majority'
 
         if votes_to_approve and time_to_approve:
             parts.append('YES')
