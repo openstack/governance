@@ -3605,6 +3605,9 @@ tripleo:
     ansible-role-tripleo-cinder:
       repos:
         - openstack/ansible-role-tripleo-cinder
+    ansible-role-tripleo-cookiecutter:
+      repos:
+        - openstack/ansible-role-tripleo-cookiecutter
     ansible-role-tripleo-designate:
       repos:
         - openstack/ansible-role-tripleo-designate
