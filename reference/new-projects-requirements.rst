@@ -88,6 +88,16 @@ candidate projects may ask the Technical Committee for an early answer on
 the question of alignment with the OpenStack Mission, before the project is
 set up on OpenStack development infrastructure.
 
+If the project has not followed the 4 Opens since its inception - i.e. it was
+seeded with the release of a pre-existing code base - then the TC may look for
+evidence of active engagement from the community, beyond the original authors.
+If the community did not get the opportunity to contribute to the earliest
+decisions (which are usually the hardest to change), then a lack of subsequent
+community engagement is of greater concern, as it may indicate that the project
+only meets the needs of a single organisation. Projects that have always
+followed the 4 Opens are not subject to any particular standard of community
+engagement.
+
 Once a project has joined OpenStack, it may create additional source code
 repositories as needed at the discretion of its Project Team Lead (PTL) without
 prior approval from the TC as long as the additional source code repositories
