@@ -319,6 +319,7 @@ def get_one_status(change, delegates):
             can_approve = 'YES'
 
     else:
+        topic = 'unknown topic'
         can_approve = 'unknown topic'
 
     votes = '\n'.join([
