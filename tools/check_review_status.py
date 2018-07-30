@@ -268,7 +268,7 @@ def get_one_status(change, delegates):
         # https://governance.openstack.org/tc/reference/house-rules.html#typo-fixes
         if votes[-1] or code_reviews[-1]:
             can_approve = 'dissenting votes'
-        elif owner == 'Doug Hellmann':  # TC-chair
+        elif owner == 'Doug Hellmann' or owner == 'Mohammed Naser':  # TC-chairs
             if votes[1] < 2:
                 can_approve = 'not enough reviews'
             else:
