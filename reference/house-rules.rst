@@ -13,7 +13,7 @@ Typo fixes
 
 When the change fixes content that is obviously wrong (updates a PTL email
 address, fixes a typo...) then the chair is allowed to directly approve them.
-Typo fixes proposed by the chair should have 2 RoleCall+1 votes from TC members.
+Typo fixes proposed by the chair should have 2 RollCall+1 votes from TC members.
 
 Code changes
 ------------
