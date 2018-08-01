@@ -166,6 +166,7 @@ def get_one_status(change, delegates):
     code_reviews = count_votes(change, 'Code-Review')
     votes = count_votes(change)
     workflow = count_votes(change, 'Workflow')
+    verified = count_votes(change, 'Verified')
 
     can_approve = 'no'
 
@@ -174,6 +175,9 @@ def get_one_status(change, delegates):
 
     elif workflow[1]:
         can_approve = 'APPROVED'
+
+    elif verified[-1]:
+        can_approve = 'NO, verification failure'
 
     elif topic == 'on-hold':
         can_approve = 'on hold'
