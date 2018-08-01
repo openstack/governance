@@ -1,3 +1,5 @@
+.. _python2-deprecation-timeline:
+
 =========================================
  2018-05-29 Python2 Deprecation Timeline
 =========================================
