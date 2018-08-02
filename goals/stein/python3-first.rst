@@ -11,7 +11,8 @@ operating under python 2 (via unit, functional, or integration
 tests). This goal describes the activities needed to move us to this
 "python 3 first" state.
 
-:Storyboard Story: https://storyboard.openstack.org/#!/story/2002586
+:Storyboard stories: https://storyboard.openstack.org/#!/search?tags=goal-python3-first
+:Storyboard dashboard: https://storyboard.openstack.org/#!/board/104
 
 Champions
 =========
