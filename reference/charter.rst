@@ -63,7 +63,7 @@ OpenStack community at large. It may be revoked under the conditions described
 in the Foundation bylaws.
 
 The elected TC chair will seek another TC member to volunteer to serve
-as vice chair for the same term. The chair may delegate some regular
+as vice chair until the next chair election is held. The chair may delegate some regular
 duties to the vice chair. In addition to any delegated tasks, the vice
 chair is responsible for being ready to step in and fulfill the
 responsibilities of the TC chair when the elected chair is not
