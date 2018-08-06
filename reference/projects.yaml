@@ -3294,44 +3294,6 @@ searchlight:
       repos:
         - openstack/searchlight-ui
 
-Security:
-  ptl:
-    name: Luke Hinds
-    irc: lhinds
-    email: lhinds@redhat.com
-  mission: >
-    To provide developers and consumers of OpenStack with appropriate security
-    guidance and advice. To develop tooling that enhances levels of security
-    within OpenStack projects. To issue Security Notes and Security Advisories
-    for reported vulnerabilities and to foster new security initiatives to the
-    benefit of the OpenStack community as a whole.
-  url: https://wiki.openstack.org/wiki/Security
-  deliverables:
-    anchor:
-      repos:
-        - openstack/anchor
-    ossa:
-      repos:
-        - openstack/ossa
-    security-analysis:
-      repos:
-        - openstack/security-analysis
-    security-doc:
-      repos:
-        - openstack/security-doc
-    security-specs:
-      repos:
-        - openstack/security-specs
-    syntribos:
-      repos:
-        - openstack/syntribos
-    syntribos-openstack-templates:
-      repos:
-        - openstack/syntribos-openstack-templates
-    syntribos-payloads:
-      repos:
-        - openstack/syntribos-payloads
-
 senlin:
   ptl:
     name: XueFeng Liu
