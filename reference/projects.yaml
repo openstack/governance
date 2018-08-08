@@ -62,9 +62,9 @@ barbican:
 
 blazar:
   ptl:
-    name: Masahito Muroi
-    irc: masahito
-    email: muroi.masahito@lab.ntt.co.jp
+    name: Pierre Riteau
+    irc: priteau
+    email: pierre@stackhpc.com
   irc-channel: openstack-blazar
   service: Resource reservation service
   mission: >
@@ -207,9 +207,9 @@ cinder:
 
 cloudkitty:
   ptl:
-    name: Christophe Sauthier
-    irc: huats
-    email: christophe.sauthier@objectif-libre.com
+    name: Luka Peschke
+    irc: None supplied
+    email: luka.peschke@objectif-libre.com
   irc-channel: cloudkitty
   service: Rating service
   mission: >
@@ -275,9 +275,9 @@ congress:
 
 cyborg:
   ptl:
-    name: Zhipeng Huang
-    irc: zhipeng
-    email: huangzhipeng@huawei.com
+    name: Li Liu
+    irc: None supplied
+    email: liliueecg@gmail.com
   irc-channel: openstack-cyborg
   service: Accelerator Life Cycle Management
   mission: >
@@ -1590,9 +1590,9 @@ ironic:
 
 karbor:
   ptl:
-    name: Ying Chen
-    irc: chenying
-    email: ying.chen@huawei.com
+    name: Pengju Jiao
+    irc: jiaopengju
+    email: jiaopengju@cmss.chinamobile.com
   irc-channel: openstack-karbor
   service: Data Protection Orchestration Service
   mission: >
@@ -1667,9 +1667,9 @@ keystone:
 
 kolla:
   ptl:
-    name: Jeffrey Zhang
-    irc: jeffrey4l
-    email: zhang.lei.fly@gmail.com
+    name: Eduardo Gonzalez Gutierrez
+    irc: egonzalez
+    email: dabarren@gmail.com
   irc-channel: openstack-kolla
   mission: >
     To provide production-ready containers and deployment tools for operating
@@ -2166,9 +2166,9 @@ octavia:
 
 OpenStack Charms:
   ptl:
-    name: James Page
-    irc: jamespage
-    email: james.page@ubuntu.com
+    name: Frode Nordahl
+    irc: fnordahl
+    email: frode.nordahl@canonical.com
   irc-channel: openstack-charms
   service: Juju Charms for deployment of OpenStack
   mission: >
@@ -2419,9 +2419,9 @@ OpenStack Charms:
 
 OpenStack-Helm:
   ptl:
-    name: Matt McEuen
-    irc: mattmceuen
-    email: matt.mceuen@att.com
+    name: Pete Birley
+    irc: portdirect
+    email: pete@port.direct
   service: Helm charts for OpenStack services
   irc-channel: openstack-helm
   mission: >
@@ -2441,9 +2441,9 @@ OpenStack-Helm:
 
 OpenStackAnsible:
   ptl:
-    name: Jean-Philippe Evrard
-    irc: evrardjp
-    email: jean-philippe@evrard.me
+    name: Mohammed Naser
+    irc: mnaser
+    email: mnaser@vexxhost.com
   service: Ansible playbooks and roles for deployment
   irc-channel: openstack-ansible
   mission: >
@@ -2880,9 +2880,9 @@ PowerVMStackers:
 
 Puppet OpenStack:
   ptl:
-    name: Mohammed Naser
-    irc: mnaser
-    email: mnaser@vexxhost.com
+    name: Tobias Urdin
+    irc: tobasco
+    email: tobias@busybox.se
   service: Puppet modules for deployment
   mission: >
     The Puppet modules for OpenStack bring scalable and reliable IT automation
@@ -3299,9 +3299,9 @@ searchlight:
 
 senlin:
   ptl:
-    name: XueFeng Liu
-    irc: XueFeng
-    email: liu.xuefeng1@zte.com.cn
+    name: Duc Truong
+    irc: dtruong
+    email: dtruong@blizzard.com
   irc-channel: senlin
   service: Clustering service
   mission: >
@@ -3402,9 +3402,9 @@ swift:
 
 tacker:
   ptl:
-    name: Yong Sheng Gong
-    irc: gongysh
-    email: gong.yongsheng@99cloud.net
+    name: dharmendra kushwaha
+    irc: dkushwaha
+    email: dharmendra.kushwaha@india.nec.com
   irc-channel: tacker
   service: NFV Orchestration service
   mission: >
@@ -3475,9 +3475,9 @@ Telemetry:
 
 tricircle:
   ptl:
-    name: Zhiyuan Cai
-    irc: zhiyuan
-    email: luckyvega.g@gmail.com
+    name: baisen song
+    irc: None supplied
+    email: songbaisen@szzt.com.cn
   irc-channel: openstack-tricircle
   service: Networking automation across Neutron service
   mission: >
@@ -3494,9 +3494,9 @@ tricircle:
 
 tripleo:
   ptl:
-    name: Alex Schultz
-    irc: mwhahaha
-    email: aschultz@redhat.com
+    name: Juan Osorio Robles
+    irc: jaosorior
+    email: jaosorior@redhat.com
   irc-channel: tripleo
   service: Deployment service
   mission: >
@@ -3898,9 +3898,9 @@ zaqar:
 
 zun:
   ptl:
-    name: Feng Shengqin
-    irc: fengshengqin
-    email: shengqin922@163.com
+    name: Wei Ji
+    irc: None supplied
+    email: ji.wei3@zte.com.cn
   irc-channel: openstack-zun
   service: Containers service
   mission: >
