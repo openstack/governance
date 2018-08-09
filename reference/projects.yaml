@@ -265,7 +265,7 @@ congress:
 cyborg:
   ptl:
     name: Li Liu
-    irc: None supplied
+    irc: No nick supplied
     email: liliueecg@gmail.com
   irc-channel: openstack-cyborg
   service: Accelerator Life Cycle Management
@@ -3449,7 +3449,7 @@ Telemetry:
 tricircle:
   ptl:
     name: baisen song
-    irc: None supplied
+    irc: songbaisen
     email: songbaisen@szzt.com.cn
   irc-channel: openstack-tricircle
   service: Networking automation across Neutron service
@@ -3853,7 +3853,7 @@ zaqar:
 zun:
   ptl:
     name: Wei Ji
-    irc: None supplied
+    irc: No nick supplied
     email: ji.wei3@zte.com.cn
   irc-channel: openstack-zun
   service: Containers service
