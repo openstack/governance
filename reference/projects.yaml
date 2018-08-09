@@ -204,7 +204,7 @@ cinder:
 cloudkitty:
   ptl:
     name: Luka Peschke
-    irc: None supplied
+    irc: peschk_l
     email: luka.peschke@objectif-libre.com
   irc-channel: cloudkitty
   service: Rating service
