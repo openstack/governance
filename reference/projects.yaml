@@ -149,6 +149,9 @@ Chef OpenStack:
     cookbook-openstack-telemetry:
       repos:
         - openstack/cookbook-openstack-telemetry
+    openstack-chef:
+      repos:
+        - openstack/openstack-chef
     openstack-chef-repo:
       repos:
         - openstack/openstack-chef-repo
