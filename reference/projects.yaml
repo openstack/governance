@@ -3243,9 +3243,9 @@ sahara:
 
 searchlight:
   ptl:
-    name: Steve McLellan
-    irc: sjmc7
-    email: steven.j.mclellan@gmail.com
+    name: Trinh Nguyen
+    irc: dangtrinhnt
+    email: dangtrinhnt@gmail.com
   irc-channel: openstack-searchlight
   service: Search service
   mission: >
