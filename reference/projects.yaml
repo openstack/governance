@@ -26,7 +26,7 @@ adjutant:
 barbican:
   ptl:
     name: Ade Lee
-    irc: alee
+    irc: ade_lee
     email: alee@redhat.com
   irc-channel: openstack-barbican
   service: Key Manager service
