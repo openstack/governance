@@ -2829,9 +2829,9 @@ oslo:
 
 Packaging-rpm:
   ptl:
-    name: Javier Peña
-    irc: jpena
-    email: jpena@redhat.com
+    name: Dirk Müller
+    irc: dirk
+    email: dmueller@suse.com
   mission: >
     To make OpenStack easier to update and consume by operators and
     provide tooling to package all OpenStack projects directly for
