@@ -94,7 +94,7 @@ Chef OpenStack:
   ptl:
     name: Samuel Cassiba
     irc: scas
-    email: s@cassiba.com
+    email: samuel@cassi.ba
   service: Chef cookbooks for deployment
   mission: >
     The Chef cookbooks for OpenStack allow to automate the building, operation
