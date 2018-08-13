@@ -3724,9 +3724,9 @@ tripleo:
 
 trove:
   ptl:
-    name: Zhao Chao
-    irc: zhaochao
-    email: zhaochao1984@gmail.com
+    name: Dariusz Krol
+    irc: dkrol
+    email: d.krol@samsung.com
   irc-channel: openstack-trove
   service: Database service
   mission: >
