@@ -200,10 +200,6 @@ cinder:
         - openstack/python-cinderclient
       tags:
         - vulnerability:managed
-  extra-atcs:
-    - name: Duncan Thomas
-      email: duncan.thomas@gmail.com
-      expires-in: February 2017
 
 cloudkitty:
   ptl:
@@ -265,13 +261,6 @@ congress:
     python-congressclient:
       repos:
         - openstack/python-congressclient
-  extra-atcs:
-    - name: Bryan Sullivan
-      email: Bryan.sullivan@att.com
-      expires-in: August 2017
-      comment: Bryan spent the last 6 months developing JuJu Charm and Puppet
-               installers for Congress, which he is now handing off to
-               other community members to upstream.
 
 cyborg:
   ptl:
@@ -666,10 +655,6 @@ horizon:
     xstatic-vis:
       repos:
         - openstack/xstatic-vis
-  extra-atcs:
-    - name: Neill Cox
-      email: neill@ingenious.com.au
-      expires-in: March 2017
 
 I18n:
   ptl:
@@ -1581,12 +1566,6 @@ ironic:
     virtualbmc:
       repos:
         - openstack/virtualbmc
-  extra-atcs:
-    - name: Sukhdev Kapur
-      email: sukhdevkapur@gmail.com
-      expires-in: September 2017
-      comment: Sukhdev has been leading the meetings for the ironic/neutron
-               integration efforts.
 
 karbor:
   ptl:
@@ -1800,10 +1779,6 @@ manila:
     python-manilaclient:
       repos:
         - openstack/python-manilaclient
-  extra-atcs:
-    - name: Denis Cavalcante
-      email: dencaval@gmail.com
-      expires-in: March 2017
 
 masakari:
   ptl:
@@ -3128,10 +3103,6 @@ Quality Assurance:
     devstack-plugin-container:
       repos:
         - openstack/devstack-plugin-container
-  extra-atcs:
-    - name: Scott Moser
-      email: smoser@ubuntu.com
-      expires-in: Oct 2017
 
 rally:
   ptl:
@@ -3841,27 +3812,6 @@ winstackers:
     networking-hyperv:
       repos:
         - openstack/networking-hyperv
-  extra-atcs:
-    - name: Andrei Bacos
-      email: abacos@cloudbasesolutions.com
-      expires-in: July 2017
-      comment: abacos
-    - name: Costin Galan
-      email: cgalan@cloudbasesolutions.com
-      expires-in: July 2017
-      comment: cgalan
-    - name: Nichita Herciu
-      email: nherciu@cloudbasesolutions.com
-      expires-in: July 2017
-      comment: nherciu
-    - name: Octavian Ciuhandu
-      email: ociuhandu@cloudbasesolutions.com
-      expires-in: July 2017
-      comment: ociuhandu
-    - name: Remus Buzatu
-      email: rbuzatu@cloudbasesolutions.com
-      expires-in: July 2017
-      comment: rbuzatu
 
 zaqar:
   ptl:
