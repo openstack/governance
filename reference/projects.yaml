@@ -1724,6 +1724,8 @@ loci:
     name: Sam Yaple
     irc: SamYaple
     email: sam+git@yaple.net
+  appointed:
+    - stein
   irc-channel: openstack-loci
   mission: >
     To provide CI/CD friendly, lightweight OCI compliant container tooling and
