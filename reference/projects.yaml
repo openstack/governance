@@ -2807,6 +2807,8 @@ Packaging-rpm:
     name: Dirk Müller
     irc: dirk
     email: dmueller@suse.com
+  appointed:
+    - stein
   mission: >
     To make OpenStack easier to update and consume by operators and
     provide tooling to package all OpenStack projects directly for
@@ -3698,6 +3700,8 @@ trove:
     name: Dariusz Krol
     irc: dkrol
     email: d.krol@samsung.com
+  appointed:
+    - stein
   irc-channel: openstack-trove
   service: Database service
   mission: >
