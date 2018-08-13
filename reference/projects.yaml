@@ -3246,6 +3246,8 @@ searchlight:
     name: Trinh Nguyen
     irc: dangtrinhnt
     email: dangtrinhnt@gmail.com
+  appointed:
+    - stein
   irc-channel: openstack-searchlight
   service: Search service
   mission: >
