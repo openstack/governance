@@ -11,6 +11,7 @@ Reference documents which need to be revised over time.
    principles
    charter
    projects/index
+   technical-vision
    help-most-needed
    new-projects-requirements
    new-language-requirements
