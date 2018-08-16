@@ -412,6 +412,8 @@ freezer:
     name: Changcai Geng
     irc: gengchc2
     email: geng.changcai2@zte.com.cn
+  appointed:
+    - stein
   irc-channel: openstack-freezer
   service: Backup, Restore, and Disaster Recovery service
   mission: >
