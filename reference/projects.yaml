@@ -409,9 +409,9 @@ ec2-api:
 
 freezer:
   ptl:
-    name: Saad Zaher
-    irc: szaher
-    email: eng.szaher@gmail.com
+    name: Changcai Geng
+    irc: gengchc2
+    email: geng.changcai2@zte.com.cn
   irc-channel: openstack-freezer
   service: Backup, Restore, and Disaster Recovery service
   mission: >
