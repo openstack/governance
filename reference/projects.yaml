@@ -2431,25 +2431,17 @@ OpenStackAnsible:
     ansible-config_template:
       repos:
         - openstack/ansible-config_template
-    ansible-role-qdrouterd:
-      repos:
-        - openstack/ansible-role-qdrouterd
-    ansible-role-python_venv_build:
-      repos:
-        - openstack/ansible-role-python_venv_build
-    ansible-role-systemd_mount:
-      repos:
-        - openstack/ansible-role-systemd_mount
-    ansible-role-systemd_networkd:
-      repos:
-        - openstack/ansible-role-systemd_networkd
-    ansible-role-systemd_service:
-      repos:
-        - openstack/ansible-role-systemd_service
     openstack-ansible:
       repos:
-        - openstack/ansible-hardening
         - openstack/openstack-ansible
+    openstack-ansible-roles:
+      repos:
+        - openstack/ansible-role-qdrouterd
+        - openstack/ansible-role-python_venv_build
+        - openstack/ansible-role-systemd_mount
+        - openstack/ansible-role-systemd_networkd
+        - openstack/ansible-role-systemd_service
+        - openstack/ansible-hardening
         - openstack/openstack-ansible-apt_package_pinning
         - openstack/openstack-ansible-ceph_client
         - openstack/openstack-ansible-galera_client
@@ -2462,10 +2454,15 @@ OpenStackAnsible:
         - openstack/openstack-ansible-nspawn_hosts
         - openstack/openstack-ansible-openstack_hosts
         - openstack/openstack-ansible-openstack_openrc
+        - openstack/openstack-ansible-ops
+        - openstack/openstack-ansible-os_almanach
         - openstack/openstack-ansible-os_aodh
         - openstack/openstack-ansible-os_barbican
+        - openstack/openstack-ansible-os_blazar
         - openstack/openstack-ansible-os_ceilometer
         - openstack/openstack-ansible-os_cinder
+        - openstack/openstack-ansible-os_cloudkitty
+        - openstack/openstack-ansible-os_congress
         - openstack/openstack-ansible-os_designate
         - openstack/openstack-ansible-os_glance
         - openstack/openstack-ansible-os_gnocchi
@@ -2474,77 +2471,50 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_ironic
         - openstack/openstack-ansible-os_keystone
         - openstack/openstack-ansible-os_magnum
+        - openstack/openstack-ansible-os_masakari
         - openstack/openstack-ansible-os_molteniron
+        - openstack/openstack-ansible-os_monasca
+        - openstack/openstack-ansible-os_monasca-agent
         - openstack/openstack-ansible-os_neutron
         - openstack/openstack-ansible-os_nova
         - openstack/openstack-ansible-os_octavia
         - openstack/openstack-ansible-os_panko
         - openstack/openstack-ansible-os_rally
         - openstack/openstack-ansible-os_sahara
+        - openstack/openstack-ansible-os_searchlight
         - openstack/openstack-ansible-os_swift
         - openstack/openstack-ansible-os_tacker
         - openstack/openstack-ansible-os_tempest
         - openstack/openstack-ansible-os_trove
+        - openstack/openstack-ansible-os_watcher
+        - openstack/openstack-ansible-os_zaqar
+        - openstack/openstack-ansible-os_zun
         - openstack/openstack-ansible-pip_install
-        - openstack/openstack-ansible-pip_lock_down
         - openstack/openstack-ansible-plugins
         - openstack/openstack-ansible-rabbitmq_server
         - openstack/openstack-ansible-repo_build
         - openstack/openstack-ansible-repo_server
-        - openstack/openstack-ansible-rsyslog_client
         - openstack/openstack-ansible-rsyslog_server
-        - openstack/openstack-ansible-security
-    openstack-ansible-ops:
-      repos:
-        - openstack/openstack-ansible-ops
-    openstack-ansible-os_almanach:
-      repos:
-        - openstack/openstack-ansible-os_almanach
-    openstack-ansible-os_blazar:
-      repos:
-        - openstack/openstack-ansible-os_blazar
-    openstack-ansible-os_cloudkitty:
-      repos:
-        - openstack/openstack-ansible-os_cloudkitty
-    openstack-ansible-os_congress:
-      repos:
-        - openstack/openstack-ansible-os_congress
+        - openstack/openstack-ansible-rsyslog_client
+        - openstack/openstack-ansible-tests
     openstack-ansible-os_freezer:
       repos:
         - openstack/openstack-ansible-os_freezer
     openstack-ansible-os_karbor:
       repos:
         - openstack/openstack-ansible-os_karbor
-    openstack-ansible-os_masakari:
-      repos:
-        - openstack/openstack-ansible-os_masakari
-    openstack-ansible-os_monasca:
-      repos:
-        - openstack/openstack-ansible-os_monasca
-    openstack-ansible-os_monasca-agent:
-      repos:
-        - openstack/openstack-ansible-os_monasca-agent
     openstack-ansible-os_monasca-ui:
       repos:
         - openstack/openstack-ansible-os_monasca-ui
-    openstack-ansible-os_searchlight:
+    openstack-ansible-pip_lock_down:
       repos:
-        - openstack/openstack-ansible-os_searchlight
-    openstack-ansible-os_watcher:
+        - openstack/openstack-ansible-pip_lock_down
+    openstack-ansible-security:
       repos:
-        - openstack/openstack-ansible-os_watcher
-    openstack-ansible-os_zaqar:
-      repos:
-        - openstack/openstack-ansible-os_zaqar
-    openstack-ansible-os_zun:
-      repos:
-        - openstack/openstack-ansible-os_zun
+        - openstack/openstack-ansible-security
     openstack-ansible-specs:
       repos:
         - openstack/openstack-ansible-specs
-    openstack-ansible-tests:
-      repos:
-        - openstack/openstack-ansible-tests
 
 OpenStackClient:
   ptl:
