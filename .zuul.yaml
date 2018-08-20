@@ -1,0 +1,19 @@
+- project:
+    templates:
+      - build-openstack-sphinx-docs-python3
+    check:
+      jobs:
+        - openstack-tox-linters:
+            required-projects:
+              - openstack-infra/project-config
+    experimental:
+      jobs:
+        - openstack-tox-validate
+    gate:
+      jobs:
+        - openstack-tox-linters:
+            required-projects:
+              - openstack-infra/project-config
+    post:
+      jobs:
+        - publish-governance-tc
