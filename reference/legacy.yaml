@@ -1413,6 +1413,31 @@ Packaging-deb:
       repos:
         - openstack/deb-zaqar-ui
 
+RefStack:
+  ptl:
+    name: Chris Hoge
+    irc: hogepodge
+    email: chris@openstack.org
+  irc-channel: refstack
+  service: Interoperability Test Report
+  mission: >
+    RefStack is a test result collection and reporting service to support the
+    Interop Working Group interoperability testing process.
+  url: https://wiki.openstack.org/wiki/RefStack
+  deliverables:
+    refstack:
+      retired-on: 2018-08-10
+      repos:
+        - openstack/refstack
+    refstack-client:
+      retired-on: 2018-08-10
+      repos:
+        - openstack/refstack-client
+    python-tempestconf:
+      retired-on: 2018-08-10
+      repos:
+        - openstack/python-tempestconf
+
 Release Management:
   partial: yes
   deliverables:

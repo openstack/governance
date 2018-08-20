@@ -3097,28 +3097,6 @@ rally:
         - openstack/rally-openstack
         - openstack/performance-docs
 
-RefStack:
-  ptl:
-    name: Chris Hoge
-    irc: hogepodge
-    email: chris@openstack.org
-  irc-channel: refstack
-  service: Interoperability Test Report
-  mission: >
-    RefStack is a test result collection and reporting service to support the
-    Interop Working Group interoperability testing process.
-  url: https://wiki.openstack.org/wiki/RefStack
-  deliverables:
-    refstack:
-      repos:
-        - openstack/refstack
-    refstack-client:
-      repos:
-        - openstack/refstack-client
-    python-tempestconf:
-      repos:
-        - openstack/python-tempestconf
-
 Release Management:
   ptl:
     name: Sean McGinnis
