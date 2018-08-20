@@ -376,6 +376,8 @@ dragonflow:
     name: Omer Anson
     irc: oanson
     email: omer.anson@toganetworks.com
+  appointed:
+    - stein
   irc-channel: openstack-dragonflow
   mission: >
     Dragonflow is a distributed control plane implementation of Neutron.
