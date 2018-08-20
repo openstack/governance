@@ -3754,6 +3754,8 @@ winstackers:
     name: Claudiu Belu
     irc: claudiub
     email: cbelu@cloudbasesolutions.com
+  appointed:
+    - stein
   irc-channel: openstack-hyper-v
   mission: >
     To facilitate the integration of Hyper-V, Windows and related components
