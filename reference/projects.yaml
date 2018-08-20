@@ -2860,7 +2860,7 @@ PowerVMStackers:
 Puppet OpenStack:
   ptl:
     name: Tobias Urdin
-    irc: tobasco
+    irc: tobias-urdin
     email: tobias@busybox.se
   service: Puppet modules for deployment
   mission: >
