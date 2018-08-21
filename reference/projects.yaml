@@ -2996,12 +2996,15 @@ qinling:
     in a scalable, highly-available manner.
   url: https://wiki.openstack.org/wiki/Qinling
   deliverables:
-    qinling:
-      repos:
-        - openstack/qinling
     python-qinlingclient:
       repos:
         - openstack/python-qinlingclient
+    qinling:
+      repos:
+        - openstack/qinling
+    qinling-dashboard:
+      repos:
+        - openstack/qinling-dashboard
 
 Quality Assurance:
   ptl:
