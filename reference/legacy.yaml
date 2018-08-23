@@ -149,6 +149,10 @@ Documentation:
       retired-on: 2017-08-01
       repos:
         - openstack/installguide-cookiecutter
+    rst2bash:
+      retired-on: 2018-08-16
+      repos:
+        - openstack/rst2bash
 
 fuel:
   irc-channel: fuel
