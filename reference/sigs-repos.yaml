@@ -13,3 +13,5 @@ security:
   - repo: openstack/syntribos-payloads
 self-healing:
   - repo: openstack/self-healing-sig
+operations-docs:
+  - repo: openstack/operations-guide
