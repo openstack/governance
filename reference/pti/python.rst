@@ -28,7 +28,7 @@ tree:
  - tox -ecover
  - python setup.py sdist
  - python setup.py bdist_wheel
- - sphinx-build -b html doc/source doc/build
+ - sphinx-build -W -b html doc/source doc/build
 
 Projects that are translated should also support:
 
