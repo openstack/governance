@@ -1002,9 +1002,6 @@ Infrastructure:
     development process and general operation of the OpenStack project.
   url: https://docs.openstack.org/infra/system-config/
   deliverables:
-    activity-board:
-      repos:
-        - openstack-infra/activity-board
     afsmon:
       repos:
         - openstack-infra/afsmon
@@ -1032,12 +1029,6 @@ Infrastructure:
     elastic-recheck:
       repos:
         - openstack-infra/elastic-recheck
-    err2d2:
-      repos:
-        - openstack-infra/err2d2
-    featuretracker:
-      repos:
-        - openstack-infra/featuretracker
     gear:
       repos:
         - openstack-infra/gear
@@ -1095,18 +1086,9 @@ Infrastructure:
     jenkins-job-builder:
       repos:
         - openstack-infra/jenkins-job-builder
-    js-afs-blob-store:
-      repos:
-        - openstack-infra/js-afs-blob-store
-    js-generator-openstack:
-      repos:
-        - openstack-infra/js-generator-openstack
     js-openstack-lib:
       repos:
         - openstack/js-openstack-lib
-    js-openstack-registry-hooks:
-      repos:
-        - openstack-infra/js-openstack-registry-hooks
     lodgeit:
       repos:
         - openstack-infra/lodgeit
@@ -1227,9 +1209,6 @@ Infrastructure:
     puppet-exim:
       repos:
         - openstack-infra/puppet-exim
-    puppet-featuretracker:
-      repos:
-        - openstack-infra/puppet-featuretracker
     puppet-germqtt:
       repos:
         - openstack-infra/puppet-germqtt
@@ -1362,9 +1341,6 @@ Infrastructure:
     puppet-refstack:
       repos:
         - openstack-infra/puppet-refstack
-    puppet-releasestatus:
-      repos:
-        - openstack-infra/puppet-releasestatus
     puppet-reviewday:
       repos:
         - openstack-infra/puppet-reviewday
@@ -1416,9 +1392,6 @@ Infrastructure:
     puppet-vcsrepo:
       repos:
         - openstack-infra/puppet-vcsrepo
-    puppet-vinz:
-      repos:
-        - openstack-infra/puppet-vinz
     puppet-yum:
       repos:
         - openstack-infra/puppet-yum
@@ -1431,15 +1404,9 @@ Infrastructure:
     pynotedb:
       repos:
         - openstack-infra/pynotedb
-    pypi-mirror:
-      repos:
-        - openstack-infra/pypi-mirror
     python-storyboardclient:
       repos:
         - openstack-infra/python-storyboardclient
-    releasestatus:
-      repos:
-        - openstack-infra/releasestatus
     reviewday:
       repos:
         - openstack-infra/reviewday
@@ -1461,21 +1428,12 @@ Infrastructure:
     system-config:
       repos:
         - openstack-infra/system-config
-    trystack-site:
-      repos:
-        - openstack-infra/trystack-site
-    vinz:
-      repos:
-        - openstack-infra/vinz
     yaml2ical:
       repos:
         - openstack-infra/yaml2ical
     zmq-event-publisher:
       repos:
         - openstack-infra/zmq-event-publisher
-    zuul-packaging:
-      repos:
-        - openstack-infra/zuul-packaging
 
 ironic:
   ptl:

@@ -244,6 +244,62 @@ Infrastructure:
       retired-on: 2017-12-10
       repos:
         - openstack-infra/puppet-apps_site
+    activity-board:
+      retired-on: 2018-08-29
+      repos:
+        - openstack-infra/activity-board
+    err2d2:
+      retired-on: 2018-08-29
+      repos:
+        - openstack-infra/err2d2
+    featuretracker:
+      retired-on: 2018-08-29
+      repos:
+        - openstack-infra/featuretracker
+    js-afs-blob-store:
+      retired-on: 2018-08-29
+      repos:
+        - openstack-infra/js-afs-blob-store
+    js-generator-openstack:
+      retired-on: 2018-08-29
+      repos:
+        - openstack-infra/js-generator-openstack
+    js-openstack-registry-hooks:
+      retired-on: 2018-08-29
+      repos:
+        - openstack-infra/js-openstack-registry-hooks
+    puppet-featuretracker:
+      retired-on: 2018-08-29
+      repos:
+        - openstack-infra/puppet-featuretracker
+    puppet-releasestatus:
+      retired-on: 2018-08-29
+      repos:
+        - openstack-infra/puppet-releasestatus
+    puppet-vinz:
+      retired-on: 2018-08-29
+      repos:
+        - openstack-infra/puppet-vinz
+    pypi-mirror:
+      retired-on: 2018-08-29
+      repos:
+        - openstack-infra/pypi-mirror
+    releasestatus:
+      retired-on: 2018-08-29
+      repos:
+        - openstack-infra/releasestatus
+    trystack-site:
+      retired-on: 2018-08-29
+      repos:
+        - openstack-infra/trystack-site
+    vinz:
+      retired-on: 2018-08-29
+      repos:
+        - openstack-infra/vinz
+    zuul-packaging:
+      retired-on: 2018-08-29
+      repos:
+        - openstack-infra/zuul-packaging
 
 ironic:
   irc-channel: openstack-ironic
