@@ -2097,6 +2097,9 @@ nova:
     osc-placement:
       repos:
         - openstack/osc-placement
+    placement:
+      repos:
+        - openstack/placement
 
 octavia:
   ptl:
