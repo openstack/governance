@@ -1,11 +1,10 @@
 ---
 # List of repositories owned by Foundation board and subcommittes
 Interop Working Group:
-  - repo:
-    - openstack/interop
-    - openstack/refstack-client
-    - openstack/refstack
-    - openstack/python-tempestconf
+  - repo: openstack/interop
+  - repo: openstack/refstack-client
+  - repo: openstack/refstack
+  - repo: openstack/python-tempestconf
 
 Transparency subcommittee:
   - repo: openstack/transparency-policy
