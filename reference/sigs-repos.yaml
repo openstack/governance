@@ -15,3 +15,5 @@ self-healing:
   - repo: openstack/self-healing-sig
 operations-docs:
   - repo: openstack/operations-guide
+api:
+  - repo: openstack/api-sig
