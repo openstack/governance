@@ -2052,6 +2052,9 @@ neutron:
     neutron-vpnaas-dashboard:
       repos:
         - openstack/neutron-vpnaas-dashboard
+    os-ken:
+      repos:
+        - openstack/os-ken
 
 nova:
   ptl:
