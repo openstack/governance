@@ -104,6 +104,9 @@ Chef OpenStack:
     cookbook-openstack-application-catalog:
       repos:
         - openstack/cookbook-openstack-application-catalog
+    cookbook-openstack-bare-metal:
+      repos:
+        - openstack/cookbook-openstack-bare-metal
     cookbook-openstack-block-storage:
       repos:
         - openstack/cookbook-openstack-block-storage
