@@ -110,4 +110,5 @@ P        Monty Taylor   2016-06-22        2016-07-06  2016-07-13  New England
 Q        Monty Taylor   2016-06-22        2016-07-06  2016-07-13  New South Wales
 R        Monty Taylor   2017-03-22        2017-04-05  2017-04-12  British Columbia
 S        Paul Belanger  2018-02-21        2018-03-14  2018-03-21  Berlin
+T        Tony Breeds    2018-09-15        2018-10-15  2018-10-22  Colorado
 =======  =============  ================  ==========  ==========  ==================
