@@ -1836,8 +1836,6 @@ mistral:
       repos:
         - openstack/mistral
         - openstack/mistral-dashboard
-    mistral-extra:
-      repos:
         - openstack/mistral-extra
     mistral-specs:
       repos:
