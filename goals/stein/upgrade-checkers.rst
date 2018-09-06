@@ -19,16 +19,13 @@ may always be some things that need some subjective evalation, but for those
 things that can be automated to determine if there is an issue that could
 impact upgrade success, a validation check should be created to automate it.
 
-.. The following needs to be updated with actual links once we decide we are
-   going to go ahead with this.
-
-:Storyboard Board: <put the link to the tracking board here>
-:Storyboard Story: <put the link to the story for this goal here>
+:Storyboard Board: https://storyboard.openstack.org/#!/board/107
+:Storyboard Story: https://storyboard.openstack.org/#!/story/2003657
 
 Champion
 ========
 
-Matt Riedemann <mriedemos@gmail.com> has volunteered to drive this goal.
+Matt Riedemann <mriedem.os@gmail.com> has volunteered to drive this goal.
 
 Gerrit Topic
 ============
@@ -103,6 +100,9 @@ the checks that are performed.
 The command line is also used in the `grenade upgrade checks
 <https://github.com/openstack-dev/grenade/blob/dc7f4a4ba5697d5a73a1e656d4a1717964324eab/projects/60_nova/upgrade.sh#L96>`__
 for Nova.
+
+Nova contributor reference for ``nova-status upgrade check``:
+https://review.openstack.org/#/c/596902/
 
 Current State / Anticipated Impact
 ==================================
