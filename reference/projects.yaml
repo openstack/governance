@@ -2690,6 +2690,11 @@ oslo:
     oslo.tools:
       repos:
         - openstack/oslo.tools
+    oslo.upgradecheck:
+      repos:
+        - openstack/oslo.upgradecheck
+      tags:
+        - stable:follows-policy
     oslo.utils:
       repos:
         - openstack/oslo.utils
