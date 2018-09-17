@@ -5,8 +5,6 @@ Enterprise Working Group:
   - repo: openstack/workload-ref-archs
 Ops Tags Team:
   - repo: openstack/ops-tags-team
-Product Working Group:
-  - repo: openstack/development-proposals
 Public Cloud Working Group:
   - repo: openstack/publiccloud-wg
 Scientific Working Group:
