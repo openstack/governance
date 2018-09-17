@@ -58,6 +58,13 @@ The command must:
    * 1 - Warning that one or issues were found that require investigation
    * 2 - One or more checks found an issue that will cause upgrade to fail
 
+.. note:: This goal is primarily focused on the traditional stateful service
+   projects like keystone, cinder, glance, etc. However, deployment projects
+   would clearly benefit from integrating these checks into their install and
+   upgrade routines but that is not part of this goal in Stein since some of
+   the service project checks might not even be complete until the end of
+   Stein and thus not consumable to deployment projects until the "T" release
+   at the earliest.
 
 .. _summary_list:
 
