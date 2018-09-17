@@ -211,7 +211,7 @@ that should:
 * Either install any needed distro dependencies from the ``doc`` tag in
   ``bindep.txt`` or emit an error if they are not installed.
 * Install Python dependencies for Sphinx from ``doc/requirements.txt``.
-* Execute ``sphinx-build -b html doc/source doc/build``
+* Execute ``sphinx-build -W -b html doc/source doc/build``
 
 Source
 ~~~~~~
