@@ -3402,6 +3402,9 @@ tripleo:
     production, using OpenStack itself wherever possible.
   url: https://wiki.openstack.org/wiki/TripleO
   deliverables:
+    ansible-role-chrony:
+      repos:
+        - openstack/ansible-role-chrony
     ansible-role-container-registry:
       repos:
         - openstack/ansible-role-container-registry
