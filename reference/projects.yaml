@@ -1497,6 +1497,9 @@ ironic:
     ironic-ui:
       repos:
         - openstack/ironic-ui
+    metalsmith:
+      repos:
+        - openstack/metalsmith
     molteniron:
       repos:
         - openstack/molteniron
