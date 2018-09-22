@@ -1657,15 +1657,6 @@ kuryr:
     kuryr-tempest-plugin:
       repos:
         - openstack/kuryr-tempest-plugin
-    fuxi:
-      repos:
-        - openstack/fuxi
-    fuxi-golang:
-      repos:
-        - openstack/fuxi-golang
-    fuxi-kubernetes:
-      repos:
-        - openstack/fuxi-kubernetes
 
 loci:
   ptl:
