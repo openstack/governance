@@ -2921,6 +2921,9 @@ Puppet OpenStack:
     puppet-panko:
       repos:
         - openstack/puppet-panko
+    puppet-placement:
+      repos:
+        - openstack/puppet-placement
     puppet-qdr:
       repos:
         - openstack/puppet-qdr
