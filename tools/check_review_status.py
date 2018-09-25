@@ -152,7 +152,7 @@ def all_changes():
 
 
 def get_one_status(change, delegates):
-    topic = change.get('topic')
+    topic = change.get('topic', 'unknown topic')
     subject = change.get('subject')
     owner = change.get('owner', {}).get('name')
     url = 'https://review.openstack.org/{}\n'.format(change['_number'])
