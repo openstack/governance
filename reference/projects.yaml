@@ -2116,6 +2116,8 @@ octavia:
     octavia-lib:
       repos:
         - openstack/octavia-lib
+      tags:
+        - stable:follows-policy
 
 OpenStack Charms:
   ptl:
