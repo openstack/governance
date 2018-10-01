@@ -2138,9 +2138,6 @@ OpenStack Charms:
     charm-ceilometer-agent:
       repos:
         - openstack/charm-ceilometer-agent
-    charm-ceph:
-      repos:
-        - openstack/charm-ceph
     charm-ceph-mon:
       repos:
         - openstack/charm-ceph-mon

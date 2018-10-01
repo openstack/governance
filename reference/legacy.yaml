@@ -416,6 +416,17 @@ neutron:
       repos:
         - openstack/python-neutron-pd-driver
 
+OpenStack Charms:
+  irc-channel: openstack-charms
+  service: Juju Charms for deployment of OpenStack
+  partial: yes
+  deliverables:
+    charm-ceph:
+      retired-on: 2018-09-22
+      repos:
+        - openstack/charm-ceph
+
+
 OpenStackSalt:
   ptl:
     name: Ales Komarek
