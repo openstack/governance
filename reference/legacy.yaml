@@ -320,14 +320,6 @@ ironic:
       repos:
         - openstack/python-wsmanclient
 
-kolla:
-  partial: yes
-  deliverables:
-    kolla-kubernetes:
-      retired-on: 2018-05-02
-      repos:
-        - openstack/kolla-kubernetes
-
 keystone:
   irc-channel: openstack-keystone
   service: Identity service
@@ -342,6 +334,30 @@ keystone:
       retired-on: 2016-01-11
       repos:
         - openstack/keystoneauth-saml2
+
+kolla:
+  partial: yes
+  deliverables:
+    kolla-kubernetes:
+      retired-on: 2018-05-02
+      repos:
+        - openstack/kolla-kubernetes
+
+kuryr:
+  partial: yes
+  deliverables:
+    fuxi:
+      retired-on: 2018-09-22
+      repos:
+        - openstack/fuxi
+    fuxi-golang:
+      retired-on: 2018-09-22
+      repos:
+        - openstack/fuxi-golang
+    fuxi-kubernetes:
+      retired-on: 2018-09-22
+      repos:
+        - openstack/fuxi-kubernetes
 
 MagnetoDB:
   ptl: Ilya Sviridov (isviridov)
