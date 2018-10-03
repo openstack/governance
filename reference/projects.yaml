@@ -2012,6 +2012,9 @@ neutron:
     os-ken:
       repos:
         - openstack/os-ken
+    neutron-interconnection:
+      repos:
+        - openstack/neutron-interconnection
 
 nova:
   ptl:
