@@ -2104,6 +2104,9 @@ octavia:
         - openstack/python-octaviaclient
       tags:
         - stable:follows-policy
+    octavia-lib:
+      repos:
+        - openstack/octavia-lib
 
 OpenStack Charms:
   ptl:
