@@ -2330,6 +2330,9 @@ OpenStack Charms:
     charm-nova-compute-proxy:
       repos:
         - openstack/charm-nova-compute-proxy
+    charm-octavia:
+      repos:
+        - openstack/charm-octavia
     charm-odl-controller:
       repos:
         - openstack/charm-odl-controller
