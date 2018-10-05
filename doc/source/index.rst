@@ -27,7 +27,6 @@ Reference documents and Resolutions
 
 .. toctree::
    :maxdepth: 2
-   :glob:
    :titlesonly:
 
    reference/index

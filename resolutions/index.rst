@@ -13,6 +13,7 @@ be expressed as a resolution.
 .. toctree::
    :maxdepth: 1
    :glob:
+   :reversed:
 
    2018*
 
@@ -22,6 +23,7 @@ be expressed as a resolution.
 .. toctree::
    :maxdepth: 1
    :glob:
+   :reversed:
 
    2017*
 
@@ -31,6 +33,7 @@ be expressed as a resolution.
 .. toctree::
    :maxdepth: 1
    :glob:
+   :reversed:
 
    2016*
 
@@ -40,6 +43,7 @@ be expressed as a resolution.
 .. toctree::
    :maxdepth: 1
    :glob:
+   :reversed:
 
    2015*
 
@@ -49,6 +53,7 @@ be expressed as a resolution.
 .. toctree::
    :maxdepth: 1
    :glob:
+   :reversed:
 
    2014*
 
@@ -58,5 +63,6 @@ be expressed as a resolution.
 .. toctree::
    :maxdepth: 1
    :glob:
+   :reversed:
 
    2013*
