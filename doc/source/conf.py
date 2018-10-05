@@ -32,6 +32,7 @@ sys.path.insert(0, os.path.join(os.path.abspath('.'), '_exts'))
 extensions = [
     'sphinx.ext.extlinks',
     'sphinx.ext.todo',
+    'openstackdocstheme',
     'atcs',
     'members',
     'projects',
@@ -102,12 +103,15 @@ modindex_common_prefix = []
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'tc'
+html_theme = 'governance'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+    'display_global_toc_section': False,
+    'root_title': 'OpenStack Governance'
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 html_theme_path = ['_themes']
