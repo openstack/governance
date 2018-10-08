@@ -10,13 +10,16 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
+import logging
 import re
+
+LOG = logging.getLogger(__name__)
 
 # Full name (IRC) <E-mail> [expires in] {role}
 _PATTERN = re.compile('(?P<name>.*)\s+\((?P<irc>.*)\)\s+\<(?P<email>.*)\>\s+\[(?P<date>.*)\](\s+\{(?P<role>.*)\})?')
 
 
-def parse_members_file(app, filename):
+def parse_members_file(filename):
     """Load the members file and return each row as a dictionary.
     """
     with open(filename, 'r') as f:
@@ -26,7 +29,7 @@ def parse_members_file(app, filename):
                 continue
             m = _PATTERN.match(line)
             if not m:
-                app.warning('Could not parse line %d of %s: %r' %
+                LOG.warning('Could not parse line %d of %s: %r' %
                             (linum, filename, line))
                 continue
             yield m.groupdict()

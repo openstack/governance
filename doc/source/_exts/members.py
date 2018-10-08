@@ -43,7 +43,6 @@ class MembersTable(tables.Table):
 
     def run(self):
         env = self.state.document.settings.env
-        app = env.app
 
         # The required argument to the directive is the name of the
         # file to parse.
@@ -73,7 +72,7 @@ class MembersTable(tables.Table):
         rel_filename, filename = env.relfn2path(datafile)
 
         # Build the table node using the parsed file
-        data_iter = members.parse_members_file(app, filename)
+        data_iter = members.parse_members_file(filename)
         table_node = self.build_table(
             data_iter,
             col_widths,
