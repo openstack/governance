@@ -72,16 +72,30 @@ available.
 Meeting
 =======
 
-TC meetings happen publicly, weekly on IRC. The meeting time should be decided
-among TC members after each election. If there isn't consensus on a meeting
-time, the option of rotating the time weekly should be explored. The TC
-maintains an open agenda on the wiki. A TC meeting is automatically called if
-anything is posted to that wiki by one of its members at least one day before
-the meeting time. For a meeting to be actually held, at least half of the
-members need to be present (rounded up: in a 13-member committee that means a
-minimum of 7 people present). Non-members affected by a given discussion are
-strongly encouraged to participate in the meeting and voice their opinion,
-though only TC members can ultimately cast a vote.
+The community should not wait for a formal meeting to raise issues or
+bring questions to the Technical Committee (see
+:doc:`/resolutions/20170425-drop-tc-weekly-meetings`). In most cases,
+asynchronous communication via email or gerrit is preferred over
+meetings. If a topic will require significant discussion or to need
+input from members of the community other than the committee, start a
+mailing list discussion on ``openstack-dev at lists.openstack.org``
+and use the subject tag ``[tc]`` to bring it to the attention of
+Technical Committee members.
+
+TC status meetings are public and held monthly in the
+``#openstack-tc`` channel on the freenode IRC network. The meeting
+time is decided among TC members after each election. The TC maintains
+an open list of candidate topics for the agenda on `the wiki
+<https://wiki.openstack.org/wiki/Meetings/TechnicalCommittee>`__. Anyone
+may add items to the list, and the chair or vice chair will set and
+publicize the agenda before each meeting.
+
+For a meeting to be actually held, at least half of the members need
+to be present (rounded up: in a 13-member committee that means a
+minimum of 7 people present). Non-members affected by a given
+discussion are strongly encouraged to participate in the meeting and
+voice their opinion, though only TC members can ultimately cast a
+vote.
 
 .. _charter-motions-section:
 
