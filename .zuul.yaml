@@ -1,6 +1,6 @@
 - project:
     templates:
-      - build-openstack-sphinx-docs-python3
+      - build-openstack-docs-pti
     check:
       jobs:
         - openstack-tox-linters:
