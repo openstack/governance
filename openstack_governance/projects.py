@@ -10,30 +10,13 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
-"""Load the projects.yaml file.
-"""
-
-import copy
-import os.path
-
-from openstack_governance import projects
-
-_projects_yaml = {}
+import yaml
+import yamlordereddictloader
 
 
-def get_project_data():
-    """Return a copy of the project data."""
-    return copy.deepcopy(_projects_yaml)
-
-
-def slugify(name):
-    """Convert name to slug form for references."""
-    return name.lower().replace(' ', '-')
-
-
-def setup(app):
-    global _projects_yaml
-
-    filename = os.path.abspath('reference/projects.yaml')
-    app.info('reading %s' % filename)
-    _projects_yaml = projects.load_project_file(filename)
+def load_project_file(filename='reference/projects.yaml'):
+    with open(filename, 'r', encoding='utf-8') as f:
+        return yaml.load(
+            f.read(),
+            Loader=yamlordereddictloader.Loader,
+        )
