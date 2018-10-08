@@ -13,31 +13,12 @@
 """Build a table of the current members of the TC.
 """
 
-import re
-
 from docutils import nodes
 from docutils.parsers.rst import directives
 from docutils.parsers.rst.directives import tables
 from docutils.utils import SystemMessagePropagation
 
-# Full name (IRC) <E-mail> [expires in] {role}
-_PATTERN = re.compile('(?P<name>.*)\s+\((?P<irc>.*)\)\s+\<(?P<email>.*)\>\s+\[(?P<date>.*)\](\s+\{(?P<role>.*)\})?')
-
-
-def _parse_members_file(app, filename):
-    """Load the members file and return each row as a dictionary.
-    """
-    with open(filename, 'r') as f:
-        for linum, line in enumerate(f, 1):
-            line = line.strip()
-            if not line or line.startswith('#'):
-                continue
-            m = _PATTERN.match(line)
-            if not m:
-                app.warning('Could not parse line %d of %s: %r' %
-                            (linum, filename, line))
-                continue
-            yield m.groupdict()
+from openstack_governance import members
 
 
 class MembersTable(tables.Table):
@@ -92,7 +73,7 @@ class MembersTable(tables.Table):
         rel_filename, filename = env.relfn2path(datafile)
 
         # Build the table node using the parsed file
-        data_iter = _parse_members_file(app, filename)
+        data_iter = members.parse_members_file(app, filename)
         table_node = self.build_table(
             data_iter,
             col_widths,
