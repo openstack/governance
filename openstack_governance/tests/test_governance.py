@@ -56,20 +56,35 @@ Release Management:
         - openstack-dev/specs-cookiecutter
 """
 
+_tc_data_yaml = """
+---
+# List of repositories owned by the technical committee
+Technical Committee:
+  - repo: openstack/governance
+  - repo: openstack/project-team-guide
+"""
+
 TEAM_DATA = yamlutils.loads(_team_data_yaml)
+TC_DATA = yamlutils.loads(_tc_data_yaml)
 
 
 class TestGetRepoOwner(base.BaseTestCase):
 
     def setUp(self):
         super().setUp()
-        self.gov = governance.Governance(TEAM_DATA)
+        self.gov = governance.Governance(TEAM_DATA, TC_DATA)
 
     def test_repo_exists(self):
         owner = self.gov.get_repo_owner(
             'openstack/releases',
         )
         self.assertEqual('Release Management', owner)
+
+    def test_repo_exists_tc(self):
+        owner = self.gov.get_repo_owner(
+            'openstack/governance',
+        )
+        self.assertEqual('Technical Committee', owner)
 
     def test_no_such_repo(self):
         self.assertRaises(
@@ -83,7 +98,7 @@ class TestGetRepositories(base.BaseTestCase):
 
     def setUp(self):
         super().setUp()
-        self.gov = governance.Governance(TEAM_DATA)
+        self.gov = governance.Governance(TEAM_DATA, TC_DATA)
 
     def test_by_team(self):
         repos = self.gov.get_repositories(
@@ -96,6 +111,16 @@ class TestGetRepositories(base.BaseTestCase):
                     'openstack/releases',
                     'openstack/reno',
                     'openstack-dev/specs-cookiecutter']),
+            sorted(r.name for r in repos),
+        )
+
+    def test_by_team_tc(self):
+        repos = self.gov.get_repositories(
+            team_name='Technical Committee',
+        )
+        self.assertEqual(
+            sorted(['openstack/governance',
+                    'openstack/project-team-guide']),
             sorted(r.name for r in repos),
         )
 
