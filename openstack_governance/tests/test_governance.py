@@ -200,3 +200,26 @@ class TestGetTeam(base.BaseTestCase):
             self.gov.get_team,
             'No Such Team',
         )
+
+
+class TestTeamProperties(base.BaseTestCase):
+
+    def setUp(self):
+        super().setUp()
+        self.team_with = governance.Team(
+            'test',
+            {'service': 'service name',
+             'mission': 'mission statement'},
+        )
+        self.team_without = governance.Team(
+            'test',
+            {},
+        )
+
+    def test_service(self):
+        self.assertEqual('service name', self.team_with.service)
+        self.assertIsNone(self.team_without.service)
+
+    def test_mission(self):
+        self.assertEqual('mission statement', self.team_with.mission)
+        self.assertIsNone(self.team_without.mission)
