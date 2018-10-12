@@ -182,3 +182,21 @@ class TestGetRepositories(base.BaseTestCase):
                     'openstack-dev/specs-cookiecutter']),
             sorted(r.name for r in repos),
         )
+
+
+class TestGetTeam(base.BaseTestCase):
+
+    def setUp(self):
+        super().setUp()
+        self.gov = governance.Governance(TEAM_DATA, TC_DATA, SIGS_DATA)
+
+    def test_found(self):
+        team = self.gov.get_team('meta SIG')
+        self.assertEqual('meta SIG', team.name)
+
+    def test_not_found(self):
+        self.assertRaises(
+            ValueError,
+            self.gov.get_team,
+            'No Such Team',
+        )
