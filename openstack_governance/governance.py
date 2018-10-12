@@ -22,18 +22,6 @@ import requests
 PROJECTS_LIST = "http://git.openstack.org/cgit/openstack/governance/plain/reference/projects.yaml"  # noqa
 
 
-def get_team_data(url=PROJECTS_LIST):
-    """Return the parsed team data from the governance repository.
-
-    :param url: Optional URL to the location of the projects.yaml
-        file. Defaults to the most current version in the public git
-        repository.
-
-    """
-    r = requests.get(url)
-    return yamlutils.loads(r.text)
-
-
 def get_tags_for_deliverable(team_data, team, name):
     "Return the tags for the deliverable owned by the team."
     if team not in team_data:
@@ -45,22 +33,7 @@ def get_tags_for_deliverable(team_data, team, name):
     return set(dinfo.get('tags', [])).union(set(team_info.get('tags', [])))
 
 
-def get_repo_owner(team_data, repo_name):
-    """Return the name of the team that owns the repository.
-
-    :param team_data: The result of calling :func:`get_team_data`
-    :param repo_name: Long name of the repository, such as 'openstack/nova'.
-
-    """
-    for team, info in team_data.items():
-        for dname, dinfo in info.get('deliverables', {}).items():
-            if repo_name in dinfo.get('repos', []):
-                return team
-    raise ValueError('Repository %s not found in governance list' % repo_name)
-
-
 class Team(object):
-    _liaison_data = None
 
     def __init__(self, name, data):
         self.name = name
@@ -108,42 +81,64 @@ class Repository(object):
         return self.deliverable.tags
 
 
-def get_repositories(team_data, team_name=None, deliverable_name=None,
-                     tags=[], code_only=False):
-    """Return a sequence of repositories, possibly filtered.
+class Governance(object):
 
-    :param team_data: The result of calling :func:`get_team_data`
-    :param team_name: The name of the team owning the repositories. Can be
-        None.
-    :para deliverable_name: The name of the deliverable to which all
-       repos should belong.
-    :param tags: The names of any tags the repositories should
-        have. Can be empty.
-    :param code_only: Boolean indicating whether to return only code
-      repositories (ignoring specs and cookiecutter templates).
+    def __init__(self, team_data):
+        self._team_data = team_data
+        self._teams = [Team(n, i) for n, i in self._team_data.items()]
 
-    """
-    if tags:
-        tags = set(tags)
-    if team_name:
-        try:
-            teams = [Team(team_name, team_data[team_name])]
-        except KeyError:
-            raise RuntimeError('No team %r found in %r' %
-                               (team_name, list(team_data.keys())))
-    else:
-        teams = [Team(n, i) for n, i in team_data.items()]
-    for team in teams:
-        if deliverable_name and deliverable_name not in team.deliverables:
-            continue
-        if deliverable_name:
-            deliverables = [team.deliverables[deliverable_name]]
+    @classmethod
+    def from_urls(cls,
+                  team_url=PROJECTS_LIST):
+        r = requests.get(team_url)
+        team_data = yamlutils.loads(r.text)
+        return cls(team_data)
+
+    def get_repo_owner(self, repo_name):
+        """Return the name of the team that owns the repository.
+
+        :param repo_name: Long name of the repository, such as 'openstack/nova'.
+
+        """
+        for team, info in self._team_data.items():
+            for dname, dinfo in info.get('deliverables', {}).items():
+                if repo_name in dinfo.get('repos', []):
+                    return team
+        raise ValueError('Repository %s not found in governance list' % repo_name)
+
+    def get_repositories(self, team_name=None, deliverable_name=None,
+                         tags=[]):
+        """Return a sequence of repositories, possibly filtered.
+
+        :param team_name: The name of the team owning the repositories. Can be
+            None.
+        :para deliverable_name: The name of the deliverable to which all
+           repos should belong.
+        :param tags: The names of any tags the repositories should
+            have. Can be empty.
+
+        """
+        if tags:
+            tags = set(tags)
+
+        if team_name:
+            try:
+                teams = [Team(team_name, self._team_data[team_name])]
+            except KeyError:
+                raise RuntimeError('No team %r found in %r' %
+                                   (team_name, list(self._team_data.keys())))
         else:
-            deliverables = team.deliverables.values()
-        for deliverable in deliverables:
-            for repository in deliverable.repositories.values():
-                if tags and not tags.issubset(repository.tags):
-                    continue
-                if code_only and not repository.code_related:
-                    continue
-                yield repository
+            teams = self._teams
+
+        for team in teams:
+            if deliverable_name and deliverable_name not in team.deliverables:
+                continue
+            if deliverable_name:
+                deliverables = [team.deliverables[deliverable_name]]
+            else:
+                deliverables = team.deliverables.values()
+            for deliverable in deliverables:
+                for repository in deliverable.repositories.values():
+                    if tags and not tags.issubset(repository.tags):
+                        continue
+                    yield repository
