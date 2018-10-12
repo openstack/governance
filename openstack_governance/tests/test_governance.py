@@ -64,15 +64,25 @@ Technical Committee:
   - repo: openstack/project-team-guide
 """
 
+_sigs_data_yaml = """
+---
+# List of repositories owned by SIGs
+meta:
+  - repo: openstack/governance-sigs
+api:
+  - repo: openstack/api-sig
+"""
+
 TEAM_DATA = yamlutils.loads(_team_data_yaml)
 TC_DATA = yamlutils.loads(_tc_data_yaml)
+SIGS_DATA = yamlutils.loads(_sigs_data_yaml)
 
 
 class TestGetRepoOwner(base.BaseTestCase):
 
     def setUp(self):
         super().setUp()
-        self.gov = governance.Governance(TEAM_DATA, TC_DATA)
+        self.gov = governance.Governance(TEAM_DATA, TC_DATA, SIGS_DATA)
 
     def test_repo_exists(self):
         owner = self.gov.get_repo_owner(
@@ -98,7 +108,7 @@ class TestGetRepositories(base.BaseTestCase):
 
     def setUp(self):
         super().setUp()
-        self.gov = governance.Governance(TEAM_DATA, TC_DATA)
+        self.gov = governance.Governance(TEAM_DATA, TC_DATA, SIGS_DATA)
 
     def test_by_team(self):
         repos = self.gov.get_repositories(
@@ -121,6 +131,15 @@ class TestGetRepositories(base.BaseTestCase):
         self.assertEqual(
             sorted(['openstack/governance',
                     'openstack/project-team-guide']),
+            sorted(r.name for r in repos),
+        )
+
+    def test_by_team_sig(self):
+        repos = self.gov.get_repositories(
+            team_name='meta SIG',
+        )
+        self.assertEqual(
+            sorted(['openstack/governance-sigs']),
             sorted(r.name for r in repos),
         )
 
