@@ -104,6 +104,17 @@ class TestGetRepoOwner(base.BaseTestCase):
         )
 
 
+class TestLocalRepo(base.BaseTestCase):
+
+    def test_create(self):
+        gov = governance.Governance.from_local_repo()
+        repos = gov.get_repositories(
+            team_name='Technical Committee',
+        )
+        repo_names = set(r.name for r in repos)
+        self.assertIn('openstack/governance', repo_names)
+
+
 class TestGetRepositories(base.BaseTestCase):
 
     def setUp(self):

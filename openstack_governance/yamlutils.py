@@ -22,3 +22,8 @@ def loads(blob):
     # for what we are loading here in this program; we should
     # be able to fix that in the future (if it matters).
     return yaml.load(blob, Loader=yamlordereddictloader.Loader)
+
+
+def load_from_file(filename):
+    with open(filename, 'r', encoding='utf-8') as f:
+        return loads(f.read())
