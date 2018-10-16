@@ -1548,6 +1548,7 @@ Security:
   url: https://wiki.openstack.org/wiki/Security
   deliverables:
     anchor:
+      retired-on: 2018-10-16
       repos:
         - openstack/anchor
     bandit:
