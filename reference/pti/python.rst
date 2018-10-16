@@ -7,15 +7,12 @@ Project Testing Interface: Python
 Each python project must be able to do:
 
 - Unit tests for python2.7
+- Unit tests for python3 (see below for version details)
 - Codestyle checks
 - Testing Coverage Report
 - Source Tarball Generation
 - Translations import/export and merge for translated projects
 - Documentation generation
-
-Projects which are compatible with Python 3 must also be able to do:
-
-- Unit tests for python3.5
 
 Specific commands
 -----------------
@@ -30,14 +27,16 @@ tree:
 - ``python setup.py bdist_wheel``
 - ``sphinx-build -W -b html doc/source doc/build``
 
+The Python 3 version may change from cycle to cycle. Projects should
+target the following, replacing `3x` with the :ref:`tested Python 3 runtimes
+<pti-tested-runtimes>` for the current development cycle:
+
+- ``tox -e py3x``
+
 Projects that are translated should also support:
 
 - ``tox -e venv python setup.py extract_messages``
 - ``tox -e venv python setup.py update_catalog``
-
-Projects which are compatible with Python 3 must also be able to do:
-
-- ``tox -e py35``
 
 Some basic prerequisites for test running (system packages, database
 configuration, custom filesystem types) are acceptable as long as they are
