@@ -14,13 +14,13 @@ and they follow OpenStack processes where feasible.
 
 Each golang project must be able to do:
 
- - Dependency installation
- - Code style checks
- - Unit tests
- - Functional tests
- - Test Coverage Report
- - Documentation generation
- - Translations import/export and merge for translated projects
+- Dependency installation
+- Code style checks
+- Unit tests
+- Functional tests
+- Test Coverage Report
+- Documentation generation
+- Translations import/export and merge for translated projects
 
 There is not yet a consensus among the to golang community for build
 and package management tools as the ``go`` tool itself was intended to
@@ -41,40 +41,40 @@ Specific commands
 To drive the above tasks, the following commands should be supported in
 a clean tree:
 
-    :code:`make depend`
-        Install dependencies required to build the project
+``make depend``
+    Install dependencies required to build the project
 
-    :code:`make build`
-        Execute build process
+``make build``
+    Execute build process
 
-    :code:`make install`
-        Execute binary install
+``make install``
+    Execute binary install
 
-    :code:`make test`
-        Execute tests
+``make test``
+    Execute tests
 
-    :code:`make fmt`
-        Execute code style checks
+``make fmt``
+    Execute code style checks
 
-    :code:`make docs`
-        Generate HTML documentation from the in-tree developer docs
+``make docs``
+    Generate HTML documentation from the in-tree developer docs
 
-    :code:`make godoc`
-        Generate the golang docs from the source
+``make godoc``
+    Generate the golang docs from the source
 
-    :code:`make releasenotes`
-        Generate HTML release notes
+``make releasenotes``
+    Generate HTML release notes
 
 Additional commands may be supported, but are not required:
 
-    :code:`make cover`
-        Generate coverage reports
+``make cover``
+    Generate coverage reports
 
-    :code:`make lint`
-        Execute more code style checks
+``make lint``
+    Execute more code style checks
 
-    :code:`make translation`
-        Perform translation-related tasks (TBD)
+``make translation``
+    Perform translation-related tasks (TBD)
 
 Project Setup
 -------------
@@ -82,24 +82,25 @@ Project Setup
 Project repos shall use a structure that is a hybrid of the typical OpenStack
 structure and those commonly found in the golang community.  Because
 these are OpenStack projects, the top-level structure shall contain
-the existing process-related components.  All golang source code and modules shall
-be in one or more subdirectories named in a manner to identify its contents
-distinctly from the Python namespace directories currently used.
+the existing process-related components.  All golang source code and modules
+shall be in one or more subdirectories named in a manner to identify its
+contents distinctly from the Python namespace directories currently used.
 This allows the golang code to maintain its native style and not be
 mixed in with the OpenStack tool-related pieces such as Sphinx documentation
 and Reno release notes.
 
 The source subdirectory naming is intentionally flexible in order to
 accommodate unforeseen situations, however the following guidelines should
-be strongly considered::
+be strongly considered:
 
- - Simple projects or projects that only need one golang workspace can use
-   a single top-level directory named ``go``.
- - Projects that may have multiple distinct golang workspaces should use
-   names that include a ``-go`` suffix.  This allows similarly named modules
-   in multiple languages to co-exist. For example: the CloudTool project
-   should continue to put Python sources in its Python namespace ``cloudtool``
-   and the golang source in ``cloudtool-go`` (do not use a period!).
+- Simple projects or projects that only need one golang workspace can use
+  a single top-level directory named ``go``.
+
+- Projects that may have multiple distinct golang workspaces should use
+  names that include a ``-go`` suffix.  This allows similarly named modules
+  in multiple languages to co-exist. For example: the CloudTool project
+  should continue to put Python sources in its Python namespace ``cloudtool``
+  and the golang source in ``cloudtool-go`` (do not use a period!).
 
 Dependency Management
 ---------------------
@@ -108,8 +109,8 @@ OpenStack has chosen to use Glide_ as the common dependency management tool
 for golang.  The ``depend`` target provides a common interface to Glide's
 ``install`` command.
 
-    :code:`make depend`
-        Install dependencies required to build the project
+``make depend``
+   Install dependencies required to build the project
 
 Golang dependencies shall not be vendored in golang repos. Each project shall
 include a list of its dependencies and acceptable/tested versions in the repo.
@@ -144,11 +145,11 @@ other operations such as ``go test``.  Build and install are split out here
 as they are common operations and useful in their own right.  These targets
 are not strictly necessary for CI testing.
 
-    :code:`make build`
-        Execute build process
+``make build``
+    Execute build process
 
-    :code:`make install`
-        Execute binary install
+``make install``
+    Execute binary install
 
 Codestyle Checks
 ----------------
@@ -159,12 +160,12 @@ target shall not use ``go fmt`` which rewrites source files by default.
 As a developer convenience a second target called ``fmtfix`` shall be
 defined that does the source fixups (equivalent to ``gofmt -l -w``).
 
-    :code:`make fmt`
-        Run the gofmt tool non-destructively to validate code formatting
+``make fmt``
+    Run the gofmt tool non-destructively to validate code formatting
 
-    :code:`make fmtfix`
-        Run the gofmt tool and overwrite source files with gofmt's version
-        if changes are required.  This is primarily a developer convenience.
+``make fmtfix``
+    Run the gofmt tool and overwrite source files with gofmt's version
+    if changes are required.  This is primarily a developer convenience.
 
 Tests
 -----
@@ -172,8 +173,8 @@ Tests
 OpenStack uses ``go test`` to run all test types at once invoked via
 the ``Makefile``.
 
-    :code:`make test`
-        Run tests
+``make test``
+    Run tests
 
 This is the general test target and may simply call some subset of additional
 ``test-*`` targets.  Specific test targets should be named with a ``test-*``
@@ -203,8 +204,8 @@ Sphinx to generate our Narrative Project documentation.
 In addition to the normal PTI :ref:`pti-documentation` requirements, for
 developer convenience, Go projects are recommended to provide:
 
-    :code:`make docs`
-        Generate HTML documentation from the in-tree developer docs
+``make docs``
+    Generate HTML documentation from the in-tree developer docs
 
 that should:
 
@@ -220,8 +221,8 @@ Go has a well-defined documentation tool `godoc`_ that produces
 developer documentation extracted from source code comments, similar to
 Python's Docstring.
 
-    :code:`make godoc`
-        Generate the golang docs from the source
+``make godoc``
+    Generate the golang docs from the source
 
 .. TBD(dtroyer): define how the godoc output is integrated with the current
 .. sphinx process
@@ -237,8 +238,8 @@ the final HTML documentation.
 In addition to the normal PTI :ref:`pti-documentation` requirements, for
 developer convenience, Go projects are recommended to provide:
 
-    :code:`make releasenotes`
-        Generate HTML release notes
+``make releasenotes``
+    Generate HTML release notes
 
 Translations
 ------------

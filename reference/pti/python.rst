@@ -6,16 +6,16 @@ Project Testing Interface: Python
 
 Each python project must be able to do:
 
- - Unit tests for python2.7
- - Codestyle checks
- - Testing Coverage Report
- - Source Tarball Generation
- - Translations import/export and merge for translated projects
- - Documentation generation
+- Unit tests for python2.7
+- Codestyle checks
+- Testing Coverage Report
+- Source Tarball Generation
+- Translations import/export and merge for translated projects
+- Documentation generation
 
 Projects which are compatible with Python 3 must also be able to do:
 
- - Unit tests for python3.5
+- Unit tests for python3.5
 
 Specific commands
 -----------------
@@ -23,21 +23,21 @@ Specific commands
 To drive the above tasks, the following commands should be supported in a clean
 tree:
 
- - tox -epy27
- - tox -epep8
- - tox -ecover
- - python setup.py sdist
- - python setup.py bdist_wheel
- - sphinx-build -W -b html doc/source doc/build
+- ``tox -e py27``
+- ``tox -e pep8``
+- ``tox -e cover``
+- ``python setup.py sdist``
+- ``python setup.py bdist_wheel``
+- ``sphinx-build -W -b html doc/source doc/build``
 
 Projects that are translated should also support:
 
- - tox -evenv python setup.py extract_messages
- - tox -evenv python setup.py update_catalog
+- ``tox -e venv python setup.py extract_messages``
+- ``tox -e venv python setup.py update_catalog``
 
 Projects which are compatible with Python 3 must also be able to do:
 
- - tox -epy35
+- ``tox -e py35``
 
 Some basic prerequisites for test running (system packages, database
 configuration, custom filesystem types) are acceptable as long as they are
@@ -159,7 +159,7 @@ a ``releasenotes`` environment for tox that will run
   sphinx-build -a -E -W -d releasenotes/build/doctrees -b html \
       releasenotes/source releasenotes/build/html
 
-The project infrastructure will not use ``tox -ereleasenotes`` to build the
+The project infrastructure will not use ``tox -e releasenotes`` to build the
 documentation. Therefore it is **STRONGLY** discouraged for people to put
 additional logic into the command section of that tox environment. Additional
 logic needed around releasenotes generation should go into reno.
