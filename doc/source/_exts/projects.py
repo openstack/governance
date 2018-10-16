@@ -17,6 +17,9 @@ import copy
 import os.path
 
 from openstack_governance import projects
+from sphinx.util import logging
+
+LOG = logging.getLogger(__name__)
 
 _projects_yaml = {}
 
@@ -35,5 +38,5 @@ def setup(app):
     global _projects_yaml
 
     filename = os.path.abspath('reference/projects.yaml')
-    app.info('reading %s' % filename)
+    LOG.info('reading %s' % filename)
     _projects_yaml = projects.load_project_file(filename)

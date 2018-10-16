@@ -14,14 +14,16 @@
 Generate badges for the projects
 """
 
-from itertools import chain
-from itertools import zip_longest
 import os
 
+from itertools import chain
+from itertools import zip_longest
 from PIL import ImageFont
+from sphinx.util import logging
 
 import projects
 
+LOG = logging.getLogger(__name__)
 
 PADDING = 8
 BASE_TAGS_URL = 'https://governance.openstack.org/tc/reference/tags/'
@@ -162,7 +164,7 @@ def _to_svg(badges):
 
 
 def _generate_teams_badges(app, exception=None):
-    app.info('Generating team badges')
+    LOG.info('Generating team badges')
     all_teams = projects.get_project_data()
     files = []
 
@@ -178,7 +180,7 @@ def _generate_teams_badges(app, exception=None):
     files.append(filename)
 
     for team, info in all_teams.items():
-        app.info('generating team badge for %s' % team)
+        LOG.info('generating team badge for %s' % team)
 
         for name, deliverable in info['deliverables'].items():
             tags = info.get('tags', []) + deliverable.get('tags', [])
@@ -200,5 +202,5 @@ def _generate_teams_badges(app, exception=None):
 
 
 def setup(app):
-    app.info('loading badges extension')
+    LOG.info('loading badges extension')
     app.connect('build-finished', _generate_teams_badges)

@@ -16,10 +16,12 @@
 from docutils import nodes
 from docutils.parsers import rst
 from docutils import statemachine
+from sphinx.util import logging
 from sphinx.util.nodes import nested_parse_with_titles
 
 import projects
 
+LOG = logging.getLogger(__name__)
 
 IRC_LOG_URL_BASE = 'http://eavesdrop.openstack.org/irclogs/%23'
 
@@ -96,13 +98,13 @@ def _team_to_rst(name, info):
     yield ''
 
 
-def _write_team_pages(app):
+def _write_team_pages():
     all_teams = projects.get_project_data()
     files = []
     for team, info in all_teams.items():
         slug = projects.slugify(team)
         filename = 'reference/projects/%s.rst' % slug
-        app.info('generating team page for %s' % team)
+        LOG.info('generating team page for %s' % team)
         with open(filename, 'w', encoding='utf-8') as f:
             f.write('\n'.join(_team_to_rst(team, info)))
         files.append(filename)
@@ -132,6 +134,6 @@ class TeamsListDirective(rst.Directive):
 
 
 def setup(app):
-    app.info('loading teams extension')
+    LOG.info('loading teams extension')
     app.add_directive('teamslist', TeamsListDirective)
-    _write_team_pages(app)
+    _write_team_pages()

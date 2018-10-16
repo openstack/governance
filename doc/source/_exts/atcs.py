@@ -20,8 +20,11 @@ from docutils import nodes
 from docutils.parsers.rst import directives
 from docutils.parsers.rst.directives import tables
 from docutils.utils import SystemMessagePropagation
+from sphinx.util import logging
 
 import projects
+
+LOG = logging.getLogger(__name__)
 
 
 class ExtraATCsTable(tables.Table):
@@ -136,5 +139,5 @@ _PATTERN = re.compile('(?P<project>.+):\s+(?P<name>.+)\s\((?P<email>.+)\)\s\[(?P
 
 
 def setup(app):
-    app.info('loading atcs extension')
+    LOG.info('loading atcs extension')
     app.add_directive('extraatcstable', ExtraATCsTable)
