@@ -17,8 +17,11 @@ from docutils import nodes
 from docutils.parsers.rst import directives
 from docutils.parsers.rst.directives import tables
 from docutils.utils import SystemMessagePropagation
+from sphinx.util import logging
 
 from openstack_governance import members
+
+LOG = logging.getLogger(__name__)
 
 
 class MembersTable(tables.Table):
@@ -129,5 +132,5 @@ class MembersTable(tables.Table):
 
 
 def setup(app):
-    app.info('loading members extension')
+    LOG.info('loading members extension')
     app.add_directive('memberstable', MembersTable)

@@ -16,9 +16,12 @@
 from docutils import nodes
 from docutils.parsers import rst
 from docutils import statemachine
+from sphinx.util import logging
 from sphinx.util.nodes import nested_parse_with_titles
 
 import projects
+
+LOG = logging.getLogger(__name__)
 
 _projects_by_tag = {}
 
@@ -30,11 +33,8 @@ class TaggedProjectsDirective(rst.Directive):
     has_content = True
 
     def run(self):
-        env = self.state.document.settings.env
-        app = env.app
-
         tagname = ' '.join(self.content)
-        app.info('building list of projects tagged %r' % tagname)
+        LOG.info('building list of projects tagged %r' % tagname)
         if not tagname:
             error = self.state_machine.reporter.error(
                 'No tagname in tagged-projects directive',
@@ -82,6 +82,6 @@ def _build_projects_by_tag():
 
 
 def setup(app):
-    app.info('loading tags extension')
+    LOG.info('loading tags extension')
     _build_projects_by_tag()
     app.add_directive('tagged-projects', TaggedProjectsDirective)
