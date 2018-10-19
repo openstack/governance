@@ -2396,6 +2396,9 @@ OpenStack-Helm:
     openstack-helm-addons:
       repos:
         - openstack/openstack-helm-addons
+    openstack-helm-docs:
+      repos:
+        - openstack/openstack-helm-docs
     openstack-helm-images:
       repos:
         - openstack/openstack-helm-images
