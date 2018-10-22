@@ -77,18 +77,21 @@ blazar:
     blazar:
       repos:
         - openstack/blazar
+    blazar-dashboard:
+      repos:
+        - openstack/blazar-dashboard
     blazar-nova:
       repos:
         - openstack/blazar-nova
+    blazar-specs:
+      repos:
+        - openstack/blazar-specs
     blazar-tempest-plugin:
       repos:
         - openstack/blazar-tempest-plugin
     python-blazarclient:
       repos:
         - openstack/python-blazarclient
-    blazar-dashboard:
-      repos:
-        - openstack/blazar-dashboard
 
 Chef OpenStack:
   ptl:
