@@ -2245,6 +2245,12 @@ OpenStack Charms:
     charm-interface-mysql-shared:
       repos:
         - openstack/charm-interface-mysql-shared
+    charm-interface-nova-cell:
+      repos:
+        - openstack/charm-interface-nova-cell
+    charm-interface-nova-compute:
+      repos:
+        - openstack/charm-interface-nova-compute
     charm-interface-neutron-plugin:
       repos:
         - openstack/charm-interface-neutron-plugin
@@ -2323,6 +2329,9 @@ OpenStack Charms:
     charm-neutron-openvswitch:
       repos:
         - openstack/charm-neutron-openvswitch
+    charm-nova-cell-controller:
+      repos:
+        - openstack/charm-nova-cell-controller
     charm-nova-cloud-controller:
       repos:
         - openstack/charm-nova-cloud-controller
