@@ -44,6 +44,7 @@ barbican:
         - assert:supports-upgrade
         - stable:follows-policy
     barbican-specs:
+      release-management: none
       repos:
         - openstack/barbican-specs
     barbican-tempest-plugin:
@@ -102,63 +103,83 @@ Chef OpenStack:
   url: https://wiki.openstack.org/wiki/Chef
   deliverables:
     cookbook-openstack-application-catalog:
+      release-management: external
       repos:
         - openstack/cookbook-openstack-application-catalog
     cookbook-openstack-bare-metal:
+      release-management: external
       repos:
         - openstack/cookbook-openstack-bare-metal
     cookbook-openstack-block-storage:
+      release-management: external
       repos:
         - openstack/cookbook-openstack-block-storage
     cookbook-openstack-client:
+      release-management: external
       repos:
         - openstack/cookbook-openstack-client
     cookbook-openstackclient:
+      release-management: external
       repos:
         - openstack/cookbook-openstackclient
     cookbook-openstack-common:
+      release-management: external
       repos:
         - openstack/cookbook-openstack-common
     cookbook-openstack-compute:
+      release-management: external
       repos:
         - openstack/cookbook-openstack-compute
     cookbook-openstack-dashboard:
+      release-management: external
       repos:
         - openstack/cookbook-openstack-dashboard
     cookbook-openstack-dns:
+      release-management: external
       repos:
         - openstack/cookbook-openstack-dns
     cookbook-openstack-identity:
+      release-management: external
       repos:
         - openstack/cookbook-openstack-identity
     cookbook-openstack-image:
+      release-management: external
       repos:
         - openstack/cookbook-openstack-image
     cookbook-openstack-integration-test:
+      release-management: external
       repos:
         - openstack/cookbook-openstack-integration-test
     cookbook-openstack-network:
+      release-management: external
       repos:
         - openstack/cookbook-openstack-network
     cookbook-openstack-ops-database:
+      release-management: external
       repos:
         - openstack/cookbook-openstack-ops-database
     cookbook-openstack-ops-messaging:
+      release-management: external
       repos:
         - openstack/cookbook-openstack-ops-messaging
     cookbook-openstack-orchestration:
+      release-management: external
       repos:
         - openstack/cookbook-openstack-orchestration
     cookbook-openstack-telemetry:
+      release-management: external
       repos:
         - openstack/cookbook-openstack-telemetry
     openstack-chef:
+      release-management: external
       repos:
         - openstack/openstack-chef
     openstack-chef-repo:
+      release-management: external
       repos:
         - openstack/openstack-chef-repo
     openstack-chef-specs:
+      release-management: none
       repos:
         - openstack/openstack-chef-specs
 
@@ -187,6 +208,7 @@ cinder:
         - assert:supports-rolling-upgrade
         - assert:supports-accessible-upgrade
     cinder-specs:
+      release-management: none
       repos:
         - openstack/cinder-specs
     cinder-tempest-plugin:
@@ -228,6 +250,7 @@ cloudkitty:
       repos:
         - openstack/cloudkitty-dashboard
     cloudkitty-specs:
+      release-management: none
       repos:
         - openstack/cloudkitty-specs
     cloudkitty-tempest-plugin:
@@ -256,6 +279,7 @@ congress:
       repos:
         - openstack/congress-dashboard
     congress-specs:
+      release-management: none
       repos:
         - openstack/congress-specs
     congress-tempest-plugin:
@@ -281,6 +305,7 @@ cyborg:
       repos:
         - openstack/cyborg
     cyborg-specs:
+      release-management: none
       repos:
         - openstack/cyborg-specs
     os-acc:
@@ -317,6 +342,7 @@ designate:
       tags:
         - stable:follows-policy
     designate-specs:
+      release-management: none
       repos:
         - openstack/designate-specs
     designate-tempest-plugin:
@@ -341,9 +367,11 @@ Documentation:
   url: https://wiki.openstack.org/wiki/Documentation
   deliverables:
     constellations:
+      release-management: none
       repos:
         - openstack/constellations
     docs-specs:
+      release-management: none
       repos:
         - openstack/docs-specs
     openstack-doc-tools:
@@ -362,12 +390,14 @@ Documentation:
       repos:
         - openstack/training-labs
     training-guides:
+      release-management: none
       repos:
         - openstack/training-guides
     whereto:
       repos:
         - openstack/whereto
     contributor-guide:
+      release-management: none
       repos:
         - openstack/contributor-guide
 
@@ -430,6 +460,7 @@ freezer:
         - openstack/freezer-api
         - openstack/freezer-dr
     freezer-specs:
+      release-management: none
       repos:
         - openstack/freezer-specs
     freezer-tempest-plugin:
@@ -466,6 +497,7 @@ glance:
         - vulnerability:managed
         - stable:follows-policy
     glance-specs:
+      release-management: none
       repos:
         - openstack/glance-specs
     glance-store:
@@ -516,12 +548,14 @@ heat:
       repos:
         - openstack/heat-dashboard
     heat-specs:
+      release-management: none
       repos:
         - openstack/heat-specs
     heat-tempest-plugin:
       repos:
         - openstack/heat-tempest-plugin
     heat-templates:
+      release-management: none
       repos:
         - openstack/heat-templates
     heat-translator:
@@ -567,6 +601,7 @@ horizon:
       repos:
         - openstack/tempest-horizon
     ui-cookiecutter:
+      release-management: none
       repos:
         - openstack/ui-cookiecutter
     xstatic-angular:
@@ -671,9 +706,11 @@ I18n:
   url: https://wiki.openstack.org/wiki/I18nTeam
   deliverables:
     i18n:
+      release-management: none
       repos:
         - openstack/i18n
     i18n-specs:
+      release-management: none
       repos:
         - openstack/i18n-specs
   extra-atcs:
@@ -1078,6 +1115,7 @@ Infrastructure:
       repos:
         - openstack-infra/infra-manual
     infra-specs:
+      release-management: none
       repos:
         - openstack-infra/infra-specs
     irc-meetings:
@@ -1473,6 +1511,7 @@ ironic:
         - assert:supports-accessible-upgrade
         - assert:follows-standard-deprecation
     ironic-inspector-specs:
+      release-management: none
       repos:
         - openstack/ironic-inspector-specs
     ironic-lib:
@@ -1486,9 +1525,11 @@ ironic:
       tags:
         - stable:follows-policy
     ironic-python-agent-builder:
+      release-management: none
       repos:
         - openstack/ironic-python-agent-builder
     ironic-specs:
+      release-management: none
       repos:
         - openstack/ironic-specs
     ironic-tempest-plugin:
@@ -1581,6 +1622,7 @@ keystone:
         - assert:supports-upgrade
         - stable:follows-policy
     keystone-specs:
+      release-management: none
       repos:
         - openstack/keystone-specs
     keystone-tempest-plugin:
@@ -1691,6 +1733,7 @@ magnum:
       repos:
         - openstack/magnum
     magnum-specs:
+      release-management: none
       repos:
         - openstack/magnum-specs
     magnum-tempest-plugin:
@@ -1727,12 +1770,14 @@ manila:
       repos:
         - openstack/manila-image-elements
     manila-specs:
+      release-management: none
       repos:
         - openstack/manila-specs
     manila-tempest-plugin:
       repos:
         - openstack/manila-tempest-plugin
     manila-test-image:
+      release-management: none
       repos:
         - openstack/manila-test-image
     manila-ui:
@@ -1761,6 +1806,7 @@ masakari:
       repos:
         - openstack/masakari-monitors
     masakari-specs:
+      release-management: none
       repos:
         - openstack/masakari-specs
     python-masakariclient:
@@ -1790,6 +1836,7 @@ mistral:
         - openstack/mistral-dashboard
         - openstack/mistral-extra
     mistral-specs:
+      release-management: none
       repos:
         - openstack/mistral-specs
     mistral-tempest-plugin:
@@ -1827,6 +1874,7 @@ monasca:
       repos:
         - openstack/monasca-events-api
     monasca-specs:
+      release-management: none
       repos:
         - openstack/monasca-specs
     monasca-notification:
@@ -1910,6 +1958,7 @@ murano:
       repos:
         - openstack/murano-pkg-check
     murano-specs:
+      release-management: none
       repos:
         - openstack/murano-specs
     python-muranoclient:
@@ -1984,6 +2033,7 @@ neutron:
         - stable:follows-policy
         - vulnerability:managed
     neutron-specs:
+      release-management: none
       repos:
         - openstack/neutron-specs
     neutron-tempest-plugin:
@@ -2043,6 +2093,7 @@ nova:
         - stable:follows-policy
         - assert:supports-api-interoperability
     nova-specs:
+      release-management: none
       repos:
         - openstack/nova-specs
     python-novaclient:
@@ -2126,240 +2177,319 @@ OpenStack Charms:
   url: https://docs.openstack.org/charm-guide/latest/
   deliverables:
     charms.ceph:
+      release-management: external
       repos:
         - openstack/charms.ceph
     charms.openstack:
+      release-management: external
       repos:
         - openstack/charms.openstack
     charm-aodh:
+      release-management: external
       repos:
         - openstack/charm-aodh
     charm-barbican:
+      release-management: external
       repos:
         - openstack/charm-barbican
     charm-barbican-softhsm:
+      release-management: external
       repos:
         - openstack/charm-barbican-softhsm
     charm-ceilometer:
+      release-management: external
       repos:
         - openstack/charm-ceilometer
     charm-ceilometer-agent:
+      release-management: external
       repos:
         - openstack/charm-ceilometer-agent
     charm-ceph-mon:
+      release-management: external
       repos:
         - openstack/charm-ceph-mon
     charm-ceph-osd:
+      release-management: external
       repos:
         - openstack/charm-ceph-osd
     charm-ceph-fs:
+      release-management: external
       repos:
         - openstack/charm-ceph-fs
     charm-ceph-radosgw:
+      release-management: external
       repos:
         - openstack/charm-ceph-radosgw
     charm-ceph-proxy:
+      release-management: external
       repos:
         - openstack/charm-ceph-proxy
     charm-cinder:
+      release-management: external
       repos:
         - openstack/charm-cinder
     charm-cinder-backup:
+      release-management: external
       repos:
         - openstack/charm-cinder-backup
     charm-cinder-ceph:
+      release-management: external
       repos:
         - openstack/charm-cinder-ceph
     charm-cloudkitty:
+      release-management: external
       repos:
         - openstack/charm-cloudkitty
     charm-deployment-guide:
+      release-management: external
       repos:
         - openstack/charm-deployment-guide
     charm-designate:
+      release-management: external
       repos:
         - openstack/charm-designate
     charm-designate-bind:
+      release-management: external
       repos:
         - openstack/charm-designate-bind
     charm-gnocchi:
+      release-management: external
       repos:
         - openstack/charm-gnocchi
     charm-panko:
+      release-management: external
       repos:
         - openstack/charm-panko
     charm-glance:
+      release-management: external
       repos:
         - openstack/charm-glance
     charm-glance-simplestreams-sync:
+      release-management: external
       repos:
         - openstack/charm-glance-simplestreams-sync
     charm-glusterfs:
+      release-management: external
       repos:
         - openstack/charm-glusterfs
     charm-guide:
+      release-management: none
       repos:
         - openstack/charm-guide
     charm-hacluster:
+      release-management: external
       repos:
         - openstack/charm-hacluster
     charm-heat:
+      release-management: external
       repos:
         - openstack/charm-heat
     charm-interface-bgp:
+      release-management: external
       repos:
         - openstack/charm-interface-bgp
     charm-interface-bind-rndc:
+      release-management: external
       repos:
         - openstack/charm-interface-bind-rndc
     charm-interface-ceph-client:
+      release-management: external
       repos:
         - openstack/charm-interface-ceph-client
     charm-interface-ceph-mds:
+      release-management: external
       repos:
         - openstack/charm-interface-ceph-mds
     charm-interface-designate:
+      release-management: external
       repos:
         - openstack/charm-interface-designate
     charm-interface-gnocchi:
+      release-management: external
       repos:
         - openstack/charm-interface-gnocchi
     charm-interface-hacluster:
+      release-management: external
       repos:
         - openstack/charm-interface-hacluster
     charm-interface-keystone:
+      release-management: external
       repos:
         - openstack/charm-interface-keystone
     charm-interface-keystone-admin:
+      release-management: external
       repos:
         - openstack/charm-interface-keystone-admin
     charm-interface-keystone-credentials:
+      release-management: external
       repos:
         - openstack/charm-interface-keystone-credentials
     charm-interface-keystone-domain-backend:
+      release-management: external
       repos:
         - openstack/charm-interface-keystone-domain-backend
     charm-interface-manila-plugin:
+      release-management: external
       repos:
         - openstack/charm-interface-manila-plugin
     charm-interface-mysql-shared:
+      release-management: external
       repos:
         - openstack/charm-interface-mysql-shared
     charm-interface-neutron-plugin:
+      release-management: external
       repos:
         - openstack/charm-interface-neutron-plugin
     charm-interface-neutron-plugin-api-subordinate:
+      release-management: external
       repos:
         - openstack/charm-interface-neutron-plugin-api-subordinate
     charm-interface-odl-controller-api:
+      release-management: external
       repos:
         - openstack/charm-interface-odl-controller-api
     charm-interface-openstack-ha:
+      release-management: external
       repos:
         - openstack/charm-interface-openstack-ha
     charm-interface-ovsdb-manager:
+      release-management: external
       repos:
         - openstack/charm-interface-ovsdb-manager
     charm-interface-rabbitmq:
+      release-management: external
       repos:
         - openstack/charm-interface-rabbitmq
     charm-interface-service-control:
+      release-management: external
       repos:
         - openstack/charm-interface-service-control
     charm-ironic:
+      release-management: external
       repos:
         - openstack/charm-ironic
     charm-keystone:
+      release-management: external
       repos:
         - openstack/charm-keystone
     charm-keystone-ldap:
+      release-management: external
       repos:
         - openstack/charm-keystone-ldap
     charm-layer-ceph-base:
+      release-management: external
       repos:
         - openstack/charm-layer-ceph-base
     charm-layer-openstack:
+      release-management: external
       repos:
         - openstack/charm-layer-openstack
     charm-layer-openstack-api:
+      release-management: external
       repos:
         - openstack/charm-layer-openstack-api
     charm-layer-openstack-principle:
+      release-management: external
       repos:
         - openstack/charm-layer-openstack-principle
     charm-lxd:
+      release-management: external
       repos:
         - openstack/charm-lxd
     charm-manila:
+      release-management: external
       repos:
         - openstack/charm-manila
     charm-manila-generic:
+      release-management: external
       repos:
         - openstack/charm-manila-generic
     charm-manila-glusterfs:
+      release-management: external
       repos:
         - openstack/charm-manila-glusterfs
     charm-mistral:
+      release-management: external
       repos:
         - openstack/charm-mistral
     charm-murano:
+      release-management: external
       repos:
         - openstack/charm-murano
     charm-neutron-api:
+      release-management: external
       repos:
         - openstack/charm-neutron-api
     charm-neutron-api-genericswitch:
+      release-management: external
       repos:
         - openstack/charm-neutron-api-genericswitch
     charm-neutron-api-odl:
+      release-management: external
       repos:
         - openstack/charm-neutron-api-odl
     charm-neutron-dynamic-routing:
+      release-management: external
       repos:
         - openstack/charm-neutron-dynamic-routing
     charm-neutron-gateway:
+      release-management: external
       repos:
         - openstack/charm-neutron-gateway
     charm-neutron-openvswitch:
+      release-management: external
       repos:
         - openstack/charm-neutron-openvswitch
     charm-nova-cloud-controller:
+      release-management: external
       repos:
         - openstack/charm-nova-cloud-controller
     charm-nova-compute:
+      release-management: external
       repos:
         - openstack/charm-nova-compute
     charm-nova-compute-proxy:
+      release-management: external
       repos:
         - openstack/charm-nova-compute-proxy
     charm-odl-controller:
+      release-management: external
       repos:
         - openstack/charm-odl-controller
     charm-openstack-dashboard:
+      release-management: external
       repos:
         - openstack/charm-openstack-dashboard
     charm-openvswitch-odl:
+      release-management: external
       repos:
         - openstack/charm-openvswitch-odl
     charm-percona-cluster:
+      release-management: external
       repos:
         - openstack/charm-percona-cluster
     charm-rabbitmq-server:
+      release-management: external
       repos:
         - openstack/charm-rabbitmq-server
     charm-specs:
+      release-management: none
       repos:
         - openstack/charm-specs
     charm-swift-proxy:
+      release-management: external
       repos:
         - openstack/charm-swift-proxy
     charm-swift-storage:
+      release-management: external
       repos:
         - openstack/charm-swift-storage
     charm-tempest:
+      release-management: external
       repos:
         - openstack/charm-tempest
     charm-trove:
+      release-management: external
       repos:
         - openstack/charm-trove
 
@@ -2483,6 +2613,7 @@ OpenStackAnsible:
       repos:
         - openstack/openstack-ansible-security
     openstack-ansible-specs:
+      release-management: none
       repos:
         - openstack/openstack-ansible-specs
 
@@ -2573,6 +2704,7 @@ oslo:
         - stable:follows-policy
         - vulnerability:managed
     cookiecutter:
+      release-management: none
       repos:
         - openstack-dev/cookiecutter
     debtcollector:
@@ -2603,9 +2735,11 @@ oslo:
       tags:
         - stable:follows-policy
     oslo-cookiecutter:
+      release-management: none
       repos:
         - openstack-dev/oslo-cookiecutter
     oslo-specs:
+      release-management: none
       repos:
         - openstack/oslo-specs
     oslo.cache:
@@ -2688,6 +2822,7 @@ oslo:
       tags:
         - stable:follows-policy
     oslo.tools:
+      release-management: none
       repos:
         - openstack/oslo.tools
     oslo.upgradecheck:
@@ -2766,6 +2901,7 @@ Packaging-rpm:
       repos:
         - openstack/rpm-packaging
     rpm-packaging-tools:
+      release-management: none
       repos:
         - openstack/rpm-packaging-tools
     pymod2pkg:
@@ -2889,15 +3025,18 @@ Puppet OpenStack:
       repos:
         - openstack/puppet-octavia
     puppet-openstack-cookiecutter:
+      release-management: none
       repos:
         - openstack/puppet-openstack-cookiecutter
     puppet-openstack-guide:
+      release-management: none
       repos:
         - openstack/puppet-openstack-guide
     puppet-openstack-integration:
       repos:
         - openstack/puppet-openstack-integration
     puppet-openstack-specs:
+      release-management: none
       repos:
         - openstack/puppet-openstack-specs
     puppet-openstack_extras:
@@ -2996,6 +3135,7 @@ Quality Assurance:
       repos:
         - openstack-dev/bashate
     coverage2sql:
+      release-management: none
       repos:
         - openstack/coverage2sql
     devstack:
@@ -3005,6 +3145,7 @@ Quality Assurance:
       repos:
         - openstack/devstack-plugin-ceph
     devstack-plugin-cookiecutter:
+      release-management: none
       repos:
         - openstack-dev/devstack-plugin-cookiecutter
     devstack-tools:
@@ -3026,9 +3167,11 @@ Quality Assurance:
       repos:
         - openstack/karma-subunit-reporter
     openstack-health:
+      release-management: none
       repos:
         - openstack/openstack-health
     os-performance-tools:
+      release-management: none
       repos:
         - openstack/os-performance-tools
     os-testr:
@@ -3038,21 +3181,25 @@ Quality Assurance:
       repos:
         - openstack/patrole
     qa-specs:
+      release-management: none
       repos:
         - openstack/qa-specs
     stackviz:
+      release-management: none
       repos:
         - openstack/stackviz
     tempest:
       repos:
         - openstack/tempest
     tempest-plugin-cookiecutter:
+      release-management: none
       repos:
         - openstack/tempest-plugin-cookiecutter
     tempest-lib:
       repos:
         - openstack/tempest-lib
     tempest-stress:
+      release-management: none
       repos:
         - openstack/tempest-stress
     devstack-plugin-container:
@@ -3092,18 +3239,21 @@ Release Management:
   url: https://wiki.openstack.org/wiki/Release_Management
   deliverables:
     release-schedule-generator:
+      release-management: none
       repos:
         - openstack/release-schedule-generator
     release-test:
       repos:
         - openstack/release-test
     releases:
+      release-management: none
       repos:
         - openstack/releases
     reno:
       repos:
         - openstack/reno
     specs-cookiecutter:
+      release-management: none
       repos:
         - openstack-dev/specs-cookiecutter
 
@@ -3171,6 +3321,7 @@ sahara:
       repos:
         - openstack/sahara-tests
     sahara-specs:
+      release-management: none
       repos:
         - openstack/sahara-specs
 
@@ -3194,6 +3345,7 @@ searchlight:
       repos:
         - openstack/searchlight
     searchlight-specs:
+      release-management: none
       repos:
         - openstack/searchlight-specs
     python-searchlightclient:
@@ -3251,6 +3403,7 @@ solum:
       repos:
         - openstack/solum-dashboard
     solum-specs:
+      release-management: none
       repos:
         - openstack/solum-specs
     solum-tempest-plugin:
@@ -3303,6 +3456,7 @@ swift:
       repos:
         - openstack/swift-bench
     swift-specs:
+      release-management: none
       repos:
         - openstack/swift-specs
 
@@ -3329,6 +3483,7 @@ tacker:
       repos:
         - openstack/python-tackerclient
     tacker-specs:
+      release-management: none
       repos:
         - openstack/tacker-specs
 
@@ -3359,6 +3514,7 @@ Telemetry:
         - assert:supports-upgrade
         - tc:approved-release
     telemetry-specs:
+      release-management: none
       repos:
         - openstack/telemetry-specs
     ceilometermiddleware:
@@ -3585,6 +3741,7 @@ tripleo:
       repos:
         - openstack/tripleo-ansible
     tripleo-ci:
+      release-management: none
       repos:
         - openstack-infra/tripleo-ci
     tripleo-common:
@@ -3594,6 +3751,7 @@ tripleo:
       repos:
         - openstack/tripleo-common-tempest-plugin
     tripleo-docs:
+      release-management: none
       repos:
         - openstack/tripleo-docs
     tripleo-heat-templates:
@@ -3613,9 +3771,11 @@ tripleo:
         - openstack/tripleo-quickstart
         - openstack/tripleo-quickstart-extras
     tripleo-repos:
+      release-management: none
       repos:
         - openstack/tripleo-repos
     tripleo-specs:
+      release-management: none
       repos:
         - openstack/tripleo-specs
     tripleo-ui:
@@ -3628,6 +3788,7 @@ tripleo:
       repos:
         - openstack/tripleo-validations
     tripleo-ha-utils:
+      release-management: none
       repos:
         - openstack/tripleo-ha-utils
 
@@ -3668,6 +3829,7 @@ trove:
         - stable:follows-policy
         - assert:follows-standard-deprecation
     trove-specs:
+      release-management: none
       repos:
         - openstack/trove-specs
     trove-tempest-plugin:
@@ -3691,6 +3853,7 @@ vitrage:
       repos:
         - openstack/vitrage
     vitrage-specs:
+      release-management: none
       repos:
         - openstack/vitrage-specs
     vitrage-tempest-plugin:
@@ -3719,6 +3882,7 @@ watcher:
       repos:
         - openstack/watcher
     watcher-specs:
+      release-management: none
       repos:
         - openstack/watcher-specs
     watcher-tempest-plugin:
@@ -3779,6 +3943,7 @@ zaqar:
         - stable:follows-policy
         - assert:follows-standard-deprecation
     zaqar-specs:
+      release-management: none
       repos:
         - openstack/zaqar-specs
     zaqar-tempest-plugin:
