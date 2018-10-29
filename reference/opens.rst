@@ -8,8 +8,8 @@ Open Source
 We do **not** produce "open core" software.
 
 We are committed to creating truly open source software that is usable and
-scalable.  Truly open source software is not feature or performance limited and
-is not crippled. There will be no "Enterprise Edition".
+scalable. Truly open source software is not feature or performance limited.
+There will be no "Enterprise Edition".
 
 We use the Apache License, 2.0.
 
