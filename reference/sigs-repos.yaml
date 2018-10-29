@@ -3,7 +3,6 @@
 meta:
   - repo: openstack/governance-sigs
 security:
-  - repo: openstack/anchor
   - repo: openstack/ossa
   - repo: openstack/security-analysis
   - repo: openstack/security-doc
