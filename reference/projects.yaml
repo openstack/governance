@@ -2846,6 +2846,9 @@ Puppet OpenStack:
     puppet-congress:
       repos:
         - openstack/puppet-congress
+    puppet-crane:
+      repos:
+        - openstack/puppet-crane
     puppet-designate:
       repos:
         - openstack/puppet-designate
