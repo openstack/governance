@@ -97,7 +97,7 @@ If there are additional mandatory args needed for running a test suite they
 can be added before the posargs. (this way the end user experience is the same)
 For example::
 
-    stestr --test-path ./tests/unit run '{posargs}'
+    stestr --test-path ./tests/unit run {posargs}
 
 However, these arguments should try to be minimized because it just adds to the
 complexity that people will need to understand when running tests on a project.
@@ -113,7 +113,7 @@ normal unit test jobs, but to switch the python executable to be
   setenv =
       PYTHON=coverage run --source $project --parallel-mode
   commands =
-      stestr run '{posargs}'
+      stestr run {posargs}
       coverage combine
       coverage html -d cover
       coverage xml -o cover/coverage.xml
