@@ -14,9 +14,16 @@ change, propose the corresponding `projects.yaml` file change for review.
 When considering new projects for addition, the TC will check that:
 
 * The project aligns with the OpenStack Mission:
-  The project must have a clear and defined scope. It should help further
-  the OpenStack mission, by providing a cloud infrastructure service, or
-  directly building on an existing OpenStack infrastructure service.
+  The project must have a clear and defined scope. It should either:
+
+  * help further the OpenStack mission by providing a cloud service;
+  * help further the OpenStack mission by providing a service for operators of
+    OpenStack clouds;
+  * provide deployment and lifecycle management tooling for OpenStack;
+  * provide packaging recipes to be used when deploying OpenStack;
+  * provide client-side tools to enable users to interact with OpenStack; or
+  * provide integration to enable adjacent systems to interoperate with
+    OpenStack.
 
 * The project follows the OpenStack way ("the 4 opens"):
 
