@@ -270,10 +270,16 @@ In order to make this change, project teams may first need to register
 their project name on PyPI. Refer to `the creator's guide in the infra
 manual`_ for details of how to do this.
 
-After the name is configured on PyPI, change any existing release
-project template to
-``publish-to-pypi-python3``. https://review.openstack.org/580740 shows
-an example of changing the job setting.
+.. note::
+
+   The original goal contained an additional step: "After the name is
+   configured on PyPI, change any existing release project template to
+   ``publish-to-pypi-python3``. https://review.openstack.org/580740
+   shows an example of changing the job setting."
+
+   Infra now has made ``publish-to-pypi`` using python3, so all repos
+   use again ``publish-to-pypi`` and thus the step mentioned above is
+   not needed anymore.
 
 It is not possible to test the job change, because it needs to be made
 in the ``openstack-infra/project-config`` repository. Therefore, after
