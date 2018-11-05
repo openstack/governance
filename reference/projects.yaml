@@ -404,26 +404,6 @@ Documentation:
       repos:
         - openstack/contributor-guide
 
-dragonflow:
-  ptl:
-    name: Omer Anson
-    irc: oanson
-    email: omer.anson@toganetworks.com
-  appointed:
-    - stein
-  irc-channel: openstack-dragonflow
-  mission: >
-    Dragonflow is a distributed control plane implementation of Neutron.
-    Its mission is to implement advanced networking services driven by
-    the Neutron API and running on a distributed control plane.
-    It's designed to support containers networking and large scale
-    production loads.
-  url: https://wiki.openstack.org/wiki/Dragonflow
-  deliverables:
-    dragonflow:
-      repos:
-        - openstack/dragonflow
-
 ec2-api:
   ptl:
     name: Andrey Pavlov
