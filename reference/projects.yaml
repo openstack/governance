@@ -2179,6 +2179,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-barbican-softhsm
+    charm-barbican-vault:
+      release-management: external
+      repos:
+        - openstack/charm-barbican-vault
     charm-ceilometer:
       release-management: external
       repos:
@@ -2267,6 +2271,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-heat
+    charm-interface-barbican-secrets:
+      release-management: external
+      repos:
+        - openstack/charm-interface-barbican-secrets
     charm-interface-bgp:
       release-management: external
       repos:
@@ -2283,6 +2291,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-interface-ceph-mds
+    charm-interface-dashboard-plugin:
+      release-management: external
+      repos:
+        - openstack/charm-interface-dashboard-plugin
     charm-interface-designate:
       release-management: external
       repos:
@@ -2319,6 +2331,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-interface-mysql-shared
+    charm-interface-neutron-load-balancer:
+      release-management: external
+      repos:
+        - openstack/charm-interface-neutron-load-balancer
     charm-interface-nova-cell:
       repos:
         - openstack/charm-interface-nova-cell
@@ -2445,8 +2461,13 @@ OpenStack Charms:
       repos:
         - openstack/charm-nova-compute-proxy
     charm-octavia:
+      release-management: external
       repos:
         - openstack/charm-octavia
+    charm-octavia-dashboard:
+      release-management: external
+      repos:
+        - openstack/charm-octavia-dashboard
     charm-odl-controller:
       release-management: external
       repos:
