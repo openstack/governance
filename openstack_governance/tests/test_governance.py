@@ -14,8 +14,8 @@
 
 from oslotest import base
 
+from openstack_governance import _yamlutils
 from openstack_governance import governance
-from openstack_governance import yamlutils
 
 
 _team_data_yaml = """
@@ -73,9 +73,9 @@ api:
   - repo: openstack/api-sig
 """
 
-TEAM_DATA = yamlutils.loads(_team_data_yaml)
-TC_DATA = yamlutils.loads(_tc_data_yaml)
-SIGS_DATA = yamlutils.loads(_sigs_data_yaml)
+TEAM_DATA = _yamlutils.loads(_team_data_yaml)
+TC_DATA = _yamlutils.loads(_tc_data_yaml)
+SIGS_DATA = _yamlutils.loads(_sigs_data_yaml)
 
 
 class TestGetRepoOwner(base.BaseTestCase):
