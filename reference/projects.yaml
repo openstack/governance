@@ -2631,7 +2631,7 @@ OpenStackClient:
   mission: >
     Provide a single command-line interface for OpenStack services with a
     uniform command set and format.
-  url: https://wiki.openstack.org/wiki/OpenStackClient
+  url: https://docs.openstack.org/python-openstackclient/latest/
   deliverables:
     cliff:
       repos:
