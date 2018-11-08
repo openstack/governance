@@ -1552,6 +1552,9 @@ ironic:
     sushy-tools:
       repos:
         - openstack/sushy-tools
+    tenks:
+      repos:
+        - openstack/tenks
     virtualbmc:
       repos:
         - openstack/virtualbmc
