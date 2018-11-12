@@ -447,6 +447,15 @@ OpenStack Charms:
       repos:
         - openstack/charm-ceph
 
+OpenStackAnsible:
+  service: Ansible playbooks and roles for deployment
+  partial: yes
+  irc-channel: openstack-ansible
+  deliverables:
+    openstack-ansible-os_monasca-ui:
+      retired-on: 2018-11-12
+      repos:
+        - openstack/openstack-ansible-os_monasca-ui
 
 OpenStackSalt:
   ptl:

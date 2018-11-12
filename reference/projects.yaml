@@ -2608,9 +2608,6 @@ OpenStackAnsible:
     openstack-ansible-os_karbor:
       repos:
         - openstack/openstack-ansible-os_karbor
-    openstack-ansible-os_monasca-ui:
-      repos:
-        - openstack/openstack-ansible-os_monasca-ui
     openstack-ansible-pip_lock_down:
       repos:
         - openstack/openstack-ansible-pip_lock_down
