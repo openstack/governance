@@ -28,7 +28,7 @@ parser.add_argument(
     '-g', '--gerrit',
     default=('http://git.openstack.org/cgit/openstack-infra/project-config/'
              'plain/gerrit/projects.yaml'),
-    help=('URL for gerrit project list, ignored if --project-config is set or'
+    help=('URL for gerrit project list, ignored if --project-config is set or '
           'when running in Zuul'),
 )
 parser.add_argument(
