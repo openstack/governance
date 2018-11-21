@@ -13,15 +13,16 @@
 """Work with the governance repository.
 """
 
+import logging
+import os.path
 import weakref
 
 from openstack_governance import yamlutils
 
 import requests
 
-PROJECTS_LIST = "http://git.openstack.org/cgit/openstack/governance/plain/reference/projects.yaml"  # noqa
-TC_LIST = "http://git.openstack.org/cgit/openstack/governance/plain/reference/technical-committee-repos.yaml"  # noqa
-SIGS_LIST = "http://git.openstack.org/cgit/openstack/governance/plain/reference/sigs-repos.yaml"  # noqa
+LOG = logging.getLogger(__name__)
+REPO_URL_BASE = "http://git.openstack.org/cgit/openstack/governance/plain"
 
 
 def get_tags_for_deliverable(team_data, team, name):
@@ -85,6 +86,10 @@ class Repository(object):
 
 class Governance(object):
 
+    _projects_filename = 'reference/projects.yaml'
+    _tc_repos_filename = 'reference/technical-committee-repos.yaml'
+    _sigs_repos_filename = 'reference/sigs-repos.yaml'
+
     def __init__(self, team_data, tc_data, sigs_data):
         self._team_data = team_data
         self._tc_data = tc_data
@@ -107,16 +112,35 @@ class Governance(object):
         self._teams = [Team(n, i) for n, i in self._team_data.items()]
 
     @classmethod
-    def from_urls(cls,
-                  team_url=PROJECTS_LIST,
-                  tc_url=TC_LIST,
-                  sigs_url=SIGS_LIST):
+    def from_local_repo(cls, repo_dir='.'):
+        team_filename = os.path.join(repo_dir, cls._projects_filename)
+        team_data = yamlutils.load_from_file(team_filename)
+
+        tc_filename = os.path.join(repo_dir, cls._tc_repos_filename)
+        tc_data = yamlutils.load_from_file(tc_filename)
+
+        sigs_filename = os.path.join(repo_dir, cls._sigs_repos_filename)
+        sigs_data = yamlutils.load_from_file(sigs_filename)
+
+        return cls(team_data, tc_data, sigs_data)
+
+    @classmethod
+    def from_remote_repo(cls, repo_url_base=REPO_URL_BASE):
+        team_url = REPO_URL_BASE + '/reference/projects.yaml'
+        LOG.debug('fetching team data from %s', team_url)
         r = requests.get(team_url)
         team_data = yamlutils.loads(r.text)
+
+        tc_url = REPO_URL_BASE + '/reference/technical-committee-repos.yaml'
+        LOG.debug('fetching TC data from %s', tc_url)
         r = requests.get(tc_url)
         tc_data = yamlutils.loads(r.text)
+
+        sigs_url = REPO_URL_BASE + '/reference/sigs-repos.yaml'
+        LOG.debug('fetching SIGs data from %s', sigs_url)
         r = requests.get(sigs_url)
         sigs_data = yamlutils.loads(r.text)
+
         return cls(team_data, tc_data, sigs_data)
 
     def get_repo_owner(self, repo_name):
