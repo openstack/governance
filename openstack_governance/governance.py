@@ -17,7 +17,7 @@ import logging
 import os.path
 import weakref
 
-from openstack_governance import yamlutils
+from openstack_governance import _yamlutils
 
 import requests
 
@@ -122,13 +122,13 @@ class Governance(object):
     @classmethod
     def from_local_repo(cls, repo_dir='.'):
         team_filename = os.path.join(repo_dir, cls._projects_filename)
-        team_data = yamlutils.load_from_file(team_filename)
+        team_data = _yamlutils.load_from_file(team_filename)
 
         tc_filename = os.path.join(repo_dir, cls._tc_repos_filename)
-        tc_data = yamlutils.load_from_file(tc_filename)
+        tc_data = _yamlutils.load_from_file(tc_filename)
 
         sigs_filename = os.path.join(repo_dir, cls._sigs_repos_filename)
-        sigs_data = yamlutils.load_from_file(sigs_filename)
+        sigs_data = _yamlutils.load_from_file(sigs_filename)
 
         return cls(team_data, tc_data, sigs_data)
 
@@ -137,17 +137,17 @@ class Governance(object):
         team_url = REPO_URL_BASE + '/reference/projects.yaml'
         LOG.debug('fetching team data from %s', team_url)
         r = requests.get(team_url)
-        team_data = yamlutils.loads(r.text)
+        team_data = _yamlutils.loads(r.text)
 
         tc_url = REPO_URL_BASE + '/reference/technical-committee-repos.yaml'
         LOG.debug('fetching TC data from %s', tc_url)
         r = requests.get(tc_url)
-        tc_data = yamlutils.loads(r.text)
+        tc_data = _yamlutils.loads(r.text)
 
         sigs_url = REPO_URL_BASE + '/reference/sigs-repos.yaml'
         LOG.debug('fetching SIGs data from %s', sigs_url)
         r = requests.get(sigs_url)
-        sigs_data = yamlutils.loads(r.text)
+        sigs_data = _yamlutils.loads(r.text)
 
         return cls(team_data, tc_data, sigs_data)
 
