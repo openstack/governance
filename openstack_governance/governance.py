@@ -58,6 +58,14 @@ class Team(object):
     def tags(self):
         return set(self.data.get('tags', []))
 
+    @property
+    def service(self):
+        return self.data.get('service')
+
+    @property
+    def mission(self):
+        return self.data.get('mission')
+
 
 class Deliverable(object):
     def __init__(self, name, data, team):
