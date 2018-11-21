@@ -1,6 +1,7 @@
 - project:
     templates:
       - build-openstack-docs-pti
+      - openstack-python36-jobs
     check:
       jobs:
         - openstack-tox-linters:

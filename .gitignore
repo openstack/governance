@@ -6,3 +6,7 @@ reference/projects/*.rst
 *.pyc
 AUTHORS
 ChangeLog
+.stestr
+.coverage.*
+.coverage
+cover/
