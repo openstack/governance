@@ -61,9 +61,12 @@ TEAM_DATA = yamlutils.loads(_team_data_yaml)
 
 class TestGetRepoOwner(base.BaseTestCase):
 
+    def setUp(self):
+        super().setUp()
+        self.gov = governance.Governance(TEAM_DATA)
+
     def test_repo_exists(self):
-        owner = governance.get_repo_owner(
-            TEAM_DATA,
+        owner = self.gov.get_repo_owner(
             'openstack/releases',
         )
         self.assertEqual('Release Management', owner)
@@ -71,17 +74,19 @@ class TestGetRepoOwner(base.BaseTestCase):
     def test_no_such_repo(self):
         self.assertRaises(
             ValueError,
-            governance.get_repo_owner,
-            TEAM_DATA,
+            self.gov.get_repo_owner,
             'openstack/no-such-repo',
         )
 
 
 class TestGetRepositories(base.BaseTestCase):
 
+    def setUp(self):
+        super().setUp()
+        self.gov = governance.Governance(TEAM_DATA)
+
     def test_by_team(self):
-        repos = governance.get_repositories(
-            TEAM_DATA,
+        repos = self.gov.get_repositories(
             team_name='Release Management',
         )
         self.assertEqual(
@@ -95,8 +100,7 @@ class TestGetRepositories(base.BaseTestCase):
         )
 
     def test_by_deliverable(self):
-        repos = governance.get_repositories(
-            TEAM_DATA,
+        repos = self.gov.get_repositories(
             deliverable_name='release-tools',
         )
         self.assertEqual(
@@ -105,15 +109,13 @@ class TestGetRepositories(base.BaseTestCase):
         )
 
     def test_tag_negative(self):
-        repos = governance.get_repositories(
-            TEAM_DATA,
+        repos = self.gov.get_repositories(
             tags=['team:single-vendor'],
         )
         self.assertEqual([], list(repos))
 
     def test_tags_positive(self):
-        repos = governance.get_repositories(
-            TEAM_DATA,
+        repos = self.gov.get_repositories(
             tags=['team:diverse-affiliation'],
         )
         self.assertEqual(
