@@ -143,6 +143,12 @@ class Governance(object):
 
         return cls(team_data, tc_data, sigs_data)
 
+    def get_team(self, name):
+        for team in self._teams:
+            if team.name == name:
+                return team
+        raise ValueError('No team {!r} found'.format(name))
+
     def get_repo_owner(self, repo_name):
         """Return the name of the team that owns the repository.
 
