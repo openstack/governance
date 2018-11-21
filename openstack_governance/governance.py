@@ -20,6 +20,7 @@ from openstack_governance import yamlutils
 import requests
 
 PROJECTS_LIST = "http://git.openstack.org/cgit/openstack/governance/plain/reference/projects.yaml"  # noqa
+TC_LIST = "http://git.openstack.org/cgit/openstack/governance/plain/reference/technical-committee-repos.yaml"  # noqa
 
 
 def get_tags_for_deliverable(team_data, team, name):
@@ -83,16 +84,26 @@ class Repository(object):
 
 class Governance(object):
 
-    def __init__(self, team_data):
+    def __init__(self, team_data, tc_data):
         self._team_data = team_data
+        self._tc_data = tc_data
+        team_data['Technical Committee'] = {
+            'deliverables': {
+                repo['repo'].partition('/')[-1]: {'repos': [repo['repo']]}
+                for repo in tc_data['Technical Committee']
+            }
+        }
         self._teams = [Team(n, i) for n, i in self._team_data.items()]
 
     @classmethod
     def from_urls(cls,
-                  team_url=PROJECTS_LIST):
+                  team_url=PROJECTS_LIST,
+                  tc_url=TC_LIST):
         r = requests.get(team_url)
         team_data = yamlutils.loads(r.text)
-        return cls(team_data)
+        r = requests.get(tc_url)
+        tc_data = yamlutils.loads(r.text)
+        return cls(team_data, tc_data)
 
     def get_repo_owner(self, repo_name):
         """Return the name of the team that owns the repository.
