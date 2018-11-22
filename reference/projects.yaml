@@ -3910,6 +3910,8 @@ watcher:
     watcher:
       repos:
         - openstack/watcher
+      tags:
+        - assert:supports-upgrade
     watcher-specs:
       release-management: none
       repos:
