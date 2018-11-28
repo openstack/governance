@@ -2339,9 +2339,11 @@ OpenStack Charms:
       repos:
         - openstack/charm-interface-neutron-load-balancer
     charm-interface-nova-cell:
+      release-management: external
       repos:
         - openstack/charm-interface-nova-cell
     charm-interface-nova-compute:
+      release-management: external
       repos:
         - openstack/charm-interface-nova-compute
     charm-interface-neutron-plugin:
@@ -2449,6 +2451,7 @@ OpenStack Charms:
       repos:
         - openstack/charm-neutron-openvswitch
     charm-nova-cell-controller:
+      release-management: external
       repos:
         - openstack/charm-nova-cell-controller
     charm-nova-cloud-controller:
