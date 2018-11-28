@@ -45,8 +45,8 @@ When the election results are available:
   members who should no longer be included and add new members
 * encourage all TC members to vote on the patch prepared by the
   election officials with the new roster
-* encourage all TC members to sign up for the openstack-tc mailing
-  list (while it exists)
+* encourage all TC members to include the "[tc]" topic in their filter
+  list for the openstack-discuss mailing list
 * propose a patch to remove current chair and vice chair
 
 After the election results are confirmed:
