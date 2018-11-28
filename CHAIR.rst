@@ -51,7 +51,10 @@ When the election results are available:
 
 After the election results are confirmed:
 
-* propose a patch to restore chair status, if planning to serve again
+* start the chair selection process by encouraging TC members to
+  consider serving as chair by proposing a patch to the member list to
+  add "chair" status next to their name
+* monitor and coordinate the discussion and selection of the new chair
 * after a chair is selected, ensure they appear in the
   tech-committee-chair group in gerrit:
   https://review.openstack.org/#/admin/groups/206,members
