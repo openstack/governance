@@ -124,6 +124,18 @@ is run for each project team. These elections are collectively held no later
 than 3 weeks prior to each cycle final release date (on or before 'R-3' week)
 and should be held open for no less than four business days.
 
+If a PTL seat is vacated before the end of the cycle for which the individual
+was elected, the TC will appoint a new PTL, in consultation with the outgoing
+PTL and any interested candidates, following the process for leaderless project
+teams (see
+:doc:`/resolutions/20141128-elections-process-for-leaderless-programs`). An
+email must be sent to the ``openstack-discuss at lists.openstack.org`` mailing
+list announcing the change in leadership. A patch must also be submitted to the
+OpenStack `governance repository
+<http://git.openstack.org/cgit/openstack/governance>`_ updating the project's
+PTL information in ``projects.yaml``, which must be approved by the TC in order
+for the appointed candidate to officially assume PTL responsibilities.
+
 Voters for PTL seats ("APC")
 ============================
 
