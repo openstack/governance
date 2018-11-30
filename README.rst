@@ -1,5 +1,12 @@
-This repository contains OpenStack Technical Committee reference documents
-and tracks official resolutions voted by the committee.
+======================
+ openstack-governance
+======================
+
+The repository http://git.openstack.org/cgit/openstack/governance/
+contains OpenStack Technical Committee reference documents and tracks
+official resolutions voted by the committee. It also contains a
+library for accessing some of the machine-readable data in the
+repository.
 
 Directory structure:
 
@@ -16,4 +23,4 @@ Directory structure:
         release cycle. These pages will be updated with project status
         info over time, and if goals are revised.
 
-See https://wiki.openstack.org/wiki/Governance/TechnicalCommittee for details.
+See https://governance.openstack.org/tc/ for details.
