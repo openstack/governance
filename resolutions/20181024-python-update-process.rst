@@ -20,7 +20,7 @@ Unit Tests
 ----------
 
 Prior to the beginning of each release cycle, the TC will designate the minor
-versions of Python 3 that will be supported in that release using the following
+versions of Python 3 that will be tested in that release using the following
 criteria:
 
 * The latest released version of Python 3 that is available in *any*
@@ -32,29 +32,29 @@ criteria:
   distributions specifically identified in the Project Testing Interface
   <pti-linux-distros>` at the beginning of the development cycle.
 * Each Python 3 version that was still used in any integration tests at the
-  beginning of the development cycle. (This category is neccessary to ensure
+  beginning of the development cycle. (This category is necessary to ensure
   that projects don't break other projects' integration tests before those
-  tests have completely migrated to newer distributions.) Support for these
+  tests have completely migrated to newer distributions.) Testing for these
   versions can be dropped once all integration tests have migrated.
 
-Where the supported versions are not contiguous, any intermediate minor
+Where the tested versions are not contiguous, any intermediate minor
 versions may be tested if the TC judges it likely that they may need to be
-supported in a future release. However only periodic jobs (not check or gate
+tested in a future release. However only periodic jobs (not check or gate
 jobs) are needed for these versions.
 
 This decision will be encoded in a Zuul template for unit tests named
 ``openstack-python3-<releasename>-jobs``, containing:
 
-* Voting check and gate jobs for each of the supported minor versions of py3
-* A periodic job for each intermediate minor version of py3 that may be
-  supported in a future release, if any exist
+* Voting check and gate jobs for each of the selected minor versions of py3
+* A periodic job for each intermediate minor version of py3 that may need to be
+  fully tested in a future release, if any exist
 
-The TC will set an :doc:`OpenStack-wide goal <../goals/index>` for each repo,
-prior to the end of the release, to:
+The TC will set an :doc:`OpenStack-wide goal <../goals/index>` for the cycle
+that project teams update each repo to:
 
-* update its Zuul config to the template for that release;
+* change its Zuul config to the template for that release;
 * declare support for the tested versions in its PyPI package; and
-* update tox's default environment list.
+* configure tox's default environment list to match.
 
 If the new Zuul template contains test jobs that were not in the previous one,
 the goal champion(s) may choose to update the *previous* template to add a
