@@ -1688,9 +1688,9 @@ kuryr:
 
 loci:
   ptl:
-    name: Sam Yaple
-    irc: SamYaple
-    email: sam+git@yaple.net
+    name: Chris Hoge
+    irc: hogepodge
+    email: chris@openstack.org
   appointed:
     - stein
   irc-channel: openstack-loci
