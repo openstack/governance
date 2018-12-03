@@ -133,6 +133,9 @@ move to another cloud running an older version of OpenStack. OpenStack services
 should therefore evolve in such a way that they either work correctly or fail
 gracefully with *both* older and newer clients.
 
+Any changes to public APIs should be versioned and phased in, with a common
+mechanism to allow client introspection of the available versions and features.
+
 Cross-Project Dependencies
 --------------------------
 
