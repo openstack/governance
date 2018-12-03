@@ -2100,6 +2100,9 @@ nova:
     placement:
       repos:
         - openstack/placement
+    os-resource-classes:
+      repos:
+        - openstack/os-resource-classes
 
 octavia:
   ptl:
