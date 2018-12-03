@@ -97,11 +97,13 @@ class Governance(object):
     _projects_filename = 'reference/projects.yaml'
     _tc_repos_filename = 'reference/technical-committee-repos.yaml'
     _sigs_repos_filename = 'reference/sigs-repos.yaml'
+    _wgs_repos_filename = 'reference/foundation-board-repos.yaml'
 
-    def __init__(self, team_data, tc_data, sigs_data):
+    def __init__(self, team_data, tc_data, sigs_data, wgs_data):
         self._team_data = team_data
         self._tc_data = tc_data
         self._sigs_data = sigs_data
+        self._wgs_data = wgs_data
 
         team_data['Technical Committee'] = {
             'deliverables': {
@@ -114,6 +116,13 @@ class Governance(object):
                 'deliverables': {
                     repo['repo'].partition('/')[-1]: {'repos': [repo['repo']]}
                     for repo in sig_info
+                }
+            }
+        for wg_name, wg_info in wgs_data.items():
+            team_data[wg_name] = {
+                'deliverables': {
+                    repo['repo'].partition('/')[-1]: {'repos': [repo['repo']]}
+                    for repo in wg_info
                 }
             }
 
@@ -130,7 +139,10 @@ class Governance(object):
         sigs_filename = os.path.join(repo_dir, cls._sigs_repos_filename)
         sigs_data = _yamlutils.load_from_file(sigs_filename)
 
-        return cls(team_data, tc_data, sigs_data)
+        wgs_filename = os.path.join(repo_dir, cls._wgs_repos_filename)
+        wgs_data = _yamlutils.load_from_file(wgs_filename)
+
+        return cls(team_data, tc_data, sigs_data, wgs_data)
 
     @classmethod
     def from_remote_repo(cls, repo_url_base=REPO_URL_BASE):
@@ -149,7 +161,12 @@ class Governance(object):
         r = requests.get(sigs_url)
         sigs_data = _yamlutils.loads(r.text)
 
-        return cls(team_data, tc_data, sigs_data)
+        wgs_url = REPO_URL_BASE + '/reference/foundation-board-repos.yaml'
+        LOG.debug('fetching WGs data from %s', wgs_url)
+        r = requests.get(wgs_url)
+        wgs_data = _yamlutils.loads(r.text)
+
+        return cls(team_data, tc_data, sigs_data, wgs_data)
 
     def get_team(self, name):
         for team in self._teams:
