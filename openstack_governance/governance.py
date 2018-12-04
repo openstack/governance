@@ -191,7 +191,8 @@ class Governance(object):
         """Return a sequence of repositories, possibly filtered.
 
         :param team_name: The name of the team owning the repositories. Can be
-            None.
+            None. For Example: team_name='adjutant' or team_name='security SIG'
+            or team_name='Technical Committee'
         :para deliverable_name: The name of the deliverable to which all
            repos should belong.
         :param tags: The names of any tags the repositories should
