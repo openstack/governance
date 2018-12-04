@@ -190,7 +190,7 @@ cinder:
   ptl:
     name: Jay Bryant
     irc: jungleboyj
-    email: jungleboyj@electronicjungle.net
+    email: jsbryant@electronicjungle.net
   irc-channel: openstack-cinder
   service: Block Storage service
   mission: >
