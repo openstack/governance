@@ -202,11 +202,7 @@ class Governance(object):
             tags = set(tags)
 
         if team_name:
-            try:
-                teams = [Team(team_name, self._team_data[team_name])]
-            except KeyError:
-                raise RuntimeError('No team %r found in %r' %
-                                   (team_name, list(self._team_data.keys())))
+            teams = [self.get_team(team_name)]
         else:
             teams = self._teams
 
