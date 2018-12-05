@@ -2743,9 +2743,11 @@ oslo:
       repos:
         - openstack/devstack-plugin-kafka
     devstack-plugin-pika:
+      release-management: deprecated
       repos:
         - openstack/devstack-plugin-pika
     devstack-plugin-zmq:
+      release-management: deprecated
       repos:
         - openstack/devstack-plugin-zmq
     futurist:
@@ -3223,6 +3225,7 @@ Quality Assurance:
       repos:
         - openstack/tempest-plugin-cookiecutter
     tempest-lib:
+      release-management: deprecated
       repos:
         - openstack/tempest-lib
     tempest-stress:
