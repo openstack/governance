@@ -220,14 +220,19 @@ cinder:
     os-brick:
       repos:
         - openstack/os-brick
+      tags:
+        - stable:follows-policy
     python-brick-cinderclient-ext:
       repos:
         - openstack/python-brick-cinderclient-ext
+      tags:
+        - stable:follows-policy
     python-cinderclient:
       repos:
         - openstack/python-cinderclient
       tags:
         - vulnerability:managed
+        - stable:follows-policy
 
 cloudkitty:
   ptl:
