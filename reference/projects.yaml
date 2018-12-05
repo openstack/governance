@@ -3171,6 +3171,7 @@ Quality Assurance:
       repos:
         - openstack-dev/devstack
     devstack-plugin-ceph:
+      release-management: none
       repos:
         - openstack/devstack-plugin-ceph
     devstack-plugin-cookiecutter:
@@ -3181,6 +3182,7 @@ Quality Assurance:
       repos:
         - openstack/devstack-tools
     devstack-vagrant:
+      release-management: none
       repos:
         - openstack-dev/devstack-vagrant
     eslint-config-openstack:
