@@ -304,7 +304,7 @@ def get_one_status(change, delegates):
 
         if votes[-1]:
             can_approve = 'dissenting votes'
-        elif age < datetime.timedelta(7):
+        elif age <= datetime.timedelta(7):
             can_approve = 'too soon'
         else:
             can_approve = 'YES'
@@ -317,7 +317,7 @@ def get_one_status(change, delegates):
 
         if votes[-1]:
             can_approve = 'dissenting votes'
-        elif age < datetime.timedelta(7):
+        elif age <= datetime.timedelta(7):
             can_approve = 'too soon'
         else:
             can_approve = 'YES'
