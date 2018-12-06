@@ -85,6 +85,7 @@ blazar:
       repos:
         - openstack/blazar-nova
     blazar-specs:
+      release-management: none
       repos:
         - openstack/blazar-specs
     blazar-tempest-plugin:
