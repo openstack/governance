@@ -15,5 +15,6 @@ self-healing:
 operations-docs:
   - repo: openstack/operations-guide
   - repo: openstack/ha-guide
+  - repo: openstack/arch-design
 api:
   - repo: openstack/api-sig
