@@ -1706,6 +1706,7 @@ loci:
   url: https://wiki.openstack.org/wiki/LOCI
   deliverables:
     loci:
+      release-management: none
       repos:
         - openstack/loci
 
