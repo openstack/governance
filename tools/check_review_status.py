@@ -289,8 +289,9 @@ def get_one_status(change, delegates):
         else:
             can_approve = 'YES'
 
-    elif topic in ('stable:follows-policy', 'vulnerability:managed'):
+    elif topic in delegates.keys():
         # https://governance.openstack.org/tc/reference/house-rules.html#delegated-tags
+        # https://governance.openstack.org/tc/reference/house-rules.html#delegated-metadata
         approver_name = delegates[topic]
         can_approve = 'delegated to {}'.format(approver_name)
         if has_approved(approver_name, change):
@@ -366,6 +367,7 @@ def main():
     delegates = {
         'stable:follows-policy': 'Tony Breeds',
         'vulnerability:managed': 'VMT',
+        'release-management': 'Sean McGinnis',
     }
 
     status = sorted(

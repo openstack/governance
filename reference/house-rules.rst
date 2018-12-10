@@ -33,6 +33,13 @@ or :ref:`tag-vulnerability:managed`. Those need to get approved by the
 corresponding team PTL, and can be directly approved by the chair once this
 approval is given.
 
+Delegated metadata
+------------------
+
+The ``release-management`` setting for a deliverable is delegated to
+the PTL of the Release Management team. When proposed or approved by
+the PTL, changes can be directly approved by the chair.
+
 Other project team updates
 --------------------------
 
