@@ -2637,15 +2637,19 @@ OpenStackAnsible:
         - openstack/openstack-ansible-rsyslog_client
         - openstack/openstack-ansible-tests
     openstack-ansible-os_freezer:
+      release-management: deprecated
       repos:
         - openstack/openstack-ansible-os_freezer
     openstack-ansible-os_karbor:
+      release-management: deprecated
       repos:
         - openstack/openstack-ansible-os_karbor
     openstack-ansible-pip_lock_down:
+      release-management: deprecated
       repos:
         - openstack/openstack-ansible-pip_lock_down
     openstack-ansible-security:
+      release-management: deprecated
       repos:
         - openstack/openstack-ansible-security
     openstack-ansible-specs:
