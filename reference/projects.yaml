@@ -2553,7 +2553,7 @@ OpenStack-Helm:
       repos:
         - openstack/openstack-helm-infra
 
-OpenStackAnsible:
+OpenStack-Ansible:
   ptl:
     name: Mohammed Naser
     irc: mnaser
