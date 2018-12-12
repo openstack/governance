@@ -129,22 +129,26 @@ def format_votes(votes):
     )
 
 
+def get_votes_by_person(name, review):
+    for label in ['Code-Review', 'Rollcall-Vote']:
+        for vote in review['labels'].get(label, {}).get('all', []):
+            voter = vote.get('name', '')
+            if voter == name:
+                yield vote
+
+
 def has_approved(name, review):
-    for vote in review['labels'].get('Code-Review', {}).get('all', []):
-        voter = vote.get('name', '')
-        value = vote.get('value', 0)
-        if voter == name and value == 1:
-            return True
-    return False
+    return any(
+        vote.get('value', 0) == 1
+        for vote in get_votes_by_person(name, review)
+    )
 
 
 def has_rejected(name, review):
-    for vote in review['labels'].get('Code-Review', {}).get('all', []):
-        voter = vote.get('name', '')
-        value = vote.get('value', 0)
-        if voter == name and value == -1:
-            return True
-    return False
+    return any(
+        vote.get('value', 0) == -1
+        for vote in get_votes_by_person(name, review)
+    )
 
 
 def all_changes():
@@ -304,7 +308,7 @@ def get_one_status(change, delegates):
         approver_name = delegates[topic]
         can_approve = 'delegated to {}'.format(approver_name)
         if has_approved(approver_name, change):
-            can_approve += ', YES'
+            can_approve += '\nYES'
         elif has_rejected(approver_name, change):
             can_approve += '\nNO - delegate voted against'
 
