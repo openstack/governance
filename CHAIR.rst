@@ -125,3 +125,18 @@ The summary should include:
   threads, IRC logs, and reviews
 * a list of the top 1-2 of things TC members should be focusing on for
   the next week, such as reviews or mailing list threads
+
+Foundation Annual Report
+========================
+
+Near the end of each calendar year the OpenStack Foundation prepares
+an annual report. The TC and UC are responsible for contributing a
+status update for the OpenStack project and community. The Foundation
+staff will contact the TC chair, who should either write the report or
+ensure that it is written.
+
+See
+https://www.openstack.org/assets/reports/OpenStack-AnnualReport2017.pdf
+for one example report and
+https://etherpad.openstack.org/p/openstack-2018-annual-report for the
+working notes for the 2018 report.
