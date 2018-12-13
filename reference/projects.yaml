@@ -1937,6 +1937,7 @@ murano:
       tags:
         - stable:follows-policy
     murano-apps:
+      release-management: none
       repos:
         - openstack/murano-apps
     murano-dashboard:
@@ -1945,6 +1946,7 @@ murano:
       tags:
         - stable:follows-policy
     murano-deployment:
+      release-management: deprecated
       repos:
         - openstack/murano-deployment
     murano-pkg-check:
