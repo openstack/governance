@@ -119,6 +119,8 @@ committee that means a minimum of 5 approvers). After a motion receives
 sufficient votes to pass, it must stay open for further comments and voting for
 a minimum of 3 calendar days.
 
+Patches with motions should use the gerrit topic tag ``formal-vote``.
+
 Election for PTL seats
 ======================
 
@@ -241,3 +243,6 @@ Amendments to this Technical Committee charter shall be proposed in a special
 motion, which needs to be approved by the affirmative vote of at least
 two-thirds of the total number of TC members (rounded up: in a 13-member
 committee that means a minimum of 9 approvers).
+
+Patches with charter amendments should use the gerrit topic tag
+``charter-change``.
