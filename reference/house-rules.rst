@@ -28,6 +28,20 @@ code review rules (with RollCall votes being considered +-2): change will be
 approved once 2 `RollCall+1` (other than the change owner) are posted (and no
 `RollCall-1`).
 
+Documentation changes
+---------------------
+
+:Gerrit topic: ``documentation-change``
+
+The `openstack/governance` repository also contains documentation
+related to internal operations of the TC but that does not represent
+formal policy. Changes to these documents, as well as minor updates to
+policies to improve the document without changing the policy itself
+(formatting, extra headings, wording changes that are not substantive,
+etc.), follow the normal code review rules (with RollCall votes being
+considered +-2): change will be approved once 2 `RollCall+1` (other
+than the change owner) are posted (and no `RollCall-1`).
+
 Delegated tags
 --------------
 
