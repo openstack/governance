@@ -69,6 +69,9 @@ chair is responsible for being ready to step in and fulfill the
 responsibilities of the TC chair when the elected chair is not
 available.
 
+The current TC chair is in charge of the next TC chair election, and
+stays in charge of TC chair duties until the next TC chair is elected.
+
 Meeting
 =======
 
