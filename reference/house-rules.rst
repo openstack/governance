@@ -106,4 +106,4 @@ change. Such revert should be directly approved by the chair and the change
 be discussed on the mailing list or on the re-proposed change in gerrit.
 
 
-.. _election: http://docs.openstack.org/project-team-guide/open-community.html#technical-committee-and-ptl-elections
+.. _election: https://docs.openstack.org/project-team-guide/open-community.html#technical-committee-and-ptl-elections

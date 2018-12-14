@@ -75,5 +75,5 @@ time, when the Stable Branch Maintenance team considers that the deliverable
 repeatedly violated the `Stable branch policy`_.
 
 
-.. _Stable branch policy: http://docs.openstack.org/project-team-guide/stable-branches.html
+.. _Stable branch policy: https://docs.openstack.org/project-team-guide/stable-branches.html
 .. _Stable Branch Maintenance team: https://review.openstack.org/#/admin/groups/530,members
