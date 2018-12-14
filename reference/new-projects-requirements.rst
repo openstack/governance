@@ -120,4 +120,4 @@ Official project teams are expected to participate in all `elections`_ held
 after the team is accepted as official, regardless of how recently the team
 leadership may have been established.
 
-.. _elections: http://docs.openstack.org/project-team-guide/open-community.html#technical-committee-and-ptl-elections
+.. _elections: https://docs.openstack.org/project-team-guide/open-community.html#technical-committee-and-ptl-elections
