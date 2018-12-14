@@ -71,6 +71,7 @@ def query_gerrit(offset=0):
                 'CURRENT_COMMIT',
                 'LABELS',
                 'DETAILED_LABELS',
+                'MESSAGES',
             ],
         },
         headers={'Accept': 'application/json'},
@@ -149,6 +150,18 @@ def has_rejected(name, review):
         vote.get('value', 0) == -1
         for vote in get_votes_by_person(name, review)
     )
+
+
+def has_commented(name, review):
+    desired_revision = max(
+        r.get('_number', -1)
+        for r in review.get('revisions', {}).values()
+    )
+    for msg in review.get('messages', []):
+        if msg.get('_revision_number', -1) != desired_revision:
+            continue
+        if msg.get('author', {}).get('name', '') == name:
+            return True
 
 
 def all_changes():
@@ -311,6 +324,8 @@ def get_one_status(change, delegates):
             can_approve += '\nYES'
         elif has_rejected(approver_name, change):
             can_approve += '\nNO - delegate voted against'
+        elif has_commented(approver_name, change):
+            can_approve += '\ndelegate has commented'
 
     elif topic in ('project-update', 'new-project'):
         # https://governance.openstack.org/tc/reference/house-rules.html#other-project-team-updates
