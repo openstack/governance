@@ -3752,6 +3752,7 @@ tripleo:
       repos:
         - openstack/ansible-role-tripleo-zaqar
     dib-utils:
+      release-management: deprecated
       repos:
         - openstack/dib-utils
     instack:
