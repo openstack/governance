@@ -13,6 +13,7 @@ Reference documents which need to be revised over time.
    projects/index
    technical-vision
    help-most-needed
+   role-of-the-tc
    new-projects-requirements
    new-language-requirements
    licensing
