@@ -11,12 +11,16 @@ document lists those "house rules" for reference.
 Typo fixes
 ----------
 
+:Gerrit topic: ``typo-fix``
+
 When the change fixes content that is obviously wrong (updates a PTL email
 address, fixes a typo...) then the chair is allowed to directly approve them.
 Typo fixes proposed by the chair should have 2 RollCall+1 votes from TC members.
 
 Code changes
 ------------
+
+:Gerrit topic: ``code-change``
 
 The `openstack/governance` repository also contains code to build and publish
 pages on the governance.openstack.org website. For those we apply the normal
@@ -27,6 +31,9 @@ approved once 2 `RollCall+1` (other than the change owner) are posted (and no
 Delegated tags
 --------------
 
+:Gerrit topic: the name of the tag being applied (``stable:follows-policy``,
+               ``vulnerability:managed``)
+
 Some tags are delegated to a specific team, like
 :ref:`tag-stable:follows-policy`
 or :ref:`tag-vulnerability:managed`. Those need to get approved by the
@@ -36,12 +43,16 @@ approval is given.
 Delegated metadata
 ------------------
 
+:Gerrit topic: ``release-management``
+
 The ``release-management`` setting for a deliverable is delegated to
 the PTL of the Release Management team. When proposed or approved by
 the PTL, changes can be directly approved by the chair.
 
 Other project team updates
 --------------------------
+
+:Gerrit topic: ``project-update``
 
 For other changes within an existing project team, like addition of a new git
 repository or self-assertion of a tag, we use lazy consensus. If there is no
@@ -59,6 +70,8 @@ change, but should report on that exception in the TC update.
 
 Goal Updates from PTLs
 ----------------------
+
+:Gerrit topic: ``goal-update``
 
 PTLs will acknowledge community-wide goals at the start of each cycle
 by providing links to artifacts for tracking the work, or an
