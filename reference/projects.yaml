@@ -1811,9 +1811,9 @@ masakari:
 
 mistral:
   ptl:
-    name: Dougal Matthews
-    irc: d0ugal
-    email: dougal@redhat.com
+    name: Renat Akhmerov
+    irc: rakhmerov
+    email: renat.akhmerov@gmail.com
   irc-channel: openstack-mistral
   service: Workflow service
   mission: >
