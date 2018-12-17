@@ -107,6 +107,8 @@ being emitted into ``releasenotes/build/html``.
 
 Language specific instructions supplement these and are in addition to them.
 
+.. _pti-linux-distros:
+
 Linux Distributions
 -------------------
 
