@@ -48,7 +48,7 @@ Keeping a rhythm
 ----------------
 
 The weekly meeting gives us a good regular cadence to keep progress moving
-forward. When we loose the regular meeting, we really need to keep this
+forward. When we lose the regular meeting, we really need to keep this
 cadence. This should not be merely be a summary of what has happened, but
 rather should include a call to action and priority setting, much like the
 existing meeting agenda that is sent 24 hours before the current meeting.
