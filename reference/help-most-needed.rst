@@ -54,13 +54,13 @@ this item (dhellmann).
 
 *TC Sponsor: Jeremy Stanley (fungi)*
 
-The Infrastructure_ team is responsible for designing, building and
-maintaining the systems that are used in the day to day operation of
-the OpenStack project as a whole; this includes development,
-testing, and collaboration tools. All of the software it runs is
-open source, and under public configuration management so that
-everyone in the community has the opportunity to participate. One
-very effective way to get involved in OpenStack, gaining a deep
+The :ref:`project-infrastructure` team is responsible for designing,
+building and maintaining the systems that are used in the day to day
+operation of the OpenStack project as a whole; this includes
+development, testing, and collaboration tools. All of the software
+it runs is open source, and under public configuration management so
+that everyone in the community has the opportunity to participate.
+One very effective way to get involved in OpenStack, gaining a deep
 understanding of and visibility within the community, is by helping
 operate this infrastructure. Attrition due to shifts in employment
 or availability of personal time impacts the team's ability to
@@ -98,8 +98,6 @@ Join the #openstack-infra channel on the Freenode IRC network or
 reach out through the openstack-infra mailing lists on
 lists.openstack.org if you would like to get involved. It's a
 rewarding chance to learn and help others, but most of all it's fun!
-
-.. _Infrastructure: :ref:project-infrastructure
 
 3. Designate Contributors
 =========================
