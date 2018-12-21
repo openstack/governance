@@ -1,3 +1,5 @@
+.. _pti-golang:
+
 =============================
 Project Testing Interface: Go
 =============================

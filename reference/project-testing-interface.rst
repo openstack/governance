@@ -143,3 +143,21 @@ tests might have to be skipped on these distributions.
    :glob:
 
    pti/*
+
+.. _pti-tested-runtimes:
+
+Tested Runtimes
+---------------
+
+In order to focus development efforts and prevent breaking changes midway
+through a development cycle, the policy for officially tested runtimes is
+based on the LTS or stable release of the :ref:`pti-linux-distros` at the start of
+the development cycle.
+
+The officially tested runtimes for each cycle can be found here:
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   runtimes/*
