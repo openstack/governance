@@ -17,6 +17,12 @@ General
     decisions, linking to the public discussion (e.g., resuming
     meetings, election outcome, etc.)
 
+* Keep the TC informed of important Board actions
+
+  * attend board meetings when possible
+  * follow board discussions on the mailing list(s)
+  * report useful information back to the TC
+
 * Manage formal TC meetings
 
   * maintain the agenda in the wiki
