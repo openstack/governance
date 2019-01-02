@@ -374,9 +374,15 @@ https://docs.openstack.org/murano/latest/admin/murano_policies.html
 neutron
 -------
 
+Neutron implemented this towards the end of the Stein-2 milestone.
+
 Planning Artifacts:
 
+* `neutron policy-in-code specification <https://blueprints.launchpad.net/neutron/+spec/neutron-policy-in-code>`_
+
 Completion Artifacts:
+
+* `neutron policy-in-code implementation <https://review.openstack.org/#/c/585037/>`_
 
 nova
 ----
