@@ -117,7 +117,10 @@ public and private OpenStack clouds. Where requirements or common OpenStack
 deployment patterns differ (for example between public and private cloud),
 OpenStack should endeavour to design mechanisms that are usable in either
 environment so that applications can be ported from one OpenStack cloud to
-another.
+another. Deployment implementation details like backend driver differences and
+operators' partitioning_ configuration choices should, as much as possible, not
+be allowed to leak through to the resource consumer experience; in particular,
+they should not alter the behaviors of non-administrative API methods.
 
 Bidirectional Compatibility
 ---------------------------
