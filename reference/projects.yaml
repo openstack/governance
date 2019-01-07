@@ -3367,6 +3367,60 @@ sahara:
       tags:
         - vulnerability:managed
         - stable:follows-policy
+    sahara-plugin-ambari:
+      repos:
+        - openstack/sahara-plugin-ambari
+      tags:
+        - tc:approved-release
+        - vulnerability:managed
+        - assert:follows-standard-deprecation
+        - assert:supports-upgrade
+        - stable:follows-policy
+    sahara-plugin-cdh:
+      repos:
+        - openstack/sahara-plugin-cdh
+      tags:
+        - tc:approved-release
+        - vulnerability:managed
+        - assert:follows-standard-deprecation
+        - assert:supports-upgrade
+        - stable:follows-policy
+    sahara-plugin-mapr:
+      repos:
+        - openstack/sahara-plugin-mapr
+      tags:
+        - tc:approved-release
+        - vulnerability:managed
+        - assert:follows-standard-deprecation
+        - assert:supports-upgrade
+        - stable:follows-policy
+    sahara-plugin-spark:
+      repos:
+        - openstack/sahara-plugin-spark
+      tags:
+        - tc:approved-release
+        - vulnerability:managed
+        - assert:follows-standard-deprecation
+        - assert:supports-upgrade
+        - stable:follows-policy
+    sahara-plugin-storm:
+      repos:
+        - openstack/sahara-plugin-storm
+      tags:
+        - tc:approved-release
+        - vulnerability:managed
+        - assert:follows-standard-deprecation
+        - assert:supports-upgrade
+        - stable:follows-policy
+    sahara-plugin-vanilla:
+      repos:
+        - openstack/sahara-plugin-vanilla
+      tags:
+        - tc:approved-release
+        - vulnerability:managed
+        - assert:follows-standard-deprecation
+        - assert:supports-upgrade
+        - stable:follows-policy
     sahara-tests:
       repos:
         - openstack/sahara-tests
