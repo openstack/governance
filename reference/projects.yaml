@@ -573,6 +573,7 @@ horizon:
   url: https://wiki.openstack.org/wiki/Horizon
   deliverables:
     django_openstack_auth:
+      release-management: deprecated
       repos:
         - openstack/django_openstack_auth
       tags:
