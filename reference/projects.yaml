@@ -1856,7 +1856,7 @@ monasca:
   ptl:
     name: Witold Bedyk
     irc: witek
-    email: witold.bedyk@est.fujitsu.com
+    email: witold.bedyk@suse.com
   irc-channel: openstack-monasca
   service: Monitoring
   mission: >
