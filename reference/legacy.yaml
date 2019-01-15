@@ -406,6 +406,14 @@ MagnetoDB:
         - release:cycle-with-intermediary
         - type:library
 
+murano:
+  partial: yes
+  deliverables:
+    murano-deployment:
+      retired-on: 2019-01-07
+      repos:
+        - openstack/murano-deployment
+
 neutron:
   irc-channel: openstack-neutron
   service: Networking service

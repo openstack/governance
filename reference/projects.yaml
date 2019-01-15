@@ -1955,10 +1955,6 @@ murano:
         - openstack/murano-dashboard
       tags:
         - stable:follows-policy
-    murano-deployment:
-      release-management: deprecated
-      repos:
-        - openstack/murano-deployment
     murano-pkg-check:
       repos:
         - openstack/murano-pkg-check
