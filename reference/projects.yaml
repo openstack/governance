@@ -3821,6 +3821,9 @@ tripleo:
     instack-undercloud:
       repos:
         - openstack/instack-undercloud
+    openstack-virtual-baremetal:
+      repos:
+        - openstack/openstack-virtual-baremetal
     os-apply-config:
       repos:
         - openstack/os-apply-config
