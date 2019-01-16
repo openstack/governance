@@ -2312,6 +2312,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-interface-ceph-mds
+    charm-interface-cinder-backend:
+      release-management: external
+      repos:
+        - openstack/charm-interface-cinder-backend
     charm-interface-dashboard-plugin:
       release-management: external
       repos:
