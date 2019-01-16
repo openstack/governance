@@ -2581,11 +2581,13 @@ OpenStackAnsible:
         - openstack/openstack-ansible
     openstack-ansible-roles:
       repos:
+        - openstack/ansible-role-atos-hsm
         - openstack/ansible-role-qdrouterd
         - openstack/ansible-role-python_venv_build
         - openstack/ansible-role-systemd_mount
         - openstack/ansible-role-systemd_networkd
         - openstack/ansible-role-systemd_service
+        - openstack/ansible-role-thales-hsm
         - openstack/ansible-hardening
         - openstack/openstack-ansible-apt_package_pinning
         - openstack/openstack-ansible-ceph_client
