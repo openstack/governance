@@ -528,6 +528,7 @@ heat:
       repos:
         - openstack/heat-agents
     heat-cfnclient:
+      release-management: none
       repos:
         - openstack-dev/heat-cfnclient
     heat-cfntools:
