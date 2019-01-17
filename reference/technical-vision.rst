@@ -174,11 +174,12 @@ to avoid ascribing physical meanings to the groupings.
 Design Goals
 ============
 
-The following are design goals that we would like to see the OpenStack services
-as a whole fulfil. It is not expected that every service or feature would (or
-even could) conform to every category listed. Rather, any service that
-contributes to achieving one or more of the objectives below is likely to help
-further the mission of the OpenStack project.
+The following design goals represent the capabilities that we would like to see
+the OpenStack services as a whole provide to applications and users. It is not
+expected that every service or feature would (or even could) bear on every
+objective listed. Rather, any service that contributes to achieving one or more
+of the objectives below is likely to help further the mission of the OpenStack
+project.
 
 Basic Physical Data Center Management
 -------------------------------------
