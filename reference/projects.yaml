@@ -1396,9 +1396,6 @@ Infrastructure:
     puppet-ssl_cert_check:
       repos:
         - openstack-infra/puppet-ssl_cert_check
-    puppet-stackalytics:
-      repos:
-        - openstack-infra/puppet-stackalytics
     puppet-statusbot:
       repos:
         - openstack-infra/puppet-statusbot
