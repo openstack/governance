@@ -297,6 +297,10 @@ Infrastructure:
       retired-on: 2018-08-29
       repos:
         - openstack-infra/puppet-releasestatus
+    puppet-stackalytics:
+      retired-on: 2019-01-18
+      repos:
+        - openstack-infra/puppet-stackalytics
     puppet-vinz:
       retired-on: 2018-08-29
       repos:
