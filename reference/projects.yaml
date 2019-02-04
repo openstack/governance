@@ -1876,7 +1876,7 @@ neutron:
   ptl:
     name: Miguel Lavalle
     irc: mlavalle
-    email: miguel.lavalle@huawei.com
+    email: miguel.lavalle@verizonmedia.com
   irc-channel: openstack-neutron
   service: Networking service
   mission: >
