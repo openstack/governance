@@ -234,3 +234,19 @@ class TestTeamProperties(base.BaseTestCase):
     def test_mission(self):
         self.assertEqual('mission statement', self.team_with.mission)
         self.assertIsNone(self.team_without.mission)
+
+
+class TestFixupWGData(base.BaseTestCase):
+    def test_incorrect_format(self):
+        _wgs_data = _yamlutils.loads("""
+---
+# List of repositories owned by Foundation board and subcommittes
+Interop Working Group:
+  - repo:
+      - openstack/interop
+      - openstack/refstack-client
+      - openstack/refstack
+      - openstack/python-tempestconf
+""")
+        governance.Governance._fixup_wgs_data(_wgs_data)
+        self.assertEqual(WGS_DATA, _wgs_data)
