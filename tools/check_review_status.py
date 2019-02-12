@@ -215,10 +215,17 @@ def get_one_status(change, delegates):
         # At least 5 positive votes and more positive than negative
         # votes.
         votes_to_approve = (votes[1] >= 5 and votes[1] > votes[-1])
-
-        # Wait at least 3 days after reaching majority.
         reached_majority = when_majority(change, 5)
-        if reached_majority:
+
+        parts.append('last change on {}'.format(latest_created.date()))
+
+        # At least 7 days old.
+        if age < datetime.timedelta(8):
+            time_to_approve = False
+            parts.append('has not been open 7 days')
+            earliest = str(latest_created.date() + datetime.timedelta(8))
+        elif reached_majority:
+            # Wait at least 3 days after reaching majority.
             earliest = str(reached_majority.date() + datetime.timedelta(4))
             since_majority = now.date() - reached_majority.date()
             time_to_approve = since_majority > datetime.timedelta(3)
