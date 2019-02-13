@@ -97,6 +97,13 @@ def _team_to_rst(name, info):
         yield '.. extraatcstable::'
         yield '   :project: %s' % name
         yield ''
+    yield 'Activity metrics'
+    yield '----------------'
+    yield ''
+    url = 'https://www.stackalytics.com/' \
+          '?release=all&module=%s-group&metric=commits' % name
+    yield 'See `team activity metrics <%s>`_ at Stackalytics.' % url
+    yield ''
 
 
 def _write_team_pages():
