@@ -91,11 +91,12 @@ def _team_to_rst(name, info):
     else:
         yield 'None'
     yield ''
-    yield 'Extra ATCs'
-    yield '-----------'
-    yield '.. extraatcstable::'
-    yield '   :project: %s' % name
-    yield ''
+    if info.get('extra-atcs', []):
+        yield 'Extra ATCs'
+        yield '-----------'
+        yield '.. extraatcstable::'
+        yield '   :project: %s' % name
+        yield ''
 
 
 def _write_team_pages():
