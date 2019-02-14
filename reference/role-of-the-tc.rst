@@ -71,20 +71,20 @@ designating sections of code which are required to be present in an
 OpenStack installation in order for it to be eligible to use the "OpenStack
 Powered" trademark.
 
-Encouraging a unified OpenStack experience
-==========================================
+Defining global technical goals
+===============================
 
 While most technical details are handled at the project team level, you
 still need a body caring about the "OpenStack" experience, beyond each
 component user experience. It is part of the TC role to take that step
-back and consider OpenStack as "one platform" that users and operators
-choose to leverage. This includes looking at gaps between established
-project teams, driving a common user experience (common operational
-behavior, limited dependencies, base quality levels, minimum feature
-set...), pushing cross-project initiatives and influencing its general
-direction. One way to achieve that is through the definition of OpenStack
-:doc:`release goals <../goals/index>`.
-
+back, consider OpenStack as "one platform" that users and operators
+choose to leverage, and define reasonable technical goals for the
+OpenStack community as a whole. This includes looking at gaps between
+established project teams, driving a common user experience (common
+operational behavior, limited dependencies, base quality levels, minimum
+feature set...), pushing cross-project initiatives and influencing its
+general direction. One way to achieve that is through the definition of
+OpenStack :doc:`release goals <../goals/index>`.
 
 Ensuring a healthy, open collaboration
 ======================================
