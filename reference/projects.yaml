@@ -3720,9 +3720,6 @@ tripleo:
       release-management: deprecated
       repos:
         - openstack/dib-utils
-    instack:
-      repos:
-        - openstack/instack
     instack-undercloud:
       repos:
         - openstack/instack-undercloud
