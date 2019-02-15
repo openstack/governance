@@ -18,3 +18,5 @@ operations-docs:
   - repo: openstack/arch-design
 api:
   - repo: openstack/api-sig
+auto-scaling:
+  - repo: openstack/auto-scaling-sig
