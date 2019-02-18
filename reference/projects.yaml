@@ -218,6 +218,11 @@ cinder:
     cinder-tempest-plugin:
       repos:
         - openstack/cinder-tempest-plugin
+    cinderlib:
+      repos:
+        - openstack/cinderlib
+      tags:
+        - stable:follows-policy
     os-brick:
       repos:
         - openstack/os-brick
