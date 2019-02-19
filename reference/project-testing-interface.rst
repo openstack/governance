@@ -112,17 +112,12 @@ Language specific instructions supplement these and are in addition to them.
 Linux Distributions
 -------------------
 
-The following operating systems are regularly used when deploying OpenStack:
+The following free operating systems are representative of platforms regularly
+used to deploy OpenStack on:
 
 - `Latest Ubuntu LTS <https://wiki.ubuntu.com/Releases>`_
 - `Latest CentOS Major <https://www.centos.org/download/>`_
 - `Latest openSUSE Leap <https://software.opensuse.org/>`_
-
-  .. note::
-
-    The CentOS distribution is derived from the sources of Red Hat Enterprise Linux (RHEL).
-    In reality, RHEL is more popular than CentOS but we can't use this platform
-    on upstream gates, so we rely on CentOS.
 
 Each project should run some functional tests on these platforms so we make sure
 OpenStack works with distros used in production. The scope of these functional tests
