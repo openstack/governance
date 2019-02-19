@@ -362,7 +362,12 @@ manila
 
 Planning Artifacts:
 
+* https://blueprints.launchpad.net/manila/+spec/wsgi-web-servers-support
+
 Completion Artifacts:
+
+* https://review.openstack.org/#/c/448190/
+* https://review.openstack.org/#/c/631338/
 
 mistral
 -------
