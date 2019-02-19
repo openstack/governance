@@ -114,9 +114,9 @@ Linux Distributions
 
 The following operating systems are regularly used when deploying OpenStack:
 
-- Latest Ubuntu LTS (`latest LTS`_)
-- Latest CentOS Major (`latest stable`_)
-- Latest openSUSE Leap (`latest Leap release`_)
+- `Latest Ubuntu LTS <https://wiki.ubuntu.com/Releases>`_
+- `Latest CentOS Major <https://www.centos.org/download/>`_
+- `Latest openSUSE Leap <https://software.opensuse.org/>`_
 
   .. note::
 
@@ -135,10 +135,6 @@ Sometimes, these distributions might not support all dependencies required
 by new features in OpenStack. Development of these features should not be
 blocked, though it has to be documented in project release notes, and some
 tests might have to be skipped on these distributions.
-
-.. _latest LTS: https://wiki.ubuntu.com/Releases
-.. _latest stable: https://www.centos.org/download/
-.. _latest Leap release: https://software.opensuse.org/
 
 .. toctree::
    :maxdepth: 1
