@@ -2001,21 +2001,9 @@ nova:
       tags:
         - vulnerability:managed
         - stable:follows-policy
-    os-traits:
-      repos:
-        - openstack/os-traits
     os-vif:
       repos:
         - openstack/os-vif
-    osc-placement:
-      repos:
-        - openstack/osc-placement
-    placement:
-      repos:
-        - openstack/placement
-    os-resource-classes:
-      repos:
-        - openstack/os-resource-classes
 
 octavia:
   ptl:
@@ -2865,6 +2853,33 @@ Packaging-rpm:
     renderspec:
       repos:
         - openstack/renderspec
+
+placement:
+  ptl:
+    name: Melanie Witt
+    irc: melwitt
+    email: melwittt@gmail.com
+  irc-channel: openstack-placement
+  service: Placement service
+  mission: >
+    To track cloud resource inventories and usages to help other services
+    effectively manage and allocate their resources.
+  url: https://docs.openstack.org/placement/latest/
+  deliverables:
+    placement:
+      repos:
+        - openstack/placement
+      tags:
+        - starter-kit:compute
+    os-traits:
+      repos:
+        - openstack/os-traits
+    osc-placement:
+      repos:
+        - openstack/osc-placement
+    os-resource-classes:
+      repos:
+        - openstack/os-resource-classes
 
 PowerVMStackers:
   ptl:
