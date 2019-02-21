@@ -112,10 +112,11 @@ Language specific instructions supplement these and are in addition to them.
 Linux Distributions
 -------------------
 
-The following operating systems are the most popular when deploying OpenStack:
+The following operating systems are regularly used when deploying OpenStack:
 
-- Ubuntu (`latest LTS`_)
-- CentOS (`latest stable`_)
+- Latest Ubuntu LTS (`latest LTS`_)
+- Latest CentOS Major (`latest stable`_)
+- Latest openSUSE Leap (`latest Leap release`_)
 
   .. note::
 
@@ -137,6 +138,7 @@ tests might have to be skipped on these distributions.
 
 .. _latest LTS: https://wiki.ubuntu.com/Releases
 .. _latest stable: https://www.centos.org/download/
+.. _latest Leap release: https://software.opensuse.org/
 
 .. toctree::
    :maxdepth: 1
