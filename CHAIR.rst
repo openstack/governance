@@ -60,7 +60,9 @@ After the election results are confirmed, the outgoing chair should:
 * start the chair selection process by encouraging TC members to
   consider serving as chair by proposing a patch to the member list to
   add "chair" status next to their name
-* monitor and coordinate the discussion and selection of the new chair
+* monitor and coordinate the discussion and selection of the new
+  chair, including establishing a CIVS poll if there are multiple
+  candidates
 * after a chair is selected, ensure they appear in the
   tech-committee-chair group in gerrit:
   https://review.openstack.org/#/admin/groups/206,members
