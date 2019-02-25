@@ -43,7 +43,7 @@ During the election period all current TC members continue to serve,
 even if their term is up and they are not running again. Committee
 membership changes when the election results are published.
 
-When the election results are available:
+When the election results are available, the outgoing chair should:
 
 * welcome new and returning members
 * update the tech-committee group in gerrit:
@@ -55,7 +55,7 @@ When the election results are available:
   list for the openstack-discuss mailing list
 * propose a patch to remove current chair and vice chair
 
-After the election results are confirmed:
+After the election results are confirmed, the outgoing chair should:
 
 * start the chair selection process by encouraging TC members to
   consider serving as chair by proposing a patch to the member list to
@@ -66,10 +66,10 @@ After the election results are confirmed:
   https://review.openstack.org/#/admin/groups/206,members
 * the outgoing chair should notify the board chair and secretary of
   the new TC membership and chair
+
+After the chair status is confirmed, the incoming chair should:
+
 * start the liaison assignment process (see below)
-
-After the chair status is confirmed:
-
 * propose a patch to appoint a vice chair
 
 Project Team Liaisons
