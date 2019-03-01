@@ -36,6 +36,13 @@ General
 * Coordinate the agenda for joint leadership meetings with the board (see below)
 * Send weekly update emails to openstack-dev (see below)
 
+Each Cycle
+==========
+
+* See "Around TC elections"
+* Ensure that the TC has a representative on the meta SIG team, to
+  work with the UC to manage SIGs.
+
 Around TC elections
 ===================
 
