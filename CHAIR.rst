@@ -42,6 +42,8 @@ Each Cycle
 * See "Around TC elections"
 * Ensure that the TC has a representative on the meta SIG team, to
   work with the UC to manage SIGs.
+* Ensure that 2 TC members are signed up to manage the goal selection
+  process for the next cycle.
 
 Around TC elections
 ===================
