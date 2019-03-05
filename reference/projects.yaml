@@ -2119,6 +2119,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-ceph-radosgw
+    charm-ceph-rbd-mirror:
+      release-management: external
+      repos:
+        - openstack/charm-ceph-rbd-mirror
     charm-ceph-proxy:
       release-management: external
       repos:
@@ -2203,6 +2207,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-interface-ceph-mds
+    charm-interface-ceph-rbd-mirror:
+      release-management: external
+      repos:
+        - openstack/charm-interface-ceph-rbd-mirror
     charm-interface-cinder-backend:
       release-management: external
       repos:
@@ -2299,6 +2307,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-keystone-ldap
+    charm-layer-ceph:
+      release-management: external
+      repos:
+        - openstack/charm-layer-ceph
     charm-layer-ceph-base:
       release-management: external
       repos:
