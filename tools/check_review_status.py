@@ -23,6 +23,7 @@ import prettytable
 import requests
 
 from openstack_governance import governance
+from openstack_governance import members
 
 
 LOG = logging.getLogger(__name__)
@@ -180,7 +181,7 @@ def all_changes():
             break
 
 
-def get_one_status(change, delegates):
+def get_one_status(change, delegates, tc_members):
     topic = change.get('topic', 'unknown topic')
     subject = change.get('subject')
     owner = change.get('owner', {}).get('name')
@@ -372,6 +373,21 @@ def get_one_status(change, delegates):
         ' V:' + format_votes(votes),
     ])
 
+    tc_member_votes = {}
+    for name in tc_members:
+        if has_approved(name, change):
+            tc_member_votes[name] = '+'
+        elif has_rejected(name, change):
+            tc_member_votes[name] = '-'
+        elif has_commented(name, change):
+            tc_member_votes[name] = 'C'
+        else:
+            tc_member_votes[name] = ' '
+    member_votes = '\n'.join(
+        '{} : {}'.format(value, name)
+        for name, value in sorted(tc_member_votes.items())
+    )
+
     return {
         'Topic': topic,
         'Subject': subject,
@@ -391,6 +407,7 @@ def get_one_status(change, delegates):
                              earliest]),
         'Earliest': earliest,
         'Votes': votes,
+        'Members': member_votes,
     }
 
 
@@ -409,6 +426,11 @@ def main():
         level=args.log_level,
     )
 
+    tc_members = [
+        m.get('name')
+        for m in members.parse_members_file('./reference/members')
+    ]
+
     gov = governance.Governance.from_local_repo()
     release_team = gov.get_team('Release Management')
 
@@ -421,7 +443,7 @@ def main():
         print('Delegating {} tags to {}'.format(tag, name))
 
     status = sorted(
-        (get_one_status(change, delegates)
+        (get_one_status(change, delegates, tc_members)
          for change in all_changes()),
         key=operator.itemgetter('URL'),
     )
@@ -430,6 +452,7 @@ def main():
         'Summary',
         'Status',
         'Votes',
+        'Members',
     )
 
     x = prettytable.PrettyTable(
@@ -439,6 +462,7 @@ def main():
     x.align['Summary'] = 'l'
     x.align['Status'] = 'l'
     x.align['Votes'] = 'l'
+    x.align['Members'] = 'l'
     for row in status:
         x.add_row([row[c] for c in columns])
     print(x.get_string())
