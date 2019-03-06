@@ -143,6 +143,16 @@ as work progresses.
 The champion should check in with project teams regularly to ensure
 they are able to make progress on the work and have not become stuck.
 
+At the end of the release, there may be open tasks and these can remain open
+in case someone comes along later and completes the task. As goal champion you
+are not responsible for completing any incomplete tasks for which you are not
+assigned, i.e. the project assigned to the task is responsible for completing
+it. It is also encouraged to send a retrospective email to the
+openstack-discuss mailing list with a summary of the goal including things
+such as how many projects completed the goal, reasons behind some projects
+that did not complete the goal, anything notable that came up during the goal
+implementation phase, and next steps if there are any.
+
 Release Cycles
 ==============
 
