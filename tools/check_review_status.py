@@ -375,7 +375,12 @@ def get_one_status(change, delegates):
     return {
         'Topic': topic,
         'Subject': subject,
-        'Summary': '\n'.join([subject.strip(), '', url]),
+        'Summary': '\n'.join([
+            subject.strip(),
+            '',
+            url,
+            'Submitted by: {}'.format(owner.strip())
+        ]),
         'Owner': owner,
         'URL': url,
         'Age': age.days,
