@@ -22,6 +22,9 @@ import operator
 import prettytable
 import requests
 
+from openstack_governance import governance
+
+
 LOG = logging.getLogger(__name__)
 
 
@@ -401,11 +404,16 @@ def main():
         level=args.log_level,
     )
 
+    gov = governance.Governance.from_local_repo()
+    release_team = gov.get_team('Release Management')
+
     delegates = {
         'stable:follows-policy': 'Tony Breeds',
         'vulnerability:managed': 'VMT',
-        'release-management': 'Sean McGinnis',
+        'release-management': release_team.ptl['name'],
     }
+    for tag, name in sorted(delegates.items()):
+        print('Delegating {} tags to {}'.format(tag, name))
 
     status = sorted(
         (get_one_status(change, delegates)
