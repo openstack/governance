@@ -20,7 +20,7 @@ Current Members
 ===============
 
 .. memberstable::
-      :datafile: ../../reference/members
+      :datafile: ../../reference/members.yaml
 
 Reference documents and Resolutions
 ===================================

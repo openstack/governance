@@ -26,7 +26,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         '--member-file',
-        default='reference/members',
+        default='reference/members.yaml',
         help='location of members file, (%(default)s)',
     )
     parser.add_argument(

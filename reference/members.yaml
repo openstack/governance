@@ -1,0 +1,77 @@
+- name: Alexandra Settle
+  irc: asettle
+  email: asettle@suse.com
+  date: March 2020
+  role: null
+
+- name: Doug Hellmann
+  irc: dhellmann
+  email: doug@doughellmann.com
+  date: October 2019
+  role: null
+
+- name: Ghanshyam Mann
+  irc: gmann
+  email: gmann@ghanshyammann.com
+  date: October 2019
+  role: null
+
+- name: Graham Hayes
+  irc: mugsie
+  email: gr@ham.ie
+  date: March 2020
+  role: null
+
+- name: Jean-Philippe Evrard
+  irc: evrardjp
+  email: jean-philippe@evrard.me
+  date: October 2019
+  role: null
+
+- name: Jeremy Stanley
+  irc: fungi
+  email: fungi@yuggoth.org
+  date: October 2019
+  role: null
+
+- name: Jim Rollenhagen
+  irc: jroll
+  email: jim@jimrollenhagen.com
+  date: March 2020
+  role: null
+
+- name: Julia Kreger
+  irc: TheJulia
+  email: juliaashleykreger@gmail.com
+  date: October 2019
+  role: null
+
+- name: Lance Bragstad
+  irc: lbragstad
+  email: lbragstad@gmail.com
+  date: October 2019
+  role: null
+
+- name: Mohammed Naser
+  irc: mnaser
+  email: mnaser@vexxhost.com
+  date: March 2020
+  role: chair
+
+- name: Rico Lin
+  irc: ricolin
+  email: rico.lin.guanyu@gmail.com
+  date: March 2020
+  role: null
+
+- name: Thierry Carrez
+  irc: ttx
+  email: thierry@openstack.org
+  date: March 2020
+  role: null
+
+- name: Zane Bitter
+  irc: zaneb
+  email: zbitter@redhat.com
+  date: March 2020
+  role: null

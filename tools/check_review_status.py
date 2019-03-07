@@ -428,7 +428,7 @@ def main():
 
     tc_members = [
         m.get('name')
-        for m in members.parse_members_file('./reference/members')
+        for m in members.parse_members_file('./reference/members.yaml')
     ]
 
     gov = governance.Governance.from_local_repo()
