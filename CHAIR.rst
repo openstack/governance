@@ -77,6 +77,7 @@ After the election results are confirmed, the outgoing chair should:
   https://review.openstack.org/#/admin/groups/206,members
 * the outgoing chair should notify the board chair and secretary of
   the new TC membership and chair
+* the outgoing chair should notify the community of the new chair
 
 After the chair status is confirmed, the incoming chair should:
 
