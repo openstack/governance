@@ -305,6 +305,16 @@ of their cloud resources, and to visualise relationships between them. For
 these reasons, in addition to the API and any other user interfaces, OpenStack
 should include a web-based graphical user interface.
 
+Project team reflections on this vision
+=======================================
+
+When this vision was published, project teams were encouraged to write a
+self-evaluation or reflection to determine how their project compares to this
+vision. A compilation of these self-evaluations is below.
+
+* `Placement
+  <https://docs.openstack.org/placement/latest/contributor/vision-reflection.html>`_
+
 .. _OpenStack project map: https://www.openstack.org/openstack-map
 .. _transaction costs: https://en.wikipedia.org/wiki/Transaction_cost
 .. _opportunity cost: https://en.wikipedia.org/wiki/Opportunity_cost
