@@ -2900,9 +2900,11 @@ placement:
 
 PowerVMStackers:
   ptl:
-    name: leaderless
-    irc:
-    email:
+    name: Divya K Konoor
+    irc: dikonoor
+    email: dikonoor@in.ibm.com
+  appointed:
+    - train
   irc-channel: openstack-powervm
   mission: >
     To provide OpenStack support for the POWER CPU architecture on the PowerVM
