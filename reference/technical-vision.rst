@@ -312,6 +312,8 @@ When this vision was published, project teams were encouraged to write a
 self-evaluation or reflection to determine how their project compares to this
 vision. A compilation of these self-evaluations is below.
 
+* `Keystone
+  <https://docs.openstack.org/keystone/latest/contributor/vision-reflection.html>`_
 * `Placement
   <https://docs.openstack.org/placement/latest/contributor/vision-reflection.html>`_
 
