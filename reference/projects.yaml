@@ -3971,9 +3971,11 @@ winstackers:
 
 zaqar:
   ptl:
-    name: leaderless
-    irc:
-    email:
+    name: Wang Hao
+    irc: wanghao
+    email: sxmatch1986@gmail.com
+  appointed:
+    - train
   irc-channel: openstack-zaqar
   service: Message service
   mission: >
