@@ -2805,11 +2805,6 @@ oslo:
         - openstack/oslo.vmware
       tags:
         - stable:follows-policy
-    oslosphinx:
-      repos:
-        - openstack/oslosphinx
-      tags:
-        - stable:follows-policy
     oslotest:
       repos:
         - openstack/oslotest
