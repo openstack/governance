@@ -3536,9 +3536,11 @@ tacker:
 
 Telemetry:
   ptl:
-    name: leaderless
-    irc:
-    email:
+    name: Trinh Nguyen
+    irc: dangtrinhnt
+    email: dangtrinhnt@gmail.com
+  appointed:
+    - train
   irc-channel: openstack-telemetry
   service: Telemetry service
   mission: >
