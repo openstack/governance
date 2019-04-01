@@ -19,6 +19,30 @@ but also facilitating connections between candidates and target teams). For
 an estimate of the commitment required, interested candidates should reach
 out to the TC sponsor, or the PTL of the affected project.
 
+******************
+Intended Audiences
+******************
+
+This document was written with at least two audiences in mind.
+
+The first audience consists of contributors who would be working on the items
+listed here. Each item should provide a descriptive summary that helps
+developers grasp the overall problem and possibly how to solve it or
+contribute.
+
+The second audience is corporate or business sponsors. Ultimately, this
+audience consists of people who have the ability to delegate resources to work
+on various initiatives. The description of each item should justify why the
+item is on the list. Descriptions should refrain from being overly technical.
+Additionally, business sponsors will find the "Value" section beneficial
+because it describes how investing resources helps reduce maintenance cost,
+increase interoperability, provide stability, or deliver value to your
+customers. Essentially, this section should help businesses understand what
+they are getting out of the investment.
+
+Both audiences will find the contact information supplied with each item useful
+for connecting with the right group of people to get resources up-to-speed.
+
 .. _`tragedy of the commons`: https://en.wikipedia.org/wiki/Tragedy_of_the_commons
 
 
@@ -191,24 +215,51 @@ OpenStack discuss `mailing list`_ using the `[glance]` tag.
 5. Goal Champions
 =================
 
-Things get done in OpenStack when a group of people work together
-toward a shared goal. In order to do that, one or more people in the
-group need to step up and coordinate the group, keep track of
-progress, call for and chair regular meetings, and publish status
-updates.  PTLs do this work for project teams, leaders do it for
-various cross-project working groups and SIGs, and champions do it to
-help us complete :ref:`release-cycle-goals` over a cycle.
+Description
+-----------
 
-The work of those champions is essential to the success of OpenStack,
-and yet it is often challenging to find volunteers for those
-positions. Contributing as a goal champion takes time (several hours
-per week), and that commitment needs to be properly recognized and
-celebrated.
+As OpenStack matures, large initiatives linger that affect the community as a
+whole. Like with any large body of work, someone needs to step up and
+coordinate the group, keep track of progress, call for and chair regular
+meetings, and publish status updates. PTLs do this work for project teams,
+leaders do it for various cross-project working groups and SIGs, and champions
+do it to help us complete :ref:`release-cycle-goals` over a cycle.
+Additionally, efficient coordination is one of the most productive ways to get
+things done, especially in large communities.
 
-Volunteers for this role will make a direct impact on the productivity
-of others, become respected leaders in OpenStack community, build
-influence among their peers, and make great candidates for future
-elected leadership positions in OpenStack.
+The work of those champions is essential to the success of OpenStack, and yet
+it is often challenging to find volunteers for those positions. Contributing as
+a goal champion takes time (several hours per week), and that commitment needs
+to be properly recognized and celebrated.
 
-If you are interested in helping with community goals, contact the TC
-sponsor for this item (dhellmann).
+Volunteers for this role will make a direct impact on the productivity of
+others, become respected leaders in OpenStack community, build influence among
+their peers, and make great candidates for future elected leadership positions
+in OpenStack.
+
+Value
+-----
+
+Opportunity for Influence
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+As a sponsor or partial sponsor of a community-wide initiative, you have the
+opportunity to influence the decision-making process. This influence is
+particularly true if you have existing workarounds or have attempted
+alternative solutions, both of which are essential perspectives to have in the
+goal selection process.
+
+Early Adoption
+~~~~~~~~~~~~~~
+
+By sponsoring a community goal champion, you have someone in-house to answer
+questions about the ongoing work and decision making process upstream. This can
+be an excellent resource in minimizing disruption to downstream products and
+services, especially tracking a large piece of work across services and
+projects.
+
+Contact
+-------
+
+If you are interested in helping with community goals, contact the Technical
+Committee sponsor for this item (dhellmann).
