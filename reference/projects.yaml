@@ -2287,6 +2287,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-interface-ovsdb-manager
+    charm-interface-pacemaker-remote:
+      release-management: external
+      repos:
+        - openstack/charm-interface-pacemaker-remote
     charm-interface-rabbitmq:
       release-management: external
       repos:
@@ -2343,6 +2347,14 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-manila-glusterfs
+    charm-masakari:
+      release-management: external
+      repos:
+        - openstack/charm-masakari
+    charm-masakari-monitors:
+      release-management: external
+      repos:
+        - openstack/charm-masakari-monitors
     charm-mistral:
       release-management: external
       repos:
@@ -2411,6 +2423,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-openvswitch-odl
+    charm-pacemaker-remote:
+      release-management: external
+      repos:
+        - openstack/charm-pacemaker-remote
     charm-percona-cluster:
       release-management: external
       repos:
