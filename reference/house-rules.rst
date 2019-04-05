@@ -132,5 +132,19 @@ under one of those house rules, that member can propose a revert of the
 change. Such revert should be directly approved by the chair and the change
 be discussed on the mailing list or on the re-proposed change in gerrit.
 
+Voting on Changes in openstack/governance
+-----------------------------------------
+
+TC member should use their RollCall-Vote permissions on all
+patches. Code-Review votes are ignored for the purposes of tallying
+votes, regardless of the content of the patch.
+
+In the course of evaluating alternatives for complex proposals, we
+often ask one TC member to write several patches that might be
+mutually exclusive so that the committee can compare them and select
+one by voting on them independently. Because of this, we need to
+ensure that it is clear which patch the author of the patches prefers,
+and so we usually ask all TC members to cast a vote on all patches,
+even those they write.
 
 .. _election: https://docs.openstack.org/project-team-guide/open-community.html#technical-committee-and-ptl-elections
