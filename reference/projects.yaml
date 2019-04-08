@@ -3620,6 +3620,9 @@ tripleo:
     ansible-role-chrony:
       repos:
         - openstack/ansible-role-chrony
+    ansible-role-collect-logs:
+      repos:
+        - openstack/ansible-role-collect-logs
     ansible-role-container-registry:
       repos:
         - openstack/ansible-role-container-registry
