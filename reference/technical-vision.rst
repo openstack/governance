@@ -318,6 +318,8 @@ vision. A compilation of these self-evaluations is below.
   <https://docs.openstack.org/placement/latest/contributor/vision-reflection.html>`_
 * `Searchlight
   <https://docs.openstack.org/searchlight/latest/contributor/vision-reflection.html>`_
+* `Zun
+  <https://docs.openstack.org/zun/latest/contributor/vision-reflection.html>`_
 
 .. _OpenStack project map: https://www.openstack.org/openstack-map
 .. _transaction costs: https://en.wikipedia.org/wiki/Transaction_cost
