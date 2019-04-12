@@ -3883,7 +3883,6 @@ trove:
         - openstack/python-troveclient
       tags:
         - vulnerability:managed
-        - stable:follows-policy
         - assert:follows-standard-deprecation
     trove:
       repos:
@@ -3891,13 +3890,11 @@ trove:
       tags:
         - tc:approved-release
         - vulnerability:managed
-        - stable:follows-policy
         - assert:follows-standard-deprecation
     trove-dashboard:
       repos:
         - openstack/trove-dashboard
       tags:
-        - stable:follows-policy
         - assert:follows-standard-deprecation
     trove-specs:
       release-management: none
