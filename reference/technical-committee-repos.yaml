@@ -1,6 +1,7 @@
 ---
 # List of repositories owned by the technical committee
 Technical Committee:
+  - repo: openstack/openstack
   - repo: openstack/governance
   - repo: openstack/openstack-specs
   - repo: openstack/project-navigator-data
