@@ -9,3 +9,4 @@ Technical Committee:
   - repo: openstack/election
   - repo: openstack/goal-tools
   - repo: openstack/governance-website
+  - repo: openstack/arch-wg
