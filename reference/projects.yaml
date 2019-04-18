@@ -315,6 +315,10 @@ Documentation:
       release-management: none
       repos:
         - openstack/training-guides
+    training-images:
+      release-management: none
+      repos:
+        - openstack/upstream-institute-virtual-environment
     whereto:
       repos:
         - openstack/whereto
