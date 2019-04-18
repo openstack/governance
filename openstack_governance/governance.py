@@ -10,8 +10,7 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
-"""Work with the governance repository.
-"""
+"""Work with the governance repository."""
 
 import collections
 import logging
@@ -23,7 +22,7 @@ from openstack_governance import _yamlutils
 import requests
 
 LOG = logging.getLogger(__name__)
-REPO_URL_BASE = "http://git.openstack.org/cgit/openstack/governance/plain"
+REPO_URL_BASE = "https://opendev.org/openstack/governance/raw/branch/master"
 
 
 def get_tags_for_deliverable(team_data, team, name):
