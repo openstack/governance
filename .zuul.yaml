@@ -6,7 +6,7 @@
       jobs:
         - openstack-tox-linters:
             required-projects:
-              - openstack-infra/project-config
+              - openstack/project-config
     experimental:
       jobs:
         - openstack-tox-validate
@@ -14,7 +14,7 @@
       jobs:
         - openstack-tox-linters:
             required-projects:
-              - openstack-infra/project-config
+              - openstack/project-config
     post:
       jobs:
         - publish-governance-tc
