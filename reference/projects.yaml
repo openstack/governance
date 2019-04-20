@@ -447,7 +447,7 @@ heat:
     heat-cfnclient:
       release-management: none
       repos:
-        - openstack-dev/heat-cfnclient
+        - openstack/heat-cfnclient
     heat-cfntools:
       repos:
         - openstack/heat-cfntools
@@ -861,434 +861,434 @@ Infrastructure:
   deliverables:
     afsmon:
       repos:
-        - openstack-infra/afsmon
+        - opendev/afsmon
     ansible-role-puppet:
       repos:
-        - openstack-infra/ansible-role-puppet
+        - opendev/ansible-role-puppet
     askbot-theme:
       repos:
-        - openstack-infra/askbot-theme
+        - opendev/askbot-theme
     bindep:
       repos:
-        - openstack-infra/bindep
+        - opendev/bindep
     bugdaystats:
       repos:
-        - openstack-infra/bugdaystats
+        - openstack/bugdaystats
     ciwatch:
       repos:
-        - openstack-infra/ciwatch
+        - x/ciwatch
     devstack-gate:
       repos:
-        - openstack-infra/devstack-gate
+        - openstack/devstack-gate
     diskimage-builder:
       repos:
         - openstack/diskimage-builder
     elastic-recheck:
       repos:
-        - openstack-infra/elastic-recheck
+        - opendev/elastic-recheck
     gear:
       repos:
-        - openstack-infra/gear
+        - opendev/gear
     gearman-plugin:
       repos:
-        - openstack-infra/gearman-plugin
+        - x/gearman-plugin
     germqtt:
       repos:
-        - openstack-infra/germqtt
+        - opendev/germqtt
     gerrit:
       repos:
-        - openstack-infra/gerrit
+        - opendev/gerrit
     gerritbot:
       repos:
-        - openstack-infra/gerritbot
+        - opendev/gerritbot
     gerritlib:
       repos:
-        - openstack-infra/gerritlib
+        - opendev/gerritlib
     git-restack:
       repos:
-        - openstack-infra/git-restack
+        - opendev/git-restack
     git-review:
       repos:
-        - openstack-infra/git-review
+        - opendev/git-review
     gitdm:
       repos:
-        - openstack-infra/gitdm
+        - x/gitdm
     glean:
       repos:
-        - openstack-infra/glean
+        - opendev/glean
     grafyaml:
       repos:
-        - openstack-infra/grafyaml
+        - opendev/grafyaml
     groups:
       repos:
-        - openstack-infra/groups
+        - osf/groups
     groups-static-pages:
       repos:
-        - openstack-infra/groups-static-pages
+        - osf/groups-static-pages
     infra-ansible:
       repos:
-        - openstack-infra/infra-ansible
+        - x/infra-ansible
     infra-manual:
       repos:
-        - openstack-infra/infra-manual
+        - openstack/infra-manual
     infra-specs:
       release-management: none
       repos:
-        - openstack-infra/infra-specs
+        - opendev/infra-specs
     irc-meetings:
       repos:
-        - openstack-infra/irc-meetings
+        - opendev/irc-meetings
     jeepyb:
       repos:
-        - openstack-infra/jeepyb
+        - opendev/jeepyb
     jenkins-job-builder:
       repos:
-        - openstack-infra/jenkins-job-builder
+        - jjb/jenkins-job-builder
     js-openstack-lib:
       repos:
         - openstack/js-openstack-lib
     lodgeit:
       repos:
-        - openstack-infra/lodgeit
+        - opendev/lodgeit
     logstash-filters:
       repos:
-        - openstack-infra/logstash-filters
+        - openstack/logstash-filters
     log-classify:
       repos:
-        - openstack-infra/log-classify
+        - opendev/log-classify
     log_processor:
       repos:
-        - openstack-infra/log_processor
+        - opendev/log_processor
     lpmqtt:
       repos:
-        - openstack-infra/lpmqtt
+        - opendev/lpmqtt
     meetbot:
       repos:
-        - openstack-infra/meetbot
+        - opendev/meetbot
     mqtt_statsd:
       repos:
-        - openstack-infra/mqtt_statsd
+        - opendev/mqtt_statsd
     nose-html-output:
       repos:
-        - openstack-infra/nose-html-output
+        - openstack/nose-html-output
     odsreg:
       repos:
-        - openstack-infra/odsreg
+        - osf/odsreg
     openstack-nose:
       repos:
-        - openstack-dev/openstack-nose
+        - openstack/openstack-nose
     openstack-planet:
       repos:
         - openstack/openstack-planet
     openstack-zuul-jobs:
       repos:
-        - openstack-infra/openstack-zuul-jobs
+        - openstack/openstack-zuul-jobs
     openstack-zuul-roles:
       repos:
-        - openstack-infra/openstack-zuul-roles
+        - openstack/openstack-zuul-roles
     openstackid:
       repos:
-        - openstack-infra/openstackid
+        - osf/openstackid
     openstackid-resources:
       repos:
-        - openstack-infra/openstackid-resources
+        - osf/openstackid-resources
     openstackweb:
       repos:
-        - openstack-infra/openstackweb
+        - osf/openstackweb
     os-loganalyze:
       repos:
-        - openstack-infra/os-loganalyze
+        - openstack/os-loganalyze
     project-config:
       repos:
-        - openstack-infra/project-config
+        - openstack/project-config
     project-config-example:
       repos:
-        - openstack-infra/project-config-example
+        - opendev/project-config-example
     ptgbot:
       repos:
         - openstack/ptgbot
     publications:
       repos:
-        - openstack-infra/publications
+        - opendev/publications
     puppet-accessbot:
       repos:
-        - openstack-infra/puppet-accessbot
+        - opendev/puppet-accessbot
     puppet-ansible:
       repos:
-        - openstack-infra/puppet-ansible
+        - opendev/puppet-ansible
     puppet-apparmor:
       repos:
-        - openstack-infra/puppet-apparmor
+        - opendev/puppet-apparmor
     puppet-askbot:
       repos:
-        - openstack-infra/puppet-askbot
+        - opendev/puppet-askbot
     puppet-asterisk:
       repos:
-        - openstack-infra/puppet-asterisk
+        - opendev/puppet-asterisk
     puppet-bandersnatch:
       repos:
-        - openstack-infra/puppet-bandersnatch
+        - opendev/puppet-bandersnatch
     puppet-bugdaystats:
       repos:
-        - openstack-infra/puppet-bugdaystats
+        - opendev/puppet-bugdaystats
     puppet-bup:
       repos:
-        - openstack-infra/puppet-bup
+        - opendev/puppet-bup
     puppet-cgit:
       repos:
-        - openstack-infra/puppet-cgit
+        - opendev/puppet-cgit
     puppet-ciwatch:
       repos:
-        - openstack-infra/puppet-ciwatch
+        - opendev/puppet-ciwatch
     puppet-infra-cookiecutter:
       repos:
-        - openstack-infra/puppet-infra-cookiecutter
+        - opendev/puppet-infra-cookiecutter
     puppet-dashboard:
       repos:
-        - openstack-infra/puppet-dashboard
+        - opendev/puppet-dashboard
     puppet-diskimage_builder:
       repos:
-        - openstack-infra/puppet-diskimage_builder
+        - opendev/puppet-diskimage_builder
     puppet-drupal:
       repos:
-        - openstack-infra/puppet-drupal
+        - opendev/puppet-drupal
     puppet-elastic_recheck:
       repos:
-        - openstack-infra/puppet-elastic_recheck
+        - opendev/puppet-elastic_recheck
     puppet-elasticsearch:
       repos:
-        - openstack-infra/puppet-elasticsearch
+        - opendev/puppet-elasticsearch
     puppet-ethercalc:
       repos:
-        - openstack-infra/puppet-ethercalc
+        - opendev/puppet-ethercalc
     puppet-etherpad_lite:
       repos:
-        - openstack-infra/puppet-etherpad_lite
+        - opendev/puppet-etherpad_lite
     puppet-exim:
       repos:
-        - openstack-infra/puppet-exim
+        - opendev/puppet-exim
     puppet-germqtt:
       repos:
-        - openstack-infra/puppet-germqtt
+        - opendev/puppet-germqtt
     puppet-gerrit:
       repos:
-        - openstack-infra/puppet-gerrit
+        - opendev/puppet-gerrit
     puppet-gerritbot:
       repos:
-        - openstack-infra/puppet-gerritbot
+        - opendev/puppet-gerritbot
     puppet-github:
       repos:
-        - openstack-infra/puppet-github
+        - opendev/puppet-github
     puppet-grafyaml:
       repos:
-        - openstack-infra/puppet-grafyaml
+        - opendev/puppet-grafyaml
     puppet-graphite:
       repos:
-        - openstack-infra/puppet-graphite
+        - opendev/puppet-graphite
     puppet-haveged:
       repos:
-        - openstack-infra/puppet-haveged
+        - opendev/puppet-haveged
     puppet-hound:
       repos:
-        - openstack-infra/puppet-hound
+        - opendev/puppet-hound
     puppet-httpd:
       repos:
-        - openstack-infra/puppet-httpd
+        - opendev/puppet-httpd
     puppet-infracloud:
       repos:
-        - openstack-infra/puppet-infracloud
+        - opendev/puppet-infracloud
     puppet-ipsilon:
       repos:
-        - openstack-infra/puppet-ipsilon
+        - opendev/puppet-ipsilon
     puppet-iptables:
       repos:
-        - openstack-infra/puppet-iptables
+        - opendev/puppet-iptables
     puppet-jeepyb:
       repos:
-        - openstack-infra/puppet-jeepyb
+        - opendev/puppet-jeepyb
     puppet-jenkins:
       repos:
-        - openstack-infra/puppet-jenkins
+        - opendev/puppet-jenkins
     puppet-kerberos:
       repos:
-        - openstack-infra/puppet-kerberos
+        - opendev/puppet-kerberos
     puppet-kibana:
       repos:
-        - openstack-infra/puppet-kibana
+        - opendev/puppet-kibana
     puppet-lodgeit:
       repos:
-        - openstack-infra/puppet-lodgeit
+        - opendev/puppet-lodgeit
     puppet-log_processor:
       repos:
-        - openstack-infra/puppet-log_processor
+        - opendev/puppet-log_processor
     puppet-logrotate:
       repos:
-        - openstack-infra/puppet-logrotate
+        - opendev/puppet-logrotate
     puppet-logstash:
       repos:
-        - openstack-infra/puppet-logstash
+        - opendev/puppet-logstash
     puppet-lpmqtt:
       repos:
-        - openstack-infra/puppet-lpmqtt
+        - opendev/puppet-lpmqtt
     puppet-mailman:
       repos:
-        - openstack-infra/puppet-mailman
+        - opendev/puppet-mailman
     puppet-mediawiki:
       repos:
-        - openstack-infra/puppet-mediawiki
+        - opendev/puppet-mediawiki
     puppet-meetbot:
       repos:
-        - openstack-infra/puppet-meetbot
+        - opendev/puppet-meetbot
     puppet-mosquitto:
       repos:
-        - openstack-infra/puppet-mosquitto
+        - opendev/puppet-mosquitto
     puppet-mqtt_statsd:
       repos:
-        - openstack-infra/puppet-mqtt_statsd
+        - opendev/puppet-mqtt_statsd
     puppet-mysql_backup:
       repos:
-        - openstack-infra/puppet-mysql_backup
+        - opendev/puppet-mysql_backup
     puppet-nodepool:
       repos:
-        - openstack-infra/puppet-nodepool
+        - opendev/puppet-nodepool
     puppet-openafs:
       repos:
-        - openstack-infra/puppet-openafs
+        - opendev/puppet-openafs
     puppet-openstack_health:
       repos:
-        - openstack-infra/puppet-openstack_health
+        - opendev/puppet-openstack_health
     puppet-openstack_infra_spec_helper:
       repos:
-        - openstack-infra/puppet-openstack_infra_spec_helper
+        - opendev/puppet-openstack_infra_spec_helper
     puppet-openstackci:
       repos:
-        - openstack-infra/puppet-openstackci
+        - opendev/puppet-openstackci
     puppet-openstackid:
       repos:
-        - openstack-infra/puppet-openstackid
+        - opendev/puppet-openstackid
     puppet-os_client_config:
       repos:
-        - openstack-infra/puppet-os_client_config
+        - opendev/puppet-os_client_config
     puppet-packagekit:
       repos:
-        - openstack-infra/puppet-packagekit
+        - opendev/puppet-packagekit
     puppet-pgsql_backup:
       repos:
-        - openstack-infra/puppet-pgsql_backup
+        - opendev/puppet-pgsql_backup
     puppet-phabricator:
       repos:
-        - openstack-infra/puppet-phabricator
+        - opendev/puppet-phabricator
     puppet-pip:
       repos:
-        - openstack-infra/puppet-pip
+        - opendev/puppet-pip
     puppet-planet:
       repos:
-        - openstack-infra/puppet-planet
+        - opendev/puppet-planet
     puppet-project_config:
       repos:
-        - openstack-infra/puppet-project_config
+        - opendev/puppet-project_config
     puppet-ptgbot:
       repos:
-        - openstack-infra/puppet-ptgbot
+        - opendev/puppet-ptgbot
     puppet-puppet:
       repos:
-        - openstack-infra/puppet-puppet
+        - opendev/puppet-puppet
     puppet-redis:
       repos:
-        - openstack-infra/puppet-redis
+        - opendev/puppet-redis
     puppet-refstack:
       repos:
-        - openstack-infra/puppet-refstack
+        - opendev/puppet-refstack
     puppet-reviewday:
       repos:
-        - openstack-infra/puppet-reviewday
+        - opendev/puppet-reviewday
     puppet-simpleproxy:
       repos:
-        - openstack-infra/puppet-simpleproxy
+        - opendev/puppet-simpleproxy
     puppet-snmpd:
       repos:
-        - openstack-infra/puppet-snmpd
+        - opendev/puppet-snmpd
     puppet-ssh:
       repos:
-        - openstack-infra/puppet-ssh
+        - opendev/puppet-ssh
     puppet-ssl_cert_check:
       repos:
-        - openstack-infra/puppet-ssl_cert_check
+        - opendev/puppet-ssl_cert_check
     puppet-statusbot:
       repos:
-        - openstack-infra/puppet-statusbot
+        - opendev/puppet-statusbot
     puppet-storyboard:
       repos:
-        - openstack-infra/puppet-storyboard
+        - opendev/puppet-storyboard
     puppet-subunit2sql:
       repos:
-        - openstack-infra/puppet-subunit2sql
+        - opendev/puppet-subunit2sql
     puppet-sudoers:
       repos:
-        - openstack-infra/puppet-sudoers
+        - opendev/puppet-sudoers
     puppet-tmpreaper:
       repos:
-        - openstack-infra/puppet-tmpreaper
+        - opendev/puppet-tmpreaper
     puppet-translation_checksite:
       repos:
-        - openstack-infra/puppet-translation_checksite
+        - opendev/puppet-translation_checksite
     puppet-ulimit:
       repos:
-        - openstack-infra/puppet-ulimit
+        - opendev/puppet-ulimit
     puppet-unattended_upgrades:
       repos:
-        - openstack-infra/puppet-unattended_upgrades
+        - opendev/puppet-unattended_upgrades
     puppet-unbound:
       repos:
-        - openstack-infra/puppet-unbound
+        - opendev/puppet-unbound
     puppet-user:
       repos:
-        - openstack-infra/puppet-user
+        - opendev/puppet-user
     puppet-vcsrepo:
       repos:
-        - openstack-infra/puppet-vcsrepo
+        - opendev/puppet-vcsrepo
     puppet-yum:
       repos:
-        - openstack-infra/puppet-yum
+        - opendev/puppet-yum
     puppet-zanata:
       repos:
-        - openstack-infra/puppet-zanata
+        - opendev/puppet-zanata
     puppet-zuul:
       repos:
-        - openstack-infra/puppet-zuul
+        - opendev/puppet-zuul
     pynotedb:
       repos:
-        - openstack-infra/pynotedb
+        - opendev/pynotedb
     python-storyboardclient:
       repos:
-        - openstack-infra/python-storyboardclient
+        - opendev/python-storyboardclient
     reviewday:
       repos:
-        - openstack-infra/reviewday
+        - openstack/reviewday
     reviewstats:
       repos:
-        - openstack-infra/reviewstats
+        - openstack/reviewstats
     statusbot:
       repos:
-        - openstack-infra/statusbot
+        - opendev/statusbot
     storyboard:
       repos:
-        - openstack-infra/storyboard
+        - opendev/storyboard
     storyboard-webclient:
       repos:
-        - openstack-infra/storyboard-webclient
+        - opendev/storyboard-webclient
     subunit2sql:
       repos:
-        - openstack-infra/subunit2sql
+        - opendev/subunit2sql
     system-config:
       repos:
-        - openstack-infra/system-config
+        - opendev/system-config
     yaml2ical:
       repos:
-        - openstack-infra/yaml2ical
+        - opendev/yaml2ical
     zmq-event-publisher:
       repos:
-        - openstack-infra/zmq-event-publisher
+        - x/zmq-event-publisher
 
 ironic:
   ptl:
@@ -2649,12 +2649,12 @@ OpenStackSDK:
         - assert:follows-standard-deprecation
     requestsexceptions:
       repos:
-        - openstack-infra/requestsexceptions
+        - openstack/requestsexceptions
       tags:
         - assert:follows-standard-deprecation
     shade:
       repos:
-        - openstack-infra/shade
+        - openstack/shade
       tags:
         - assert:follows-standard-deprecation
 
@@ -2685,7 +2685,7 @@ oslo:
     cookiecutter:
       release-management: none
       repos:
-        - openstack-dev/cookiecutter
+        - openstack/cookiecutter
     debtcollector:
       repos:
         - openstack/debtcollector
@@ -2718,7 +2718,7 @@ oslo:
     oslo-cookiecutter:
       release-management: none
       repos:
-        - openstack-dev/oslo-cookiecutter
+        - openstack/oslo-cookiecutter
     oslo-specs:
       release-management: none
       repos:
@@ -2843,7 +2843,7 @@ oslo:
         - stable:follows-policy
     pbr:
       repos:
-        - openstack-dev/pbr
+        - openstack/pbr
       tags:
         - stable:follows-policy
     sphinx-feature-classification:
@@ -3146,14 +3146,14 @@ Quality Assurance:
   deliverables:
     bashate:
       repos:
-        - openstack-dev/bashate
+        - openstack/bashate
     coverage2sql:
       release-management: none
       repos:
         - openstack/coverage2sql
     devstack:
       repos:
-        - openstack-dev/devstack
+        - openstack/devstack
     devstack-plugin-ceph:
       release-management: none
       repos:
@@ -3161,23 +3161,23 @@ Quality Assurance:
     devstack-plugin-cookiecutter:
       release-management: none
       repos:
-        - openstack-dev/devstack-plugin-cookiecutter
+        - openstack/devstack-plugin-cookiecutter
     devstack-tools:
       repos:
         - openstack/devstack-tools
     devstack-vagrant:
       release-management: none
       repos:
-        - openstack-dev/devstack-vagrant
+        - openstack/devstack-vagrant
     eslint-config-openstack:
       repos:
         - openstack/eslint-config-openstack
     grenade:
       repos:
-        - openstack-dev/grenade
+        - openstack/grenade
     hacking:
       repos:
-        - openstack-dev/hacking
+        - openstack/hacking
     karma-subunit-reporter:
       repos:
         - openstack/karma-subunit-reporter
@@ -3271,7 +3271,7 @@ Release Management:
     specs-cookiecutter:
       release-management: none
       repos:
-        - openstack-dev/specs-cookiecutter
+        - openstack/specs-cookiecutter
 
 requirements:
   ptl:
@@ -3819,7 +3819,7 @@ tripleo:
     tripleo-ci:
       release-management: none
       repos:
-        - openstack-infra/tripleo-ci
+        - openstack/tripleo-ci
     tripleo-common:
       repos:
         - openstack/tripleo-common

@@ -264,67 +264,67 @@ Infrastructure:
     puppet-apps_site:
       retired-on: 2017-12-10
       repos:
-        - openstack-infra/puppet-apps_site
+        - opendev/puppet-apps_site
     activity-board:
       retired-on: 2018-08-29
       repos:
-        - openstack-infra/activity-board
+        - openstack/activity-board
     err2d2:
       retired-on: 2018-08-29
       repos:
-        - openstack-infra/err2d2
+        - x/err2d2
     featuretracker:
       retired-on: 2018-08-29
       repos:
-        - openstack-infra/featuretracker
+        - x/featuretracker
     js-afs-blob-store:
       retired-on: 2018-08-29
       repos:
-        - openstack-infra/js-afs-blob-store
+        - x/js-afs-blob-store
     js-generator-openstack:
       retired-on: 2018-08-29
       repos:
-        - openstack-infra/js-generator-openstack
+        - x/js-generator-openstack
     js-openstack-registry-hooks:
       retired-on: 2018-08-29
       repos:
-        - openstack-infra/js-openstack-registry-hooks
+        - x/js-openstack-registry-hooks
     puppet-featuretracker:
       retired-on: 2018-08-29
       repos:
-        - openstack-infra/puppet-featuretracker
+        - opendev/puppet-featuretracker
     puppet-releasestatus:
       retired-on: 2018-08-29
       repos:
-        - openstack-infra/puppet-releasestatus
+        - opendev/puppet-releasestatus
     puppet-stackalytics:
       retired-on: 2019-01-18
       repos:
-        - openstack-infra/puppet-stackalytics
+        - opendev/puppet-stackalytics
     puppet-vinz:
       retired-on: 2018-08-29
       repos:
-        - openstack-infra/puppet-vinz
+        - opendev/puppet-vinz
     pypi-mirror:
       retired-on: 2018-08-29
       repos:
-        - openstack-infra/pypi-mirror
+        - opendev/pypi-mirror
     releasestatus:
       retired-on: 2018-08-29
       repos:
-        - openstack-infra/releasestatus
+        - openstack/releasestatus
     trystack-site:
       retired-on: 2018-08-29
       repos:
-        - openstack-infra/trystack-site
+        - x/trystack-site
     vinz:
       retired-on: 2018-08-29
       repos:
-        - openstack-infra/vinz
+        - x/vinz
     zuul-packaging:
       retired-on: 2018-08-29
       repos:
-        - openstack-infra/zuul-packaging
+        - openstack/zuul-packaging
 
 ironic:
   irc-channel: openstack-ironic
@@ -1574,7 +1574,7 @@ Release Management:
     release-tools:
       retired-on: 2018-06-29
       repos:
-        - openstack-infra/release-tools
+        - openstack/release-tools
 
 Security:
   ptl:
