@@ -166,42 +166,66 @@ rewarding chance to learn and help others, but most of all it's fun!
 3. Designate Contributors
 =========================
 
-`Designate`_ is a service that manages DNS Zones and Recordsets in an OpenStack
-way. We support multiple DNS Servers, and DNS Service Providers. DNS is a vital
-service for any network or web based application. DNS is a core part of
-directing users and applications to a service - it allows the entire underlying
-infrastructure to be replaced, even moved across regions or clouds, while
-presenting a consistent endpoint. DNS should be managed along side the servers,
-load balancers and other equipment in an OpenStack cloud and the integration
-with Neutron allows for DNS entries to be created when something is connected
-to a network. For more complicated examples, Heat can be used to manage the DNS
-zones and records, allowing for entire zones to be created, updated and deleted
-along side the resources that they point at. Once Designate is in every cloud,
-you can bring a heat template from cloud to cloud, and have a user ready
-deployment with a simple ``openstack stack create`` command.
+Description
+-----------
 
-Designate has had issues finding contributors to replace previous contributors
-who have moved on from the project mainly due to major restructuring in the
-organisations that sponsored development.
+`Designate`_ is a service that manages DNS Zones and Recordsets. It supports
+multiple DNS Servers, and DNS Service Providers, making it vital for any
+network or web-based application.
 
 They need contributors to help find and fix bugs, develop new features, and
-help maintain the quality of the project. Designate is quite stable, with any
-new features requiring long term planning, design and phased implementation.
+help maintain the quality of the project, including cross-project initiatives.
+Designate is quite stable, with any new features requiring long term planning,
+design, and phased implementation.
 
-This makes Designate a good project for everyone, from  a person starting out
-in the community, who wants to work on an interesting and important section of
-infrastructure, to very senior developers who want new, interesting problems
-to tackle. Contributors will get to work on a project that will be a central
-part of any OpenStack deployment, and work on a project that needs to scale
-from a small single node install to a system controlling DNS servers worldwide.
+Designate welcomes everyone, from someone starting in the community to senior
+contributors who want new, interesting problems to tackle. Contributors will
+get to work on a project that will be a central part of any OpenStack
+deployment and work on a project that needs to scale from a small single node
+install to a system controlling DNS servers worldwide.
 
-If you are interested, please join the IRC channel (#openstack-dns) or contact
-the Designate PTL (Graham Hayes - mugsie on IRC), the TC sponsor
-(Sean McGinnis - smcginnis), or email the `openstack dev`_ mailing list with
-the tag `[designate]`.
+Value
+-----
+
+Flexibility
+~~~~~~~~~~~
+
+DNS is fundamental in gracefully directing users and applications to services.
+It allows the flexibility to replace underlying hardware while presenting
+consumers with a consistent endpoint. Designate provides this flexibility to
+operators and end users.
+
+Self-Service
+~~~~~~~~~~~~
+
+Self-serviceability is a core tenet of OpenStack `technical vision`_. Designate
+helps OpenStack clouds adhere to that principle by exposing DNS functionality
+directly to end-users.
+
+Consistency
+~~~~~~~~~~~
+
+The OpenStack community continues to evolve, and this evolution requires large
+cross-project initiatives. Furthermore, users and operators expect consistency
+across the OpenStack platform. Examples from recent history include
+OpenStack-wide support for `Python 3`_ and easing operator pain by moving
+`policy configuration`_ into code. Ensuring Designate stays up-to-date with
+these initiatives is imperative in reducing operational costs, complexity, and
+user frustration.
+
+Contact
+-------
+
+If you are interested, please join #openstack-dns on Freenode or contact the
+Designate PTL (Graham Hayes - mugsie), the Technical Committee sponsor (Sean
+McGinnis - smcginnis). You may also email the openstack discuss mailing list
+with the tag [designate] in the subject.
 
 .. _`Designate`: https://governance.openstack.org/tc/reference/projects/designate.html
-.. _`openstack dev`: http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-dev
+.. _`technical vision`: https://governance.openstack.org/tc/reference/technical-vision.html
+.. _`Python 3`: https://governance.openstack.org/tc/goals/stein/python3-first.html
+.. _`policy configuration`: https://governance.openstack.org/tc/goals/queens/policy-in-code.html
+.. _`list`: http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss
 
 4. Glance Contributors
 ======================
