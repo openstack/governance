@@ -6,7 +6,7 @@ Introduction
 ------------
 
 Since the inception of the `cross-project specification repository
-<http://git.openstack.org/cgit/openstack/openstack-specs>`_ the Technical
+<https://opendev.org/openstack/openstack-specs>`_ the Technical
 Committee has had privileges in OpenStack's gerrit review system to +2
 a specification, as oppose to a +1 which any individual member of the community
 can give today.

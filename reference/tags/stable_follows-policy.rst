@@ -75,4 +75,4 @@ repeatedly violated the `Stable branch policy`_.
 
 
 .. _Stable branch policy: https://docs.openstack.org/project-team-guide/stable-branches.html
-.. _Stable Branch Maintenance team: https://review.openstack.org/#/admin/groups/530,members
+.. _Stable Branch Maintenance team: https://review.opendev.org/#/admin/groups/530,members

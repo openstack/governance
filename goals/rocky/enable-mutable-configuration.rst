@@ -54,7 +54,7 @@ References
 
 .. _Original Discussion: https://etherpad.openstack.org/p/mitaka-cross-project-dynamic-config-services
 .. _Enabling your project for mutable config: https://docs.openstack.org/oslo.config/latest/reference/mutable.html
-.. _Example of enabling projects: https://review.openstack.org/#/q/topic:bp/mutable-config+(status:open+OR+status:merged)
+.. _Example of enabling projects: https://review.opendev.org/#/q/topic:bp/mutable-config+(status:open+OR+status:merged)
 
 Current State / Anticipated Impact
 ==================================

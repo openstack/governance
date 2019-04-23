@@ -95,5 +95,5 @@ on OpenStack APIs.
    the application. Obviously the exact technical solutions will be determined
    through the usual open design process.
 
-.. _eliminate write access: https://review.openstack.org/#q,Ib4cc7141d900881a7dc20842eb5d68eb90521fdd,n,z
-.. _provision, rotate, and deliver credentials: https://review.openstack.org/#q,I86a994ca94e2d6a2a4e3753ffab107afc38d3dec,n,z
+.. _eliminate write access: https://review.opendev.org/#q,Ib4cc7141d900881a7dc20842eb5d68eb90521fdd,n,z
+.. _provision, rotate, and deliver credentials: https://review.opendev.org/#q,I86a994ca94e2d6a2a4e3753ffab107afc38d3dec,n,z

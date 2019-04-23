@@ -60,7 +60,7 @@ def decode_json(raw):
 
 def query_gerrit(offset=0):
     """Query the Gerrit REST API"""
-    url = 'https://review.openstack.org/changes/'
+    url = 'https://review.opendev.org/changes/'
     LOG.debug('fetching %s', url)
     raw = requests.get(
         url,
@@ -185,7 +185,7 @@ def get_one_status(change, delegates, tc_members):
     topic = change.get('topic', 'unknown topic')
     subject = change.get('subject')
     owner = change.get('owner', {}).get('name')
-    url = 'https://review.openstack.org/{}\n'.format(change['_number'])
+    url = 'https://review.opendev.org/{}\n'.format(change['_number'])
 
     latest = find_latest_revision(change)
     latest_created = to_datetime(latest['created'])

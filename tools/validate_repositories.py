@@ -31,14 +31,14 @@ parser.add_argument(
 )
 parser.add_argument(
     '-g', '--gerrit',
-    default=('http://git.openstack.org/cgit/openstack-infra/project-config/'
-             'plain/gerrit/projects.yaml'),
+    default=('http://opendev.org/openstack-infra/project-config/'
+             'raw/branch/master/gerrit/projects.yaml'),
     help=('URL for gerrit project list, ignored if --project-config is set or '
           'when running in Zuul'),
 )
 parser.add_argument(
     '-c', '--project-config',
-    default=('/home/zuul/src/git.openstack.org/openstack-infra/project-config'),
+    default=('/home/zuul/src/opendev.org/openstack-infra/project-config'),
     help='Local path of project-config',
 )
 args = parser.parse_args()

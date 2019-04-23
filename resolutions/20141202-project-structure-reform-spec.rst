@@ -286,13 +286,13 @@ References
 * Strawman governance change proposals:
 
   * Doug's strawman v1:
-    https://review.openstack.org/#/q/status:open+topic:big-tent,n,z
+    https://review.opendev.org/#/q/status:open+topic:big-tent,n,z
 
   * Doug's strawman v2:
-    https://review.openstack.org/#/c/131422/
+    https://review.opendev.org/#/c/131422/
 
   * Jay's strawman:
-    https://review.openstack.org/#/c/126582/
+    https://review.opendev.org/#/c/126582/
 
 * Public notes from discussions between TC members:
   https://etherpad.openstack.org/p/project-restructure-hangouts

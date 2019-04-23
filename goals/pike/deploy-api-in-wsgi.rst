@@ -119,8 +119,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/476996/
-* https://review.openstack.org/#/c/476995/
+* https://review.opendev.org/#/c/476996/
+* https://review.opendev.org/#/c/476995/
 
 Chef OpenStack
 --------------
@@ -141,12 +141,12 @@ Planning Artifacts:
 
 DevStack change still needed to properly run cinder-api under Apache:
 
-https://review.openstack.org/#/c/441266/
+https://review.opendev.org/#/c/441266/
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/207020/
-* https://review.openstack.org/#/c/441266/
+* https://review.opendev.org/#/c/207020/
+* https://review.opendev.org/#/c/441266/
 
 cloudkitty
 ----------
@@ -155,7 +155,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-https://review.openstack.org/#/c/366043/
+https://review.opendev.org/#/c/366043/
 
 Community App Catalog
 ---------------------
@@ -220,7 +220,7 @@ Freezer supports two ways of running dsvm gate job, apache2 (with mod_wsgi) or
 apache2 (with mod_proxy and uwsgi). The default way for running devstack is
 apache2 with mod_proxy and uwsgi.
 
-https://review.openstack.org/#/c/471080/
+https://review.opendev.org/#/c/471080/
 
 
 fuel
@@ -252,9 +252,9 @@ Completion Artifacts:
    .. _1742813: https://bugs.launchpad.net/glance/+bug/1742813
 
 * Glance supports running as a wsgi app with this branch:
-  https://review.openstack.org/#/q/status:merged+project:openstack/glance+branch:master+topic:goal-deploy-api-in-wsgi
+  https://review.opendev.org/#/q/status:merged+project:openstack/glance+branch:master+topic:goal-deploy-api-in-wsgi
 * Devstack is now deploying glance as a wsgi app under uwsgi with apache with:
-  https://review.openstack.org/459451
+  https://review.opendev.org/459451
 
 heat
 ----
@@ -266,7 +266,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `heat <http://git.openstack.org/cgit/openstack/heat/commit/?id=6ef5fa9adc8886ed339132b5e5e27cee4000f762>`_
+* `heat <https://opendev.org/openstack/heat/commit/6ef5fa9adc8886ed339132b5e5e27cee4000f762>`_
 
 horizon
 -------
@@ -315,9 +315,9 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/453705/
-* https://review.openstack.org/455734/
-* https://review.openstack.org/467536/
+* https://review.opendev.org/453705/
+* https://review.opendev.org/455734/
+* https://review.opendev.org/467536/
 
 keystone
 --------
@@ -329,7 +329,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* http://git.openstack.org/cgit/openstack-dev/devstack/commit/?id=a00e5f8810b6ca3b0b5d63cc228125e19bc91955
+* https://opendev.org/openstack/devstack/commit/a00e5f8810b6ca3b0b5d63cc228125e19bc91955
 
 kolla
 -----
@@ -366,8 +366,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/448190/
-* https://review.openstack.org/#/c/631338/
+* https://review.opendev.org/#/c/448190/
+* https://review.opendev.org/#/c/631338/
 
 mistral
 -------
@@ -385,10 +385,10 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/439577
-* https://review.openstack.org/436890
-* https://review.openstack.org/479447
-* https://review.openstack.org/560888
+* https://review.opendev.org/439577
+* https://review.opendev.org/436890
+* https://review.opendev.org/479447
+* https://review.opendev.org/560888
 
 murano
 ------
@@ -399,8 +399,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/442327/
-* https://review.openstack.org/#/c/442936/
+* https://review.opendev.org/#/c/442327/
+* https://review.opendev.org/#/c/442936/
 
 neutron
 -------
@@ -411,8 +411,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* Expose neutron app as a wsgi script: https://review.openstack.org/#/c/409351/
-* Enable neutron wsgi in devstack: https://review.openstack.org/#/c/439191/
+* Expose neutron app as a wsgi script: https://review.opendev.org/#/c/409351/
+* Enable neutron wsgi in devstack: https://review.opendev.org/#/c/439191/
 
 nova
 ----
@@ -428,7 +428,7 @@ deploy it under uswgi in devstack for testing.
 
 Completion Artifacts:
 
-* Enable nova wsgi in devstack: https://review.openstack.org/#/c/457715/
+* Enable nova wsgi in devstack: https://review.opendev.org/#/c/457715/
 
 octavia
 -------
@@ -437,12 +437,12 @@ Planning Artifacts:
 
 The octavia API is already implemented as a wsgi application, we just need to
 setup the web server integration.  This is work in progress here:
-https://review.openstack.org/440934
+https://review.opendev.org/440934
 
 Completion Artifacts:
 
-* https://review.openstack.org/440934
-* https://review.openstack.org/478637
+* https://review.opendev.org/440934
+* https://review.opendev.org/478637
 
 OpenStack Charms
 ----------------
@@ -586,7 +586,7 @@ Planning Artifacts:
 * Launchpad bug: https://bugs.launchpad.net/sahara/+bug/1673198
 
 Completion Artifacts:
- * Enable wsgi jobs: https://review.openstack.org/#/c/454083/
+ * Enable wsgi jobs: https://review.opendev.org/#/c/454083/
 
 searchlight
 -----------
@@ -598,7 +598,7 @@ Planning Artifacts:
 Completion Artifacts:
 
 * Deploy in devstack under  wsgi (reworking to move away from mod_wsgi):
-  https://review.openstack.org/#/c/456627/
+  https://review.opendev.org/#/c/456627/
 
 Security
 --------
@@ -635,8 +635,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* Add wsgi script file: https://review.openstack.org/#/c/448400/
-* Enable wsgi on devstack jobs: https://review.openstack.org/#/c/448410/
+* Add wsgi script file: https://review.opendev.org/#/c/448400/
+* Enable wsgi on devstack jobs: https://review.opendev.org/#/c/448410/
 
 Stable branch maintenance
 -------------------------
@@ -657,11 +657,11 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* Support tests for Apache (swift): https://review.openstack.org/#/c/23585/
+* Support tests for Apache (swift): https://review.opendev.org/#/c/23585/
 * Add example Apache config files (swift):
-  https://review.openstack.org/#/c/33169/
+  https://review.opendev.org/#/c/33169/
 * enable apache2 server as front end for swift (devstack):
-  https://review.openstack.org/#/c/33946/
+  https://review.opendev.org/#/c/33946/
 
 
 tacker
@@ -676,11 +676,11 @@ Telemetry
 
 Planning Artifacts:
 
-* panko: https://review.openstack.org/#/c/467796/
+* panko: https://review.opendev.org/#/c/467796/
 
 Completion Artifacts:
 
-* aodh: https://review.openstack.org/#/c/292245/
+* aodh: https://review.opendev.org/#/c/292245/
 * ceilometer: api is deprecated
 * gnocchi: out of openstack but already has uwsgi
 
@@ -693,7 +693,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* Tricircle Admin API: https://review.openstack.org/#/c/440175/
+* Tricircle Admin API: https://review.opendev.org/#/c/440175/
 
 tripleo
 -------
@@ -731,7 +731,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/455477
+* https://review.opendev.org/455477
 
 vitrage
 -------
@@ -742,7 +742,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/478518/
+* https://review.opendev.org/#/c/478518/
 
 watcher
 -------
@@ -752,7 +752,7 @@ Planning Artifacts:
 Completion Artifacts:
 
 Watcher API may now works with mod-wsgi.
-Patchset https://review.openstack.org/#/c/450740/ provided the following
+Patchset https://review.opendev.org/#/c/450740/ provided the following
 changes:
 
 * wsgi app script files, to run watcher-api under Apache HTTPd.
@@ -782,5 +782,5 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* Add wsgi script file: https://review.openstack.org/#/c/437190/
-* Enable wsgi on devstack jobs: https://review.openstack.org/#/c/438774/
+* Add wsgi script file: https://review.opendev.org/#/c/437190/
+* Enable wsgi on devstack jobs: https://review.opendev.org/#/c/438774/

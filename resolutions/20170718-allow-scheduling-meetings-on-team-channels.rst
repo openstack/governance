@@ -57,10 +57,10 @@ rescheduling existing meetings. Project teams are free to keep their meetings
 where they are.
 
 It is also worth noting that the requirement on meetings has been `dropped
-<https://review.openstack.org/#/c/462077/>`_. This change not only removed the
+<https://review.opendev.org/#/c/462077/>`_. This change not only removed the
 need for teams to hold meetings but encouraged other forms of synchronous
 communications like office-hours, which the Technical Committee is
-`experimenting with already <https://review.openstack.org/#/c/462077/>`_.
+`experimenting with already <https://review.opendev.org/#/c/462077/>`_.
 
 Considering the several discussions there have been, the results of the latest
 discussion, the latest changes around meetings and community interactions, it

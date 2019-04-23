@@ -272,7 +272,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* http://git.openstack.org/cgit/openstack/cloudkitty/tree/setup.cfg#n19
+* https://opendev.org/openstack/cloudkitty/src/branch/master/setup.cfg#L19
 
 Community App Catalog
 ---------------------
@@ -291,8 +291,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/525349/
-* https://review.openstack.org/#/c/525423/
+* https://review.opendev.org/#/c/525349/
+* https://review.opendev.org/#/c/525423/
 
 designate
 ---------
@@ -333,10 +333,10 @@ Planning Artifacts:
 
 * All freezer unit tests are passing with py35 and gating on different freezer
   components.
-* https://review.openstack.org/#/c/466807/
-* https://review.openstack.org/#/c/466811/
-* https://review.openstack.org/#/c/466813/
-* https://review.openstack.org/#/c/466816/
+* https://review.opendev.org/#/c/466807/
+* https://review.opendev.org/#/c/466811/
+* https://review.opendev.org/#/c/466813/
+* https://review.opendev.org/#/c/466816/
 
 Completion Artifacts:
 
@@ -376,7 +376,7 @@ Completion Artifacts:
     run under py35 and will run them as their own non-voting gate job
     named 'glance-eventlet-ssl-handshake-broken-py35' so that it's obvious
     that this issue exists (and, more optimistically, we can easily detect
-    when it's fixed).  (See https://review.openstack.org/#/c/571040/)
+    when it's fixed).  (See https://review.opendev.org/#/c/571040/)
   - There is a workaround, namely, use something like HAProxy to do SSL
     termination before calls are forwarded to Glance.
 
@@ -392,9 +392,9 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `heat <http://git.openstack.org/cgit/openstack/heat/tree/setup.cfg#n19>`_
-* `python-heatclient <http://git.openstack.org/cgit/openstack/python-heatclient/tree/setup.cfg#n21>`_
-* `heat-translator <http://git.openstack.org/cgit/openstack/heat-translator/tree/setup.cfg#n20>`_
+* `heat <https://opendev.org/openstack/heat/src/branch/master/setup.cfg#n19>`_
+* `python-heatclient <https://opendev.org/openstack/python-heatclient/src/branch/master/setup.cfg#n21>`_
+* `heat-translator <https://opendev.org/openstack/heat-translator/src/branch/master/setup.cfg#L20>`_
 
 horizon
 -------
@@ -436,13 +436,13 @@ Completion Artifacts:
 
 * ironic: DONE
 
-  Patch making the CI job voting: https://review.openstack.org/#/c/531398/
+  Patch making the CI job voting: https://review.opendev.org/#/c/531398/
 
 * ironic-python-agent: TODO
 
 * ironic-inspector: DONE
 
-  Patch making the CI job voting: https://review.openstack.org/#/c/531400/
+  Patch making the CI job voting: https://review.opendev.org/#/c/531400/
 
 karbor
 ------
@@ -452,10 +452,10 @@ Planning Artifacts:
 * https://bugs.launchpad.net/karbor/+bug/1681622
 
 Completion Artifacts:
-* `karbor classifier <https://git.openstack.org/cgit/openstack/karbor/tree/setup.cfg#n19>`_
-* `karbor-dashboard classifier <https://git.openstack.org/cgit/openstack/karbor-dashboard/tree/setup.cfg#n19>`_
-* `python-karborclient classifier <https://git.openstack.org/cgit/openstack/python-karborclient/tree/setup.cfg#n19>`_
-* `python 3 jobs <https://review.openstack.org/302072/>`_
+* `karbor classifier <https://opendev.org/openstack/karbor/src/branch/master/setup.cfg#L19>`_
+* `karbor-dashboard classifier <https://opendev.org/openstack/karbor-dashboard/src/branch/master/setup.cfg#L19>`_
+* `python-karborclient classifier <https://opendev.org/openstack/python-karborclient/src/branch/master/setup.cfg#L19>`_
+* `python 3 jobs <https://review.opendev.org/302072/>`_
 
 keystone
 --------
@@ -467,10 +467,10 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `keystone <http://git.openstack.org/cgit/openstack/keystone/tree/setup.cfg#n19>`_
-* `keystonemiddleware <http://git.openstack.org/cgit/openstack/keystonemiddleware/tree/setup.cfg#n19>`_
-* `python-keystoneclient <http://git.openstack.org/cgit/openstack/python-keystoneclient/tree/setup.cfg#n19>`_
-* `keystoneauth <http://git.openstack.org/cgit/openstack/keystoneauth/tree/setup.cfg#n19>`_
+* `keystone <https://opendev.org/openstack/keystone/src/branch/master/setup.cfg#L19>`_
+* `keystonemiddleware <https://opendev.org/openstack/keystonemiddleware/src/branch/master/setup.cfg#L19>`_
+* `python-keystoneclient <https://opendev.org/openstack/python-keystoneclient/src/branch/master/setup.cfg#L19>`_
+* `keystoneauth <https://opendev.org/openstack/keystoneauth/src/branch/master/setup.cfg#L19>`_
 
 kolla
 -----
@@ -481,8 +481,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/414813/
-* https://review.openstack.org/#/c/341068/
+* https://review.opendev.org/#/c/414813/
+* https://review.opendev.org/#/c/341068/
 
 kuryr
 -----
@@ -495,7 +495,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `kuryr <http://git.openstack.org/cgit/openstack/kuryr/tree/setup.cfg#n19>`_
+* `kuryr <https://opendev.org/openstack/kuryr/src/branch/master/setup.cfg#L19>`_
 
 magnum
 ------
@@ -527,8 +527,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/480160
-* https://review.openstack.org/479165
+* https://review.opendev.org/480160
+* https://review.opendev.org/479165
 
 murano
 ------
@@ -541,10 +541,10 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `murano <http://git.openstack.org/cgit/openstack/murano/tree/setup.cfg#n36>`_
-* `murano-dashboard <http://git.openstack.org/cgit/openstack/murano-dashboard/tree/setup.cfg#n41>`_
-* `murano-agent <http://git.openstack.org/cgit/openstack/murano-agent/tree/setup.cfg#n21>`_
-* `python-muranoclient <http://git.openstack.org/cgit/openstack/python-muranoclient/tree/setup.cfg#n23>`_
+* `murano <https://opendev.org/openstack/murano/src/branch/master/setup.cfg#L36>`_
+* `murano-dashboard <https://opendev.org/openstack/murano-dashboard/src/branch/master/setup.cfg#L41>`_
+* `murano-agent <https://opendev.org/openstack/murano-agent/src/branch/master/setup.cfg#L21>`_
+* `python-muranoclient <https://opendev.org/openstack/python-muranoclient/src/branch/master/setup.cfg#L23>`_
 
 neutron
 -------
@@ -565,7 +565,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/436540/
+* https://review.opendev.org/#/c/436540/
 
 octavia
 -------
@@ -575,15 +575,15 @@ Planning Artifacts:
 All python 3.5 unit, functional, and tempest tests are in place.
 Unit and functional tests are voting, scenario tests are blocked pending
 diskimage-builder patches for python 3.5. Specifically this patch:
-https://review.openstack.org/#/c/449721/
+https://review.opendev.org/#/c/449721/
 
 Completion Artifacts:
 
-* setup.cfg: https://review.openstack.org/#/c/341070/
-* Unit tests are voting: https://review.openstack.org/#/c/337946
-* Functional tests voting: https://review.openstack.org/446148
-* Scenario tests voting: https://review.openstack.org/#/c/458311/
-                         https://review.openstack.org/#/c/477689/
+* setup.cfg: https://review.opendev.org/#/c/341070/
+* Unit tests are voting: https://review.opendev.org/#/c/337946
+* Functional tests voting: https://review.opendev.org/446148
+* Scenario tests voting: https://review.opendev.org/#/c/458311/
+                         https://review.opendev.org/#/c/477689/
 
 OpenStack Charms
 ----------------
@@ -619,11 +619,11 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `cliff <http://git.openstack.org/cgit/openstack/cliff/tree/setup.cfg#n15>`_
-* `openstackclient <http://git.openstack.org/cgit/openstack/openstackclient/tree/setup.cfg#n20>`_
-* `os-client-config <http://git.openstack.org/cgit/openstack/os-client-config/tree/setup.cfg#n19>`_
-* `osc-lib <http://git.openstack.org/cgit/openstack/osc-lib/tree/setup.cfg#n19>`_
-* `python-openstackclient <http://git.openstack.org/cgit/openstack/python-openstackclient/tree/setup.cfg#n19>`_
+* `cliff <https://opendev.org/openstack/cliff/src/branch/master/setup.cfg#L15>`_
+* `openstackclient <https://opendev.org/openstack/openstackclient/src/branch/master/setup.cfg#L20>`_
+* `os-client-config <https://opendev.org/openstack/os-client-config/src/branch/master/setup.cfg#L19>`_
+* `osc-lib <https://opendev.org/openstack/osc-lib/src/branch/master/setup.cfg#L19>`_
+* `python-openstackclient <https://opendev.org/openstack/python-openstackclient/src/branch/master/setup.cfg#L19>`_
 
 oslo
 ----
@@ -668,7 +668,7 @@ https://etherpad.openstack.org/p/pike-qa-goals-py35
 
 Completion Artifacts:
 
-https://review.openstack.org/#/q/branch:master+topic:qa_py35_ack
+https://review.opendev.org/#/q/branch:master+topic:qa_py35_ack
 
 rally
 -----
@@ -693,8 +693,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* Port the releases repository jobs to use python 3.5: https://review.openstack.org/#/q/project:openstack/releases+topic:goal-python35
-* Switch the releases repo to gate on python 3.5: https://review.openstack.org/#/c/441459/
+* Port the releases repository jobs to use python 3.5: https://review.opendev.org/#/q/project:openstack/releases+topic:goal-python35
+* Switch the releases repo to gate on python 3.5: https://review.opendev.org/#/c/441459/
 
 requirements
 ------------
@@ -720,7 +720,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* http://git.openstack.org/cgit/openstack/searchlight/tree/setup.cfg#n19
+* https://opendev.org/openstack/searchlight/src/branch/master/setup.cfg#L19
 
 Security
 --------
@@ -746,9 +746,9 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `solum <http://git.openstack.org/cgit/openstack/solum/tree/setup.cfg#n20>`_
-* `python-solumclient <http://git.openstack.org/cgit/openstack/python-solumclient/tree/setup.cfg#n19>`_
-* `solum-dashboard <http://git.openstack.org/cgit/openstack/solum-dashboard/tree/setup.cfg#n13>`_
+* `solum <https://opendev.org/openstack/solum/src/branch/master/setup.cfg#L20>`_
+* `python-solumclient <https://opendev.org/openstack/python-solumclient/src/branch/master/setup.cfg#L19>`_
+* `solum-dashboard <https://opendev.org/openstack/solum-dashboard/src/branch/master/setup.cfg#L13>`_
 
 Stable branch maintenance
 -------------------------
@@ -792,8 +792,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* Support Python35 in Tricircle: https://review.openstack.org/#/c/417553/
-* Add Python35 job for Tricircle: https://review.openstack.org/#/c/418655/
+* Support Python35 in Tricircle: https://review.opendev.org/#/c/417553/
+* Add Python35 job for Tricircle: https://review.opendev.org/#/c/418655/
 
 tripleo
 -------
@@ -948,8 +948,8 @@ project.
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/454699/
-* https://review.openstack.org/#/c/454697/
+* https://review.opendev.org/#/c/454699/
+* https://review.opendev.org/#/c/454697/
 
 vitrage
 -------
@@ -960,9 +960,9 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/491488
-* https://review.openstack.org/493758
-* https://review.openstack.org/526908
+* https://review.opendev.org/491488
+* https://review.opendev.org/493758
+* https://review.opendev.org/526908
 
 watcher
 -------
@@ -999,8 +999,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* Classifier: https://git.openstack.org/cgit/openstack/zun/tree/setup.cfg
+* Classifier: https://opendev.org/openstack/zun/src/branch/master/setup.cfg
 * Unit tests: All unit tests are passed in python 3.5. There is a voting check and gate job setup called 'gate-zun-python35'.
 * Functional tests: Zun doesn't have functional tests.
-* Integration tests: All integration tests are passed in python 3.5. There is a voting check and gate job setup: https://review.openstack.org/#/c/491623/
+* Integration tests: All integration tests are passed in python 3.5. There is a voting check and gate job setup: https://review.opendev.org/#/c/491623/
 

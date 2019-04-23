@@ -2,7 +2,7 @@
  openstack-governance
 ======================
 
-The repository http://git.openstack.org/cgit/openstack/governance/
+The repository https://opendev.org/openstack/governance/
 contains OpenStack Technical Committee reference documents and tracks
 official resolutions voted by the committee. It also contains a
 library for accessing some of the machine-readable data in the

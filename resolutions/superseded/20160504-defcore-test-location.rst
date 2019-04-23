@@ -68,5 +68,5 @@ teams should collaborate to ensure that those tests are identified and
 implemented in a suitable way.
 
 .. _QA, DefCore, and interoperability testing: https://etherpad.openstack.org/p/newton-qa-defcore-and-interoperability
-.. _Tempest repository: http://git.openstack.org/cgit/openstack/tempest
+.. _Tempest repository: https://opendev.org/openstack/tempest
 .. _scope of what they consider suitable for Tempest: https://wiki.openstack.org/wiki/QA/Tempest-test-removal#Tempest_Scope

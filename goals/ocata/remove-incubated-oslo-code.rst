@@ -258,7 +258,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/391707/
+* https://review.opendev.org/#/c/391707/
 
 I18n
 ----
@@ -280,12 +280,12 @@ Planning Artifacts:
   - https://storyboard.openstack.org/#!/story/2000776
 
 Completion Artifacts:
-  - https://review.openstack.org/394436
-  - https://review.openstack.org/394508
-  - https://review.openstack.org/394509
-  - https://review.openstack.org/394570
-  - https://review.openstack.org/394571
-  - https://review.openstack.org/395116
+  - https://review.opendev.org/394436
+  - https://review.opendev.org/394508
+  - https://review.opendev.org/394509
+  - https://review.opendev.org/394570
+  - https://review.opendev.org/394571
+  - https://review.opendev.org/395116
 
 OpenStack Charms
 ----------------
@@ -398,8 +398,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/392281
-* https://review.openstack.org/391715
+* https://review.opendev.org/392281
+* https://review.opendev.org/391715
 
 Security
 --------
@@ -433,7 +433,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-  https://review.openstack.org/#/c/391865/
+  https://review.opendev.org/#/c/391865/
 
 barbican
 --------
@@ -444,7 +444,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/390809/
+* https://review.opendev.org/#/c/390809/
 
 cinder
 ------
@@ -455,7 +455,7 @@ Completion Artifacts:
 
 cinder: NA
 os-brick: NA
-python-cinderclient: https://review.openstack.org/#/c/393610/
+python-cinderclient: https://review.opendev.org/#/c/393610/
 python-brick-cinderclient-ext: NA
 
 cloudkitty
@@ -465,7 +465,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 cloudkitty: NA
-python-cloudkittyclient: https://review.openstack.org/#/c/391885
+python-cloudkittyclient: https://review.opendev.org/#/c/391885
 
 congress
 --------
@@ -474,7 +474,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/396501/
+* https://review.opendev.org/#/c/396501/
 
 designate
 ---------
@@ -485,7 +485,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-`Designate Completion <https://review.openstack.org/#/c/391247/>`_
+`Designate Completion <https://review.opendev.org/#/c/391247/>`_
 
 dragonflow
 ----------
@@ -498,7 +498,7 @@ Planning Artifacts: None
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/385391/
+* https://review.opendev.org/#/c/385391/
 
 ec2-api
 -------
@@ -509,7 +509,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-`EC2-API Completion <https://review.openstack.org/#/c/297305/>`_
+`EC2-API Completion <https://review.opendev.org/#/c/297305/>`_
 
 freezer
 -------
@@ -540,9 +540,9 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/380452
+* https://review.opendev.org/380452
 
-* https://review.openstack.org/394780
+* https://review.opendev.org/394780
 
 heat
 ----
@@ -556,7 +556,7 @@ Completion Artifacts:
 Already removed from heat and heat-cfnclient.
 
 python-heatclient:
-https://review.openstack.org/#/q/project:openstack/python-heatclient+topic:goal-remove-incubated-oslo-code
+https://review.opendev.org/#/q/project:openstack/python-heatclient+topic:goal-remove-incubated-oslo-code
 
 horizon
 -------
@@ -588,7 +588,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-   `Karbor Client <https://review.openstack.org/#/c/378212/>`_
+   `Karbor Client <https://review.opendev.org/#/c/378212/>`_
 
 keystone
 --------
@@ -647,10 +647,10 @@ This work is already done.
 Completion Artifacts:
 
 python-mistralclient:
-https://review.openstack.org/#/c/393076/
-https://review.openstack.org/#/c/393084/
-https://review.openstack.org/#/c/395055/
-https://review.openstack.org/#/c/395082/
+https://review.opendev.org/#/c/393076/
+https://review.opendev.org/#/c/393084/
+https://review.opendev.org/#/c/395055/
+https://review.opendev.org/#/c/395082/
 
 monasca
 -------
@@ -664,9 +664,9 @@ None
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/395021/
-* https://review.openstack.org/#/c/395014/
-* https://review.openstack.org/#/c/395009/
+* https://review.opendev.org/#/c/395021/
+* https://review.opendev.org/#/c/395014/
+* https://review.opendev.org/#/c/395009/
 
 murano
 ------
@@ -675,7 +675,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/395039/
+* https://review.opendev.org/#/c/395039/
 
 neutron
 -------
@@ -700,7 +700,7 @@ None
 
 Completion Artifacts:
 
-`<https://review.openstack.org/#/c/287753/>`_
+`<https://review.opendev.org/#/c/287753/>`_
 
 octavia
 -------
@@ -716,7 +716,7 @@ None
 
 Completion Artifacts:
 
-https://review.openstack.org/#/c/393564/
+https://review.opendev.org/#/c/393564/
 
 oslo
 ----
@@ -736,8 +736,8 @@ Completion Artifacts:
 * http://lists.openstack.org/pipermail/openstack-dev/2016-June/097228.html (the
   closing/shutdown of the oslo-incubator, what's leftover is now just a set
   of tools for PTL or other community folks in oslo.tools)
-* https://review.openstack.org/#/c/323706/ and
-  https://review.openstack.org/#/c/320680/ (farewell reviews)
+* https://review.opendev.org/#/c/323706/ and
+  https://review.opendev.org/#/c/320680/ (farewell reviews)
 
 rally
 -----
@@ -748,7 +748,7 @@ None
 
 Completion Artifacts:
 
-`Rally Completion <https://review.openstack.org/#/c/152847/>`_
+`Rally Completion <https://review.opendev.org/#/c/152847/>`_
 
 sahara
 ------
@@ -757,7 +757,7 @@ Planning Artifacts: None
 
 Completion Artifacts:
 
-`Sahara Completion <https://review.openstack.org/#/c/351376/>`_
+`Sahara Completion <https://review.opendev.org/#/c/351376/>`_
 
 searchlight
 -----------
@@ -766,7 +766,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-`Searchlight Completion <https://review.openstack.org/#/c/396695/>`_
+`Searchlight Completion <https://review.opendev.org/#/c/396695/>`_
 
 senlin
 ------
@@ -794,13 +794,13 @@ None
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/391337/
-* https://review.openstack.org/#/c/388675/
-* https://review.openstack.org/#/c/388536/
-* https://review.openstack.org/#/c/365211/
-* https://review.openstack.org/#/c/365208/
-* https://review.openstack.org/#/c/365024/
-* https://review.openstack.org/#/c/389502/
+* https://review.opendev.org/#/c/391337/
+* https://review.opendev.org/#/c/388675/
+* https://review.opendev.org/#/c/388536/
+* https://review.opendev.org/#/c/365211/
+* https://review.opendev.org/#/c/365208/
+* https://review.opendev.org/#/c/365024/
+* https://review.opendev.org/#/c/389502/
 
 
 swift
@@ -845,7 +845,7 @@ tripleo
 
 Planning Artifacts: https://bugs.launchpad.net/tripleo/+bug/1636767
 
-Completion Artifacts: https://review.openstack.org/390808
+Completion Artifacts: https://review.opendev.org/390808
 
 trove
 -----
@@ -856,7 +856,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-`Trove Client Commit <https://review.openstack.org/#/c/396267/>`_
+`Trove Client Commit <https://review.opendev.org/#/c/396267/>`_
 
 vitrage
 -------
@@ -896,8 +896,8 @@ Planning Artifacts: None
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/398760/
-* https://review.openstack.org/#/c/398758/
+* https://review.opendev.org/#/c/398760/
+* https://review.opendev.org/#/c/398758/
 
 zaqar
 -----
@@ -909,7 +909,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-`Zaqar Client Commit <https://review.openstack.org/388638/>`_
+`Zaqar Client Commit <https://review.opendev.org/388638/>`_
 
 zun
 -----
