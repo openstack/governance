@@ -3991,6 +3991,9 @@ winstackers:
     networking-hyperv:
       repos:
         - openstack/networking-hyperv
+    compute-hyperv:
+      repos:
+        - x/compute-hyperv
 
 zaqar:
   ptl:
