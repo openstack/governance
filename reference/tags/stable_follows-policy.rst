@@ -58,6 +58,8 @@ Deliverables must follow the `Stable branch policy`_ in all currently active
 stable branches.
 
 
+.. _application-process:
+
 Tag application process
 =======================
 
@@ -73,6 +75,36 @@ The ``stable:follows-policy`` tag may be removed from deliverables at any
 time, when the Stable Branch Maintenance team considers that the deliverable
 repeatedly violated the `Stable branch policy`_.
 
+The ``stable:follows-policy`` tag is applicable to all currently active stable
+branches. The removing the tag will also be applicable for all currently active
+stable branches, meaning that projects that have removed the tag no longer
+needs to follow `Stable branch policy`_ for any of the active stable branches.
+
+Once the tag is removed, it can be re-obtained as per the
+:ref:`reobtaining-tag` process.
+
+
+.. _reobtaining-tag:
+
+Re-obtaining the Tag
+====================
+
+Re-obtaining the ``stable:follows-policy`` tag back is always possible and can
+be proposed with the agreement of `Stable Branch Maintenance team`_. Because
+this tag is applicable per repository not per branch, any project not having
+this tag can backports the unstable changes to any of the currently active
+stable branches.
+Re-obtaining the tag will follow the same process as obtaining tag from fresh,
+meaning that all active stable branches follow `Stable branch policy`_. If the
+branch that the tag was removed is still in active stable branches it means
+project is not following the `Stable branch policy`_ in all active stable
+branches.
+
+As summary, the project can be applicable to re-obtain the tag once the branch
+that the tag was removed from is EOL.
+
+The tag re-obtain application process is the same as described in
+:ref:`application-process`.
 
 .. _Stable branch policy: https://docs.openstack.org/project-team-guide/stable-branches.html
 .. _Stable Branch Maintenance team: https://review.openstack.org/#/admin/groups/530,members
