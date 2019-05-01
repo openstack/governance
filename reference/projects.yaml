@@ -533,10 +533,6 @@ horizon:
     xstatic-angular-smart-table:
       repos:
         - openstack/xstatic-angular-smart-table
-    xstatic-angular-ui-router:
-      release-management: deprecated
-      repos:
-        - openstack/xstatic-angular-ui-router
     xstatic-angular-uuid:
       repos:
         - openstack/xstatic-angular-uuid
@@ -607,10 +603,6 @@ horizon:
       release-management: deprecated
       repos:
         - openstack/xstatic-spin
-    xstatic-vis:
-      release-management: deprecated
-      repos:
-        - openstack/xstatic-vis
 
 I18n:
   ptl:
