@@ -297,52 +297,9 @@ designate:
         - openstack/python-designateclient
       tags:
         - stable:follows-policy
-
   liaisons:
     - mugsie
     - cloudnull
-
-Documentation:
-  ptl:
-    name: Alexandra Settle
-    irc: asettle
-    email: asettle@suse.com
-  irc-channel: openstack-doc
-  mission: >
-    The documentation team provides guidance, assistance, tooling, and style
-    guides enabling OpenStack project teams to produce consistent, accurate,
-    and high-quality documentation.
-  url: https://wiki.openstack.org/wiki/Documentation
-  deliverables:
-    constellations:
-      release-management: none
-      repos:
-        - openstack/constellations
-    openstack-manuals:
-      repos:
-        - openstack/openstack-manuals
-    training-labs:
-      repos:
-        - openstack/training-labs
-    training-guides:
-      release-management: none
-      repos:
-        - openstack/training-guides
-    training-images:
-      release-management: none
-      repos:
-        - openstack/upstream-institute-virtual-environment
-    contributor-guide:
-      release-management: none
-      repos:
-        - openstack/contributor-guide
-    api-site:
-      release-management: none
-      repos:
-        - openstack/api-site
-  liaisons:
-    - asettle
-    - evrardjp
 
 ec2-api:
   ptl:
