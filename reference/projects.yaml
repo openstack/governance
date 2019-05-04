@@ -290,18 +290,9 @@ Documentation:
       release-management: none
       repos:
         - openstack/constellations
-    openstack-doc-tools:
-      repos:
-        - openstack/openstack-doc-tools
     openstack-manuals:
       repos:
         - openstack/openstack-manuals
-    openstackdocstheme:
-      repos:
-        - openstack/openstackdocstheme
-    os-api-ref:
-      repos:
-        - openstack/os-api-ref
     training-labs:
       repos:
         - openstack/training-labs
@@ -313,9 +304,6 @@ Documentation:
       release-management: none
       repos:
         - openstack/upstream-institute-virtual-environment
-    whereto:
-      repos:
-        - openstack/whereto
     contributor-guide:
       release-management: none
       repos:
@@ -2680,6 +2668,15 @@ oslo:
         - openstack/mox3
       tags:
         - stable:follows-policy
+    openstack-doc-tools:
+      repos:
+        - openstack/openstack-doc-tools
+    openstackdocstheme:
+      repos:
+        - openstack/openstackdocstheme
+    os-api-ref:
+      repos:
+        - openstack/os-api-ref
     oslo-cookiecutter:
       release-management: none
       repos:
@@ -2824,6 +2821,9 @@ oslo:
         - openstack/tooz
       tags:
         - stable:follows-policy
+    whereto:
+      repos:
+        - openstack/whereto
 
 Packaging-rpm:
   ptl:
