@@ -172,6 +172,10 @@ Documentation:
       retired-on: 2017-01-09
       repos:
         - openstack/fairy-slipper
+    docs-specs:
+      retired-on: 2019-06-13
+      repos:
+        - openstack/docs-specs
     faafo:
       retired-on: 2017-07-19
       repos:

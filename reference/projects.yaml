@@ -290,10 +290,6 @@ Documentation:
       release-management: none
       repos:
         - openstack/constellations
-    docs-specs:
-      release-management: none
-      repos:
-        - openstack/docs-specs
     openstack-doc-tools:
       repos:
         - openstack/openstack-doc-tools
