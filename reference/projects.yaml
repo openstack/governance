@@ -3501,6 +3501,14 @@ swift:
   service: Object Storage service
   url: https://wiki.openstack.org/wiki/Swift
   deliverables:
+    liberasurecode:
+      release-management: none
+      repos:
+        - x/liberasurecode
+    pyeclib:
+      release-management: none
+      repos:
+        - x/pyeclib
     python-swiftclient:
       repos:
         - openstack/python-swiftclient
