@@ -13,7 +13,7 @@ Reference documents which need to be revised over time.
    projects/index
    popup-teams
    technical-vision
-   help-most-needed
+   upstream-investment-opportunities/index
    role-of-the-tc
    new-projects-requirements
    new-language-requirements

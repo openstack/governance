@@ -158,3 +158,17 @@ https://www.openstack.org/assets/reports/OpenStack-AnnualReport2017.pdf
 for one example report and
 https://etherpad.openstack.org/p/openstack-2018-annual-report for the
 working notes for the 2018 report.
+
+Upstream Investment Opportunities
+=================================
+
+https://governance.openstack.org/tc/reference/upstream-investment-opportunities/index.html
+
+Toward the end of each calendar year, invite sponsors of the current year's
+Upstream Investement Opportunities to repropose any relevant ones for the
+following year. Solicit new entries on the mailing list.
+
+At the beginning of the new year, switch the index to point at the directory
+for the new year. (If no business cases have been approved yet, seed it with a
+symlink to the template - this can be removed once there are entries in the
+list.)
