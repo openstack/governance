@@ -236,6 +236,9 @@ cyborg:
     python-cyborgclient:
       repos:
         - openstack/python-cyborgclient
+    cyborg-tempest-plugin:
+      repos:
+        - openstack/cyborg-tempest-plugin
 
 designate:
   ptl:
