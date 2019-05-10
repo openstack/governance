@@ -136,8 +136,7 @@ teams (see
 :doc:`/resolutions/20141128-elections-process-for-leaderless-programs`). An
 email must be sent to the ``openstack-discuss at lists.openstack.org`` mailing
 list announcing the change in leadership. A patch must also be submitted to the
-OpenStack `governance repository
-<http://git.openstack.org/cgit/openstack/governance>`_ updating the project's
+:repo:`openstack/governance` repository updating the project's
 PTL information in ``projects.yaml``, which must be approved by the TC in order
 for the appointed candidate to officially assume PTL responsibilities.
 

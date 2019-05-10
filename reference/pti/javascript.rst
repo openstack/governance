@@ -180,4 +180,4 @@ logic needed should go into reno.
 
 .. _NPM package scripts: https://docs.npmjs.com/misc/scripts
 .. _ESLint: http://eslint.org
-.. _eslint-config-openstack: http://git.openstack.org/cgit/openstack/eslint-config-openstack
+.. _eslint-config-openstack: https://www.npmjs.com/package/eslint-config-openstack
