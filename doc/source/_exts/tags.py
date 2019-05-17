@@ -62,8 +62,10 @@ class TaggedProjectsDirective(rst.Directive):
                     team_deliverables[team].append(deliverable)
 
             for team in sorted(team_deliverables, key=lambda x: x.lower()):
-                line = '- :ref:`project-%s` %s' % (
-                    team, ', '.join(team_deliverables[team]))
+                line = '- :ref:`project-%s`%s %s' % (
+                    team,
+                    ':' if team_deliverables[team] else '',
+                    ', '.join(team_deliverables[team]))
                 result.append(line, source_name)
 
         # Parse what we have into a new section.
