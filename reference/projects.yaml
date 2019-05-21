@@ -3642,27 +3642,6 @@ tripleo:
     ansible-role-container-registry:
       repos:
         - openstack/ansible-role-container-registry
-    ansible-role-k8s-cinder:
-      repos:
-        - openstack/ansible-role-k8s-cinder
-    ansible-role-k8s-cookiecutter:
-      repos:
-        - openstack/ansible-role-k8s-cookiecutter
-    ansible-role-k8s-glance:
-      repos:
-        - openstack/ansible-role-k8s-glance
-    ansible-role-k8s-keystone:
-      repos:
-        - openstack/ansible-role-k8s-keystone
-    ansible-role-k8s-mariadb:
-      repos:
-        - openstack/ansible-role-k8s-mariadb
-    ansible-role-k8s-rabbitmq:
-      repos:
-        - openstack/ansible-role-k8s-rabbitmq
-    ansible-role-k8s-tripleo:
-      repos:
-        - openstack/ansible-role-k8s-tripleo
     ansible-role-openstack-operations:
       repos:
         - openstack/ansible-role-openstack-operations
