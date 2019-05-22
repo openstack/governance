@@ -11,9 +11,9 @@ Project Naming Process
 ----------------------
 
 The Technical Committee reviews the incoming project proposals through the
-`openstack/governance <http://git.openstack.org/cgit/openstack/governance/>`_
-repository with an update to the ``doc/source/reference/projects.yaml`` file.
-TC members should review the patches with these guidelines.
+:repo:`openstack/governance` repository with an update to the
+``doc/source/reference/projects.yaml`` file. TC members should review
+the patches with these guidelines.
 
 Project Name Guidelines
 -----------------------
