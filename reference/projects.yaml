@@ -913,12 +913,6 @@ Infrastructure:
     grafyaml:
       repos:
         - opendev/grafyaml
-    groups:
-      repos:
-        - osf/groups
-    groups-static-pages:
-      repos:
-        - osf/groups-static-pages
     infra-manual:
       repos:
         - openstack/infra-manual
@@ -932,9 +926,6 @@ Infrastructure:
     jeepyb:
       repos:
         - opendev/jeepyb
-    jenkins-job-builder:
-      repos:
-        - jjb/jenkins-job-builder
     js-openstack-lib:
       repos:
         - openstack/js-openstack-lib
@@ -962,9 +953,6 @@ Infrastructure:
     nose-html-output:
       repos:
         - openstack/nose-html-output
-    odsreg:
-      repos:
-        - osf/odsreg
     openstack-nose:
       repos:
         - openstack/openstack-nose
@@ -977,15 +965,6 @@ Infrastructure:
     openstack-zuul-roles:
       repos:
         - openstack/openstack-zuul-roles
-    openstackid:
-      repos:
-        - osf/openstackid
-    openstackid-resources:
-      repos:
-        - osf/openstackid-resources
-    openstackweb:
-      repos:
-        - osf/openstackweb
     os-loganalyze:
       repos:
         - openstack/os-loganalyze
