@@ -2159,6 +2159,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-interface-keystone-domain-backend
+    charm-interface-keystone-fid-service-provider:
+      release-management: external
+      repos:
+        - openstack/charm-interface-keystone-fid-service-provider
     charm-interface-manila-plugin:
       release-management: external
       repos:
@@ -2211,6 +2215,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-interface-service-control
+    charm-interface-websso-fid-service-provider:
+      release-management: external
+      repos:
+        - openstack/charm-interface-websso-fid-service-provider
     charm-ironic:
       release-management: external
       repos:
@@ -2223,6 +2231,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-keystone-ldap
+    charm-keystone-saml-mellon:
+      release-management: external
+      repos:
+        - openstack/charm-keystone-saml-mellon
     charm-layer-ceph:
       release-management: external
       repos:
