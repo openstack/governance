@@ -1,5 +1,6 @@
 .tox
 doc/build
+.eggs
 *.egg-info
 pbr*.egg
 reference/projects/*.rst
