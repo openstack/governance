@@ -10,8 +10,9 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
-"""Show information about tagged projects.
-"""
+"""Show information about tagged projects."""
+
+from collections import defaultdict
 
 from docutils import nodes
 from docutils.parsers import rst
@@ -27,8 +28,7 @@ _projects_by_tag = {}
 
 
 class TaggedProjectsDirective(rst.Directive):
-    """List the projects tagged with the given tag.
-    """
+    """List the projects tagged with the given tag."""
 
     has_content = True
 
@@ -52,14 +52,18 @@ class TaggedProjectsDirective(rst.Directive):
                 source_name,
             )
         else:
-            for team_name, deliverable in sorted(project_data):
+            team_deliverables = defaultdict(list)
+
+            for team_name, deliverable in project_data:
+                team = projects.slugify(team_name)
                 if deliverable is None:
-                    line = '- :ref:`project-%s`' % projects.slugify(team_name)
+                    team_deliverables[team] = []
                 else:
-                    line = '- %s (:ref:`project-%s`)' % (
-                        deliverable,
-                        projects.slugify(team_name),
-                    )
+                    team_deliverables[team].append(deliverable)
+
+            for team in sorted(team_deliverables, key=lambda x: x.lower()):
+                line = '- :ref:`project-%s` %s' % (
+                    team, ', '.join(team_deliverables[team]))
                 result.append(line, source_name)
 
         # Parse what we have into a new section.
