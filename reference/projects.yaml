@@ -862,6 +862,9 @@ Infrastructure:
     afsmon:
       repos:
         - opendev/afsmon
+    ansible-role-cloud-launcher:
+      repos:
+        - x/ansible-role-cloud-launcher
     ansible-role-puppet:
       repos:
         - opendev/ansible-role-puppet
@@ -874,9 +877,6 @@ Infrastructure:
     bugdaystats:
       repos:
         - openstack/bugdaystats
-    ciwatch:
-      repos:
-        - x/ciwatch
     devstack-gate:
       repos:
         - openstack/devstack-gate
@@ -889,9 +889,6 @@ Infrastructure:
     gear:
       repos:
         - opendev/gear
-    gearman-plugin:
-      repos:
-        - x/gearman-plugin
     germqtt:
       repos:
         - opendev/germqtt
@@ -910,9 +907,6 @@ Infrastructure:
     git-review:
       repos:
         - opendev/git-review
-    gitdm:
-      repos:
-        - x/gitdm
     glean:
       repos:
         - opendev/glean
@@ -925,9 +919,6 @@ Infrastructure:
     groups-static-pages:
       repos:
         - osf/groups-static-pages
-    infra-ansible:
-      repos:
-        - x/infra-ansible
     infra-manual:
       repos:
         - openstack/infra-manual
@@ -1286,9 +1277,9 @@ Infrastructure:
     yaml2ical:
       repos:
         - opendev/yaml2ical
-    zmq-event-publisher:
+    zone-opendev.org:
       repos:
-        - x/zmq-event-publisher
+        - openstack-infra/zone-opendev.org
 
 ironic:
   ptl:
