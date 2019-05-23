@@ -11,11 +11,10 @@ Committee has had privileges in OpenStack's gerrit review system to +2
 a specification, as oppose to a +1 which any individual member of the community
 can give today.
 
-The goal of this resolution is to recognize the `cross-project specification
-liaison team
-<http://docs.openstack.org/project-team-guide/cross-project.html#cross-project-specification-liaisons>`_
-by allowing them to have the ability to +2 specifications, since they should
-know better than anyone else if a specification will work with their project.
+The goal of this resolution is to recognize the cross-project specification
+liaison team by allowing them to have the ability to +2 specifications, since
+they should know better than anyone else if a specification will work with
+their project.
 
 
 Previous Workflow
