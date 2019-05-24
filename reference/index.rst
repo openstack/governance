@@ -11,6 +11,7 @@ Reference documents which need to be revised over time.
    principles
    charter
    projects/index
+   popup-teams
    technical-vision
    help-most-needed
    role-of-the-tc
