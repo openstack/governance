@@ -344,7 +344,7 @@ def get_one_status(change, delegates, tc_members):
         # At least 7 days old.
         earliest = str(latest_created.date() + datetime.timedelta(8))
 
-        if votes[-1]:
+        if votes[-1] or code_reviews[-1]:
             can_approve = 'dissenting votes'
         elif age <= datetime.timedelta(7):
             can_approve = 'too soon'
