@@ -25,6 +25,11 @@ parser.add_argument(
     help='projects.yaml file path (%(default)s)',
 )
 parser.add_argument(
+    '-l', '--legacy-projects',
+    default='./reference/legacy.yaml',
+    help='legact.yaml file path (%(default)s)'
+)
+parser.add_argument(
     '-g', '--gerrit',
     default=('http://git.openstack.org/cgit/openstack-infra/project-config/'
              'plain/gerrit/projects.yaml'),
@@ -40,7 +45,8 @@ args = parser.parse_args()
 
 with open(args.projects, 'r', encoding='utf-8') as f:
     projects = yaml.safe_load(f.read())
-
+with open(args.legacy_projects, 'r', encoding='utf-8') as f:
+    legacy_projects = yaml.safe_load(f.read())
 
 if os.path.exists(args.project_config):
     projects_yaml = '%s/gerrit/projects.yaml' % args.project_config
@@ -63,5 +69,28 @@ for team_name, team_data in projects.items():
                 print('Unknown repository {} as part of {} in {}'.format(
                     repo_name, deliverable_name, team_name))
                 errors += 1
+
+for team_name, team_data in legacy_projects.items():
+    # Check if the team has been retired
+    if 'retired-on' in team_data:
+        continue
+
+    deliverables = team_data.get('deliverables')
+
+    # Team has no deliverables, retired with no retired-on date
+    if not deliverables:
+        print('{} team has no deliverables with no retired-on date'.format(
+            team_name
+        ))
+        errors += 1
+        continue
+
+    # In this case, team is not retired but has retired projects
+    for deliverable_name, deliverable_data in deliverables.items():
+        # Retired-on date missing for a deliverable
+        if 'retired-on' not in deliverable_data:
+            print('{} is missing a retired-on date'.format(deliverable_name))
+            errors += 1
+            continue
 
 sys.exit(1 if errors else 0)
