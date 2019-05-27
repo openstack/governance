@@ -153,8 +153,7 @@ configuration management (primarily Ansible and Puppet at the
 moment). Everything possible goes through code review, and gets
 extensively documented and communicated with the rest of the
 community over IRC and mailing lists. Server resources are donated
-by companies operating OpenStack services, and the team also
-operates a persistent deployment of OpenStack too, so there is
+by companies operating OpenStack services so there is
 substantial opportunity both for people who have experience in those
 technologies as well as anyone wishing to gain more familiarity with
 them.
@@ -166,13 +165,12 @@ Reusability
 ~~~~~~~~~~~
 
 The infrastructure team leverages resources donated from companies operating
-OpenStack services and manages their own OpenStack deployment. The community
-uses the software it produces as a tool for testing it. Every day, contributors
-submit thousands of patches for review. Infrastructure tools deploy each patch
-and test it against thousands of tests and scenarios. This volume provides an
-opportunity to improve the software we write by giving us first-hand experience
-with issues at scale. The benefit of fixing these issues for the OpenStack CI
-system is two-fold:
+OpenStack services. The community uses the software it produces as a tool for
+testing it. Every day, contributors submit thousands of patches for review.
+Infrastructure tools deploy each patch and test it against thousands of tests
+and scenarios. This volume provides an opportunity to improve the software we
+write by giving us first-hand experience with issues at scale. The benefit of
+fixing these issues for the OpenStack CI system is two-fold:
 
 1. It makes the test platform more stable and robust
 2. Products or services benefits from the fix being applied upstream
