@@ -42,6 +42,16 @@ astara:
       tags:
         - release:cycle-with-milestones
 
+barbican:
+  partial: yes
+  deliverables:
+    castellan-ui:
+      retired-on: 2019-05-22
+      repos:
+        - openstack/castellan-ui
+      tags:
+        - vulnerability:managed
+
 Chef OpenStack:
   ptl:
     name: Samuel Cassiba
