@@ -2352,6 +2352,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-trove
+    charm-vault:
+      release-management: external
+      repos:
+        - x/charm-vault
 
 openstack-chef:
   ptl:
