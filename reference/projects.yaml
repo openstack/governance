@@ -1261,7 +1261,7 @@ Infrastructure:
         - opendev/yaml2ical
     zone-opendev.org:
       repos:
-        - openstack-infra/zone-opendev.org
+        - opendev/zone-opendev.org
 
 ironic:
   ptl:
@@ -2228,10 +2228,6 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-layer-openstack-principle
-    charm-lxd:
-      release-management: external
-      repos:
-        - openstack/charm-lxd
     charm-manila:
       release-management: external
       repos:
@@ -2260,6 +2256,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-murano
+    charm-nova-lxd:
+      release-management: external
+      repos:
+        - openstack/charm-nova-lxd
     charm-neutron-api:
       release-management: external
       repos:
@@ -2355,7 +2355,7 @@ OpenStack Charms:
     charm-vault:
       release-management: external
       repos:
-        - x/charm-vault
+        - openstack/charm-vault
 
 openstack-chef:
   ptl:
@@ -3493,11 +3493,11 @@ swift:
     liberasurecode:
       release-management: none
       repos:
-        - x/liberasurecode
+        - openstack/liberasurecode
     pyeclib:
       release-management: none
       repos:
-        - x/pyeclib
+        - openstack/pyeclib
     python-swiftclient:
       repos:
         - openstack/python-swiftclient
@@ -3966,7 +3966,7 @@ winstackers:
         - openstack/networking-hyperv
     compute-hyperv:
       repos:
-        - x/compute-hyperv
+        - openstack/compute-hyperv
 
 zaqar:
   ptl:

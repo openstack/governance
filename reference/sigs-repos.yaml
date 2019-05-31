@@ -20,3 +20,5 @@ api:
   - repo: openstack/api-sig
 auto-scaling:
   - repo: openstack/auto-scaling-sig
+Public Cloud SIG:
+  - repo: openstack/publiccloud-sig
