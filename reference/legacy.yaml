@@ -1649,6 +1649,34 @@ tripleo:
   service: Deployment service
   url: https://wiki.openstack.org/wiki/TripleO
   deliverables:
+    ansible-role-k8s-cinder:
+      repos:
+        - openstack/ansible-role-k8s-cinder
+      retired-on: 2019-05-21
+    ansible-role-k8s-cookiecutter:
+      repos:
+        - openstack/ansible-role-k8s-cookiecutter
+      retired-on: 2019-05-21
+    ansible-role-k8s-glance:
+      repos:
+        - openstack/ansible-role-k8s-glance
+      retired-on: 2019-05-21
+    ansible-role-k8s-keystone:
+      repos:
+        - openstack/ansible-role-k8s-keystone
+      retired-on: 2019-05-21
+    ansible-role-k8s-mariadb:
+      repos:
+        - openstack/ansible-role-k8s-mariadb
+      retired-on: 2019-05-21
+    ansible-role-k8s-rabbitmq:
+      repos:
+        - openstack/ansible-role-k8s-rabbitmq
+      retired-on: 2019-05-21
+    ansible-role-k8s-tripleo:
+      repos:
+        - openstack/ansible-role-k8s-tripleo
+      retired-on: 2019-05-21
     instack:
       repos:
         - openstack/instack
