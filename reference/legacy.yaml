@@ -64,16 +64,16 @@ Chef OpenStack:
   url: https://wiki.openstack.org/wiki/Chef
   partial: yes
   deliverables:
-    cookbook-openstack-bare-metal:
-      repos:
-        - openstack/cookbook-openstack-bare-metal
     cookbook-openstack-data-processing:
+      retired-on: 2016-12-21
       repos:
         - openstack/cookbook-openstack-data-processing
     cookbook-openstack-database:
+      retired-on: 2016-12-21
       repos:
         - openstack/cookbook-openstack-database
     cookbook-openstack-object-storage:
+      retired-on: 2016-12-21
       repos:
         - openstack/cookbook-openstack-object-storage
 
@@ -572,6 +572,7 @@ OpenStack UX:
     name: Piet Kruithof
     irc: Piet
     email: pkruithofjr@gmail.com
+  retired-on: 2017-02-24
   irc-channel: openstack-ux
   mission: >
     The mission of the UX Program is to help the teams improve the overall
@@ -1564,6 +1565,7 @@ RefStack:
     name: Chris Hoge
     irc: hogepodge
     email: chris@openstack.org
+  retired-on: 2018-08-10
   irc-channel: refstack
   service: Interoperability Test Report
   mission: >
