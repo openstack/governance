@@ -3877,9 +3877,9 @@ trove:
 
 vitrage:
   ptl:
-    name: Ifat Afek
-    irc: ifat_afek
-    email: ifat.afek@nokia.com
+    name: Eyal Bar-Ilan
+    irc: eyalb
+    email: eyal.bar-ilan@nokia.com
   irc-channel: openstack-vitrage
   service: RCA (Root Cause Analysis) service
   mission: >
