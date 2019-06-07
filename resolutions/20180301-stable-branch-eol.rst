@@ -64,7 +64,7 @@ the same level of upstream support for all branches for all time.
 Support phases
 --------------
 
-The traditional `support phases`_ may change as a result of this resolution
+The traditional `maintenance phases`_ may change as a result of this resolution
 but the details are out of scope for this document, and any changes would be
 part of the stable branch guidelines documentation.
 
@@ -140,5 +140,5 @@ fixed.
 .. _vulnerability management team (VMT): https://docs.openstack.org/project-team-guide/vulnerability-management.html
 .. _release team: https://governance.openstack.org/tc/reference/projects/release-management.html
 .. _function based on EOL tags: https://review.openstack.org/#/c/520095/
-.. _support phases: https://docs.openstack.org/project-team-guide/stable-branches.html#support-phases
+.. _maintenance phases: https://docs.openstack.org/project-team-guide/stable-branches.html#maintenance-phases
 .. _stable branch maintenance guide: https://docs.openstack.org/project-team-guide/stable-branches.html#appropriate-fixes
