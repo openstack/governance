@@ -27,7 +27,17 @@ most project teams, it should be made light enough to fit in the
 Current OpenStack popup teams
 =============================
 
-None.
+Image encryption
+----------------
+
+* **Co-leads**: Josephine Seifert and Markus Hentsch
+
+* **Objective**: Implementing encryption and decryption of images and the
+  handling of those images in OpenStack
+
+* **Disband criteria**: Handling of encrypted images works in Nova, Cinder and
+  Glance and can be triggered via an openstackclient-plugin
+
 
 Process for addition or removal
 ===============================
