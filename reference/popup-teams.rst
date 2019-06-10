@@ -16,11 +16,11 @@ community member to help them establish or grow connections necessary to the
 success of their work.
 
 When they are formed, popup teams should have at least two leaders,
-a clear objective, a limited number of affected project teams, and a
-clear disband criteria. If the team does not have a clear time-limited
-objective, they should be set up as `Special Interest Groups (SIGs)`_
-instead. If an objective affects most project teams, it should be made
-light enough to fit in the :doc:`../goals/index` process instead.
+a clear objective, and a clear disband criteria. If the team does not
+have a clear time-limited objective, they should be set up as
+`Special Interest Groups (SIGs)`_ instead. If an objective affects
+most project teams, it should be made light enough to fit in the
+:doc:`../goals/index` process instead.
 
 .. _`Special Interest Groups (SIGs)`: https://governance.openstack.org/sigs/
 
