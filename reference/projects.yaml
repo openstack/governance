@@ -3665,9 +3665,6 @@ tripleo:
     python-tripleoclient:
       repos:
         - openstack/python-tripleoclient
-    tempest-tripleo-ui:
-      repos:
-        - openstack/tempest-tripleo-ui
     tripleo-ansible:
       repos:
         - openstack/tripleo-ansible
@@ -3709,9 +3706,6 @@ tripleo:
       release-management: none
       repos:
         - openstack/tripleo-specs
-    tripleo-ui:
-      repos:
-        - openstack/tripleo-ui
     tripleo-upgrade:
       repos:
         - openstack/tripleo-upgrade
