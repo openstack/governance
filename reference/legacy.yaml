@@ -479,6 +479,30 @@ OpenStackAnsible:
       retired-on: 2018-11-12
       repos:
         - openstack/openstack-ansible-os_monasca-ui
+    openstack-ansible-os_monasca:
+      retired-on: 2019-04-16
+      repos:
+        - openstack/openstack-ansible-os_monasca
+    openstack-ansible-os_monasca-agent:
+      retired-on: 2019-04-16
+      repos:
+        - openstack/openstack-ansible-os_monasca-agent
+    openstack-ansible-os_molteniron:
+      retired-on: 2019-04-16
+      repos:
+        - openstack/openstack-ansible-os_molteniron
+    openstack-ansible-os_zaqar:
+      retired-on: 2019-04-16
+      repos:
+        - openstack/openstack-ansible-os_zaqar
+    openstack-ansible-os_almanach:
+      retired-on: 2019-04-16
+      repos:
+        - openstack/openstack-ansible-os_almanach
+    openstack-ansible-os_searchlight:
+      retired-on: 2019-04-16
+      repos:
+        - openstack/openstack-ansible-os_searchlight
 
 OpenStackSalt:
   ptl:
