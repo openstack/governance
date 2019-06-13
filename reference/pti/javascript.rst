@@ -1,3 +1,5 @@
+.. _pti-javascript:
+
 =====================================
 Project Testing Interface: JavaScript
 =====================================
@@ -60,12 +62,10 @@ The following commands are still under discussion:
 Project Setup
 -------------
 
-node and npm version
-====================
-We support the current version of node.js and npm available in the LTS
-releases of Ubuntu. As of this writing, these are Node v0.10.29 and
-npm v1.4.21. While these versions are no longer supported, this restriction is
-imposed by our package maintainers.
+Node.js and npm version
+=======================
+We support versions of Node.js and npm available in the from nodesource.com
+debian archive for our LTS versions of Ubuntu.
 
 npm scripts
 ===========

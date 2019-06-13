@@ -24,6 +24,16 @@ all Python-based projects must target and test against, at a minimum:
 
 More details on Python requirements can be found in :ref:`pti-python`.
 
+Node.js Runtime for Train
+=========================
+
+Based on the availible versions of Node.js supported in our :ref:`LTS or stable
+distributions <pti-linux-distros>` all JavaScript testing should target:
+
+* Node.js 10
+
+More details on Javascript requirements can be found in :ref:`pti-javascript`.
+
 Golang Runtime for Train
 ========================
 
