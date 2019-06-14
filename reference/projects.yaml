@@ -1293,6 +1293,9 @@ ironic:
         - openstack/ironic-lib
       tags:
         - stable:follows-policy
+    ironic-prometheus-exporter:
+      repos:
+        - openstack/ironic-prometheus-exporter
     ironic-python-agent:
       repos:
         - openstack/ironic-python-agent
