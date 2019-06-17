@@ -266,6 +266,14 @@ horizon:
       retired-on: 2018-02-07
       repos:
         - openstack/horizon-cisco-ui
+    xstatic-angular-ui-router:
+      retired-on: 2019-03-24
+      repos:
+        - openstack/xstatic-angular-ui-router
+    xstatic-vis:
+      retired-on: 2019-03-24
+      repos:
+        - openstack/xstatic-vis
 
 Infrastructure:
   irc-channel: openstack-infra
