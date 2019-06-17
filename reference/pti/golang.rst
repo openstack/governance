@@ -120,10 +120,9 @@ The required dependencies shall be installed into a golang workspace compatible
 with the results of running ``go get``.
 
 Dependencies are specified in golang via full paths of the form
-``git.openstack.org/openstack/golang-client``.  All dependencies that are
-OpenStack projects will be required to use the ``git.openstack.org`` host
-in order for cross-repo dependencies to work properly under Zuul, and to
-minimize unnecessary mirrors.
+``opendev.org/openstack/golang-client``.  All dependencies that are OpenStack
+projects will be required to use the ``opendev.org`` host to minimize
+unnecessary mirrors.
 
 To support OpenStack CI and to ensure the Depends-On footers work properly,
 this target must not modify existing git repo state for a given dependency
