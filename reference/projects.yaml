@@ -2295,6 +2295,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-octavia-dashboard
+    charm-octavia-diskimage-retrofit:
+      release-management: external
+      repos:
+        - openstack/charm-octavia-diskimage-retrofit
     charm-odl-controller:
       release-management: external
       repos:
