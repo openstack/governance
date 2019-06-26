@@ -17,4 +17,4 @@ def parse_members_file(filename):
     """Load the members file and return each row as a dictionary.
     """
     with open(filename, 'r') as f:
-        return yaml.load(f)
+        return yaml.safe_load(f)

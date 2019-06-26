@@ -18,7 +18,8 @@ from sphinx.util import logging
 
 LOG = logging.getLogger('page_context')
 
-_default_last_updated = datetime.datetime.now()
+_projects_last_updated = datetime.datetime.now()
+_projects_last_updated_set = False
 
 
 def _get_last_updated_file(src_file):
@@ -47,45 +48,24 @@ def _get_last_updated_file(src_file):
     return None
 
 
-def _get_last_updated(app, pagename):
-    last_updated = None
-    full_src_file = app.builder.env.doc2path(pagename)
-
-    candidates = []
-
-    # Strip the prefix from the filename so the git command recognizes
-    # the file as part of the current repository.
-    src_file = full_src_file[len(app.builder.env.srcdir):].lstrip('/')
-    candidates.append(src_file)
-
-    if not os.path.exists(src_file):
-        # Some of the files are in doc/source and some are not. Some
-        # of the ones that are not are symlinked. If we can't find the
-        # file after stripping the full prefix, try looking for it in
-        # doc/source explicitly.
-        candidates.append(os.path.join('doc/source', src_file))
-
-    if pagename.startswith('reference/projects/'):
-        # If the file is in the reference/projects directory, it may
-        # be an auto-generated project page. In that case, use the
-        # YAML file as the source of the last_updated timestamp.
-        candidates.append('reference/projects.yaml')
-
-    for filename in candidates:
-        last_updated = _get_last_updated_file(filename)
-        if last_updated:
-            LOG.info('[governance] Last updated for %s is %s',
-                     pagename, last_updated)
-            return last_updated
-    LOG.info('[governance] could not determine last_updated for %r',
-             pagename)
-    return _default_last_updated
-
-
 def html_page_context(app, pagename, templatename, context, doctree):
     # Use the last modified date from git instead of applying a single
     # value to the entire site.
-    context['last_updated'] = _get_last_updated(app, pagename)
+    global _projects_last_updated
+    global _projects_last_updated_set
+
+    # Note: openstackdocstheme now handles this, so we only need to do our own
+    # evaluation for generated reference pages.
+    if pagename.startswith('reference/projects/'):
+        if not _projects_last_updated_set:
+            last_updated = _get_last_updated_file('reference/projects.yaml')
+            if last_updated:
+                LOG.info('[governance] Last updated for reference/'
+                         'projects.yaml is %s', last_updated)
+                _projects_last_updated = last_updated
+                _projects_last_updated_set = True
+
+        context['last_updated'] = _projects_last_updated
 
 
 def setup(app):
