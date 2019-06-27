@@ -3218,10 +3218,6 @@ Release Management:
     their own releases.
   url: https://wiki.openstack.org/wiki/Release_Management
   deliverables:
-    release-schedule-generator:
-      release-management: none
-      repos:
-        - openstack/release-schedule-generator
     release-test:
       repos:
         - openstack/release-test

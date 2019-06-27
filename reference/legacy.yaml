@@ -1612,6 +1612,10 @@ Release Management:
       retired-on: 2018-06-29
       repos:
         - openstack/release-tools
+    release-schedule-generator:
+      retired-on: 2019-06-27
+      repos:
+        - openstack/release-schedule-generator
 
 Security:
   ptl:
