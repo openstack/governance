@@ -67,7 +67,7 @@ Nova is a good example of a large existing unit test code base that was
 migrated from using mox to mock. There are many good examples available from
 that effort that may be used as a reference:
 
-https://review.openstack.org/#/q/topic:bp/remove-mox-pike+(status:open+OR+status:merged)
+https://review.opendev.org/#/q/topic:bp/remove-mox-pike+(status:open+OR+status:merged)
 
 Current State / Anticipated Impact
 ==================================

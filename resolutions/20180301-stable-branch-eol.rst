@@ -139,6 +139,6 @@ fixed.
 .. _infra: https://governance.openstack.org/tc/reference/projects/infrastructure.html
 .. _vulnerability management team (VMT): https://docs.openstack.org/project-team-guide/vulnerability-management.html
 .. _release team: https://governance.openstack.org/tc/reference/projects/release-management.html
-.. _function based on EOL tags: https://review.openstack.org/#/c/520095/
+.. _function based on EOL tags: https://review.opendev.org/#/c/520095/
 .. _maintenance phases: https://docs.openstack.org/project-team-guide/stable-branches.html#maintenance-phases
 .. _stable branch maintenance guide: https://docs.openstack.org/project-team-guide/stable-branches.html#appropriate-fixes

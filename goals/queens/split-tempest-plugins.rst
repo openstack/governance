@@ -113,7 +113,7 @@ plugins.
   import requests
   import yaml
 
-  url = 'https://review.openstack.org/projects/'
+  url = 'https://review.opendev.org/projects/'
   with open(sys.argv[1], 'r') as fd:
       projects_list = yaml.load(fd.read())
 
@@ -147,7 +147,7 @@ plugins.
 
   def has_tempest_plugin(proj):
       r = requests.get(
-          "https://git.openstack.org/cgit/%s/plain/setup.cfg" % proj)
+          "https://opendev.org/openstack/%s/src/branch/master/setup.cfg" % proj)
       p = re.compile('^tempest\.test_plugins', re.M)
       if p.findall(r.text):
           return True
@@ -224,7 +224,7 @@ Completion Artifacts:
 
 The barbican team is maintaining its tempest plugin in a separate repo:
 
-http://git.openstack.org/cgit/openstack/barbican-tempest-plugin
+http://opendev.org/openstack/barbican-tempest-plugin
 
 blazar
 ------
@@ -239,7 +239,7 @@ Completion Artifacts:
 The following review removed the tempest plugin that blazar was maintaining
 in tree and links to the new repository the plugin was moved to:
 
-* https://review.openstack.org/#/c/531138/
+* https://review.opendev.org/#/c/531138/
 
 Chef OpenStack
 --------------
@@ -262,7 +262,7 @@ https://blueprints.launchpad.net/cinder/+spec/goal-split-tempest-plugin
 
 Completion Artifacts (work still in progress):
 
-https://review.openstack.org/#/q/topic:goal-split-tempest-plugins+(status:open+OR+status:merged)+message:cinder
+https://review.opendev.org/#/q/topic:goal-split-tempest-plugins+(status:open+OR+status:merged)+message:cinder
 
 cloudkitty
 ----------
@@ -275,7 +275,7 @@ Completion Artifacts:
 
 The cloudkitty team is maintaining its tempest plugin in a separate repo:
 
-http://git.openstack.org/cgit/openstack/cloudkitty-tempest-plugin
+http://opendev.org/openstack/cloudkitty-tempest-plugin
 
 congress
 --------
@@ -292,7 +292,7 @@ Completion Artifacts:
 The following review removed the tempest plugin that congress was maintaining
 in tree and links to the new repository the plugin was moved to:
 
-* https://review.openstack.org/#/c/531689/
+* https://review.opendev.org/#/c/531689/
 
 cyborg
 ------
@@ -316,7 +316,7 @@ Completion Artifacts:
 The Designate team was already compliant before that the goal was defined.
 Here is the tempest plugin repo:
 
-http://git.openstack.org/cgit/openstack/designate-tempest-plugin
+https://opendev.org/openstack/designate-tempest-plugin
 
 Documentation
 -------------
@@ -363,9 +363,9 @@ The following review removed the tempest plugin that freezer and freezer-api
 were maintaining in tree and links to the new repository the plugin was
 moved to:
 
-* https://review.openstack.org/526667 - Removes the bundled intree tempest
+* https://review.opendev.org/526667 - Removes the bundled intree tempest
   plugin from Freezer project
-* https://review.openstack.org/526914 - Remove bundled intree freezer_api
+* https://review.opendev.org/526914 - Remove bundled intree freezer_api
   tempest plugin
 
 glance
@@ -393,7 +393,7 @@ Completion Artifacts:
 The following review removed the tempest plugin that heat was maintaining
 in tree and links to the new repository the plugin was moved to:
 
-* https://review.openstack.org/#/c/528491/
+* https://review.opendev.org/#/c/528491/
 
 horizon
 -------
@@ -405,7 +405,7 @@ Completion Artifacts:
 The Horizon team was already compliant before that the goal was defined. Here
 is the tempest plugin repo:
 
-http://git.openstack.org/cgit/openstack/tempest-horizon
+https://opendev.org/openstack/tempest-horizon
 
 I18n
 ----
@@ -444,8 +444,8 @@ Completion Artifacts:
 The following reviews removed the tempest plugin from Ironic and Ironic-inspector
 that  was maintained in tree and moved to ironic-tempest-plugin repo:
 
-* https://review.openstack.org/532585 (Ironic)
-* https://review.openstack.org/527743 (Ironic-inspector)
+* https://review.opendev.org/532585 (Ironic)
+* https://review.opendev.org/527743 (Ironic-inspector)
 
 karbor
 ------
@@ -472,7 +472,7 @@ Completion Artifacts:
 The following review removed the tempest plugin that keystone was maintaining
 in tree and links to the new repository the plugin was moved to:
 
-  http://git.openstack.org/cgit/openstack/keystone/commit/?id=6f4e37e9e6810e24f45d034261f4a6ec4aa85fb1
+  https://opendev.org/openstack/keystone/commit/6f4e37e9e6810e24f45d034261f4a6ec4aa85fb1
 
 kolla
 -----
@@ -497,7 +497,7 @@ Completion Artifacts:
 
 The kuryr team is maintaining its tempest plugin in a separate repo:
 
-http://git.openstack.org/cgit/openstack/kuryr-tempest-plugin
+https://opendev.org/openstack/kuryr-tempest-plugin
 
 loci
 ----
@@ -524,7 +524,7 @@ Completion Artifacts:
 The following review removed the tempest plugin that magnum was maintaining
 in tree and links to the new repository the plugin was moved to:
 
-* https://review.openstack.org/#/c/526618/
+* https://review.opendev.org/#/c/526618/
 
 manila
 ------
@@ -539,7 +539,7 @@ Completion Artifacts:
 The following review removed the tempest plugin that manila was maintaining
 in tree and links to the new repository the plugin was moved to:
 
-* https://review.openstack.org/#/c/512300/
+* https://review.opendev.org/#/c/512300/
 
 masakari
 --------
@@ -566,7 +566,7 @@ Completion Artifacts:
 The following review removed the tempest plugin that mistral was maintaining
 in tree and links to the new repository the plugin was moved to:
 
-* https://review.openstack.org/#/c/526918/
+* https://review.opendev.org/#/c/526918/
 
 monasca
 -------
@@ -586,7 +586,7 @@ Completion Artifacts:
 
 The murano team is maintaining its tempest plugin in a separate repo:
 
-http://git.openstack.org/cgit/openstack/murano-tempest-plugin
+https://opendev.org/openstack/murano-tempest-plugin
 
 neutron
 -------
@@ -601,7 +601,7 @@ Completion Artifacts:
 The following review removed the tempest plugin that neutron was maintaining
 in tree and links to the new repository the plugin was moved to:
 
-* https://review.openstack.org/506672
+* https://review.opendev.org/506672
 
 nova
 ----
@@ -791,7 +791,7 @@ Completion Artifacts:
 The Sahara team was already compliant before that the goal was defined. Here
 is the commit link for the same:
 
-http://git.openstack.org/cgit/openstack/sahara/commit/?id=83a6a2868377dd61530a9de80c6ca49061c5f248
+https://opendev.org/openstack/sahara/commit/83a6a2868377dd61530a9de80c6ca49061c5f248
 
 searchlight
 -----------
@@ -847,7 +847,7 @@ Completion Artifacts:
 
 The solum team is maintaining its tempest plugin in a separate repo:
 
-http://git.openstack.org/cgit/openstack/solum-tempest-plugin
+https://opendev.org/openstack/solum-tempest-plugin
 
 Stable branch maintenance
 -------------------------
@@ -911,9 +911,9 @@ The following review removed the tempest plugin that telemetry team (Aodh,
 Panko, Ceilometer) was maintaining in tree and links to the new
 repository telemetry-tempest-plugin, was moved to:
 
-* https://review.openstack.org/530467
-* https://review.openstack.org/526299
-* https://review.openstack.org/525072
+* https://review.opendev.org/530467
+* https://review.opendev.org/526299
+* https://review.opendev.org/525072
 
 tricircle
 ---------
@@ -939,7 +939,7 @@ Completion Artifacts:
 The tripleo team is maintaining its tempest plugin in a separate repo for
 testing tripleo workflows:
 
-http://git.openstack.org/cgit/openstack/tripleo-common-tempest-plugin
+https://opendev.org/openstack/tripleo-common-tempest-plugin
 
 trove
 -----
@@ -954,7 +954,7 @@ Completion Artifacts:
 The following review removed the tempest plugin that trove was maintaining
 in tree and links to the new repository the plugin was moved to:
 
-* https://review.openstack.org/528533
+* https://review.opendev.org/528533
 
 vitrage
 -------
@@ -969,7 +969,7 @@ Completion Artifacts:
 The following review removed the tempest plugin that vitrage was maintaining
 in tree and links to the new repository the plugin was moved to:
 
-* https://review.openstack.org/528528
+* https://review.opendev.org/528528
 
 watcher
 -------
@@ -984,7 +984,7 @@ Completion Artifacts:
 The following review removed the tempest plugin that watcher was maintaining
 in tree and links to the new repository the plugin was moved to:
 
-http://git.openstack.org/cgit/openstack/watcher/commit/?id=0c4b439c5ea1206263f39c118daf6d2ff1422480
+https://opendev.org/openstack/watcher/commit/0c4b439c5ea1206263f39c118daf6d2ff1422480
 
 winstackers
 -----------
@@ -997,7 +997,7 @@ Completion Artifacts:
 
 The Winstackers team is maintaining its tempest plugin in a separate repo:
 
-http://git.openstack.org/cgit/openstack/oswin-tempest-plugin
+https://opendev.org/openstack/oswin-tempest-plugin
 
 zaqar
 -----
@@ -1009,7 +1009,7 @@ planning document.
 
 Completion Artifacts:
 
-https://review.openstack.org/504899 marks the removel of intree bundled tempest
+https://review.opendev.org/504899 marks the removel of intree bundled tempest
 plugin from Zaqar leading to marks the completion of the goal.
 
 zun
@@ -1021,4 +1021,4 @@ Completion Artifacts:
 
 The Zun team is maintaining its tempest plugin in a separate repo:
 
-https://git.openstack.org/cgit/openstack/zun-tempest-plugin
+https://opendev.org/openstack/zun-tempest-plugin

@@ -25,7 +25,7 @@ Champions
 Gerrit Topic
 ============
 
-`python3-first <https://review.openstack.org/#/q/topic:python3-first+(status:open+OR+status:merged)>`__
+`python3-first <https://review.opendev.org/#/q/topic:python3-first+(status:open+OR+status:merged)>`__
 
 Completion Criteria
 ===================
@@ -72,7 +72,7 @@ control the branch-aware jobs out of the
 ``openstack-infra/project-config`` repository and put them into each
 git repository in the appropriate branch.
 
-https://review.openstack.org/580736/ is an example of adding the
+https://review.opendev.org/580736/ is an example of adding the
 project settings to the master branch of ``openstack/whereto``. The
 patch was constructed by using the ``python3-first`` command from the
 ``openstack/goal-tools`` repository (see the ``README.rst`` there for
@@ -113,7 +113,7 @@ move into each branch.
 
 After all of the settings are in place within the branches of a
 repository, they can be removed from ``openstack-infra/project-config``.
-https://review.openstack.org/580737/ shows how to remove the settings
+https://review.opendev.org/580737/ shows how to remove the settings
 for whereto.
 
 .. note::
@@ -148,12 +148,12 @@ in each repository, so the tox settings can be used to provide a
 self-testing patch to the repository to switch the version of python
 used.
 
-https://review.openstack.org/580738 shows how to change the
+https://review.opendev.org/580738 shows how to change the
 project settings for a repository to use the new documentation
 jobs. The change will be self-testing, and should only be made on the
 master branch.
 
-https://review.openstack.org/572895 shows how to update the
+https://review.opendev.org/572895 shows how to update the
 tox.ini settings in the project to set the ``basepython`` variable for
 the ``docs`` environment, used for developer testing. This change
 should only be made on the master branch.
@@ -165,7 +165,7 @@ Common issues to anticipate:
   str objects. Doc builds that do things in conf.py (or extensions)
   like extract the modification date from the most recent commit will
   need to properly decode the return
-  values. https://review.openstack.org/#/c/575483 shows one example of
+  values. https://review.opendev.org/#/c/575483 shows one example of
   how to fix this sort of problem.
 
 Release Notes Jobs
@@ -182,7 +182,7 @@ change the project template ``release-notes-jobs`` to
 template does not run the new job, it may be necessary to add a dummy
 release note to make the patch self-testing.
 
-https://review.openstack.org/#/c/572895/ shows how to update the
+https://review.opendev.org/#/c/572895/ shows how to update the
 tox.ini settings in the project to set the ``basepython`` variable for
 the ``releasenotes`` environment, used for developer testing. This
 change should only be made on the master branch.
@@ -202,7 +202,7 @@ Most of the jobs we have that run source code linters *do* use tox to
 control the versions of the linter tool. These jobs typically have
 names like ``openstack-tox-linters`` or ``openstack-tox-pep8``.
 
-https://review.openstack.org/#/c/572895/ shows how to update the
+https://review.opendev.org/#/c/572895/ shows how to update the
 tox.ini settings in the project to set the ``basepython`` variable for
 the environments. All of the linter jobs running against python source
 code in the master branch should be updated. These changes should be
@@ -235,7 +235,7 @@ Common issues to anticipate:
 
   Updating the version of pylint brings new rules, and will require
   modifications either to source code or to the pylint configuration.
-  https://review.openstack.org/#/c/573024/ is an example of updating
+  https://review.opendev.org/#/c/573024/ is an example of updating
   to the latest version of pylint in the freezer repository, with a
   combination of fixes and disabling rules.
 
@@ -274,7 +274,7 @@ manual`_ for details of how to do this.
 
    The original goal contained an additional step: "After the name is
    configured on PyPI, change any existing release project template to
-   ``publish-to-pypi-python3``. https://review.openstack.org/580740
+   ``publish-to-pypi-python3``. https://review.opendev.org/580740
    shows an example of changing the job setting."
 
    Infra now has made ``publish-to-pypi`` using python3, so all repos
@@ -286,7 +286,7 @@ in the ``openstack-infra/project-config`` repository. Therefore, after
 the first change merges it will be useful to create a second patch in
 the project repository with a whitespace or other typo-fix change in
 the ``README.rst`` to trigger the packaging test job in this patch to
-ensure everything works properly. https://review.openstack.org/580741
+ensure everything works properly. https://review.opendev.org/580741
 shows an example of such a change.
 
 .. note::
@@ -330,7 +330,7 @@ to each project team.
 Libraries used by services that run in the default integrated gate can
 add the ``lib-forward-testing-python3`` project template to ensure
 they have full integration tests run.
-https://review.openstack.org/#/c/575927/ shows an example of doing
+https://review.opendev.org/#/c/575927/ shows an example of doing
 this for oslo.config.
 
 Where possible, when modifying existing jobs, a variable should be
@@ -342,7 +342,7 @@ the old job definitions when python 2 support is finally dropped.
 It should be possible to update functional and integration test jobs
 that run through tox by setting ``basepython = python3`` for the
 appropriate tox environment, as in
-https://review.openstack.org/#/c/572895/.
+https://review.opendev.org/#/c/572895/.
 
 Wiki Tracking Page
 ------------------
@@ -376,8 +376,8 @@ References
 ==========
 
 * :ref:`goal-support-python-3.5`
-* `Updating python packaging jobs <https://review.openstack.org/#/q/topic:python3-packaging+(status:open+OR+status:merged)>`__
-* `Configuring library forward testing jobs <https://review.openstack.org/#/q/topic:python3-lib-forward-testing+(status:open+OR+status:merged)>`__
+* `Updating python packaging jobs <https://review.opendev.org/#/q/topic:python3-packaging+(status:open+OR+status:merged)>`__
+* `Configuring library forward testing jobs <https://review.opendev.org/#/q/topic:python3-lib-forward-testing+(status:open+OR+status:merged)>`__
 * `Planning etherpad <https://etherpad.openstack.org/p/python3-first>`__
 * `Status of OpenStack projects
   <https://wiki.openstack.org/wiki/Python3#Python_3_Status_of_OpenStack_projects>`__
@@ -389,7 +389,7 @@ Current State / Anticipated Impact
 A significant number of patches to update the tox settings for
 projects have already been proposed and many have been merged:
 
-https://review.openstack.org/#/q/topic:python3-first
+https://review.opendev.org/#/q/topic:python3-first
 
 Some of the Oslo libraries are using the python 3 versions of these
 jobs already.

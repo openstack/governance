@@ -59,7 +59,7 @@ How to propose governance changes
 =================================
 
 Motions should be posted for discussion as a proposed change to the
-openstack/governance repository (on review.openstack.org) and/or as a
+openstack/governance repository (on review.opendev.org) and/or as a
 "[tc]" thread to the openstack-discuss@lists.openstack.org mailing-list.
 Upon verification, the chair will put the motion on the
 `current proposals tracker`_.

@@ -56,7 +56,7 @@ When the election results are available, the outgoing chair should:
 
 * welcome new and returning members
 * update the tech-committee group in gerrit:
-  https://review.openstack.org/#/admin/groups/205,members to remove
+  https://review.opendev.org/#/admin/groups/205,members to remove
   members who should no longer be included and add new members
 * encourage all TC members to vote on the patch prepared by the
   election officials with the new roster
@@ -74,7 +74,7 @@ After the election results are confirmed, the outgoing chair should:
   candidates
 * after a chair is selected, ensure they appear in the
   tech-committee-chair group in gerrit:
-  https://review.openstack.org/#/admin/groups/206,members
+  https://review.opendev.org/#/admin/groups/206,members
 * the outgoing chair should notify the board chair and secretary of
   the new TC membership and chair
 * the outgoing chair should notify the community of the new chair

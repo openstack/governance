@@ -109,7 +109,7 @@ For questions about getting involved with this initiative, reach out to the
 OpenStack Discuss mailing `list`_. You may also contact the `Documentation`_
 PTL or the Technical Committee sponsor for this item (dhellmann).
 
-.. _`plan`: https://review.openstack.org/#/c/472275/
+.. _`plan`: https://review.opendev.org/#/c/472275/
 .. _`list`: http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss
 .. _`Documentation`: https://governance.openstack.org/tc/reference/projects/documentation.html
 

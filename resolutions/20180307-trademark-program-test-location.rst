@@ -70,4 +70,4 @@ and the Trademark Program.
           to produce tests that are run by tempest.
 
 .. _gabbi: https://gabbi.readthedocs.io/
-.. _Tempest repository: http://git.openstack.org/cgit/openstack/tempest
+.. _Tempest repository: https://opendev.org/openstack/tempest

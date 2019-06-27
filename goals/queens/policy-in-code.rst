@@ -114,7 +114,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `barbican implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+project:openstack/barbican>`_
+* `barbican implementation <https://review.opendev.org/#/q/topic:policy-and-docs-in-code+project:openstack/barbican>`_
 
 Chef OpenStack
 --------------
@@ -130,8 +130,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `cinder policy-in-code implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+project:openstack/cinder>`_
-* `cinder documentation update <https://review.openstack.org/#/c/512187/>`_
+* `cinder policy-in-code implementation <https://review.opendev.org/#/q/topic:policy-and-docs-in-code+project:openstack/cinder>`_
+* `cinder documentation update <https://review.opendev.org/#/c/512187/>`_
 
 cloudkitty
 ----------
@@ -142,7 +142,7 @@ Cloudkitty used this document as the planning artifact for this goal.
 
 Completion Artifacts:
 
-* `cloudkitty implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+(status:open+OR+status:merged)+project:openstack/cloudkitty>`_
+* `cloudkitty implementation <https://review.opendev.org/#/q/topic:policy-and-docs-in-code+(status:open+OR+status:merged)+project:openstack/cloudkitty>`_
 
 congress
 --------
@@ -153,7 +153,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `congress implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+(status:open+OR+status:merged)+project:openstack/congress>`_
+* `congress implementation <https://review.opendev.org/#/q/topic:policy-and-docs-in-code+(status:open+OR+status:merged)+project:openstack/congress>`_
 
 designate
 ---------
@@ -164,7 +164,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `designate documented policy-in-code implementation <https://review.openstack.org/#/q/status:merged+project:openstack/designate+branch:master+topic:policy-and-docs-in-code>`_
+* `designate documented policy-in-code implementation <https://review.opendev.org/#/q/status:merged+project:openstack/designate+branch:master+topic:policy-and-docs-in-code>`_
 * `designate policy documentation <https://docs.openstack.org/designate/latest/admin/policy.html>`_
 
 Documentation
@@ -191,7 +191,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `Freezer API implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+(status:open+OR+status:merged)+project:openstack/freezer-api>`_
+* `Freezer API implementation <https://review.opendev.org/#/q/topic:policy-and-docs-in-code+(status:open+OR+status:merged)+project:openstack/freezer-api>`_
 
 fuel
 ----
@@ -217,7 +217,7 @@ Completion Artifacts:
   this goal during Queens.
 
   See the spec proposal for refactoring Glance policies for details:
-  https://review.openstack.org/#/c/528021/
+  https://review.opendev.org/#/c/528021/
 
 heat
 ----
@@ -228,7 +228,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `heat implementation <https://review.openstack.org/#/q/(status:open+OR+status:merged)+project:openstack/heat++%22policy+in+code%22>`_
+* `heat implementation <https://review.opendev.org/#/q/(status:open+OR+status:merged)+project:openstack/heat++%22policy+in+code%22>`_
 
 horizon
 -------
@@ -261,7 +261,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `ironic documented policy-in-code implementation <https://review.openstack.org/#/c/502519/>`_
+* `ironic documented policy-in-code implementation <https://review.opendev.org/#/c/502519/>`_
 * `ironic policy documentation <https://docs.openstack.org/ironic/latest/configuration/policy.html>`_
 
 ironic-inspector
@@ -277,7 +277,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `inspector policies implementation <https://review.openstack.org/#/c/507826/>`_
+* `inspector policies implementation <https://review.opendev.org/#/c/507826/>`_
 * `inspector policies documentation <https://docs.openstack.org/ironic-inspector/latest/configuration/policy.html>`_
 
 karbor
@@ -299,8 +299,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `keystone policy-in-code implementation <https://review.openstack.org/#/q/status:merged+project:openstack/keystone+branch:master+topic:bp/policy-in-code>`_
-* `keystone policy-docs implementation <https://review.openstack.org/#/q/status:merged+project:openstack/keystone+branch:master+topic:bp/policy-docs>`_
+* `keystone policy-in-code implementation <https://review.opendev.org/#/q/status:merged+project:openstack/keystone+branch:master+topic:bp/policy-in-code>`_
+* `keystone policy-docs implementation <https://review.opendev.org/#/q/status:merged+project:openstack/keystone+branch:master+topic:bp/policy-docs>`_
 
 kolla
 -----
@@ -321,7 +321,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `magnum implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+status:merged+project:openstack/magnum>`_
+* `magnum implementation <https://review.opendev.org/#/q/topic:policy-and-docs-in-code+status:merged+project:openstack/magnum>`_
 
 manila
 ------
@@ -332,7 +332,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `manila implementation <https://review.openstack.org/#/q/status:merged+project:openstack/manila+branch:master+topic:policy-and-docs-in-code>`_
+* `manila implementation <https://review.opendev.org/#/q/status:merged+project:openstack/manila+branch:master+topic:policy-and-docs-in-code>`_
 
 mistral
 -------
@@ -343,7 +343,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `mistral policy-in-code implementation <https://review.openstack.org/#/q/project:openstack/mistral++topic:policy-and-docs-in-code+status:merged>`_
+* `mistral policy-in-code implementation <https://review.opendev.org/#/q/project:openstack/mistral++topic:policy-and-docs-in-code+status:merged>`_
 * `mistral policy documentation <https://docs.openstack.org/mistral/latest/configuration/policy-guide.html>`_
 
 monasca
@@ -366,7 +366,7 @@ https://blueprints.launchpad.net/murano/+spec/policy-in-code
 Completion Artifacts:
 
 The final RBAC patch in the chain was:
-https://review.openstack.org/#/c/473562/
+https://review.opendev.org/#/c/473562/
 
 The policy documentation is available here:
 https://docs.openstack.org/murano/latest/admin/murano_policies.html
@@ -382,7 +382,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `neutron policy-in-code implementation <https://review.openstack.org/#/c/585037/>`_
+* `neutron policy-in-code implementation <https://review.opendev.org/#/c/585037/>`_
 
 nova
 ----
@@ -397,8 +397,8 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `nova policy-in-code implementation <https://review.openstack.org/#/q/topic:bp/policy-in-code+project:openstack/nova+status:merged>`_
-* `nova policy-docs implementation <https://review.openstack.org/#/q/topic:bp/policy-docs+project:openstack/nova+status:merged>`_
+* `nova policy-in-code implementation <https://review.opendev.org/#/q/topic:bp/policy-in-code+project:openstack/nova+status:merged>`_
+* `nova policy-docs implementation <https://review.opendev.org/#/q/topic:bp/policy-docs+project:openstack/nova+status:merged>`_
 
 octavia
 -------
@@ -413,7 +413,7 @@ https://bugs.launchpad.net/octavia/+bug/1690481
 Completion Artifacts:
 
 The final RBAC patch in the chain merged while Pike was still in development:
-https://review.openstack.org/#/c/475980/
+https://review.opendev.org/#/c/475980/
 
 The policy documentation is available here:
 https://docs.openstack.org/octavia/latest/configuration/policy.html
@@ -496,7 +496,7 @@ planning artifact.
 
 Completion Artifacts:
 
-The goal was implemented in https://review.openstack.org/#/c/503221/ and can be
+The goal was implemented in https://review.opendev.org/#/c/503221/ and can be
 marked as done.
 
 searchlight
@@ -508,7 +508,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `searchlight policy-in-code implementation <https://review.openstack.org/#/q/status:merged+project:openstack/searchlight+branch:master+topic:policy-and-docs-in-code>`_
+* `searchlight policy-in-code implementation <https://review.opendev.org/#/q/status:merged+project:openstack/searchlight+branch:master+topic:policy-and-docs-in-code>`_
 * `searchlight policy documentation <https://docs.openstack.org/searchlight/latest/configuration/policy.html>`_
 
 
@@ -524,7 +524,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `senlin implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+project:openstack/senlin+status:merged>`_
+* `senlin implementation <https://review.opendev.org/#/q/topic:policy-and-docs-in-code+project:openstack/senlin+status:merged>`_
 
 shade
 -----
@@ -540,7 +540,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `solum implementation <https://review.openstack.org/#/q/status:merged+project:openstack/solum+branch:master+topic:bp/policy-in-code>`_
+* `solum implementation <https://review.opendev.org/#/q/status:merged+project:openstack/solum+branch:master+topic:bp/policy-in-code>`_
 
 Stable branch maintenance
 -------------------------
@@ -575,9 +575,9 @@ This document was used as the planning document for the Telemetry project.
 
 Completion Artifacts:
 
-* `panko implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+status:merged+project:openstack/panko>`_
+* `panko implementation <https://review.opendev.org/#/q/topic:policy-and-docs-in-code+status:merged+project:openstack/panko>`_
 
-* `aodh implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+status:merged+project:openstack/aodh>`_
+* `aodh implementation <https://review.opendev.org/#/q/topic:policy-and-docs-in-code+status:merged+project:openstack/aodh>`_
 
 tricircle
 ---------
@@ -588,7 +588,7 @@ This document was used as the planning artifact for tricircle.
 
 Completion Artifacts:
 
-* `policy-in-code implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+status:merged+project:openstack/tricircle>`_
+* `policy-in-code implementation <https://review.opendev.org/#/q/topic:policy-and-docs-in-code+status:merged+project:openstack/tricircle>`_
 
 tripleo
 -------
@@ -606,7 +606,7 @@ planning artifact.
 
 Completion Artifacts:
 
-* `trove policy-in-code implementation <https://review.openstack.org/#/q/project:openstack/trove+topic:policy-and-docs-in-code+status:merged>`_
+* `trove policy-in-code implementation <https://review.opendev.org/#/q/project:openstack/trove+topic:policy-and-docs-in-code+status:merged>`_
 
 vitrage
 -------
@@ -615,7 +615,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://review.openstack.org/#/c/509217/
+* https://review.opendev.org/#/c/509217/
 
 watcher
 -------
@@ -626,7 +626,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `watcher policy-in-code implementation <https://review.openstack.org/#/q/project:+openstack/watcher+topic:policy-and-docs-in-code+status:merged>`_
+* `watcher policy-in-code implementation <https://review.opendev.org/#/q/project:+openstack/watcher+topic:policy-and-docs-in-code+status:merged>`_
 
 winstackers
 -----------
@@ -650,4 +650,4 @@ if this can serve as the planning artifact.
 
 Completion Artifacts:
 
-* `zun implementation <https://review.openstack.org/#/q/topic:policy-and-docs-in-code+status:merged+project:openstack/zun>`_
+* `zun implementation <https://review.opendev.org/#/q/topic:policy-and-docs-in-code+status:merged+project:openstack/zun>`_
