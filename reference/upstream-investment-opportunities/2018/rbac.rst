@@ -1,5 +1,5 @@
-Consistent Role Based Access Control
-====================================
+Consistent Role Based Access Control (RBAC)
+===========================================
 
 Description
 -----------
@@ -26,12 +26,12 @@ Value
 Increased Functionality
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Currently, most OpenStack services have a very binary approach to RBAC
-enforcement. This approach usually handicaps new functionality from being
-exposed to users because users typically do not fall in one of two camps.
-Contributors either need to lock down the feature to only system
-administrators, or open it up to nearly every user in the deployment. This is
-especially true for APIs that expose details about multiple tenants.
+Currently, most OpenStack services have a very binary approach to Role Based
+Access Control (RBAC) enforcement. This approach usually handicaps new
+functionality from being exposed to users because users typically do not fall
+in one of two camps.  Contributors either need to lock down the feature to only
+system administrators, or open it up to nearly every user in the deployment.
+This is especially true for APIs that expose details about multiple tenants.
 
 Implementing better API protection allows contributors to expose more
 functionality to end users and operators by default. Lowering the bar for users
@@ -61,10 +61,10 @@ Interoperability
 
 Because policy configuration gives deployments the flexibility to maintain
 complicated policies at their own expense, it is common to see many
-organizations solve the same problem. Unfortunately, it's unlikely many of them
-are sharing the same solution. This pattern impedes interoperability between
-deployments, making it frustrating for users interacting with different
-OpenStack clouds.
+organizations solve the same problem. Unfortunately, it's unlikely
+organizations are sharing the same solution. This pattern impedes
+interoperability between deployments, making it frustrating for users
+interacting with different OpenStack clouds.
 
 Offering a reasonable set of roles and implementing basic RBAC improves
 interoperability by not requiring each organization to solve the same problem
