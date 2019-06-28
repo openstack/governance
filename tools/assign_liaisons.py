@@ -15,9 +15,7 @@
 import argparse
 import collections
 import random
-import textwrap
 
-from openstack_governance import _wiki
 from openstack_governance import members
 from openstack_governance import projects
 
@@ -34,6 +32,16 @@ def main():
         default='reference/projects.yaml',
         help='location of projects.yaml, (%(default)s)',
     )
+    parser.add_argument(
+        '--replace-all',
+        action='store_true',
+        help='Replace all assigned liasons (%(default)s)',
+    )
+    parser.add_argument(
+        '--remove-all',
+        action='store_true',
+        help='Remove all assigned liasons (%(default)s)',
+    )
     args = parser.parse_args()
 
     member_nics = [
@@ -42,31 +50,17 @@ def main():
     ]
 
     project_data = projects.load_project_file(args.projects_file)
-    project_names = list(project_data.keys())
 
-    num_teams = len(project_names)
+    num_teams = len(project_data)
     assignments_per = num_teams // (len(member_nics) // 2)
-
-    print('TEAMS', num_teams)
-    print('TC   ', len(member_nics))
-    print('PER  ', assignments_per)
-
-    # Determine how many assignments everyone has by reading the wiki
-    # page.
-
-    project_to_liaisons = _wiki.get_liaison_data()
 
     member_counts = collections.Counter({
         nic: 0
         for nic in member_nics
     })
-    for team, liaisons in project_to_liaisons.items():
-        for member in liaisons:
+    for _, team in project_data.items():
+        for member in team.get('liasons', []):
             member_counts.update({member: 1})
-
-    print('\nAlready assigned:')
-    for member, count in sorted(member_counts.items()):
-        print('{:12}: {}'.format(member, count))
 
     choices = []
     for member, count in sorted(member_counts.items()):
@@ -74,28 +68,24 @@ def main():
 
     # Make sure we have a list in order that isn't assigning the same
     # person to a team twice.
-    print()
-    for team, liaisons in project_to_liaisons.items():
-        while len(liaisons) < 2:
+
+    for name, team in project_data.items():
+        liasons = team.get('liasons', [])
+        if args.remove_all:
+            team['liasons'] = []
+            continue
+        if args.replace_all:
+            liasons = []
+        while len(liasons) < 2:
             random.shuffle(choices)
             next_choice = choices.pop()
-            while next_choice in liaisons:
+            while next_choice in liasons:
                 choices.insert(0, next_choice)
                 next_choice = choices.pop()
-            print('assigning {} to {}'.format(next_choice, team))
-            liaisons.append(next_choice)
+            liasons.append(next_choice)
+        team['liasons'] = liasons
 
-    print(textwrap.dedent('''
-    === Project Teams ===
-
-    {| class="wikitable"
-    |-
-    ! Group !! TC members'''))
-
-    for team, liaisons in project_to_liaisons.items():
-        print('|-\n| {} || {}'.format(team, ', '.join(liaisons)))
-
-    print('|}\n')
+    projects.write_project_file(project_data, args.projects_file)
 
 if __name__ == '__main__':
     main()
