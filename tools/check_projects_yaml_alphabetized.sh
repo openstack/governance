@@ -2,8 +2,11 @@
 
 # Checks that reference/projects.yaml alphabetized and prints list of
 # projects that should be sorted.
-
-export TMPDIR=`/bin/mktemp -d`
+if  [ -x "$(command -v mktemp)" ]; then
+    export TMPDIR=`mktemp -d`
+else
+    export TMPDIR=`/bin/mktemp -d`
+fi
 trap "rm -rf $TMPDIR" EXIT
 
 pushd $TMPDIR
