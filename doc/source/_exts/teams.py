@@ -51,6 +51,9 @@ def _team_to_rst(name, info):
     service = info.get('service')
     if service:
         yield ':Service: ' + service
+    liasons = info.get('liasons')
+    if liasons:
+        yield ':Liasons: ' + ", ".join(liasons)
     yield ''
     mission = info.get('mission', '').rstrip()
     if mission:

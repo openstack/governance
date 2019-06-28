@@ -31,6 +31,9 @@ Release Management:
     versioning rules and tools, then enabling project teams to produce
     their own releases.
   url: https://wiki.openstack.org/wiki/Release_Management
+  liasons:
+  - zaneb
+  - ttx
   tags:
     - team:diverse-affiliation
   deliverables:
