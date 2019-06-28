@@ -20,3 +20,13 @@ def load_project_file(filename='reference/projects.yaml'):
             f.read(),
             Loader=yamlordereddictloader.Loader,
         )
+
+
+def write_project_file(data, filename='reference/projects.yaml'):
+    with open(filename, 'w', encoding='utf-8') as f:
+        yaml.dump(
+            data,
+            f,
+            default_flow_style=False,
+            Dumper=yamlordereddictloader.Dumper,
+        )
