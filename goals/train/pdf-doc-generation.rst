@@ -59,7 +59,7 @@ The completion criteria for this goal is as follows:
       Publishing multiple PDFs not part of this goal, and should be deferred until
       after this goal is complete.
 
-#. Each guide generated includes the release name to ensure the user is fully aware of the
+#. Each guide generated includes the release version to ensure the user is fully aware of the
    content they have built. It would also be helpful to add a disclaimer that this
    information is updated regularly in the project repositories and to check for
    updates during maintenance periods.
