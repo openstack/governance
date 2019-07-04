@@ -24,7 +24,7 @@ from openstack_governance import projects
 LOG = logging.getLogger(__name__)
 
 
-class TCLiasonsTable(tables.Table):
+class TCLiaisonsTable(tables.Table):
     """Insert the members table using the referenced file as source.
     """
 
@@ -69,18 +69,18 @@ class TCLiasonsTable(tables.Table):
 
         # Build the table node using the parsed file
         data_iter = projects.load_project_file(filename)
-        liasons = {}
+        liaisons = {}
         for project_name, project in data_iter.items():
 
-            for liason in project.get('liasons', []):
+            for liaison in project.get('liaisons', []):
                 try:
-                    liasons[liason].extend([project_name])
+                    liaisons[liaison].extend([project_name])
                 except KeyError:
-                    liasons[liason] = []
-                    liasons[liason].extend([project_name])
+                    liaisons[liaison] = []
+                    liaisons[liaison].extend([project_name])
 
         table_node = self.build_table(
-            liasons,
+            liaisons,
             col_widths,
         )
         table_node['classes'] += self.options.get('class', [])
@@ -138,5 +138,5 @@ class TCLiasonsTable(tables.Table):
 
 
 def setup(app):
-    LOG.info('loading tc liasons extension')
-    app.add_directive('liasonstable', TCLiasonsTable)
+    LOG.info('loading tc liaisons extension')
+    app.add_directive('liaisonstable', TCLiaisonsTable)

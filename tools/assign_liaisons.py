@@ -35,12 +35,12 @@ def main():
     parser.add_argument(
         '--replace-all',
         action='store_true',
-        help='Replace all assigned liasons (%(default)s)',
+        help='Replace all assigned liaisons (%(default)s)',
     )
     parser.add_argument(
         '--remove-all',
         action='store_true',
-        help='Remove all assigned liasons (%(default)s)',
+        help='Remove all assigned liaisons (%(default)s)',
     )
     args = parser.parse_args()
 
@@ -59,7 +59,7 @@ def main():
         for nic in member_nics
     })
     for _, team in project_data.items():
-        for member in team.get('liasons', []):
+        for member in team.get('liaisons', []):
             member_counts.update({member: 1})
 
     choices = []
@@ -70,20 +70,20 @@ def main():
     # person to a team twice.
 
     for name, team in project_data.items():
-        liasons = team.get('liasons', [])
+        liaisons = team.get('liaisons', [])
         if args.remove_all:
-            team['liasons'] = []
+            team['liaisons'] = []
             continue
         if args.replace_all:
-            liasons = []
-        while len(liasons) < 2:
+            liaisons = []
+        while len(liaisons) < 2:
             random.shuffle(choices)
             next_choice = choices.pop()
-            while next_choice in liasons:
+            while next_choice in liaisons:
                 choices.insert(0, next_choice)
                 next_choice = choices.pop()
-            liasons.append(next_choice)
-        team['liasons'] = liasons
+            liaisons.append(next_choice)
+        team['liaisons'] = liaisons
 
     projects.write_project_file(project_data, args.projects_file)
 

@@ -53,7 +53,7 @@ class Team(object):
             dn: Deliverable(dn, di, self)
             for dn, di in self.data.get('deliverables', {}).items()
         }
-        self.liasons = data.get('liasons', [])
+        self.liaisons = data.get('liaisons', [])
 
     @property
     def tags(self):

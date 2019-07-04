@@ -11,7 +11,7 @@ Reference documents which need to be revised over time.
    principles
    charter
    projects/index
-   tc-liasons
+   tc-liaisons
    popup-teams
    technical-vision
    upstream-investment-opportunities/index
