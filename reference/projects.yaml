@@ -1452,6 +1452,11 @@ kolla:
     kolla-cli:
       repos:
         - openstack/kolla-cli
+    kayobe:
+      repos:
+        - x/kayobe
+        - x/kayobe-config
+        - x/kayobe-config-dev
 
 kuryr:
   ptl:
