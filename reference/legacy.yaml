@@ -1735,6 +1735,138 @@ tripleo:
       retired-on: 2018-05-02
       docs:
         contributor: https://docs.openstack.org/tripleo-incubator/latest/
+    ansible-role-tripleo-aodh:
+      repos:
+        - openstack/ansible-role-tripleo-aodh
+      retired-on: 2019-06-25
+    ansible-role-tripleo-barbican:
+      repos:
+        - openstack/ansible-role-tripleo-barbican
+      retired-on: 2019-06-25
+    ansible-role-tripleo-ceilometer:
+      repos:
+        - openstack/ansible-role-tripleo-ceilometer
+      retired-on: 2019-06-25
+    ansible-role-tripleo-cinder:
+      repos:
+        - openstack/ansible-role-tripleo-cinder
+      retired-on: 2019-06-25
+    ansible-role-tripleo-cookiecutter:
+      repos:
+        - openstack/ansible-role-tripleo-cookiecutter
+      retired-on: 2019-06-25
+    ansible-role-tripleo-designate:
+      repos:
+        - openstack/ansible-role-tripleo-designate
+      retired-on: 2019-06-25
+    ansible-role-tripleo-glance:
+      repos:
+        - openstack/ansible-role-tripleo-glance
+      retired-on: 2019-06-25
+    ansible-role-tripleo-gnocchi:
+      repos:
+        - openstack/ansible-role-tripleo-gnocchi
+      retired-on: 2019-06-25
+    ansible-role-tripleo-haproxy:
+      repos:
+        - openstack/ansible-role-tripleo-haproxy
+      retired-on: 2019-06-25
+    ansible-role-tripleo-heat:
+      repos:
+        - openstack/ansible-role-tripleo-heat
+      retired-on: 2019-06-25
+    ansible-role-tripleo-horizon:
+      repos:
+        - openstack/ansible-role-tripleo-horizon
+      retired-on: 2019-06-25
+    ansible-role-tripleo-ironic:
+      repos:
+        - openstack/ansible-role-tripleo-ironic
+      retired-on: 2019-06-25
+    ansible-role-tripleo-keepalived:
+      repos:
+        - openstack/ansible-role-tripleo-keepalived
+      retired-on: 2019-06-25
+    ansible-role-tripleo-keystone:
+      repos:
+        - openstack/ansible-role-tripleo-keystone
+      retired-on: 2019-06-25
+    ansible-role-tripleo-manila:
+      repos:
+        - openstack/ansible-role-tripleo-manila
+      retired-on: 2019-06-25
+    ansible-role-tripleo-memcached:
+      repos:
+        - openstack/ansible-role-tripleo-memcached
+      retired-on: 2019-06-25
+    ansible-role-tripleo-mistral:
+      repos:
+        - openstack/ansible-role-tripleo-mistral
+      retired-on: 2019-06-25
+    ansible-role-tripleo-neutron:
+      repos:
+        - openstack/ansible-role-tripleo-neutron
+      retired-on: 2019-06-25
+    ansible-role-tripleo-nova:
+      repos:
+        - openstack/ansible-role-tripleo-nova
+      retired-on: 2019-06-25
+    ansible-role-tripleo-octavia:
+      repos:
+        - openstack/ansible-role-tripleo-octavia
+      retired-on: 2019-06-25
+    ansible-role-tripleo-opendaylight:
+      repos:
+        - openstack/ansible-role-tripleo-opendaylight
+      retired-on: 2019-06-25
+    ansible-role-tripleo-ovn:
+      repos:
+        - openstack/ansible-role-tripleo-ovn
+      retired-on: 2019-06-25
+    ansible-role-tripleo-panko:
+      repos:
+        - openstack/ansible-role-tripleo-panko
+      retired-on: 2019-06-25
+    ansible-role-tripleo-qdrouterd:
+      repos:
+        - openstack/ansible-role-tripleo-qdrouterd
+      retired-on: 2019-06-25
+    ansible-role-tripleo-rabbitmq:
+      repos:
+        - openstack/ansible-role-tripleo-rabbitmq
+      retired-on: 2019-06-25
+    ansible-role-tripleo-rsyslog-sidecar:
+      repos:
+        - openstack/ansible-role-tripleo-rsyslog-sidecar
+      retired-on: 2019-06-25
+    ansible-role-tripleo-sahara:
+      repos:
+        - openstack/ansible-role-tripleo-sahara
+      retired-on: 2019-06-25
+    ansible-role-tripleo-sensu:
+      repos:
+        - openstack/ansible-role-tripleo-sensu
+      retired-on: 2019-06-25
+    ansible-role-tripleo-swift:
+      repos:
+        - openstack/ansible-role-tripleo-swift
+      retired-on: 2019-06-25
+    ansible-role-tripleo-tacker:
+      repos:
+        - openstack/ansible-role-tripleo-tacker
+      retired-on: 2019-06-25
+    ansible-role-tripleo-tempest:
+      repos:
+        - openstack/ansible-role-tripleo-tempest
+      retired-on: 2019-06-25
+    ansible-role-tripleo-ui:
+      repos:
+        - openstack/ansible-role-tripleo-ui
+      retired-on: 2019-06-25
+    ansible-role-tripleo-zaqar:
+      repos:
+        - openstack/ansible-role-tripleo-zaqar
+      retired-on: 2019-06-25
     os-cloud-config:
       repos:
         - openstack/os-cloud-config
