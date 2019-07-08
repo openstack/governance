@@ -1,9 +1,9 @@
-==========
-TC Liasons
-==========
+===========
+TC Liaisons
+===========
 
 OpenStack Project Team TC Liasons
 =================================
 
-.. liasonstable::
+.. liaisonstable::
     :datafile: ../reference/projects.yaml
