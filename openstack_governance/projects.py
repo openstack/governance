@@ -10,23 +10,17 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
-import yaml
-import yamlordereddictloader
+
+from openstack_governance import yamltools
 
 
 def load_project_file(filename='reference/projects.yaml'):
+    yaml = yamltools.YAML()
     with open(filename, 'r', encoding='utf-8') as f:
-        return yaml.load(
-            f.read(),
-            Loader=yamlordereddictloader.Loader,
-        )
+        return yaml.load(f)
 
 
 def write_project_file(data, filename='reference/projects.yaml'):
+    yaml = yamltools.YAML()
     with open(filename, 'w', encoding='utf-8') as f:
-        yaml.dump(
-            data,
-            f,
-            default_flow_style=False,
-            Dumper=yamlordereddictloader.Dumper,
-        )
+        yaml.dump(data, f)
