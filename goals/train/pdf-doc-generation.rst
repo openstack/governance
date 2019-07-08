@@ -26,6 +26,9 @@ to further our goal of being an accessible open source community.
    the responsibility of the user to ensure the content they are reading
    is relevant to their deployment.
 
+* `Storyboard stories <https://storyboard.openstack.org/#!/story/list?tags=pdf-doc-enabled>`__
+* `Storyboard dashboard <https://storyboard.openstack.org/#!/board/175>`__
+
 Champion
 ========
 
