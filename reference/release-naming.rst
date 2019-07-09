@@ -53,7 +53,7 @@ following steps:
 
 #. A Condorcet election is held to rank the names. The poll will be
    public, with the voting URL communicated through OpenStack mailing-lists
-   (openstack, openstack-dev, openstack-operators, openstack-foundation).
+   (openstack-discuss and openstack-foundation).
    The poll will include the names along with any links to mailing list
    discussions provided by the marketing community.
 
