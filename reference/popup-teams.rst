@@ -32,6 +32,8 @@ Image encryption
 
 * **Co-leads**: Josephine Seifert and Markus Hentsch
 
+* **TC Liaison**: Jeremy Stanley
+
 * **Objective**: Implementing encryption and decryption of images and the
   handling of those images in OpenStack
 
