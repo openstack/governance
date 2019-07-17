@@ -1729,16 +1729,28 @@ tripleo:
       repos:
         - openstack/ansible-role-k8s-tripleo
       retired-on: 2019-05-21
+    ansible-role-tripleo-ui:
+      repos:
+        - openstack/ansible-role-tripleo-ui
+      retired-on: 2019-06-13
     instack:
       repos:
         - openstack/instack
       retired-on: 2018-11-02
+    tempest-tripleo-ui:
+      repos:
+        - openstack/tempest-tripleo-ui
+      retired-on: 2019-06-13
     tripleo-incubator:
       repos:
         - openstack/tripleo-incubator
       retired-on: 2018-05-02
       docs:
         contributor: https://docs.openstack.org/tripleo-incubator/latest/
+    tripleo-ui:
+      repos:
+        - openstack/tripleo-ui
+      retired-on: 2019-06-13
     ansible-role-tripleo-aodh:
       repos:
         - openstack/ansible-role-tripleo-aodh
