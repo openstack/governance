@@ -1596,6 +1596,14 @@ Packaging-deb:
       repos:
         - openstack/deb-zaqar-ui
 
+Puppet OpenStack:
+  partial: yes
+  deliverables:
+    puppet-crane:
+      repos:
+        - openstack/puppet-crane
+      retired-on: 2019-07-17
+
 RefStack:
   ptl:
     name: Chris Hoge
