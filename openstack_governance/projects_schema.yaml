@@ -1,0 +1,95 @@
+---
+$schema: "http://json-schema.org/schema#"
+$id: "https://opendev.org/openstack/releases/src/branch/master/README.rst"
+
+
+additionalProperties:
+  # Do not allow any properties not defined here. This lets us catch
+  # typos.
+  additionalProperties: false
+  required:
+    - ptl
+    - deliverables
+  properties:
+    ptl:
+      type: "object"
+      required:
+        - name
+        - email
+      additionalProperties: false
+      properties:
+        name:
+          type: "string"
+        irc:
+          type: "string"
+        email:
+          type: "string"
+          format: "email"
+    appointed:
+      type: "array"
+      items:
+        type: "string"
+    irc-channel:
+      type: "string"
+    service:
+      type: "string"
+    url:
+      type: "string"
+    liaisons:
+      type: "array"
+      uniqueItems: true
+      items:
+        type: "string"
+    mission:
+      type: "string"
+    deliverables:
+      type: "object"
+      additionalProperties:
+        type: "object"
+        required:
+          - repos
+        additionalProperties: false
+        properties:
+          repos:
+            type: "array"
+            items:
+              type: "string"
+              pattern: "^[^/]+/[^/]+$"
+            minItems: 1
+            uniqueItems: true
+          tags:
+            type: "array"
+            items:
+              type: "string"
+          release-management:
+            type: "string"
+            enum:
+              - none
+              - deprecated
+              - external
+    tags:
+      type: "array"
+      items:
+        type: "string"
+    extra-atcs:
+      type: "array"
+      items:
+        type: "object"
+        required:
+          - name
+          - email
+          - expires-in
+        additionalProperties: false
+        properties:
+          name:
+            type: "string"
+          email:
+            type: "string"
+            format: "email"
+          expires-in:
+            type: "string"
+            pattern: >-
+              ^(January |February |March |April |May |June |July |August
+              |September |October |November |December )2[0-9]{3}$
+          comment:
+            type: "string"
