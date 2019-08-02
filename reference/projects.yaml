@@ -3801,6 +3801,7 @@ tripleo:
       repos:
         - openstack/dib-utils
     instack-undercloud:
+      release-management: deprecated
       repos:
         - openstack/instack-undercloud
     openstack-virtual-baremetal:
@@ -3841,6 +3842,7 @@ tripleo:
       repos:
         - openstack/tripleo-common
     tripleo-common-tempest-plugin:
+      release-management: deprecated
       repos:
         - openstack/tripleo-common-tempest-plugin
     tripleo-docs:
