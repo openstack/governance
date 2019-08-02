@@ -1359,6 +1359,7 @@ ironic:
       repos:
         - openstack/networking-generic-switch
     networking-generic-switch-tempest-plugin:
+      release-management: deprecated
       repos:
         - openstack/networking-generic-switch-tempest-plugin
     python-ironic-inspector-client:
