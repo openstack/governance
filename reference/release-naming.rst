@@ -111,5 +111,5 @@ Q        Monty Taylor   2016-06-22        2016-07-06  2016-07-13  New South Wale
 R        Monty Taylor   2017-03-22        2017-04-05  2017-04-12  British Columbia
 S        Paul Belanger  2018-02-21        2018-03-14  2018-03-21  Berlin
 T        Tony Breeds    2018-09-15        2018-10-15  2018-10-22  Colorado
-U        Tony Breeds    2019-07-01        2019-07-29  2019-08-05  China
+U        Tony Breeds    2019-07-01        2019-08-12  2019-08-19  China
 =======  =============  ================  ==========  ==========  ==================
