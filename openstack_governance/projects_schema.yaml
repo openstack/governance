@@ -11,6 +11,7 @@ additionalProperties:
     - ptl
     - deliverables
     - url
+    - mission
   properties:
     ptl:
       type: "object"
