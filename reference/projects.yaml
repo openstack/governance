@@ -3624,6 +3624,10 @@ swift:
     email: tim@swiftstack.com
   irc-channel: openstack-swift
   service: Object Storage service
+  mission: >
+    Provide software for storing and retrieving lots of data
+    with a simple API. Built for scale and optimized for durability,
+    availability, and concurrency across the entire data set.
   url: https://wiki.openstack.org/wiki/Swift
   deliverables:
     liberasurecode:
