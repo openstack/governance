@@ -3346,9 +3346,9 @@ rally:
     - jroll
 Release Management:
   ptl:
-    name: Tony Breeds
-    irc: tonyb
-    email: tony@bakeyournoodle.com
+    name: Sean McGinnis
+    irc: smcginnis
+    email: sean.mcginnis@gmail.com
   irc-channel: openstack-release
   mission: >
     Coordinating the release of OpenStack deliverables, by defining the
