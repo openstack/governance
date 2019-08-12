@@ -12,6 +12,7 @@
 # under the License.
 
 import argparse
+from datetime import datetime
 import json
 import logging
 
@@ -110,6 +111,8 @@ def main():
     with open(args.projects, 'r', encoding='utf-8') as f:
         projects = yaml.safe_load(f.read())
 
+    exit_code = 0
+
     for project_name, project_data in sorted(projects.items()):
         atcs = project_data.get('extra-atcs', [])
         for atc in atcs:
@@ -120,9 +123,20 @@ def main():
                     project_name, atc, e))
             else:
                 if not member:
-                    print(('ERROR: {}: Did not find {} associated '
-                           'with a member for {}').format(
-                               project_name, atc['email'], atc))
+                    # NOTE(mnaser): The ATC membership checks were not
+                    #               enforced for all ATCs expiring before
+                    #               January 2020.  This should be removed
+                    #               after January 2020.
+                    expires = datetime.strptime(atc['expires-in'], "%B %Y")
+                    if expires <= datetime(2020, 1, 1):
+                        msg = 'Skipping {} from validation'.format(atc)
+                    else:
+                        msg = 'Unable to find membership: {}'.format(atc)
+                        exit_code = 1
+
+                    print('{}: {}'.format(project_name, msg))
+
+    return exit_code
 
 
 if __name__ == '__main__':
