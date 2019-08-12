@@ -10,6 +10,7 @@ additionalProperties:
   required:
     - ptl
     - deliverables
+    - url
   properties:
     ptl:
       type: "object"
