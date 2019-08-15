@@ -1506,9 +1506,9 @@ kolla:
     - ttx
 kuryr:
   ptl:
-    name: Daniel Mellado
-    irc: dmellado@freenode
-    email: dmellado@redhat.com
+    name: Michał Dulko
+    irc: dulek
+    email: mdulko@redhat.com
   irc-channel: openstack-kuryr
   mission: >
     Bridge between container framework networking and storage models
