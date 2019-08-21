@@ -44,6 +44,15 @@ following steps:
    interpreting the rules.  It is not necessary to reduce the list of
    proposed names to a small number.
 
+#. The election official, in consultation with the TC, should remove from
+   the list any name that feedback suggests would be culturally
+   inappropriate in any sector of the OpenStack community. The purpose of
+   naming the release after a geographical feature is in part to honor the
+   host city, and we owe it to our hosts not to associate them with terms
+   that unwittingly conflict with the `Code of Conduct
+   <https://www.openstack.org/legal/community-code-of-conduct/>`'s goal to
+   be considerate once we are aware of them.
+
 #. Once the list is finalized and publicized, a one-week period shall
    elapse before the start of the election so that any names removed
    from consideration because they did not meet the `Release Name
