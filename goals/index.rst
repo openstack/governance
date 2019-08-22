@@ -36,38 +36,56 @@ Identifying Goals
 
 The goal process enables the community of OpenStack projects to
 surface common concerns and work out specific technical strategies for
-addressing these concerns. This community input enables the TC to
-select specific community-wide goals for all projects to achieve
-during a development cycle. We need to consider the timing, cycle
-length, priority, and feasibility of the goals selected.
+addressing these concerns.
 
-We will brainstorm goals before and at each summit, using feedback
-received from deployers, users, contributors, and PTLs. Those goals
-will be discussed on the mailing list to collect feedback about
-whether each goal is achievable and described completely. The TC will
-use that input to come to consensus and make the final decisions for
-OpenStack-wide goals for each cycle in time to allow planning and
-other discussion at the PTG event at the start of the cycle.
+The first step in the process is to build a `backlog of potential goals`_.
+This helps us coalesce feedback received from deployers, users, contributors,
+and PTLs. It is the reference used as a base for goal discussion during
+Forum events. Finally, it serves as inspiration for prospective goal
+champions.
+
+.. _`backlog of potential goals`: https://etherpad.openstack.org/p/community-goals
 
 Defining Goals
 --------------
 
 Goals are defined here in the governance documentation to ensure that
 we establish a common understanding of the expectations being set.
+
+Once champions have volunteered to propose and drive a specific goal, they
+should iterate through goal definition in the ``/goals/proposed/`` directory.
+This allows to keep the goal selection process separate from the goal
+definition process.
+
 Goal definitions should use the provided template so they are all
 formatted consistently.  The goal definition does not take the place
 of any blueprints, spec documents, or other planning tools used within
 a project to track its work, but can be referenced from those
 documents.
 
-To define goals for a release cycle, a TC member should set up the
-series directory in one patch, and then in follow-up patches TC
-members can propose specific goals. This separates the discussion for
-each goal onto its own review.
+This separates the discussion for each goal, and allows authors to gradually
+refine and improve their proposal through multiple incremental changes.
+Goals should be discussed on the mailing list to collect feedback on their
+feasibility, and consensus on whether they have been completely and clearly
+described.
 
-The actual goals shouldn't be completely new proposals (things no one
-else in the community has seen before) because there will have been
-discussion in the course of reaching consensus.
+Selecting goals for a cycle
+---------------------------
+
+The TC will consider proposed goals from the ``/goals/proposed/`` directory
+and select a set of OpenStack-wide goals for each cycle in time to allow
+planning and other discussion at the PTG event at the start of the cycle.
+
+To define goals for a release cycle, a TC member should first set up the
+new series-specific directory under ``/goals/selected/`` in one patch (for
+example, create a ``/goals/selected/unicorn`` subdirectory for the Unicorn
+release). Then a selection of goals can be proposed: a single subsequent
+patch moving a set of goals from the ``/goals/proposed/`` directory to the
+new ``/goals/selected/$series/`` subdirectory.
+
+This allows to consider the proposed series goals as a group, and take
+into account how feasible they are together, considering the timing and
+cycle length.
 
 Tracking Goal Progress
 ----------------------
@@ -153,11 +171,11 @@ such as how many projects completed the goal, reasons behind some projects
 that did not complete the goal, anything notable that came up during the goal
 implementation phase, and next steps if there are any.
 
-Release Cycles
-==============
+Community goals
+===============
 
 .. toctree::
-   :glob:
-   :maxdepth: 2
+   :maxdepth: 3
 
-   */index
+   selected/index
+   proposed/index

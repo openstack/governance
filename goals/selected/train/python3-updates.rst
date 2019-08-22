@@ -5,9 +5,9 @@
 =========================================
 
 This goal is to implement the process set out in the
-:doc:`../../resolutions/20181024-python-update-process` TC resolution, for the
-Train cycle to ensure unit testing is in place for all of the
-:doc:`../../reference/runtimes/train`.
+:doc:`../../../resolutions/20181024-python-update-process` TC resolution, for
+the Train cycle to ensure unit testing is in place for all of the
+:doc:`../../../reference/runtimes/train`.
 
 In practice, this generally means adding unit tests for Python 3.7 and dropping
 unit tests for Python 3.5. Using the Zuul template for Train will ensure that
@@ -104,16 +104,17 @@ Python 2 testing remains unchanged. Repositories that unit test on Python 2
 should continue to do so using the ``openstack-python27-jobs`` Zuul template,
 and declare support for Python 2.7 in ``setup.cfg``. Testing of Python 2 must
 not be dropped before the U cycle, as detailed in the
-:doc:`../../resolutions/20180529-python2-deprecation-timeline` TC resolution.
+:doc:`../../../resolutions/20180529-python2-deprecation-timeline` TC
+resolution.
 
 References
 ==========
 
-* :doc:`../../resolutions/20181024-python-update-process`
-* :doc:`../../reference/runtimes/train`
+* :doc:`../../../resolutions/20181024-python-update-process`
+* :doc:`../../../reference/runtimes/train`
 * `Porting to Python 3.7
   <https://docs.python.org/3/whatsnew/3.7.html#porting-to-python-3-7>`_
-* :doc:`../../resolutions/20180529-python2-deprecation-timeline`
+* :doc:`../../../resolutions/20180529-python2-deprecation-timeline`
 
 Current State / Anticipated Impact
 ==================================
