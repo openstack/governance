@@ -2518,6 +2518,7 @@ OpenStackAnsible:
         - openstack/ansible-role-systemd_networkd
         - openstack/ansible-role-systemd_service
         - openstack/ansible-role-thales-hsm
+        - openstack/ansible-role-uwsgi
         - openstack/ansible-hardening
         - openstack/openstack-ansible-apt_package_pinning
         - openstack/openstack-ansible-ceph_client
