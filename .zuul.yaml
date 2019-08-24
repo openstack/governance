@@ -15,6 +15,6 @@
         - openstack-tox-linters:
             required-projects:
               - openstack/project-config
-    post:
+    promote:
       jobs:
-        - publish-governance-tc
+        - promote-governance-tc
