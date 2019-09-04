@@ -78,14 +78,16 @@ planning and other discussion at the PTG event at the start of the cycle.
 
 To define goals for a release cycle, a TC member should first set up the
 new series-specific directory under ``/goals/selected/`` in one patch (for
-example, create a ``/goals/selected/unicorn`` subdirectory for the Unicorn
+example, create a ``/goals/selected/train/`` subdirectory for the Train
 release). Then a selection of goals can be proposed: a single subsequent
 patch moving a set of goals from the ``/goals/proposed/`` directory to the
-new ``/goals/selected/$series/`` subdirectory.
+new ``/goals/selected/<RELEASENAME>/`` subdirectory.
 
 This allows to consider the proposed series goals as a group, and take
 into account how feasible they are together, considering the timing and
-cycle length.
+cycle length. Champions for selected goals should +1 this patch to confirm
+they are ready to work on their goal in the chosen cycle.
+
 
 Tracking Goal Progress
 ----------------------
