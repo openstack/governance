@@ -225,9 +225,11 @@ congress:
     - evrardjp
 cyborg:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Sundar Nadathur
+    irc: Sundar
+    email: sundar.nadathur@intel.com
+  appointed:
+    - ussuri
   irc-channel: openstack-cyborg
   service: Accelerator Life Cycle Management
   mission: >
