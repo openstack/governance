@@ -3,20 +3,13 @@
   email: asettle@suse.com
   memberid: 19871
   date: March 2020
-  role: vice-chair
-
-- name: Doug Hellmann
-  irc: dhellmann
-  email: doug@doughellmann.com
-  memberid: 359
-  date: October 2019
   role: null
 
 - name: Ghanshyam Mann
   irc: gmann
   email: gmann@ghanshyammann.com
   memberid: 6461
-  date: October 2019
+  date: September 2020
   role: null
 
 - name: Graham Hayes
@@ -26,18 +19,18 @@
   date: March 2020
   role: null
 
+- name: Jay Bryant
+  irc: jungleboyj
+  email: jsbryant@electronicjungle.net
+  memberid: 8348
+  date: September 2020
+  role: null
+
 - name: Jean-Philippe Evrard
   irc: evrardjp
   email: jean-philippe@evrard.me
   memberid: 37952
-  date: October 2019
-  role: null
-
-- name: Jeremy Stanley
-  irc: fungi
-  email: fungi@yuggoth.org
-  memberid: 5479
-  date: October 2019
+  date: September 2020
   role: null
 
 - name: Jim Rollenhagen
@@ -47,18 +40,18 @@
   date: March 2020
   role: null
 
-- name: Julia Kreger
-  irc: TheJulia
-  email: juliaashleykreger@gmail.com
-  memberid: 19088
-  date: October 2019
+- name: Kevin Carter
+  irc: cloudnull
+  email: kecarter@redhat.com
+  memberid: 9572
+  date: September 2020
   role: null
 
-- name: Lance Bragstad
-  irc: lbragstad
-  email: lbragstad@gmail.com
-  memberid: 15164
-  date: October 2019
+- name: Kendall Nelson
+  irc: diablo_rojo
+  email: knelson@openstack.org
+  memberid: 35859
+  date: September 2020
   role: null
 
 - name: Mohammed Naser
@@ -66,7 +59,14 @@
   email: mnaser@vexxhost.com
   memberid: 8899
   date: March 2020
-  role: chair
+  role: null
+
+- name: Nate Johnston
+  irc: njohnston
+  email: nate.johnston@redhat.com
+  memberid: 33555
+  date: September 2020
+  role: null
 
 - name: Rico Lin
   irc: ricolin
