@@ -58,14 +58,15 @@ def main():
         nic: 0
         for nic in member_nics
     })
-    for _, team in project_data.items():
-        for member in team.get('liaisons', []):
-            member_counts.update({member: 1})
+
+    if not args.replace_all:
+        for _, team in project_data.items():
+            for member in team.get('liaisons', []):
+                member_counts.update({member: 1})
 
     choices = []
     for member, count in sorted(member_counts.items()):
         choices.extend([member] * (assignments_per - count))
-
     # Make sure we have a list in order that isn't assigning the same
     # person to a team twice.
 
