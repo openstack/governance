@@ -44,7 +44,7 @@ affect other teams or go contrary to general OpenStack goals.
 TC Members
 ==========
 
-The TC is composed of 13 directly-elected members. It is partially renewed
+The TC is composed of directly-elected members. It is partially renewed
 using elections every 6 months. All TC members must be OpenStack Foundation
 individual members. You can cumulate any other role, including Foundation
 Director, with a TC seat.
@@ -158,9 +158,8 @@ continue to meet the criteria.
 Election for TC seats
 =====================
 
-The 13 TC seats are partially renewed every 6 months using staggered elections:
-6 seats are renewed every (Northern hemisphere) Fall, and 7 seats are renewed
-every Spring. Seats are valid for one-year terms. For this election we'll use a
+The TC seats are partially renewed every 6 months using staggered elections.
+Seats are valid for one-year terms. For this election we'll use a
 multiple-winner election system (see below). The election is held no later than
 6 weeks prior to each OpenStack Summit (on or before 'S-6' week), with
 elections held open for no less than four business days.
@@ -218,15 +217,18 @@ Bylaws
 describe eligibility requirements and membership constraints for the
 Technical Committee.
 
-Initial committee
-=================
+Number of seats to elect
+========================
 
-The current TC will serve as TC until the elections in Fall 2013. At that
-point, the two TC members who still had 6 months to serve get a 6-month seat,
-and an election is run to determine the 11 other members. Candidates ranking
-1st to 6th would get one-year seats, and candidates ranking 7th to 11th would
-get 6-month seats. Spring 2014 elections should see the normal renewal of 7
-seats.
+The Q3 2019 elections elected 6 seats, for a total of 13 members for the
+Q3-Q4 2019 TC membership. Over 2020 the number of TC seats will be
+gradually reduced to 9 members, with the following number of seats to elect:
+
+- Q1 2020 elections: 5 seats (out of 7 incumbents): 11 members total
+- Q3 2020 elections: 4 seats (out of 6 incumbents): 9 members total
+
+Each year after 2020, the Q1 election should renew 5 seats, and the Q3 election
+should renew 4 seats.
 
 Election systems
 ================
