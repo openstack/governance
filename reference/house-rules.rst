@@ -14,8 +14,8 @@ Typo fixes
 :Gerrit topic: ``typo-fix``
 
 When the change fixes content that is obviously wrong (updates a PTL email
-address, fixes a typo...) then the chair is allowed to directly approve them.
-Typo fixes proposed by the chair should have 2 RollCall+1 votes from TC members.
+address, fixes a typo...) then any TC member (who is not the proposer) can
+directly approve them.
 
 Code changes
 ------------
@@ -26,7 +26,8 @@ The `openstack/governance` repository also contains code to build and publish
 pages on the governance.openstack.org website. For those we apply the normal
 code review rules (with RollCall votes being considered +-2): change will be
 approved once 2 `RollCall+1` (other than the change owner) are posted (and no
-`RollCall-1`).
+`RollCall-1`). Any TC member (who is not the proposer) can approve them at this
+point.
 
 Documentation changes
 ---------------------
@@ -129,8 +130,9 @@ Rolling back fast-tracked changes
 
 As a safety net, if any member disagrees with any change that was fast-tracked
 under one of those house rules, that member can propose a revert of the
-change. Such revert should be directly approved by the chair and the change
-be discussed on the mailing list or on the re-proposed change in gerrit.
+change. Such revert should be directly approved by any TC member (who is not
+the proposer) and the change be discussed on the mailing list or on the
+re-proposed change in gerrit.
 
 Voting on Changes in openstack/governance
 -----------------------------------------
