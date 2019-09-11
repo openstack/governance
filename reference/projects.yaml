@@ -3936,11 +3936,12 @@ watcher:
     - jroll
 winstackers:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Lucian Petrut
+    irc: lpetrut
+    email: lpetrut@cloudbasesolutions.com
   appointed:
     - stein
+    - ussuri
   irc-channel: openstack-hyper-v
   mission: >
     To facilitate the integration of Hyper-V, Windows and related components
