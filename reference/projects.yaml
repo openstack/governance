@@ -810,7 +810,7 @@ Infrastructure:
         - opendev/afsmon
     ansible-role-cloud-launcher:
       repos:
-        - x/ansible-role-cloud-launcher
+        - opendev/ansible-role-cloud-launcher
     ansible-role-puppet:
       repos:
         - opendev/ansible-role-puppet
@@ -1422,9 +1422,9 @@ kolla:
         - openstack/kolla-cli
     kayobe:
       repos:
-        - x/kayobe
-        - x/kayobe-config
-        - x/kayobe-config-dev
+        - openstack/kayobe
+        - openstack/kayobe-config
+        - openstack/kayobe-config-dev
 
   liaisons:
     - evrardjp
