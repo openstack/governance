@@ -317,8 +317,10 @@ def get_one_status(change, delegates, tc_members):
         else:
             can_approve = 'YES'
 
-    elif topic in ('code-change', 'documentation-change'):
+    elif topic in ('code-change', 'documentation-change', 'election-results'):
         # https://governance.openstack.org/tc/reference/house-rules.html#code-changes
+        # https://governance.openstack.org/tc/reference/house-rules.html#documentation-changes
+        # https://governance.openstack.org/tc/reference/house-rules.html#election-results
         if votes[-1] or code_reviews[-1]:
             can_approve = 'dissenting votes'
         elif votes[1] < 2:

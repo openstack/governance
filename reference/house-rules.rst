@@ -43,6 +43,21 @@ etc.), follow the normal code review rules (with RollCall votes being
 considered +-2): change will be approved once 2 `RollCall+1` (other
 than the change owner) are posted (and no `RollCall-1`).
 
+Election Results
+----------------
+
+:Gerrit topic: ``election-results``
+
+The results of elections are documented in the `openstack/governance`
+repository, but are not subject to "review" or "approval" by the TC,
+other than to confirm that they accurately reflect the outcome of the
+election. Patches to update those results for TC and PTL elections
+should be reviewed and confirmed by the election officials, and then
+approved and merged following the normal code review rules (with
+RollCall votes being considered +-2): change will be approved once 2
+`RollCall+1` (other than the change owner) are posted (and no
+`RollCall-1`).
+
 Delegated tags
 --------------
 
