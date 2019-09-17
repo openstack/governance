@@ -138,6 +138,14 @@ cue:
         - type:library
         - release:independent
 
+cyborg:
+  partial: yes
+  deliverables:
+    os-acc:
+      retired-on: 2019-09-16
+      repos:
+        - openstack/os-acc
+
 dragonflow:
   ptl:
     name: Omer Anson
