@@ -257,9 +257,11 @@ cyborg:
     - fungi
 designate:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Nicolas Bock
+    irc: nicolasbock
+    email: nicolasbock@gmail.com
+  appointed:
+    - ussuri
   service: DNS service
   irc-channel: openstack-dns
   mission: >
