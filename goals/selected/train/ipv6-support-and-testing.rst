@@ -67,7 +67,7 @@ Gerrit Topic
 To facilitate tracking commits related to this goal should use the
 gerrit topic::
 
-  IPv6-support-and-testing
+  ipv6-only-deployment-and-testing
 
 Completion Criteria
 ===================
