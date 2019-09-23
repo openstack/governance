@@ -48,11 +48,10 @@ Completion Criteria
 The completion criteria for this goal is as follows:
 
 #. Each team needs to ensure they can build PDFs and that the PDFs look
-   respectable. It is not a requirement of the project teams to update their
-   repo to allow local building of PDFs.
+   respectable and readable. This definition is dependent per-project and
+   should be explored at the discretion of the project team.
 
-#. The doc gate job should run and produce PDFs for all projects, it should not
-   depend on in-repository declarations of new dependencies or a new tox env.
+#. Each team needs to define a new tox env to enable the PDF build.
 
 #. It is possible to run Sphinx using the configuration in `doc/source` and generate a
    single PDF file containing all of the documentation in that directory.
