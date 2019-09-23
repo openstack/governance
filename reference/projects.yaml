@@ -631,9 +631,11 @@ horizon:
     - jroll
 I18n:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Ian Y. Choi
+    irc: ianychoi
+    email: ianyrchoi@gmail.com
+  appointed:
+    - ussuri
   mission: >
     To make OpenStack ubiquitously accessible to people of
     all language backgrounds.
