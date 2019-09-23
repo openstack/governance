@@ -17,6 +17,7 @@ import collections
 import datetime
 import json
 import logging
+import math
 import operator
 
 import prettytable
@@ -27,6 +28,8 @@ from openstack_governance import members
 
 
 LOG = logging.getLogger(__name__)
+
+TC_SIZE = 13
 
 
 def decode_json(raw):
@@ -216,10 +219,11 @@ def get_one_status(change, delegates, tc_members):
         # https://governance.openstack.org/tc/reference/charter.html#motions
         parts = []
 
-        # At least 5 positive votes and more positive than negative
-        # votes.
-        votes_to_approve = (votes[1] >= 5 and votes[1] > votes[-1])
-        reached_majority = when_majority(change, 5)
+        # At least at third rounded up positive votes and more positive than
+        # negative votes.
+        necessary_votes = math.ceil(TC_SIZE / 3)
+        votes_to_approve = votes[1] >= necessary_votes and votes[1] > votes[-1]
+        reached_necessary_votes = when_majority(change, necessary_votes)
 
         parts.append('last change on {}'.format(latest_created.date()))
 
@@ -228,20 +232,22 @@ def get_one_status(change, delegates, tc_members):
             time_to_approve = False
             parts.append('has not been open 7 days')
             earliest = str(latest_created.date() + datetime.timedelta(8))
-        elif reached_majority:
-            # Wait at least 3 days after reaching majority.
-            earliest = str(reached_majority.date() + datetime.timedelta(4))
-            since_majority = now.date() - reached_majority.date()
-            time_to_approve = since_majority > datetime.timedelta(3)
+        elif reached_necessary_votes:
+            # Wait at least 3 days after reaching necessary votes.
+            earliest = str(
+                reached_necessary_votes.date() + datetime.timedelta(4)
+            )
+            since_necessary_votes = now.date() - reached_necessary_votes.date()
+            time_to_approve = since_necessary_votes > datetime.timedelta(3)
         else:
             time_to_approve = False
-            earliest = '4 days after 5 positive votes'
+            earliest = '4 days after {} positive votes'.format(necessary_votes)
 
         if votes_to_approve and time_to_approve:
             parts.append('YES')
 
-        if reached_majority and not time_to_approve:
-            parts.append('too soon')
+        if reached_necessary_votes and not time_to_approve:
+            parts.append('enough required votes but too soon')
 
         # Even if we can approve it, if there are dissenting votes we
         # may want to continue discussion or refine the proposal.
@@ -251,20 +257,18 @@ def get_one_status(change, delegates, tc_members):
             else:
                 parts.append('dissenting votes')
 
-        if votes[1] < 5:
+        if votes[1] < necessary_votes:
             parts.append('not enough votes')
-        elif votes[1] == 5:
+        elif votes[1] == necessary_votes:
             parts.append('minimum favorable votes')
-        elif reached_majority:
-            parts.append('majority')
         else:
-            parts.append('enough votes')
+            parts.append('sufficient votes')
 
-        if not reached_majority:
+        if not (votes[1] > math.floor(TC_SIZE / 2)):
             # Even if we can approve it, if the majority have not
             # voted yes we may want to continue discussion or call for
             # a final vote.
-            parts.append('not majority')
+            parts.append('plz whip votes - no majority and things can change')
 
         can_approve = ',\n'.join(parts)
 
@@ -272,33 +276,36 @@ def get_one_status(change, delegates, tc_members):
         # https://governance.openstack.org/tc/reference/charter.html#amendment
         parts = []
 
-        # At least 2/3 (9) positive votes.
-        votes_to_approve = votes[1] > 9
+        # At least 2/3 positive votes.
+        necessary_votes = math.ceil(TC_SIZE / 3 * 2)
+        votes_to_approve = votes[1] > necessary_votes
 
         # Wait least 3 days after reaching majority.
-        reached_majority = when_majority(change, 9)
-        if reached_majority:
-            earliest = str(reached_majority.date() + datetime.timedelta(4))
-            since_majority = now.date() - reached_majority.date()
-            time_to_approve = since_majority > datetime.timedelta(3)
+        reached_supermajority = when_majority(change, necessary_votes)
+        if reached_supermajority:
+            earliest = str(
+                reached_supermajority.date() + datetime.timedelta(4)
+            )
+            since_supermajority = now.date() - reached_supermajority.date()
+            time_to_approve = since_supermajority > datetime.timedelta(3)
         else:
             time_to_approve = False
-            earliest = '4 days after 9 positive votes'
+            earliest = '4 days after {} positive votes'.format(necessary_votes)
 
         if votes_to_approve and time_to_approve:
-            parts.append('YES')
+            parts.append('CAN APPROVE')
 
-        if reached_majority and not time_to_approve:
-            parts.append('too soon')
+        if reached_supermajority and not time_to_approve:
+            parts.append('enough required votes but too soon')
 
         # Even if we can approve it, if there are dissenting votes we
         # may want to continue discussion or refine the proposal.
         if votes[-1]:
             parts.append('dissenting votes')
 
-        if votes[1] < 9:
+        if votes[1] < necessary_votes:
             parts.append('not enough votes')
-        elif votes[1] == 9:
+        elif votes[1] == necessary_votes:
             parts.append('minimum favorable votes')
         else:
             parts.append('enough votes')
@@ -326,7 +333,7 @@ def get_one_status(change, delegates, tc_members):
         elif votes[1] < 2:
             can_approve = 'not enough reviews'
         else:
-            can_approve = 'YES'
+            can_approve = 'CAN APPROVE'
 
     elif topic in delegates.keys():
         # https://governance.openstack.org/tc/reference/house-rules.html#delegated-tags
@@ -351,7 +358,7 @@ def get_one_status(change, delegates, tc_members):
         elif age <= datetime.timedelta(7):
             can_approve = 'too soon'
         else:
-            can_approve = 'YES'
+            can_approve = 'CAN APPROVE'
 
     elif topic == 'goal-update':
         # https://governance.openstack.org/tc/reference/house-rules.html#goal-updates-from-ptls
@@ -364,7 +371,7 @@ def get_one_status(change, delegates, tc_members):
         elif age <= datetime.timedelta(7):
             can_approve = 'too soon'
         else:
-            can_approve = 'YES'
+            can_approve = 'CAN APPROVE'
 
     else:
         topic = 'unknown topic'
@@ -468,6 +475,7 @@ def main():
     for row in status:
         x.add_row([row[c] for c in columns])
     print(x.get_string())
+
 
 if __name__ == '__main__':
     main()
