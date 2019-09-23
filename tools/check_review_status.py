@@ -305,22 +305,11 @@ def get_one_status(change, delegates, tc_members):
 
         can_approve = ',\n'.join(parts)
 
-    elif topic == 'typo-fix':
-        # https://governance.openstack.org/tc/reference/house-rules.html#typo-fixes
-        if votes[-1] or code_reviews[-1]:
-            can_approve = 'dissenting votes'
-        elif owner == 'Doug Hellmann' or owner == 'Mohammed Naser':  # TC-chairs
-            if votes[1] < 2:
-                can_approve = 'not enough reviews'
-            else:
-                can_approve = 'YES, chair rules'
-        else:
-            can_approve = 'YES'
-
-    elif topic in ('code-change', 'documentation-change', 'election-results'):
+    elif topic in ('code-change', 'documentation-change', 'election-results', 'typo-fix'):
         # https://governance.openstack.org/tc/reference/house-rules.html#code-changes
         # https://governance.openstack.org/tc/reference/house-rules.html#documentation-changes
         # https://governance.openstack.org/tc/reference/house-rules.html#election-results
+        # https://governance.openstack.org/tc/reference/house-rules.html#typo-fixes
         if votes[-1] or code_reviews[-1]:
             can_approve = 'dissenting votes'
         elif votes[1] < 2:
