@@ -2918,9 +2918,11 @@ Packaging-rpm:
     - njohnston
 placement:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Tetsuro Nakamura
+    irc: tetsuro
+    email: tetsuro.nakamura.bc@hco.ntt.co.jp
+  appointed:
+    - ussuri
   irc-channel: openstack-placement
   service: Placement service
   mission: >
