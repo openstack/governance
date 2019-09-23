@@ -2630,9 +2630,11 @@ OpenStackClient:
     - jroll
 OpenStackSDK:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Monty Taylor
+    irc: mordred
+    email: mordred@inaugust.com
+  appointed:
+    - ussuri
   irc-channel: openstack-sdks
   service: Multi-cloud Python SDK for End Users
   mission: >
