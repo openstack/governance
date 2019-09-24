@@ -50,7 +50,7 @@ following steps:
    naming the release after a geographical feature is in part to honor the
    host city, and we owe it to our hosts not to associate them with terms
    that unwittingly conflict with the `Code of Conduct
-   <https://www.openstack.org/legal/community-code-of-conduct/>`'s goal to
+   <https://www.openstack.org/legal/community-code-of-conduct/>`_'s goal to
    be considerate once we are aware of them.
 
 #. Once the list is finalized and publicized, a one-week period shall
