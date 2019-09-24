@@ -99,6 +99,13 @@ being chosen.
    Words that describe the feature should not be included, so "Foo
    City" or "Foo Peak" would both be eligible as "Foo".
 
+#. The name must refer to the *name* of the geographic feature, not
+   merely describe the generic type of geographic feature (e.g. "City"
+   or "Peak" would not be eligible in the above example). This does not
+   prevent an otherwise eligible name that also happens to be another
+   type of geographic feature (e.g. "Hill Street" would be eligible as
+   "Hill", but not as "Street").
+
 Names which do not meet these criteria but otherwise sound really cool
 should be added to a separate section of the wiki page and the TC may
 make an exception for one or more of them to be considered in the
