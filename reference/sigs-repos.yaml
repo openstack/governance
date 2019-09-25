@@ -1,5 +1,7 @@
 ---
 # List of repositories owned by SIGs
+ansible:
+  - repo: openstack/ansible-collections-openstack
 meta:
   - repo: openstack/governance-sigs
 security:
