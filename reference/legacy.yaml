@@ -485,6 +485,10 @@ OpenStack Charms:
       retired-on: 2018-09-22
       repos:
         - openstack/charm-ceph
+    charm-neutron-api-genericswitch:
+      retired-on: 2019-09-10
+      repos:
+        - openstack/charm-neutron-api-genericswitch
 
 OpenStackAnsible:
   service: Ansible playbooks and roles for deployment
