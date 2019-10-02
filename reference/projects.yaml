@@ -2051,6 +2051,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-panko
+    charm-placement:
+      release-management: external
+      repos:
+        - openstack/charm-placement
     charm-glance:
       release-management: external
       repos:
@@ -2183,6 +2187,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-interface-pacemaker-remote
+    charm-interface-placement:
+      release-management: external
+      repos:
+        - openstack/charm-interface-placement
     charm-interface-rabbitmq:
       release-management: external
       repos:
