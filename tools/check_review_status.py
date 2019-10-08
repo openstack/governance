@@ -31,6 +31,14 @@ LOG = logging.getLogger(__name__)
 
 TC_SIZE = 13
 
+# For formal-vote votes, age in days that a change has to have existed
+# before it can be approved
+creation_age_threshold = datetime.timedelta(days=7)
+
+# For formal-vote votes, age in days since a change has reached a
+# the necessary amount of votes before it can be approved
+reached_votes_age_threshold = datetime.timedelta(days=3)
+
 
 def decode_json(raw):
     """Trap JSON decoding failures and provide more detailed errors
@@ -192,8 +200,8 @@ def get_one_status(change, delegates, tc_members):
 
     latest = find_latest_revision(change)
     latest_created = to_datetime(latest['created'])
-    now = datetime.datetime.now()
-    age = now.date() - latest_created.date()
+    now = datetime.datetime.utcnow()
+    age = now - latest_created
     earliest = ''
 
     code_reviews = count_votes(change, 'Code-Review')
@@ -211,6 +219,7 @@ def get_one_status(change, delegates, tc_members):
 
     elif verified[-1]:
         can_approve = 'NO, verification failure'
+        earliest = 'when passing'
 
     elif topic == 'on-hold':
         can_approve = 'on hold'
@@ -225,23 +234,28 @@ def get_one_status(change, delegates, tc_members):
         votes_to_approve = votes[1] >= necessary_votes and votes[1] > votes[-1]
         reached_necessary_votes = when_majority(change, necessary_votes)
 
-        parts.append('last change on {}'.format(latest_created.date()))
+        parts.append('last change on {}'.format(
+            latest_created.isoformat(timespec='minutes')
+        ))
 
-        # At least 7 days old.
-        if age < datetime.timedelta(8):
+        # At least creation_age_threshold days old.
+        if age < creation_age_threshold:
             time_to_approve = False
-            parts.append('has not been open 7 days')
-            earliest = str(latest_created.date() + datetime.timedelta(8))
+            parts.append("has not been open %d days" %
+                         creation_age_threshold.days)
+            earliest = str(latest_created + creation_age_threshold)
         elif reached_necessary_votes:
-            # Wait at least 3 days after reaching necessary votes.
+            # Wait at least reached_votes_age_threshold days
+            # after reaching necessary votes.
             earliest = str(
-                reached_necessary_votes.date() + datetime.timedelta(4)
+                reached_necessary_votes + reached_votes_age_threshold
             )
             since_necessary_votes = now.date() - reached_necessary_votes.date()
-            time_to_approve = since_necessary_votes > datetime.timedelta(3)
+            time_to_approve = since_necessary_votes > reached_votes_age_threshold
         else:
             time_to_approve = False
-            earliest = '4 days after {} positive votes'.format(necessary_votes)
+            earliest = "{} days after {} positive votes".format(
+                reached_votes_age_threshold.days, necessary_votes)
 
         if votes_to_approve and time_to_approve:
             parts.append('YES')
@@ -312,11 +326,19 @@ def get_one_status(change, delegates, tc_members):
 
         can_approve = ',\n'.join(parts)
 
-    elif topic in ('code-change', 'documentation-change', 'election-results', 'typo-fix'):
+    elif topic in (
+        'code-change',
+        'documentation-change',
+        'election-results',
+        'typo-fix',
+    ):
         # https://governance.openstack.org/tc/reference/house-rules.html#code-changes
         # https://governance.openstack.org/tc/reference/house-rules.html#documentation-changes
         # https://governance.openstack.org/tc/reference/house-rules.html#election-results
         # https://governance.openstack.org/tc/reference/house-rules.html#typo-fixes
+
+        earliest = 'Can be voted anytime'
+
         if votes[-1] or code_reviews[-1]:
             can_approve = 'dissenting votes'
         elif votes[1] < 2:
@@ -340,7 +362,7 @@ def get_one_status(change, delegates, tc_members):
         # https://governance.openstack.org/tc/reference/house-rules.html#other-project-team-updates
 
         # At least 7 days old.
-        earliest = str(latest_created.date() + datetime.timedelta(8))
+        earliest = str(latest_created + creation_age_threshold)
 
         if votes[-1] or code_reviews[-1]:
             can_approve = 'dissenting votes'
@@ -353,7 +375,7 @@ def get_one_status(change, delegates, tc_members):
         # https://governance.openstack.org/tc/reference/house-rules.html#goal-updates-from-ptls
 
         # At least 7 days old.
-        earliest = str(latest_created.date() + datetime.timedelta(8))
+        earliest = str(latest_created + creation_age_threshold)
 
         if votes[-1]:
             can_approve = 'dissenting votes'
@@ -402,7 +424,7 @@ def get_one_status(change, delegates, tc_members):
         'Can Approve': can_approve,
         'Status': '\n'.join([topic, can_approve,
                              '{} days old'.format(age.days),
-                             earliest]),
+                             'earliest: {}'.format(earliest)]),
         'Earliest': earliest,
         'Votes': votes,
         'Members': member_votes,
