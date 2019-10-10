@@ -2279,6 +2279,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-neutron-api-odl
+    charm-neutron-api-plugin-ovn:
+      release-management: external
+      repos:
+        - openstack/charm-neutron-api-plugin-ovn
     charm-neutron-dynamic-routing:
       release-management: external
       repos:
