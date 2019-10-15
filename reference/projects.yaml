@@ -1166,9 +1166,6 @@ Infrastructure:
     puppet-vcsrepo:
       repos:
         - opendev/puppet-vcsrepo
-    puppet-yum:
-      repos:
-        - opendev/puppet-yum
     puppet-zanata:
       repos:
         - opendev/puppet-zanata

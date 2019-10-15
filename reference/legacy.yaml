@@ -335,6 +335,10 @@ Infrastructure:
       retired-on: 2018-08-29
       repos:
         - opendev/puppet-vinz
+    puppet-yum:
+      retired-on: 2019-10-15
+      repos:
+        - opendev/puppet-yum
     pypi-mirror:
       retired-on: 2018-08-29
       repos:
