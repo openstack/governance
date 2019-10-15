@@ -6,8 +6,7 @@ Project Testing Interface: Python
 
 Each python project must be able to do:
 
-- Unit tests for python2.7
-- Unit tests for python3 (see below for version details)
+- Unit tests for python (see below for version details)
 - Codestyle checks
 - Testing Coverage Report
 - Source Tarball Generation
@@ -20,7 +19,6 @@ Specific commands
 To drive the above tasks, the following commands should be supported in a clean
 tree:
 
-- ``tox -e py27``
 - ``tox -e pep8``
 - ``tox -e cover``
 - ``python setup.py sdist``
