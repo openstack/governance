@@ -1,5 +1,6 @@
 redirect 301 /tc/reference/top-5-help-wanted.html /tc/reference/upstream-investment-opportunities/2018/index.html
 redirect 301 /tc/reference/help-most-needed.html /tc/reference/upstream-investment-opportunities/2018/index.html
+redirect 301 /tc/reference/projects/chef-openstack.html /tc/reference/projects/openstack-chef.html
 redirect 301 /tc/resolutions/2018-03-19-sig-governance.html /tc/resolutions/20180319-sig-governance.html
 redirect 301 /tc/goals/ocata/ /tc/goals/selected/ocata/
 redirect 301 /tc/goals/pike/ /tc/goals/selected/pike/
