@@ -2725,6 +2725,11 @@ oslo:
         - openstack/futurist
       tags:
         - stable:follows-policy
+    microversion-parse:
+      repos:
+        - openstack/microversion-parse
+      tags:
+        - stable:follows-policy
     mox3:
       repos:
         - openstack/mox3
