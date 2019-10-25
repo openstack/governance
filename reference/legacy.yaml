@@ -172,10 +172,6 @@ Documentation:
   url: https://wiki.openstack.org/wiki/Documentation
   partial: yes
   deliverables:
-    api-site:
-      retired-on: 2017-07-19
-      repos:
-        - openstack/api-site
     api-tools:
       retired-on: 2017-01-09
       repos:
