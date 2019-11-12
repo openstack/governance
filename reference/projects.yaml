@@ -3814,6 +3814,9 @@ tripleo:
     tripleo-ipsec:
       repos:
         - openstack/tripleo-ipsec
+    tripleo-operator-ansible:
+      repos:
+        - openstack/tripleo-operator-ansible
     tripleo-puppet-elements:
       repos:
         - openstack/tripleo-puppet-elements
