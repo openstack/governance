@@ -36,18 +36,19 @@ In order for a project to call this goal complete it must:
 
 #. Drop the python 2.7 unit, functional & integration testing.
 
-   This will update the python testing template from Train to Ussuri template.
+   This will be done by updating the python testing template from Train to Ussuri template
+   and drop the ``openstack-python-jobs`` job template.
 
-#. Migrate the python 2.7 job if no corresponding py3 job yet.
+#. Migrate any python 2.7 job if no corresponding py3 job yet.
 
-#. Update tox.ini and setup.cfg to remove the py2.7
+#. Update tox.ini and setup.cfg to remove the py2 reference.
 
 #. Update requirements file to drop py2.7 specific dependency.
 
-#. Add release notes saying dropping py2.7 explicitly.
+#. Add release notes saying dropping py2.7 explicitly in upgrade section.
 
-   Python 2.7 support has been dropped. Last release <of project to> support
-   py2.7 is OpenStack Train. The minimum version of Python now
+   Python 2.7 support has been dropped. Last release of <project> to support
+   python 2.7 is OpenStack Train. The minimum version of Python now
    supported by <project> is Python 3.6.
 
 All these updates will go in a single patch.
@@ -68,7 +69,7 @@ This will be divided into three phases. 3rd phase will be to audit the completio
 
 #. Phase-1: Now -> Ussuri-1 milestone (deadline R-22 )
 
-   * Project to start dropping the py2.7 support and finish by milestone-1.
+   * OpenStack Services to start dropping the py2.7 support and finish by milestone-1.
      Project needs to coordinate with third party CI or any backend drivers.
      Example: Nova - http://lists.openstack.org/pipermail/openstack-discuss/2019-October/010109.html
 
