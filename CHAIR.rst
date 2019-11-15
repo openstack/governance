@@ -44,6 +44,8 @@ Each Cycle
   work with the UC to manage SIGs.
 * Ensure that 2 TC members are signed up to manage the goal selection
   process for the next cycle.
+* Ensure the next release naming is started
+* Ensure PTI update is done
 
 Around TC elections
 ===================
