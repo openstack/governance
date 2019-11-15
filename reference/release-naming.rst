@@ -20,7 +20,7 @@ The Technical Committee will designate an official to be responsible
 for executing the release naming process, which consists of the
 following steps:
 
-#. The process to chose the name for a release begins once the
+#. The process to choose the name for a release begins once the
    location of the summit that takes place during the development
    cycle of the release to be named is announced.
 
@@ -128,4 +128,5 @@ R        Monty Taylor   2017-03-22        2017-04-05  2017-04-12  British Columb
 S        Paul Belanger  2018-02-21        2018-03-14  2018-03-21  Berlin
 T        Tony Breeds    2018-09-15        2018-10-15  2018-10-22  Colorado
 U        Rico Lin       2019-07-01        2019-08-12  2019-08-19  China
+V        Sean McGinnis  2019-11-11        2019-12-09  2019-12-16  British Columbia
 =======  =============  ================  ==========  ==========  ==================
