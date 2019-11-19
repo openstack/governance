@@ -16,55 +16,13 @@ trademark.
 Release Naming Process
 ----------------------
 
-The Technical Committee will designate an official to be responsible
-for executing the release naming process, which consists of the
-following steps:
-
-#. The process to choose the name for a release begins once the
-   location of the summit that takes place during the development
-   cycle of the release to be named is announced.
-
 #. Anyone may propose a name that matches the `Release Name
    Criteria`_.  Proposed names should be added to a page on the
    OpenStack wiki.
 
-#. The marketing community may identify any names of particular
-   concern from a marketing standpoint and discuss such issues
-   publicly on the Marketing mailing list.  The marketing community
-   may produce a list of problematic items (with citations to the
-   mailing list discussion of the rationale) to the election official.
-   This information will be communicated during the election, but the
-   names will not be removed from the poll.
-
-#. After the close of nominations, the election official will finalize
-   the list of proposed names and publicize it.  In general, the
-   official should strive to make objective determinations as to
-   whether a name meets the `Release Name Criteria`_, but if
-   subjective evaluation is required, should be generous in
-   interpreting the rules.  It is not necessary to reduce the list of
-   proposed names to a small number.
-
-#. The election official, in consultation with the TC, should remove from
-   the list any name that feedback suggests would be culturally
-   inappropriate in any sector of the OpenStack community. The purpose of
-   naming the release after a geographical feature is in part to honor the
-   host city, and we owe it to our hosts not to associate them with terms
-   that unwittingly conflict with the `Code of Conduct
-   <https://www.openstack.org/legal/community-code-of-conduct/>`_'s goal to
-   be considerate once we are aware of them.
-
-#. Once the list is finalized and publicized, a one-week period shall
-   elapse before the start of the election so that any names removed
-   from consideration because they did not meet the `Release Name
-   Criteria`_ may be discussed.  Names erroneously removed may be
-   re-added during this period, and the Technical Committee may vote
-   to add exceptional names (which do not meet the standard criteria).
-
-#. A Condorcet election is held to rank the names. The poll will be
-   public, with the voting URL communicated through OpenStack mailing-lists
-   (openstack-discuss and openstack-foundation).
-   The poll will include the names along with any links to mailing list
-   discussions provided by the marketing community.
+#. A Condorcet election is held to rank the names. The electorate will be
+   Technical Committee, and the poll should  be run in a maner that allows
+   members of the community to see what each TC member voted for.
 
 #. The Foundation will perform a trademark check on the winning name.
    If there is a trademark conflict, then the Foundation will proceed
@@ -89,29 +47,7 @@ being chosen.
    basic Latin alphabet.  Names which can be transliterated into this
    character set are also acceptable.
 
-#. The name must refer to the physical or human geography of the
-   region encompassing the location of the OpenStack summit for
-   the corresponding release.  The exact boundaries of the geographic
-   region under consideration must be declared before the opening of
-   nominations, as part of the initiation of the selection process.
-
 #. The name must be a single word with a maximum of 10 characters.
-   Words that describe the feature should not be included, so "Foo
-   City" or "Foo Peak" would both be eligible as "Foo".
-
-#. The name must refer to the *name* of the geographic feature, not
-   merely describe the generic type of geographic feature (e.g. "City"
-   or "Peak" would not be eligible in the above example). This does not
-   prevent an otherwise eligible name that also happens to be another
-   type of geographic feature (e.g. "Hill Street" would be eligible as
-   "Hill", but not as "Street").
-
-Names which do not meet these criteria but otherwise sound really cool
-should be added to a separate section of the wiki page and the TC may
-make an exception for one or more of them to be considered in the
-Condorcet poll.  The naming official is responsible for presenting the
-list of exceptional names for consideration to the TC before the poll
-opens.
 
 Polls
 -----
