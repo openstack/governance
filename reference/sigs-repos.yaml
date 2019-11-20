@@ -16,6 +16,14 @@ operations-docs:
   - repo: openstack/operations-guide
   - repo: openstack/ha-guide
   - repo: openstack/arch-design
+technical-writing:
+  - repo: openstack/constellations
+  - repo: openstack/openstack-manuals
+  - repo: openstack/training-labs
+  - repo: openstack/training-guides
+  - repo: openstack/upstream-institute-virtual-environment
+  - repo: openstack/contributor-guide
+  - repo: openstack/api-site
 api:
   - repo: openstack/api-sig
 auto-scaling:
