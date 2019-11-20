@@ -1371,6 +1371,7 @@ kolla:
     irc: mgoddard
     email: mark@stackhpc.com
   irc-channel: openstack-kolla
+  service: Containerised deployment of OpenStack
   mission: >
     To provide production-ready containers and deployment tools for operating
     OpenStack clouds.
@@ -1400,6 +1401,7 @@ kuryr:
     irc: dulek
     email: mdulko@redhat.com
   irc-channel: openstack-kuryr
+  service: Bridge between OpenStack and container networking
   mission: >
     Bridge between container framework networking and storage models
     to OpenStack networking and storage abstractions.
@@ -1429,6 +1431,7 @@ loci:
   appointed:
     - stein
   irc-channel: openstack-loci
+  service: Lightweight OCI containers for OpenStack deployment
   mission: >
     To provide CI/CD friendly, lightweight OCI compliant container tooling and
     images for OpenStack services
@@ -2872,6 +2875,7 @@ Packaging-rpm:
     email: jpena@redhat.com
   appointed:
     - stein
+  service: Templates and tools to build OpenStack RPM packages
   mission: >
     To make OpenStack easier to update and consume by operators and
     provide tooling to package all OpenStack projects directly for
@@ -3267,6 +3271,7 @@ requirements:
     irc: prometheanfire
     email: mthode@mthode.org
   irc-channel: openstack-requirements
+  service: Common dependency management
   mission: >
     Coordinating and converging the libraries used by OpenStack projects,
     while ensuring that all libraries are compatible both technically and
@@ -3896,6 +3901,7 @@ winstackers:
   appointed:
     - stein
     - ussuri
+  service: Libraries for Windows support
   irc-channel: openstack-hyper-v
   mission: >
     To facilitate the integration of Hyper-V, Windows and related components
