@@ -1612,6 +1612,36 @@ Packaging-deb:
       repos:
         - openstack/deb-zaqar-ui
 
+PowerVMStackers:
+  ptl:
+    name: Divya K Konoor
+    irc: dikonoor
+    email: dikonoor@in.ibm.com
+  appointed:
+    - train
+  irc-channel: openstack-powervm
+  retired-on: 2016-10-06
+  mission: >
+    To provide OpenStack support for the POWER CPU architecture on the PowerVM
+    hypervisor.
+  url: https://wiki.openstack.org/wiki/PowerVM
+  deliverables:
+    ceilometer-powervm:
+      repos:
+        - openstack/ceilometer-powervm
+      tags:
+        - stable:follows-policy
+    networking-powervm:
+      repos:
+        - openstack/networking-powervm
+      tags:
+        - stable:follows-policy
+    nova-powervm:
+      repos:
+        - openstack/nova-powervm
+      tags:
+        - stable:follows-policy
+
 Puppet OpenStack:
   partial: yes
   deliverables:

@@ -22,3 +22,7 @@ auto-scaling:
   - repo: openstack/auto-scaling-sig
 Public Cloud SIG:
   - repo: openstack/publiccloud-sig
+PowerVMStackers:
+  - repo: openstack/ceilometer-powervm
+  - repo: openstack/networking-powervm
+  - repo: openstack/nova-powervm
