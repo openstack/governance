@@ -1287,7 +1287,7 @@ karbor:
     irc: No nick supplied
     email: jiaopengju@cmss.chinamobile.com
   irc-channel: openstack-karbor
-  service: Data Protection Orchestration Service
+  service: Data Protection Orchestration service
   mission: >
     To implement services and libraries to provide project aware
     data-protection orchestration of existing vendor solutions.
@@ -1524,7 +1524,7 @@ masakari:
     irc: samP
     email: sam47priya@gmail.com
   irc-channel: openstack-masakari
-  service: Instances High Availability Service
+  service: Instances High Availability service
   mission: >
     Provide instances high availability service for OpenStack
     clouds by automatically recovering the instances from failures.
