@@ -2109,6 +2109,14 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-interface-manila-plugin
+    charm-interface-mysql-innodb-cluster:
+      release-management: external
+      repos:
+        - openstack/charm-interface-mysql-innodb-cluster
+    charm-interface-mysql-router:
+      release-management: external
+      repos:
+        - openstack/charm-interface-mysql-router
     charm-interface-mysql-shared:
       release-management: external
       repos:
@@ -2233,6 +2241,14 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-murano
+    charm-mysql-innodb-cluster:
+      release-management: external
+      repos:
+        - openstack/charm-mysql-innodb-cluster
+    charm-mysql-router:
+      release-management: external
+      repos:
+        - openstack/charm-mysql-router
     charm-nova-lxd:
       release-management: external
       repos:
