@@ -40,6 +40,49 @@ Image encryption
 * **Disband criteria**: Handling of encrypted images works in Nova, Cinder and
   Glance and can be triggered via an openstackclient-plugin
 
+Secure Default Policies
+-----------------------
+
+Co-leads
+~~~~~~~~
+
+* Colleen Murphy (cmurphy)
+* Ghanshyam Mann (gmann)
+
+TC Liaison
+~~~~~~~~~~
+
+Ghanshyam Mann (gmann)
+
+Objective
+~~~~~~~~~
+
+The keystone project has migrated all of its default policies to 1) use
+oslo.policy's scope_types attribute, which allows the policy engine to
+understand "system scope" and distinguish between an admin role assignment on a
+project versus an admin role assignment on the entire system, 2) ensure all
+rules use one of the default roles (admin, member, and reader) which both
+ensures support for a read-only role and prevents custom roles from accidental
+over-permissiveness. Although the problems being solved are slightly different,
+the keystone team found it was easiest to migrate everything at once. The rest
+of the OpenStack services can use this migration as a template for securing
+their own policies.
+
+More information: https://wiki.openstack.org/wiki/Consistent_and_Secure_Default_Policies_Popup_Team
+
+Disband criteria
+~~~~~~~~~~~~~~~~
+
+This team will be disbanded after:
+
+#. The majority of the participating projects have completed their policy
+   migrations
+
+#. A document is published detailing any pitfalls, lessons learned, and best
+   practices that other teams should be aware of
+
+#. A community goal to migrate the remaining projects is proposed and accepted
+   by the TC
 
 Process for addition or removal
 ===============================
