@@ -68,11 +68,11 @@ height="20" x="{svg_x}" y="{svg_y}">
     <rect width="{width}" height="20" rx="3" fill="#fff"/>
   </mask>
 
-  <g mask="url(#round:{left_text}:{right_text})">
+  <g mask="url('#round:{left_text}:{right_text}')">
     <rect width="{left_width}" height="20" fill="#555"/>
     <rect x="{left_width}" width="{right_width}" height="20" fill="{color}"/>
     <rect width="{width}" height="20"
-          fill="url(#smooth:{left_text}:{right_text})"/>
+          fill="url('#smooth:{left_text}:{right_text}')"/>
   </g>
 
   <g fill="#fff" text-anchor="middle"
@@ -115,7 +115,10 @@ def _badge(left_text, right_text, link=None, colorscheme='brightgreen'):
 
 def _get_base_badges():
     return [
-        _badge('project', 'official')
+        _badge('openstack', 'community project',
+               'https://governance.openstack.org/tc/reference/projects/'),
+        _badge('cii best practices', 'passing',
+               'https://bestpractices.coreinfrastructure.org/projects/246')
     ]
 
 
