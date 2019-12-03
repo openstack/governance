@@ -41,6 +41,8 @@ COLOR_SCHEME = {
     "lightgrey": "#9f9f9f",
 }
 
+OPENSTACK_SVG = """<svg id="Layer_1" x="0" y="0" height="20" width="20" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 209.67 180.35"><defs><style>.cls-1{opacity:0.98;}.cls-2{fill:#ed1944;}</style></defs><title>OpenStack_Logo_Mark</title><g class="cls-1"><path class="cls-2" d="M461.82,215.24h-150a17.17,17.17,0,0,0-17.12,17.12v40.35h41.61v-6.59a9.26,9.26,0,0,1,9.26-9.26h82.53a9.26,9.26,0,0,1,9.26,9.26v6.59H479V232.36A17.18,17.18,0,0,0,461.82,215.24Z" transform="translate(-294.67 -215.24)"/><path class="cls-2" d="M437.33,344.72a9.27,9.27,0,0,1-9.26,9.26H345.54a9.27,9.27,0,0,1-9.26-9.26v-6.59H294.67v40.34a17.17,17.17,0,0,0,17.12,17.13h150A17.18,17.18,0,0,0,479,378.47V338.13H437.33Z" transform="translate(-294.67 -215.24)"/><rect class="cls-2" y="69.37" width="41.62" height="41.62"/><rect class="cls-2" x="142.66" y="69.37" width="41.62" height="41.62"/></g><path class="cls-2" d="M504.33,386.39a9.2,9.2,0,1,0-9.2,9.21A9.21,9.21,0,0,0,504.33,386.39Zm-9.2,6.94a6.94,6.94,0,1,1,6.94-6.94A6.94,6.94,0,0,1,495.13,393.33Z" transform="translate(-294.67 -215.24)"/><path class="cls-2" d="M498.58,384.72v-.05a2.88,2.88,0,0,0-.76-2.09,3.38,3.38,0,0,0-2.45-.86H492v9h1.86v-3H495l1.66,3h2.14l-1.92-3.35A2.72,2.72,0,0,0,498.58,384.72Zm-1.88.06a1.3,1.3,0,0,1-1.47,1.35h-1.38v-2.72h1.34c1,0,1.51.45,1.51,1.35Z" transform="translate(-294.67 -215.24)"/></svg>"""
+
 SVG_ROOT = """<?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
 "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -148,9 +150,9 @@ def _organize_badges(base_badges, tag_badges):
     result = []
     # Calculate x,y for each badge, leaving BADGE_SPACING between them
     for line, group in enumerate(ziped):
-        # Start a new line
+        # Start a new line at x=25, after the openstack logo
         result.append([])
-        x = 0
+        x = 25
         for col, badge in enumerate(group):
             # Skip width=0 badges
             if badge['width'] == 0:
@@ -168,6 +170,7 @@ def _organize_badges(base_badges, tag_badges):
 
 
 def _to_svg(badges):
+    yield OPENSTACK_SVG
     for badge in badges:
         yield FLAT_BADGE_TEMPLATE.format(**badge)
 
