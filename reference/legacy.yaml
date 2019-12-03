@@ -467,6 +467,10 @@ neutron:
       repos:
         - openstack/networking-l2gw
         - openstack/networking-l2gw-tempest-plugin
+    neutron-interconnection:
+      retired-on: 2019-11-15
+      repos:
+        - openstack/neutron-interconnection
     networking-ofagent:
       retired-on: 2017-03-03
       repos:
