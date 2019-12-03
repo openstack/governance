@@ -113,10 +113,14 @@ def _badge(left_text, right_text, link=None, colorscheme='brightgreen'):
     return data
 
 
-def _get_badges(tags):
-    badges = []
+def _get_base_badges():
+    return [
+        _badge('project', 'official')
+    ]
 
-    badges.append(_badge('project', 'official'))
+
+def _get_tag_badges(tags):
+    badges = []
 
     for tag in tags:
         # NOTE(flaper87): will submit other patches to make these
@@ -129,14 +133,13 @@ def _get_badges(tags):
         link = BASE_TAGS_URL + '%s.html' % tag.replace(':', '_')
         badges.append(_badge(group, tname, link, colorscheme='blue'))
 
-    return badges
+    return sorted(badges, key=lambda badge: badge['width'])
 
 
-def _organize_badges(badges):
-    sbadges = sorted(badges, key=lambda badge: badge['width'])
+def _organize_badges(base_badges, tag_badges):
 
     # Arrange badges in NUM_COL columns, filling the rest with None
-    ziped = list(zip_longest(*(iter(sbadges),) * NUM_COL))
+    ziped = list(zip_longest(*(iter(base_badges + tag_badges),) * NUM_COL))
 
     result = []
     # Calculate x,y for each badge, leaving BADGE_SPACING between them
@@ -190,7 +193,8 @@ def _generate_teams_badges(app, exception=None):
 
         for name, deliverable in info['deliverables'].items():
             tags = info.get('tags', []) + deliverable.get('tags', [])
-            badges = _organize_badges(_get_badges(tags))
+            badges = _organize_badges(_get_base_badges(),
+                                      _get_tag_badges(tags))
             svg = '\n'.join(_to_svg(chain(*badges)))
             root_width = max([bdg_row[-1]['width'] + bdg_row[-1]['svg_x']
                               for bdg_row in badges])
