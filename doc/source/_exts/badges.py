@@ -136,13 +136,14 @@ def _get_tag_badges(tags):
         link = BASE_TAGS_URL + '%s.html' % tag.replace(':', '_')
         badges.append(_badge(group, tname, link, colorscheme='blue'))
 
-    return sorted(badges, key=lambda badge: badge['width'])
+    return sorted(badges, key=lambda b: b['left_text']+b['right_text'])
 
 
 def _organize_badges(base_badges, tag_badges):
 
-    # Arrange badges in NUM_COL columns, filling the rest with None
-    ziped = list(zip_longest(*(iter(base_badges + tag_badges),) * NUM_COL))
+    # Arrange badges in NUM_COL columns, filling the rest with width=0 badges
+    ziped = list(zip_longest(*(iter(base_badges + tag_badges),) * NUM_COL,
+                             fillvalue={'width': 0}))
 
     result = []
     # Calculate x,y for each badge, leaving BADGE_SPACING between them
@@ -151,21 +152,17 @@ def _organize_badges(base_badges, tag_badges):
         result.append([])
         x = 0
         for col, badge in enumerate(group):
-            # Skip None badges
-            if badge is None:
+            # Skip width=0 badges
+            if badge['width'] == 0:
                 break
 
-            largest_badge = ziped[-1][col]
-            if largest_badge is None:
-                if len(ziped) > 1:
-                    largest_badge = ziped[-2][col]
-                else:
-                    largest_badge = badge
+            # Column width is the width of the largest badge in column
+            col_width = max(ziped, key=lambda s: s[col]['width'])[col]['width']
 
             badge['height'] = 20
             badge['svg_y'] = (20 + BADGE_SPACING) * line
             badge['svg_x'] = x
-            x += largest_badge['width'] + BADGE_SPACING
+            x += col_width + BADGE_SPACING
             result[line].append(badge)
     return result
 
