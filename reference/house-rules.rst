@@ -8,6 +8,16 @@ by the Technical Committee membership, we also have a number of exceptions to
 that general rule, in order to speed up the processing of smaller changes. This
 document lists those "house rules" for reference.
 
+The goal of the TC is always to operate by consensus where possible. The best
+decisions are always the ones where all TC members can commit to the outcome,
+even if they voted against it. These guidelines and the ones in the charter are
+designed to provide the chair with an objective standard for when they may
+consider consensus to have been achieved. However, if it is clear to the chair
+from other factors that consensus has not been achieved (for example because
+there are multiple incompatible proposals with sufficient votes to merge), the
+chair should use their discretion to keep debate open and seek rough consensus
+by other means.
+
 Typo fixes
 ----------
 
