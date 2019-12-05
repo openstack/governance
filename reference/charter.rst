@@ -237,6 +237,8 @@ For single-winner elections, a Condorcet system shall be used.
 
 For multiple-winner elections, a Condorcet or a STV system should be used.
 
+.. _charter-amendment-section:
+
 Amendment
 =========
 
