@@ -1981,6 +1981,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-cinder-backup
+    charm-cinder-backup-swift-proxy:
+      release-management: external
+      repos:
+        - openstack/charm-cinder-backup-swift-proxy
     charm-cinder-ceph:
       release-management: external
       repos:
@@ -2069,6 +2073,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-interface-cinder-backend
+    charm-interface-cinder-backup:
+      release-management: external
+      repos:
+        - openstack/charm-interface-cinder-backup
     charm-interface-dashboard-plugin:
       release-management: external
       repos:
