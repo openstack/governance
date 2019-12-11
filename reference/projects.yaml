@@ -2892,7 +2892,7 @@ oslo:
 Packaging-rpm:
   ptl:
     name: Javier Peña
-    irc: No nick supplied
+    irc: jpena
     email: jpena@redhat.com
   appointed:
     - stein
