@@ -3238,7 +3238,12 @@ rally:
     rally:
       repos:
         - openstack/rally
+    rally-openstack:
+      repos:
         - openstack/rally-openstack
+    performance-docs:
+      release-management: none
+      repos:
         - openstack/performance-docs
 
   liaisons:
