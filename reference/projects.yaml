@@ -1556,8 +1556,10 @@ mistral:
     mistral:
       repos:
         - openstack/mistral
-        - openstack/mistral-dashboard
         - openstack/mistral-extra
+    mistral-dashboard:
+      repos:
+        - openstack/mistral-dashboard
     mistral-specs:
       release-management: none
       repos:
