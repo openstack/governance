@@ -622,10 +622,6 @@ I18n:
       email: amotoki@gmail.com
       expires-in: January 2020
       comment: amotoki (ja)
-    - name: Andi Chandler
-      email: andi@gowling.com
-      expires-in: July 2020
-      comment: andibing (en-GB)
     - name: Soonyeul Park
       email: ardentpark@gmail.com
       expires-in: July 2020
@@ -722,10 +718,6 @@ I18n:
       email: aryalsurit@gmail.com
       expires-in: July 2020
       comment: surit (ne)
-    - name: Tony
-      email: tfu@redhat.com
-      expires-in: July 2020
-      comment: tfu (zh-CN)
     - name: Takashi Kuroda
       email: tkuroda@redhat.com
       expires-in: July 2020
@@ -734,14 +726,6 @@ I18n:
       email: ts5516@naver.com
       expires-in: January 2020
       comment: ts5516 (ko-KR)
-    - name: Sungjin Kang
-      email: gang.sungjin@gmail.com
-      expires-in: July 2020
-      comment: ujuc (ko-KR)
-    - name: vuuv
-      email: froms2008@gmail.com
-      expires-in: July 2020
-      comment: vuuv (zh-CN)
     - name: ByungYeol Woo
       email: wby1089@gmail.com
       expires-in: July 2020
