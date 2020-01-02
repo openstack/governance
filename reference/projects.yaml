@@ -1248,6 +1248,9 @@ ironic:
     sushy:
       repos:
         - openstack/sushy
+    sushy-cli:
+      repos:
+        - openstack/sushy-cli
     sushy-tools:
       repos:
         - openstack/sushy-tools
