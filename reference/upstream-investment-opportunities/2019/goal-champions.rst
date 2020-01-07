@@ -27,7 +27,7 @@ real use cases.
 
 Sponsorship of a Goal Champion is a good way for an organisation to
 demonstrate leadership across the whole of OpenStack, make a direct
-impact on on the productivity of other contributors, and build
+impact on the productivity of other contributors, and build
 influence among peers.  Goal Champions make great candidates for
 future elected leadership positions in OpenStack.
 

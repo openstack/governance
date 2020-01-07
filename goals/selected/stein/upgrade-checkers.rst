@@ -104,7 +104,7 @@ adding the checker framework may also be useful.
 
 The `Command Line Reference
 <https://docs.openstack.org/nova/latest/cli/nova-status.html>`__ for the
-``nova-status`` command provides a good good description with some details on
+``nova-status`` command provides a good description with some details on
 the checks that are performed.
 
 The command line is also used in the `grenade upgrade checks
