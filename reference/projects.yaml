@@ -1767,6 +1767,9 @@ neutron:
     neutron-tempest-plugin:
       repos:
         - openstack/neutron-tempest-plugin
+    ovn-octavia-provider:
+      repos:
+        - openstack/ovn-octavia-provider
     ovsdbapp:
       repos:
         - openstack/ovsdbapp
