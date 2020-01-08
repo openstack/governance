@@ -163,8 +163,8 @@ Governance
 Committees exist to help `govern`_ the community and provide leadership.
 You can self-nominate for the below committees and become a committee member,
 or provide feedback to committee. If you find it's hard or confusing to push
-your mission into community, or you find the current structure can't fullfill
-your goal, we engourage you to encounter with these committees that might be
+your mission into community, or you find the current structure can't fulfill
+your goal, we encourage you to encounter with these committees that might be
 able to help:
 
 * Technical Committee (TC)

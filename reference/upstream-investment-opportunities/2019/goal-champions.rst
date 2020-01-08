@@ -12,7 +12,7 @@ Business Case
 -------------
 
 Organizations who sponsor Goal Champions
-have someone in-house who understands the upstream decsion making and
+have someone in-house who understands the upstream decision making and
 implementation work across services and projects.  This in-house
 expertise can help minimize disruption to downstream products and
 services and help position timely communications and expectations with
@@ -39,7 +39,7 @@ Technical Details
 
 Each release series, the OpenStack Technical Committee selects a set
 of shared objectives to be fulfilled in that release cycle, that
-provide value across Openstack projects by e.g. advancing conisistency
+provide value across Openstack projects by e.g. advancing consistency
 and user experience across OpenStack or addressing shared technical
 debt.  These goals are selected from a `backlog of potential goals`_
 based on feedback from deployers, users, contributors, and PTLs and

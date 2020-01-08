@@ -118,7 +118,7 @@ Projects with Unit Tests Voting
 
 * aodh
 * barbican
-* ceilomter
+* ceilometer
 * cinder
 * cliff
 * congress

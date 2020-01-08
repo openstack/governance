@@ -15,7 +15,7 @@ should be documented today in the upgrade release notes would be a good
 candidate for an upgrade checker to validate.
 
 These checks should perform any upgrade validation that can be automated. There
-may always be some things that need some subjective evalation, but for those
+may always be some things that need some subjective evaluation, but for those
 things that can be automated to determine if there is an issue that could
 impact upgrade success, a validation check should be created to automate it.
 
