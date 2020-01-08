@@ -1,9 +1,21 @@
+- job:
+    name: openstack-tox-validate_atcs
+    parent: openstack-tox-linters
+    description: |
+      Run the ATC checking to show if the current ATCs are still valid.
+      Foundation membership can change anytime, and we don't want our linter
+      jobs to fail due to this, but we want to be informed at all times.
+    vars:
+      tox_envlist: validate_atcs
+
 - project:
     templates:
       - build-openstack-docs-pti
       - openstack-python3-ussuri-jobs
     check:
       jobs:
+        - openstack-tox-validate_atcs:
+            voting: false
         - openstack-tox-linters:
             required-projects:
               - openstack/project-config
