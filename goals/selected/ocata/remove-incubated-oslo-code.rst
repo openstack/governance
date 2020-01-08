@@ -829,7 +829,7 @@ None
 tricircle
 ---------
 
-Tricircle does't rely on oslo-incubator or any openstack/common modules,
+Tricircle doesn't rely on oslo-incubator or any openstack/common modules,
 it is consuming the oslo.* libraries.
 
 Planning Artifacts:

@@ -45,7 +45,7 @@ in other TC-maintained documents.
 
 The current governance model institutes a two-level structure with
 :doc:`project teams <projects/index>` in charge of specific sets of git
-repositories or tasks. The TC is reponsible for making sure the model
+repositories or tasks. The TC is responsible for making sure the model
 is followed, and fair elections are held for every project team.
 Finally, while most conflicts should be resolved at the project team level,
 the TC remains ultimately responsible in case issues cannot be solved at
