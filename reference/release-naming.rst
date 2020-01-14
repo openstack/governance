@@ -21,7 +21,7 @@ Release Naming Process
    OpenStack wiki.
 
 #. A Condorcet election is held to rank the names. The electorate will be
-   Technical Committee, and the poll should  be run in a maner that allows
+   Technical Committee, and the poll should  be run in a manner that allows
    members of the community to see what each TC member voted for.
 
 #. The Foundation will perform a trademark check on the winning name.
@@ -47,7 +47,7 @@ being chosen.
    basic Latin alphabet.  Names which can be transliterated into this
    character set are also acceptable.
 
-#. The name must be a single word with a maximum of 10 characters.
+#. The name must be a single word with a maximum length of 10 characters.
 
 Polls
 -----
