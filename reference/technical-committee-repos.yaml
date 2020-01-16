@@ -11,3 +11,4 @@ Technical Committee:
   - repo: openstack/goal-tools
   - repo: openstack/governance-website
   - repo: openstack/arch-wg
+  - repo: openstack/ideas
