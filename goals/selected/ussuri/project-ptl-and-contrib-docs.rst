@@ -62,8 +62,7 @@ References
 
 #. `Cookie Cutter CONTRIBUTING.rst Template <https://review.opendev.org/696001>`_
 
- #. `Nova PTL Guide <https://docs.openstack.org/nova/latest/contributor/ptl-guide.html>`_
-
+#. `Nova PTL Guide <https://docs.openstack.org/nova/latest/contributor/ptl-guide.html>`_
 
 Current State / Anticipated Impact
 ==================================
