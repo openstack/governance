@@ -824,9 +824,6 @@ Infrastructure:
     jeepyb:
       repos:
         - opendev/jeepyb
-    js-openstack-lib:
-      repos:
-        - openstack/js-openstack-lib
     lodgeit:
       repos:
         - opendev/lodgeit
@@ -2631,6 +2628,9 @@ OpenStackSDK:
     level business logic.
   url: https://docs.openstack.org/openstacksdk/latest/
   deliverables:
+    js-openstack-lib:
+      repos:
+        - openstack/js-openstack-lib
     openstacksdk:
       repos:
         - openstack/openstacksdk
