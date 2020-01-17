@@ -2352,6 +2352,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-watcher
+    charm-watcher-dashboard:
+      release-management: external
+      repos:
+        - openstack/charm-watcher-dashboard
 
   liaisons:
     - mugsie
