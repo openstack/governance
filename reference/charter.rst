@@ -158,11 +158,15 @@ continue to meet the criteria.
 Election for TC seats
 =====================
 
-The TC seats are partially renewed every 6 months using staggered elections.
-Seats are valid for one-year terms. For this election we'll use a
-multiple-winner election system (see below). The election is held no later than
-6 weeks prior to each OpenStack Summit (on or before 'S-6' week), with
-elections held open for no less than four business days.
+The TC seats are partially renewed twice a year using staggered elections.
+Members are elected for a term that expires at the conclusion of the second
+scheduled election after the start of their term or after 14 months, whichever
+is shorter. For this election we'll use a multiple-winner election system
+see below). The election is held no earlier than 6 weeks and no later
+than 4 weeks prior to each cycle final release date (between 'R-6' and 'R-4'
+week), with elections held open for no less than four business days.
+
+If required, TC and PTL elections can be held as combined election.
 
 If a seat on the TC is vacated before the end of the term for which
 the member was elected, the TC will select a replacement to serve out
@@ -189,6 +193,11 @@ candidates must meet all other constraints for membership in the TC.
   previous TC election will be consulted in the order they appear in
   the results until a candidate who is capable of serving agrees to
   serve out the partial term.
+* If there is no candidate available to fill the vacancy as per above
+  mentioned criteria (either no extra candidate from election results
+  or none of the candidates who do not win in previous elections accept
+  the vacant TC partial term), then special election is held to fill the
+  vacancy.
 
 .. _atc:
 
