@@ -65,4 +65,10 @@ S        Paul Belanger  2018-02-21        2018-03-14  2018-03-21  Berlin
 T        Tony Breeds    2018-09-15        2018-10-15  2018-10-22  Colorado
 U        Rico Lin       2019-07-01        2019-08-12  2019-08-19  China
 V        Sean McGinnis  2019-11-11        2019-12-09  2019-12-16  British Columbia
+W        Sean McGinnis  2020-01-20        2020-02-17  2020-02-23  N/A [*]_
 =======  =============  ================  ==========  ==========  ==================
+
+.. [*] Starting with the W release, the naming criteria changed from referring
+   to the physical or human geography of the region encompassing the location
+   of the OpenStack Summit, to any name proposed by the community that starts
+   with the designated release letter.
