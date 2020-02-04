@@ -2466,18 +2466,23 @@ OpenStack-Helm:
   url: https://wiki.openstack.org/wiki/Openstack-helm
   deliverables:
     openstack-helm:
+      release-management: external
       repos:
         - openstack/openstack-helm
     openstack-helm-addons:
+      release-management: external
       repos:
         - openstack/openstack-helm-addons
     openstack-helm-docs:
+      release-management: external
       repos:
         - openstack/openstack-helm-docs
     openstack-helm-images:
+      release-management: external
       repos:
         - openstack/openstack-helm-images
     openstack-helm-infra:
+      release-management: external
       repos:
         - openstack/openstack-helm-infra
 
