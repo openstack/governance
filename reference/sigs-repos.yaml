@@ -37,3 +37,5 @@ PowerVMStackers:
   - repo: openstack/ceilometer-powervm
   - repo: openstack/networking-powervm
   - repo: openstack/nova-powervm
+Multi-Arch:
+  - repo: openstack/multi-arch-sig
