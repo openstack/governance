@@ -1854,12 +1854,14 @@ octavia:
   url: https://wiki.openstack.org/wiki/Octavia
   deliverables:
     neutron-lbaas:
+      release-management: deprecated
       repos:
         - openstack/neutron-lbaas
       tags:
         - stable:follows-policy
         - assert:follows-standard-deprecation
     neutron-lbaas-dashboard:
+      release-management: deprecated
       repos:
         - openstack/neutron-lbaas-dashboard
       tags:
