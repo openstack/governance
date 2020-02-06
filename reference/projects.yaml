@@ -2101,6 +2101,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-interface-keystone-fid-service-provider
+    charm-interface-keystone-notifications:
+      release-management: external
+      repos:
+        - openstack/charm-interface-keystone-notifications
     charm-interface-manila-plugin:
       release-management: external
       repos:
