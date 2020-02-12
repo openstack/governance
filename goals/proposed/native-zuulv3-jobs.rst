@@ -2,7 +2,7 @@
 Switch legacy Zuul jobs to native
 =================================
 
-As part of the the switch to Zuul v3, all the existing jobs have been
+As part of the switch to Zuul v3, all the existing jobs have been
 automatically converted from their Jenkins counterparts.
 Unfortunately not all of them have been migrated to fully native
 Zuul v3 jobs, making their maintainance more complicated.
