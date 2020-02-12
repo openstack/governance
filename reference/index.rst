@@ -18,6 +18,7 @@ Reference documents which need to be revised over time.
    role-of-the-tc
    new-projects-requirements
    new-language-requirements
+   dropping-projects
    licensing
    base-services
    working-groups
