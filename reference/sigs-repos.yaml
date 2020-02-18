@@ -13,8 +13,6 @@ security:
   - repo: openstack/syntribos
   - repo: openstack/syntribos-openstack-templates
   - repo: openstack/syntribos-payloads
-self-healing:
-  - repo: openstack/self-healing-sig
 operations-docs:
   - repo: openstack/operations-guide
   - repo: openstack/ha-guide
@@ -29,8 +27,6 @@ technical-writing:
   - repo: openstack/api-site
 api:
   - repo: openstack/api-sig
-auto-scaling:
-  - repo: openstack/auto-scaling-sig
 Public Cloud SIG:
   - repo: openstack/publiccloud-sig
 PowerVMStackers:
@@ -39,3 +35,6 @@ PowerVMStackers:
   - repo: openstack/nova-powervm
 Multi-Arch:
   - repo: openstack/multi-arch-sig
+Automation:
+  - repo: openstack/auto-scaling-sig
+  - repo: openstack/self-healing-sig
