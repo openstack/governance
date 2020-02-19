@@ -28,13 +28,22 @@ Current Investment Opportunities
 .. toctree::
     :maxdepth: 2
 
-    2019/index
+    2020/index
+
+Previous Investment Opportunities
+---------------------------------
 
 .. note::
 
-    This process is new in 2019. You may wish to refer to the entries from the
-    previous :doc:`Help Most Wanted list <2018/index>` while the process of
-    converting them to the new format is underway.
+    The "Investment Opportunities" process was introduced in 2019.
+    The entries before (2018) are following our "Help Most Wanted list" format,
+    which does not highlight business opportunities.
+
+.. toctree::
+    :maxdepth: 2
+
+    2019/index
+    2018/index
 
 Inclusion Criteria
 ------------------
