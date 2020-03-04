@@ -47,11 +47,17 @@ Completion Criteria
 ===================
 
 #. There exists project specific information about
-   contribution to that project  in each project's documentation
-   in the form of CONTRIBUTING.rst in the cookiecutter repo [3].
-#. There exists a PTL specific section in CONTRIBUTING.rst  with
-   all extra duties they perform beyond the common set enumerated
-   in the project team guide in the becoming a PTL section.
+   contribution to that project in each project's documentation
+   in the form of a ``doc/source/contributor/contributing.rst``
+   following the template in the cookiecutter repo [3].
+#. There exists a PTL specific section in
+   ``doc/source/contributor/contributing.rst`` with all extra duties
+   they perform beyond the common set enumerated in the
+   project team guide in the becoming a PTL section.
+#. Each project's ``CONTRIBUTING.rst`` file is updated to the latest
+   template from the cookiecutter repo[4], linking to both the
+   OpenStack contributor guide and the project's own contribution
+   documentation.
 
 References
 ==========
@@ -60,7 +66,9 @@ References
 
 #. `Contributor  Guide <https://docs.openstack.org/contributors/code-and-documentation/index.html>`_
 
-#. `Cookie Cutter CONTRIBUTING.rst Template <https://review.opendev.org/696001>`_
+#. `Cookie Cutter doc/source/contributor/contributing.rst Template <https://opendev.org/openstack/cookiecutter/raw/branch/master/%7b%7bcookiecutter.repo_name%7d%7d/CONTRIBUTING.rst>`_
+
+#. `Cookie Cutter CONTRIBUTING.rst Template <https://opendev.org/openstack/cookiecutter/raw/branch/master/%7b%7bcookiecutter.repo_name%7d%7d/doc/source/contributor/contributing.rst>`_
 
 #. `Nova PTL Guide <https://docs.openstack.org/nova/latest/contributor/ptl-guide.html>`_
 
