@@ -84,6 +84,11 @@ Examples of migration:
 - python-cinderclient: https://review.opendev.org/672784/
   A more recent example of a devstack (non-tempest) job.
 
+- heat-functional-tests: https://review.opendev.org/660877
+
+  This example collect tests from two repositories (heat and
+  heat-tempest-plugin). Also example for gabbit tests.
+
 Current State / Anticipated Impact
 ==================================
 
