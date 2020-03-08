@@ -3242,7 +3242,10 @@ Quality Assurance:
     devstack-plugin-container:
       repos:
         - openstack/devstack-plugin-container
-
+    devstack-plugin-nfs:
+      release-management: none
+      repos:
+        - openstack/devstack-plugin-nfs
   liaisons:
     - ricolin
     - asettle
