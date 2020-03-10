@@ -3816,6 +3816,8 @@ tripleo:
     tripleo-validations:
       repos:
         - openstack/tripleo-validations
+        - openstack/validations-common
+        - openstack/validations-libs
     tripleo-ha-utils:
       release-management: none
       repos:
