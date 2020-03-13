@@ -2607,34 +2607,6 @@ OpenStackAnsible:
   liaisons:
     - evrardjp
     - mnaser
-OpenStackClient:
-  ptl:
-    name: Dean Troyer
-    irc: dtroyer
-    email: dtroyer@gmail.com
-  irc-channel: openstack-sdks
-  service: Command-line client
-  mission: >
-    Provide a single command-line interface for OpenStack services with a
-    uniform command set and format.
-  url: https://docs.openstack.org/python-openstackclient/latest/
-  deliverables:
-    cliff:
-      repos:
-        - openstack/cliff
-    openstackclient:
-      repos:
-        - openstack/openstackclient
-    osc-lib:
-      repos:
-        - openstack/osc-lib
-    python-openstackclient:
-      repos:
-        - openstack/python-openstackclient
-
-  liaisons:
-    - jungleboyj
-    - jroll
 OpenStackSDK:
   ptl:
     name: Monty Taylor
@@ -2643,16 +2615,22 @@ OpenStackSDK:
   appointed:
     - ussuri
   irc-channel: openstack-sdks
-  service: Multi-cloud Python SDK for End Users
+  service: Multi-cloud Python SDK and CLI for End Users
   mission: >
-    To provide a multi-cloud aware Python SDK for the OpenStack REST API
-    exposing both the full set of low-level APIs as well as curated higher
+    To provide a unified multi-cloud aware Python SDK and CLI for the OpenStack
+    REST API exposing both the full set of low-level APIs as well as curated higher
     level business logic.
   url: https://docs.openstack.org/openstacksdk/latest/
   deliverables:
+    cliff:
+      repos:
+        - openstack/cliff
     js-openstack-lib:
       repos:
         - openstack/js-openstack-lib
+    openstackclient:
+      repos:
+        - openstack/openstackclient
     openstacksdk:
       repos:
         - openstack/openstacksdk
@@ -2666,6 +2644,12 @@ OpenStackSDK:
         - openstack/os-service-types
       tags:
         - assert:follows-standard-deprecation
+    osc-lib:
+      repos:
+        - openstack/osc-lib
+    python-openstackclient:
+      repos:
+        - openstack/python-openstackclient
     requestsexceptions:
       repos:
         - openstack/requestsexceptions
