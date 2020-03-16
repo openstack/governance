@@ -1452,9 +1452,9 @@ neutron:
     - mnaser
 nova:
   ptl:
-    name: Eric Fried
-    irc: efried
-    email: openstack@fried.cc
+    name: Balazs Gibizer
+    irc: gibi
+    email: balazs.gibizer@est.tech
   irc-channel: openstack-nova
   service: Compute service
   mission: >
