@@ -2816,6 +2816,10 @@ Quality Assurance:
       release-management: none
       repos:
         - openstack/devstack-plugin-cookiecutter
+    devstack-plugin-open-cas:
+      release-management: none
+      repos:
+        - openstack/devstack-plugin-open-cas
     devstack-tools:
       repos:
         - openstack/devstack-tools
