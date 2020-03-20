@@ -3375,6 +3375,9 @@ tripleo:
       release-management: deprecated
       repos:
         - openstack/instack-undercloud
+    openstack-tempest-skiplist:
+      repos:
+        - openstack/openstack-tempest-skiplist
     openstack-virtual-baremetal:
       repos:
         - openstack/openstack-virtual-baremetal
