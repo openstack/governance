@@ -2529,6 +2529,10 @@ Quality Assurance:
       release-management: none
       repos:
         - openstack/devstack-plugin-nfs
+    whitebox-tempest-plugin:
+      release-management: none
+      repos:
+        - openstack/whitebox-tempest-plugin
   liaisons: [gmann]
 rally:
   ptl:
