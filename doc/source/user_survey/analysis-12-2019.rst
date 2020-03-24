@@ -8,15 +8,15 @@ Introduction
 The OpenStack Technical Committee (TC) added questions to the User Survey for
 the first time in 2019.  The following questions were asked by the TC:
 
-  * How do you upgrade your version of OpenStack?
-  * Once on a given release, do you use stable branches for bugfix upgrades?
-  * To which projects does your organization contribute maintenance resources,
-    such as patches for bug fixes and code reviews on master or stable
-    branches?
-  * How do members of your organization contribute to OpenStack?
-  * What prevents you or your organization from contributing more maintenance
-    resources, or makes contributing difficult?
-  * Other ways to participate?
+* How do you upgrade your version of OpenStack?
+* Once on a given release, do you use stable branches for bugfix upgrades?
+* To which projects does your organization contribute maintenance resources,
+  such as patches for bug fixes and code reviews on master or stable
+  branches?
+* How do members of your organization contribute to OpenStack?
+* What prevents you or your organization from contributing more maintenance
+  resources, or makes contributing difficult?
+* Other ways to participate?
 
 The intention of these questions was to understand how users are maintaining
 their OpenStack clouds and how they are interacting with the community.  In the
