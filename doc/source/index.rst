@@ -78,3 +78,16 @@ exceptions are listed in the :doc:`reference/house-rules` document.
 .. _`current proposals tracker`: https://wiki.openstack.org/wiki/Technical_Committee_Tracker
 
 .. _`Developer's guide section of the Infra manual`: https://docs.openstack.org/infra/manual/developers.html
+
+Summary of User Survey Questions Responses
+==========================================
+
+Since 2019 the OpenStack Technical Committee has added questions to the
+annual OpenStack User Survey.  Below are links to summaries and analysis
+of those responses.
+
+.. toctree::
+   :maxdepth: 2
+   :titlesonly:
+
+   user_survey/analysis-12-2019
