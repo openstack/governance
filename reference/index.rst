@@ -32,3 +32,4 @@ Reference documents which need to be revised over time.
    house-rules
    comparison-of-official-group-structures
    joining-tc
+   OpenStack-name-in-external-services
