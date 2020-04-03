@@ -3189,9 +3189,11 @@ storlets:
     - evrardjp
 swift:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Tim Burke
+    irc: timburke
+    email: tburke@nvidia.com
+  appointed:
+    - victoria
   irc-channel: openstack-swift
   service: Object Storage service
   mission: >
