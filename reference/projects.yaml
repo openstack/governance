@@ -1,8 +1,8 @@
 adjutant:
   ptl:
-    name: Adrian Turjak
-    irc: adriant
-    email: adriant@catalyst.net.nz
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-adjutant
   service: Operations Processes automation
   mission: >
@@ -27,9 +27,9 @@ adjutant:
     - diablo_rojo
 barbican:
   ptl:
-    name: Douglas Mendizábal
-    irc: redrobot
-    email: dmendiza@redhat.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-barbican
   service: Key Manager service
   mission: >
@@ -159,9 +159,9 @@ cinder:
     - ricolin
 cloudkitty:
   ptl:
-    name: Justin Ferrieu
-    irc: jferrieu
-    email: justin.ferrieu@objectif-libre.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: cloudkitty
   service: Rating service
   mission: >
@@ -193,9 +193,9 @@ cloudkitty:
     - ttx
 congress:
   ptl:
-    name: Eric Kao
-    irc: ekcs
-    email: ekcs.openstack@gmail.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: congress
   service: Governance service
   mission: >
@@ -228,9 +228,9 @@ congress:
     - njohnston
 cyborg:
   ptl:
-    name: Sundar Nadathur
-    irc: Sundar
-    email: sundar.nadathur@intel.com
+    name: Yumeng Bao
+    irc: No nick supplied
+    email: yumeng_bao@yahoo.com
   appointed:
     - ussuri
   irc-channel: openstack-cyborg
@@ -324,9 +324,9 @@ ec2-api:
     - gmann
 freezer:
   ptl:
-    name: geng chc
-    irc: gengchc
-    email: geng.changcai2@zte.com.cn
+    name: ge cong
+    irc: No nick supplied
+    email: ge.cong@zte.com.cn
   appointed:
     - stein
   irc-channel: openstack-freezer
@@ -466,9 +466,9 @@ heat:
     - mnaser
 horizon:
   ptl:
-    name: Akihiro Motoki
-    irc: amotoki
-    email: amotoki@gmail.com
+    name: Ivan Kolodyazhny
+    irc: e0ne
+    email: e0ne@e0ne.info
   irc-channel: openstack-horizon
   service: Dashboard
   mission: >
@@ -595,9 +595,9 @@ horizon:
     - jroll
 I18n:
   ptl:
-    name: Ian Y. Choi
-    irc: ianychoi
-    email: ianyrchoi@gmail.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - ussuri
   mission: >
@@ -748,9 +748,9 @@ I18n:
     - ricolin
 Infrastructure:
   ptl:
-    name: Clark Boylan
-    irc: clarkb
-    email: cboylan@sapwetik.org
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-infra
   mission: >
     Develop and maintain, in conjunction with the OpenDev project, the
@@ -916,7 +916,7 @@ ironic:
 karbor:
   ptl:
     name: Pengju Jiao
-    irc: No nick supplied
+    irc: jiaopengju
     email: jiaopengju@cmss.chinamobile.com
   irc-channel: openstack-karbor
   service: Data Protection Orchestration service
@@ -940,9 +940,9 @@ karbor:
     - asettle
 keystone:
   ptl:
-    name: Colleen Murphy
-    irc: cmurphy
-    email: colleen@gazlene.net
+    name: Kristi Nikolla
+    irc: knikolla
+    email: knikolla@bu.edu
   irc-channel: openstack-keystone
   service: Identity service
   mission: >
@@ -1057,9 +1057,9 @@ kuryr:
     - ttx
 loci:
   ptl:
-    name: Pete Birley
-    irc: portdirect
-    email: petebirley@gmail.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - stein
   irc-channel: openstack-loci
@@ -1155,9 +1155,9 @@ manila:
     - asettle
 masakari:
   ptl:
-    name: Sampath Priyankara
-    irc: samP
-    email: sam47priya@gmail.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-masakari
   service: Instances High Availability service
   mission: >
@@ -1227,9 +1227,9 @@ mistral:
     - njohnston
 monasca:
   ptl:
-    name: Witek Bedyk
-    irc: witek
-    email: witold.bedyk@suse.com
+    name: Martin Chacon Piza
+    irc: No nick supplied
+    email: MartinDavid.ChaconPiza1@est.fujitsu.com
   irc-channel: openstack-monasca
   service: Monitoring
   mission: >
@@ -1495,9 +1495,9 @@ nova:
     - gmann
 octavia:
   ptl:
-    name: Adam Harwell
-    irc: rm_work
-    email: flux.adam@gmail.com
+    name: Michael Johnson
+    irc: johnsom
+    email: johnsomor@gmail.com
   irc-channel: openstack-lbaas
   service: Load-balancer service
   mission: >
@@ -1549,9 +1549,9 @@ octavia:
     - zaneb
 OpenStack Charms:
   ptl:
-    name: Frode Nordahl
-    irc: fnordahl
-    email: frode.nordahl@canonical.com
+    name: James Page
+    irc: jamespage
+    email: james.page@ubuntu.com
   irc-channel: openstack-charms
   service: Juju Charms for deployment of OpenStack
   mission: >
@@ -2021,9 +2021,9 @@ OpenStack Charms:
     - diablo_rojo
 openstack-chef:
   ptl:
-    name: Jens Harbott
-    irc: frickler
-    email: j.harbott@x-ion.de
+    name: Lance Albertson
+    irc: Ramereth
+    email: lance@osuosl.org
   service: Chef cookbooks for life cycle management
   irc-channel: openstack-chef
   mission: >
@@ -2117,9 +2117,9 @@ openstack-chef:
     - cloudnull
 OpenStack-Helm:
   ptl:
-    name: Pete Birley
-    irc: portdirect
-    email: petebirley@gmail.com
+    name: Gage Hugo
+    irc: gagehugo
+    email: gagehugo@gmail.com
   service: Helm charts for OpenStack services
   irc-channel: openstack-helm
   mission: >
@@ -2315,9 +2315,9 @@ OpenStackSDK:
     - gmann
 oslo:
   ptl:
-    name: Ben Nemec
-    irc: bnemec
-    email: openstack@nemebean.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-oslo
   service: Common libraries
   mission: >
@@ -2537,9 +2537,9 @@ oslo:
     - asettle
 Packaging-rpm:
   ptl:
-    name: Javier Peña
-    irc: jpena
-    email: jpena@redhat.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - stein
   service: Templates and tools to build OpenStack RPM packages
@@ -2569,9 +2569,9 @@ Packaging-rpm:
     - njohnston
 placement:
   ptl:
-    name: Tetsuro Nakamura
-    irc: tetsuro
-    email: tetsuro.nakamura.bc@hco.ntt.co.jp
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - ussuri
   irc-channel: openstack-placement
@@ -2788,9 +2788,9 @@ qinling:
     - mugsie
 Quality Assurance:
   ptl:
-    name: Ghanshyam Mann
-    irc: gmann
-    email: gmann@ghanshyammann.com
+    name: Masayuki Igawa
+    irc: masayukig
+    email: masayuki@igawa.io
   irc-channel: openstack-qa
   mission: >
     Develop, maintain, and initiate tools and plans to ensure the upstream
@@ -2888,9 +2888,9 @@ Quality Assurance:
     - asettle
 rally:
   ptl:
-    name: Andrey Kurilin
-    irc: andreykurilin
-    email: andr.kurilin@gmail.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-rally
   service: Benchmark service
   mission: >
@@ -3169,9 +3169,9 @@ solum:
     - evrardjp
 storlets:
   ptl:
-    name: Kota Tsuyuzaki
-    irc: kota_
-    email: kota.tsuyuzaki.pc@hco.ntt.co.jp
+    name: Takashi Kajinami
+    irc: tkajinam
+    email: tkajinam@redhat.com
   irc-channel: openstack-storlets
   service: Compute inside Object Storage service
   mission: >
@@ -3189,9 +3189,9 @@ storlets:
     - evrardjp
 swift:
   ptl:
-    name: Tim Burke
-    irc: timburke
-    email: tim@swiftstack.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-swift
   service: Object Storage service
   mission: >
@@ -3237,9 +3237,9 @@ swift:
     - zaneb
 tacker:
   ptl:
-    name: dharmendra kushwaha
-    irc: dkushwaha
-    email: dharmendra.kushwaha@india.nec.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: tacker
   service: NFV Orchestration service
   mission: >
@@ -3320,9 +3320,9 @@ Telemetry:
     - jungleboyj
 tricircle:
   ptl:
-    name: chi zhang
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: zhangchi@szzt.com.cn
+    email: example@example.org
   irc-channel: openstack-tricircle
   service: Networking automation across Neutron service
   mission: >
@@ -3583,7 +3583,7 @@ watcher:
 winstackers:
   ptl:
     name: Lucian Petrut
-    irc: lpetrut
+    irc: No nick supplied
     email: lpetrut@cloudbasesolutions.com
   appointed:
     - stein
@@ -3614,9 +3614,9 @@ winstackers:
     - njohnston
 zaqar:
   ptl:
-    name: wang hao
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: sxmatch1986@gmail.com
+    email: example@example.org
   appointed:
     - train
   irc-channel: openstack-zaqar
