@@ -2888,9 +2888,11 @@ Quality Assurance:
     - asettle
 rally:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Andrey Kurilin
+    irc: andreykurilin
+    email: andr.kurilin@gmail.co
+  appointed:
+    - victoria
   irc-channel: openstack-rally
   service: Benchmark service
   mission: >
