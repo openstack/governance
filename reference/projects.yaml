@@ -159,9 +159,11 @@ cinder:
     - ricolin
 cloudkitty:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Justin Ferrieu
+    irc: jferrieu
+    email: justin.ferrieu@objectif-libre.com
+  appointed:
+    - victoria
   irc-channel: cloudkitty
   service: Rating service
   mission: >
