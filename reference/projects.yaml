@@ -3237,9 +3237,11 @@ swift:
     - zaneb
 tacker:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Yasufumi Ogawa
+    irc: yasufum
+    email: yasufum.o@gmail.com
+  appointed:
+    - victoria
   irc-channel: tacker
   service: NFV Orchestration service
   mission: >
