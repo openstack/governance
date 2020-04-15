@@ -1,10 +1,3 @@
-- name: Alexandra Settle
-  irc: asettle
-  email: asettle@suse.com
-  memberid: 19871
-  date: March 2020
-  role: null
-
 - name: Ghanshyam Mann
   irc: gmann
   email: gmann@ghanshyammann.com
@@ -16,7 +9,7 @@
   irc: mugsie
   email: gr@ham.ie
   memberid: 12766
-  date: March 2020
+  date: At the next TC elections in 2021
   role: null
 
 - name: Jay Bryant
@@ -31,13 +24,6 @@
   email: jean-philippe@evrard.me
   memberid: 37952
   date: September 2020
-  role: chair
-
-- name: Jim Rollenhagen
-  irc: jroll
-  email: jim@jimrollenhagen.com
-  memberid: 15867
-  date: March 2020
   role: null
 
 - name: Kevin Carter
@@ -58,7 +44,7 @@
   irc: mnaser
   email: mnaser@vexxhost.com
   memberid: 8899
-  date: March 2020
+  date: At the next TC elections in 2021
   role: null
 
 - name: Nate Johnston
@@ -72,19 +58,19 @@
   irc: ricolin
   email: rico.lin.guanyu@gmail.com
   memberid: 33346
-  date: March 2020
-  role: vice-chair
-
-- name: Thierry Carrez
-  irc: ttx
-  email: thierry@openstack.org
-  memberid: 154
-  date: March 2020
+  date: At the next TC elections in 2021
   role: null
 
-- name: Zane Bitter
-  irc: zaneb
-  email: zbitter@redhat.com
-  memberid: 277
-  date: March 2020
+- name: Kristi Nikolla
+  irc: knikolla
+  email: knikolla@bu.edu
+  memberid: 35202
+  date: At the next TC elections in 2021
+  role: null
+
+- name: Belmiro Moreira
+  irc: belmoreira
+  email: moreira.belmiro.email.lists@gmail.com
+  memberid: 9745
+  date: At the next TC elections in 2021
   role: null
