@@ -1908,6 +1908,22 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-tempest
+    charm-trilio-data-mover:
+      release-management: external
+      repos:
+        - openstack/charm-trilio-data-mover
+    charm-trilio-dm-api:
+      release-management: external
+      repos:
+        - openstack/charm-trilio-dm-api
+    charm-trilio-horizon-plugin:
+      release-management: external
+      repos:
+        - openstack/charm-trilio-horizon-plugin
+    charm-trilio-wlm:
+      release-management: external
+      repos:
+        - openstack/charm-trilio-wlm
     charm-trove:
       release-management: external
       repos:
