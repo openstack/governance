@@ -535,6 +535,14 @@ OpenStackAnsible:
       retired-on: 2019-04-16
       repos:
         - openstack/openstack-ansible-os_searchlight
+    openstack-ansible-pip_install:
+      retired-on: 2020-04-07
+      repos:
+        - openstack/openstack-ansible-pip_install
+    openstack-ansible-repo_build:
+      retired-on: 2020-04-07
+      repos:
+        - openstack/openstack-ansible-repo_build
 
 OpenStackSalt:
   ptl:
