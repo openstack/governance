@@ -3542,6 +3542,24 @@ vitrage:
     vitrage-dashboard:
       repos:
         - openstack/vitrage-dashboard
+    xstatic-dagre:
+      repos:
+        - openstack/xstatic-dagre
+    xstatic-dagre-d3:
+      repos:
+        - openstack/xstatic-dagre-d3
+    xstatic-graphlib:
+      repos:
+        - openstack/xstatic-graphlib
+    xstatic-lodash:
+      repos:
+        - openstack/xstatic-lodash
+    xstatic-moment:
+      repos:
+        - openstack/xstatic-moment
+    xstatic-moment-timezone:
+      repos:
+        - openstack/xstatic-moment-timezone
 
   liaisons:
     - njohnston
