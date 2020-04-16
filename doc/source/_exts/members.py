@@ -28,12 +28,12 @@ class MembersTable(tables.Table):
     """Insert the members table using the referenced file as source.
     """
 
-    HEADERS = ('Full Name', 'IRC', 'E-mail', 'Term Expires', 'Role')
+    HEADERS = ('Full Name', 'IRC', 'E-mail', 'Elected On', 'Role')
     HEADER_MAP = {
         'Full Name': 'name',
         'IRC': 'irc',
         'E-mail': 'email',
-        'Term Expires': 'date',
+        'Elected On': 'date',
         'Role': 'role',
     }
 
