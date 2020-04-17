@@ -61,6 +61,10 @@ Projects keeping py2.7 support
    * Swift is still fixing py3 bugs, want more than a single OpenStack release with both py2 and py3
      support, and want to continue to support xenial.
 
+#. Storlets
+
+   * Storlets is very close to Swift in term of source code and use case. Storlets will keep
+     python 2.7 support along with python3.
 
 Schedule
 --------
