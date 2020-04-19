@@ -490,7 +490,6 @@ horizon:
       repos:
         - openstack/xstatic-angular-vis
     xstatic-bootstrap-datepicker:
-      release-management: deprecated
       repos:
         - openstack/xstatic-bootstrap-datepicker
     xstatic-bootstrap-scss:
@@ -503,7 +502,6 @@ horizon:
       repos:
         - openstack/xstatic-d3
     xstatic-hogan:
-      release-management: deprecated
       repos:
         - openstack/xstatic-hogan
     xstatic-filesaver:
@@ -516,15 +514,12 @@ horizon:
       repos:
         - openstack/xstatic-jasmine
     xstatic-jquery-migrate:
-      release-management: deprecated
       repos:
         - openstack/xstatic-jquery-migrate
     xstatic-jquery.quicksearch:
-      release-management: deprecated
       repos:
         - openstack/xstatic-jquery.quicksearch
     xstatic-jquery.tablesorter:
-      release-management: deprecated
       repos:
         - openstack/xstatic-jquery.tablesorter
     xstatic-js-yaml:
@@ -543,14 +538,12 @@ horizon:
       repos:
         - openstack/xstatic-mdi
     xstatic-rickshaw:
-      release-management: deprecated
       repos:
         - openstack/xstatic-rickshaw
     xstatic-roboto-fontface:
       repos:
         - openstack/xstatic-roboto-fontface
     xstatic-spin:
-      release-management: deprecated
       repos:
         - openstack/xstatic-spin
   liaisons: []
