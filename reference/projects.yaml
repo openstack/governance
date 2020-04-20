@@ -26,9 +26,11 @@ adjutant:
   liaisons: []
 barbican:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Douglas Mendizábal
+    irc: redrobot
+    email: dmendiza@redhat.com
+  appointed:
+    - victoria
   irc-channel: openstack-barbican
   service: Key Manager service
   mission: >
