@@ -88,5 +88,6 @@ def main():
 
     projects.write_project_file(project_data, args.projects_file)
 
+
 if __name__ == '__main__':
     main()

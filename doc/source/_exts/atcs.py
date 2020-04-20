@@ -135,7 +135,7 @@ class ExtraATCsTable(tables.Table):
         return table
 
 
-_PATTERN = re.compile('(?P<project>.+):\s+(?P<name>.+)\s\((?P<email>.+)\)\s\[(?P<expires_in>.*)\]')
+_PATTERN = re.compile(r'(?P<project>.+):\s+(?P<name>.+)\s\((?P<email>.+)\)\s\[(?P<expires_in>.*)\]')
 
 
 def setup(app):

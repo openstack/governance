@@ -79,12 +79,12 @@ class TaggedProjectsDirective(rst.Directive):
 def _build_projects_by_tag():
     for proj_name, info in projects.get_project_data().items():
         for tag in info.get('tags', []):
-            l = _projects_by_tag.setdefault(tag, [])
-            l.append((proj_name, None))
+            li = _projects_by_tag.setdefault(tag, [])
+            li.append((proj_name, None))
         for name, deliverable in info.get('deliverables', {}).items():
             for tag in deliverable.get('tags', []):
-                l = _projects_by_tag.setdefault(tag, [])
-                l.append((proj_name, name))
+                li = _projects_by_tag.setdefault(tag, [])
+                li.append((proj_name, name))
 
 
 def setup(app):

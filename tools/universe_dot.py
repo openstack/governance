@@ -41,13 +41,14 @@ Then open os_universe.svg in your favorite web browser.
 import sys
 import time
 
+import pydot
+import six
+import yaml
+
 if len(sys.argv) == 1:
     print(__doc__.strip())
     sys.exit(1)
 
-import pydot
-import six
-import yaml
 
 projects_file = sys.argv[1]
 output_dot_file = sys.argv[2]

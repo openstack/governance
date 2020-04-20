@@ -14,7 +14,6 @@
 # flake8: noqa
 
 import datetime
-import subprocess
 import sys
 import os
 
@@ -141,10 +140,6 @@ html_title = 'OpenStack Technical Committee Governance Documents'
 html_static_path = ['_static']
 
 html_extra_path = ['_extra']
-
-# If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
-# using the given strftime format.
-html_last_updated_fmt = '%Y-%m-%d'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
