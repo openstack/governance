@@ -2215,9 +2215,11 @@ OpenStackSDK:
   liaisons: []
 oslo:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Ben Nemec
+    irc: bnemec
+    email: openstack@nemebean.com
+  appointed:
+    - victoria
   irc-channel: openstack-oslo
   service: Common libraries
   mission: >
