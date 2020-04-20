@@ -46,6 +46,9 @@ barbican:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - stable:follows-policy
+    barbican-ansible-roles:
+      repos:
+        - openstack/ansible-role-lunasa-hsm
     barbican-specs:
       release-management: none
       repos:
