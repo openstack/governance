@@ -1091,9 +1091,11 @@ manila:
   liaisons: []
 masakari:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Sampath Priyankara
+    irc: samP
+    email: sam47priya@gmail.com
+  appointed:
+    - victoria
   irc-channel: openstack-masakari
   service: Instances High Availability service
   mission: >
