@@ -1,8 +1,10 @@
 adjutant:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Adrian Turjak
+    irc: adriant
+    email: adriant@catalyst.net.nz
+  appointed:
+    - victoria
   irc-channel: openstack-adjutant
   service: Operations Processes automation
   mission: >
