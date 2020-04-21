@@ -710,61 +710,7 @@ I18n:
       expires-in: January 2020
       comment: yusuke1219 (ja)
   liaisons: []
-Infrastructure:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
-  irc-channel: openstack-infra
-  mission: >
-    Develop and maintain, in conjunction with the OpenDev project, the
-    tooling and infrastructure needed to support the development process
-    and general operation of the OpenStack project.
-  url: https://docs.openstack.org/infra/system-config/
-  deliverables:
-    bugdaystats:
-      repos:
-        - openstack/bugdaystats
-    devstack-gate:
-      repos:
-        - openstack/devstack-gate
-    diskimage-builder:
-      repos:
-        - openstack/diskimage-builder
-    logstash-filters:
-      repos:
-        - openstack/logstash-filters
-    nose-html-output:
-      repos:
-        - openstack/nose-html-output
-    openstack-nose:
-      repos:
-        - openstack/openstack-nose
-    openstack-planet:
-      repos:
-        - openstack/openstack-planet
-    openstack-zuul-jobs:
-      repos:
-        - openstack/openstack-zuul-jobs
-    openstack-zuul-roles:
-      repos:
-        - openstack/openstack-zuul-roles
-    os-loganalyze:
-      repos:
-        - openstack/os-loganalyze
-    project-config:
-      repos:
-        - openstack/project-config
-    ptgbot:
-      repos:
-        - openstack/ptgbot
-    reviewday:
-      repos:
-        - openstack/reviewday
-    reviewstats:
-      repos:
-        - openstack/reviewstats
-  liaisons: []
+
 ironic:
   ptl:
     name: Julia Kreger
