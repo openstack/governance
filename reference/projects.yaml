@@ -1000,25 +1000,6 @@ kuryr:
       repos:
         - openstack/kuryr-tempest-plugin
   liaisons: []
-loci:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
-  appointed:
-    - stein
-  irc-channel: openstack-loci
-  service: Lightweight OCI containers for OpenStack deployment
-  mission: >
-    To provide CI/CD friendly, lightweight OCI compliant container tooling and
-    images for OpenStack services
-  url: https://wiki.openstack.org/wiki/LOCI
-  deliverables:
-    loci:
-      release-management: none
-      repos:
-        - openstack/loci
-  liaisons: []
 magnum:
   ptl:
     name: Feilong Wang
@@ -2036,6 +2017,8 @@ OpenStack-Helm:
   mission: >
     To provide a collection of Helm charts that simply, resiliently,
     and flexibly deploy OpenStack and related services on Kubernetes.
+    OpenStack-Helm also produces lighweight OCI container images agnostic of
+    the deployment tooling for OpenStack.
   url: https://wiki.openstack.org/wiki/Openstack-helm
   deliverables:
     openstack-helm:
@@ -2058,6 +2041,10 @@ OpenStack-Helm:
       release-management: external
       repos:
         - openstack/openstack-helm-infra
+    loci:
+      release-management: none
+      repos:
+        - openstack/loci
   liaisons: []
 OpenStackAnsible:
   ptl:
