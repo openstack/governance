@@ -576,10 +576,6 @@ I18n:
       release-management: none
       repos:
         - openstack/i18n
-    i18n-specs:
-      release-management: none
-      repos:
-        - openstack/i18n-specs
   extra-atcs:
     - name: Ilya Alekseyev
       email: ilyaalekseyev@acm.org

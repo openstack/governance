@@ -1624,6 +1624,15 @@ Packaging-deb:
       repos:
         - openstack/deb-zaqar-ui
 
+I18n:
+  partial: yes
+  deliverables:
+    i18n-specs:
+      release-management: none
+      repos:
+        - openstack/i18n-specs
+      retired-on: 2020-04-21
+
 PowerVMStackers:
   ptl:
     name: Divya K Konoor
