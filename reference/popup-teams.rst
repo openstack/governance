@@ -46,7 +46,7 @@ Secure Default Policies
 Co-leads
 ~~~~~~~~
 
-* Colleen Murphy (cmurphy)
+* Raildo Mascena (raildo)
 * Ghanshyam Mann (gmann)
 
 TC Liaison
