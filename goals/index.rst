@@ -55,7 +55,10 @@ we establish a common understanding of the expectations being set.
 Once champions have volunteered to propose and drive a specific goal, they
 should iterate through goal definition in the ``/goals/proposed/`` directory.
 This allows to keep the goal selection process separate from the goal
-definition process.
+definition process.  Goal proposals should have the ``goal-proposal`` gerrit
+topic, whose voting rules are specified in the `house rules`_.
+
+.. _`house rules`: https://governance.openstack.org/tc/reference/house-rules.html
 
 Goal definitions should use the provided template so they are all
 formatted consistently.  The goal definition does not take the place
