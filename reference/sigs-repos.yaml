@@ -10,9 +10,6 @@ security:
   - repo: openstack/security-analysis
   - repo: openstack/security-doc
   - repo: openstack/security-specs
-  - repo: openstack/syntribos
-  - repo: openstack/syntribos-openstack-templates
-  - repo: openstack/syntribos-payloads
 operations-docs:
   - repo: openstack/operations-guide
   - repo: openstack/ha-guide
