@@ -62,6 +62,15 @@ Projects keeping py2.7 support
      support, and want to continue to support xenial.
 
 
+Projects keeping py3.5 support
+------------------------------
+
+#. OpenStackSDK
+
+    * As an end-user facing library, OpenStackSDK has to take a slightly more conservative approach.
+      In particular, some large users of OpenStackSDK, such as Zuul, still support 3.5 as a minimum.
+      In fact, OpenDev's Zuul currently runs in production on Ubuntu Xenial on python3.5.
+
 Schedule
 --------
 
