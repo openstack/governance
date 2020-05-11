@@ -285,7 +285,6 @@ horizon:
 
 Infrastructure:
   irc-channel: openstack-infra
-  partial: yes
   deliverables:
     puppet-apps_site:
       retired-on: 2017-12-10

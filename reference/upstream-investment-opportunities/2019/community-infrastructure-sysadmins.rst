@@ -7,7 +7,7 @@ Summary
 
 The OpenStack community is seeking developers and system
 administrators with a background in maintaining Unix/Linux servers and
-free software to join the :ref:`project-infrastructure` team.  This
+free software to join the Infrastructure team.  This
 team is responsible for designing, building and maintaining the
 systems that are used in the day to day operation of the OpenStack
 project as a whole.

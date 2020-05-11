@@ -4,7 +4,7 @@ Community Infrastructure Sysadmins
 Description
 -----------
 
-The :ref:`project-infrastructure` team is responsible for designing,
+The Infrastructure team is responsible for designing,
 building and maintaining the systems that are used in the day to day
 operation of the OpenStack project as a whole; this includes
 development, testing, and collaboration tools. All of the software

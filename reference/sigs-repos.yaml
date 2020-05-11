@@ -38,3 +38,18 @@ Multi-Arch:
 Automation:
   - repo: openstack/auto-scaling-sig
   - repo: openstack/self-healing-sig
+Testing and Collaboration Tools:
+  - repo: openstack/bugdaystats
+  - repo: openstack/devstack-gate
+  - repo: openstack/diskimage-builder
+  - repo: openstack/logstash-filters
+  - repo: openstack/nose-html-output
+  - repo: openstack/openstack-nose
+  - repo: openstack/openstack-planet
+  - repo: openstack/openstack-zuul-jobs
+  - repo: openstack/openstack-zuul-roles
+  - repo: openstack/os-loganalyze
+  - repo: openstack/project-config
+  - repo: openstack/ptgbot
+  - repo: openstack/reviewday
+  - repo: openstack/reviewstats
