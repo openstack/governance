@@ -95,19 +95,21 @@ Other project team updates
 
 :Gerrit topic: ``project-update``
 
-For other changes within an existing project team, like addition of a new git
-repository or self-assertion of a tag, we use lazy consensus. If there is no
-objection posted one week after the change is proposed (or a significant new
-revision of the change is posted), then the change can be approved by the
-chair.
+This topic is used for other changes within an existing project team, like
+addition of a new git repository, retirement or self-assertion of a tag.
+
+If there is no objection posted after the addition or retirement of a project
+is proposed (assuming the correct retirement process has been followed), then
+the change can be approved by the chair if it has at least two 2 roll call
+votes, which can include the vote of the chair and excludes the change owner.
 
 One exception to this would be significant team mission statement changes,
 which should be approved by a formal vote after discussion on the mailing list
 or the gerrit change.
 
-In corner cases where the change is time-sensitive (like a deliverable
-reorganization which blocks a release request), the chair may fast-track the
-change, but should report on that exception in the TC update.
+If a technical committee member disagrees with the addition or retirement of a
+project, they can propose a revert which would then be discussed by our usual
+``formal-vote`` rules.
 
 Goal Updates from PTLs
 ----------------------
