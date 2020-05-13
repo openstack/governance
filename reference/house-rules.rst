@@ -101,7 +101,10 @@ addition of a new git repository, retirement or self-assertion of a tag.
 If there is no objection posted after the addition or retirement of a project
 is proposed (assuming the correct retirement process has been followed), then
 the change can be approved by the chair if it has at least two 2 roll call
-votes, which can include the vote of the chair and excludes the change owner.
+votes (which can include the vote of the chair and excludes the change owner)
+and a code review vote from the PTL of the project (or their delegate).
+If the change is from the PTL or their delegate, this will count as an
+acknowledgment code review vote.
 
 One exception to this would be significant team mission statement changes,
 which should be approved by a formal vote after discussion on the mailing list
