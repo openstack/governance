@@ -80,6 +80,22 @@ Projects keeping py3.5 support
     * Keystoneauth is a fundamental part of OpenStackSDK, so if it doesn't support 3.5 neither does
       OpenStackSDK.
 
+#. QA branchless tools
+
+   Many QA tools are branchless and few of them do not release tag also. Those are used as its
+   master version on all stable branches including the stable/rocky which runs with py3.5 env.
+   We are keeping the py3.5 support for below listed QA projects until stable/rocky is EOL.
+
+   * hacking
+
+   * stackviz
+
+   * openstack-health
+
+   * os-performance-tools
+
+   * bashate
+
 Schedule
 --------
 
