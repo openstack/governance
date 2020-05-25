@@ -71,14 +71,14 @@ Projects keeping py3.5 support
 
 #. OpenStackSDK
 
-    * As an end-user facing library, OpenStackSDK has to take a slightly more conservative approach.
-      In particular, some large users of OpenStackSDK, such as Zuul, still support 3.5 as a minimum.
-      In fact, OpenDev's Zuul currently runs in production on Ubuntu Xenial on python3.5.
+   * As an end-user facing library, OpenStackSDK has to take a slightly more conservative approach.
+     In particular, some large users of OpenStackSDK, such as Zuul, still support 3.5 as a minimum.
+     In fact, OpenDev's Zuul currently runs in production on Ubuntu Xenial on python3.5.
 
 #. Keystoneauth
 
-    * Keystoneauth is a fundamental part of OpenStackSDK, so if it doesn't support 3.5 neither does
-      OpenStackSDK.
+   * Keystoneauth is a fundamental part of OpenStackSDK, so if it doesn't support 3.5 neither does
+     OpenStackSDK.
 
 Schedule
 --------
