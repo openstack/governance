@@ -2267,6 +2267,9 @@ oslo:
         - openstack/oslo.messaging
       tags:
         - stable:follows-policy
+    oslo.metrics:
+      repos:
+        - openstack/oslo.metrics
     oslo.middleware:
       repos:
         - openstack/oslo.middleware
