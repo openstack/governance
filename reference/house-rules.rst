@@ -28,6 +28,26 @@ When the change fixes content that is obviously wrong (updates a PTL email
 address, fixes a typo...) then any TC member (who is not the proposer) can
 directly approve them.
 
+Community-wide goal proposals
+-----------------------------
+
+:Gerrit topic: ``goal-proposal``
+
+The `process for choosing community goals`_ has two stages relevant to Gerrit
+changes: defining goal proposals and selecting goals for a cycle.  For changes
+that propose a new goal, or that iterate on an existing proposal, apply the
+normal code review rules (with RollCall votes being considered +-2): change will
+be approved once 2 `RollCall+1` (other than the change owner) are posted (and no
+`RollCall-1`). Any TC member (who is not the proposer) can approve them at this
+point.
+
+Selecting community wide goals for a cycle should be proposed as a single change
+that moves selected goals from `goals/proposed/` to `goals/selected/`.  This way
+the collective feasibility of the goals can be clearly evaluated.  Such a change
+requires a formal-vote.
+
+.. _`process for choosing community goals`: https://governance.openstack.org/tc/goals/index.html#process-details
+
 Code changes
 ------------
 
