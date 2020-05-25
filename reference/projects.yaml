@@ -2369,11 +2369,12 @@ oslo:
   liaisons: []
 Packaging-rpm:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Javier Peña
+    irc: jpena
+    email: jpena@redhat.com
   appointed:
     - stein
+    - victoria
   service: Templates and tools to build OpenStack RPM packages
   mission: >
     To make OpenStack easier to update and consume by operators and
@@ -2395,7 +2396,6 @@ Packaging-rpm:
     renderspec:
       repos:
         - openstack/renderspec
-
   liaisons: []
 placement:
   ptl:
