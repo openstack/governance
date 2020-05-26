@@ -7,4 +7,4 @@ six>=1.9.0
 yamlordereddictloader
 mwclient==0.8.1
 ruamel.yaml
-jsonschema>=2.6.0
+jsonschema>=3.2.0
