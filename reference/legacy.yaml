@@ -2019,6 +2019,22 @@ tripleo:
       docs:
         contributor: http://docs.openstack.org/developer/os-cloud-config/
 
+tricircle:
+  retired-on: 2020-05-18
+  irc-channel: openstack-tricircle
+  service: Networking automation across Neutron service
+  mission: >
+    To provide networking automation across Neutron in multi-region OpenStack
+    clouds deployment.
+  url: https://wiki.openstack.org/wiki/Tricircle
+  deliverables:
+    tricircle:
+      repos:
+        - openstack/tricircle
+    python-tricircleclient:
+      repos:
+        - openstack/python-tricircleclient
+
 trove:
   irc-channel: openstack-trove
   service: Database as a service
