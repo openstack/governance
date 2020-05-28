@@ -185,38 +185,6 @@ cloudkitty:
       repos:
         - openstack/cloudkitty-tempest-plugin
   liaisons: []
-congress:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
-  irc-channel: congress
-  service: Governance service
-  mission: >
-    To provide governance as a service across any collection of cloud
-    services in order to monitor, enforce, and audit policy over
-    dynamic infrastructure.
-  url: https://wiki.openstack.org/wiki/Congress
-  deliverables:
-    congress:
-      repos:
-        - openstack/congress
-      tags:
-        - stable:follows-policy
-    congress-dashboard:
-      repos:
-        - openstack/congress-dashboard
-    congress-specs:
-      release-management: none
-      repos:
-        - openstack/congress-specs
-    congress-tempest-plugin:
-      repos:
-        - openstack/congress-tempest-plugin
-    python-congressclient:
-      repos:
-        - openstack/python-congressclient
-  liaisons: []
 cyborg:
   ptl:
     name: Yumeng Bao

@@ -107,6 +107,35 @@ Community App Catalog:
       repos:
         - openstack/python-appcatalogclient
 
+congress:
+  irc-channel: congress
+  retired-on: 2020-05-18
+  service: Governance service
+  mission: >
+    To provide governance as a service across any collection of cloud
+    services in order to monitor, enforce, and audit policy over
+    dynamic infrastructure.
+  url: https://wiki.openstack.org/wiki/Congress
+  deliverables:
+    congress:
+      repos:
+        - openstack/congress
+      tags:
+        - stable:follows-policy
+    congress-dashboard:
+      repos:
+        - openstack/congress-dashboard
+    congress-specs:
+      release-management: none
+      repos:
+        - openstack/congress-specs
+    congress-tempest-plugin:
+      repos:
+        - openstack/congress-tempest-plugin
+    python-congressclient:
+      repos:
+        - openstack/python-congressclient
+
 cue:
   ptl:
     name: Min Pae
