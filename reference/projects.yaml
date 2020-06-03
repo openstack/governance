@@ -1994,7 +1994,7 @@ OpenStackSDK:
         - openstack/shade
       tags:
         - assert:follows-standard-deprecation
-  liaisons: []
+  liaisons: [diablo_rojo]
 oslo:
   ptl:
     name: Ben Nemec
@@ -2617,7 +2617,7 @@ Release Management:
       repos:
         - openstack/specs-cookiecutter
 
-  liaisons: []
+  liaisons: [diablo_rojo]
 requirements:
   ptl:
     name: Matthew Thode
