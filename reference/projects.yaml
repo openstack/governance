@@ -1144,7 +1144,7 @@ neutron:
     os-ken:
       repos:
         - openstack/os-ken
-  liaisons: []
+  liaisons: [njohnston]
 nova:
   ptl:
     name: Balazs Gibizer
@@ -3319,7 +3319,7 @@ zaqar:
       repos:
         - openstack/zaqar-ui
 
-  liaisons: []
+  liaisons: [njohnston]
 zun:
   ptl:
     name: Feng Shengqin
