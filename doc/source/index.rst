@@ -2,9 +2,10 @@
  OpenStack Technical Committee
 ===============================
 
-The OpenStack Technical Committee is one of the governing bodies of the
-OpenStack project. It is an elected group that represents the contributors
-to the open source project, and has oversight on all technical matters.
+The OpenStack Technical Committee is the governing body of the OpenStack
+open source project. It is an elected group that represents the contributors
+to the project, and has oversight on all technical matters. This includes
+developers, operators and end users of the software.
 
 The Technical Committee is formally defined in the
 `OpenStack Foundation bylaws`_ (in particular article 4.1(b), article 4.13
@@ -12,10 +13,11 @@ and Appendix 4) and further refined in the :doc:`reference/charter`.
 
 Work under the Technical Committee is organized under official
 :doc:`reference/projects/index` (responsible for the production of the
-software up to release), :doc:`reference/popup-teams` (formed
-around a limited cross-project objective) and :doc:`reference/working-groups`
-(delegations from the TC to fill specific functions like election
-organization).
+software up to release), `Special Interest Groups (SIGs)`_ (groups working
+to advance a particular facet of OpenStack), :doc:`reference/popup-teams`
+(formed around a limited cross-project objective) and
+:doc:`reference/working-groups` (delegations from the TC to fill specific
+functions like election organization).
 
 These pages contain OpenStack Technical Committee reference documents
 and track official resolutions voted by the committee.
@@ -74,6 +76,8 @@ exceptions are listed in the :doc:`reference/house-rules` document.
 
 
 .. _`OpenStack Foundation bylaws`: http://www.openstack.org/legal/bylaws-of-the-openstack-foundation/
+
+.. _`Special Interest Groups (SIGs)`: https://governance.openstack.org/sigs/
 
 .. _`current proposals tracker`: https://wiki.openstack.org/wiki/Technical_Committee_Tracker
 
