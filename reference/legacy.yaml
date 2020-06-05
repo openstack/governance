@@ -1765,6 +1765,17 @@ solum:
       repos:
         - openstack/solum-infra-guestagent
 
+swift:
+  irc-channel: openstack-swift
+  service: Object Storage service
+  url: https://wiki.openstack.org/wiki/Swift
+  partial: yes
+  deliverables:
+    swift-specs:
+      retired-on: 2020-06-05
+      repos:
+        - openstack/swift-specs
+
 Telemetry:
   irc-channel: openstack-telemetry
   service: Telemetry service
