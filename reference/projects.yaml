@@ -3023,6 +3023,7 @@ tripleo:
       repos:
         - openstack/os-refresh-config
     paunch:
+      release-management: deprecated
       repos:
         - openstack/paunch
     puppet-pacemaker:
