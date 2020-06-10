@@ -828,7 +828,7 @@ manila:
     python-manilaclient:
       repos:
         - openstack/python-manilaclient
-  liaisons: []
+  liaisons: [gmann]
 masakari:
   ptl:
     name: Sampath Priyankara
@@ -1152,7 +1152,7 @@ nova:
     os-vif:
       repos:
         - openstack/os-vif
-  liaisons: []
+  liaisons: [gmann]
 octavia:
   ptl:
     name: Michael Johnson
@@ -2529,7 +2529,7 @@ Quality Assurance:
       release-management: none
       repos:
         - openstack/devstack-plugin-nfs
-  liaisons: []
+  liaisons: [gmann]
 rally:
   ptl:
     name: Andrey Kurilin
@@ -2894,7 +2894,7 @@ tacker:
       repos:
         - openstack/tacker-specs
 
-  liaisons: []
+  liaisons: [gmann]
 Telemetry:
   ptl:
     name: Rong Zhu
