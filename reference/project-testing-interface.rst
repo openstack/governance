@@ -119,17 +119,11 @@ used to deploy OpenStack on:
 - `Latest CentOS Major <https://www.centos.org/download/>`_
 - `Latest openSUSE Leap <https://software.opensuse.org/>`_
 
-Each project should run some functional tests on these platforms so we make sure
-OpenStack works with distros used in production. The scope of these functional tests
-are discussed for every project, and may adjust their coverage depending of resources
-and support investment.
-These tests are run by using existing tooling, which comes with a reasonable
-expectation that it's viable on the indicated distributions.
+Below are the two upstream testing required as minimum to consider the above distro for defining
+the testing runtime:
 
-Sometimes, these distributions might not support all dependencies required
-by new features in OpenStack. Development of these features should not be
-blocked, though it has to be documented in project release notes, and some
-tests might have to be skipped on these distributions.
+- devstack support with distro job as voting
+- One of the deployment projects run OpenStack on distro
 
 .. toctree::
    :maxdepth: 1
@@ -145,7 +139,8 @@ Tested Runtimes
 In order to focus development efforts and prevent breaking changes midway
 through a development cycle, the policy for officially tested runtimes is
 based on the LTS or stable release of the :ref:`pti-linux-distros` at the start of
-the development cycle.
+the development cycle. Distros are listed in testing runtime based on the
+required minimum testing as described in :ref:`pti-linux-distros`
 
 The officially tested runtimes for each cycle can be found here:
 
