@@ -2534,7 +2534,7 @@ rally:
   ptl:
     name: Andrey Kurilin
     irc: andreykurilin
-    email: andr.kurilin@gmail.co
+    email: andr.kurilin@gmail.com
   appointed:
     - victoria
   irc-channel: openstack-rally
