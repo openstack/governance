@@ -115,9 +115,7 @@ TC members can vote positively, negatively, or abstain (using the
 "RollCall-Vote" in Gerrit). Decisions need more positive votes than negative
 votes (ties mean the motion is rejected), and a minimum of positive votes of at
 least one third of the total number of TC members (rounded up: in a 13-member
-committee that means a minimum of 5 approvers). After a motion receives
-sufficient votes to pass, it must stay open for further comments and voting for
-a minimum of 3 calendar days.
+committee that means a minimum of 5 approvers).
 
 Patches with motions should use the gerrit topic tag ``formal-vote``.
 
