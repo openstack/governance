@@ -361,13 +361,10 @@ def get_one_status(change, delegates, tc_members):
     elif topic in ('project-update', 'new-project'):
         # https://governance.openstack.org/tc/reference/house-rules.html#other-project-team-updates
 
-        # At least 7 days old.
-        earliest = str(latest_created + creation_age_threshold)
-
         if votes[-1] or code_reviews[-1]:
             can_approve = 'dissenting votes'
-        elif age <= datetime.timedelta(7):
-            can_approve = 'too soon'
+        elif votes[1] < 2:
+            can_approve = 'not enough reviews'
         else:
             can_approve = 'CAN APPROVE'
 
