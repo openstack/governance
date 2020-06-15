@@ -76,3 +76,30 @@ be counter-productive: it is very likely that a volunteer will step up to
 "save" the project, when that volunteer's energy could be better spent on
 more critical things. Therefore the TC should just start a thread about
 removing that project team from governance and future releases of OpenStack.
+
+If project's existing or new team shows interest to continue the development under:
+
+- OpenStack governance then they need to update the TC on ML thread or IRC channel
+  before retirement is approved.
+
+- OpenDev, please refer to the `Continue Development`_ section.
+
+Once retirement is approved, the Technical Committee's decision overrides any objections
+of the project's contributors, so may involve deleting blocking votes on retirement changes.
+Any interested team members may continue the development as non-official OpenStack project.
+
+Continue Development
+====================
+
+With the OpenDev model, it is possible for the project to continue the development
+under different namespace than `openstack/`. Refer to the resolution
+:doc:`../resolutions/20190322-namespace-unofficial-projects`. for OpenStack namespace criteria.
+
+Refer to `this document <https://docs.opendev.org/opendev/infra-manual/latest/creators.html>`_
+for the complete process to create the project under OpenDev.
+
+Re-becoming Official OpenStack Project
+======================================
+
+Becoming an official OpenStack project again requires following the same criteria
+as :doc:`new-projects-requirements`.
