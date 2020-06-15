@@ -404,7 +404,7 @@ heat:
     tosca-parser:
       repos:
         - openstack/tosca-parser
-  liaisons: []
+  liaisons: [ricolin]
 horizon:
   ptl:
     name: Ivan Kolodyazhny
@@ -787,7 +787,7 @@ magnum:
     python-magnumclient:
       repos:
         - openstack/python-magnumclient
-  liaisons: []
+  liaisons: [ricolin]
 manila:
   ptl:
     name: Goutham Pacha Ravi
@@ -896,7 +896,7 @@ mistral:
     mistral-extra:
       repos:
         - openstack/mistral-extra
-  liaisons: []
+  liaisons: [ricolin]
 monasca:
   ptl:
     name: Martin Chacon Piza
@@ -2187,7 +2187,7 @@ oslo:
       repos:
         - openstack/whereto
 
-  liaisons: []
+  liaisons: [ricolin]
 Packaging-rpm:
   ptl:
     name: Javier Peña
@@ -2771,7 +2771,7 @@ senlin:
       repos:
         - openstack/senlin-tempest-plugin
 
-  liaisons: []
+  liaisons: [ricolin]
 solum:
   ptl:
     name: Rong Zhu
