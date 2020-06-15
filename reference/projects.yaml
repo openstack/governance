@@ -184,7 +184,8 @@ cloudkitty:
     cloudkitty-tempest-plugin:
       repos:
         - openstack/cloudkitty-tempest-plugin
-  liaisons: []
+  liaisons:
+    - evrardjp
 cyborg:
   ptl:
     name: Yumeng Bao
@@ -253,7 +254,8 @@ designate:
         - openstack/python-designateclient
       tags:
         - stable:follows-policy
-  liaisons: []
+  liaisons:
+    - evrardjp
 ec2-api:
   ptl:
     name: Andrey Pavlov
@@ -733,7 +735,8 @@ kolla:
         - openstack/kayobe
         - openstack/kayobe-config
         - openstack/kayobe-config-dev
-  liaisons: []
+  liaisons:
+    - evrardjp
 kuryr:
   ptl:
     name: Michał Dulko
@@ -1820,7 +1823,8 @@ OpenStack-Helm:
       release-management: none
       repos:
         - openstack/loci
-  liaisons: []
+  liaisons:
+    - evrardjp
 OpenStackAnsible:
   ptl:
     name: Mohammed Naser
@@ -1908,7 +1912,8 @@ OpenStackAnsible:
       release-management: none
       repos:
         - openstack/openstack-ansible-specs
-  liaisons: []
+  liaisons:
+    - evrardjp
 OpenStackSDK:
   ptl:
     name: Monty Taylor
@@ -2217,7 +2222,8 @@ Packaging-rpm:
     renderspec:
       repos:
         - openstack/renderspec
-  liaisons: []
+  liaisons:
+    - evrardjp
 placement:
   ptl:
     name: Tetsuro Nakamura
@@ -2247,7 +2253,6 @@ placement:
     os-resource-classes:
       repos:
         - openstack/os-resource-classes
-
   liaisons: []
 Puppet OpenStack:
   ptl:
@@ -2588,8 +2593,9 @@ Release Management:
       release-management: none
       repos:
         - openstack/specs-cookiecutter
-
-  liaisons: [diablo_rojo]
+  liaisons:
+    - diablo_rojo
+    - evrardjp
 requirements:
   ptl:
     name: Matthew Thode
