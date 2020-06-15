@@ -2869,10 +2869,6 @@ swift:
     swift-bench:
       repos:
         - openstack/swift-bench
-    swift-specs:
-      release-management: none
-      repos:
-        - openstack/swift-specs
 
   liaisons: []
 tacker:
