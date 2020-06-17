@@ -3076,6 +3076,7 @@ tripleo:
       repos:
         - openstack/os-refresh-config
     paunch:
+      deprecated: victoria
       release-management: deprecated
       repos:
         - openstack/paunch

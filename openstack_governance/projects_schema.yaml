@@ -69,6 +69,8 @@ additionalProperties:
               - none
               - deprecated
               - external
+          deprecated:
+            type: "string"
     tags:
       type: "array"
       items:
