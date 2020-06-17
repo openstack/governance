@@ -44,6 +44,7 @@ barbican:
       repos:
         - openstack/barbican
       tags:
+        - starter-kit:kubernetes-in-virt
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -244,6 +245,7 @@ designate:
         - openstack/designate
       tags:
         - tc:approved-release
+        - starter-kit:kubernetes-in-virt
         - stable:follows-policy
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -345,6 +347,7 @@ glance:
         - assert:supports-upgrade
         - tc:approved-release
         - starter-kit:compute
+        - starter-kit:kubernetes-in-virt
         - vulnerability:managed
         - stable:follows-policy
     glance-specs:
@@ -697,6 +700,7 @@ keystone:
       tags:
         - tc:approved-release
         - starter-kit:compute
+        - starter-kit:kubernetes-in-virt
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -786,6 +790,8 @@ kuryr:
     kuryr-kubernetes:
       repos:
         - openstack/kuryr-kubernetes
+      tags:
+        - starter-kit:kubernetes-in-virt
     kuryr-tempest-plugin:
       repos:
         - openstack/kuryr-tempest-plugin
@@ -839,6 +845,7 @@ manila:
         - openstack/manila
       tags:
         - tc:approved-release
+        - starter-kit:kubernetes-in-virt
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - stable:follows-policy
@@ -1106,6 +1113,7 @@ neutron:
         - tc:approved-release
         - stable:follows-policy
         - starter-kit:compute
+        - starter-kit:kubernetes-in-virt
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -1177,6 +1185,7 @@ nova:
       tags:
         - tc:approved-release
         - starter-kit:compute
+        - starter-kit:kubernetes-in-virt
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -1229,6 +1238,7 @@ octavia:
       repos:
         - openstack/octavia
       tags:
+        - starter-kit:kubernetes-in-virt
         - stable:follows-policy
         - assert:supports-upgrade
         - assert:supports-accessible-upgrade
@@ -2297,6 +2307,7 @@ placement:
         - openstack/placement
       tags:
         - starter-kit:compute
+        - starter-kit:kubernetes-in-virt
     os-traits:
       repos:
         - openstack/os-traits
