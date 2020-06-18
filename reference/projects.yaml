@@ -2071,11 +2071,6 @@ oslo:
         - openstack/microversion-parse
       tags:
         - stable:follows-policy
-    mox3:
-      repos:
-        - openstack/mox3
-      tags:
-        - stable:follows-policy
     openstack-doc-tools:
       repos:
         - openstack/openstack-doc-tools
