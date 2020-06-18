@@ -35,10 +35,6 @@ TC_SIZE = 11
 # before it can be approved
 creation_age_threshold = datetime.timedelta(days=7)
 
-# For formal-vote votes, age in days since a change has reached a
-# the necessary amount of votes before it can be approved
-reached_votes_age_threshold = datetime.timedelta(days=3)
-
 
 def decode_json(raw):
     """Trap JSON decoding failures and provide more detailed errors
@@ -245,17 +241,10 @@ def get_one_status(change, delegates, tc_members):
                          creation_age_threshold.days)
             earliest = str(latest_created + creation_age_threshold)
         elif reached_necessary_votes:
-            # Wait at least reached_votes_age_threshold days
-            # after reaching necessary votes.
-            earliest = str(
-                reached_necessary_votes + reached_votes_age_threshold
-            )
-            since_necessary_votes = now.date() - reached_necessary_votes.date()
-            time_to_approve = since_necessary_votes > reached_votes_age_threshold
+            time_to_approve = True
         else:
             time_to_approve = False
-            earliest = "{} days after {} positive votes".format(
-                reached_votes_age_threshold.days, necessary_votes)
+            earliest = "after {} positive votes".format(necessary_votes)
 
         if votes_to_approve and time_to_approve:
             parts.append('YES')
