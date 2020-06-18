@@ -1089,6 +1089,7 @@ neutron:
       repos:
         - openstack/networking-sfc
     neutron-fwaas:
+      release-management: deprecated
       repos:
         - openstack/neutron-fwaas
       tags:
@@ -1136,6 +1137,7 @@ neutron:
       tags:
         - vulnerability:managed
     neutron-fwaas-dashboard:
+      release-management: deprecated
       repos:
         - openstack/neutron-fwaas-dashboard
     neutron-vpnaas:
