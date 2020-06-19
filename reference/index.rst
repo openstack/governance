@@ -32,5 +32,5 @@ Reference documents which need to be revised over time.
    Requirements for previously-used incubation/integration process <incubation-integration-requirements>
    house-rules
    comparison-of-official-group-structures
-   joining-tc
+   tc-guide
    OpenStack-name-in-external-services
