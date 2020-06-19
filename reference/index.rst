@@ -21,6 +21,7 @@ Reference documents which need to be revised over time.
    dropping-projects
    licensing
    base-services
+   user-committee-charter
    working-groups
    service-project-naming
    project-testing-interface
