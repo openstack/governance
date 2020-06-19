@@ -695,6 +695,10 @@ oslo:
   partial: yes
   url: https://wiki.openstack.org/wiki/Oslo
   deliverables:
+    mox3:
+      retired-on: 2020-06-18
+      repos:
+        - openstack/mox3
     oslo-incubator:
       retired-on: 2016-05-25
       repos:
