@@ -2327,9 +2327,6 @@ Puppet OpenStack:
     puppet-cloudkitty:
       repos:
         - openstack/puppet-cloudkitty
-    puppet-congress:
-      repos:
-        - openstack/puppet-congress
     puppet-designate:
       repos:
         - openstack/puppet-designate
