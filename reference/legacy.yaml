@@ -1716,6 +1716,10 @@ Puppet OpenStack:
       repos:
         - openstack/puppet-crane
       retired-on: 2019-07-17
+    puppet-congress:
+      repos:
+        - openstack/puppet-congress
+      retired-on: 2020-06-21
 
 RefStack:
   ptl:
