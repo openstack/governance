@@ -81,17 +81,6 @@ introducing yourself to the PTL in an email or during a team meeting if you're
 able to attend them, a greeting to the project team to ensure they know someone
 to talk to, making sure the TC is an accessible community.
 
-Meetings & Office Hours
-~~~~~~~~~~~~~~~~~~~~~~~
-
-The TC has meetings on the first Thursday of each month in #openstack-tc; `check
-Eavesdrop for the current schedule
-<http://eavesdrop.openstack.org/#Technical_Committee_Meeting>`_.  We hold office
-hours at various times during the week on the #openstack-tc IRC channel, `see
-Eavesdrop for the schedule of those as well
-<http://eavesdrop.openstack.org/#Technical_Committee_Office_hours>`_.  For more
-information, see our `wiki page
-<https://wiki.openstack.org/wiki/Meetings/TechnicalCommittee>`_.
 
 TC Repos
 ~~~~~~~~~
@@ -119,10 +108,16 @@ As discussed above, communication is incredibly important. As a team, you want
 to make sure questions from the community in IRC and on the ML don't go
 unanswered.
 
-Office Hours
-~~~~~~~~~~~~
+Office Hours & Meetings
+~~~~~~~~~~~~~~~~~~~~~~~
 
-Attend as many office hours as you can. There might be a lot of them where no
+We hold office hours at various times during the week on the #openstack-tc
+IRC channel, `see
+Eavesdrop for the schedule of those as well
+<http://eavesdrop.openstack.org/#Technical_Committee_Office_hours>`_. For more
+information, see our `wiki page
+<https://wiki.openstack.org/wiki/Meetings/TechnicalCommittee>`_. Attend as
+many office hours as you can. There might be a lot of them where no
 one outside the TC comes to talk about anything, but on the off chance that
 there is someone, or another TC member that has something to discuss, it is
 good to be present wherever possible. When office hours begin, wave or say
@@ -131,10 +126,20 @@ get discussed during office hours, make sure that someone has the action item
 to summarize the discussion to the ML so that members not present, and the
 greater community have insight into what is being discussed.
 
+Attend the Technical Committee meetings (assuming your timezone allows). The
+TC has meetings on the first Thursday of each month in #openstack-tc; `check
+Eavesdrop for the current schedule
+<http://eavesdrop.openstack.org/#Technical_Committee_Meeting>`_.
+To hold the meeting we must meet quorum, so it's important that you attend
+as many as possible. If you have topics that should be discussed at the
+meeting, they should be sent to the chair or vice-chair to be included
+in the agenda. The agenda should also be publicized to the openstack-discuss
+list to encourage community involvement.
+
 Governance Core Duties
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Block time on your calendar at least weekly if you for reviewing open
+Block time on your calendar at least weekly for reviewing open
 patches in the repos listed in `technical-committee-repos.yaml
 <https://opendev.org/openstack/governance/raw/branch/master/reference/technical-committee-repos.yaml>`_. Even if you
 have already done a review of the patch, there might have been other progress
@@ -142,15 +147,6 @@ that you should familiarize yourself with and stay up to date on. If you are
 interested, there are other repositories it might be good to keep an eye on
 as well that are related to TC duties like openstack/elections.
 
-Monthly Meeting
-~~~~~~~~~~~~~~~
-
-Attend the Technical Committee meetings (assuming your timezone allows) that
-happen the first Thursday of every month. To hold the meeting we must meet
-quorum, so it's important that you attend as many as possible. If you have
-topics that should be discussed at the meeting, they should be sent to the
-chair or vice-chair to be included in the agenda. The agenda should also be
-publicized to the openstack-discuss list to encourage community involvement.
 
 TC Interactions with Other Governing Bodies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
