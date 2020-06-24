@@ -1614,6 +1614,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-neutron-api-odl
+    charm-neutron-api-plugin-arista:
+      release-management: external
+      repos:
+        - openstack/charm-neutron-api-plugin-arista
     charm-neutron-api-plugin-ovn:
       release-management: external
       repos:
