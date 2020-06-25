@@ -837,6 +837,7 @@ manila:
       repos:
         - openstack/manila
       tags:
+        - tc:approved-release
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - stable:follows-policy
