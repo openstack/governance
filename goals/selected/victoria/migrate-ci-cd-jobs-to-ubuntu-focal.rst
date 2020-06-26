@@ -25,6 +25,8 @@ such jobs can use Bionic nodeset temporarily and later migrate to Focal.
 Stable branches will keep using their original distro version, and that will
 be handled with job branches variant.
 
+* `Storyboard stories <https://storyboard.openstack.org/#!/story/2007865>`__
+
 Champion
 ========
 
