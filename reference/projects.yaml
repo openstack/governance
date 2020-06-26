@@ -438,6 +438,7 @@ horizon:
   url: https://wiki.openstack.org/wiki/Horizon
   deliverables:
     django_openstack_auth:
+      deprecated: stein
       release-management: deprecated
       repos:
         - openstack/django_openstack_auth
@@ -1082,6 +1083,7 @@ neutron:
       repos:
         - openstack/networking-odl
     networking-ovn:
+      deprecated: ussuri
       release-management: deprecated
       repos:
         - openstack/networking-ovn
@@ -1089,6 +1091,7 @@ neutron:
       repos:
         - openstack/networking-sfc
     neutron-fwaas:
+      deprecated: victoria
       release-management: deprecated
       repos:
         - openstack/neutron-fwaas
@@ -1137,6 +1140,7 @@ neutron:
       tags:
         - vulnerability:managed
     neutron-fwaas-dashboard:
+      deprecated: victoria
       release-management: deprecated
       repos:
         - openstack/neutron-fwaas-dashboard
@@ -1206,6 +1210,7 @@ octavia:
   url: https://wiki.openstack.org/wiki/Octavia
   deliverables:
     neutron-lbaas:
+      deprecated: ussuri
       release-management: deprecated
       repos:
         - openstack/neutron-lbaas
@@ -1213,6 +1218,7 @@ octavia:
         - stable:follows-policy
         - assert:follows-standard-deprecation
     neutron-lbaas-dashboard:
+      deprecated: ussuri
       release-management: deprecated
       repos:
         - openstack/neutron-lbaas-dashboard
@@ -2569,6 +2575,7 @@ Quality Assurance:
       repos:
         - openstack/tempest-plugin-cookiecutter
     tempest-lib:
+      deprecated: ocata
       release-management: deprecated
       repos:
         - openstack/tempest-lib
@@ -3053,6 +3060,7 @@ tripleo:
       repos:
         - openstack/dib-utils
     instack-undercloud:
+      deprecated: stein
       release-management: deprecated
       repos:
         - openstack/instack-undercloud
@@ -3099,6 +3107,7 @@ tripleo:
       repos:
         - openstack/tripleo-common
     tripleo-common-tempest-plugin:
+      deprecated: train
       release-management: deprecated
       repos:
         - openstack/tripleo-common-tempest-plugin
