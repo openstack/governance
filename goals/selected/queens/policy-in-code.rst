@@ -216,8 +216,9 @@ Completion Artifacts:
   currently under-powered), we felt that it did not make sense to work on
   this goal during Queens.
 
-  See the spec proposal for refactoring Glance policies for details:
-  https://review.opendev.org/#/c/528021/
+  The `implementation <https://review.opendev.org/#/c/693129/>`_ for moving
+  policy into code was completed in Ussuri. Work remains to document each
+  policy.
 
 heat
 ----
