@@ -55,20 +55,33 @@ Polls
 =======  =============  ================  ==========  ==========  ==================
 Release  Coordinator    Nominations Open  Poll Open   Poll Close  Geographic Region
 =======  =============  ================  ==========  ==========  ==================
-M        Monty Taylor   2015-06-01        2015-06-08  2015-06-15  Tokyo
-N        Monty Taylor   2015-11-08        2015-11-30  2015-12-07  Texas Hill Country
-O        Monty Taylor   2015-11-08        2015-11-30  2015-12-07  Catalonia
-P        Monty Taylor   2016-06-22        2016-07-06  2016-07-13  New England
-Q        Monty Taylor   2016-06-22        2016-07-06  2016-07-13  New South Wales
-R        Monty Taylor   2017-03-22        2017-04-05  2017-04-12  British Columbia
-S        Paul Belanger  2018-02-21        2018-03-14  2018-03-21  Berlin
-T        Tony Breeds    2018-09-15        2018-10-15  2018-10-22  Colorado
-U        Rico Lin       2019-07-01        2019-08-12  2019-08-19  China
-V        Sean McGinnis  2019-11-11        2019-12-09  2019-12-16  British Columbia
-W        Sean McGinnis  2020-01-20        2020-02-17  2020-02-23  N/A [*]_
+M_       Monty Taylor   2015-06-01        2015-06-08  2015-06-15  Tokyo
+N_       Monty Taylor   2015-11-08        2015-11-30  2015-12-07  Texas Hill Country
+O_       Monty Taylor   2015-11-08        2015-11-30  2015-12-07  Catalonia
+P_       Monty Taylor   2016-06-22        2016-07-06  2016-07-13  New England
+Q_       Monty Taylor   2016-06-22        2016-07-06  2016-07-13  New South Wales
+R_       Monty Taylor   2017-03-22        2017-04-05  2017-04-12  British Columbia
+S_       Paul Belanger  2018-02-21        2018-03-14  2018-03-21  Berlin
+T_       Tony Breeds    2018-09-15        2018-10-15  2018-10-22  Colorado
+U_       Rico Lin       2019-07-01        2019-08-12  2019-08-19  China
+V_       Sean McGinnis  2019-11-11        2019-12-09  2019-12-16  British Columbia
+W_       Sean McGinnis  2020-01-20        2020-02-17  2020-02-23  N/A [*]_
 =======  =============  ================  ==========  ==========  ==================
 
 .. [*] Starting with the W release, the naming criteria changed from referring
    to the physical or human geography of the region encompassing the location
    of the OpenStack Summit, to any name proposed by the community that starts
    with the designated release letter.
+
+.. _M: http://lists.openstack.org/pipermail/openstack-dev/2015-July/069496.html
+.. _N: http://lists.openstack.org/pipermail/openstack-dev/2016-January/084432.html
+.. _O: http://lists.openstack.org/pipermail/openstack-dev/2016-January/084432.html
+.. _P: http://lists.openstack.org/pipermail/openstack-dev/2016-August/101891.html
+.. _Q: http://lists.openstack.org/pipermail/openstack-dev/2016-August/101891.html
+.. _R: http://lists.openstack.org/pipermail/openstack-dev/2017-April/116100.html
+.. _S: http://lists.openstack.org/pipermail/openstack-dev/2018-March/128899.html
+.. _T: http://lists.openstack.org/pipermail/openstack-dev/2018-November/136464.html
+.. _U: http://lists.openstack.org/pipermail/openstack-discuss/2019-August/008904.html
+.. _V: http://lists.openstack.org/pipermail/openstack-discuss/2020-January/011947.html
+.. _W: http://lists.openstack.org/pipermail/openstack-discuss/2020-March/013006.html
+
