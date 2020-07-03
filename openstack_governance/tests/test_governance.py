@@ -76,27 +76,16 @@ api:
   - repo: openstack/api-sig
 """
 
-_wgs_data_yaml = """
----
-# List of repositories owned by Foundation board and subcommittes
-Interop Working Group:
-  - repo: openstack/interop
-  - repo: openstack/refstack-client
-  - repo: openstack/refstack
-  - repo: openstack/python-tempestconf
-"""
-
 TEAM_DATA = _yamlutils.loads(_team_data_yaml)
 TC_DATA = _yamlutils.loads(_tc_data_yaml)
 SIGS_DATA = _yamlutils.loads(_sigs_data_yaml)
-WGS_DATA = _yamlutils.loads(_wgs_data_yaml)
 
 
 class TestGetRepoOwner(base.BaseTestCase):
 
     def setUp(self):
         super().setUp()
-        self.gov = governance.Governance(TEAM_DATA, TC_DATA, SIGS_DATA, WGS_DATA)
+        self.gov = governance.Governance(TEAM_DATA, TC_DATA, SIGS_DATA)
 
     def test_repo_exists(self):
         owner = self.gov.get_repo_owner(
@@ -133,7 +122,7 @@ class TestGetRepositories(base.BaseTestCase):
 
     def setUp(self):
         super().setUp()
-        self.gov = governance.Governance(TEAM_DATA, TC_DATA, SIGS_DATA, WGS_DATA)
+        self.gov = governance.Governance(TEAM_DATA, TC_DATA, SIGS_DATA)
 
     def test_by_team(self):
         repos = self.gov.get_repositories(
@@ -202,7 +191,7 @@ class TestGetTeam(base.BaseTestCase):
 
     def setUp(self):
         super().setUp()
-        self.gov = governance.Governance(TEAM_DATA, TC_DATA, SIGS_DATA, WGS_DATA)
+        self.gov = governance.Governance(TEAM_DATA, TC_DATA, SIGS_DATA)
 
     def test_found(self):
         team = self.gov.get_team('meta SIG')
@@ -237,19 +226,3 @@ class TestTeamProperties(base.BaseTestCase):
     def test_mission(self):
         self.assertEqual('mission statement', self.team_with.mission)
         self.assertIsNone(self.team_without.mission)
-
-
-class TestFixupWGData(base.BaseTestCase):
-    def test_incorrect_format(self):
-        _wgs_data = _yamlutils.loads("""
----
-# List of repositories owned by Foundation board and subcommittes
-Interop Working Group:
-  - repo:
-      - openstack/interop
-      - openstack/refstack-client
-      - openstack/refstack
-      - openstack/python-tempestconf
-""")
-        governance.Governance._fixup_wgs_data(_wgs_data)
-        self.assertEqual(WGS_DATA, _wgs_data)

@@ -12,7 +12,6 @@
 
 """Work with the governance repository."""
 
-import collections
 import logging
 import os.path
 import weakref
@@ -98,13 +97,11 @@ class Governance(object):
     _projects_filename = 'reference/projects.yaml'
     _tc_repos_filename = 'reference/technical-committee-repos.yaml'
     _sigs_repos_filename = 'reference/sigs-repos.yaml'
-    _wgs_repos_filename = 'reference/foundation-board-repos.yaml'
 
-    def __init__(self, team_data, tc_data, sigs_data, wgs_data):
+    def __init__(self, team_data, tc_data, sigs_data):
         self._team_data = team_data
         self._tc_data = tc_data
         self._sigs_data = sigs_data
-        self._wgs_data = wgs_data
 
         team_data['Technical Committee'] = {
             'deliverables': {
@@ -119,34 +116,8 @@ class Governance(object):
                     for repo in sig_info
                 }
             }
-        for wg_name, wg_info in wgs_data.items():
-            team_data[wg_name] = {
-                'deliverables': {
-                    repo['repo'].partition('/')[-1]: {'repos': [repo['repo']]}
-                    for repo in wg_info
-                }
-            }
 
         self._teams = [Team(n, i) for n, i in self._team_data.items()]
-
-    @classmethod
-    def _fixup_wgs_data(cls, wgs_data):
-        # For some period of time reference/foundation-board-repos.yaml
-        # was the wrong data structure.  Each WG should be a list of dict()s
-        # where each dict has a single key 'repo' and a str() value.
-        # The incorrect format is a list of dict()s with a single key 'repo'
-        # but the value is a list of strings.
-        # Transform the incorrect format into the correct one so callers don't
-        # notice.
-        for wg_name in list(wgs_data.keys()):
-            wg_info = wgs_data[wg_name]
-            _tmp = []
-            for idx in range(len(wg_info)):
-                if isinstance(wg_info[idx].get('repo', ''), list):
-                    for repo in wg_info[idx]['repo']:
-                        _tmp.append(collections.OrderedDict(repo=repo))
-            if _tmp:
-                wgs_data[wg_name] = _tmp
 
     @classmethod
     def from_local_repo(cls, repo_dir='.'):
@@ -159,11 +130,7 @@ class Governance(object):
         sigs_filename = os.path.join(repo_dir, cls._sigs_repos_filename)
         sigs_data = _yamlutils.load_from_file(sigs_filename)
 
-        wgs_filename = os.path.join(repo_dir, cls._wgs_repos_filename)
-        wgs_data = _yamlutils.load_from_file(wgs_filename)
-        cls._fixup_wgs_data(wgs_data)
-
-        return cls(team_data, tc_data, sigs_data, wgs_data)
+        return cls(team_data, tc_data, sigs_data)
 
     @classmethod
     def from_remote_repo(cls, repo_url_base=REPO_URL_BASE, gittag=None):
@@ -185,13 +152,7 @@ class Governance(object):
         r = requests.get(sigs_url, params=query_options)
         sigs_data = _yamlutils.loads(r.text)
 
-        wgs_url = REPO_URL_BASE + '/reference/foundation-board-repos.yaml'
-        LOG.debug('fetching WGs data from %s', wgs_url)
-        r = requests.get(wgs_url, params=query_options)
-        wgs_data = _yamlutils.loads(r.text)
-        cls._fixup_wgs_data(wgs_data)
-
-        return cls(team_data, tc_data, sigs_data, wgs_data)
+        return cls(team_data, tc_data, sigs_data)
 
     def get_team(self, name):
         for team in self._teams:
