@@ -54,12 +54,15 @@ References
 ==========
 
 The main reference for converting legacy Zuul jobs is the `Zuul v3
-Migration Guide <https://docs.openstack.org/infra/manual/zuulv3.html>`_,
-part of the `Infrastructure User Manual
-<https://docs.openstack.org/infra/manual/>`_.
+Migration Guide <https://docs.openstack.org/project-team-guide/zuulv3.html>`_,
+originally part of `Infrastructure User Manual
+<https://docs.openstack.org/infra/manual/>`_
+and since then restored and imported into the `testing section of
+the OpenStack Project Team Guide
+<https://docs.openstack.org/project-team-guide/testing.html>`_.
 
 A complete reference to the Zuul jobs is available as part of the
-`Zuul User's Guide <https://zuul-ci.org/docs/zuul/user/config.html#job>`_.
+`Zuul User's Guide <https://zuul-ci.org/docs/zuul/reference/jobs.html>`_.
 
 During the Dublin PTG 2018 the QA team provided some updates and
 examples on the Zuul v3 migrations. The slides are not merged yet
@@ -81,13 +84,28 @@ Examples of migration:
   (inheriting from devstack-tempest)
   and examples of custom ansible code.
 
-- python-cinderclient: https://review.opendev.org/672784/
-  A more recent example of a devstack (non-tempest) job.
+- A more recent example of a devstack (non-tempest) jobs:
+
+  * python-cinderclient: https://review.opendev.org/672784
+  * python-manilaclient: https://review.opendev.org/737919
 
 - heat-functional-tests: https://review.opendev.org/660877
 
   This example collect tests from two repositories (heat and
   heat-tempest-plugin). Also example for gabbit tests.
+
+- manila porting, with custom ansible code which replaced
+  shell scripts: https://review.opendev.org/740534
+  and https://review.opendev.org/724466
+
+- various grenade jobs:
+
+  * sahara: https://review.opendev.org/638390
+  * cinder: https://review.opendev.org/709780
+  * ironic: https://review.opendev.org/703995
+  * octavia: https://review.opendev.org/725098
+  * neutron: https://review.opendev.org/725073
+  * manila: https://review.opendev.org/741727
 
 Current State / Anticipated Impact
 ==================================
@@ -100,12 +118,14 @@ Jobs which requires less standard operations (for example, a cycle of
 reconfiguration/test executions, or custom tests) require additional
 work.
 
-Grenade-based jobs are not yet available, but there are `patches in advanced
-state of development <https://review.opendev.org/#/q/topic:grenade_zuulv3>`_
-and they should be ready when the Victoria cycle starts.
-If not, finalizing the effort is considered part of the goal,
-which can still move forward with all the other non-Grenade conversions.
-Once they are finalized, porting most Grenade jobs should be trivial.
+While Grenade-based jobs had not yet been available at the time
+of the approval of the goal, they were `completed and merged
+<https://review.opendev.org/#/c/548936/>`_ right before branching
+Ussuri, and then backported up to Train.
+
+In fact finalizing the effort on Zuul v3 was considered part of the goal,
+while still moving forward with all the other non-Grenade conversions.
+As expected, porting most Grenade jobs should now be trivial.
 
 While cleaning the legacy jobs from `openstack-zuul-jobs
 <https://opendev.org/openstack/openstack-zuul-jobs.git>`_ and
