@@ -1541,6 +1541,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-keystone
+    charm-keystone-kerberos:
+      release-management: external
+      repos:
+        - openstack/charm-keystone-kerberos
     charm-keystone-ldap:
       release-management: external
       repos:
