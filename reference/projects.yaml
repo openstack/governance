@@ -841,6 +841,7 @@ manila:
         - tc:approved-release
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
+        - assert:supports-accessible-upgrade
         - stable:follows-policy
     manila-image-elements:
       repos:
