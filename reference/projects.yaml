@@ -1298,6 +1298,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-ceilometer-agent
+    charm-ceph-iscsi:
+      release-management: external
+      repos:
+        - openstack/charm-ceph-iscsi
     charm-ceph-mon:
       release-management: external
       repos:
@@ -1686,6 +1690,18 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-openvswitch-odl
+    charm-ops-interface-ceph-client:
+      release-management: external
+      repos:
+        - openstack/charm-ops-interface-ceph-client
+    charm-ops-interface-tls-certificates:
+      release-management: external
+      repos:
+        - openstack/charm-ops-interface-tls-certificates
+    charm-ops-openstack:
+      release-management: external
+      repos:
+        - openstack/charm-ops-openstack
     charm-pacemaker-remote:
       release-management: external
       repos:
