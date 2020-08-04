@@ -1950,7 +1950,6 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_ceilometer
         - openstack/openstack-ansible-os_cinder
         - openstack/openstack-ansible-os_cloudkitty
-        - openstack/openstack-ansible-os_congress
         - openstack/openstack-ansible-os_designate
         - openstack/openstack-ansible-os_glance
         - openstack/openstack-ansible-os_gnocchi
@@ -1981,6 +1980,11 @@ OpenStackAnsible:
         - openstack/openstack-ansible-rsyslog_server
         - openstack/openstack-ansible-rsyslog_client
         - openstack/openstack-ansible-tests
+    openstack-ansible-os_congress:
+      deprecated: victoria
+      release-management: deprecated
+      repos:
+        - openstack/openstack-ansible-os_congress
     openstack-ansible-os_karbor:
       release-management: deprecated
       repos:
