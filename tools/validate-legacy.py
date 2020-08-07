@@ -21,11 +21,7 @@ import requests
 import yaml
 
 FILES_URL = "https://opendev.org/api/v1/repos/{}/git/trees/master"
-IGNORED_REPOS = [
-    'openstack/python-dracclient',
-    'openstack/networking-l2gw',
-    'openstack/networking-l2gw-tempest-plugin'
-]
+IGNORED_REPOS = []
 
 parser = argparse.ArgumentParser()
 parser.add_argument(
