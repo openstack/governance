@@ -8,6 +8,8 @@ API:
 Automation:
   - repo: openstack/auto-scaling-sig
   - repo: openstack/self-healing-sig
+Hardware Vendor:
+  - repo: openstack/python-dracclient
 i18n:
   - repo: openstack/i18n
     extra-atcs:

@@ -398,10 +398,6 @@ ironic:
       retired-on: 2019-09-03
       repos:
         - openstack/networking-generic-switch-tempest-plugin
-    python-dracclient:
-      retired-on: 2016-11-28
-      repos:
-        - openstack/python-dracclient
     python-wsmanclient:
       retired-on: 2016-11-28
       repos:
