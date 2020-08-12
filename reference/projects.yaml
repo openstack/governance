@@ -162,9 +162,9 @@ cinder:
     - mugsie
 cloudkitty:
   ptl:
-    name: Justin Ferrieu
-    irc: jferrieu
-    email: justin.ferrieu@objectif-libre.com
+    name: Pierre Riteau
+    irc: priteau
+    email: pierre@stackhpc.com
   appointed:
     - victoria
   irc-channel: cloudkitty
