@@ -8,12 +8,26 @@
     vars:
       tox_envlist: validate_atcs
 
+- job:
+    name: governance-validate-legacy
+    parent: openstack-tox
+    description: |
+      Run a job to validate the legacy.yaml file to ensure that projects are
+      properly retired.  This job only runs on legacy.yaml changes to ensure
+      that we don't hit OpenDev.org with too many requests without changes.
+    files:
+      - tools/validate-legacy.py
+      - reference/legacy.yaml
+    vars:
+      tox_envlist: validate-legacy
+
 - project:
     templates:
       - build-openstack-docs-pti
       - openstack-python3-ussuri-jobs
     check:
       jobs:
+        - governance-validate-legacy
         - openstack-tox-validate_atcs:
             voting: false
         - openstack-tox-linters:
@@ -24,6 +38,7 @@
         - openstack-tox-validate
     gate:
       jobs:
+        - governance-validate-legacy
         - openstack-tox-linters:
             required-projects:
               - openstack/project-config
