@@ -145,7 +145,7 @@ def get_votes_by_person(name, review):
     for label in ['Code-Review', 'Rollcall-Vote']:
         for vote in review['labels'].get(label, {}).get('all', []):
             voter = vote.get('name', '')
-            if voter == name:
+            if voter.startswith(name):
                 yield vote
 
 
