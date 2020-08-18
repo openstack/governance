@@ -1,193 +1,146 @@
 =======================================
 Comparison of Official Group Structures
 =======================================
-This document aims to explain and compare the difference between a community
-goal, project team, SIG (special interest group), working group, and a pop-up
-team. The intention of this document is to provide a clear view between these
-different groups and OpenStack-wide goal. We hope to answer questions such as,
-what is the timing to create a SIG? and do I need a SIG or pop-up team to
-drive my plan?
 
-The OpenStack community is working to provide multiple different groups and
-goal formats to help drive the community forward. To ensure you're able to
-achieve your goals, it's important to know which format you need to drive your
-mission.
+This document aims to compare the various official work groups we have in
+OpenStack, and explain the difference between a community goal, project team,
+SIG (special interest group), working group, pop-up teams... If you are still
+unsure, even after you read through this document, please raise your question
+on the `mailing-list`_ or on IRC: #openstack-tc so people might be able to
+help you.
 
-If you are still unsure, even after you read through this document, please
-raise your question on `Mailing List`_ or on IRC: #openstack-tc so
-people might be able to help you.
+Groups can be organized around two axis: whether they address a long-term or
+short-term mission, and whether that mission is more around development or
+governance. Missions in OpenStack are either under the oversight of the Board
+of Directors (trademark, Foundation affairs) or the Technical Committee
+(open source project).
 
 .. image:: ./team-formats.png
    :width: 100%
 
 
-Mission oriented: Long-term missions
-====================================
+Project teams
+=============
 
-There are currently three types of group for long-term missions: a SIG (special
-interest group), a working group, and a project team.
-Long-term mission has no time limitation.
-The life cycle should be considered by whether or not the mission of the group
-is completed. A long-term mission can be widely scoped. For example, the aim of
-a long-term mission group can be to produce software, share use cases, build
-documentations, to build cross-project test jobs, or overall communications.
-
-The specific interest can be well-defined, well maintained, and easier to adopt
-across OpenStack. For example, self-healing SIG is working on help with
-general self-healing use cases, so whoever wishes to start using self-healing
-functionality has the confidence to adopt it in their own environment.
-
-Produces the software: Project teams
-------------------------------------
 :doc:`Project teams </reference/projects/index>` are responsible for producing
-the OpenStack software up to release. They are either producing a specific set
-of deliverables (like Compute service deliverables), or provide functions that
-are integral to the production of the software (Release management, QA...).
-Project teams are governed by TC and lead by individual project PTL (project
-team leader). Project team is required when planning for release a deliverable
-service. These projects maintain service repository, make sure on time release
-for service, manage bug reports, and control the code quality (like
-consistency review) are all part of the jobs for the project team.
+the "OpenStack" software releases. They are either producing a specific subset
+of OpenStack deliverables (like Compute service deliverables), or provide
+functions that are integral to the production of the software (like Release
+management or QA).
+
+Project teams are under the oversight of the TC, and traditionally lead by PTLs
+(project team leaders). Since their collective output is assembled to make the
+"OpenStack" coordinated releases every 6 months, extra accountability is
+required of project teams to make OpenStack as a whole reach high quality
+standards. In particular, we require named liaisons for deliverable release
+management, security vulnerability management, and QA/CI infrastructure
+liaison.
+
+Beyond that, project teams own git repositories, review proposed code changes,
+manage bug reports, answer questions on the mailing-list, define the future
+roadmap for their deliverables, and help communicate recent changes. To that
+effect, team members hold regular team meetings and participate in various
+community events.
 
 OpenStack has a large number of existing project teams. if you would like to
 create a new project team, you can reference
 :doc:`new projects requirements </reference/new-projects-requirements>`
 documentations for more details.
 
-Special Interest Group (SIG)
-----------------------------
-`SIGs`_ (and `SIG wiki page`_) are governed by both TC and UC and lead by SIG
-chairs, their function being to gather people (A user, developer, or operator)
-who are interested in a specific mission to join discussion and driving actions
-across community. You can also consider SIG as a bridge between developers,
-operators and users.
+Special Interest Groups (SIGs)
+==============================
 
-SIGs are teams within the community where we collaborate to bring unified
-discussions for all community members who share a common interest.
-As examples, SIGs can be but are not limited to being a first stage
-in the development of new projects, feature requests, standards
-adoption, policy implementation, adjacent community work, and just
-general discussions.
+`SIGs`_ are groups with a long-term mission, but which are not directly
+responsible for producing components of the "OpenStack" software release.
+They usually gather like-minded individuals that want to advance a specific
+facet of OpenStack (like usage of OpenStack in scientific communities) that
+extends beyond a limited set of code repositories. They generally regroup
+developers, operators and end users interested in the same topics. Some of
+those topics are very development oriented (like enabling support for multiple
+architectures), while some others are more governance-oriented (like helping
+first-time contributors).
 
-You can check for `process to create a SIG`_ for creat a new SIG.
+SIGs are under the oversight of the TC, and traditionally lead by a number of
+co-leads. Since they are not directly in charge of producing OpenStack, only
+limited accountability is required, and SIGs do not have any required named
+liaisons.
 
-Meta SIG
-~~~~~~~~
-This is just a SIG for `SIGs`_ so to speak. A SIG to discuss OpenStack SIGs
-themselves, to encourage workgroups to become SIGs, accompany them along the
-way, give them tools and processes to be efficient. More generally, this SIG
-will discuss how to best close the loop between users and developers of
-OpenStack. The SIG chair is assigned by both TC and UC.
+SIGs can own git repositories and produce software, but that software will be
+considered add-on software to the main "OpenStack" software releases.
 
-Working Group (WG)
-------------------
-Working Group (WG) is governed by UC and lead by group leaders to help
-users represent and achieve their needs through collaboration in the upstream
-community. It's recommended to build a SIG instead of WG if you wish to make
-sure the group is under governance of both UC and TC.
+You can check for `process to create a SIG`_ for creating a new SIG.
 
-If your mission required deliverable services, you can either consider ask
-project teams to help host those services or libraries, or you should consider
-create a project team if that's more appropriate.
+Pop-up teams
+============
 
-Mission oriented: Short-term missions
-=====================================
-
-Mission oriented means the group or goal is build up to serve a specific
-mission. Once mission is completed, the group or goal should be consider as no
-longer needed anymore.
-
-There are two short-term mission formats, a pop-up team and a
-:doc:`community goal </goals/index>`. These both require collaborative
-work from multiple teams.
-
-Pop-up team
------------
 Pop-up teams are lightweight structures aiming to provide quick start for short
-term (time-limited) cross-project mission. A pop-up team can be supported by
-the Technical Committee, and should be lead by (at least) two co-leads.
+term (time-limited) cross-project mission. In particular, pop-up teams should
+have a disband criteria: an end status goal at which point the pop-up team
+should be disbanded. These cross-project and time-limited aspects are what
+differentiates them from Project teams or SIGs.
 
-Mission of a pop-up team could transfer to a OpenStack-wide cycle goal.
-For example, TC members can accept mission of a pop-up team as particular
-cycle goal (at which point former members of the proposing pop-up team could
-go on to become its goal champions).
+Pop-up teams are under the oversight of the TC, and traditionally lead by a
+number of co-leads. Since they are not directly in charge of producing
+OpenStack, only limited accountability is required, and pop-up teams do
+not have any required named liaisons.
 
-You can reference create process of popup team in
+Pop-up teams do not own code repositories, they usually work on code
+repositories from existing project teams to reach their goals.
+
+You can read more about the process to create a pop-up team in
 :doc:`popup team guideline </reference/popup-teams>`
 if you consider to create one.
 
-.. note::
-    All pop-up teams, SIGs and WGs shouldn't maintain any releasable
-    deliverable. If deliverable repo is required, it should be maintained
-    under a project team (please also note that SIGs/WGs/pop-up teams still
-    can create and maintain their own code repositories). Like pop-up team
-    `Image encryption`, requiring multiple project teams (Nova, Cinder, and
-    Glance) to maintain and release their implementation in project
-    repositories.
+Community goals
+===============
 
-OpenStack-wide goal champion
-----------------------------
-A :doc:`community goal </goals/index>` (OpenStack-wide goal) is lead by goal
-champions. It is used to achieve visible common changes, push for basic levels
-of consistency and user experience, and efficiently improve certain areas where
-technical debt payments have become too high across all OpenStack projects.
-These are usually scoped by cycle.
+:doc:`Community goals </goals/index>` are per-release objectives, set by the
+Technical Committee for all project teams. Those are used to achieve
+user-visible common changes, push for basic levels of consistency and user
+experience, and efficiently improve certain areas which suffer from technical
+debt. The main difference with pop-up teams is that it's a time-limited scope
+rather than an objective-limited scope, and they generally aim at affecting
+all project teams rather than a limited set of them.
 
-If you have a time-limited mission to push to multiple teams but not to entire
-community, you can consider for build a pop-up team to drive it. And if it's a
-OpenStack-wide goal material but not yet mature enough to announce as a
-OpenStack-wide goal for current or following cycle, to form a pop-up team and
-drive it before it can be a community goal might be another way you can
-consider.
+Community goals are driven by goal champions and executed in each project team.
+They do not require specific git repositories or deliverables.
 
-If you have a mission which affects projects OpenStack-wide, then you're
-free to propose it as a community goal. The Technical Committee will be
+If you have an improvement which affects projects OpenStack-wide, then you
+can propose it as a community goal. The Technical Committee will be
 responsible for selecting :doc:`community goal </goals/index>` for each cycle.
-The goal is not necessarily a cross-project feature or bug, it can also be any
-OpenStack-wide mission (like :doc:`/goals/selected/train/pdf-doc-generation`
-goal). Community goals are defined for a specific development cycle, because
-we need to be specific on what we need each team to complete that mission and
-how they can do it. That's why it's a short-term mission. But the follow up
-mission might still be another goal for another cycle (like
-:doc:`/goals/selected/stein/python3-first` goal can be consider as follow up
-action from other python3 goals).
 
-.. note::
-    All OpenStack-wide goal shouldn't maintain any releasable
-    deliverable. If deliverable repo is required, it should be maintained
-    under a project team.
+Technical Committee and TC working groups
+=========================================
 
-Governance
-==========
+The `Technical Committee (TC)`_ is an elected governance body, representing all
+contributors to the open source project.
 
-Committees exist to help `govern`_ the community and provide leadership.
-You can self-nominate for the below committees and become a committee member,
-or provide feedback to committee. If you find it's hard or confusing to push
-your mission into community, or you find the current structure can't fulfill
-your goal, we encourage you to encounter with these committees that might be
-able to help:
+It may delegate rights (and duties) to `TC working groups`_ (like the Election
+officials which have a delegation for running elections).
 
-* Technical Committee (TC)
-* User Committee (UC)
-* Board of Directors (BoD)
+The TC owns git repositories (generally around governance documents) but does
+not produce OpenStack deliverables by itself.
 
-OpenStack Foundation or Board-level committees and working groups
-=================================================================
+Board of Directors, Board committees and working groups
+=======================================================
 
-We have another level of `committees and working groups`_ like
-`Edge Computing Group`_ which are directly driven by OpenStack Foundation
-(OSF) or Board of directors.
+The Foundation `Board of Directors`_ is a governance body, representing all
+Foundation members. It is composed of three tiers: Platinum representatives
+(selected by each Platinum member), Gold representatives (elected among the
+Gold members), and Independent representatives (elected by all the individual
+members of the Foundation).
 
-Others
-======
-We have some other formate of team like `Election officials`_ helps on multiple
-community functionality.
+The Board of Directors has oversight over the Foundation, whose mission is to
+develop, support, protect, and promote OpenStack and other Open Infrastructure
+projects.
 
-.. _Mailing List: http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss
-.. _govern: https://governance.openstack.org/
+It may delegate rights (and duties) to Board `committees and working groups`_,
+which are usually staffed by directors themselves.
+
+.. _mailing-list: http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss
 .. _SIGs: https://governance.openstack.org/sigs/
-.. _committees and working groups: https://wiki.openstack.org/wiki/Governance/Foundation#Committees_.26_Working_Groups
-.. _Edge Computing Group: https://wiki.openstack.org/wiki/Edge_Computing_Group
-.. _Election officials: https://wiki.openstack.org/wiki/Election_Officiating_Guidelines
-.. _SIG wiki page: https://wiki.openstack.org/wiki/OpenStack_SIGs
 .. _process to create a SIG: https://governance.openstack.org/sigs/#process-to-create-a-sig
+.. _Technical Committee (TC): https://governance.openstack.org/tc/
+.. _TC working groups: https://governance.openstack.org/tc/reference/working-groups.html
+.. _Board of Directors: https://www.openstack.org/foundation/board-of-directors/
+.. _committees and working groups: https://wiki.openstack.org/wiki/Governance/Foundation#Committees_.26_Working_Groups
