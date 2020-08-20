@@ -2099,6 +2099,11 @@ oslo:
       release-management: deprecated
       repos:
         - openstack/devstack-plugin-zmq
+    etcd3gw:
+      repos:
+        - openstack/etcd3gw
+      tags:
+        - stable:follows-policy
     futurist:
       repos:
         - openstack/futurist
