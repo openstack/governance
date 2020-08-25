@@ -48,9 +48,15 @@ barbican:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - stable:follows-policy
+    ansible-role-atos-hsm:
+      repos:
+        - openstack/ansible-role-atos-hsm
     ansible-role-lunasa-hsm:
       repos:
         - openstack/ansible-role-lunasa-hsm
+    ansible-role-thales-hsm:
+      repos:
+        - openstack/ansible-role-thales-hsm
     barbican-specs:
       release-management: none
       repos:
@@ -1921,13 +1927,11 @@ OpenStackAnsible:
         - openstack/openstack-ansible
     openstack-ansible-roles:
       repos:
-        - openstack/ansible-role-atos-hsm
         - openstack/ansible-role-qdrouterd
         - openstack/ansible-role-python_venv_build
         - openstack/ansible-role-systemd_mount
         - openstack/ansible-role-systemd_networkd
         - openstack/ansible-role-systemd_service
-        - openstack/ansible-role-thales-hsm
         - openstack/ansible-role-uwsgi
         - openstack/ansible-hardening
         - openstack/openstack-ansible-apt_package_pinning
