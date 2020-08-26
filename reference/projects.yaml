@@ -1888,6 +1888,10 @@ OpenStack-Helm:
       release-management: external
       repos:
         - openstack/openstack-helm-addons
+    openstack-helm-deployments:
+      release-management: external
+      repos:
+        - openstack/openstack-helm-deployments
     openstack-helm-docs:
       release-management: external
       repos:
