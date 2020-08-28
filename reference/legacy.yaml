@@ -709,6 +709,10 @@ oslo:
       retired-on: 2017-09-30
       repos:
         - openstack/pylockfile
+    devstack-plugin-pika:
+      retired-on: 2020-08-28
+      repos:
+        - openstack/devstack-plugin-pika
 
 Packaging-deb:
   ptl:
