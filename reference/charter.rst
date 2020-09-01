@@ -77,7 +77,7 @@ Meeting
 
 The community should not wait for a formal meeting to raise issues or
 bring questions to the Technical Committee (see
-:doc:`/resolutions/20170425-drop-tc-weekly-meetings`). In most cases,
+:doc:`/resolutions/superseded/20170425-drop-tc-weekly-meetings`). In most cases,
 asynchronous communication via email or gerrit is preferred over
 meetings. If a topic will require significant discussion or to need
 input from members of the community other than the committee, start a
