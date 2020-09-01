@@ -24,13 +24,11 @@ TC Managed Tags
 
    starter-kit_compute
    starter-kit_kubernetes-in-virt
-   tc_approved-release
 
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-
-   tc-approved-release
+OpenStack Technical Committee Approved Release
+----------------------------------------------
+All deliverables created by our `Official OpenStack Projects Teams <https://governance.openstack.org/tc/reference/projects/index.html>`_
+are "OpenStack Technical Committee Approved Release".
 
 Team Description Tags
 =====================

@@ -5,9 +5,7 @@
 Official OpenStack projects need to follow a number of rules when it comes
 to licensing.
 
-In order to be considered for inclusion in the
-:ref:`tag-tc:approved-release`, the project must be licensed under `Apache
-License, Version 2.0`_ (ASLv2).
+The project must be licensed under `Apache License, Version 2.0`_ (ASLv2).
 
 .. _Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
 
@@ -17,8 +15,7 @@ licensed under a license supported by the `Contributor License
 Agreement`_ (CLA) which allows redistribution by the OpenStack
 Foundation under ASLv2 (currently only the MIT and both forms of the
 BSD license meet this requirement). In particular, service projects
-are recommended to *always* pick ASLv2 so that they may be included in
-the TC-approved release in the future.
+are recommended to *always* pick ASLv2.
 
 .. _Contributor License Agreement: https://wiki.openstack.org/wiki/How_To_Contribute#Contributor_License_Agreement
 
