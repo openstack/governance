@@ -763,6 +763,8 @@ kolla:
     kolla-cli:
       repos:
         - openstack/kolla-cli
+      deprecated: ussuri
+      release-management: deprecated
     kayobe:
       repos:
         - openstack/kayobe
