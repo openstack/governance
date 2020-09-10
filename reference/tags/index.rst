@@ -23,6 +23,7 @@ TC Managed Tags
    :glob:
 
    starter-kit_compute
+   starter-kit_kubernetes-in-virt
    tc_approved-release
 
 .. toctree::
