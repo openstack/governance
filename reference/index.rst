@@ -34,3 +34,4 @@ Reference documents which need to be revised over time.
    comparison-of-official-group-structures
    tc-guide
    OpenStack-name-in-external-services
+   election-exceptions
