@@ -701,6 +701,10 @@ oslo:
         - openstack/oslosphinx
       tags:
         - stable:follows-policy
+    devstack-plugin-zmq:
+      retired-on: 2020-08-28
+      repos:
+        - openstack/devstack-plugin-zmq
     pylockfile:
       retired-on: 2017-09-30
       repos:
