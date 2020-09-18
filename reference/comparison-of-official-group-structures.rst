@@ -66,7 +66,10 @@ limited accountability is required, and SIGs do not have any required named
 liaisons.
 
 SIGs can own git repositories and produce software, but that software will be
-considered add-on software to the main "OpenStack" software releases.
+considered add-on software to the main "OpenStack" software releases. Therefore
+SIGs deliverables are not part of the coordinated release, and will not leverage
+the openstack/releases repository. If a SIG does release any tooling or software
+they are responsible for any release management/tagging needed.
 
 You can check for `process to create a SIG`_ for creating a new SIG.
 
