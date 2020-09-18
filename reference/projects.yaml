@@ -2292,38 +2292,6 @@ oslo:
         - openstack/whereto
 
   liaisons: [ricolin, belmoreira]
-Packaging-rpm:
-  ptl:
-    name: Javier Peña
-    irc: jpena
-    email: jpena@redhat.com
-  appointed:
-    - stein
-    - victoria
-  service: Templates and tools to build OpenStack RPM packages
-  mission: >
-    To make OpenStack easier to update and consume by operators and
-    provide tooling to package all OpenStack projects directly for
-    all RPM based distributions.
-  url: https://wiki.openstack.org/wiki/Rpm-packaging
-  irc-channel: openstack-rpm-packaging
-  deliverables:
-    rpm-packaging:
-      repos:
-        - openstack/rpm-packaging
-    rpm-packaging-tools:
-      release-management: none
-      repos:
-        - openstack/rpm-packaging-tools
-    pymod2pkg:
-      repos:
-        - openstack/pymod2pkg
-    renderspec:
-      repos:
-        - openstack/renderspec
-  liaisons:
-    - evrardjp
-    - diablo_rojo
 placement:
   ptl:
     name: Tetsuro Nakamura

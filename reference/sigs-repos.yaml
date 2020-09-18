@@ -21,6 +21,11 @@ Operation Docs and Tooling:
   - repo: openstack/ha-guide
   - repo: openstack/arch-design
   - repo: openstack/osops
+Packaging:
+  - repo: openstack/rpm-packaging
+  - repo: openstack/rpm-packaging-tools
+  - repo: openstack/pymod2pkg
+  - repo: openstack/renderspec
 PowerVMStackers:
   - repo: openstack/ceilometer-powervm
   - repo: openstack/networking-powervm
