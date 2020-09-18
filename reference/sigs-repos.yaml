@@ -20,6 +20,7 @@ Operation Docs and Tooling:
   - repo: openstack/operations-guide
   - repo: openstack/ha-guide
   - repo: openstack/arch-design
+  - repo: openstack/osops
 PowerVMStackers:
   - repo: openstack/ceilometer-powervm
   - repo: openstack/networking-powervm
