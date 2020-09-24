@@ -1464,6 +1464,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-interface-hacluster
+    charm-interface-ironic-api:
+      release-management: external
+      repos:
+        - openstack/charm-interface-ironic-api
     charm-interface-keystone:
       release-management: external
       repos:
@@ -1560,6 +1564,14 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-ironic
+    charm-ironic-api:
+      release-management: external
+      repos:
+        - openstack/charm-ironic-api
+    charm-ironic-conductor:
+      release-management: external
+      repos:
+        - openstack/charm-ironic-conductor
     charm-keystone:
       release-management: external
       repos:
@@ -1652,6 +1664,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-neutron-api-plugin-arista
+    charm-neutron-api-plugin-ironic:
+      release-management: external
+      repos:
+        - openstack/charm-neutron-api-plugin-ironic
     charm-neutron-api-plugin-ovn:
       release-management: external
       repos:
