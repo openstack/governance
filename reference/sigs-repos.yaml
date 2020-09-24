@@ -17,9 +17,9 @@ Meta:
 Multi-Arch:
   - repo: openstack/multi-arch-sig
 Operation Docs and Tooling:
-  - repo: openstack/operations-guide
-  - repo: openstack/ha-guide
   - repo: openstack/arch-design
+  - repo: openstack/ha-guide
+  - repo: openstack/operations-guide
   - repo: openstack/osops
 PowerVMStackers:
   - repo: openstack/ceilometer-powervm
@@ -33,13 +33,13 @@ Security:
   - repo: openstack/security-doc
   - repo: openstack/security-specs
 Technical Writing:
+  - repo: openstack/api-site
   - repo: openstack/constellations
+  - repo: openstack/contributor-guide
   - repo: openstack/openstack-manuals
   - repo: openstack/training-labs
   - repo: openstack/training-guides
   - repo: openstack/upstream-institute-virtual-environment
-  - repo: openstack/contributor-guide
-  - repo: openstack/api-site
 Testing and Collaboration Tools:
   - repo: openstack/bugdaystats
   - repo: openstack/devstack-gate
