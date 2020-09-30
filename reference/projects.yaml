@@ -129,7 +129,6 @@ cinder:
       repos:
         - openstack/cinder
       tags:
-        - tc:approved-release
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -250,7 +249,6 @@ designate:
       repos:
         - openstack/designate
       tags:
-        - tc:approved-release
         - starter-kit:kubernetes-in-virt
         - stable:follows-policy
         - assert:follows-standard-deprecation
@@ -351,7 +349,6 @@ glance:
       tags:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
-        - tc:approved-release
         - starter-kit:compute
         - starter-kit:kubernetes-in-virt
         - vulnerability:managed
@@ -391,7 +388,6 @@ heat:
       repos:
         - openstack/heat
       tags:
-        - tc:approved-release
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -457,7 +453,6 @@ horizon:
       repos:
         - openstack/horizon
       tags:
-        - tc:approved-release
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -576,7 +571,6 @@ ironic:
       repos:
         - openstack/ironic
       tags:
-        - tc:approved-release
         - stable:follows-policy
         - assert:supports-upgrade
         - assert:supports-accessible-upgrade
@@ -704,7 +698,6 @@ keystone:
       repos:
         - openstack/keystone
       tags:
-        - tc:approved-release
         - starter-kit:compute
         - starter-kit:kubernetes-in-virt
         - vulnerability:managed
@@ -852,7 +845,6 @@ manila:
       repos:
         - openstack/manila
       tags:
-        - tc:approved-release
         - starter-kit:kubernetes-in-virt
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -1119,7 +1111,6 @@ neutron:
       repos:
         - openstack/neutron
       tags:
-        - tc:approved-release
         - stable:follows-policy
         - starter-kit:compute
         - starter-kit:kubernetes-in-virt
@@ -1136,7 +1127,6 @@ neutron:
       repos:
         - openstack/neutron-lib
       tags:
-        - tc:approved-release
         - stable:follows-policy
         - vulnerability:managed
     neutron-specs:
@@ -1192,7 +1182,6 @@ nova:
       repos:
         - openstack/nova
       tags:
-        - tc:approved-release
         - starter-kit:compute
         - starter-kit:kubernetes-in-virt
         - vulnerability:managed
@@ -2744,7 +2733,6 @@ sahara:
       repos:
         - openstack/sahara
       tags:
-        - tc:approved-release
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -2771,7 +2759,6 @@ sahara:
       repos:
         - openstack/sahara-plugin-ambari
       tags:
-        - tc:approved-release
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -2780,7 +2767,6 @@ sahara:
       repos:
         - openstack/sahara-plugin-cdh
       tags:
-        - tc:approved-release
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -2789,7 +2775,6 @@ sahara:
       repos:
         - openstack/sahara-plugin-mapr
       tags:
-        - tc:approved-release
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -2798,7 +2783,6 @@ sahara:
       repos:
         - openstack/sahara-plugin-spark
       tags:
-        - tc:approved-release
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -2807,7 +2791,6 @@ sahara:
       repos:
         - openstack/sahara-plugin-storm
       tags:
-        - tc:approved-release
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -2816,7 +2799,6 @@ sahara:
       repos:
         - openstack/sahara-plugin-vanilla
       tags:
-        - tc:approved-release
         - vulnerability:managed
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
@@ -2977,7 +2959,6 @@ swift:
       repos:
         - openstack/swift
       tags:
-        - tc:approved-release
         - vulnerability:managed
         - stable:follows-policy
         - assert:follows-standard-deprecation
@@ -3047,7 +3028,6 @@ Telemetry:
       tags:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
-        - tc:approved-release
     telemetry-specs:
       release-management: none
       repos:
@@ -3236,7 +3216,6 @@ trove:
       repos:
         - openstack/trove
       tags:
-        - tc:approved-release
         - vulnerability:managed
         - assert:follows-standard-deprecation
     trove-dashboard:

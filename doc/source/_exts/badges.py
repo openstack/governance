@@ -130,7 +130,7 @@ def _get_tag_badges(tags):
     for tag in tags:
         # NOTE(flaper87): will submit other patches to make these
         # tags consistent with the rest.
-        if tag in ['starter-kit:compute', 'tc-approved-release']:
+        if tag in ['starter-kit:compute']:
             group, tname = 'tc', tag
         else:
             group, tname = tag.split(':')
