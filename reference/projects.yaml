@@ -2101,10 +2101,6 @@ oslo:
     devstack-plugin-kafka:
       repos:
         - openstack/devstack-plugin-kafka
-    devstack-plugin-pika:
-      release-management: deprecated
-      repos:
-        - openstack/devstack-plugin-pika
     etcd3gw:
       repos:
         - openstack/etcd3gw
