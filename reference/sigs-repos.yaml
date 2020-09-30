@@ -50,7 +50,6 @@ Testing and Collaboration Tools:
   - repo: openstack/openstack-planet
   - repo: openstack/openstack-zuul-jobs
   - repo: openstack/openstack-zuul-roles
-  - repo: openstack/os-loganalyze
   - repo: openstack/project-config
   - repo: openstack/ptgbot
   - repo: openstack/reviewday
