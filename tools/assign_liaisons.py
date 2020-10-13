@@ -61,7 +61,8 @@ def main():
 
     if not args.replace_all:
         for _, team in project_data.items():
-            for member in team.get('liaisons', []):
+            proj_liaisons = team.get('liaisons', {})
+            for member in proj_liaisons.get('tc_members', []):
                 member_counts.update({member: 1})
 
     choices = []
@@ -71,9 +72,10 @@ def main():
     # person to a team twice.
 
     for name, team in project_data.items():
-        liaisons = team.get('liaisons', [])
+        proj_liaisons = team.get('liaisons', {})
+        liaisons = proj_liaisons.get('tc_members', [])
         if args.remove_all:
-            team['liaisons'] = []
+            team['liaisons']['tc_members'] = []
             continue
         if args.replace_all:
             liaisons = []
@@ -84,7 +86,7 @@ def main():
                 choices.insert(0, next_choice)
                 next_choice = choices.pop()
             liaisons.append(next_choice)
-        team['liaisons'] = liaisons
+        team['liaisons']['tc_members'] = liaisons
 
     projects.write_project_file(project_data, args.projects_file)
 

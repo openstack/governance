@@ -32,8 +32,24 @@ Release Management:
     their own releases.
   url: https://wiki.openstack.org/wiki/Release_Management
   liaisons:
-  - zaneb
-  - ttx
+    tc_members:
+      - zaneb
+      - ttx
+    release:
+      - name: Hervé Beraud
+        irc: hberaud
+        email: hberaud@redhat.com
+    tact-sig:
+      - name: Hervé Beraud
+        irc: hberaud
+        email: hberaud@redhat.com
+      - name: Daniel Bengtsson
+        irc: damani
+        email: dbengt@redhat.com
+    security:
+      - name: Daniel Bengtsson
+        irc: damani
+        email: dbengt@redhat.com
   tags:
     - team:diverse-affiliation
   deliverables:
