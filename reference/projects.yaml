@@ -1263,9 +1263,11 @@ octavia:
     - mugsie
 OpenStack Charms:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Frode Nordahl
+    irc: fnordahl
+    email: frode.nordahl@canonical.com
+  appointed:
+    - wallaby
   irc-channel: openstack-charms
   service: Juju Charms for deployment of OpenStack
   mission: >
