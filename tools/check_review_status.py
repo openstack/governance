@@ -29,7 +29,7 @@ from openstack_governance import members
 
 LOG = logging.getLogger(__name__)
 
-TC_SIZE = 11
+TC_SIZE = 9
 
 # For formal-vote votes, age in days that a change has to have existed
 # before it can be approved
