@@ -108,7 +108,7 @@ blazar:
       repos:
         - openstack/python-blazarclient
   liaisons:
-    tc_members: []
+    tc_members: [gmann]
 cinder:
   ptl:
     name: Brian Rosmaita
@@ -225,7 +225,7 @@ cyborg:
       repos:
         - openstack/cyborg-tempest-plugin
   liaisons:
-    tc_members: []
+    tc_members: [gmann]
 designate:
   ptl:
     name: Michael Johnson
@@ -858,7 +858,7 @@ manila:
       repos:
         - openstack/python-manilaclient
   liaisons:
-    tc_members: []
+    tc_members: [gmann]
 masakari:
   ptl:
     name: Radosław Piliszek
@@ -1192,7 +1192,7 @@ nova:
       repos:
         - openstack/os-vif
   liaisons:
-    tc_members: []
+    tc_members: [gmann]
 octavia:
   ptl:
     name: Adam Harwell
@@ -2613,7 +2613,7 @@ Quality Assurance:
       repos:
         - openstack/whitebox-tempest-plugin
   liaisons:
-    tc_members: []
+    tc_members: [gmann]
 rally:
   ptl:
     name: Andrey Kurilin
@@ -2977,7 +2977,7 @@ tacker:
         - openstack/tacker-specs
 
   liaisons:
-    tc_members: []
+    tc_members: [gmann]
 Telemetry:
   ptl:
     name: Matthias Runge
@@ -3206,7 +3206,7 @@ trove:
         - openstack/trove-tempest-plugin
 
   liaisons:
-    tc_members: []
+    tc_members: [gmann]
 vitrage:
   ptl:
     name: Eyal Bar-Ilan
@@ -3289,7 +3289,7 @@ watcher:
         - openstack/watcher-dashboard
 
   liaisons:
-    tc_members: []
+    tc_members: [gmann]
 winstackers:
   ptl:
     name: Lucian Petrut
