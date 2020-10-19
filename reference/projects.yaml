@@ -225,7 +225,7 @@ cyborg:
       repos:
         - openstack/cyborg-tempest-plugin
   liaisons:
-    tc_members: [gmann]
+    tc_members: [gmann, danms]
 designate:
   ptl:
     name: Michael Johnson
@@ -362,7 +362,7 @@ glance:
         - vulnerability:managed
         - stable:follows-policy
   liaisons:
-    tc_members: []
+    tc_members: [danms]
 heat:
   ptl:
     name: Rico Lin
@@ -647,7 +647,7 @@ ironic:
       email: jay@jvf.cc
       expires-in: July 2019
   liaisons:
-    tc_members: []
+    tc_members: [danms]
 karbor:
   ptl:
     name: APPOINTMENT NEEDED
@@ -1192,7 +1192,7 @@ nova:
       repos:
         - openstack/os-vif
   liaisons:
-    tc_members: [gmann]
+    tc_members: [gmann, danms]
 octavia:
   ptl:
     name: Adam Harwell
@@ -2063,7 +2063,7 @@ OpenStackSDK:
       tags:
         - assert:follows-standard-deprecation
   liaisons:
-    tc_members: []
+    tc_members: [danms]
 oslo:
   leadership_type: distributed
   irc-channel: openstack-oslo
@@ -2327,7 +2327,7 @@ placement:
       repos:
         - openstack/os-resource-classes
   liaisons:
-    tc_members: []
+    tc_members: [danms]
 Puppet OpenStack:
   ptl:
     name: Shengping Zhong
