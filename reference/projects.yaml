@@ -421,7 +421,7 @@ heat:
       repos:
         - openstack/tosca-parser
   liaisons:
-    tc_members: []
+    tc_members: [ricolin]
 horizon:
   ptl:
     name: Ivan Kolodyazhny
@@ -814,7 +814,7 @@ magnum:
       repos:
         - openstack/python-magnumclient
   liaisons:
-    tc_members: []
+    tc_members: [ricolin]
 manila:
   ptl:
     name: Goutham Pacha Ravi
@@ -1000,7 +1000,7 @@ monasca:
       repos:
         - openstack/monasca-kibana-plugin
   liaisons:
-    tc_members: []
+    tc_members: [ricolin]
 murano:
   ptl:
     name: Rong Zhu
@@ -2276,7 +2276,7 @@ oslo:
         - openstack/whereto
 
   liaisons:
-    tc_members: []
+    tc_members: [ricolin]
     release:
       - name: Hervé Beraud
         irc: hberaud
@@ -2851,7 +2851,7 @@ senlin:
         - openstack/senlin-tempest-plugin
 
   liaisons:
-    tc_members: []
+    tc_members: [ricolin]
 solum:
   ptl:
     name: Rong Zhu
@@ -3028,7 +3028,7 @@ Telemetry:
         - openstack/telemetry-tempest-plugin
 
   liaisons:
-    tc_members: []
+    tc_members: [ricolin]
 tripleo:
   ptl:
     name: Marios Andreou
