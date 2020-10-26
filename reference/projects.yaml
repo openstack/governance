@@ -2645,7 +2645,7 @@ rally:
 Release Management:
   ptl:
     name: Hervé Beraud
-    irc: No nick supplied
+    irc: hberaud
     email: herveberaud.pro@gmail.com
   irc-channel: openstack-release
   mission: >
