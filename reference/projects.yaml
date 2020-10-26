@@ -2327,7 +2327,7 @@ placement:
       repos:
         - openstack/os-resource-classes
   liaisons:
-    tc_members: [danms]
+    tc_members: [danms, diablo_rojo]
 Puppet OpenStack:
   ptl:
     name: Shengping Zhong
@@ -2670,7 +2670,7 @@ Release Management:
       repos:
         - openstack/specs-cookiecutter
   liaisons:
-    tc_members: []
+    tc_members: [diablo_rojo]
 requirements:
   ptl:
     name: Matthew Thode
@@ -2946,7 +2946,7 @@ swift:
         - openstack/swift-bench
 
   liaisons:
-    tc_members: []
+    tc_members: [diablo_rojo]
 tacker:
   ptl:
     name: Yasufumi Ogawa
