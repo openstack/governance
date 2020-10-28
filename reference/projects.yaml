@@ -2983,9 +2983,9 @@ tacker:
   liaisons: [gmann, knikolla]
 Telemetry:
   ptl:
-    name: Rong Zhu
-    irc: zhurong
-    email: aaronzhu1121@gmail.com
+    name: Matthias Runge
+    irc: mrunge
+    email: mrunge@redhat.com
   appointed:
     - train
   irc-channel: openstack-telemetry
