@@ -37,11 +37,11 @@ Requirements
 Project teams can apply this tag to services that they produce to assert the
 service will follow the following process for end-user-visibile API stability:
 
-#. The project follows the `API interoperability guidelines`_ when making changes to the
-   REST API
-#. The projects API uses a versioning scheme, like `microversions`_, to ensure
-   that any new features or other changes to the API are both explicit and
-   discoverable.
+#. The project follows the `API interoperability guidelines`_ when making
+   changes to the REST API
+#. The projects API uses a versioning scheme (like `microversions`_) or a
+   discoverablity mechanism  to ensure that any new features or other changes
+   to the API are both explicit and discoverable.
 #. There are branchless API tests run on every commit to ensure that the API
    doesn't change between release boundaries.
 
