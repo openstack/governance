@@ -66,6 +66,7 @@ T_       Tony Breeds    2018-09-15        2018-10-15  2018-10-22  Colorado
 U_       Rico Lin       2019-07-01        2019-08-12  2019-08-19  China
 V_       Sean McGinnis  2019-11-11        2019-12-09  2019-12-16  British Columbia
 W_       Sean McGinnis  2020-01-20        2020-02-17  2020-02-23  N/A [*]_
+X        Sean McGinnis  2020-11-02        2020-11-30  2020-12-06  N/A
 =======  =============  ================  ==========  ==========  ==================
 
 .. [*] Starting with the W release, the naming criteria changed from referring
