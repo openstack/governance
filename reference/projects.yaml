@@ -172,11 +172,12 @@ cinder:
         - mugsie
 cloudkitty:
   ptl:
-    name: APPOINTMENT NEEDED
+    name: Rafael Weingartner
     irc: No nick supplied
-    email: example@example.org
+    email: rafaelweingartner@gmail.com
   appointed:
     - victoria
+    - wallaby
   irc-channel: cloudkitty
   service: Rating service
   mission: >
