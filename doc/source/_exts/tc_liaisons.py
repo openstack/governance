@@ -71,8 +71,9 @@ class TCLiaisonsTable(tables.Table):
         data_iter = projects.load_project_file(filename)
         liaisons = {}
         for project_name, project in data_iter.items():
+            proj_liaisons = project.get('liaisons', {})
 
-            for liaison in project.get('liaisons', []):
+            for liaison in proj_liaisons.get('tc_members', []):
                 try:
                     liaisons[liaison].extend([project_name])
                 except KeyError:

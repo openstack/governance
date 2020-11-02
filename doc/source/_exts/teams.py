@@ -43,7 +43,11 @@ def _team_to_rst(name, info):
     yield ''
     yield ':Home Page: ' + info.get('url', '')
     ptl = info.get('ptl', {'name': '', 'irc': '', 'email': ''})
-    yield ':PTL: %(name)s (``%(irc)s``) <%(email)s>' % ptl
+    leadership_type = info.get('leadership_type')
+    if leadership_type:
+        yield ':Leadership Type: ' + leadership_type
+    else:
+        yield ':PTL: %(name)s (``%(irc)s``) <%(email)s>' % ptl
     irc_channel = info.get('irc-channel')
     if irc_channel:
         yield ':IRC Channel: `#%s <%s%s>`__' % (
@@ -53,7 +57,50 @@ def _team_to_rst(name, info):
         yield ':Service: ' + service
     liaisons = info.get('liaisons')
     if liaisons:
-        yield ':TC Liaisons: ' + ", ".join(liaisons)
+        contact_format = {'name': '', 'irc': '', 'email': ''}
+        tc_members = liaisons.get('tc_members')
+        if tc_members:
+            yield ':TC Members Liaisons: ' + ", ".join(tc_members)
+        release = liaisons.get('release', contact_format)
+        if release != contact_format:
+            yield ':Release Liaisons: ' + ', '.join(
+                '%(name)s (``%(irc)s``) <%(email)s>' % rl
+                for rl in release)
+        tact_sig = liaisons.get('tact-sig', contact_format)
+        if tact_sig != contact_format:
+            yield ':TACT SIG Liaisons: ' + ', '.join(
+                '%(name)s (``%(irc)s``) <%(email)s>' % tl
+                for tl in tact_sig)
+        security = liaisons.get('security', contact_format)
+        if security != contact_format:
+            yield ':Security Liaisons: ' + ', '.join(
+                '%(name)s (``%(irc)s``) <%(email)s>' % sl
+                for sl in security)
+        events = liaisons.get('events', contact_format)
+        if events != contact_format:
+            yield ':Events Liaisons: ' + ', '.join(
+                '%(name)s (``%(irc)s``) <%(email)s>' % el
+                for el in events)
+        project_update_onboarding = liaisons.get('project_update_onboarding', contact_format)
+        if project_update_onboarding != contact_format:
+            yield ':Project Update Onboarding Liaisons: ' + ', '.join(
+                '%(name)s (``%(irc)s``) <%(email)s>' % pl
+                for pl in project_update_onboarding)
+        meeting_facilitator = liaisons.get('meeting_facilitator', contact_format)
+        if meeting_facilitator != contact_format:
+            yield ':Meeting Facilitator Liaisons: ' + ', '.join(
+                '%(name)s (``%(irc)s``) <%(email)s>' % ml
+                for ml in meeting_facilitator)
+        bug_deputy = liaisons.get('bug_deputy', contact_format)
+        if bug_deputy != contact_format:
+            yield ':Bug Deputy Liaisons: ' + ', '.join(
+                '%(name)s (``%(irc)s``) <%(email)s>' % bl
+                for bl in bug_deputy)
+        rfe_coordinator = liaisons.get('rfe_coordinator', contact_format)
+        if rfe_coordinator != contact_format:
+            yield ':RFE Coordinator Liaisons: ' + ', '.join(
+                '%(name)s (``%(irc)s``) <%(email)s>' % rcl
+                for rcl in rfe_coordinator)
     yield ''
     mission = info.get('mission', '').rstrip()
     if mission:

@@ -3,15 +3,41 @@ $schema: "http://json-schema.org/schema#"
 $id: "https://opendev.org/openstack/releases/src/branch/master/README.rst"
 
 
+contact_schema: &contact_schema
+  type: "array"
+  items:
+    type: "object"
+    required:
+      - name
+      - email
+    additionalProperties: false
+    properties:
+      name:
+        type: "string"
+      irc:
+        type: "string"
+      email:
+        type: "string"
+        format: "email"
+  minItems: 1
+  uniqueItems: true
+
 additionalProperties:
   # Do not allow any properties not defined here. This lets us catch
   # typos.
   additionalProperties: false
-  required:
-    - ptl
-    - deliverables
-    - url
-    - mission
+  oneOf:
+    - required:
+        - ptl
+        - deliverables
+        - url
+        - mission
+    - required:
+        - leadership_type
+        - liaisons
+        - deliverables
+        - url
+        - mission
   properties:
     ptl:
       type: "object"
@@ -27,6 +53,10 @@ additionalProperties:
         email:
           type: "string"
           format: "email"
+    leadership_type:
+      type: "string"
+      enum:
+        - distributed
     appointed:
       type: "array"
       items:
@@ -38,10 +68,25 @@ additionalProperties:
     url:
       type: "string"
     liaisons:
-      type: "array"
-      uniqueItems: true
-      items:
-        type: "string"
+      type: "object"
+      properties:
+        tc_members:
+          type: "array"
+          items:
+            type: "string"
+          uniqueItems: true
+        # TODO(gmann): Make release, tact-sig,
+        # and, security liaison as required for
+        # distributed leadership type.
+        release: *contact_schema
+        tact-sig: *contact_schema
+        security: *contact_schema
+        events: *contact_schema
+        project_update_onboarding: *contact_schema
+        meeting_facilitator: *contact_schema
+        bug_deputy: *contact_schema
+        rfp_coordinator: *contact_schema
+        additionalProperties: false
     mission:
       type: "string"
     deliverables:
