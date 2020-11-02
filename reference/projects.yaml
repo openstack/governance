@@ -1232,9 +1232,11 @@ nova:
       tc_members: [gmann, cloudnull]
 octavia:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Adam Harwell
+    irc: rm_work
+    email: flux.adam@gmail.com
+  appointed:
+    - wallaby
   irc-channel: openstack-lbaas
   service: Load-balancer service
   mission: >
