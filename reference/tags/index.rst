@@ -55,7 +55,6 @@ project doesn't actually meet the documented criteria.
    assert_supports-upgrade
    assert_supports-accessible-upgrade
    assert_supports-rolling-upgrade
-   assert_supports-zero-downtime-upgrade
 
 Vulnerability Management Tags
 =============================
