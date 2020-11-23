@@ -1191,6 +1191,21 @@ nova:
     os-vif:
       repos:
         - openstack/os-vif
+    placement:
+      repos:
+        - openstack/placement
+      tags:
+        - starter-kit:compute
+        - starter-kit:kubernetes-in-virt
+    os-traits:
+      repos:
+        - openstack/os-traits
+    osc-placement:
+      repos:
+        - openstack/osc-placement
+    os-resource-classes:
+      repos:
+        - openstack/os-resource-classes
   liaisons:
     tc_members: [gmann, danms]
 octavia:
@@ -2295,39 +2310,6 @@ oslo:
       - name: Ben Nemec
         irc: bnemec
         email: openstack@nemebean.com
-
-placement:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
-  appointed:
-    - ussuri
-    - victoria
-  irc-channel: openstack-placement
-  service: Placement service
-  mission: >
-    To track cloud resource inventories and usages to help other services
-    effectively manage and allocate their resources.
-  url: https://docs.openstack.org/placement/latest/
-  deliverables:
-    placement:
-      repos:
-        - openstack/placement
-      tags:
-        - starter-kit:compute
-        - starter-kit:kubernetes-in-virt
-    os-traits:
-      repos:
-        - openstack/os-traits
-    osc-placement:
-      repos:
-        - openstack/osc-placement
-    os-resource-classes:
-      repos:
-        - openstack/os-resource-classes
-  liaisons:
-    tc_members: [danms, diablo_rojo]
 Puppet OpenStack:
   ptl:
     name: Shengping Zhong
