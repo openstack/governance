@@ -1721,6 +1721,25 @@ Puppet OpenStack:
         - openstack/puppet-congress
       retired-on: 2020-06-21
 
+qinling:
+  retired-on: 2020-11-27
+  irc-channel: openstack-qinling
+  service: Function as a Service
+  mission: >
+    Provide a serverless platform for managing functions that can be executed
+    in a scalable, highly-available manner.
+  url: https://wiki.openstack.org/wiki/Qinling
+  deliverables:
+    python-qinlingclient:
+      repos:
+        - openstack/python-qinlingclient
+    qinling:
+      repos:
+        - openstack/qinling
+    qinling-dashboard:
+      repos:
+        - openstack/qinling-dashboard
+
 RefStack:
   ptl:
     name: Chris Hoge
