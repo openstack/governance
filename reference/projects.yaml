@@ -1487,6 +1487,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-interface-keystone-notifications
+    charm-interface-magpie:
+      release-management: external
+      repos:
+        - openstack/charm-interface-magpie
     charm-interface-manila-plugin:
       release-management: external
       repos:
@@ -1603,6 +1607,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-layer-openstack-principle
+    charm-magpie:
+      release-management: external
+      repos:
+        - openstack/charm-magpie
     charm-manila:
       release-management: external
       repos:
