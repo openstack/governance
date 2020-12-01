@@ -138,6 +138,9 @@ list announcing the change in leadership. A patch must also be submitted to the
 PTL information in ``projects.yaml``, which must be approved by the TC in order
 for the appointed candidate to officially assume PTL responsibilities.
 
+Any exception to PTL election schedule needs to be recorded in
+:doc:`Election Exceptions </reference/election-exceptions>`
+
 Voters for PTL seats ("APC")
 ============================
 
@@ -196,6 +199,9 @@ candidates must meet all other constraints for membership in the TC.
   or none of the candidates who do not win in previous elections accept
   the vacant TC partial term), then special election is held to fill the
   vacancy.
+
+Any exception to TC election schedule needs to be recorded in
+:doc:`Election Exceptions </reference/election-exceptions>`
 
 .. _atc:
 
