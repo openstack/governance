@@ -47,9 +47,7 @@ Requirements
   there are no such caveats. This does not require complete
   elimination of downtime during upgrades, but rather reducing the
   scope from "all services" to "some services at a time." In other
-  words, "restarting all API services together" is a reasonable restriction. A
-  more restrictive tag, :ref:`tag-assert:supports-zero-downtime-upgrade`
-  removes this allowance.
+  words, "restarting all API services together" is a reasonable restriction.
 * Full stack integration testing with services arranged in a
   mid-upgrade manner is performed on every proposed commit to validate
   that mixed-version services work together properly. This testing
