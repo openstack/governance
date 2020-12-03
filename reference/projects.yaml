@@ -2807,40 +2807,6 @@ sahara:
     tc_members:
       - ricolin
       - mugsie
-searchlight:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
-  appointed:
-    - stein
-  irc-channel: openstack-searchlight
-  service: Search service
-  mission: >
-    To provide advanced and scalable indexing and search across multi-tenant
-    cloud resources.
-  url: https://wiki.openstack.org/wiki/Searchlight
-  tags:
-    - status:maintenance-mode
-  deliverables:
-    searchlight:
-      repos:
-        - openstack/searchlight
-    searchlight-specs:
-      release-management: none
-      repos:
-        - openstack/searchlight-specs
-    python-searchlightclient:
-      repos:
-        - openstack/python-searchlightclient
-    searchlight-ui:
-      repos:
-        - openstack/searchlight-ui
-
-  liaisons:
-    tc_members:
-      - belmoreira
-      - mnaser
 senlin:
   ptl:
     name: XueFeng Liu

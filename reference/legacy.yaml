@@ -1766,6 +1766,31 @@ Release Management:
       repos:
         - openstack/release-schedule-generator
 
+searchlight:
+  retired-on: 2020-11-27
+  irc-channel: openstack-searchlight
+  service: Search service
+  mission: >
+    To provide advanced and scalable indexing and search across multi-tenant
+    cloud resources.
+  url: https://wiki.openstack.org/wiki/Searchlight
+  tags:
+    - status:maintenance-mode
+  deliverables:
+    searchlight:
+      repos:
+        - openstack/searchlight
+    searchlight-specs:
+      release-management: none
+      repos:
+        - openstack/searchlight-specs
+    python-searchlightclient:
+      repos:
+        - openstack/python-searchlightclient
+    searchlight-ui:
+      repos:
+        - openstack/searchlight-ui
+
 Security:
   ptl:
     name: Luke Hinds
