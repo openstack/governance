@@ -24,7 +24,9 @@ adjutant:
       repos:
         - openstack/python-adjutantclient
   liaisons:
-    tc_members: []
+    tc_members:
+      - mnaser
+      - dansmith
 barbican:
   ptl:
     name: Douglas Mendizábal
@@ -73,7 +75,9 @@ barbican:
       tags:
         - vulnerability:managed
   liaisons:
-    tc_members: []
+    tc_members:
+      - mnaser
+      - mugsie
 blazar:
   ptl:
     name: Pierre Riteau
@@ -108,7 +112,7 @@ blazar:
       repos:
         - openstack/python-blazarclient
   liaisons:
-    tc_members: [gmann]
+    tc_members: [gmann, knikolla]
 cinder:
   ptl:
     name: Brian Rosmaita
@@ -161,7 +165,9 @@ cinder:
         - vulnerability:managed
         - stable:follows-policy
   liaisons:
-    tc_members: []
+    tc_members:
+      - jungleboyj
+      - belmoreira
 cloudkitty:
   ptl:
     name: Rafael Weingartner
@@ -196,7 +202,9 @@ cloudkitty:
       repos:
         - openstack/cloudkitty-tempest-plugin
   liaisons:
-    tc_members: []
+    tc_members:
+      - dansmith
+      - jungleboyj
 cyborg:
   ptl:
     name: Yumeng Bao
@@ -267,7 +275,9 @@ designate:
       tags:
         - stable:follows-policy
   liaisons:
-    tc_members: []
+    tc_members:
+      - diablo_rojo
+      - jungleboyj
 ec2-api:
   ptl:
     name: Andrey Pavlov
@@ -286,7 +296,9 @@ ec2-api:
       repos:
         - openstack/ec2api-tempest-plugin
   liaisons:
-    tc_members: []
+    tc_members:
+      - jungleboyj
+      - mugsie
 freezer:
   ptl:
     name: cai hui
@@ -321,7 +333,9 @@ freezer:
       repos:
         - openstack/python-freezerclient
   liaisons:
-    tc_members: []
+    tc_members:
+      - mnaser
+      - ricolin
 glance:
   ptl:
     name: Abhishek Kekane
@@ -362,7 +376,7 @@ glance:
         - vulnerability:managed
         - stable:follows-policy
   liaisons:
-    tc_members: [dansmith]
+    tc_members: [dansmith, jungleboyj]
 heat:
   ptl:
     name: Rico Lin
@@ -421,7 +435,7 @@ heat:
       repos:
         - openstack/tosca-parser
   liaisons:
-    tc_members: [ricolin]
+    tc_members: [ricolin, mugsie]
 horizon:
   ptl:
     name: Ivan Kolodyazhny
@@ -541,7 +555,9 @@ horizon:
       repos:
         - openstack/xstatic-spin
   liaisons:
-    tc_members: []
+    tc_members:
+      - mnaser
+      - mugsie
 ironic:
   ptl:
     name: Julia Kreger
@@ -647,7 +663,7 @@ ironic:
       email: jay@jvf.cc
       expires-in: July 2019
   liaisons:
-    tc_members: [dansmith]
+    tc_members: [dansmith, diablo_rojo]
 karbor:
   ptl:
     name: APPOINTMENT NEEDED
@@ -670,7 +686,9 @@ karbor:
       repos:
         - openstack/python-karborclient
   liaisons:
-    tc_members: []
+    tc_members:
+      - diablo_rojo
+      - knikolla
 keystone:
   ptl:
     name: Kristi Nikolla
@@ -726,7 +744,9 @@ keystone:
       repos:
         - openstack/ldappool
   liaisons:
-    tc_members: []
+    tc_members:
+      - mnaser
+      - mugsie
 kolla:
   ptl:
     name: Mark Goddard
@@ -756,7 +776,9 @@ kolla:
         - openstack/kayobe-config
         - openstack/kayobe-config-dev
   liaisons:
-    tc_members: []
+    tc_members:
+      - gmann
+      - dansmith
 kuryr:
   ptl:
     name: Maysa de Macedo Souza
@@ -784,7 +806,9 @@ kuryr:
       repos:
         - openstack/kuryr-tempest-plugin
   liaisons:
-    tc_members: []
+    tc_members:
+      - diablo_rojo
+      - jungleboyj
 magnum:
   ptl:
     name: Spyros Trigazis
@@ -814,7 +838,7 @@ magnum:
       repos:
         - openstack/python-magnumclient
   liaisons:
-    tc_members: [ricolin]
+    tc_members: [ricolin, diablo_rojo]
 manila:
   ptl:
     name: Goutham Pacha Ravi
@@ -858,7 +882,7 @@ manila:
       repos:
         - openstack/python-manilaclient
   liaisons:
-    tc_members: [gmann]
+    tc_members: [gmann, knikolla]
 masakari:
   ptl:
     name: Radosław Piliszek
@@ -890,7 +914,9 @@ masakari:
       repos:
         - openstack/masakari-dashboard
   liaisons:
-    tc_members: []
+    tc_members:
+      - mnaser
+      - mugsie
 mistral:
   ptl:
     name: Renat Akhmerov
@@ -928,7 +954,9 @@ mistral:
       repos:
         - openstack/mistral-extra
   liaisons:
-    tc_members: []
+    tc_members:
+      - mugsie
+      - diablo_rojo
 monasca:
   ptl:
     name: Martin Chacon Piza
@@ -1000,7 +1028,7 @@ monasca:
       repos:
         - openstack/monasca-kibana-plugin
   liaisons:
-    tc_members: [ricolin]
+    tc_members: [ricolin, mugsie]
 murano:
   ptl:
     name: Rong Zhu
@@ -1052,7 +1080,9 @@ murano:
       repos:
         - openstack/murano-tempest-plugin
   liaisons:
-    tc_members: []
+    tc_members:
+      - belmoreira
+      - ricolin
 neutron:
   ptl:
     name: Sławek Kapłoński
@@ -1151,7 +1181,9 @@ neutron:
       repos:
         - openstack/os-ken
   liaisons:
-    tc_members: []
+    tc_members:
+      - mnaser
+      - mugsie
 nova:
   ptl:
     name: Balazs Gibizer
@@ -1264,7 +1296,9 @@ octavia:
       tags:
         - stable:follows-policy
   liaisons:
-    tc_members: []
+    tc_members:
+      - mugsie
+      - jungleboyj
 OpenStack Charms:
   ptl:
     name: Frode Nordahl
@@ -1800,7 +1834,9 @@ OpenStack Charms:
       repos:
         - openstack/charm-watcher-dashboard
   liaisons:
-    tc_members: []
+    tc_members:
+      - belmoreira
+      - knikolla
 openstack-chef:
   ptl:
     name: Lance Albertson
@@ -1894,7 +1930,9 @@ openstack-chef:
       repos:
         - openstack/openstack-chef-specs
   liaisons:
-    tc_members: []
+    tc_members:
+      - knikolla
+      - mugsie
 OpenStack-Helm:
   ptl:
     name: Gage Hugo
@@ -1938,7 +1976,9 @@ OpenStack-Helm:
       repos:
         - openstack/loci
   liaisons:
-    tc_members: []
+    tc_members:
+      - jungleboyj
+      - knikolla
 OpenStackAnsible:
   ptl:
     name: Dmitriy Rabotyagov
@@ -2031,7 +2071,9 @@ OpenStackAnsible:
       repos:
         - openstack/openstack-ansible-specs
   liaisons:
-    tc_members: []
+    tc_members:
+      - knikolla
+      - jungleboyj
 OpenStackSDK:
   ptl:
     name: Artem Goncharov
@@ -2086,7 +2128,7 @@ OpenStackSDK:
       tags:
         - assert:follows-standard-deprecation
   liaisons:
-    tc_members: [dansmith]
+    tc_members: [dansmith, belmoreira]
 oslo:
   leadership_type: distributed
   irc-channel: openstack-oslo
@@ -2299,7 +2341,7 @@ oslo:
         - openstack/whereto
 
   liaisons:
-    tc_members: [ricolin]
+    tc_members: [ricolin, knikolla]
     release:
       - name: Hervé Beraud
         irc: hberaud
@@ -2475,7 +2517,9 @@ Puppet OpenStack:
         - openstack/puppet-zaqar
 
   liaisons:
-    tc_members: []
+    tc_members:
+      - mnaser
+      - belmoreira
 qinling:
   ptl:
     name: APPOINTMENT NEEDED
@@ -2499,7 +2543,9 @@ qinling:
         - openstack/qinling-dashboard
 
   liaisons:
-    tc_members: []
+    tc_members:
+      - mnaser
+      - gmann
 Quality Assurance:
   ptl:
     name: Masayuki Igawa
@@ -2603,7 +2649,7 @@ Quality Assurance:
       repos:
         - openstack/whitebox-tempest-plugin
   liaisons:
-    tc_members: [gmann]
+    tc_members: [gmann, jungleboyj]
 rally:
   ptl:
     name: Andrey Kurilin
@@ -2631,7 +2677,9 @@ rally:
         - openstack/performance-docs
 
   liaisons:
-    tc_members: []
+    tc_members:
+      - diablo_rojo
+      - belmoreira
 Release Management:
   ptl:
     name: Hervé Beraud
@@ -2660,7 +2708,7 @@ Release Management:
       repos:
         - openstack/specs-cookiecutter
   liaisons:
-    tc_members: [diablo_rojo]
+    tc_members: [diablo_rojo, knikolla]
 requirements:
   ptl:
     name: Matthew Thode
@@ -2678,7 +2726,9 @@ requirements:
       repos:
         - openstack/requirements
   liaisons:
-    tc_members: []
+    tc_members:
+      - mnaser
+      - belmoreira
 sahara:
   ptl:
     name: Jeremy Freudberg
@@ -2780,7 +2830,9 @@ sahara:
         - openstack/sahara-specs
 
   liaisons:
-    tc_members: []
+    tc_members:
+      - ricolin
+      - mugsie
 searchlight:
   ptl:
     name: APPOINTMENT NEEDED
@@ -2812,7 +2864,9 @@ searchlight:
         - openstack/searchlight-ui
 
   liaisons:
-    tc_members: []
+    tc_members:
+      - belmoreira
+      - mnaser
 senlin:
   ptl:
     name: XueFeng Liu
@@ -2841,7 +2895,7 @@ senlin:
         - openstack/senlin-tempest-plugin
 
   liaisons:
-    tc_members: [ricolin]
+    tc_members: [ricolin, diablo_rojo]
 solum:
   ptl:
     name: Rong Zhu
@@ -2873,7 +2927,9 @@ solum:
         - openstack/solum-tempest-plugin
 
   liaisons:
-    tc_members: []
+    tc_members:
+      - mnaser
+      - knikolla
 storlets:
   ptl:
     name: Takashi Kajinami
@@ -2892,7 +2948,9 @@ storlets:
         - openstack/storlets
 
   liaisons:
-    tc_members: []
+    tc_members:
+      - belmoreira
+      - diablo_rojo
 swift:
   ptl:
     name: Tim Burke
@@ -2936,7 +2994,7 @@ swift:
         - openstack/swift-bench
 
   liaisons:
-    tc_members: [diablo_rojo]
+    tc_members: [diablo_rojo, jungleboyj]
 tacker:
   ptl:
     name: Yasufumi Ogawa
@@ -2967,7 +3025,7 @@ tacker:
         - openstack/tacker-specs
 
   liaisons:
-    tc_members: [gmann]
+    tc_members: [gmann, diablo_rojo]
 Telemetry:
   ptl:
     name: Matthias Runge
@@ -3018,7 +3076,7 @@ Telemetry:
         - openstack/telemetry-tempest-plugin
 
   liaisons:
-    tc_members: [ricolin]
+    tc_members: [ricolin, dansmith]
 tripleo:
   ptl:
     name: Marios Andreou
@@ -3154,7 +3212,9 @@ tripleo:
         - openstack/tripleo-ha-utils
 
   liaisons:
-    tc_members: []
+    tc_members:
+      - gmann
+      - ricolin
 trove:
   ptl:
     name: Lingxian Kong
@@ -3196,7 +3256,7 @@ trove:
         - openstack/trove-tempest-plugin
 
   liaisons:
-    tc_members: [gmann]
+    tc_members: [gmann, belmoreira]
 vitrage:
   ptl:
     name: Eyal Bar-Ilan
@@ -3246,7 +3306,9 @@ vitrage:
         - openstack/xstatic-moment-timezone
 
   liaisons:
-    tc_members: []
+    tc_members:
+      - ricolin
+      - knikolla
 watcher:
   ptl:
     name: canwei li
@@ -3279,7 +3341,7 @@ watcher:
         - openstack/watcher-dashboard
 
   liaisons:
-    tc_members: [gmann]
+    tc_members: [gmann, knikolla]
 winstackers:
   ptl:
     name: Lucian Petrut
@@ -3310,7 +3372,9 @@ winstackers:
         - openstack/compute-hyperv
 
   liaisons:
-    tc_members: []
+    tc_members:
+      - ricolin
+      - mnaser
 zaqar:
   ptl:
     name: wang hao
@@ -3349,7 +3413,9 @@ zaqar:
         - openstack/zaqar-ui
 
   liaisons:
-    tc_members: []
+    tc_members:
+      - jungleboyj
+      - belmoreira
 zun:
   ptl:
     name: Feng Shengqin
@@ -3375,4 +3441,6 @@ zun:
       repos:
         - openstack/zun-ui
   liaisons:
-    tc_members: []
+    tc_members:
+      - belmoreira
+      - dansmith
