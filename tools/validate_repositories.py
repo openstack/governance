@@ -46,6 +46,17 @@ args = parser.parse_args()
 with open(args.projects, 'r', encoding='utf-8') as f:
     projects = yaml.safe_load(f.read())
 
+with open(args.legacy_projects, 'r', encoding='utf-8') as f:
+    legacy_projects = yaml.safe_load(f.read())
+legacy_repos = []
+for team_name, team_data in legacy_projects.items():
+    legacy_deliverables = team_data.get('deliverables')
+    if not legacy_deliverables:
+        continue
+    for deliverable_name, deliverable_data in legacy_deliverables.items():
+        for repo in deliverable_data['repos']:
+            legacy_repos.append(repo)
+
 if os.path.exists(args.project_config):
     projects_yaml = '%s/gerrit/projects.yaml' % args.project_config
     with open(projects_yaml) as gerrit_projects:
@@ -63,6 +74,13 @@ for team_name, team_data in projects.items():
     deliverables = team_data.get('deliverables')
     for deliverable_name, deliverable_data in deliverables.items():
         for repo_name in deliverable_data.get('repos', []):
+            if repo_name in legacy_repos:
+                msg = ('Repository {} is present in project data {} as '
+                       'well as in legecy project data {}')
+                print(
+                    msg.format(repo_name, args.projects, args.legacy_projects))
+                errors += 1
+
             if repo_name not in gerrit_projects:
                 print('Unknown repository {} as part of {} in {}'.format(
                     repo_name, deliverable_name, team_name))
