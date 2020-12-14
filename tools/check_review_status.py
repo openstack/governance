@@ -141,29 +141,28 @@ def format_votes(votes):
     )
 
 
-def get_votes_by_person(name, review):
+def get_votes_by_person(member, review):
     for label in ['Code-Review', 'Rollcall-Vote']:
         for vote in review['labels'].get(label, {}).get('all', []):
-            voter = vote.get('name', '')
-            if voter.startswith(name):
+            if member['gerritid'] == vote['_account_id']:
                 yield vote
 
 
-def has_approved(name, review):
+def has_approved(member, review):
     return any(
         vote.get('value', 0) == 1
-        for vote in get_votes_by_person(name, review)
+        for vote in get_votes_by_person(member, review)
     )
 
 
-def has_rejected(name, review):
+def has_rejected(member, review):
     return any(
         vote.get('value', 0) == -1
-        for vote in get_votes_by_person(name, review)
+        for vote in get_votes_by_person(member, review)
     )
 
 
-def has_commented(name, review):
+def has_commented(member, review):
     desired_revision = max(
         r.get('_number', -1)
         for r in review.get('revisions', {}).values()
@@ -171,7 +170,7 @@ def has_commented(name, review):
     for msg in review.get('messages', []):
         if msg.get('_revision_number', -1) != desired_revision:
             continue
-        if msg.get('author', {}).get('name', '') == name:
+        if msg.get('author', {}).get('_account_id', '') == member['gerritid']:
             return True
 
 
@@ -380,12 +379,13 @@ def get_one_status(change, delegates, tc_members):
     ])
 
     tc_member_votes = {}
-    for name in tc_members:
-        if has_approved(name, change):
+    for member in tc_members:
+        name = member['name']
+        if has_approved(member, change):
             tc_member_votes[name] = '+'
-        elif has_rejected(name, change):
+        elif has_rejected(member, change):
             tc_member_votes[name] = '-'
-        elif has_commented(name, change):
+        elif has_commented(member, change):
             tc_member_votes[name] = 'C'
         else:
             tc_member_votes[name] = ' '
@@ -432,10 +432,16 @@ def main():
         level=args.log_level,
     )
 
-    tc_members = [
-        m.get('name')
-        for m in members.parse_members_file('./reference/members.yaml')
-    ]
+    tc_members = members.parse_members_file('./reference/members.yaml')
+    # NOTE(mnaser): In order to consistently and properly track the votes,
+    #               we need to lookup every users Gerrit account ID based
+    #               on their email.
+    for member in tc_members:
+        raw = requests.get(
+            'https://review.opendev.org/accounts/%s' % member['email'],
+            headers={'Accept': 'application/json'},
+        )
+        member['gerritid'] = decode_json(raw).get('_account_id')
 
     gov = governance.Governance.from_local_repo()
     release_team = gov.get_team('Release Management')
