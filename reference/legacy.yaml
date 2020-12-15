@@ -402,7 +402,25 @@ ironic:
       retired-on: 2016-11-28
       repos:
         - openstack/python-wsmanclient
-
+karbor:
+  retired-on: 2020-12-14
+  irc-channel: openstack-karbor
+  service: Data Protection Orchestration service
+  mission: >
+    To implement services and libraries to provide project aware
+    data-protection orchestration of existing vendor solutions.
+  url: https://wiki.openstack.org/wiki/Karbor
+  deliverables:
+    karbor:
+      repos:
+        - openstack/karbor
+    karbor-dashboard:
+      repos:
+        - openstack/karbor-dashboard
+    python-karborclient:
+      repos:
+        - openstack/python-karborclient
+      
 keystone:
   irc-channel: openstack-keystone
   service: Identity service
