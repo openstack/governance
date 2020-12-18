@@ -363,6 +363,9 @@ glance:
       release-management: none
       repos:
         - openstack/glance-specs
+    glance-tempest-plugin:
+      repos:
+        - openstack/glance-tempest-plugin
     glance-store:
       repos:
         - openstack/glance_store
