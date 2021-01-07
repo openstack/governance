@@ -625,6 +625,7 @@ ironic:
       repos:
         - openstack/metalsmith
     molteniron:
+      release-management: none
       repos:
         - openstack/molteniron
     networking-baremetal:
