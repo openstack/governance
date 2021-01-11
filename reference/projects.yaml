@@ -207,9 +207,9 @@ cloudkitty:
       - jungleboyj
 cyborg:
   ptl:
-    name: Yumeng Bao
-    irc: No nick supplied
-    email: yumeng_bao@yahoo.com
+    name: Xinran Wang
+    irc: xinranwang
+    email: xin-ran.wang@intel.com
   appointed:
     - ussuri
   irc-channel: openstack-cyborg
