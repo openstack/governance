@@ -7,7 +7,6 @@ distribution <pti-linux-distros>` versions are:
 
 * Ubuntu 20.04
 * CentOS 8
-* openSUSE Leap 15
 
 Python Runtimes for Wallaby
 ============================
@@ -21,7 +20,7 @@ when all projects have migrated to a later version.
 Based on the criteria above, all Python-based projects must target and test
 against, at a minimum:
 
-* Python 3.6 (default in CentOS 8.0 and OpenSUSE Leap 15.2)
+* Python 3.6 (default in CentOS 8.0)
 * Python 3.8 (latest available; default in Ubuntu 20.04)
 
 More details on Python requirements can be found in :ref:`pti-python`.

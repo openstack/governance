@@ -117,7 +117,6 @@ used to deploy OpenStack on:
 
 - `Latest Ubuntu LTS <https://wiki.ubuntu.com/Releases>`_
 - `Latest CentOS Major <https://www.centos.org/download/>`_
-- `Latest openSUSE Leap <https://software.opensuse.org/>`_
 
 Below are the two upstream testing required as minimum to consider the above distro for defining
 the testing runtime:
