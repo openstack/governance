@@ -3069,6 +3069,7 @@ tripleo:
     openstack-tempest-skiplist:
       repos:
         - openstack/openstack-tempest-skiplist
+      release-management: none
     openstack-virtual-baremetal:
       repos:
         - openstack/openstack-virtual-baremetal
