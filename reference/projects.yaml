@@ -164,6 +164,9 @@ cinder:
       tags:
         - vulnerability:managed
         - stable:follows-policy
+    rbd-iscsi-client:
+      repos:
+        - openstack/rbd-iscsi-client
   liaisons:
     tc_members:
       - jungleboyj
