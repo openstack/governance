@@ -3263,9 +3263,9 @@ vitrage:
       - knikolla
 watcher:
   ptl:
-    name: canwei li
-    irc: No nick supplied
-    email: li.canwei2@zte.com.cn
+    name: Ke Chen
+    irc: chenke
+    email: chen.ke14@zte.com.cn
   irc-channel: openstack-watcher
   service: Infrastructure Optimization service
   mission: >
