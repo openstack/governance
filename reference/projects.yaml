@@ -671,31 +671,7 @@ ironic:
       expires-in: July 2019
   liaisons:
     tc_members: [dansmith, diablo_rojo]
-karbor:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
-  irc-channel: openstack-karbor
-  service: Data Protection Orchestration service
-  mission: >
-    To implement services and libraries to provide project aware
-    data-protection orchestration of existing vendor solutions.
-  url: https://wiki.openstack.org/wiki/Karbor
-  deliverables:
-    karbor:
-      repos:
-        - openstack/karbor
-    karbor-dashboard:
-      repos:
-        - openstack/karbor-dashboard
-    python-karborclient:
-      repos:
-        - openstack/python-karborclient
-  liaisons:
-    tc_members:
-      - diablo_rojo
-      - knikolla
+
 keystone:
   ptl:
     name: Kristi Nikolla
