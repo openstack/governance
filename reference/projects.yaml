@@ -844,6 +844,7 @@ manila:
         - assert:supports-upgrade
         - assert:supports-accessible-upgrade
         - stable:follows-policy
+        - assert:supports-api-interoperability
     manila-image-elements:
       repos:
         - openstack/manila-image-elements
