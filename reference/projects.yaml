@@ -469,9 +469,6 @@ horizon:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - stable:follows-policy
-    tempest-horizon:
-      repos:
-        - openstack/tempest-horizon
     ui-cookiecutter:
       release-management: none
       repos:

@@ -303,6 +303,10 @@ horizon:
       retired-on: 2018-02-07
       repos:
         - openstack/horizon-cisco-ui
+    tempest-horizon:
+      retired-on: 2021-02-08
+      repos:
+        - openstack/tempest-horizon
     xstatic-angular-ui-router:
       retired-on: 2019-03-24
       repos:
