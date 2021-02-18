@@ -1116,6 +1116,7 @@ neutron:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - assert:supports-rolling-upgrade
+        - assert:supports-api-interoperability
     neutron-dynamic-routing:
       repos:
         - openstack/neutron-dynamic-routing
