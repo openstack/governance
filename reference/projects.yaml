@@ -136,6 +136,7 @@ cinder:
         - stable:follows-policy
         - assert:supports-rolling-upgrade
         - assert:supports-accessible-upgrade
+        - assert:supports-api-interoperability
     cinder-specs:
       release-management: none
       repos:
