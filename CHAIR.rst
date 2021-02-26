@@ -46,6 +46,9 @@ Each Cycle
   process for the next cycle.
 * Ensure the next release naming is started
 * Ensure PTI update is done
+* Ensure PTL and TC election schedule is prepared before R-5 of current release cycle and as
+  per https://governance.openstack.org/tc/reference/charter.html
+* Encourage the TC members that are not standing for [re]election to help as the election officials.
 
 Around TC elections
 ===================
