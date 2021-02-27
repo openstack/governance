@@ -12,6 +12,47 @@ Hardware Vendor:
   - repo: openstack/python-dracclient
 i18n:
   - repo: openstack/i18n
+    extra-atcs:
+    - name: Andreas Jaeger
+      email: jaegerandi@gmail.com
+      expires-in: Oct 2021
+      comment: jaegerandi (de)
+    - name: Robert Holling
+      email: r.holling@protonmail.ch
+      expires-in: Oct 2021
+      comment: r6t (de)
+    - name: Andi Chandler
+      email: andi@gowling.com
+      expires-in: Oct 2021
+      comment: andibing (en-GB)
+    - name: suhartono
+      email: cloudsuhartono@gmail.com
+      expires-in: Feb 2022
+      comment: suhartono (id)
+    - name: Ian Y. Choi
+      email: ianyrchoi@gmail.com
+      expires-in: Oct 2021
+      comment: ianychoi (ko-KR)
+    - name: KEONWOO LEE
+      email: lkeonw0o@naver.com
+      expires-in: Oct 2021
+      comment: keonwoo_lee (ko-KR)
+    - name: Dong-won Jang
+      email: dohan0930@gmail.com
+      expires-in: Oct 2021
+      comment: revival0n (ko-KR)
+    - name: Roman Gorshunov
+      email: roman.gorshunov@att.com
+      expires-in: Oct 2021
+      comment: gorshunovr (ru)
+    - name: Dmitriy Rabotyagov
+      email: noonedeadpunk@ya.ru
+      expires-in: Oct 2021
+      comment: noonedeadpunk (ru)
+    - name: Alberto Molina Coballes
+      email: alb.molina@gmail.com
+      expires-in: Feb 2022
+      comment: albertomolina (es)
 Meta:
   - repo: openstack/governance-sigs
 Multi-Arch:
