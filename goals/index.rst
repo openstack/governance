@@ -79,7 +79,7 @@ The TC will consider proposed goals from the ``/goals/proposed/`` directory
 and select a set of OpenStack-wide goals for each cycle in time to allow
 planning and other discussion at the PTG event at the start of the cycle.
 There is no minimum or maximum limit on the number of goals to be selected per
-cycle. It can be one or more depends on the complexity and work required per
+cycle. It can be zero or more depends on the complexity and work required per
 goal. Also, it is completely fine to skip goal for any cycle with a valid reason
 for example, if any previous cycle goal is still pending and need more time to
 complete, or project team has less bandwidth and working on other priority
@@ -235,6 +235,10 @@ during the current (say N) cycle timeframe.
 
 Community goals
 ===============
+
+It's not required to define community goals for each release cycle. The TC can
+decide to not set any actionable community-wide goal for a release cycle,
+leaving the projects to focus on whatever is most important in their scope.
 
 .. toctree::
    :maxdepth: 3
