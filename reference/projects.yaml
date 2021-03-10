@@ -29,9 +29,9 @@ adjutant:
       - dansmith
 barbican:
   ptl:
-    name: Douglas Mendizábal
-    irc: redrobot
-    email: dmendiza@redhat.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - victoria
   irc-channel: openstack-barbican
@@ -176,7 +176,7 @@ cloudkitty:
   ptl:
     name: Rafael Weingartner
     irc: No nick supplied
-    email: rafaelweingartner@gmail.com
+    email: rafael@apache.org
   appointed:
     - victoria
     - wallaby
@@ -211,9 +211,9 @@ cloudkitty:
       - jungleboyj
 cyborg:
   ptl:
-    name: Xinran Wang
-    irc: xinranwang
-    email: xin-ran.wang@intel.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - ussuri
   irc-channel: openstack-cyborg
@@ -445,9 +445,9 @@ heat:
     tc_members: [ricolin, mugsie]
 horizon:
   ptl:
-    name: Ivan Kolodyazhny
-    irc: e0ne
-    email: e0ne@e0ne.info
+    name: Vishal Manchanda
+    irc: vishalmanchanda
+    email: manchandavishal143@gmail.com
   irc-channel: openstack-horizon
   service: Dashboard
   mission: >
@@ -672,9 +672,9 @@ ironic:
 
 keystone:
   ptl:
-    name: Kristi Nikolla
-    irc: knikolla
-    email: knikolla@bu.edu
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-keystone
   service: Identity service
   mission: >
@@ -794,7 +794,7 @@ magnum:
   ptl:
     name: Spyros Trigazis
     irc: strigazi
-    email: spyridon.trigazis@cern.ch
+    email: strigazi@gmail.com
   irc-channel: openstack-containers
   service: Container Infrastructure Management service
   mission: >
@@ -901,9 +901,9 @@ masakari:
       - mugsie
 mistral:
   ptl:
-    name: Renat Akhmerov
-    irc: rakhmerov
-    email: renat.akhmerov@gmail.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-mistral
   service: Workflow service
   mission: >
@@ -941,9 +941,9 @@ mistral:
       - diablo_rojo
 monasca:
   ptl:
-    name: Martin Chacon Piza
-    irc: chaconpiza
-    email: martin@chaconpiza.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-monasca
   service: Monitoring
   mission: >
@@ -1227,9 +1227,9 @@ nova:
     tc_members: [gmann, dansmith]
 octavia:
   ptl:
-    name: Adam Harwell
-    irc: rm_work
-    email: flux.adam@gmail.com
+    name: Gregory Thiemonge
+    irc: gthiemonge
+    email: gthiemon@redhat.com
   appointed:
     - wallaby
   irc-channel: openstack-lbaas
@@ -1286,9 +1286,9 @@ octavia:
       - jungleboyj
 OpenStack Charms:
   ptl:
-    name: Frode Nordahl
-    irc: fnordahl
-    email: frode.nordahl@canonical.com
+    name: Chris MacNaughton
+    irc: icey
+    email: chris.macnaughton@canonical.com
   appointed:
     - wallaby
   irc-channel: openstack-charms
@@ -2515,9 +2515,9 @@ Puppet OpenStack:
       - belmoreira
 Quality Assurance:
   ptl:
-    name: Masayuki Igawa
-    irc: masayukig
-    email: masayuki@igawa.io
+    name: Martin Kopec
+    irc: kopecmartin
+    email: mkopec@redhat.com
   irc-channel: openstack-qa
   mission: >
     Develop, maintain, and initiate tools and plans to ensure the upstream
@@ -2802,9 +2802,9 @@ sahara:
       - mugsie
 senlin:
   ptl:
-    name: XueFeng Liu
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: liu.xuefeng1@zte.com.cn
+    email: example@example.org
   appointed:
     - wallaby
   irc-channel: senlin
@@ -3245,8 +3245,8 @@ vitrage:
       - knikolla
 watcher:
   ptl:
-    name: Ke Chen
-    irc: chenke
+    name: chen ke
+    irc: No nick supplied
     email: chen.ke14@zte.com.cn
   irc-channel: openstack-watcher
   service: Infrastructure Optimization service
@@ -3311,9 +3311,9 @@ winstackers:
       - mnaser
 zaqar:
   ptl:
-    name: wang hao
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: sxmatch1986@gmail.com
+    email: example@example.org
   appointed:
     - train
     - victoria
@@ -3352,9 +3352,9 @@ zaqar:
       - belmoreira
 zun:
   ptl:
-    name: Feng Shengqin
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: feng.shengqin@zte.com.cn
+    email: example@example.org
   irc-channel: openstack-zun
   service: Containers service
   mission: >

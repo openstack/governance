@@ -5,13 +5,6 @@
   date: October 2020
   role: null
 
-- name: Graham Hayes
-  irc: mugsie
-  email: gr@ham.ie
-  memberid: 12766
-  date: April 2020
-  role: null
-
 - name: Jay Bryant
   irc: jungleboyj
   email: jsbryant@electronicjungle.net
@@ -31,32 +24,33 @@
   email: knelson@openstack.org
   memberid: 35859
   date: October 2020
-  role: vice-chair
+  role: null
 
 - name: Mohammed Naser
   irc: mnaser
   email: mnaser@vexxhost.com
   memberid: 8899
-  date: April 2020
-  role: chair
+  date: March 2021
+  role: null
 
 - name: Rico Lin
   irc: ricolin
   email: ricolin@ricolky.com
   memberid: 33346
-  date: April 2020
-  role: null
-
-- name: Kristi Nikolla
-  irc: knikolla
-  email: knikolla@bu.edu
-  memberid: 35202
-  date: April 2020
+  date: March 2021
   role: null
 
 - name: Belmiro Moreira
   irc: belmoreira
   email: moreira.belmiro.email.lists@gmail.com
   memberid: 9745
-  date: April 2020
+  date: March 2021
   role: null
+
+- name: Radosław Piliszek
+  irc: yoctozepto
+  email: radoslaw.piliszek@gmail.com
+  memberid: 100352
+  date: March 2021
+  role: null
+
