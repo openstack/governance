@@ -2802,11 +2802,12 @@ sahara:
       - mugsie
 senlin:
   ptl:
-    name: APPOINTMENT NEEDED
+    name: XueFeng Liu
     irc: No nick supplied
-    email: example@example.org
+    email: liu.xuefeng1@zte.com.cn
   appointed:
     - wallaby
+    - xena
   irc-channel: senlin
   service: Clustering service
   mission: >
