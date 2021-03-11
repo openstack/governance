@@ -211,11 +211,12 @@ cloudkitty:
       - jungleboyj
 cyborg:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Xinran Wang
+    irc: xinranwang
+    email: xin-ran.wang@intel.com
   appointed:
     - ussuri
+    - xena
   irc-channel: openstack-cyborg
   service: Accelerator Life Cycle Management
   mission: >
