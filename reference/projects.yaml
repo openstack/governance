@@ -1634,6 +1634,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-manila
+    charm-manila-dashboard:
+      release-management: external
+      repos:
+        - openstack/charm-manila-dashboard
     charm-manila-ganesha:
       release-management: external
       repos:
