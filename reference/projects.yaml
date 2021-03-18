@@ -1646,6 +1646,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-manila-glusterfs
+    charm-manila-netapp:
+      release-management: external
+      repos:
+        - openstack/charm-manila-netapp
     charm-masakari:
       release-management: external
       repos:
