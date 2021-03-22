@@ -878,10 +878,7 @@ masakari:
   liaisons:
     tc_members: [yoctozepto]
 mistral:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+  leadership_type: distributed
   irc-channel: openstack-mistral
   service: Workflow service
   mission: >
@@ -915,6 +912,24 @@ mistral:
         - openstack/mistral-extra
   liaisons:
     tc_members: []
+    release:
+      - name: Renat Akhmerov
+        irc: rakhmerov
+        email: renat.akhmerov@gmail.com
+      - name: Adriano Petrich
+        irc: apetrich
+        email: apetrich@redhat.com
+    tact-sig:
+      - name: Adriano Petrich
+        irc: apetrich
+        email: apetrich@redhat.com
+      - name: Oleg Ovcharuk
+        irc: vgvoleg
+        email: vgvoleg@gmail.com
+    security:
+      - name: Renat Akhmerov
+        irc: rakhmerov
+        email: renat.akhmerov@gmail.com
 monasca:
   ptl:
     name: Martin Chacon Piza
