@@ -371,7 +371,7 @@ glance:
         - vulnerability:managed
         - stable:follows-policy
   liaisons:
-    tc_members: []
+    tc_members: [dansmith]
 heat:
   ptl:
     name: Rico Lin
@@ -654,7 +654,7 @@ ironic:
       email: jay@jvf.cc
       expires-in: July 2019
   liaisons:
-    tc_members: []
+    tc_members: [dansmith]
 
 keystone:
   ptl:
@@ -1198,7 +1198,7 @@ nova:
       repos:
         - openstack/os-resource-classes
   liaisons:
-    tc_members: []
+    tc_members: [dansmith]
 octavia:
   ptl:
     name: Gregory Thiemonge
@@ -3115,7 +3115,7 @@ tripleo:
         - openstack/tripleo-ha-utils
 
   liaisons:
-    tc_members: []
+    tc_members: [dansmith]
 trove:
   ptl:
     name: Lingxian Kong
