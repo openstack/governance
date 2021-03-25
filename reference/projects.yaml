@@ -74,7 +74,7 @@ barbican:
       tags:
         - vulnerability:managed
   liaisons:
-    tc_members: []
+    tc_members: [jungleboyj]
 blazar:
   ptl:
     name: Pierre Riteau
@@ -166,7 +166,7 @@ cinder:
       repos:
         - openstack/rbd-iscsi-client
   liaisons:
-    tc_members: []
+    tc_members: [jungleboyj]
 cloudkitty:
   ptl:
     name: Rafael Weingartner
@@ -231,7 +231,7 @@ cyborg:
       repos:
         - openstack/cyborg-tempest-plugin
   liaisons:
-    tc_members: [gmann]
+    tc_members: [gmann, jungleboyj]
 designate:
   ptl:
     name: Michael Johnson
@@ -273,7 +273,7 @@ designate:
       tags:
         - stable:follows-policy
   liaisons:
-    tc_members: []
+    tc_members: [jungleboyj]
 ec2-api:
   ptl:
     name: Andrey Pavlov
@@ -371,7 +371,7 @@ glance:
         - vulnerability:managed
         - stable:follows-policy
   liaisons:
-    tc_members: [dansmith]
+    tc_members: [dansmith, jungleboyj]
 heat:
   ptl:
     name: Rico Lin
@@ -654,7 +654,7 @@ ironic:
       email: jay@jvf.cc
       expires-in: July 2019
   liaisons:
-    tc_members: [dansmith]
+    tc_members: [dansmith, jungleboyj]
 
 keystone:
   ptl:
@@ -844,7 +844,7 @@ manila:
       repos:
         - openstack/python-manilaclient
   liaisons:
-    tc_members: []
+    tc_members: [jungleboyj]
 masakari:
   ptl:
     name: Radosław Piliszek
@@ -2045,7 +2045,7 @@ OpenStackAnsible:
       repos:
         - openstack/openstack-ansible-specs
   liaisons:
-    tc_members: []
+    tc_members: [jungleboyj]
 OpenStackSDK:
   ptl:
     name: Artem Goncharov
@@ -2314,7 +2314,7 @@ oslo:
         - openstack/whereto
 
   liaisons:
-    tc_members: [gmann]
+    tc_members: [gmann, jungleboyj]
     release:
       - name: Hervé Beraud
         irc: hberaud
@@ -2896,7 +2896,7 @@ swift:
         - openstack/swift-bench
 
   liaisons:
-    tc_members: []
+    tc_members: [jungleboyj]
 tacker:
   ptl:
     name: Yasufumi Ogawa
