@@ -231,7 +231,7 @@ cyborg:
       repos:
         - openstack/cyborg-tempest-plugin
   liaisons:
-    tc_members: []
+    tc_members: [gmann]
 designate:
   ptl:
     name: Michael Johnson
@@ -990,7 +990,7 @@ monasca:
       repos:
         - openstack/monasca-kibana-plugin
   liaisons:
-    tc_members: []
+    tc_members: [gmann]
 murano:
   ptl:
     name: Rong Zhu
@@ -1198,7 +1198,7 @@ nova:
       repos:
         - openstack/os-resource-classes
   liaisons:
-    tc_members: [dansmith]
+    tc_members: [dansmith, gmann]
 octavia:
   ptl:
     name: Gregory Thiemonge
@@ -2314,7 +2314,7 @@ oslo:
         - openstack/whereto
 
   liaisons:
-    tc_members: []
+    tc_members: [gmann]
     release:
       - name: Hervé Beraud
         irc: hberaud
@@ -2594,7 +2594,7 @@ Quality Assurance:
       repos:
         - openstack/whitebox-tempest-plugin
   liaisons:
-    tc_members: []
+    tc_members: [gmann]
 rally:
   ptl:
     name: Andrey Kurilin
@@ -2927,7 +2927,7 @@ tacker:
         - openstack/tacker-specs
 
   liaisons:
-    tc_members: []
+    tc_members: [gmann]
 Telemetry:
   ptl:
     name: Matthias Runge
@@ -3240,7 +3240,7 @@ watcher:
         - openstack/watcher-dashboard
 
   liaisons:
-    tc_members: []
+    tc_members: [gmann]
 winstackers:
   ptl:
     name: Lucian Petrut
