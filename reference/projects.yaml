@@ -109,7 +109,7 @@ blazar:
       repos:
         - openstack/python-blazarclient
   liaisons:
-    tc_members: []
+    tc_members: [yoctozepto]
 cinder:
   ptl:
     name: Brian Rosmaita
@@ -201,7 +201,7 @@ cloudkitty:
       repos:
         - openstack/cloudkitty-tempest-plugin
   liaisons:
-    tc_members: []
+    tc_members: [yoctozepto]
 cyborg:
   ptl:
     name: Xinran Wang
@@ -547,7 +547,7 @@ horizon:
       repos:
         - openstack/xstatic-spin
   liaisons:
-    tc_members: []
+    tc_members: [yoctozepto]
 ironic:
   ptl:
     name: Julia Kreger
@@ -741,7 +741,7 @@ kolla:
         - openstack/kayobe-config
         - openstack/kayobe-config-dev
   liaisons:
-    tc_members: []
+    tc_members: [yoctozepto]
 kuryr:
   ptl:
     name: Maysa de Macedo Souza
@@ -769,7 +769,7 @@ kuryr:
       repos:
         - openstack/kuryr-tempest-plugin
   liaisons:
-    tc_members: []
+    tc_members: [yoctozepto]
 magnum:
   ptl:
     name: Spyros Trigazis
@@ -844,7 +844,7 @@ manila:
       repos:
         - openstack/python-manilaclient
   liaisons:
-    tc_members: [jungleboyj]
+    tc_members: [jungleboyj, yoctozepto]
 masakari:
   ptl:
     name: Radosław Piliszek
@@ -876,7 +876,7 @@ masakari:
       repos:
         - openstack/masakari-dashboard
   liaisons:
-    tc_members: []
+    tc_members: [yoctozepto]
 mistral:
   ptl:
     name: APPOINTMENT NEEDED
@@ -1142,7 +1142,7 @@ neutron:
       repos:
         - openstack/os-ken
   liaisons:
-    tc_members: []
+    tc_members: [yoctozepto]
 nova:
   ptl:
     name: Balazs Gibizer
@@ -2101,7 +2101,7 @@ OpenStackSDK:
       tags:
         - assert:follows-standard-deprecation
   liaisons:
-    tc_members: []
+    tc_members: [yoctozepto]
 oslo:
   leadership_type: distributed
   irc-channel: openstack-oslo
@@ -2594,7 +2594,7 @@ Quality Assurance:
       repos:
         - openstack/whitebox-tempest-plugin
   liaisons:
-    tc_members: [gmann]
+    tc_members: [gmann, yoctozepto]
 rally:
   ptl:
     name: Andrey Kurilin
@@ -2978,7 +2978,7 @@ Telemetry:
         - openstack/telemetry-tempest-plugin
 
   liaisons:
-    tc_members: []
+    tc_members: [yoctozepto]
 tripleo:
   ptl:
     name: Marios Andreou
