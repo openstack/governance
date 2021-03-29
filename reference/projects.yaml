@@ -936,7 +936,8 @@ monasca:
       repos:
         - openstack/monasca-api
     monasca-log-api:
-      release-management: none
+      deprecated: ussuri
+      release-management: deprecated
       repos:
         - openstack/monasca-log-api
     monasca-events-api:
@@ -974,7 +975,8 @@ monasca:
       repos:
         - openstack/monasca-statsd
     monasca-ceilometer:
-      release-management: none
+      deprecated: ussuri
+      release-management: deprecated
       repos:
         - openstack/monasca-ceilometer
     monasca-transform:
