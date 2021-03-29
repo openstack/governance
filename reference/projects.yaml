@@ -982,9 +982,6 @@ monasca:
     monasca-transform:
       repos:
         - openstack/monasca-transform
-    monasca-analytics:
-      repos:
-        - openstack/monasca-analytics
     monasca-grafana-datasource:
       repos:
         - openstack/monasca-grafana-datasource
