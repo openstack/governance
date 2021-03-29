@@ -980,6 +980,8 @@ monasca:
       repos:
         - openstack/monasca-ceilometer
     monasca-transform:
+      deprecated: victoria
+      release-management: deprecated
       repos:
         - openstack/monasca-transform
     monasca-grafana-datasource:
