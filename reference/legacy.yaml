@@ -490,6 +490,17 @@ MagnetoDB:
         - release:cycle-with-intermediary
         - type:library
 
+monasca:
+  partial: yes
+  irc-channel: openstack-monasca
+  service: Monitoring
+  url: https://wiki.openstack.org/wiki/Monasca
+  deliverables:
+    monasca-analytics:
+      retired-on: 2020-10-22
+      repos:
+        - openstack/monasca-analytics
+
 murano:
   partial: yes
   deliverables:
