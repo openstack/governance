@@ -327,7 +327,7 @@ freezer:
       repos:
         - openstack/python-freezerclient
   liaisons:
-    tc_members: []
+    tc_members: [ricolin]
 glance:
   ptl:
     name: Abhishek Kekane
@@ -430,7 +430,7 @@ heat:
       repos:
         - openstack/tosca-parser
   liaisons:
-    tc_members: []
+    tc_members: [ricolin]
 horizon:
   ptl:
     name: Vishal Manchanda
@@ -799,7 +799,7 @@ magnum:
       repos:
         - openstack/python-magnumclient
   liaisons:
-    tc_members: []
+    tc_members: [ricolin]
 manila:
   ptl:
     name: Goutham Pacha Ravi
@@ -2801,7 +2801,7 @@ senlin:
         - openstack/senlin-tempest-plugin
 
   liaisons:
-    tc_members: []
+    tc_members: [ricolin]
 solum:
   ptl:
     name: Rong Zhu
@@ -3240,7 +3240,7 @@ watcher:
         - openstack/watcher-dashboard
 
   liaisons:
-    tc_members: [gmann]
+    tc_members: [gmann, ricolin]
 winstackers:
   ptl:
     name: Lucian Petrut
@@ -3339,4 +3339,4 @@ zun:
       repos:
         - openstack/zun-ui
   liaisons:
-    tc_members: []
+    tc_members: [ricolin]
