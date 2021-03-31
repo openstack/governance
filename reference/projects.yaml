@@ -657,10 +657,7 @@ ironic:
     tc_members: [dansmith, jungleboyj]
 
 keystone:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+  leadership_type: distributed
   irc-channel: openstack-keystone
   service: Identity service
   mission: >
@@ -712,6 +709,18 @@ keystone:
         - openstack/ldappool
   liaisons:
     tc_members: []
+    release:
+      - name: Kristi Nikolla
+        irc: knikolla
+        email: knikolla@bu.edu
+    tact-sig:
+      - name: Kristi Nikolla
+        irc: knikolla
+        email: knikolla@bu.edu
+    security:
+      - name: Gage Hugo
+        irc: gagehugo
+        email: gagehugo@gmail.com
 kolla:
   ptl:
     name: Mark Goddard
