@@ -2543,7 +2543,6 @@ Quality Assurance:
       repos:
         - openstack/devstack
     devstack-plugin-ceph:
-      release-management: none
       repos:
         - openstack/devstack-plugin-ceph
     devstack-plugin-cookiecutter:
