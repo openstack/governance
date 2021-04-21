@@ -2951,6 +2951,7 @@ swift:
         - assert:follows-standard-deprecation
         - assert:supports-upgrade
         - assert:supports-rolling-upgrade
+        - assert:supports-standalone
     swift-bench:
       repos:
         - openstack/swift-bench
