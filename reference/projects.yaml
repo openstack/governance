@@ -653,10 +653,6 @@ ironic:
     virtualbmc:
       repos:
         - openstack/virtualbmc
-  extra-atcs:
-    - name: Jay Faulkner
-      email: jay@jvf.cc
-      expires-in: July 2019
   liaisons:
     tc_members: [dansmith, jungleboyj]
 
