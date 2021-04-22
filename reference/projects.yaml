@@ -577,6 +577,7 @@ ironic:
         - assert:supports-accessible-upgrade
         - assert:supports-rolling-upgrade
         - assert:follows-standard-deprecation
+        - assert:supports-standalone
     ironic-inspector:
       repos:
         - openstack/ironic-inspector
@@ -585,6 +586,7 @@ ironic:
         - assert:supports-upgrade
         - assert:supports-accessible-upgrade
         - assert:follows-standard-deprecation
+        - assert:supports-standalone
     ironic-inspector-specs:
       release-management: none
       repos:
