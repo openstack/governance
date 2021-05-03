@@ -52,22 +52,23 @@ being chosen.
 Polls
 -----
 
-=======  =============  ================  ==========  ==========  ==================
-Release  Coordinator    Nominations Open  Poll Open   Poll Close  Geographic Region
-=======  =============  ================  ==========  ==========  ==================
-M_       Monty Taylor   2015-06-01        2015-06-08  2015-06-15  Tokyo
-N_       Monty Taylor   2015-11-08        2015-11-30  2015-12-07  Texas Hill Country
-O_       Monty Taylor   2015-11-08        2015-11-30  2015-12-07  Catalonia
-P_       Monty Taylor   2016-06-22        2016-07-06  2016-07-13  New England
-Q_       Monty Taylor   2016-06-22        2016-07-06  2016-07-13  New South Wales
-R_       Monty Taylor   2017-03-22        2017-04-05  2017-04-12  British Columbia
-S_       Paul Belanger  2018-02-21        2018-03-14  2018-03-21  Berlin
-T_       Tony Breeds    2018-09-15        2018-10-15  2018-10-22  Colorado
-U_       Rico Lin       2019-07-01        2019-08-12  2019-08-19  China
-V_       Sean McGinnis  2019-11-11        2019-12-09  2019-12-16  British Columbia
-W_       Sean McGinnis  2020-01-20        2020-02-17  2020-02-23  N/A [*]_
-X_       Sean McGinnis  2020-11-02        2020-11-30  2020-12-06  N/A
-=======  =============  ================  ==========  ==========  ==================
+=======  ==============  ================  ==========  ==========  ==================
+Release  Coordinator     Nominations Open  Poll Open   Poll Close  Geographic Region
+=======  ==============  ================  ==========  ==========  ==================
+M_       Monty Taylor    2015-06-01        2015-06-08  2015-06-15  Tokyo
+N_       Monty Taylor    2015-11-08        2015-11-30  2015-12-07  Texas Hill Country
+O_       Monty Taylor    2015-11-08        2015-11-30  2015-12-07  Catalonia
+P_       Monty Taylor    2016-06-22        2016-07-06  2016-07-13  New England
+Q_       Monty Taylor    2016-06-22        2016-07-06  2016-07-13  New South Wales
+R_       Monty Taylor    2017-03-22        2017-04-05  2017-04-12  British Columbia
+S_       Paul Belanger   2018-02-21        2018-03-14  2018-03-21  Berlin
+T_       Tony Breeds     2018-09-15        2018-10-15  2018-10-22  Colorado
+U_       Rico Lin        2019-07-01        2019-08-12  2019-08-19  China
+V_       Sean McGinnis   2019-11-11        2019-12-09  2019-12-16  British Columbia
+W_       Sean McGinnis   2020-01-20        2020-02-17  2020-02-23  N/A [*]_
+X_       Sean McGinnis   2020-11-02        2020-11-30  2020-12-06  N/A
+Y        Ghanshyam Mann  2021-05-13        2021-06-10  2021-06-17  N/A
+=======  ==============  ================  ==========  ==========  ==================
 
 .. [*] Starting with the W release, the naming criteria changed from referring
    to the physical or human geography of the region encompassing the location
