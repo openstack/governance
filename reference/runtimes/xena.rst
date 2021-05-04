@@ -31,7 +31,7 @@ Node.js Runtime for Xena
 Based on the available versions of Node.js supported in our :ref:`LTS or stable
 distributions <pti-linux-distros>` all JavaScript testing should target:
 
-* Node.js 10
+* Node.js 14
 
 More details on Javascript requirements can be found in :ref:`pti-javascript`.
 
