@@ -1745,6 +1745,10 @@ Puppet OpenStack:
       repos:
         - openstack/puppet-congress
       retired-on: 2020-06-21
+    puppet-glare:
+      repos:
+        - openstack/puppet-glare
+      retired-on: 2021-05-11
 
 qinling:
   retired-on: 2020-11-27
