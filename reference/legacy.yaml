@@ -406,6 +406,10 @@ ironic:
       retired-on: 2016-11-28
       repos:
         - openstack/python-wsmanclient
+    sushy-cli:
+      retired-on: 2021-05-20
+      repos:
+        - openstack/sushy-cli
 karbor:
   retired-on: 2020-12-14
   irc-channel: openstack-karbor
