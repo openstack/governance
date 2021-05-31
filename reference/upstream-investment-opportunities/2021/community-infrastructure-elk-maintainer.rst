@@ -118,6 +118,6 @@ be very difficult to debug a failure and to deliver the stable code.
 Contact
 -------
 
-Join the OpenStack Infra IRC channel (``openstack-infra`` on `Freenode
-<https://freenode.net>`_) or reach out through the openstack-discuss
+Join the OpenStack Infra IRC channel (``openstack-infra`` on `OFTC
+<https://www.oftc.net>`_) or reach out through the openstack-discuss
 mail list at list.openstack.org if you would like to get involved.

@@ -51,8 +51,8 @@ You are welcome to contact the :doc:`Glance PTL <../../projects/glance>` (Erno
 Kuvaja) or any member of the `core review team`_ directly for advice on how to
 get involved.
 
-To get started, join the Glance IRC channel (``#openstack-glance`` on `Freenode
-<https://freenode.net>`_) or reach out to the OpenStack-discuss `mailing list`_
+To get started, join the Glance IRC channel (``#openstack-glance`` on `OFTC
+<https://www.oftc.net/>`_) or reach out to the OpenStack-discuss `mailing list`_
 using the ``[glance]`` tag in the subject line.
 
 .. _`implementing features`: https://specs.openstack.org/glance-specs/specs/untargeted/index.html
