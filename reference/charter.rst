@@ -24,10 +24,10 @@ Project Teams may create any code repository and produce any deliverable they
 deem necessary to achieve their goals.
 
 The work of project teams is performed under the oversight of the TC.
-Contributing to one of their associated code repositories grants you ATC status
-(see below). The TC has ultimate authority over which project teams are
-designated as official OpenStack projects. The projects are listed in
-:ref:`projects`.
+Contributing to one of their associated code repositories grants you
+automatic AC status (see below). The TC has ultimate authority over
+which project teams are designated as official OpenStack projects. The
+projects are listed in :ref:`projects`.
 
 Project Team Leads
 ==================
@@ -205,20 +205,27 @@ Any exception to TC election schedule needs to be recorded in
 
 .. _atc:
 
-Voters for TC seats ("ATC")
-===========================
+Voters for TC seats ("AC")
+==========================
 
-The TC seats are elected by the Active Technical Contributors ("ATC"), which
-are a subset of the Foundation Individual Members. Individual Members who
+The TC seats are elected by the Active Contributors ("AC"), which are
+a subset of the Foundation Individual Members. Individual Members who
 committed a change to a repository under any of the official OpenStack
 Project Teams (as defined in :ref:`projects`) over the last two
-6-month release cycles are automatically considered ATC. Specific contributors
-who did not have a change recently accepted in one of the OpenStack projects
-but nevertheless feel their contribution to the OpenStack project is technical
-in nature (bug triaging not tracked in Gerrit, for example) can exceptionally
-apply for ATC either by sending an email to the TC chair or by being nominated
-by an existing ATC via email to the TC chair. Final approval on the exception is
-decided by the TC itself, and is valid one year (two elections).
+6-month release cycles are automatically considered AC by their
+technical contributions which are easy to mine and count. Specific
+contributors who did not have a change recently accepted in one of the
+OpenStack projects, but nevertheless consider themselves a contributor
+to the community, can apply for AC either by sending an email to the
+TC chair or by being nominated by an existing AC via email to the TC
+chair. Final approval on the exception is decided by the TC itself,
+and is valid one year (two elections). Examples of non-technical or
+hard-to-quantify contributions include (but are not limited to):
+
+* Bug triaging not tracked in Gerrit
+* SIG membership and involvement
+* Technical committee working group members
+* Regular participation in code review or team feedback
 
 Candidates for TC seats
 =======================
