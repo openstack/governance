@@ -87,7 +87,7 @@ Technical Committee members.
 
 `TC status meetings <http://eavesdrop.openstack.org/#Technical_Committee_Meeting>`__
 are public and held monthly in the
-``#openstack-tc`` channel on the freenode IRC network. The meeting
+``#openstack-tc`` channel on the OFTC IRC network. The meeting
 time is decided among TC members after each election. The TC maintains
 an open list of candidate topics for the agenda on `the wiki
 <https://wiki.openstack.org/wiki/Meetings/TechnicalCommittee>`__. Anyone

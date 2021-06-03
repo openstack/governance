@@ -81,8 +81,8 @@ Contact
 To help or inquire about this investment opportunity, reach out to the
 OpenStack Discuss mailing `list`_ using the ``[docs]`` tag in the
 subject line.  You may also contact the `Documentation`_ PTL or engage
-Technical Committee via IRC (``#openstack-tc`` on `Freenode
-<https://freenode.net>`_).
+Technical Committee via IRC (``#openstack-tc`` on `OFTC
+<https://www.oftc.net/>`_).
 
 .. _`plan`: https://review.opendev.org/#/c/657142/
 .. _`list`: http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss

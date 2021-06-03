@@ -97,7 +97,7 @@ occurs anywhere in the project..
 Contact
 -------
 
-Join the OpenStack QA IRC channel (``openstack-qa`` on `Freenode IRC`_), email
+Join the OpenStack QA IRC channel (``openstack-qa`` on `OFTC IRC`_), email
 the openstack-discuss mailing list at list.openstack.org, or contact the `QA
 PTL`_ directly if you would like to get involved.
 
@@ -105,5 +105,5 @@ PTL`_ directly if you would like to get involved.
 .. _`Zuul project`: https://zuul-ci.org
 .. _`Project Testing Interface`: https://governance.openstack.org/tc/reference/project-testing-interface.html
 .. _`Project Team Guide, Testing Chapter`: https://docs.openstack.org/project-team-guide/testing.html
-.. _`Freenode IRC`: https://freenode.net
+.. _`OFTC IRC`: https://www.oftc.net
 .. _`QA PTL`: https://governance.openstack.org/tc/reference/projects/quality-assurance.html

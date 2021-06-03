@@ -113,8 +113,8 @@ frustration.
 Contact
 -------
 
-Please join the Designate IRC channel (``#openstack-dns`` on `Freenode
-<https://freenode.net>`_) or follow up on the OpenStack-discuss
+Please join the Designate IRC channel (``#openstack-dns`` on `OFTC
+<https://www.oftc.net>`_) or follow up on the OpenStack-discuss
 `mailing list`_ using the ``[designate]`` tag in the subject line.
 
 .. _`Designate`: https://governance.openstack.org/tc/reference/projects/designate.html

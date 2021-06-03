@@ -87,7 +87,7 @@ user frustration.
 Contact
 -------
 
-If you are interested, please join #openstack-dns on Freenode or contact the
+If you are interested, please join #openstack-dns on OFTC or contact the
 Designate PTL (Graham Hayes - mugsie), the Technical Committee sponsor (TBD).
 You may also email the openstack discuss mailing list with the tag [designate]
 in the subject.

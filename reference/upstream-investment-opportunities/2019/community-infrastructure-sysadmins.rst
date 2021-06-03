@@ -110,6 +110,6 @@ release or deploy a new version of a service.
 Contact
 -------
 
-Join the OpenStack Infra IRC channel (``openstack-infra`` on `Freenode
-<https://freenode.net>`_) or reach out through the openStack-infra
+Join the OpenStack Infra IRC channel (``openstack-infra`` on `OFTC
+<https://www.oftc.net/>`_) or reach out through the openStack-infra
 mail list at list.openstack.org if you would like to get involved.

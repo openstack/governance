@@ -82,7 +82,7 @@ release or deploy a new version of a service.
 Contact
 -------
 
-Join the #openstack-infra channel on the Freenode IRC network or reach out
+Join the #openstack-infra channel on the OFTC IRC network or reach out
 through the openstack-infra mailing lists on lists.openstack.org if you would
 like to get involved. It’s a rewarding chance to learn and help others, but
 most of all it’s fun! The Technical Committee sponsor for this initiative is

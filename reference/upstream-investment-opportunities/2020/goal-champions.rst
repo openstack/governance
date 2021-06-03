@@ -59,8 +59,8 @@ Contact
 If possible, attend Forum and Summit sessions on series goals and
 offer to sponsor a champion for a goal as part of the discussions at
 these.  After these face to face events, discussion of goals continues
-on the Technical Committee IRC channel (``#openstack-tc`` on `Freenode
-<https://freenode.net>`_) and on the OpenStack-discuss `mailing list`_
+on the Technical Committee IRC channel (``#openstack-tc`` on `OFTC
+<https://www.oftc.net/>`_) and on the OpenStack-discuss `mailing list`_
 using the ``[goals]`` tag in the subject line.
 
 .. _`mailing list`: http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss
