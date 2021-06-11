@@ -152,6 +152,7 @@ cinder:
       repos:
         - openstack/os-brick
       tags:
+        - vulnerability:managed
         - stable:follows-policy
     python-brick-cinderclient-ext:
       repos:
