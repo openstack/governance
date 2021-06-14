@@ -89,6 +89,7 @@ Technical Writing:
 Testing and Collaboration Tools:
   - repo: openstack/bugdaystats
   - repo: openstack/devstack-gate
+    deprecated: xena
   - repo: openstack/diskimage-builder
   - repo: openstack/logstash-filters
   - repo: openstack/nose-html-output
