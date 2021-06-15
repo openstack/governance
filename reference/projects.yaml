@@ -2489,6 +2489,7 @@ Puppet OpenStack:
     puppet-panko:
       repos:
         - openstack/puppet-panko
+      deprecated: xena
     puppet-placement:
       repos:
         - openstack/puppet-placement
@@ -3021,12 +3022,14 @@ Telemetry:
         - openstack/panko
       tags:
         - assert:follows-standard-deprecation
+      deprecated: xena
     python-aodhclient:
       repos:
         - openstack/python-aodhclient
     python-pankoclient:
       repos:
         - openstack/python-pankoclient
+      deprecated: xena
     telemetry-tempest-plugin:
       repos:
         - openstack/telemetry-tempest-plugin
