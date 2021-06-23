@@ -2022,8 +2022,6 @@ OpenStackAnsible:
         - openstack/openstack-ansible-lxc_container_create
         - openstack/openstack-ansible-lxc_hosts
         - openstack/openstack-ansible-memcached_server
-        - openstack/openstack-ansible-nspawn_container_create
-        - openstack/openstack-ansible-nspawn_hosts
         - openstack/openstack-ansible-openstack_hosts
         - openstack/openstack-ansible-openstack_openrc
         - openstack/openstack-ansible-ops
@@ -2067,6 +2065,12 @@ OpenStackAnsible:
         - openstack/openstack-ansible-rsyslog_server
         - openstack/openstack-ansible-rsyslog_client
         - openstack/openstack-ansible-tests
+    openstack-ansible-nspawn_containers:
+      deprecated: wallaby
+      release-management: deprecated
+      repos:
+        - openstack/openstack-ansible-nspawn_container_create
+        - openstack/openstack-ansible-nspawn_hosts
     openstack-ansible-galera_client:
       deprecated: victoria
       release-management: deprecated
