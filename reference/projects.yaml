@@ -1337,6 +1337,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-ceilometer-agent
+    charm-ceph-dashboard:
+      release-management: external
+      repos:
+        - openstack/charm-ceph-dashboard
     charm-ceph-iscsi:
       release-management: external
       repos:
