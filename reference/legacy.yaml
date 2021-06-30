@@ -289,6 +289,42 @@ fuel:
       repos:
         - openstack/python-fuelclient
 
+Governance:
+  irc-channel: openstack-tc
+  url: https://governance.openstack.org/tc/
+  partial: yes
+  deliverables:
+    arch-wg:
+      retired-on: 2021-06-23
+      repos:
+        - openstack/arch-wg
+    openstack-specs:
+      retired-on: 2021-06-23
+      repos:
+        - openstack/openstack-specs
+    project-navigator-data:
+      retired-on: 2021-06-23
+      repos:
+        - openstack/project-navigator-data
+    Enterprise Working Group:
+      retired-on: 2021-06-23
+      repos:
+        - openstack/enterprise-wg
+        - openstack/workload-ref-archs
+    Ops Tags Team:
+      retired-on: 2021-06-23
+      repos:
+        - openstack/ops-tags-team
+    Scientific Working Group:
+      retired-on: 2021-06-23
+      repos:
+        - openstack/scientific-wg
+    User Committee:
+      retired-on: 2021-06-23
+      repos:
+        - openstack/governance-uc
+        - openstack/uc-recognition
+
 horizon:
   irc-channel: openstack-horizon
   service: Dashboard
