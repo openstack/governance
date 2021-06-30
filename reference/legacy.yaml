@@ -1789,6 +1789,11 @@ Puppet OpenStack:
       repos:
         - openstack/puppet-glare
       retired-on: 2021-05-11
+    puppet-openstack-specs:
+      release-management: none
+      repos:
+        - openstack/puppet-openstack-specs
+      retired-on: 2021-06-29
 
 qinling:
   retired-on: 2020-11-27

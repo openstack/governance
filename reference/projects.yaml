@@ -2471,10 +2471,6 @@ Puppet OpenStack:
     puppet-openstack-integration:
       repos:
         - openstack/puppet-openstack-integration
-    puppet-openstack-specs:
-      release-management: none
-      repos:
-        - openstack/puppet-openstack-specs
     puppet-openstack_extras:
       repos:
         - openstack/puppet-openstack_extras
