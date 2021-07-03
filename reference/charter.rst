@@ -199,6 +199,9 @@ candidates must meet all other constraints for membership in the TC.
   or none of the candidates who do not win in previous elections accept
   the vacant TC partial term), then special election is held to fill the
   vacancy.
+* Until vacant seat is filled, the current number of TC members will be
+  counted as complete TC members to continue the work on motions, charter
+  change etc.
 
 Any exception to TC election schedule needs to be recorded in
 :doc:`Election Exceptions </reference/election-exceptions>`
