@@ -2053,7 +2053,6 @@ OpenStackAnsible:
         - openstack/openstack-ansible-os_neutron
         - openstack/openstack-ansible-os_nova
         - openstack/openstack-ansible-os_octavia
-        - openstack/openstack-ansible-os_panko
         - openstack/openstack-ansible-os_placement
         - openstack/openstack-ansible-os_rally
         - openstack/openstack-ansible-os_sahara
@@ -2089,6 +2088,11 @@ OpenStackAnsible:
       release-management: deprecated
       repos:
         - openstack/openstack-ansible-os_karbor
+    openstack-ansible-os_panko:
+      deprecated: Xena
+      release-management: deprecated
+      repos:
+        - openstack/openstack-ansible-os_panko
     openstack-ansible-specs:
       release-management: none
       repos:
