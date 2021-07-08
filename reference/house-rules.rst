@@ -158,8 +158,8 @@ If a TC member feels that one of these responses needs to be discussed
 by the entire TC, they should bring it up on the mailing list and the change
 should not be approved until after the discussion is completed.
 
-Appointing PTLs
----------------
+Appointing Project Leaders/Liaisons
+-----------------------------------
 
 In a resolution regarding :ref:`leaderless programs`, the TC was granted
 authority to appoint a Project Team Lead to any official project where the
@@ -173,6 +173,10 @@ a list. This format is used for two reasons: to track all the cycles for which
 there has been an appointment and to require a comprehensible change for review
 by the TC. The ``appointed`` key should only be changed when the PTL was not
 chosen by the election process.
+
+In the case of a project using, or moving to, Distributed Project Leadership
+model (see :doc:`/resolutions/20200803-distributed-project-leadership`), the
+TC will make sure all the mandatory liaisons in the DPL model are assigned.
 
 These changes are subject to the standard review and approval guidelines.
 
