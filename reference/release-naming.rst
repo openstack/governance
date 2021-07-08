@@ -67,7 +67,7 @@ U_       Rico Lin        2019-07-01        2019-08-12  2019-08-19  China
 V_       Sean McGinnis   2019-11-11        2019-12-09  2019-12-16  British Columbia
 W_       Sean McGinnis   2020-01-20        2020-02-17  2020-02-23  N/A [*]_
 X_       Sean McGinnis   2020-11-02        2020-11-30  2020-12-06  N/A
-Y        Ghanshyam Mann  2021-05-13        2021-06-10  2021-06-17  N/A
+Y_       Ghanshyam Mann  2021-05-13        2021-06-10  2021-06-17  N/A
 =======  ==============  ================  ==========  ==========  ==================
 
 .. [*] Starting with the W release, the naming criteria changed from referring
@@ -87,4 +87,4 @@ Y        Ghanshyam Mann  2021-05-13        2021-06-10  2021-06-17  N/A
 .. _V: http://lists.openstack.org/pipermail/openstack-discuss/2020-January/011947.html
 .. _W: http://lists.openstack.org/pipermail/openstack-discuss/2020-March/013006.html
 .. _X: http://lists.openstack.org/pipermail/openstack-discuss/2020-December/019537.html
-
+.. _Y: http://lists.openstack.org/pipermail/openstack-discuss/2021-July/023512.html
