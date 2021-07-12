@@ -2144,6 +2144,10 @@ tripleo:
       retired-on: 2017-03-28
       docs:
         contributor: http://docs.openstack.org/developer/os-cloud-config/
+    tripleo-common-tempest-plugin:
+      repos:
+        - openstack/tripleo-common-tempest-plugin
+      retired-on: 2021-06-12
 
 tricircle:
   retired-on: 2020-05-18
