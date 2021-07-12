@@ -448,13 +448,6 @@ horizon:
     OpenStack services.
   url: https://wiki.openstack.org/wiki/Horizon
   deliverables:
-    django_openstack_auth:
-      deprecated: stein
-      release-management: deprecated
-      repos:
-        - openstack/django_openstack_auth
-      tags:
-        - stable:follows-policy
     horizon:
       repos:
         - openstack/horizon
