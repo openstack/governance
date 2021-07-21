@@ -581,6 +581,21 @@ neutron:
       repos:
         - openstack/python-neutron-pd-driver
 
+octavia:
+  irc-channel: openstack-lbaas
+  service: Load-balancer service
+  url: https://wiki.openstack.org/wiki/Octavia
+  partial: yes
+  deliverables:
+    neutron-lbaas:
+      retired-on: 2020-02-04
+      repos:
+        - openstack/neutron-lbaas
+    neutron-lbaas-dashboard:
+      retired-on: 2020-02-04
+      repos:
+        - openstack/neutron-lbaas-dashboard
+
 OpenStack Charms:
   irc-channel: openstack-charms
   service: Juju Charms for deployment of OpenStack

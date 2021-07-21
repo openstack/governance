@@ -1246,21 +1246,6 @@ octavia:
     services, in technology-agnostic manner.
   url: https://wiki.openstack.org/wiki/Octavia
   deliverables:
-    neutron-lbaas:
-      deprecated: ussuri
-      release-management: deprecated
-      repos:
-        - openstack/neutron-lbaas
-      tags:
-        - stable:follows-policy
-        - assert:follows-standard-deprecation
-    neutron-lbaas-dashboard:
-      deprecated: ussuri
-      release-management: deprecated
-      repos:
-        - openstack/neutron-lbaas-dashboard
-      tags:
-        - stable:follows-policy
     octavia:
       repos:
         - openstack/octavia
