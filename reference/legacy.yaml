@@ -331,6 +331,10 @@ horizon:
   url: https://wiki.openstack.org/wiki/Horizon
   partial: yes
   deliverables:
+    django_openstack_auth:
+      retired-on: 2021-07-14
+      repos:
+        - openstack/django_openstack_auth
     django-openstack-auth-kerberos:
       retired-on: 2016-12-02
       repos:
