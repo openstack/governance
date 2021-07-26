@@ -3105,11 +3105,6 @@ tripleo:
     tripleo-common:
       repos:
         - openstack/tripleo-common
-    tripleo-common-tempest-plugin:
-      deprecated: train
-      release-management: deprecated
-      repos:
-        - openstack/tripleo-common-tempest-plugin
     tripleo-docs:
       release-management: none
       repos:
