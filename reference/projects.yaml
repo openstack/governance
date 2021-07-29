@@ -1167,6 +1167,9 @@ neutron:
     os-ken:
       repos:
         - openstack/os-ken
+    tap-as-a-service:
+      repos:
+        - openstack/tap-as-a-service
   liaisons:
     tc_members: [yoctozepto, diablo_rojo]
 nova:
