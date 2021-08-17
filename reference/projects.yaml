@@ -3202,6 +3202,42 @@ trove:
     tc_members:
       - ricolin
       - mnaser
+
+venus:
+  ptl:
+    name: Liye Pang
+    irc: pangliye
+    email: pangliye@inspur.com
+  irc-channel: openstack-venus
+  service: Log management service
+  mission: >
+    Venus is a unified log management module, according to the key
+    requirements of OpenStack in log storage, retrieval, analysis
+    and so on. This module can provide a one-stop solution to log
+    collection, cleaning, indexing, analysis, alarm, visualization,
+    report generation etc..
+  url: https://wiki.openstack.org/wiki/Venus
+  deliverables:
+    venus:
+      repos:
+        - inspur/venus
+    venus-specs:
+      release-management: none
+      repos:
+        - inspur/venus-specs
+    venus-dashboard:
+      repos:
+        - inspur/venus-dashboard
+    python-venusclient:
+      repos:
+        - inspur/python-venusclient
+    venus-tempest-plugin:
+      repos:
+        - inspur/venus-tempest-plugin
+
+  liaisons:
+    tc_members: [gmann, yoctozepto]
+
 vitrage:
   ptl:
     name: Eyal Bar-Ilan
