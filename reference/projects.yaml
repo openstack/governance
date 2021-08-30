@@ -705,9 +705,15 @@ keystone:
       - dansmith
       - spotz
     release:
+      - name: Gage Hugo
+        irc: gagehugo
+        email: gagehugo@gmail.com
       - name: Kristi Nikolla
         irc: knikolla
         email: knikolla@bu.edu
+      - name: Lance Bragstad
+        irc: lbragstad
+        email: lbragstad@redhat.com
     tact-sig:
       - name: Kristi Nikolla
         irc: knikolla
