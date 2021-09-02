@@ -1808,6 +1808,10 @@ Puppet OpenStack:
       repos:
         - openstack/puppet-glare
       retired-on: 2021-05-11
+    puppet-monasca:
+      repos:
+        - openstack/puppet-monasca
+      retired-on: 2021-08-19
     puppet-openstack-specs:
       release-management: none
       repos:
