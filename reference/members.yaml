@@ -2,28 +2,28 @@
   irc: gmann
   email: gmann@ghanshyammann.com
   memberid: 6461
-  date: October 2020
-  role: chair
+  date: September 2021
+  role: null
 
 - name: Jay Bryant
   irc: jungleboyj
   email: jsbryant@electronicjungle.net
   memberid: 8348
-  date: October 2020
+  date: September 2021
   role: null
 
 - name: Dan Smith
   irc: dansmith
   email: dms@danplanet.com
   memberid: 5478
-  date: October 2020
+  date: September 2021
   role: null
 
 - name: Kendall Nelson
   irc: diablo_rojo
   email: knelson@openstack.org
   memberid: 35859
-  date: October 2020
+  date: September 2021
   role: null
 
 - name: Mohammed Naser
@@ -52,7 +52,7 @@
   email: radoslaw.piliszek@gmail.com
   memberid: 100352
   date: March 2021
-  role: vice-chair
+  role: null
 
 - name: Amy Marrich
   irc: spotz
