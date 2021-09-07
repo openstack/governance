@@ -19,7 +19,7 @@ so chooses.
 Application to current deliverables
 ===================================
 
-.. tagged-projects:: supports-standalone
+.. tagged-projects:: assert:supports-standalone
 
 
 Rationale
