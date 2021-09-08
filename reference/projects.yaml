@@ -209,7 +209,7 @@ cloudkitty:
 cyborg:
   ptl:
     name: Bailin Zhang
-    irc: No nick supplied
+    irc: brinzhang
     email: zhangbailin@inspur.com
   appointed:
     - ussuri
@@ -2536,7 +2536,7 @@ Puppet OpenStack:
 Quality Assurance:
   ptl:
     name: Martin Kopec
-    irc: No nick supplied
+    irc: kopecmartin
     email: mkopec@redhat.com
   irc-channel: openstack-qa
   mission: >
@@ -2669,7 +2669,7 @@ rally:
 Release Management:
   ptl:
     name: Elod Illes
-    irc: No nick supplied
+    irc: elodilles
     email: elod.illes@est.tech
   irc-channel: openstack-release
   mission: >
