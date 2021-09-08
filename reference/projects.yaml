@@ -947,11 +947,12 @@ mistral:
         email: renat.akhmerov@gmail.com
 monasca:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Martin Chacon Piza
+    irc: chaconpiza
+    email: martin@chaconpiza.com
   appointed:
     - xena
+    - yoga
   irc-channel: openstack-monasca
   service: Monitoring
   mission: >
