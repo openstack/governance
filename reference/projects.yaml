@@ -2382,9 +2382,11 @@ oslo:
         email: openstack@nemebean.com
 Puppet OpenStack:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Tobias Urdin
+    irc: tobias-urdin
+    email: tobias.urdin@binero.com
+  appointed:
+    - yoga
   service: Puppet modules for deployment
   mission: >
     The Puppet modules for OpenStack bring scalable and reliable IT automation
