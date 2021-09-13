@@ -1804,6 +1804,10 @@ Puppet OpenStack:
       repos:
         - openstack/puppet-congress
       retired-on: 2020-06-21
+    puppet-freezer:
+      repos:
+        - openstack/puppet-freezer
+      retired-on: 2021-09-13
     puppet-glare:
       repos:
         - openstack/puppet-glare
