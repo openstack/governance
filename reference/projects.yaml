@@ -1376,6 +1376,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-cinder-lvm
+    charm-cinder-netapp:
+      release-management: external
+      repos:
+        - openstack/charm-cinder-netapp
     charm-cinder-purestorage:
       release-management: external
       repos:
