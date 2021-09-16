@@ -2723,9 +2723,11 @@ requirements:
       - yoctozepto
 sahara:
   ptl:
-    name: APPOINTMENT NEEDED
+    name: Fossen Qiu
     irc: No nick supplied
-    email: example@example.org
+    email: qiujunting@inspur.com
+  appointed:
+    - yoga
   irc-channel: openstack-sahara
   service: Data Processing service
   mission: >
