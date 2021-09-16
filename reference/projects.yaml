@@ -1764,6 +1764,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-openstack-dashboard
+    charm-openstack-loadbalancer:
+      release-management: external
+      repos:
+        - openstack/charm-openstack-loadbalancer
     charm-openvswitch-odl:
       release-management: external
       repos:
@@ -1772,6 +1776,14 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-ops-interface-ceph-client
+    charm-ops-interface-ceph-iscsi-admin-access:
+      release-management: external
+      repos:
+        - openstack/charm-ops-interface-ceph-iscsi-admin-access
+    charm-ops-interface-openstack-loadbalancer:
+      release-management: external
+      repos:
+        - openstack/charm-ops-interface-openstack-loadbalancer
     charm-ops-interface-tls-certificates:
       release-management: external
       repos:
