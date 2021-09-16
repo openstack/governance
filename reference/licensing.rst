@@ -17,7 +17,7 @@ Foundation under ASLv2 (currently only the MIT and both forms of the
 BSD license meet this requirement). In particular, service projects
 are recommended to *always* pick ASLv2.
 
-.. _Contributor License Agreement: https://wiki.openstack.org/wiki/How_To_Contribute#Contributor_License_Agreement
+.. _Contributor License Agreement: https://docs.openstack.org/contributors/common/setup-gerrit.html#individual-contributor-license-agreement
 
 In order to be acceptable as dependencies of OpenStack projects,
 **external libraries** (produced and published by 3rd-party developers)
