@@ -2391,6 +2391,7 @@ Puppet OpenStack:
     email: tobias.urdin@binero.com
   appointed:
     - yoga
+  irc-channel: puppet-openstack
   service: Puppet modules for deployment
   mission: >
     The Puppet modules for OpenStack bring scalable and reliable IT automation
