@@ -138,5 +138,5 @@ end = time.time()
 print("Finished in %0.2f seconds" % (end - start))
 
 print("Writing graph to '%s'" % output_dot_file)
-with open(output_dot_file, "wb") as fh:
+with open(output_dot_file, "w") as fh:
     fh.write(graph.to_string())
