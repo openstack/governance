@@ -2434,9 +2434,6 @@ Puppet OpenStack:
     puppet-ec2api:
       repos:
         - openstack/puppet-ec2api
-    puppet-freezer:
-      repos:
-        - openstack/puppet-freezer
     puppet-glance:
       repos:
         - openstack/puppet-glance
