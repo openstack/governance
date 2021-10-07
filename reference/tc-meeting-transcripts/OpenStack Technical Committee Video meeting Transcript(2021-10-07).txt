@@ -1,0 +1,2741 @@
+﻿Transcript
+
+
+10:05:54 am - Amy Marrich:
+  
+ We are ready? Capture on English. And I've got a transcript going. We are good to go.
+
+
+10:06:36 am - Ghanshyam Mann:
+  
+ To really slow, you will be taking care of putting things on IRC, right?
+
+
+10:06:40 am - Radosław Piliszek:
+  
+ right, let's
+
+
+10:06:40 am - Ghanshyam Mann:
+  
+ The topic and okay. Thanks.
+
+
+10:06:47 am - Radosław Piliszek:
+  
+ Okay, so we are still in the roll, call to the recording hasn't started yet, right? Amy.
+
+
+10:06:58 am - Amy Marrich:
+  
+ The recording started. Sorry, I was on you.
+
+
+10:07:01 am - Radosław Piliszek:
+  
+ Okay.
+
+
+10:07:04 am - Amy Marrich:
+  
+ Are we doing an open search topic today?
+
+
+10:07:09 am - Ghanshyam Mann:
+  
+ Yes, the type put in last.
+
+
+10:07:09 am - Amy Marrich:
+  
+ Okay.
+
+
+10:07:12 am - Ghanshyam Mann:
+  
+ So we finished the other things first and then we can discuss that elk thing and helping Clark from the when we start the topic,
+
+
+10:07:22 am - Amy Marrich:
+  
+ okay, someone was asking about whether they should join, so let me go back to typing to them, in IRC
+
+
+10:07:42 am - Mohammed Naser:
+  
+ now Hotel Wi-Fi for me today, I actually can be contributing with that disappearing every few seconds.
+
+
+10:07:50 am - Jay Bryant:
+  
+ Who.
+
+
+10:08:03 am - Mohammed Naser:
+  
+So maybe it's a far-fetch question but I know we have some red hatters in here is redhead, I guess you guys cleared your whole travel no traveling thing. Since covid, or
+
+
+10:08:15 am - Amy Marrich:
+  
+ Yeah, I was at open Source summit. Last week I'll be at Cooper coupon. Next week, you're gonna be there.
+
+
+10:08:21 am - Mohammed Naser:
+  
+ Okay. That's good. No. I
+
+
+10:08:25 am - Amy Marrich:
+  
+ So, you
+
+
+10:08:25 am - Mohammed Naser:
+  
+Traveled for two weeks and I was traveled. I was like, I'm not, I can't do this. it's like, So many tests going back and forth, and It's just like to come back to Canada. They only accept rapid PCR tests. So it was like, 300 bucks, just to get a test to come back and it's just like if you get a positive, you got to go and get it again and you're sitting there. and sitting in a plane with a mask for like, Six hours at the time, I was like, I don't know. People do this part our whole day. I rented a bathroom, just to take off my mask and free for a little bit.
+
+
+10:09:11 am - Jay Bryant:
+  
+ Call me Crabby, but I'm okay with the not traveling part, right now.
+
+
+10:09:16 am - Mohammed Naser:
+  
+ Yeah.
+
+
+10:09:17 am - Dan Smith:
+  
+ Um, yeah.
+
+
+10:09:17 am - Jay Bryant:
+  
+ I mean I mean no hurry.
+
+
+10:09:21 am - Dan Smith:
+  
+ Also, I know hurry to be near Muhammad. A guess, because boy, he must have everything.
+
+
+10:09:29 am - Mohammed Naser:
+  
+ Because you know how much I travel around overtime.
+
+
+10:09:33 am - Jay Bryant:
+  
+ Oh my my fiance got the third booster shot on Monday and she's had a fever of a hundred plus for two days now and Not feeling awesome. I think well, that's fun.
+
+
+10:09:48 am - Dan Smith:
+  
+ A phizer, I guess.
+
+
+10:09:49 am - Jay Bryant:
+  
+ Yeah. So, I mean, that way more reaction than her first two.
+
+
+10:09:56 am - Dan Smith:
+  
+ Hmm, that sucks cuz I had a pretty bad reaction to the second one.
+
+
+10:10:03 am - Mohammed Naser:
+  
+ Now, just
+
+
+10:10:03 am - Dan Smith:
+  
+ Yeah, we might we both did in my house, so
+
+
+10:10:05 am - Jay Bryant:
+  
+ Bummer.
+
+
+10:10:06 am - Mohammed Naser:
+  
+ You know.
+
+
+10:10:08 am - Dan Smith:
+  
+ I'll still do it though.
+
+
+10:10:10 am - Mohammed Naser:
+  
+ I slept for like three days straight,
+
+
+10:10:11 am - Jay Bryant:
+  
+ Yeah.
+
+
+10:10:13 am - Mohammed Naser:
+  
+ I just like completely out of it.
+
+
+10:10:15 am - Jay Bryant:
+  
+ Yeah. That, that was how it was when I actually had covid. Was I never had the fever, but I just slept for four days straight.
+
+
+10:10:28 am - Mohammed Naser:
+  
+ We're waiting for Kendall to wrap up, I guess.
+
+
+10:10:32 am - Radosław Piliszek:
+  
+ Okay. Yeah, I think so.
+
+
+10:10:35 am - Ghanshyam Mann:
+  
+ Yeah, or we can start a few of the things earlier like Gate status and on, until each one.
+
+
+10:10:43 am - Radosław Piliszek:
+  
+I guess you. okay, so so for those unaware, we are
+
+
+10:10:43 am - Mohammed Naser:
+  
+ That's up to you.
+
+
+10:10:44 am - Ghanshyam Mann:
+  
+ that's,
+
+
+10:10:46 am - Radosław Piliszek:
+  
+still doing some real little notes on the IOC channel for this. So we had this roll call for now, and the next topic that we have is follow up on press action items. And there will know action items from the last meetings. So that was very quick. That's one. And the next one that we have from our regular agenda is the gay health check. Let me do a no actions from the last meeting. okay, and next one is Is this. So for my side I didn't really inspect the CI. So I'm not sure if there were any huge issues. I think not. Then do you know anything more?
+
+
+10:11:37 am - Dan Smith:
+  
+ I don't have anything to report. I mean things have been kind of slow.
+
+
+10:11:41 am - Radosław Piliszek:
+  
+ Like that having to report, you know,
+
+
+10:11:42 am - Dan Smith:
+  
+ You know, so
+
+
+10:11:43 am - Radosław Piliszek:
+  
+ released no f******.[a]
+
+
+10:11:46 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:11:48 am - Dan Smith:
+  
+ I think Nova had some of their own. self-inflicted and localized issues, but
+
+
+10:11:55 am - Ghanshyam Mann:
+  
+ Yeah, we have one stable.
+
+
+10:11:55 am - Dan Smith:
+  
+ I don't think that was an impact.
+
+
+10:11:59 am - Ghanshyam Mann:
+  
+ Stein and train where we have the tempest old version with constraint not being properly. So That thing is also there but that's on the stable sign and train. So
+
+
+10:12:09 am - Dan Smith:
+  
+ Yeah.
+
+
+10:12:11 am - Ghanshyam Mann:
+  
+ It's okay.
+
+
+10:12:13 am - Radosław Piliszek:
+  
+ Okay. So I guess we can move on to the next topic. Probably going to have more discussion. I hope this. This is the Project Health Checks framework and there are also two links for that one to the Internet. Please feel welcome to join me that and The review. Oh,
+
+
+10:12:42 am - Ghanshyam Mann:
+  
+Here we have pets from Ricoh. There and I check with ricola last time. So we were talking about to have the documentation about using usage of these diet and what action item will do there is nothing up. Yet something else RICO to have A before PTC and in PTC we can discuss what to do and on But yeah, if anything anyone have any anything else to discuss? We can discuss otherwise.
+
+
+10:13:14 am - Mohammed Naser:
+  
+ I think something that I would want.
+
+
+10:13:14 am - Ghanshyam Mann:
+  
+ Yeah yeah.
+
+
+10:13:18 am - Mohammed Naser:
+  
+To bring up that. I saw like a bit of initial while back is when we had the project Health Tracker Wiki page or whatever people started using that as like an actual like official thing to say if a project is healthier or not and I'm just wondering, like, do we Do we want to be careful about publishing data that stuff? Like this people are gonna be like, this is what the TC things and the TC things that This project is dead because it has no activity or something like that.
+
+
+10:13:49 am - Dan Smith:
+  
+this is kind of my my point about Putting context around the numbers both for what we plan to do with a particular number or or declaring the reality of like actually. None of this really matters. We're just collecting numbers because numbers look good. You know we can't we can't and or won't really be able to You know inject life into a project and that kind of thing and so yeah, I'm like waffling between like Yeah, whatever a collect number is like numbers are cool. I like numbers and like and then the other side of just like, you know, collecting and publishing numbers also means that, you know, people will assume intent or plans, or Whatever. I don't know.
+
+
+10:14:42 am - Ghanshyam Mann:
+  
+Yeah, but my idea was like we don't publish those number. Like we used to do on we care somewhere but we discussed like a monthly basis. We check we run the script and check. Okay this project is having no patches most or Proposed. Then we check with the release team. or we check with our removal creditory if we can start retiring that project so that we can save the release steam time or or infring sources also But I agree like have the clear context and explainable item on that, but Not to like publish. Okay, these projects are having very less code or something. It was a libraries are the best example. Like Oslo will have very less commit there and very less review but it's maintained with enough people.
+
+
+10:15:37 am - Kendall Nelson:
+  
+Yeah, I think it's hard to set a specific threshold. If like X Project isn't meeting why threshold? Because every project is so different. We're going to need to like track, even if you track over time, that still isn't really. The most helpful because projects stabilize and then there's like less churn too. So numbers are helpful but require all kinds of context to actually be useful.
+
+
+10:16:11 am - Dan Smith:
+  
+yeah, and I guess I'm I'm having a hard time I mean, maybe maybe it does save the release team. A lot of time like approving patches to do releases it seems like relatively low. bandwidth to me, but like like, I just have a hard time imagining that. We're gonna like, Shoot a project in the head because the numbers go low. I mean, I, I don't know, I guess I'm just really having a hard time like
+
+
+10:16:46 am - Mohammed Naser:
+  
+ I think maybe the the way that I see
+
+
+10:16:47 am - Dan Smith:
+  
+ Imagining.
+
+
+10:16:48 am - Mohammed Naser:
+  
+it is the best way to go about. This is this is more of a way to be able to proactively figure out that this project is going to disappear. Rather than wait until it's election time and nobody's putting it their name and they're like, Well, I guess we'll just retire right now because no one put their name in, I think. Because that's kind of been the thing. That's kind of been the pattern and the timeline when we actually decide to drop projects because nobody shows up when it's election time. I think, for most recent ones at least, they're coming to my mind.
+
+
+10:17:19 am - Dan Smith:
+  
+ but, I mean at this point the the action item when that happens is do we shoot in the head or do we allow it to go? Leaderless distributed, right?
+
+
+10:17:33 am - Mohammed Naser:
+  
+ Yeah, because that's been something we've done as well.
+
+
+10:17:38 am - Kendall Nelson:
+  
+ So we're just shifting those conversations to a different part in the release cycle, I guess then.
+
+
+10:17:43 am - Dan Smith:
+  
+ well, I don't know that we are, I mean what my point was like Retirement isn't the only outcome of nobody showing up to a. To an election, right?
+
+
+10:17:55 am - Kendall Nelson:
+  
+ Yeah.
+
+
+10:17:56 am - Dan Smith:
+  
+ And and I guess, I guess maybe I was I was trying to say earlier like it seems like there
+
+
+10:18:03 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:18:04 am - Dan Smith:
+  
+really needs to be some external input other than like up script zero for this project, you know, like it needs to be like it's broken, it we can't release it, you know, the tests don't run anymore, people are asking to, you know, whatever. And so maybe the maybe the outcome is like or maybe the external input is Nobody showed up. We don't really know what to do with this project, so, leaderless. And now, we start running the script on it to see, like, Does anything happen over the next release or we start polling people to see, are you, Is this just working and you just using it, you know.
+
+
+10:18:44 am - Kendall Nelson:
+  
+ Yeah.
+
+
+10:18:44 am - Dan Smith:
+  
+whatever versus like, Measuring Nova's health constantly like, you know, anything. Like maybe we just measure the health of the projects that have like, gone over that threshold, that Muhammad mentioned, you know of
+
+
+10:18:57 am - Kendall Nelson:
+  
+ Yeah.
+
+
+10:18:59 am - Jay Bryant:
+  
+I thought the kind of point of this was to have a canary in the coal mine so that we could have an Yeah of you know okay well things are even more quiet here than normal reach out to the team. Find out what's going on sort of thing. Am I am I missing the point?
+
+
+10:19:17 am - Kendall Nelson:
+  
+ No, I think it's like one of a list of criteria.
+
+
+10:19:20 am - Jay Bryant:
+  
+ Okay.
+
+
+10:19:21 am - Kendall Nelson:
+  
+ Before we shoot it ahead, apparently.
+
+
+10:19:23 am - Jay Bryant:
+  
+ Right.
+
+
+10:19:24 am - Dan Smith:
+  
+ You're welcome.
+
+
+10:19:24 am - Jay Bryant:
+  
+ Well, and I
+
+
+10:19:25 am - Dan Smith:
+  
+ I'm very violent.
+
+
+10:19:28 am - Ghanshyam Mann:
+  
+and instead of like retiring or DPL model, if say things are for our project which we need as a mandatory like Keystone case, and if we see very less people there is no one now tumors the patch in Keystone to something we have to Think about adding the contributor or something. So, in that way, also it can help.
+
+
+10:19:48 am - Amy Marrich:
+  
+so, instead of doing the numbers based on how many patches or anything can we get numbers on how long Something's been proposed in our responded to with that, give us better numbers.
+
+
+10:20:02 am - Dan Smith:
+  
+ If I think that's in there,
+
+
+10:20:04 am - Ghanshyam Mann:
+  
+ Yeah, that's the review also code. Also must and how many countries or contributors? Like if it's a single contributor
+
+
+10:20:12 am - Jay Bryant:
+  
+ Yeah.
+
+
+10:20:13 am - Ghanshyam Mann:
+  
+Project or something. And I think it has the gate status also from soon. Catching some of the data weather gate is broken or something. One thing should be because currently released team does the release. If project is not proposing, the release, should we? If we stop that and we find out, okay? Anyone is not releasing. So this project is not active or something that help.
+
+
+10:20:40 am - Mohammed Naser:
+  
+ I don't know if that's a great thing.
+
+
+10:20:40 am - Ghanshyam Mann:
+  
+ So,
+
+
+10:20:42 am - Mohammed Naser:
+  
+I think a lot of people that might just be like deep in the weeds of development and don't really. Like they're not too involved with the release thing. I mean, I'll just be transparent when I was pto at OSA like we were just had so many things to deal with like release was. Not the thing that I was thinking about it would just be like someone from the release team was like Hey by the way we need a plus one here and I'll be like Oh crap. Yeah. Okay I will come in plus one that
+
+
+10:21:08 am - Dan Smith:
+  
+ Event-based right. Yeah.
+
+
+10:21:09 am - Mohammed Naser:
+  
+ exactly. So I to be honest, I don't know if that would kind of be a good signal because I think a lot of the even kind of activist projects are just
+
+
+10:21:18 am - Ghanshyam Mann:
+  
+ Okay.
+
+
+10:21:19 am - Mohammed Naser:
+  
+ they're not thinking about release, they're thinking about development.
+
+
+10:21:24 am - Dan Smith:
+  
+ Yes.
+
+
+10:21:27 am - Ghanshyam Mann:
+  
+ Okay, so I think you can continue discuss this next week or maybe in PTC. They are 20 minutes now, maybe moving to next topic.
+
+
+10:21:40 am - Radosław Piliszek:
+  
+ Is not sure I throw it in time, a
+
+
+10:21:41 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:21:42 am - Radosław Piliszek:
+  
+I throw it little summary about that and that we are going to discuss it next time and on the PG. And now for the next topic is the is the stable team process I throw it down a little summary about that, and that we are going to discuss it next time and on the PG. And now for the next topic is the is the stable team process change. So let me paste that. And the link that we have is to the review. Link then.
+
+
+10:22:02 am - Ghanshyam Mann:
+  
+ Yeah. I think it has updated the pets.
+
+
+10:22:06 am - Jay Bryant:
+  
+ Yeah, so I, I took the comments that you guys had when I tried to remove the extra crust and make it more concise and kind of list tears. Here's the changes. And then a little explanation as to why Hopefully, that makes more sense to people now. And if not, I'm happy to take input.
+
+
+10:22:33 am - Mohammed Naser:
+  
+ I haven't had a chance to look over the most recent iteration. so, I'll probably agree that personally, at least.
+
+
+10:22:43 am - Kendall Nelson:
+  
+ Yeah, feedback will come in the form of reviews.
+
+
+10:22:47 am - Ghanshyam Mann:
+  
+ There's yeah actually you it looks
+
+
+10:22:49 am - Jay Bryant:
+  
+ That works for me.
+
+
+10:22:50 am - Ghanshyam Mann:
+  
+ good to me. The two things which we are proposing here, but yeah, let's review.
+
+
+10:22:57 am - Jay Bryant:
+  
+ Okay.
+
+
+10:22:58 am - Ghanshyam Mann:
+  
+ And comment there.
+
+
+10:22:58 am - Jay Bryant:
+  
+ And I'll, I'll watch for those and be more proactive here.
+
+
+10:23:05 am - Ghanshyam Mann:
+  
+ So and for the issue raised by, you know, willingness that few of those project has not merged. The stable branch patches for their documentation sidewalk. We said, like it's okay if single core from global stable team can just merge those patches because they are automated paths with tops update or don't get review. File update.
+
+
+10:23:41 am - Amy Marrich:
+  
+ I'm afraid to ask this because I didn't look when we announced the release yesterday, but do we have The actual latest documentation.
+
+
+10:23:47 am - Mohammed Naser:
+  
+ Yeah.
+
+
+10:23:51 am - Amy Marrich:
+  
+ For the Xena release.
+
+
+10:23:55 am - Ghanshyam Mann:
+  
+ Okay.
+
+
+10:23:58 am - Mohammed Naser:
+  
+ It was here.
+
+
+10:24:01 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:24:02 am - Kendall Nelson:
+  
+ Yeah, we shared it during the opening for live episode today. I would guess that their links in the press release from yesterday, but It looked at closely.
+
+
+10:24:13 am - Amy Marrich:
+  
+ Okay? Because in the past, I've had to go after the fact, when I've had time and done like the deployment guidance and stuff.
+
+
+10:24:31 am - Ghanshyam Mann:
+  
+ Cool. So let's review the stable thing. And maybe moving next.
+
+
+10:24:39 am - Radosław Piliszek:
+  
+ Okay, so the next one is the Zeenat tractor. Those there. As Xena already, but It's in a tracker still.
+
+
+10:24:55 am - Ghanshyam Mann:
+  
+ Here, we
+
+
+10:24:55 am - Radosław Piliszek:
+  
+ You have the link and we've got some items pending and some completed. Thankfully, So the first pending that's still there is December to drive the Y Cycle community wild goal. Okay, so we've got the volunteer security is not today with us and Kendall. I think on that.
+
+
+10:25:19 am - Kendall Nelson:
+  
+Yeah. So We were looking for somebody to write up the like pain points one but I don't think anybody has stepped up to do that. And as for the other one, I think it's the our back but I Yeah, we have that one accepted already. So we at least have something there, but I know previously we had said that we're not like requiring two goals or anything even if we don't.
+
+
+10:25:54 am - Dan Smith:
+  
+ our back is,
+
+
+10:25:55 am - Kendall Nelson:
+  
+ Oh sorry.
+
+
+10:25:56 am - Dan Smith:
+  
+ Our back is like pretty juicy too. So
+
+
+10:25:58 am - Kendall Nelson:
+  
+ Yeah, exactly.
+
+
+10:25:59 am - Mohammed Naser:
+  
+ Practice.
+
+
+10:25:59 am - Kendall Nelson:
+  
+ There's like plenty of work to be
+
+
+10:26:00 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:26:01 am - Kendall Nelson:
+  
+ done there, given that it has to spend two releases, but I think even if we don't get somebody to step up
+
+
+10:26:07 am - Dan Smith:
+  
+Still So, if
+
+
+10:26:09 am - Kendall Nelson:
+  
+ and like lead, the pain point one, that it's a secondary thing. We can work on in the background, even if it's not Formally a reasonable.
+
+
+10:26:17 am - Radosław Piliszek:
+  
+ Uh-huh.
+
+
+10:26:19 am - Dan Smith:
+  
+ Yeah. So your plan is to not make that a really a community-wide goal and a pain point related thing because
+
+
+10:26:27 am - Kendall Nelson:
+  
+ And unless somebody wants to step up and like, Write it up and lead it.
+
+
+10:26:32 am - Dan Smith:
+  
+ but, but even still, I mean, That most of those docs were, some of them were pain points. Some of them were like, you know, room to vent, and it would be, I think it would be difficult.
+
+
+10:26:45 am - Kendall Nelson:
+  
+ Yeah.
+
+
+10:26:46 am - Dan Smith:
+  
+ I would not want to have a community-wide goal of address, pain
+
+
+10:26:47 am - Ghanshyam Mann:
+  
+ oh,
+
+
+10:26:50 am - Dan Smith:
+  
+ points, or reduced
+
+
+10:26:52 am - Mohammed Naser:
+  
+ Yeah, just get better.
+
+
+10:26:53 am - Dan Smith:
+  
+ yeah like suck less, I mean but I yeah I mean I just I went through a lot of those things and you know a
+
+
+10:26:55 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:26:56 am - Kendall Nelson:
+  
+ Yeah.
+
+
+10:27:00 am - Dan Smith:
+  
+lot of them were like Oh I hate how Nova Nova required like that's actually a triple O thing you're complaining about, you know, just lot of them were like Oh I hate how Nova required like that's actually a triple O thing you're complaining about, you know, just I don't know.
+
+
+10:27:06 am - Mohammed Naser:
+  
+ Yeah.
+
+
+10:27:08 am - Kendall Nelson:
+  
+ Yeah, a lot of that.
+
+
+10:27:10 am - Ghanshyam Mann:
+  
+ Yeah, but at least the one item like the OSC thing which We should take forward, but
+
+
+10:27:16 am - Dan Smith:
+  
+ Yeah. Yeah. Taking taking things out of that and turning into a goal. Cool.
+
+
+10:27:21 am - Ghanshyam Mann:
+  
+ exactly.
+
+
+10:27:21 am - Dan Smith:
+  
+I just I just want to avoid like you know
+
+
+10:27:21 am - Mohammed Naser:
+  
+ Now.
+
+
+10:27:24 am - Kendall Nelson:
+  
+ Yeah.
+
+
+10:27:24 am - Dan Smith:
+  
+ this time, we're gonna suck less by 87%. You know, I don't know.
+
+
+10:27:28 am - Kendall Nelson:
+  
+ Yeah. Like, that technical debt thing. Like 50% less suck. Yeah.
+
+
+10:27:34 am - Dan Smith:
+  
+ Well. yeah, I mean technical debt like I don't know that that we've talked about having like maintenance,
+
+
+10:27:40 am - Ghanshyam Mann:
+  
+ Well, I think having only our Oh, and
+
+
+10:27:44 am - Dan Smith:
+  
+ Sorry.
+
+
+10:27:48 am - Ghanshyam Mann:
+  
+ Your voice. You're saying something then or just
+
+
+10:27:51 am - Dan Smith:
+  
+ I I was just in the middle of saying,
+
+
+10:27:51 am - Kendall Nelson:
+  
+ Yeah.
+
+
+10:27:52 am - Ghanshyam Mann:
+  
+ audio.
+
+
+10:27:53 am - Dan Smith:
+  
+saying, I don't think tech debt is a terrible thing because it's a little bit different because it's, like, We know what those things are.
+
+
+10:27:59 am - Ghanshyam Mann:
+  
+ basically, only me, I can't hear
+
+
+10:28:02 am - Kendall Nelson:
+  
+ Yeah.
+
+
+10:28:02 am - Mohammed Naser:
+  
+ I think we can all hear Dan, but it's kind of you have a problem on your
+
+
+10:28:06 am - Jay Bryant:
+  
+ Yeah, I can hear him fine.
+
+
+10:28:06 am - Mohammed Naser:
+  
+ side. Yeah.
+
+
+10:28:09 am - Kendall Nelson:
+  
+ It's just, you got you.
+
+
+10:28:11 am - Jay Bryant:
+  
+ He's on Hotel Wi-Fi.
+
+
+10:28:14 am - Kendall Nelson:
+  
+ Until they're my phone. So there's that I mean, I'll hear you Dan, you can keep
+
+
+10:28:23 am - Dan Smith:
+  
+ I know, I know, I just, I don't know, I wasn't even saying anything useful.
+
+
+10:28:26 am - Ghanshyam Mann:
+  
+ It's okay.
+
+
+10:28:28 am - Dan Smith:
+  
+ But I think gantrum was, I mean, per usual. I think Gunsham was about to say though, that he thinks that secured secure our back as a
+
+
+10:28:38 am - Kendall Nelson:
+  
+ Yes.
+
+
+10:28:38 am - Dan Smith:
+  
+ Sufficiently juicy.
+
+
+10:28:40 am - Ghanshyam Mann:
+  
+ Exactly.
+
+
+10:28:40 am - Dan Smith:
+  
+ Thing, I, I think that I totally agree. So,
+
+
+10:28:43 am - Kendall Nelson:
+  
+ Yeah, I think were a fun.
+
+
+10:28:46 am - Dan Smith:
+  
+ To agree that way. You can hear it.
+
+
+10:28:49 am - Kendall Nelson:
+  
+ Yeah.
+
+
+10:28:49 am - Ghanshyam Mann:
+  
+ Yeah. Sir and Nptc, we can anyway, discuss. If something comes up, we can plan for jet cycle or something, but I think we are good on this.
+
+
+10:28:57 am - Kendall Nelson:
+  
+ Yeah.
+
+
+10:28:58 am - Ghanshyam Mann:
+  
+think we are Really Really good job by candle and Rico for driving yoga.
+
+
+10:29:03 am - Kendall Nelson:
+  
+ Agreed. Yeah. Cool.
+
+
+10:29:08 am - Radosław Piliszek:
+  
+ So chemical attack completed item done.
+
+
+10:29:11 am - Ghanshyam Mann:
+  
+ Yeah, I think yes.
+
+
+10:29:11 am - Kendall Nelson:
+  
+ I think so. Yeah.
+
+
+10:29:13 am - Radosław Piliszek:
+  
+Okay, great moving on that. So, to the next one is or maybe I will paste it. So that I don't lose it. Okay, I press it. And then the next one that we have is the one by me a day. So this is this review of the tags for usefulness and clean up and well we've done everything that we could I guess. And well, we're going to discuss this in Ptg. Hopefully someone else will chime in by the time, but I'm not really sure about that Gansham was more optimistic about that, but it didn't happen.
+
+
+10:29:53 am - Ghanshyam Mann:
+  
+ We have that in last week news later also. So I think
+
+
+10:29:56 am - Kendall Nelson:
+  
+ Yeah, and you
+
+
+10:29:57 am - Radosław Piliszek:
+  
+ Yeah. See. But Yeah.
+
+
+10:29:58 am - Kendall Nelson:
+  
+Put
+
+
+10:30:00 am - Ghanshyam Mann:
+  
+ the last call. I agree.
+
+
+10:30:02 am - Radosław Piliszek:
+  
+Yeah. include that in the newsletter that in the Yeah. Yeah, that was a good idea to include that in the newsletter and then discuss for in the PG and well close. This basically then Okay, so so this is left Independing State Msj, you have something on that.
+
+
+10:30:18 am - Jay Bryant:
+  
+ No, I I think we can handle it. The PTG
+
+
+10:30:22 am - Radosław Piliszek:
+  
+Yeah. Okay, I think we could remove the gate health check because it evolved into something Yeah. Okay. gate health check because it evolved into something regular something
+
+
+10:30:32 am - Ghanshyam Mann:
+  
+ Yeah, I'll just moving it
+
+
+10:30:33 am - Radosław Piliszek:
+  
+ that.
+
+
+10:30:33 am - Jay Bryant:
+  
+ Yeah.
+
+
+10:30:34 am - Radosław Piliszek:
+  
+ It's just Someone that
+
+
+10:30:36 am - Ghanshyam Mann:
+  
+ Yeah, just moving it in completed one
+
+
+10:30:37 am - Dan Smith:
+  
+ He?
+
+
+10:30:38 am - Ghanshyam Mann:
+  
+ because
+
+
+10:30:39 am - Dan Smith:
+  
+ but, We're going to keep doing it. We're just not going to keep it as a
+
+
+10:30:42 am - Ghanshyam Mann:
+  
+ yes.
+
+
+10:30:42 am - Dan Smith:
+  
+ pending thing again.
+
+
+10:30:43 am - Radosław Piliszek:
+  
+ Yeah. Three.
+
+
+10:30:46 am - Dan Smith:
+  
+ I just want to, I mean I think that
+
+
+10:30:46 am - Radosław Piliszek:
+  
+ Okay. So
+
+
+10:30:47 am - Dan Smith:
+  
+life has significant sucked significantly less which I think Kendall would probably put on some sort of quote for a major industry article or something.
+
+
+10:30:58 am - Kendall Nelson:
+  
+ yeah, Techcrunch
+
+
+10:30:58 am - Dan Smith:
+  
+But I mean I we definitely have made progress. I think by highlighting that stuff. I mean even actually that I forget his name of the neutron guy mentioned on the in. For yeah like that you
+
+
+10:31:09 am - Kendall Nelson:
+  
+ Love.
+
+
+10:31:12 am - Dan Smith:
+  
+know, I just found out that we still are the, you know, giant elephant in the room in You know I just found out that we still are the, you know, giant elephant in the room in terms of capacity. So like I feel like people are actually paying attention to it, which is really cool.
+
+
+10:31:25 am - Ghanshyam Mann:
+  
+And neutral has their like weekly separate meeting on CI especially, and actually good. Tracking. Okay, so the tech thing also, I think we can just move it because we are going to discuss in Ptz and if something comes up, you can continue in yoga.
+
+
+10:31:45 am - Radosław Piliszek:
+  
+ mm-hmm. Yeah, so we have only left the stable card in process change. This was already discussed today.
+
+
+10:31:52 am - Ghanshyam Mann:
+  
+ Yeah, let's review.
+
+
+10:31:54 am - Radosław Piliszek:
+  
+ Yeah, so just review that and project health checks. Yeah, we'll also discuss that. Okay, so it still pending and we can
+
+
+10:32:01 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:32:03 am - Radosław Piliszek:
+  
+ move on to the next topic that we have for today. And it's This time, it's technical writing, toxic needs a chair and more
+
+
+10:32:08 am - Ghanshyam Mann:
+  
+ so,
+
+
+10:32:09 am - Radosław Piliszek:
+  
+Toxic maintainers. And continue on.
+
+
+10:32:15 am - Ghanshyam Mann:
+  
+Yes has been mailing list. Different set, won't be able to continue at share. So we need someone, There are very less incoming traffic in terms of advice from documentation or something. But someone is we need there to keep the open stack themes. And not failing or something. If someone asks top question, so we need some chair for that sick. so, I don't know whom to us or what. We should do about it. or just have this Underpc, if someone asked TC can just help
+
+
+10:33:01 am - Mohammed Naser:
+  
+ I guess the question is, what are the responsibilities that need to be done? Since we've like decentralized the
+
+
+10:33:08 am - Kendall Nelson:
+  
+ so basically,
+
+
+10:33:08 am - Mohammed Naser:
+  
+ heck out of docs
+
+
+10:33:10 am - Kendall Nelson:
+  
+The whole time, this team has existed. It's the like leaders been listed as like, Alex Settle, who is like not been around basically since the SIG was created. and only like, a month ago, there was an email thread that like Andreas started with Alex and Doug and Steven and Alex was like, Well, it's not me anymore. And Doug was like me either, and they were like, Let's add Kendall. And I was like, No, let's not say we didn't, but then I was added on the like, the launchpad group and then they all like pieced out. So, I am not volunteering for this and would love to hand it over to somebody else. But right now, my name is on the
+
+
+10:33:56 am - Mohammed Naser:
+  
+ so,
+
+
+10:33:57 am - Kendall Nelson:
+  
+ thing for the launchpad.
+
+
+10:33:59 am - Mohammed Naser:
+  
+ I guess my question is, what did Andreas reach about just to kind of have an idea of what is the thing that?
+
+
+10:34:03 am - Kendall Nelson:
+  
+ He was removing himself from the list of admins.
+
+
+10:34:06 am - Mohammed Naser:
+  
+ So that's what he was reaching about.
+
+
+10:34:07 am - Ghanshyam Mann:
+  
+ so,
+
+
+10:34:08 am - Kendall Nelson:
+  
+ And he was like someone else should
+
+
+10:34:09 am - Ghanshyam Mann:
+  
+ If I,
+
+
+10:34:10 am - Kendall Nelson:
+  
+ be an admin that's actually still there. And I'm like,
+
+
+10:34:13 am - Mohammed Naser:
+  
+ Okay, so so maybe this all it comes down to an admin for what?
+
+
+10:34:15 am - Kendall Nelson:
+  
+ No.
+
+
+10:34:19 am - Mohammed Naser:
+  
+ there like a UI or
+
+
+10:34:19 am - Kendall Nelson:
+  
+ The launchpad. It's like the docs thing repo or
+
+
+10:34:24 am - Mohammed Naser:
+  
+ Okay.
+
+
+10:34:24 am - Ghanshyam Mann:
+  
+ In in term of Prepository, we have
+
+
+10:34:25 am - Kendall Nelson:
+  
+ whatever. I'm not.
+
+
+10:34:26 am - Ghanshyam Mann:
+  
+ like training guide, contributes, turgides, API site, under the sick.
+
+
+10:34:33 am - Kendall Nelson:
+  
+ Yeah.
+
+
+10:34:34 am - Ghanshyam Mann:
+  
+ Which has I think very less incoming thing, but if there are like few patches in contributor guides, we need people to take care.
+
+
+10:34:41 am - Mohammed Naser:
+  
+ so,
+
+
+10:34:41 am - Kendall Nelson:
+  
+ Yeah.
+
+
+10:34:43 am - Mohammed Naser:
+  
+The Contributor Guide. So it's Contributor Guide and all this other stuff. I think it's probably fine to just maybe add like TC members as cores onto that. Just add the whole TC network group into that group and just call it a day from there.
+
+
+10:34:59 am - Kendall Nelson:
+  
+ I'd be but
+
+
+10:35:00 am - Ghanshyam Mann:
+  
+ And one more big responsibility. I think was if any project has any question about their documentation rearranging or something?
+
+
+10:35:08 am - Mohammed Naser:
+  
+ Yeah.
+
+
+10:35:09 am - Ghanshyam Mann:
+  
+ they can answer, but I think that is pretty much standardized now
+
+
+10:35:11 am - Amy Marrich:
+  
+ All right. I want to say like six months ago,
+
+
+10:35:14 am - Kendall Nelson:
+  
+ yeah.
+
+
+10:35:15 am - Amy Marrich:
+  
+ there was a call for more Doc course. That's when I joined the Dot chord
+
+
+10:35:22 am - Radosław Piliszek:
+  
+ Yeah.
+
+
+10:35:22 am - Amy Marrich:
+  
+ but I always thought it was Steven and Andreas who were the chairs so I'm surprised that looks well.
+
+
+10:35:28 am - Kendall Nelson:
+  
+ They heard.
+
+
+10:35:30 am - Amy Marrich:
+  
+ I'm surprised Alex was still listed because I don't remember seeing Alex's name and I would have like read flagged that one.
+
+
+10:35:34 am - Ghanshyam Mann:
+  
+ so,
+
+
+10:35:34 am - Kendall Nelson:
+  
+ Okay. Well, she might not have been in the CIGS. Like Sig governance information, but she was still an admin in Launchpad.
+
+
+10:35:45 am - Amy Marrich:
+  
+ Okay. All right, that makes more sense.
+
+
+10:35:46 am - Ghanshyam Mann:
+  
+ Thing. Yeah.
+
+
+10:35:47 am - Kendall Nelson:
+  
+ Because I'm pretty sure I cleaned that up in my audit of that, but
+
+
+10:35:48 am - Ghanshyam Mann:
+  
+ but, For Repository Core Group. I think we have, you know, people
+
+
+10:35:56 am - Kendall Nelson:
+  
+ yeah.
+
+
+10:35:56 am - Ghanshyam Mann:
+  
+ to handle the passage and all.
+
+
+10:35:56 am - Radosław Piliszek:
+  
+ Yeah.
+
+
+10:35:57 am - Ghanshyam Mann:
+  
+ It's just about like the chair for the sake, who can give the guidance to documentation things, which
+
+
+10:36:04 am - Kendall Nelson:
+  
+ A point of contact.
+
+
+10:36:05 am - Ghanshyam Mann:
+  
+ Yeah, point of contact, which we
+
+
+10:36:06 am - Kendall Nelson:
+  
+ Yes.
+
+
+10:36:06 am - Ghanshyam Mann:
+  
+might not need now because a lot of the documentation are now standard on the project side. so, continuing with the same group of people on repository management and having like if you have any documentation things asked PC, I think that can be the one one possible option. if you don't have anyone any volunteer to share it,
+
+
+10:36:31 am - Mohammed Naser:
+  
+Here. I mean I see it as like this doesn't seem to be like a very heavy intense thing. It just seems to be reviewing and answering questions if need be. So we don't need all that extra infrastructure to maintain something that doesn't Really, I don't see serve much, but I
+
+
+10:36:43 am - Kendall Nelson:
+  
+ Yeah.
+
+
+10:36:45 am - Mohammed Naser:
+  
+would just say Add TC members as cores to those repos at the SID controls and then retire, the documentation sake. I think it's pretty much.
+
+
+10:36:56 am - Kendall Nelson:
+  
+ Or yeah retire make it inactive or whatever. The other adjectives are we have this options?
+
+
+10:37:05 am - Mohammed Naser:
+  
+ Yeah. I think I'm my favorite that.
+
+
+10:37:11 am - Amy Marrich:
+  
+ And then if there's an issue, they'll contact the TC.
+
+
+10:37:15 am - Kendall Nelson:
+  
+ The teeth? Yeah.
+
+
+10:37:16 am - Mohammed Naser:
+  
+ Yeah.
+
+
+10:37:16 am - Ghanshyam Mann:
+  
+ Oh yeah.
+
+
+10:37:17 am - Amy Marrich:
+  
+ Okay.
+
+
+10:37:19 am - Ghanshyam Mann:
+  
+ And even this discussion started Openstack discuss. We still have people who used to handle the documentation they can help also right? So So, maybe next item is just a close this SIG and a technical committee member to repository things.
+
+
+10:37:37 am - Amy Marrich:
+  
+ Out of curiosity. Do we have a checklist for releases because I've never been PTL where we can make sure? That is part of the release cycle, they're making sure they're documentation is done. For that release.
+
+
+10:37:55 am - Dan Smith:
+  
+ I'm not really sure what that means.
+
+
+10:37:57 am - Mohammed Naser:
+  
+ so,
+
+
+10:37:59 am - Dan Smith:
+  
+ I mean, don't these all I mean, these are all just generated, right?
+
+
+10:38:04 am - Mohammed Naser:
+  
+ Yeah, so I guess as long as they're
+
+
+10:38:05 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:38:05 am - Mohammed Naser:
+  
+ carrying it over from the branch before the new branch they're just going to get it now. Are they up to date with everything
+
+
+10:38:10 am - Dan Smith:
+  
+ Right.
+
+
+10:38:11 am - Mohammed Naser:
+  
+ new? Maybe not.
+
+
+10:38:12 am - Dan Smith:
+  
+ well, that's a different that's a different question but I mean
+
+
+10:38:13 am - Mohammed Naser:
+  
+ Yeah, but is it published probably
+
+
+10:38:14 am - Kendall Nelson:
+  
+ that's,
+
+
+10:38:16 am - Dan Smith:
+  
+ But, I mean, like,
+
+
+10:38:17 am - Mohammed Naser:
+  
+ the release before is published?
+
+
+10:38:18 am - Dan Smith:
+  
+ But we don't just have to.
+
+
+10:38:19 am - Kendall Nelson:
+  
+ Yeah.
+
+
+10:38:20 am - Amy Marrich:
+  
+ That I try to go back and update the
+
+
+10:38:21 am - Radosław Piliszek:
+  
+ There.
+
+
+10:38:22 am - Amy Marrich:
+  
+ deployment guides or any projects. I'm involved with go through the and make sure that anything new is there, but I don't go through everybody's projects. I don't have the time for that.
+
+
+10:38:31 am - Dan Smith:
+  
+ so you're not asking about just having Dock links and docs generated named to the release, you're asking, if they've done all the work to update all the docs,
+
+
+10:38:41 am - Amy Marrich:
+  
+ That would be nice.
+
+
+10:38:43 am - Dan Smith:
+  
+ Yeah, I know.
+
+
+10:38:44 am - Amy Marrich:
+  
+ I mean.
+
+
+10:38:44 am - Dan Smith:
+  
+ But
+
+
+10:38:45 am - Amy Marrich:
+  
+We went from the world's Crappiest docs. When I started with Openstack with Grizzly, And then we ended up with some of the best documentation and open source. And it kind of hurts to see that we're not updating stuff and keeping things going,
+
+
+10:38:58 am - Dan Smith:
+  
+ but well, just just From my perspective, updating docs is
+
+
+10:39:02 am - Kendall Nelson:
+  
+ What?
+
+
+10:39:03 am - Dan Smith:
+  
+not a release, talk, a release task. It's a when we merge a thing that's when the docs need to get updated, so putting it on a Ptl's like release checklist is not really. Doesn't really make sense to me.
+
+
+10:39:20 am - Kendall Nelson:
+  
+ The core team for that project should be forcing. Those dock changes as a part of the coaching.
+
+
+10:39:25 am - Dan Smith:
+  
+ Right. Right. Yeah. So I mean I would not expect it to be on anyone's release checklist personally.
+
+
+10:39:32 am - Kendall Nelson:
+  
+ Agreed.
+
+
+10:39:32 am - Amy Marrich:
+  
+ Okay, but it should be on the definition of done for a large. Okay? Got it.
+
+
+10:39:36 am - Kendall Nelson:
+  
+ Yeah, just same way. You should have unit, tests, unit test documentation, or at least note,
+
+
+10:39:41 am - Mohammed Naser:
+  
+ Now.
+
+
+10:39:42 am - Kendall Nelson:
+  
+ if that's required and the code
+
+
+10:39:43 am - Dan Smith:
+  
+ Right.
+
+
+10:39:44 am - Kendall Nelson:
+  
+ is everything. That should be in there.
+
+
+10:39:45 am - Mohammed Naser:
+  
+ Yep.
+
+
+10:39:47 am - Dan Smith:
+  
+ Yeah.
+
+
+10:39:49 am - Ghanshyam Mann:
+  
+ so put like to take x item for this sick closer and adding adding the repository under TC things and even volunteers.
+
+
+10:40:03 am - Mohammed Naser:
+  
+ But I see Kendall raising her hand right now. Haha.
+
+
+10:40:08 am - Kendall Nelson:
+  
+ Now I'm like fidgeting with my fingers and subconsciously flipping
+
+
+10:40:12 am - Mohammed Naser:
+  
+ - I'm just,
+
+
+10:40:12 am - Kendall Nelson:
+  
+ everybody off. It's fine.
+
+
+10:40:13 am - Dan Smith:
+  
+ I saw it. I saw it.
+
+
+10:40:14 am - Kendall Nelson:
+  
+ You know, it happened.
+
+
+10:40:15 am - Mohammed Naser:
+  
+ yeah.
+
+
+10:40:17 am - Ghanshyam Mann:
+  
+ Okay, so
+
+
+10:40:19 am - Mohammed Naser:
+  
+ I can help out with that.
+
+
+10:40:19 am - Ghanshyam Mann:
+  
+ yeah. Good. So I'll let your name homework.
+
+
+10:40:24 am - Mohammed Naser:
+  
+ So election is gonna be move the sick to retired and if you make a change in the
+
+
+10:40:29 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:40:33 am - Mohammed Naser:
+  
+ I got, what is it called? The ACLs to TC and also I guess
+
+
+10:40:36 am - Ghanshyam Mann:
+  
+ so, Yeah.
+
+
+10:40:38 am - Mohammed Naser:
+  
+And also I guess whoever's the chair could if they could add me so that I can make the change to the ACLs I guess.
+
+
+10:40:46 am - Ghanshyam Mann:
+  
+ Yeah, and I think it's course like an at you.
+
+
+10:40:49 am - Mohammed Naser:
+  
+ Yeah, if you can add me and then that way, I can add the TC members or you
+
+
+10:40:51 am - Ghanshyam Mann:
+  
+ but,
+
+
+10:40:52 am - Mohammed Naser:
+  
+ can just add TC members, right?
+
+
+10:40:53 am - Ghanshyam Mann:
+  
+ Oh yeah, exactly. Sure, so we have 20 minute left. Let's move to the LK topic. So we have 10 Listen here, Clark? Yeah, join.
+
+
+10:41:11 am - Radosław Piliszek:
+  
+ Yep. Yes. And value
+
+
+10:41:12 am - Amy Marrich:
+  
+ Let me get down.
+
+
+10:41:12 am - Clark Boylan:
+  
+ Yes, I'm here.
+
+
+10:41:15 am - Ghanshyam Mann:
+  
+ Yeah, thanks for joining and English said He's in another conference. and once we need,
+
+
+10:41:27 am - Radosław Piliszek:
+  
+ I think we need Daniel was with us before but he left, I guess.
+
+
+10:41:31 am - Ghanshyam Mann:
+  
+ Mmm. Yeah, I think him on the essay or so, but maybe you can start
+
+
+10:41:34 am - Amy Marrich:
+  
+ Something.
+
+
+10:41:36 am - Ghanshyam Mann:
+  
+ Thanks.
+
+
+10:41:37 am - Amy Marrich:
+  
+ Give me a few minutes to get him. He went to do some work while we were doing other things.
+
+
+10:41:43 am - Radosław Piliszek:
+  
+ Okay.
+
+
+10:42:13 am - Mohammed Naser:
+  
+And a super related. But unrelated thing to this topic, I am Quite kind of like disappointed a little bit. Of the way that we're settling to run Elasticsearch is on AWS. I feel like just from like an openstack perspective, I'm kind of like I get it because it's casein, managed to put just like I really wish that we could run it somehow on an actual openstack cloud. I feel like that's kind of it's a letdown for me to be honest. It's very, it's it's really a bummer.
+
+
+10:42:46 am - Allison Randal:
+  
+ I know. And and I would say we should
+
+
+10:42:47 am - Mohammed Naser:
+  
+ I will gladly all the resources if somebody wants to run the VMs but I get that it's more than running VMs. That's kind of. What I'm torn up.
+
+
+10:42:58 am - Allison Randal:
+  
+Yeah, if I would say if open search was farther along, you know? Like so part of this is like, Oh, elastic search is not open source anymore and that's like a big catch in the throat for anything we do with this. When open search is farther along I suspect, we will find managed services for it on Openstack.
+
+
+10:43:19 am - Mohammed Naser:
+  
+ Yeah.
+
+
+10:43:19 am - Allison Randal:
+  
+So, I wouldn't feel like we're tied to this forever. but one of the things when I found when I was reaching out, is for our existing infrastructure providers for Even for other companies, engaged in the foundation, like a six terabyte elasticsearch cluster is a big ask. And we're compromising either way,
+
+
+10:43:43 am - Mohammed Naser:
+  
+ Haha.
+
+
+10:43:44 am - Allison Randal:
+  
+ we're compromising. If we use elasticsearch,
+
+
+10:43:44 am - Mohammed Naser:
+  
+ Yeah.
+
+
+10:43:47 am - Allison Randal:
+  
+ Or compromising if we run it on AWS.
+
+
+10:43:50 am - Mohammed Naser:
+  
+ Yeah.
+
+
+10:43:51 am - Amy Marrich:
+  
+ What about Azure?
+
+
+10:43:54 am - Allison Randal:
+  
+Oh they actually as their azure offered to donate 20k as well of credits. But that would be elasticsearch and not open search. And the engagement with the open 13
+
+
+10:44:03 am - Amy Marrich:
+  
+ Okay.
+
+
+10:44:04 am - Allison Randal:
+  
+was just like they are they are excited about openstacks use, they're excited about supporting us. There's excited about engaging in the openstack in, like open infrastructure summit and blog posts, you know, like it's a very like with with Microsoft it was just yeah, sure. Here's 20k of credits fine.
+
+
+10:44:28 am - Mohammed Naser:
+  
+ You know.
+
+
+10:44:29 am - Allison Randal:
+  
+But But with open search, there were like, Yeah, this is great. Let's work together kind of thing. It was just like a totally different,
+
+
+10:44:38 am - Clark Boylan:
+  
+ Yeah.
+
+
+10:44:41 am - Allison Randal:
+  
+ totally different
+
+
+10:44:41 am - Mohammed Naser:
+  
+ I think.
+
+
+10:44:41 am - Allison Randal:
+  
+ Involved level of involvement.
+
+
+10:44:41 am - Mohammed Naser:
+  
+ I think it all comes down to if we
+
+
+10:44:41 am - Clark Boylan:
+  
+ yeah, I mean
+
+
+10:44:42 am - Mohammed Naser:
+  
+just need somebody to run it, even though open search is available but no one Like it managed services. There's a nice luxuries that come with that and We don't have the resources to run, open search. I think in terms of human power.
+
+
+10:44:53 am - Clark Boylan:
+  
+ One thing I'll mention with, with
+
+
+10:44:54 am - Amy Marrich:
+  
+ Dandy.
+
+
+10:44:55 am - Clark Boylan:
+  
+Azure real quick is. Yeah. They're like, Here's the credits, but you go over that. and we're gonna start charging it and Like, there's a credit card on file, open. Search was all like, Let's figure out what you need and then we'll try and do our best to, you know, make that donation work. It's just A very different approach I think and they're very supportive on the open search side. It seems like, which is nice to see.
+
+
+10:45:17 am - Amy Marrich:
+  
+ Yeah, I was just thinking we could take advantage of them, being an
+
+
+10:45:18 am - Jay Bryant:
+  
+ Yeah.
+
+
+10:45:20 am - Amy Marrich:
+  
+ incoming platinum, member Dan. Do you have any other ways of pinging? Daniel, I did Irc and Gnat.
+
+
+10:45:28 am - Dan Smith:
+  
+ No.
+
+
+10:45:28 am - Ghanshyam Mann:
+  
+ These wind in starting, right?
+
+
+10:45:28 am - Amy Marrich:
+  
+ Okay.
+
+
+10:45:32 am - Ghanshyam Mann:
+  
+ So maybe I'm actually or call.
+
+
+10:45:34 am - Mohammed Naser:
+  
+ There is.
+
+
+10:45:35 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:45:35 am - Clark Boylan:
+  
+ Oh,
+
+
+10:45:36 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:45:36 am - Jay Bryant:
+  
+ Areas. Say, his name three times.
+
+
+10:45:41 am - Amy Marrich:
+  
+ I just had a fun one more away.
+
+
+10:45:42 am - Daniel Pawlik:
+  
+ Hey.
+
+
+10:45:43 am - Amy Marrich:
+  
+ Saying his name was it?
+
+
+10:45:45 am - Ghanshyam Mann:
+  
+ Cool. So Alison would you like to just add the status from what we discussed? Previously in previous meeting and then we continue on the things.
+
+
+10:45:54 am - Allison Randal:
+  
+Yeah, I mean I guess the quick summary is We have the offer of the donated credits which should give us the The Running Elk Stack equivalent. I think resources to do, the migration has been a big obstacle beginning, Like the reason this came even even from, you know, like the up as an issue in March, is, How do we We don't have the resources to do the migration. So Daniel has gotten permission to work on it, and that's very helpful. And then, I think it was Muhammad who suggested in one of our earlier calls, What about contracted work to to help? With the migration like even if it's not you know, even if it's not a dedicated resource, could we find someone? And I said at the time, It is really hard to find people with the right set of skills who are willing to work for a brief period of time under open source project, but I did follow up through some context. I don't know if you know, Carl Fogel, he was a virgin developer but he's like written books on open source, collaborations and stuff like that. So I, I followed up through him, found the elastic search employee, who does contracting, but he said, I can't do this one because there's a, There's a sort of, like, political tension between Amazon and Elastic because of their lasting going through proprietary. And anyway, but he worked very closely with this guy, Ross, Tomlinson, in fact, they work. They had a company to gather before this guy went to took the job with Elastic and then Ross is continued doing consulting. So and he said, he's, he has even recently, you know, some of his projects have been Doing migrations to open search from Elasticsearch. So now it not only he has the skills but you know like he'll kind of be able to do it more rapidly than any of us could because we'd have to go through and learn about the differences between all the last search and new open search and he can do that. Do that part pretty quickly. So, we have and, you know, he's estimate for the amount of time, it would take to do, the migration, I thought was quite reasonable and we have a sponsor willing to take care of that. So, I mean I think it puts us into the realm of instead of not sure if we have the resources, it's puts us into the realm of. I think we have the resources, we definitely need Daniel's expertise as well because you know, Ross doesn't know anything about Zool or Openstack Vi. Whereas Daniel is going to be much better at working at like, you know, I know Clark and and fungi one of my great, the gear man workers to something that pulls the those will API or some other polling service. So I think Daniel's expertise, it's gonna be really helpful there because Ross wouldn't know anything about Zooler, Openstack ci So I think we have the resources, but there is still this, you know, it's a in one sense it's it's not dogfooding because it's not on openstack, but in another sense what we talked about from the beginning for this one services, it's externally enough That this one service could be, it could be on anything. I think we should try to keep, you know, for example either the gear man workers or the zool polling a service, we should keep that on openstack VMs and I don't
+
+
+10:49:12 am - Dan Smith:
+  
+ That parents that would be right.
+
+
+10:49:16 am - Allison Randal:
+  
+ That, that would be the intention is
+
+
+10:49:17 am - Dan Smith:
+  
+ I mean.
+
+
+10:49:17 am - Allison Randal:
+  
+ keep all of that on Openstack VMs.
+
+
+10:49:18 am - Dan Smith:
+  
+ but, But I mean, like that's all glue on
+
+
+10:49:21 am - Allison Randal:
+  
+ Yeah.
+
+
+10:49:23 am - Dan Smith:
+  
+our end that's gonna run on our infra anyway, I would think so. I don't think that that's going to be. A problem right? Like nobody would I wouldn't think would say Yeah let's put all that polling stuff in yet a third Place, right. So
+
+
+10:49:39 am - Allison Randal:
+  
+I don't know yet where it would be hosted because the existing stuff is hosted under open Dove on I believe Rackspace and I think the intention is to get rid of those resources.
+
+
+10:49:46 am - Clark Boylan:
+  
+ Yes.
+
+
+10:49:48 am - Allison Randal:
+  
+So it would be under the taxig and it would be possibly a different one of our infrastructure providers. Like one of our other donors, but it wouldn't be. I mean, we're not talking to six terabyte elastic. Search cluster, right? This is, this is like some workers that do you know, just pull, pull
+
+
+10:50:07 am - Dan Smith:
+  
+ Right.
+
+
+10:50:09 am - Allison Randal:
+  
+ from the logs and push them to log staff and that's it.
+
+
+10:50:11 am - Dan Smith:
+  
+Yeah, I'm just saying like, you know, we've if we're gonna grab this external service that we push logs to and then we need to write some new stuff that runs in a VM somewhere to do the glue. Like we don't just like go looking for some other place to run. VMs, we run that where we run VMs for other stuff.
+
+
+10:50:28 am - Allison Randal:
+  
+ Where in the existing places?
+
+
+10:50:29 am - Dan Smith:
+  
+ Yeah, yeah.
+
+
+10:50:29 am - Allison Randal:
+  
+ Yeah, yeah.
+
+
+10:50:31 am - Mohammed Naser:
+  
+hey, just like as a complete thought, I mean, Does that make sense to maybe ask on if it's possible for the contractor to set up the cluster to live in an openstack cloud? So not using a managed service but actually just like, how much more would it cost us to run it inside VMs somewhere?
+
+
+10:50:50 am - Allison Randal:
+  
+ I mean. We're talking about 45k of donated.
+
+
+10:50:56 am - Mohammed Naser:
+  
+ Yeah.
+
+
+10:50:56 am - Allison Randal:
+  
+Credit. and that's probably about what we're looking at, in terms of, I mean, I don't know, Clark, could say more about what it what it would cost now if we were paying for it on Rackspace, which we aren't
+
+
+10:51:06 am - Mohammed Naser:
+  
+ Yeah.
+
+
+10:51:08 am - Clark Boylan:
+  
+Oh yeah, I mean, I have to look at their numbers. The rackspaces cloud pricing is always weird because they inflated it with their, like, idea of support.
+
+
+10:51:15 am - Mohammed Naser:
+  
+ Yeah.
+
+
+10:51:16 am - Clark Boylan:
+  
+which we like don't use, but Yeah it wouldn't it's the most expensive piece of infrastructure that the team runs today is elasticsearch like it's more than
+
+
+10:51:28 am - Mohammed Naser:
+  
+ So, like, for example, how many days of memory, I guess my question. I know we talked about six terabytes
+
+
+10:51:32 am - Clark Boylan:
+  
+ it's
+
+
+10:51:32 am - Mohammed Naser:
+  
+ of disk usage
+
+
+10:51:36 am - Clark Boylan:
+  
+ 240 gig of memory.
+
+
+10:51:38 am - Mohammed Naser:
+  
+ okay, well,
+
+
+10:51:39 am - Clark Boylan:
+  
+ So, it's 60.
+
+
+10:51:39 am - Dan Smith:
+  
+ but,
+
+
+10:51:41 am - Clark Boylan:
+  
+ Oh sorry. No 360. It's 60 by 6.
+
+
+10:51:41 am - Mohammed Naser:
+  
+ Sorry. Okay. like,
+
+
+10:51:46 am - Allison Randal:
+  
+ And you need you need to add on top of that.
+
+
+10:51:52 am - Dan Smith:
+  
+ Keep it running.
+
+
+10:51:52 am - Allison Randal:
+  
+ The admin time to run that cluster as
+
+
+10:51:53 am - Mohammed Naser:
+  
+ Yeah, I know.
+
+
+10:51:53 am - Allison Randal:
+  
+well, which is where we're we're hitting the wall, we don't have it. When Daniel, if we have like that managed open search service like, even Daniel by himself, I hope we can inspire more people to join once we get it up, but even Daniel by himself, could kind of like, keep the, the little bits that we need running, right? So, it's kind of like with the donation, it kind of puts it into around that a volunteer can manage what we need to manage with the
+
+
+10:52:17 am - Mohammed Naser:
+  
+ Yeah.
+
+
+10:52:18 am - Allison Randal:
+  
+ entire out cluster.
+
+
+10:52:18 am - Mohammed Naser:
+  
+ No.
+
+
+10:52:20 am - Allison Randal:
+  
+ It's like we really need like at least two full-time people.
+
+
+10:52:24 am - Dan Smith:
+  
+ Yeah.
+
+
+10:52:26 am - Allison Randal:
+  
+ And probably more than that.
+
+
+10:52:26 am - Dan Smith:
+  
+ And like we all use things that are
+
+
+10:52:28 am - Allison Randal:
+  
+ Honestly.
+
+
+10:52:29 am - Dan Smith:
+  
+hosted in proprietary clouds. Like Oh, I don't know. The video conference service were on right now. You know, like it becomes a black box to us. It's, it's cool to run all of our stuff, but it's like super expensive, you know, not, not in terms of things
+
+
+10:52:44 am - Mohammed Naser:
+  
+ No.
+
+
+10:52:44 am - Dan Smith:
+  
+Not, not that you can buy expensive, right? So,
+
+
+10:52:48 am - Mohammed Naser:
+  
+ Time.
+
+
+10:52:48 am - Dan Smith:
+  
+Yeah, it just doesn't it seems like the right thing to do to me. and and the openstack part of this, the ingest still still is us still running on our stuff like man.
+
+
+10:53:02 am - Mohammed Naser:
+  
+ Yeah.
+
+
+10:53:04 am - Jay Bryant:
+  
+A. A kind of seems like if we say, No, we're biting the hand that feeds us. So, you know, we've got an opportunity here, let's make use of it.
+
+
+10:53:16 am - Mohammed Naser:
+  
+I guess the one thing and I'll put it out there and I don't think, but to keep in mind I've heard of You know, these donations usually are renewables on a certain period of time. So I guess like it is possible that one day we wake up and they decide that it's not going to renewed but for transparency that is the case. Also with other clouds that we're using right now. So, It is something to keep in mind as well.
+
+
+10:53:45 am - Allison Randal:
+  
+it's it's also possible that a year from now or two or three like the TC whoever they are at the time may decide, okay, this has been a great service, we really appreciate it and now we have this open search managed service on an openstack cloud and they're willing to donate time and we're just going to move off of it
+
+
+10:53:55 am - Mohammed Naser:
+  
+ You know.
+
+
+10:53:57 am - Allison Randal:
+  
+ because we don't need it anymore.
+
+
+10:53:58 am - Mohammed Naser:
+  
+ Yeah.
+
+
+10:53:58 am - Allison Randal:
+  
+ It was great for a time but
+
+
+10:53:59 am - Dan Smith:
+  
+ but, but also in that scenario, in the
+
+
+10:54:01 am - Ghanshyam Mann:
+  
+ but,
+
+
+10:54:04 am - Dan Smith:
+  
+scenario that Mohammed just mentioned you. You also end up with a little bit of a pressure relief, valve, right? Like this, this donation may dry up but it's not likely to dry up in the like, you know, we're deleting all your data tomorrow. It's more like, well, if we can quickly find somebody to pay for that thing, we can keep it running, you know, at cost while we figure out the next option, right? Whereas, if you build the scenario that Mohamed just mentioned you. You also end up with a little bit of a pressure relief, valve, right? Like this, this donation may dry up but it's not likely to dry up in the like, you know, we're deleting all your data tomorrow. It's more like, well, if we can quickly find somebody to pay for that thing, we can keep it running, you know, at cost while we figure out the next option, right? Whereas, if you build the thing, Run it yourself and that team dries up which Oh it will. Then you kind of end up in the situation that we're in right now. Whereas like don't anybody go near it? Because it might fall over, right? And it just, it seems to me like, we've already been burned by, you know, like, Oh, Clark can just do this. And and, you know,
+
+
+10:54:57 am - Allison Randal:
+  
+ Clark is a finite resource.
+
+
+10:54:58 am - Dan Smith:
+  
+ You get what you pay for. Yeah. Well yeah.
+
+
+10:55:01 am - Clark Boylan:
+  
+Another thing worth mentioning with the elasticsearch, the way we use it is it's highly ephemeral already, which means that the cost of moving is relatively like a lot of databases that exist out there. You never want to move them because, you know, they need to be up all the time and the data spans a decade. We don't have that like concern here and so moving is less of the problem for us. You know, the problem is in the the day-to-day just maintenance and keeping it moving along and ensuring it's there when you need to query it. But that means, you know, if you have to take a week where sorry it's it's down because we're just gonna start
+
+
+10:55:34 am - Dan Smith:
+  
+ Stop now.
+
+
+10:55:36 am - Clark Boylan:
+  
+ over here instead. You know, that's that's a hit that is manageable.
+
+
+10:55:41 am - Dan Smith:
+  
+Right. Like you could You could just say, Well, sorry, we have to dump our history and we're building history over here and you can start finding bugs again in a week, right?
+
+
+10:55:51 am - Clark Boylan:
+  
+ Yeah.
+
+
+10:55:51 am - Mohammed Naser:
+  
+Yeah, well, for the record, if anyone wants to unlock a search on VMs inside Vexost, I don't think that that's too much resources for us to provide, but I yeah, I see totally see the Like the whole elasticsearch running, it is a very complex thing and I personally avoided as much as I can because I think it's a pain to deal with. So
+
+
+10:56:16 am - Allison Randal:
+  
+ And I think it's very possible in evacuating rackspace. That Vex host may be our, our first choice for everything else that we keep running in openstack like all
+
+
+10:56:25 am - Mohammed Naser:
+  
+Yeah, I know. Like at the end of the day while it Yeah, I know. Like at the end of the day while it I Yeah, I know that's like I said it. Like at the end of the day while it I
+
+
+10:56:26 am - Allison Randal:
+  
+ the glue. So,
+
+
+10:56:27 am - Mohammed Naser:
+  
+Like at the end of the day while it Like at the end of the day while it, I don't want to trivialize the infrastructure, but that barely kind of is not really that I don't want to trivialize the infrastructure but that barely kind of, is not really that much. I mean clouds make a lot of money and with there's a lot of margins and so you look at the cost of how much VMs you're running, and it's not that much. So in terms of cost for us, so, you know, we I'd like to also keep that open if someone wants to ever Pick this sort of thing up.
+
+
+10:56:52 am - Ghanshyam Mann:
+  
+ Okay. And for now I think listen it's one year donation, right? Or is?
+
+
+10:57:00 am - Allison Randal:
+  
+He I mean the way that Tom described it was perpetual but I know that that doesn't really mean perpetual but it's not a one year, it's just it's just they said it up and I know with leadership changes there's some possibility that that may not be
+
+
+10:57:14 am - Ghanshyam Mann:
+  
+Yeah. Okay.
+
+
+10:57:15 am - Allison Randal:
+  
+forever but the way it's set up, it's not we have to ask them again in a year forever. But the way it's set up, it's not we have to ask them again in a year. The way it's set up is we just give this to you, you know, it'll just reappear automatic. The credits will reappear in your account automatically.
+
+
+10:57:26 am - Mohammed Naser:
+  
+I think borrowing, what? Like the whole, like dog food and thing, I think it's an excellent idea. It'll take a whole load off of our infrastructure team. It's got delegated. And we're gonna, I think form a good relationship with the open search community as well as the finances. I think, what was proposed is extremely reasonable, like beyond reasonable to do that. I guess the only question that I had is in terms of like, follow-up. Like I think given that the open and Deaf community is going to be a customer, you know, who's going to kind of own that relationship and like own the AWS account own, the following up on making sure things are, you know, getting delivered like like Hey is the setup, something needs? Because that's something we can Clark can help with or Daniel or just to kind of like represent our community in this. Sort of thing.
+
+
+10:58:20 am - Clark Boylan:
+  
+Yes, I think that's the one of the major things that we need to make a decision on probably soon as this picks up. Because on the open depth side, we're hesitant to say Yeah, we'll do all this stuff because we already know that the first time we asked for help in the second time and then the nth time, no one is willing to help like in an open dev level. Right? And so it's tricky for us to say, Yeah, we'll do these things for this one off that. Apparently, if you do a specific thing, then you can get help. Because that just puts the burden back on us for all of that, like, tertiary stuff.
+
+
+10:58:54 am - Mohammed Naser:
+  
+ Yeah.
+
+
+10:58:54 am - Clark Boylan:
+  
+And we know we're not getting help for any of that tertiary stuff anymore like we've asked and so it's we're in a tricky position. One of the things that I suggested we could do is, you know, we could run. Like for example the the ingest stuff we could we could spin up the new VMs for that on vexost. But you know that be our relationship is we're basically just curating the Basically, we're like the hardware provider in a weird proxy way. Because we have that relationship we'd already have credentials in it. That is less work all around. but then yeah the for the new thing, like the AWS stuff like, yeah, I think we need to have a discussion on like, you know, do we just spin up a new repo and openstack space and and let the openstack people who are interested in this run it.
+
+
+10:59:46 am - Mohammed Naser:
+  
+ yeah, but I think
+
+
+10:59:46 am - Clark Boylan:
+  
+ because that is, So, go ahead.
+
+
+10:59:49 am - Mohammed Naser:
+  
+So I think a good idea is I don't know, does anyone know how the Kubernetes world do it? Because I know they do like CNCF everything is like software as a service. So how do they deal with that sort of thing?
+
+
+11:00:03 am - Clark Boylan:
+  
+ It's been a few years since I talked to them when I talked to them in the past it's all like everything is a one-off with them like because they
+
+
+11:00:09 am - Mohammed Naser:
+  
+ Okay.
+
+
+11:00:09 am - Clark Boylan:
+  
+ don't use any of the LF stuff. So everything is like so-and-so.
+
+
+11:00:11 am - Mohammed Naser:
+  
+ Yeah.
+
+
+11:00:13 am - Clark Boylan:
+  
+ this thing and just it you know I
+
+
+11:00:16 am - Mohammed Naser:
+  
+ They own it.
+
+
+11:00:16 am - Clark Boylan:
+  
+ don't I
+
+
+11:00:17 am - Mohammed Naser:
+  
+ They manage it. They send their thing, okay?
+
+
+11:00:17 am - Clark Boylan:
+  
+ yeah. But I don't know if that's changed since it's been like a few years
+
+
+11:00:24 am - Mohammed Naser:
+  
+ You know.
+
+
+11:00:24 am - Clark Boylan:
+  
+ since I really had a discussion with them on that, on the LF side.
+
+
+11:00:26 am - Mohammed Naser:
+  
+You know.
+
+
+11:00:27 am - Clark Boylan:
+  
+It's very centrally managed. And they do like products that like, you can have a Jenkins plus a Garrett, or you can have a this bliss of that and it's, it's Like they don't do special customization on top of that, or whatever, like it's, it's very much like, this is what we're able to do cookie cutter, and that's what they offer.
+
+
+11:00:44 am - Mohammed Naser:
+  
+ Right.
+
+
+11:00:46 am - Ghanshyam Mann:
+  
+ I think we are on time, but if everyone okay, we can extend it to five to ten more minute.
+
+
+11:00:52 am - Mohammed Naser:
+  
+ Yeah.
+
+
+11:00:52 am - Clark Boylan:
+  
+ You're not no problems here.
+
+
+11:00:53 am - Ghanshyam Mann:
+  
+ okay, so one thing, like the gear men thing, we want that to be part of this migration, or as like, after the migration, we can, we can work on Replacement, or something.
+
+
+11:01:05 am - Clark Boylan:
+  
+Well. So the ingest side is part of the issue, right? Like all of the whole thing from from Gearman all the way through to Elasticsearch was running on old software that needs updating so yeah, the the ideal here is that, you know, open search for places the last search component and a modern Cabana and log stash. Become supportable cabana is included in open. Search product is my understanding, But the log stash ingestion piece, that's something that we would have to continue to run.
+
+
+11:01:35 am - Allison Randal:
+  
+Yeah, and the way Ross proposed it is that he would run that integrated with the open search and and the open Search cubano.
+
+
+11:01:44 am - Clark Boylan:
+  
+ Okay.
+
+
+11:01:45 am - Allison Randal:
+  
+So it would just be so all the only So essentially, the things that we So essentially, the things that we would have to worry about is all the only thing. So essentially, the things that we would have to worry about is just the pieces that are
+
+
+11:01:54 am - Clark Boylan:
+  
+ Got it.
+
+
+11:01:55 am - Allison Randal:
+  
+ extracting from Kibana.
+
+
+11:01:57 am - Clark Boylan:
+  
+ The events.
+
+
+11:01:57 am - Allison Randal:
+  
+ And yeah.
+
+
+11:01:58 am - Clark Boylan:
+  
+Yeah. And that. And like I said, I I think from the opened up perspective, I think we can, we can be like the hard work, quote, Unquote hardware, providing for, that's on top of Bexhost to run that. Piece in the middle. But I don't think that we we wouldn't be writing the configuration management for it. You know, we wouldn't be You know, our duty theirs to hit the power button if that's necessary. And you know, work with the cloud provider to, you know, sort out like why is the networking not working, or whatever that may be. But the actual services that are running, I think that component instantly, you know, owned by the group, that's taking this on which, you know, it sounds like we'll fit underneath xig is part of what it's back. And that's just because we have, you know, open Dev has asked for help now for years to do these things and we can't get help for it, and so, It's it's puts us into really tenuous position. I think to take on responsibility when You know, it just expands that. The demands on us when we do that. Which is what we're trying to avoid.
+
+
+11:03:06 am - Allison Randal:
+  
+Yeah, I think. From what I understand. So, like the pieces I see are so there's the piece of the sort of, like legal relationship with, Amazon and that's handled by Jonathan and Terry. So that's handled by Openstack. They're open infra staff and that's very, that's pretty minor. We've already talked through it with them. They're ready to go. If the teacher, it's basically it's the TC's decision and they're ready to go. If you need that, in terms of who owns it sounds like in the last meeting, the TC decided That's the taxig so that works. So that means that Daniel's volunteer
+
+
+11:03:41 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+11:03:41 am - Allison Randal:
+  
+time is under the tax thing. I think we still need some admin time and I'm happy to volunteer that under the tax thing. Like I'm just like volunteering the time to the taxi but it's basically just Making sure that we get the agreement signed making sure that there's going to be one sort of master account on AWS. Making sure the right people have that. I'm not sure who that is. But yet, I mean, it's kind of in the hands of the taxig which may mean to begin with, it's just Daniel and like Jeremy as a backup and Clark is back up. And that's it. Just so that
+
+
+11:04:14 am - Ghanshyam Mann:
+  
+ but, Yeah.
+
+
+11:04:17 am - Allison Randal:
+  
+ It's there.
+
+
+11:04:18 am - Ghanshyam Mann:
+  
+What one of the concern? Like fungi mentioned in last meeting also, like in taxi, he's the only one now helping and he mentioned like as long as we have the only Internet like Daniel or other people helping is okay but if in future we don't have one in there then we have to rethink of these services again. Because it's not like again, putting it on Clark, or friendly hands. Okay. Now, no one is there. So you have to take care. So, For now under the tactic, it sounds good. And then later on, we keep monitoring
+
+
+11:04:54 am - Allison Randal:
+  
+ But I think the understanding is the
+
+
+11:04:55 am - Ghanshyam Mann:
+  
+ The integration.
+
+
+11:04:56 am - Allison Randal:
+  
+ Taxig. Is the existing members of the Taxig are not expected to spend time on this. They just offering to be sort of the
+
+
+11:05:01 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+11:05:02 am - Allison Randal:
+  
+ governing structure for it and for now it's like Daniel and I and Ross are offering to spend the time on it and I'm kind of hoping if we can do
+
+
+11:05:09 am - Clark Boylan:
+  
+ Yeah.
+
+
+11:05:10 am - Allison Randal:
+  
+ some interesting talks about this exciting new, you know, open source open search Openstack CI stuff. That actually will start to get a few more volunteers and we when we've pushed it to a point that the work involved is actually reasonable. For volunteer, which it is not right now.
+
+
+
+
+____________________________________________________________________________
+
+
+
+
+Chat
+
+
+10:08:11 am - Amy Marrich:
+dpawllik
+
+
+10:23:56 am - Mohammed Naser:
+https://docs.openstack.org/xena/
+
+
+10:31:35 am - Amy Marrich:
+Ok we'll definitely need to edit a little, The neutron person's name is not Love
+
+
+10:31:53 am - Kendall Nelson:
+Lajos
+Katona
+
+
+10:41:02 am - Amy Marrich:
+This transcript is so funny;)
+
+
+10:41:50 am - Jay Bryant:
+Oh man, how are you not just LOLing reading this?
+
+
+10:42:38 am - Radosław Piliszek:
+Let's do a transcript reactions session then :P
+
+
+10:43:29 am - Amy Marrich:
+Ok I've pinged in IRC and internally, no response yet
+
+
+10:55:32 am - Amy Marrich:
+Oh shoot forgot torecord!
+
+
+10:55:53 am - Jay Bryant:
+You're fired! ;-)
+
+
+10:56:16 am - Kendall Nelson:
+....if only we were on irc and all just typing... it would be recorded :P
+
+
+10:56:22 am - Amy Marrich:
+I do have the transcript and have been babysitting it. I totally forgot and no one reminded me so y'all are fired!
+
+
+10:56:24 am - Radosław Piliszek:
+if only indeed!
+
+
+10:56:37 am - Jay Bryant:
+*Sad trombone.wav*
+
+
+10:59:40 am - Radosław Piliszek:
+sorry, I have to leave
+
+
+11:00:13 am - Ghanshyam Mann:
+k, i will handle irc thing. thanks
+
+
+11:02:03 am - Daniel Pawlik:
+opensearch does not have such "product" like logstash ;/
+[a]oopsie :D

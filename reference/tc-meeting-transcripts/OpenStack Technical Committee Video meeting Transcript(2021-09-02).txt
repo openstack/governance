@@ -1,0 +1,1576 @@
+﻿Transcript
+
+
+10:04:38 am - Ghanshyam Mann:
+  
+ Okay, so let's start our first topic. Follow-up Excel. From our previous meeting, we have one action item. We go to schedule. A call for pain point collection and add it into the ETC effect. If I think you have done it, right,
+
+
+10:05:01 am - Rico Lin:
+  
+ Yeah. So Yeah, we already adding that to the Pdgs append. Now, other didn't put much information. I guess it depends on how today's discussion will go. Then I can put on more details like what specific things we will have to discuss in the PDG.
+
+
+10:05:21 am - Ghanshyam Mann:
+  
+ Yeah, so we have a separate topic on this. We'll go through the paint points and all the detail or even the next step. So, next topic is get health and check then. The floor, any news.
+
+
+10:05:41 am - Dan Smith:
+  
+I, I think that while Nova merged the Thing, that was immediately causing a bunch of failures due to the consumer type stuff. It sounds like there's still a residual thing related to that where they moved something else into this big giant. They, they created a big giant transaction to do, like four things that they were doing separately before and that was causing the timeouts. So now they've resolved the timeout issue by retrying, but The one of the things that was in the four that get done as a single transaction. Was is now causing some conflicts. So it sounds like Melanie is going to see about splitting that back out, but I think that's hitting far fewer people far, less often than the other thing, so not quite as big of a deal. And like yesterday I didn't see a huge crazy amount of load in the gate so which is a little bit surprising for this particular time.
+
+
+10:06:50 am - Ghanshyam Mann:
+  
+Yeah, I think yesterday was good. My knob has got much when it took for three or four days to pass the recheck. And yesterday it was just awesome.
+
+
+10:07:01 am - Dan Smith:
+  
+ Yeah.
+
+
+10:07:02 am - Ghanshyam Mann:
+  
+ It must
+
+
+10:07:02 am - Dan Smith:
+  
+Yeah. so, I'm glance was having some Kind of flaky functional tests yesterday, which is weird that we thought might be gate related gate load-related. But then I went and looked and so I don't really think so. so, but that's not affecting anybody but glance But yeah, otherwise it seems not terrible at the moment.
+
+
+10:07:30 am - Ghanshyam Mann:
+  
+ Yeah, I think from curious I didn't have stack and all so it's going, okay? There's no issue has not. So let's see, it's release time so we'll be your this month. We may see lot of good thing that issues. So anything else from anyone from the gateway?
+
+
+10:07:55 am - Radosław Piliszek:
+  
+Here. Okay, it's not really nothing critical. The last week has done said I think it was this week that there was some fixed merged to death stack, that was affecting Manila, but it was affecting them for some time that some of the jobs were permanently failing due to the switch to Ovn, but, I guess it wasn't critical that it only match recently, but
+
+
+10:08:19 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:08:19 am - Radosław Piliszek:
+  
+ yeah.
+
+
+10:08:23 am - Ghanshyam Mann:
+  
+I think we in devastack maybe we can talk in queue. Maybe in desktop we should have one just kind of sanities of to enable all these project and just install. Like we have in tempest for tempest plugin. To avoid these kind of failures for different configuration or different project. But anyway, let's we can discuss in QA channel about that. So, moving to next topic, our latest project. Average, the link of Peter Pad in on the IRC. So of six Project, Five project we have now the candidates to science they are good. Only one project is left at 10. And I don't think anyone has reached out to the previous video, please. raise your hand if you have reached out or if you know any news about anyone. would like to leave this project or Of we should start thinking about the option. Or even what you think about. We have like five option available for little less projects. So, What you think will you should go?
+
+
+10:09:42 am - Mohammed Naser:
+  
+I'm just, I think what I can suggest is if no one has reached out to the existing PTL, maybe we should do that and if we don't hear back from them, I guess we can contact anybody else at Catalyst. I know, say Long who works on Magnum is at Catalyst, and he might give us some sort of insight, and he's pretty active in the community. And if he says, Oh we're just not doing this thing at Catalyst because I think it was mainly driven by them, then maybe it's just worth moving to the X. Namespace and moving out of Openstack official.
+
+
+10:10:20 am - Ghanshyam Mann:
+  
+ Yeah. So
+
+
+10:10:21 am - Rico Lin:
+  
+ Yeah, I can help to reach out to Federal. If you want.
+
+
+10:10:26 am - Mohammed Naser:
+  
+Do you want to reach out to them? Anyways, and then somebody else reaches out to To Adrian, Adrian. Just so that we're kind of moving things in parallel rather than
+
+
+10:10:40 am - Rico Lin:
+  
+ Yeah.
+
+
+10:10:43 am - Mohammed Naser:
+  
+ Move if you can send the email to both of them because I know they're both in New Zealand. So I think Rico you might be the best one in terms of times loans.
+
+
+10:10:50 am - Rico Lin:
+  
+ Yeah, don't worry. Yeah, I think I would reach out to problem and see. Yeah, I'll manage her to do that tomorrow.
+
+
+10:11:01 am - Ghanshyam Mann:
+  
+So, so I recorded it's an item for Rico. Thanks, Rico. So, let's wait for their response and then we can discuss about option in or Future meetings. And once and like, as you know, PTL induction are going on. We, I think it's closing on 7th September. I mean, Will
+
+
+10:11:27 am - Belmiro Moreira:
+  
+ Yeah, it's on the seven.
+
+
+10:11:28 am - Ghanshyam Mann:
+  
+ Yeah, so after seventh, we can start assigning those. Other project leaders. So no, hurry in that. So, moving to next topic.
+
+
+10:11:44 am - Amy Marrich:
+  
+now, we don't have anybody who's so for the unnominated projects just to be clear, we don't have any Any projects that have more than one person volunteering. So we should be good with that once
+
+
+10:11:56 am - Radosław Piliszek:
+  
+ so,
+
+
+10:11:57 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:11:58 am - Amy Marrich:
+  
+ we go through.
+
+
+10:12:02 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:12:02 am - Radosław Piliszek:
+  
+ Yeah.
+
+
+10:12:08 am - Ghanshyam Mann:
+  
+So next topic is New Project Application Venus. So there is a request from author, like how we should proceed on this? So, if you have any question, please add it on review, get it, or mailing list. but, I have not seen the question on credit since. Three days back. So maybe this is ready to what? Or what you you guys think how we should proceed? start more discussion, or Start voting. but you prefer,
+
+
+10:13:00 am - Mohammed Naser:
+  
+maybe this is a bit of a tangent, but I feel like I feel like this kind of weird thing where it would be nice to say like yes but not fully yes. Until we see how it like actually works.
+
+
+10:13:13 am - Rico Lin:
+  
+ Yeah.
+
+
+10:13:13 am - Mohammed Naser:
+  
+That openstack like I kind of get that feeling where it's like I don't want this to potentially be another like adjutant situation or something like that. So it's like like, you know, I think the cncf has this thing of like graduated projects and like something like that. And it's like I'm I'm on this feeling that, like Yes, but like pending another review down the line. I don't know how everybody else feels but that's kind of like the level that I'm at. I'm not like go for it but
+
+
+10:13:44 am - Amy Marrich:
+  
+And wait and we have the same thing but we have it at the board level versus within the project level. So there's nothing that says that we can't do something like that.
+
+
+10:13:55 am - Ghanshyam Mann:
+  
+ He?
+
+
+10:13:56 am - Amy Marrich:
+  
+ In fact.
+
+
+10:13:56 am - Ghanshyam Mann:
+  
+Take not good framework. Like it's like directly approval thing because we have removed those incubated versus these things. So maybe I like the idea. I think we can introduce some of this. Level and something we can discuss in pretty easy.
+
+
+10:14:14 am - Amy Marrich:
+  
+ If you think about it, it's kind of
+
+
+10:14:15 am - Ghanshyam Mann:
+  
+ but,
+
+
+10:14:15 am - Amy Marrich:
+  
+ like when projects would come in and be on stackboard. And then they'd graduate. To the main repose.
+
+
+10:14:23 am - Mohammed Naser:
+  
+ I think one of the challenges here is
+
+
+10:14:23 am - Amy Marrich:
+  
+ so,
+
+
+10:14:26 am - Mohammed Naser:
+  
+ that people feel that if they're not on the openstack namespace.
+
+
+10:14:30 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:14:30 am - Mohammed Naser:
+  
+They're not like they're missing on something. I don't know what it is, but it's kind of like this this like validation that they get that, like, I'm on the right track. Whereas like, if we throw people, we're like, you can just remain X and let us know whenever you want to officially, like Come into openstack. It's gonna be like, Okay, but how do I know am I gonna get accepted? Like Maybe I should go and, you know, set this up somewhere else. So I feel like we need to kind of give the stamp of approval but not necessarily like, welcome to open start.
+
+
+10:15:08 am - Ghanshyam Mann:
+  
+So with that approval, you mean, we still include that in Openstack and in our governance but we keep monitoring or How we do that with our current
+
+
+10:15:18 am - Mohammed Naser:
+  
+ Well, I guess something similar to
+
+
+10:15:18 am - Ghanshyam Mann:
+  
+ structure?
+
+
+10:15:19 am - Mohammed Naser:
+  
+ how the Cncf did their thing. I mean during that you have their like Full projects, and they have the projects that are like incubated I guess.
+
+
+10:15:31 am - Amy Marrich:
+  
+ And they do what like a six-month check-in. So For like two, three releases. Maybe they check in and present their selves to us. And then, after we, See them a couple times and we just give them the thumbs up and they're on their own like everybody else.
+
+
+10:15:47 am - Ghanshyam Mann:
+  
+ And what we actually would like to check here. The activist from the team or Thing moment, missing Wi-Fi is you.
+
+
+10:15:55 am - Belmiro Moreira:
+  
+It's not, yeah, I completely agree. I believe we need to see before being fully accepted. If we go into these two stages that actually the project gets some traction. And if there is people using it. And otherwise we'll get in the same situation of the projects that you just mentioned right. It's accepted. Then no one's used this project and we'll die. But having these two stages, at least, let us know that these feels real need that people are willing to use it. And there is a community behind that project. We do at same time with the validation with the openstack namespace, right?
+
+
+10:16:43 am - Ghanshyam Mann:
+  
+Yeah. So, so that diversity kind of validation still having our current application requirement. And if I if I see I think a little slow you check, it's a single company. maintaining that till now, so It's good point. So, for that first, I mean I agree with that idea. And should we work on that framework side first. And then, Ask them to. Because with their current impression, it's like, it's the application and we will be approving it for the governance. So something we should propose in governance, documentation or the project application requirement. Like there will be two phases and like that will go. So first, I think we can work on that. If everyone agree. otherwise, if we delay that or we post from that to be discussed in Ptz, we have to check if they can wait until it is easy or we merge it and for the new one, we apply that correctly.
+
+
+10:18:05 am - Mohammed Naser:
+  
+ Um, well, how far away are we now from Ptg? If anyone can over
+
+
+10:18:10 am - Ghanshyam Mann:
+  
+ it's one and it's almost two months, you
+
+
+10:18:12 am - Mohammed Naser:
+  
+Okay, so it's a little, it's a little bit of a weight. Well, I think we I mean, maybe we could do is just if we feel like it should be incubated. Like base your vote on, if you feel like it should be incubated and if it merges, it merges, let's not kind of take it and install it for much longer because, you know, we don't want them because They seem to be motivated. It's not like cut the motivation by saying Sit here and wait for two months.
+
+
+10:18:47 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:18:47 am - Mohammed Naser:
+  
+And it doesn't really hurt us to have them in. so I'd say in favor of that, but then adding a topic of ptg of either having different Like an incubated and like official project. or, and I and I i, There's probably better ways of doing this but maybe like, a class level system so that you could still be openstack, but if you don't have multiple contributors and a long history of
+
+
+10:19:23 am - Ghanshyam Mann:
+  
+ Okay, it's facing like crazy again.
+
+
+10:19:26 am - Amy Marrich:
+  
+ Or Mohammed.
+
+
+10:19:28 am - Jay Bryant:
+  
+Didn't it didn't we used to have a We used to have a process like this? Didn't didn't? We used to have a process like this?
+
+
+10:19:33 am - Amy Marrich:
+  
+ Yeah, that's the one with that.
+
+
+10:19:33 am - Jay Bryant:
+  
+ I feel.
+
+
+10:19:34 am - Ghanshyam Mann:
+  
+ Yeah, that we used to have steadforce
+
+
+10:19:36 am - Amy Marrich:
+  
+ Backboard.
+
+
+10:19:36 am - Ghanshyam Mann:
+  
+ incubated versus thing but
+
+
+10:19:38 am - Jay Bryant:
+  
+ Oh yeah.
+
+
+10:19:39 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:19:39 am - Jay Bryant:
+  
+ Okay, and it went from Stackboarding to the openstack repo and okay.
+
+
+10:19:41 am - Amy Marrich:
+  
+ It was pretty good, and
+
+
+10:19:46 am - Mohammed Naser:
+  
+ Sorry. I don't know where I was cut off that, that's all a mystery here.
+
+
+10:19:52 am - Rico Lin:
+  
+ You, you are suggestion to have a classified?
+
+
+10:19:54 am - Mohammed Naser:
+  
+ Well yeah,
+
+
+10:19:55 am - Jay Bryant:
+  
+ Oh yeah.
+
+
+10:19:58 am - Rico Lin:
+  
+ Yeah. Now, we have a retreat again. Oh my
+
+
+10:20:05 am - Amy Marrich:
+  
+ You better get a refund on that Wi-Fi.
+
+
+10:20:11 am - Ghanshyam Mann:
+  
+ Is his traveling?
+
+
+10:20:13 am - Jay Bryant:
+  
+ we shouldn't laugh, but the timing was
+
+
+10:20:17 am - Rico Lin:
+  
+ yeah.
+
+
+10:20:17 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:20:17 am - Jay Bryant:
+  
+ Was good too funny. I can picture Muhammad now, like with a baseball bat, just going after the access point being like
+
+
+10:20:30 am - Amy Marrich:
+  
+ and he's the one who won in the video meeting versus That in Channel IR, see me?
+
+
+10:20:35 am - Ghanshyam Mann:
+  
+ Yeah, but we got the idea from him.
+
+
+10:20:36 am - Jay Bryant:
+  
+ The irony.
+
+
+10:20:38 am - Ghanshyam Mann:
+  
+So Let's do that. So let's do the voting on the current proposal. And if we have enough voting, then we can merge it otherwise in Ptz. Let's discuss about these two different level in our governance application.
+
+
+10:20:57 am - Jay Bryant:
+  
+ Well.
+
+
+10:20:58 am - Rico Lin:
+  
+ Yeah.
+
+
+10:20:59 am - Amy Marrich:
+  
+And there's nothing saying that at the PTG, we can't like, put aside 15-20 minutes to meet with them anyways and work on things but I definitely agree with Muhammad that we can't let them sit there. We'll lose them.
+
+
+10:21:11 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:21:11 am - Jay Bryant:
+  
+ Yeah.
+
+
+10:21:13 am - Mohammed Naser:
+  
+Sorry, I just decided to LG, and want a life. Anyways, I got disconnected, but I was just trying to say that, like, we have the projects and for example, a
+
+
+10:21:25 am - Ghanshyam Mann:
+  
+ To.
+
+
+10:21:26 am - Mohammed Naser:
+  
+lot of people, I think one of the struggling with is Okay, Openstack people kind of see all the same and we all know. It's not all same, you know, like, Nova Neutron Is not the same as, you know. I don't want any other projects but like there's kind of like a stability difference and things like that and I hope we can find a very good way for projects to aim to reach that level of stability and maturity without making them feel like, you know, you're like a lower to your openstack project but still kind of giving them that official designation. So it's not a fully idea and I don't really think that played it fully the way it is but I think it's something. We should discuss in Btg.
+
+
+10:22:16 am - Radosław Piliszek:
+  
+Yeah I agree. So basically after we discuss it on the PTG we can actually label any projects that we have under our poster umbrella with those. So if we decide on free levels we just apply those levels to those projects and then we have it all
+
+
+10:22:31 am - Mohammed Naser:
+  
+ Yeah, that's
+
+
+10:22:31 am - Radosław Piliszek:
+  
+ sorted out.
+
+
+10:22:33 am - Mohammed Naser:
+  
+ as long as you don't know the tags.
+
+
+10:22:34 am - Radosław Piliszek:
+  
+ Following through. Yeah, this is the tax discussion so
+
+
+10:22:38 am - Ghanshyam Mann:
+  
+ All right.
+
+
+10:22:40 am - Radosław Piliszek:
+  
+ perhaps it's a way to simplify things
+
+
+10:22:41 am - Ghanshyam Mann:
+  
+ but,
+
+
+10:22:42 am - Radosław Piliszek:
+  
+ like It's understand that we have so
+
+
+10:22:43 am - Ghanshyam Mann:
+  
+I think.
+
+
+10:22:45 am - Radosław Piliszek:
+  
+have many tags. So so this is something that we are going to work on with Jay still. But basically, if we could simplify how Cncf does it. Like, with those three levels, I think they have, like, the sandbox, the graduated, and the incubation. Probably. The incubation is the lowest one, or the sandbox is the lowest one? But yeah, if you Now, if we could adapt something similar perhaps with the same names, even to, to avoid the confusion, if someone understands already the terminology from CNCF, and then that would probably help and solve those issues. Like, Now, we are discussing whether to match Merge Venus proposal and we, we agree that it's only really one company. So we can really say it's at the level, like Mohan said, the level of Nova and friends. So, There should be some designation that it's it's kind of different maturity in there and not only measured in in terms of being in the first release but also in in those security metrics that we know, we understand. Yeah.
+
+
+10:23:57 am - Amy Marrich:
+  
+ And hopefully by bringing it in under the main repose, they'll get more companies involved because it's got more recognition.
+
+
+10:24:04 am - Radosław Piliszek:
+  
+ Yeah.
+
+
+10:24:06 am - Ghanshyam Mann:
+  
+ That's true.
+
+
+10:24:08 am - Mohammed Naser:
+  
+ I guess maybe we all agree on vote on it. Assuming that there is some incubator or whatever process even though and that's how we'll treat us now.
+
+
+10:24:16 am - Amy Marrich:
+  
+ Yep. And being that we're talking about a new project coming in any updates on the Dashboard project.
+
+
+10:24:29 am - Radosław Piliszek:
+  
+ We're missing candle.
+
+
+10:24:29 am - Amy Marrich:
+  
+ I don't.
+
+
+10:24:31 am - Ghanshyam Mann:
+  
+ Proposal still. So, yeah.
+
+
+10:24:32 am - Radosław Piliszek:
+  
+ Was.
+
+
+10:24:33 am - Amy Marrich:
+  
+ Okay.
+
+
+10:24:33 am - Ghanshyam Mann:
+  
+ So
+
+
+10:24:34 am - Radosław Piliszek:
+  
+ There was no proposal. Yeah and and Kendall is not with us today. So we can say really
+
+
+10:24:39 am - Ghanshyam Mann:
+  
+yeah, puzzle was to collect what all things they need to do before. They actually propose it to mailing list or something. So we have told them that I've stack integration and all So, maybe once they're finished and they will never come up. So yeah, yeah. Please vote on the current patch and Nasir, I will add action item for you to add this in PTC tripad. Is it okay?
+
+
+10:25:08 am - Amy Marrich:
+  
+ now, here's a Bad question. Probably, are we going to ask these new projects coming in to use launchpad or storyboard?
+
+
+10:25:23 am - Mohammed Naser:
+  
+ I think it can do whatever you want,
+
+
+10:25:25 am - Dan Smith:
+  
+ Yeah.
+
+
+10:25:25 am - Mohammed Naser:
+  
+ no.
+
+
+10:25:26 am - Dan Smith:
+  
+ Are we is that like a TC thing? Like
+
+
+10:25:28 am - Amy Marrich:
+  
+ Well, not really but we keep hearing storyboards going away. We keep hearing launch pads going away. So which one do we send them to?
+
+
+10:25:35 am - Jay Bryant:
+  
+ oh,
+
+
+10:25:36 am - Dan Smith:
+  
+ Well, Launchpad works. So I would think launchpad.
+
+
+10:25:44 am - Jay Bryant:
+  
+ I,
+
+
+10:25:44 am - Ghanshyam Mann:
+  
+Okay, so moment I added the action item for you to edit it on the Internet. And then we can yeah, discuss some if it is, you So, next topic is the next step on pain points and project six. So, I'll add the interpret link in.
+
+
+10:26:06 am - Amy Marrich:
+  
+ but,
+
+
+10:26:07 am - Ghanshyam Mann:
+  
+ IRC chat so rico. Go ahead.
+
+
+10:26:12 am - Rico Lin:
+  
+yeah, I think it's mostly like we already kind of like identified, the revenue is one of it. So I think that will be definitely worse developing. I mean, worse discussions in more details in the eastern part. so, for now is still Sorry Loading. I mean for for now it's I was trying to like figure out like what else Ping pong is that people can pick on. But I personally don't have any like, strong suggestions.
+
+
+10:26:55 am - Ghanshyam Mann:
+  
+ Hmm.
+
+
+10:26:55 am - Rico Lin:
+  
+ Other than Arabian Q to be honest.
+
+
+10:26:55 am - Ghanshyam Mann:
+  
+So is So is there any like section in either pad, you made it for for the common? 10 points, we are going to filter out or Or we should comment in line. Every, every pinpoint.
+
+
+10:27:11 am - Rico Lin:
+  
+ Yeah, well I it's kind of like a very long list so we can we do can like spend a little time. Walk through a little bit if you guys
+
+
+10:27:21 am - Ghanshyam Mann:
+  
+ so,
+
+
+10:27:23 am - Rico Lin:
+  
+ want.
+
+
+10:27:24 am - Ghanshyam Mann:
+  
+yeah, I think that's good idea because we kept this meeting most of the time for this topic. So, let's go. Or one by one and then we can see how look. How much we cover it?
+
+
+10:27:40 am - Rico Lin:
+  
+ Sure. You want to share a screen? Or I will share it.
+
+
+10:27:44 am - Ghanshyam Mann:
+  
+ Yeah, that will be good.
+
+
+10:27:46 am - Rico Lin:
+  
+ Okay.
+
+
+10:28:08 am - Belmiro Moreira:
+  
+ So is the plan for us now to go through each topic and discuss it. I'm not understanding
+
+
+10:28:17 am - Rico Lin:
+  
+So I guess the plan now unless there's any like suggestions from from any of you like you suggest any of the topic inside and we can go through that one and give it deeply deep look. Or otherwise we we can like I mean we I can only just generally like go through the entire topic is otherwise. we didn't have like, to be honest, we don't have like a lot of like, like targeting feedbacks about too busy surpasses to say like Hey I feel like this is a very Like a point. so, Yeah.
+
+
+10:29:00 am - Belmiro Moreira:
+  
+Right. But when I look when I look into the weather path and I see all these feedback that in some projects is a lot of feedback. And I don't know about the value now
+
+
+10:29:10 am - Rico Lin:
+  
+ Yes.
+
+
+10:29:11 am - Belmiro Moreira:
+  
+for us to go through each point because maybe we will not be able to discuss all of these points because actually don't know them. I think what will be important for us is to discuss the next steps? And if we go for these community goal, can we gonna follow these up? We did the with the project. Can we move these forwards for the projects, actually to look into these pinpoints and give their feedback?
+
+
+10:29:40 am - Rico Lin:
+  
+ yeah, I think that I sense there's
+
+
+10:29:42 am - Belmiro Moreira:
+  
+ Because at least for me, it's very
+
+
+10:29:43 am - Rico Lin:
+  
+ like two ways that we have to
+
+
+10:29:44 am - Belmiro Moreira:
+  
+difficult to say that Okay, let me finish. Because at least for me it's very difficult to say that, for example, in the ironic, the first point that is there is one the first one there that it's a valid pinpoint, or not, or should the ironic team look into it. I think that should be live to the
+
+
+10:30:06 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:30:06 am - Belmiro Moreira:
+  
+ project but at least we should track all of that.
+
+
+10:30:10 am - Ghanshyam Mann:
+  
+ So let's do one thing.
+
+
+10:30:11 am - Rico Lin:
+  
+ Yeah.
+
+
+10:30:13 am - Ghanshyam Mann:
+  
+Let's go one by one and see if these are the common pain points or applicable to more than two three projects, then we consider it. And if there is that's a very specific to that project then we can leave it. To have discussion with project or within project.
+
+
+10:30:30 am - Rico Lin:
+  
+Yeah. Since there's like two ways to driving the entire Easter path, forward is one way as suggests that we're trying to figure out like how to encourage each things actually pick up their own pain points and trying to help to encourage them to do the developer job in the following cycles. And hopefully, eventually they will resolve the pain point. If they sing, it's a pinpoint. The other ways that is we I currently driving now is to, it is trying to identify as the last time we have in the meeting. We're trying to identify some of the common pinpoints across projects that is not necessary to be a go, but we definitely need to target it. Maybe as a TC missions.
+
+
+10:31:19 am - Ghanshyam Mann:
+  
+Yeah, on first one, I think these pain points are from project itself. So they understand their pain Yeah. On first one I think these pain points are from project itself so
+
+
+10:31:26 am - Rico Lin:
+  
+ Yeah.
+
+
+10:31:27 am - Ghanshyam Mann:
+  
+ they understand their pain point, right? So
+
+
+10:31:28 am - Rico Lin:
+  
+ Yeah. The the performance of the database are very large ironic noses always been the pinpoints for ironic. I mean it's for very long time, they have been discussed that for very long time. Policing as well. Thundering hot. Yeah, that's pretty much as well.
+
+
+10:31:54 am - Mohammed Naser:
+  
+Yeah, Yes, as much as go through those, I have a hard time, finding common pattern, they all seem to be very project, specific pain points. From what I'm saying, honestly.
+
+
+10:32:09 am - Ghanshyam Mann:
+  
+ This is like rabbit mq thing. Anyone complained or they all are
+
+
+10:32:13 am - Mohammed Naser:
+  
+ yeah, I mean, I think that it was
+
+
+10:32:13 am - Ghanshyam Mann:
+  
+ happy with that.
+
+
+10:32:15 am - Mohammed Naser:
+  
+brought in a couple different projects Uh, but that's a difficult one because like, I think that code won't understand no one's around that's still kind of fully comprehends. What all this RPC Muslim messaging stuff is doing. And it like involves a whole another.
+
+
+10:32:40 am - Ghanshyam Mann:
+  
+ Used.
+
+
+10:32:42 am - Mohammed Naser:
+  
+ Okay.
+
+
+10:32:43 am - Ghanshyam Mann:
+  
+ You 75 if you see here.
+
+
+10:32:47 am - Mohammed Naser:
+  
+ I just don't know if there's
+
+
+10:32:48 am - Rico Lin:
+  
+ Yeah.
+
+
+10:32:48 am - Mohammed Naser:
+  
+ something we can find common in our project. This close
+
+
+10:32:54 am - Rico Lin:
+  
+I I totally like onboarding to have no dubbing deep on the rap Yankee one. So I assumed I will be definitely one that was first easy to develop on as that's kind of like the entire community infrastructure sync that we can How maybe on the infrastructure level? Like I don't like set up with devastate job in different ways or have documents.
+
+
+10:33:22 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:33:23 am - Rico Lin:
+  
+But yeah, that's definitely something that we can traveling. And is, is like, as I'm sorry. Now, as I mentioned in in a lot of modules, So yeah, it's definitely something that we need to talk. I'm actually just trying to I mean, I guess today, we're just trying to like figure out if there's any more, if not that we can save our rest of the ties and
+
+
+10:33:45 am - Ghanshyam Mann:
+  
+ yeah, the one
+
+
+10:33:46 am - Rico Lin:
+  
+ Actually go discuss the other way, like how can we do the how can encourage things to to adopt their
+
+
+10:33:53 am - Ghanshyam Mann:
+  
+ yeah.
+
+
+10:33:53 am - Rico Lin:
+  
+ open points?
+
+
+10:33:55 am - Ghanshyam Mann:
+  
+ so, I think the one at 93 the OSC,
+
+
+10:34:00 am - Rico Lin:
+  
+ Okay.
+
+
+10:34:00 am - Ghanshyam Mann:
+  
+ Still, I think will need a lot of work to do that so that can be a good candidate along with Rabbit MQ.
+
+
+10:34:09 am - Radosław Piliszek:
+  
+So basically the shirt services. So with RABBITMQ, we revealed the problem that they also team is actually missing people knowledgeable about the messaging their PC system. That was delivered with the Rabbit MQ implementation and similarly the other services, obviously the Openstack clients. So basically the the two shared shared components in our cloud. So they also in the opens the client something that that is common and this is kind of expected. um, I guess from this discussion, I would I will come back to the words of Bermuda today that perhaps one point obviously is We can choose those common pain points because we understand them and to them to be quite obvious, which one those would be, but to actually give some guidance to the community, how to approach those pain points that were presented for, for each project, because the majority of the pain points which are actually pain points for the operators, are very project specific and And there's nothing coming between the projects for them. So we can just say that the TC only cares about the common ones and the rest are unimportant so that shouldn't be the message that we are sending. Basically I don't know the answer to what the next step should be, but I guess this is something that we should definitely discuss it up to date and on the PCG.
+
+
+10:35:44 am - Mohammed Naser:
+  
+ so maybe this is
+
+
+10:35:44 am - Rico Lin:
+  
+ Yeah. Decorate.
+
+
+10:35:46 am - Mohammed Naser:
+  
+ Sorry, go ahead.
+
+
+10:35:48 am - Rico Lin:
+  
+So I don't think like we noticed to mention like It's not the old not important in the other way. We we actually sending a message about like we encourage projects to targeting those pain points. As we now collecting a lot, the other ways that TC can pick some of it and we can discuss. Like we can separate the topic and discuss those like say reppian Q. Like say open sdks, we can separate those, maybe not a go I don't think that is a go but it's kind of like definitely something that we can keep trucking on and to see how we can liberate it.
+
+
+10:36:23 am - Ghanshyam Mann:
+  
+ Yeah, either go like Go Repop team. We can prepare forever time to do some of the brainstorming first for one or two cycle. OSC one anyway, I still feel we should solve that on priority. instead of
+
+
+10:36:38 am - Mohammed Naser:
+  
+I have I had like a very simple idea is that maybe if we could ask the teams to just make sure if there's actual like launchpad, bugs tracking all those things that were characters are very, very nice list of feedback, but at least having It put in somewhere and then the way the projects can end up, they decide on how they want to go about them.
+
+
+10:37:07 am - Radosław Piliszek:
+  
+ Okay, since you suggests the recommend the project structure is start tracking those in the preferred systems of tracking issues, right?
+
+
+10:37:15 am - Mohammed Naser:
+  
+yeah, because like, for example, Like I know it looks like Shawn, like, left a lot of comments on the Nova side which will like, Hey, this is how we do this. Say, this is actually not an issue because we do that instead of like this, so it's maybe like maybe it's just a documentation thing that needs to be updated. There's a lot of this stuff that needs to be filtered out. That it's not actually a problem. It's just, you're using this the wrong way, or This is how you need to go about it or This is the the thing that we're aiming to fix, like, I know there was some stuff really, you know, audit service and supposedly was like to resolve some of those shoes that they've seen. So it's like, maybe that'll help at least recognize very shoes and what are things that are employed and what are things that are just To be knowing.
+
+
+10:38:09 am - Rico Lin:
+  
+Yeah, I like the idea to to I, I actually like also like thinking about we have we should have planned to reach out to teams to not just the video but to to entertain, maybe join their meetings to ask like doing what the strong. The thing is doing Sean's doing to, to maybe like you made, like you suggest, we have the place to put it on the launchpad or so report. I don't know where but to have nothing to actually capable of feedback, then I guess that's actually like up to things. You decide how they want to reply.
+
+
+10:38:47 am - Ghanshyam Mann:
+  
+ And looks true. Yeah, I think because the they have
+
+
+10:38:50 am - Radosław Piliszek:
+  
+ so,
+
+
+10:38:51 am - Ghanshyam Mann:
+  
+ collected this so it's good for them to track it and solve it or document it.
+
+
+10:38:57 am - Rico Lin:
+  
+ Yeah.
+
+
+10:38:57 am - Ghanshyam Mann:
+  
+ And if something they, they would like TC to like, work on or provide some direction, that specific thing we can continue discussing it.
+
+
+10:39:05 am - Rico Lin:
+  
+ Yeah. So yeah, that's definitely one of those things that we should. We I think it's a good thing we can
+
+
+10:39:11 am - Ghanshyam Mann:
+  
+ Okay.
+
+
+10:39:12 am - Rico Lin:
+  
+ do that is as action items. To driving things to.
+
+
+10:39:16 am - Belmiro Moreira:
+  
+ Well.
+
+
+10:39:20 am - Radosław Piliszek:
+  
+ when, you know,
+
+
+10:39:20 am - Belmiro Moreira:
+  
+I think that is important and we give all of these feedback from operators to the projects, but I also believe that TC has a role to track. All of this is not only giving this to the projects and now they decide. Because operators trust on the PC to give this feedback. This was asked by the TC. At least I think it will be fair for us to now track. Now, Every all of these pain points with the different projects, and at least get their feedback and in some kind of meeting video meeting. And give some feedback as well to the operators. I think we should not expect now that the operators will interact directly with the projects because they are that opportunity. And always right, but they choose to give these feedback to us.
+
+
+10:40:17 am - Mohammed Naser:
+  
+Yeah, I agree. I think my main ideas that just make sure that you know, we don't all understand all of these. So we've all follow deeply the rocks on those projects. But just to heads up of like, okay, like this is an actual problem. We agree or like actually, this is for example, openstack client. Those comments like Hey we've already made sure that feature parity is there. So it's the missing stuff that you know, is being brought up or then we can test. Those are clearly
+
+
+10:40:55 am - Rico Lin:
+  
+ yeah, as I was like,
+
+
+10:40:56 am - Mohammed Naser:
+  
+ Maybe.
+
+
+10:40:58 am - Rico Lin:
+  
+ yeah, go ahead.
+
+
+10:40:58 am - Mohammed Naser:
+  
+Sorry. Just maybe we can tag all those issues once they're created somewhere and like much better whatever and we can kind of have those as a working list of things that we tripped down. So as a list of issues that we can walk through,
+
+
+10:41:18 am - Ghanshyam Mann:
+  
+ Yeah, I think, let's go with that,
+
+
+10:41:19 am - Radosław Piliszek:
+  
+ Yeah, I think.
+
+
+10:41:19 am - Rico Lin:
+  
+ I mean, like, I mean like documents
+
+
+10:41:20 am - Ghanshyam Mann:
+  
+ help.
+
+
+10:41:21 am - Rico Lin:
+  
+ somewhere from the TC side to for those pain points? That we can. Like after we have Project Feedback song, we can rework through the list of the maybe like a box to figure out how the process is being.
+
+
+10:41:46 am - Rico Lin:
+  
+ Yeah.
+
+
+10:41:46 am - Ghanshyam Mann:
+  
+ Yeah, please make sure we asked
+
+
+10:41:47 am - Rico Lin:
+  
+ Anyways, like
+
+
+10:41:49 am - Ghanshyam Mann:
+  
+ projects to tell us your pain points. And then we are saying Yes, you you fix it? right, so I'm not finding like how
+
+
+10:42:00 am - Mohammed Naser:
+  
+ Well, the thing is that most of these
+
+
+10:42:03 am - Rico Lin:
+  
+ We can try.
+
+
+10:42:03 am - Mohammed Naser:
+  
+ comments are a lot. They seem to be coming from operators.
+
+
+10:42:09 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:42:10 am - Mohammed Naser:
+  
+it is, these don't seem like Projects that are saying these are our pain points ended up being operators and this is our pain points. What it feels like when a rating all of those, same ended up with this ended up being mostly operators. A lot of stuff for those big bigger
+
+
+10:42:30 am - Radosław Piliszek:
+  
+ Right.
+
+
+10:42:33 am - Mohammed Naser:
+  
+ projects just end up being. Feels like operators saying, these are the things that were listening on.
+
+
+10:42:45 am - Ghanshyam Mann:
+  
+Yeah, that's what my understanding also. Was having some feedback from operator and then we discuss it project team and all. But anyways, if it's coming from project so we can ask them to, we are track it in their launchpad or way and I think from this to two items, we can take it forward for it, easy discussion or next discussion, every thank you. And open stack client. Openstack client. I feel we should start doing it on priorities. We should get some resources there. Otherwise it's continuing continuing for many years. Right? We made the resolution but still I don't know how much progress we have after that. I feel these are.
+
+
+10:43:29 am - Mohammed Naser:
+  
+I think the biggest problem is you have a little, a small amount of people working at Openstack line trying to get The work of the entire community and I frankly just don't think that we'll be able to catch up and as long as projects continue to push things into their existing clients and not into openstack client. We're going to be stuck in the same. Thing and like sometimes maybe the only solution is a nuclear all Python dash. and clients and use those that client, and That's just kind of it. I don't know that to be the only way we actually start to put towards. Okay, like we're burning. You know, we're burning off the people that are trying to make openstack. CLI continue to be in single breast.
+
+
+10:44:23 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:44:28 am - Rico Lin:
+  
+So, I guess the most of the job that we I think that is in now took a section is more like a, not just real specific project but more like a infrastructure. Cross Projectly. Works that some of them being left of sound than ever happened. Working on like rampage. I guess there's also a certain items that Walmart mentioned like we have to take action to to invite projectings and with the new PDL to to give the to ask for their attention. Maybe hopefully they can have
+
+
+10:45:07 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:45:08 am - Rico Lin:
+  
+ feedbacks.
+
+
+10:45:09 am - Ghanshyam Mann:
+  
+Maybe you can just convey like that. Yes, we understand that and this is project specific so you can track it in your loans, but or something. Instead of just saying, Yeah we know you mentioned the pinpoint and now you go and fix it. So we can ask them like if you feel
+
+
+10:45:24 am - Rico Lin:
+  
+ Yeah.
+
+
+10:45:25 am - Ghanshyam Mann:
+  
+like this is common to multiple project and they have not written there feedback here so that we can obviously take it further. But other than that whatever existing things which are project specific you continue as per your project priority or nice for the bandwidth. Right.
+
+
+10:45:44 am - Rico Lin:
+  
+ Yeah.
+
+
+10:45:45 am - Ghanshyam Mann:
+  
+ And these two things we can take it forward and see let's let's see how how it goes. If we get saved me more volunteer for OSE or Otherwise, we'll continue discussing in Ptz, also.
+
+
+10:45:57 am - Rico Lin:
+  
+ Yep. And there's another, I mean it's a I I guess everybody knows there's another like the course project pain points to which is like low number of active, call member call reviewers, but we already have discussions on that. So, I guess that would be the action.
+
+
+10:46:18 am - Ghanshyam Mann:
+  
+Why I think more than project we need need, volunteer for our basic maintenance. So I feel that's project specific thing if none of the user of that need, volunteer for our basic maintenance. So I feel that's project specific
+
+
+10:46:26 am - Rico Lin:
+  
+ Yep.
+
+
+10:46:27 am - Ghanshyam Mann:
+  
+ thing, if none of the user of that project coming forward so it's completely fine to retire.
+
+
+10:46:34 am - Rico Lin:
+  
+ Yep.
+
+
+10:46:35 am - Ghanshyam Mann:
+  
+ I, I am not seeing like how we can help them.
+
+
+10:46:41 am - Rico Lin:
+  
+ Well, I guess it's definitely up to the board members and the technical community members to to have further
+
+
+10:46:45 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:46:48 am - Rico Lin:
+  
+ discussions. Brainstorming.
+
+
+10:46:51 am - Ghanshyam Mann:
+  
+Yeah. And we as you know, like we continue doing with the Board of director, the installing session also And there is no exact solution yet, but it's brainstorming session going on and let's see. How it goes. But I think other than any of project. Specific thing. I see these low, contributor things feedback from QA. And I think that's it.
+
+
+10:47:23 am - Rico Lin:
+  
+ Yeah.
+
+
+10:47:23 am - Ghanshyam Mann:
+  
+ In front we already know. But yeah, in Korea also Currently, we still have people to manage the things. But qa is more. Distributed with the project. Project site testing right either it's a tempest plugin or people from different project coming and helping in their stack or campus. So It's not inverse situation as of now.
+
+
+10:47:52 am - Rico Lin:
+  
+ So I guess right now that we have picked up two actions to to in the
+
+
+10:48:00 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:48:00 am - Rico Lin:
+  
+PTG, maybe we can discuss. And before PDG maybe we can try to discuss more about Arabian cues and And the Openstack client. And maybe like in PDG or after that we can discuss how how we can reach out to things to ask, then to encourage them to interact on the Easter path or on the questions. That is about being mentioned. Is there anything else that I am missing?
+
+
+10:48:31 am - Ghanshyam Mann:
+  
+I think that's a good step. And how we'd like to go with the Bug on mailing list, you just apply them. project to track it, or You wanted to wait in Ptc.
+
+
+10:48:47 am - Rico Lin:
+  
+ You mean how to attract all of this pain points?
+
+
+10:48:52 am - Ghanshyam Mann:
+  
+I, Yeah, I'll just say leave it to project side. We'll just tell them. Yes, you can track it. It's not common but if it is common let us know. Otherwise you can track it. So it's up to them.
+
+
+10:49:04 am - Rico Lin:
+  
+ Yeah.
+
+
+10:49:05 am - Ghanshyam Mann:
+  
+ Talk. They would like to do it.
+
+
+10:49:06 am - Rico Lin:
+  
+Yeah, but I think that as a as one of the action item, we probably need to do is to reach out to things, not just the PTO but to to the things maybe join the meeting soon to mention that there's some of the things they operated in feedbacks and we need their kindly feedback, reply as well.
+
+
+10:49:30 am - Ghanshyam Mann:
+  
+ so, Yeah, that we can go in pretty easy.
+
+
+10:49:34 am - Rico Lin:
+  
+ Yep.
+
+
+10:49:35 am - Ghanshyam Mann:
+  
+Thanks Rico for working on this, and is not easy things to collect these kind of feedbacks and all. But anyway, let's continue it on PTC. We have now 10 minute left. So anything else on this topic from anyone? Okay, so we are moving now forward to next topic. Which is newsletter. It's just We are going to have a newsletter next week. I have added the two items which is from the previous month or something. And the election thing we can add once we finish the retail election. So if you guys have anything, any news to be added, feel free to add any third pad by maybe today or tomorrow. Because next week, it's going to be published and to Be at the link. The link to that is there on IRC check. And now moving to open review. So one HTC elections are closed. I almost that X and I have added my nomination for PCs here to continue. And if anyone else would like to service this year, please add your nomination. Other than that the open review is all good, puppet, minus I think. Yeah, we got the ppl, plus one soil. Merge that next is, Ptz Stream, TC Meeting.
+
+
+10:51:44 am - Belmiro Moreira:
+  
+ Yeah, so I have the topic.
+
+
+10:51:46 am - Ghanshyam Mann:
+  
+ yeah, this Yeah, go ahead.
+
+
+10:51:50 am - Belmiro Moreira:
+  
+so if you remember like one month, or more ago, when we started, discussing the PTG with us, if we wanted to stream one of our meetings, like, with the last time, And so I had these action to talk with the Erin and to see if that was possible. So then I went on holiday and this delayed a lot. So she come back with a proposal. So apparently the, it will not be possible to offer these like in the last time in the open infra life. because now, the technology that they are using, I don't remember and we'll not allow to have so many people connecting, so many guests, connecting. But today are happy to host this like in a separate event in a date that we have the meeting. Doesn't need to be Thursday at that time. Via zoom, and they can actually also help to publicize this and to give the word to the community. So I think the it's on us to decide if we want to do this, the way we want to do it. If we want questions like Question answer style from the community to answer to ask questions or like just streaming a meeting.
+
+
+10:53:20 am - Ghanshyam Mann:
+  
+ Hmm, I'm just checking the topics in either pad.
+
+
+10:53:28 am - Amy Marrich:
+  
+ Right now, I think we're scheduled on Monday.
+
+
+10:53:31 am - Ghanshyam Mann:
+  
+ So Mondays or PTL interaction session.
+
+
+10:53:36 am - Amy Marrich:
+  
+ Yeah.
+
+
+10:53:37 am - Ghanshyam Mann:
+  
+ Then we have Thursday and Friday for
+
+
+10:53:40 am - Amy Marrich:
+  
+ Okay.
+
+
+10:53:40 am - Ghanshyam Mann:
+  
+ 4 hours.
+
+
+10:53:56 am - Rico Lin:
+  
+ So, what we decide to streaming about
+
+
+10:53:57 am - Ghanshyam Mann:
+  
+ Should.
+
+
+10:53:59 am - Rico Lin:
+  
+ is about to, to have a chance to interact with with the people who join the the YouTube, or we, we want to assure some of our meetings. I mean like as in the interact with PTO is definitely one of the things that can be streaming, right?
+
+
+10:54:16 am - Ghanshyam Mann:
+  
+Yeah. we can I actually the idea of streaming Was something we wanted to convey to community tomorrow audience, right? Like, in last time, we had a discussion on release thing where there are a lot of members for interested at least to know the Know the discussion. instead of taking participate, So if we have such topic where we wanted to convey that discussion to larger audience, I feel that we can do it. If we don't have such topic, maybe we can just skip it. So it's it's depends on the topic, actually.
+
+
+10:55:05 am - Belmiro Moreira:
+  
+Well, maybe it will be if we don't have that big topic to be widely discussed we can have actually ask me anything session, ask the DC, anything and that could be quite interesting because then we can see how people think about DC, what kind of things they believe we can solve. What are actually the problems that they have in their minds about the community. that could be a very helpful and at least shows openness
+
+
+10:55:37 am - Dan Smith:
+  
+ But they're not going to ask me
+
+
+10:55:37 am - Ghanshyam Mann:
+  
+ And that's
+
+
+10:55:38 am - Dan Smith:
+  
+ anything, right.
+
+
+10:55:38 am - Ghanshyam Mann:
+  
+ not.
+
+
+10:55:39 am - Dan Smith:
+  
+These will be all pre curated questions, vetted by the election team to make sure that they're not embarrassing for us, right? That was a joke. Sorry, bone marrow.
+
+
+10:55:53 am - Belmiro Moreira:
+  
+ that they can ask you anything. So to answer, then is your choice,
+
+
+10:55:56 am - Dan Smith:
+  
+ oh,
+
+
+10:55:57 am - Belmiro Moreira:
+  
+ right?
+
+
+10:55:59 am - Dan Smith:
+  
+ Oh, okay. Okay, gotcha. Gotcha.
+
+
+10:56:05 am - Ghanshyam Mann:
+  
+ And that you mean not just community, even the people out of community right below. Even, they would like to know what? DC work.
+
+
+10:56:14 am - Belmiro Moreira:
+  
+ Well, I I was thinking about community, right? So if we do this, we're gonna and like, send an email to all the
+
+
+10:56:22 am - Ghanshyam Mann:
+  
+ but,
+
+
+10:56:22 am - Belmiro Moreira:
+  
+ and that we're gonna have this session.
+
+
+10:56:23 am - Ghanshyam Mann:
+  
+ yeah, the thing is
+
+
+10:56:24 am - Belmiro Moreira:
+  
+ Think about questions.
+
+
+10:56:26 am - Ghanshyam Mann:
+  
+Yeah, the thing is or you can see the challenge in that is most of our session schedule on Thursday, Friday, most of community have their project sessions. So, I'm wearing like, how many of them are free or we should? At least get some schedule during Monday or Tuesday where where we have the people free from their project session and they can join
+
+
+10:56:52 am - Mohammed Naser:
+  
+Yeah, and I was also going to add like if it's not something related to a discussion that we're having, we don't have to tie it down to happening during the PTG. If it's just not gonna ask me anything, I'm pretty sure it could be organized as like an open and for life thing, because it happened anytime But if it's like we want to show
+
+
+10:57:10 am - Jay Bryant:
+  
+ Right.
+
+
+10:57:10 am - Mohammed Naser:
+  
+external coverage of a discussion that we're talking then. Yeah. That makes sense for us to pick a topic that would be streamed but if it's purely just like We want to do an event thing then, I think we can totally incorporate that into something external. So I think if we can come up with the subject, that is stream, then it
+
+
+10:57:29 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:57:30 am - Mohammed Naser:
+  
+ should be like a separate thing on a separate timeline.
+
+
+10:57:35 am - Ghanshyam Mann:
+  
+Look, the only one thing is cross community session with community steering committee. If community stating committee comes and join us, maybe that can be good to stream.
+
+
+10:57:47 am - Mohammed Naser:
+  
+ Yeah, I like that.
+
+
+10:57:50 am - Rico Lin:
+  
+ Yeah, I think that's a good idea.
+
+
+10:57:50 am - Mohammed Naser:
+  
+ um, In a weird way.
+
+
+10:57:54 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:57:55 am - Mohammed Naser:
+  
+ I'm trying to avoid anything that might like be very conflict-ish because people
+
+
+10:58:03 am - Ghanshyam Mann:
+  
+ Yeah.
+
+
+10:58:03 am - Mohammed Naser:
+  
+from an external point of view we're going to have this like weird opinion that like if we're like Oh we haven't contributors for agitant like response like Openstack is that. It's like Yeah. But this thing like came way after and like was only two people that are involved that so it's like we kind of just have to be mindful of what we like really named process. Change could be another interesting one where it's not very, you know, it's just like we're gonna go about doing this thing and it doesn't to come off with anything. So I think that's another interesting one as well.
+
+
+10:58:40 am - Ghanshyam Mann:
+  
+ Yeah. So let's wait for a few more time where we'll have more topics in Luther Pad and then we can select some of the coping and then we can
+
+
+10:58:49 am - Mohammed Naser:
+  
+ Yeah.
+
+
+10:58:50 am - Ghanshyam Mann:
+  
+ go.
+
+
+10:58:51 am - Mohammed Naser:
+  
+ I also think this OS 81 is also
+
+
+10:58:52 am - Ghanshyam Mann:
+  
+ What?
+
+
+10:58:54 am - Mohammed Naser:
+  
+interesting, especially it's just like something that's happened and we were just triggering what the best way to go about and I'm sure there's a lot of other projects that be dealing with something similar. Like I don't know, other infrastructure related projects or anything that support sentosa. Might be like, Well, let's openstack doing it because they're kind of in the same boat, maybe can get some of the rdl audience. It can actually go beyond Openstack only but like, how do you deal with Sentosa and of life in a big project like Openstack. Because that could affect other projects as well. So I think that could be interesting for people outside Openstack because, you know, I think it's important for us to find something, then outside Openstack, people will be interesting.
+
+
+10:59:43 am - Ghanshyam Mann:
+  
+Yeah. so, Beyond time. So let's continue to Check on the topics where we can stream and then we'll we can we can see how we can stream it like on Thursday or different time. Depends on the live opening for live streaming things. Okay, so that's all for today. Meeting anything else. So we are on time So close it don't matter. She'll stop the recording and our next. Weak limiting will be on IRC. And I think we are going to meet on. Up first of every month on video call, we'll discuss in our next irony meeting. So thanks everyone for joining and have a good day ahead or night ahead.
+
+
+11:00:42 am - Rico Lin:
+  
+ Thanks Russian.
+
+
+11:00:42 am - Mohammed Naser:
+  
+ Take care. Cheers, everyone.
+
+
+11:00:43 am - Jay Bryant:
+  
+ Something good.
+
+
+11:00:43 am - Rico Lin:
+  
+ Thanks everyone. Bye.
+
+
+11:00:45 am - Jay Bryant:
+  
+ Be everybody.
+
+
+11:00:45 am - Radosław Piliszek:
+  
+ Everybody.
+
+
+11:00:48 am - Belmiro Moreira:
+  
+ Right.
