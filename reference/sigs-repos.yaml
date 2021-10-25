@@ -88,6 +88,7 @@ Technical Writing:
   - repo: openstack/upstream-institute-virtual-environment
 Testing and Collaboration Tools:
   - repo: openstack/bugdaystats
+  - repo: openstack/ci-log-processing
   - repo: openstack/devstack-gate
     deprecated: xena
   - repo: openstack/diskimage-builder
