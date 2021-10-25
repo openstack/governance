@@ -3249,20 +3249,20 @@ venus:
   deliverables:
     venus:
       repos:
-        - inspur/venus
+        - openstack/venus
     venus-specs:
       release-management: none
       repos:
-        - inspur/venus-specs
+        - openstack/venus-specs
     venus-dashboard:
       repos:
-        - inspur/venus-dashboard
+        - openstack/venus-dashboard
     python-venusclient:
       repos:
-        - inspur/python-venusclient
+        - openstack/python-venusclient
     venus-tempest-plugin:
       repos:
-        - inspur/venus-tempest-plugin
+        - openstack/venus-tempest-plugin
 
   liaisons:
     tc_members: [gmann, yoctozepto]
