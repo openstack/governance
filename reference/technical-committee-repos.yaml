@@ -1,11 +1,14 @@
 ---
 # List of repositories owned by the technical committee
 Technical Committee:
+  - repo: openstack/api-site
+  - repo: openstack/constellations
   - repo: openstack/election
   - repo: openstack/goal-tools
   - repo: openstack/governance
   - repo: openstack/governance-website
   - repo: openstack/ideas
   - repo: openstack/openstack
+  - repo: openstack/openstack-manuals
   - repo: openstack/project-team-guide
   - repo: openstack/service-types-authority

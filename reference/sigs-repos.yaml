@@ -8,6 +8,10 @@ API:
 Automation:
   - repo: openstack/auto-scaling-sig
   - repo: openstack/self-healing-sig
+First Contact:
+  - repo: openstack/contributor-guide
+  - repo: openstack/training-guides
+  - repo: openstack/upstream-institute-virtual-environment
 Hardware Vendor:
   - repo: openstack/python-dracclient
 i18n:
@@ -79,13 +83,7 @@ Security:
   - repo: openstack/security-doc
   - repo: openstack/security-specs
 Technical Writing:
-  - repo: openstack/api-site
-  - repo: openstack/constellations
-  - repo: openstack/contributor-guide
-  - repo: openstack/openstack-manuals
   - repo: openstack/training-labs
-  - repo: openstack/training-guides
-  - repo: openstack/upstream-institute-virtual-environment
 Testing and Collaboration Tools:
   - repo: openstack/bugdaystats
   - repo: openstack/ci-log-processing
