@@ -116,7 +116,8 @@ The following free operating systems are representative of platforms regularly
 used to deploy OpenStack on:
 
 - `Latest Ubuntu LTS <https://wiki.ubuntu.com/Releases>`_
-- `Latest CentOS Major <https://www.centos.org/download/>`_
+- `Latest CentOS Stream Major <https://www.centos.org/download/>`_
+- `Latest Debian Stable <https://www.debian.org/releases/>`_
 
 Below are the two upstream testing required as minimum to consider the above distro for defining
 the testing runtime:
