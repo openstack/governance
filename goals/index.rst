@@ -5,7 +5,7 @@
 ======================
 
 The pages in this part of the governance documentation describe
-OpenStack-wide goals for each release series.
+OpenStack-wide goals.
 
 We use these OpenStack-wide goals to achieve visible common changes,
 push for basic levels of consistency and user experience, and efficiently
@@ -72,39 +72,49 @@ Goals should be discussed on the mailing list to collect feedback on their
 feasibility, and consensus on whether they have been completely and clearly
 described.
 
-Selecting goals for a cycle
----------------------------
+Selecting goals
+---------------
 
 The TC will consider proposed goals from the ``/goals/proposed/`` directory
-and select a set of OpenStack-wide goals for each cycle in time to allow
-planning and other discussion at the PTG event at the start of the cycle.
-There is no minimum or maximum limit on the number of goals to be selected per
-cycle. It can be zero or more depends on the complexity and work required per
-goal. Also, it is completely fine to skip goal for any cycle with a valid reason
-for example, if any previous cycle goal is still pending and need more time to
-complete, or project team has less bandwidth and working on other priority
-items like popup team work etc.
+and select a set of OpenStack-wide goals to allow planning and other
+discussion at the PTG event at the start of each cycle.
 
+OpenStack-wide goals are not tied to any release, and they can have target
+dates which can be a particular cycle release date or multi-cycle or even
+in between a release cycle. Goal completion target dates will be selected by
+considering the amount of work needed and the community (project and
+champions) bandwidth. If a goal requires a large amount of work, it can be
+divided into different milestones, with each milestone targetting a set of
+things to complete. For example, if goal 'A' needs two big things to do, it
+can be divided into two milestones, say Milestone 1: Yoga cycle release,
+Milestone 2: Z cycle release.
 
-To define goals for a release cycle, a TC member should first set up the
-new series-specific directory under ``/goals/selected/`` in one patch (for
-example, create a ``/goals/selected/train/`` subdirectory for the Train
-release). Then a selection of goals can be proposed: a single subsequent
-patch moving a set of goals from the ``/goals/proposed/`` directory to the
-new ``/goals/selected/<RELEASENAME>/`` subdirectory.
+There is no minimum or maximum limit on the number of goals to be selected at
+a time. It can be zero or more depends on the complexity and work required per
+goal. For example, if three groups of contributors would like to start
+three different goals and projects are also ok with that, then it is fine to
+select all three goals at a time and implement those in parallel. Also, it is
+completely fine to have no goal for a particular time with a valid reason,
+for example, if any previous OpenStack-wide goal is still pending and needs
+more time to complete, or project team has less bandwidth and working on
+other priority items like popup team work etc.
+
+To select a goal, a TC member can pick one or more goals from the
+``/goals/proposed/`` directory and move them to the ``/goals/selected/``
+directory.
 
 This allows to consider the proposed series goals as a group, and take
 into account how feasible they are together, considering the timing and
-cycle length. Champions for selected goals should +1 this patch to confirm
-they are ready to work on their goal in the chosen cycle.
+amount of work required. Champions for selected goals should +1 this patch to
+confirm they are ready to work on their goal.
 
 
 Tracking Goal Progress
 ----------------------
 
-After goals are approved, the goal champions will create one story per
-goal and one task per project per goal to track progress on
-completion.
+After goals are approved, the goal champions can create one story per
+goal and one task per project per goal or setup an etherpad to track progress
+on completion.
 
 .. note::
 
@@ -120,12 +130,11 @@ completion.
 Team Acknowledgment of Goals
 ----------------------------
 
-Each PTL is responsible for updating the storyboard task used to track the
-goal progress for their project to set the status to "Progress" and to
-include planning artifact links before the first milestone
-deadline. The planning artifact is likely to be a link to a spec or
-bug, and the completion artifact is likely to be a link to one or more
-committed patches.
+Each PTL is responsible for updating the progress on their tracking item
+(etherpad, story, or blueprint). A status indicating progress is being made
+should include a link to a planning artifact (such as a spec). The planning
+artifact is likely to be a link to a spec or bug, and the completion artifact
+is likely to be a link to one or more committed patches.
 
 This step is also the indication that a project team is signing up as
 agreeing to the goal and committing to do the work to complete the
@@ -148,12 +157,15 @@ Completing Goals
 ----------------
 
 After a goal is completed, each PTL is responsible for updating the
-storyboard task used to track the goal progress for their project to
-set the status to "Merged" and to add links to all completion
-artifacts, before the final release date for the cycle.
+storyboard task or etherpad used to track the goal progress for their project
+to set the status to "Merged" and to add links to all completion artifacts,
+before the final deadline of the goal.
 
 If a goal is not completed, that information should be added, along
 with any references needed to track when that work will be completed.
+
+Champion or TC member needs to move the completed goal from
+``/goals/selected/`` directory to ``/goals/completed/`` directory.
 
 Goal Champion Responsibilities
 ------------------------------
@@ -225,7 +237,7 @@ during the current (say N) cycle timeframe.
 |                   |                                     |                                                       |
 +-------------------+-------------------------------------+-------------------------------------------------------+
 |Until Milestone-3  |                                     |                                                       |
-|of N release       | `Selecting goals for a cycle`_      |                                                       |
+|of N release       | `Selecting goals`_                  |                                                       |
 |                   |                                     |                                                       |
 +-------------------+-------------------------------------+-------------------------------------------------------+
 |Until N+1          |                                     |                                                       |
@@ -236,9 +248,10 @@ during the current (say N) cycle timeframe.
 Community goals
 ===============
 
-It's not required to define community goals for each release cycle. The TC can
-decide to not set any actionable community-wide goal for a release cycle,
-leaving the projects to focus on whatever is most important in their scope.
+It's not required to define community goals every time. The TC can
+decide to not set any actionable community-wide goal for a specific
+release/time, leaving the projects to focus on whatever is most important
+in their scope.
 
 .. toctree::
    :maxdepth: 3
