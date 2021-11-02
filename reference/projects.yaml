@@ -785,9 +785,9 @@ kuryr:
     tc_members: [yoctozepto, mnaser]
 magnum:
   ptl:
-    name: Feilong Wang
-    irc: flwang
-    email: flwang@catalyst.net.nz
+    name: Spyros Trigazis
+    irc: strigazi
+    email: strigazi@gmail.com
   irc-channel: openstack-containers
   service: Container Infrastructure Management service
   mission: >
