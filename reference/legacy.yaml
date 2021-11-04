@@ -487,6 +487,10 @@ keystone:
 kolla:
   partial: yes
   deliverables:
+    kolla-cli:
+      retired-on: 2021-10-25
+      repos:
+        - openstack/kolla-cli
     kolla-kubernetes:
       retired-on: 2018-05-02
       repos:

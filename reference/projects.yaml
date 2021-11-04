@@ -743,11 +743,6 @@ kolla:
     kolla-ansible:
       repos:
         - openstack/kolla-ansible
-    kolla-cli:
-      repos:
-        - openstack/kolla-cli
-      deprecated: ussuri
-      release-management: deprecated
     kayobe:
       repos:
         - openstack/kayobe
