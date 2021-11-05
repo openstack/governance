@@ -2190,8 +2190,6 @@ oslo:
     debtcollector:
       repos:
         - openstack/debtcollector
-      tags:
-        - stable:follows-policy
     devstack-plugin-amqp1:
       release-management: none
       repos:
@@ -2203,18 +2201,12 @@ oslo:
     etcd3gw:
       repos:
         - openstack/etcd3gw
-      tags:
-        - stable:follows-policy
     futurist:
       repos:
         - openstack/futurist
-      tags:
-        - stable:follows-policy
     microversion-parse:
       repos:
         - openstack/microversion-parse
-      tags:
-        - stable:follows-policy
     openstack-doc-tools:
       repos:
         - openstack/openstack-doc-tools
@@ -2240,8 +2232,6 @@ oslo:
     oslo.concurrency:
       repos:
         - openstack/oslo.concurrency
-      tags:
-        - stable:follows-policy
     oslo.config:
       repos:
         - openstack/oslo.config
@@ -2261,16 +2251,12 @@ oslo:
     oslo.i18n:
       repos:
         - openstack/oslo.i18n
-      tags:
-        - stable:follows-policy
     oslo.limit:
       repos:
         - openstack/oslo.limit
     oslo.log:
       repos:
         - openstack/oslo.log
-      tags:
-        - stable:follows-policy
     oslo.messaging:
       repos:
         - openstack/oslo.messaging
@@ -2297,13 +2283,9 @@ oslo:
     oslo.reports:
       repos:
         - openstack/oslo.reports
-      tags:
-        - stable:follows-policy
     oslo.rootwrap:
       repos:
         - openstack/oslo.rootwrap
-      tags:
-        - stable:follows-policy
     oslo.serialization:
       repos:
         - openstack/oslo.serialization
@@ -2341,18 +2323,12 @@ oslo:
     oslotest:
       repos:
         - openstack/oslotest
-      tags:
-        - stable:follows-policy
     osprofiler:
       repos:
         - openstack/osprofiler
-      tags:
-        - stable:follows-policy
     pbr:
       repos:
         - openstack/pbr
-      tags:
-        - stable:follows-policy
     sphinx-feature-classification:
       repos:
         - openstack/sphinx-feature-classification
@@ -2364,13 +2340,9 @@ oslo:
     taskflow:
       repos:
         - openstack/taskflow
-      tags:
-        - stable:follows-policy
     tooz:
       repos:
         - openstack/tooz
-      tags:
-        - stable:follows-policy
     whereto:
       repos:
         - openstack/whereto
