@@ -40,16 +40,13 @@ Reference documents and Resolutions
    resolutions/index
    resolutions/superseded/index
 
-Meeting & Office hour
-=====================
+Meeting
+=======
 
 Beyond discussing on the mailing-list and participating in ad-hoc IRC meetings,
-TC members will hold meeting and office hour (for one hour) on the
-#openstack-tc IRC channel at the following times every week:
+TC members will hold meeting at the following time every week:
 
 * `Weekly Meeting <http://eavesdrop.openstack.org/#Technical_Committee_Meeting>`__
-
-* `Office hour <http://eavesdrop.openstack.org/#Technical_Committee_Office_hours>`__
 
 You can contact TC members at any time, but there will be an effort to
 be present at those specific hours. So don't hesitate to reach out if you
