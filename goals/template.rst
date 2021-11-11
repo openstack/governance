@@ -7,6 +7,8 @@ justification for applying the goal to all OpenStack projects.
 
 :Storyboard Board: <put the link to the tracking board here>
 :Storyboard Story: <put the link to the story for this goal here>
+OR
+:Etherpad: <put the link to etherpad where progress is tracked>
 
 Champion
 ========
@@ -23,14 +25,30 @@ gerrit topic::
 
   <insert topic here>
 
-Completion Criteria
-===================
+Completion Date & Criteria
+==========================
 
-Enumerate the items that must be true in order to call the goal
-"completed" for a given project.
+Set the target dates or different milestones with the items that must be true
+in order to call the milestone and goal "completed" for a given project.
 
+Completion Date:
+Items to complete:
 #. one
 #. two
+
+OR
+
+Milestone 1 Date:
+Items to complete:
+#. one
+#. two
+
+Milestone 2 Date:
+Items to complete:
+#. one
+#. two
+.
+.
 
 References
 ==========
