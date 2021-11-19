@@ -1825,6 +1825,10 @@ Puppet OpenStack:
       repos:
         - openstack/puppet-openstack-specs
       retired-on: 2021-06-29
+    puppet-senlin:
+      repos:
+        - openstack/puppet-senlin
+      retired-on: 2021-11-10
 
 qinling:
   retired-on: 2020-11-27
