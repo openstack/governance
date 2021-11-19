@@ -6,7 +6,8 @@ At the start of the Yoga development cycle, the current :ref:`LTS or stable
 distribution <pti-linux-distros>` versions are:
 
 * Ubuntu 20.04
-* CentOS 8 Stream
+* CentOS Stream 9
+* Debian 11
 
 Python Runtimes for Yoga
 ========================
@@ -20,8 +21,8 @@ when all projects have migrated to a later version.
 Based on the criteria above, all Python-based projects must target and test
 against, at a minimum:
 
-* Python 3.6 (default in CentOS 8 Stream)
-* Python 3.8 (latest available; default in Ubuntu 20.04)
+* Python 3.8 (available as default in Ubuntu 20.04)
+* Python 3.9 (available as default in Debian 11)
 
 More details on Python requirements can be found in :ref:`pti-python`.
 
