@@ -315,11 +315,13 @@ def get_one_status(change, delegates, tc_members):
         can_approve = ',\n'.join(parts)
 
     elif topic in (
+        'goal-proposal',
         'code-change',
         'documentation-change',
         'election-results',
         'typo-fix',
     ):
+        # https://governance.openstack.org/tc/reference/house-rules.html#community-wide-goal-proposals
         # https://governance.openstack.org/tc/reference/house-rules.html#code-changes
         # https://governance.openstack.org/tc/reference/house-rules.html#documentation-changes
         # https://governance.openstack.org/tc/reference/house-rules.html#election-results
