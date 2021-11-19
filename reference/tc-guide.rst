@@ -116,8 +116,8 @@ As discussed above, communication is incredibly important. As a team, you want
 to make sure questions from the community in IRC and on the ML don't go
 unanswered.
 
-Meetings & Office Hours
-~~~~~~~~~~~~~~~~~~~~~~~
+Meetings
+~~~~~~~~
 
 Attend the Technical Committee meetings (assuming your timezone allows). The
 TC has meetings every Thursday in #openstack-tc; `check
@@ -128,21 +128,6 @@ as many as possible. If you have topics that should be discussed at the
 meeting, they should be sent to the chair or vice-chair to be included
 in the agenda. The agenda should also be publicized to the openstack-discuss
 list to encourage community involvement.
-
-We hold office hours at various times during the week on the #openstack-tc
-IRC channel, `see
-Eavesdrop for the schedule of those as well
-<http://eavesdrop.openstack.org/#Technical_Committee_Office_hours>`_. For more
-information, see our `wiki page
-<https://wiki.openstack.org/wiki/Meetings/TechnicalCommittee>`_. Attend as
-many office hours as you can. There might be a lot of them where no
-one outside the TC comes to talk about anything, but on the off chance that
-there is someone, or another TC member that has something to discuss, it is
-good to be present wherever possible. When office hours begin, wave or say
-hello or indicate in some way that you are around to chat. If something does
-get discussed during office hours, make sure that someone has the action item
-to summarize the discussion to the ML so that members not present, and the
-greater community have insight into what is being discussed.
 
 Governance Core Duties
 ~~~~~~~~~~~~~~~~~~~~~~
