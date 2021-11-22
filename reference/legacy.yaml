@@ -1966,6 +1966,15 @@ swift:
       repos:
         - openstack/swift-specs
 
+Technical Writing SIG:
+  irc-channel: openstack-doc
+  partial: yes
+  deliverables:
+    training-labs:
+      retired-on: 2021-11-10
+      repos:
+        - openstack/training-labs
+
 Telemetry:
   irc-channel: openstack-telemetry
   service: Telemetry service

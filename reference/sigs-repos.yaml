@@ -82,8 +82,6 @@ Security:
   - repo: openstack/security-analysis
   - repo: openstack/security-doc
   - repo: openstack/security-specs
-Technical Writing:
-  - repo: openstack/training-labs
 Testing and Collaboration Tools:
   - repo: openstack/bugdaystats
   - repo: openstack/ci-log-processing
