@@ -2019,6 +2019,7 @@ OpenStackAnsible:
       repos:
         - openstack/ansible-role-qdrouterd
         - openstack/ansible-role-pki
+        - openstack/ansible-role-proxysql
         - openstack/ansible-role-python_venv_build
         - openstack/ansible-role-systemd_mount
         - openstack/ansible-role-systemd_networkd
