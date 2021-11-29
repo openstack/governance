@@ -1,6 +1,6 @@
-===========================================
-Support Common Operator & End User Personas
-===========================================
+==================================
+Consistent and Secure Default RBAC
+==================================
 
 
 Problem Summary
@@ -16,13 +16,13 @@ surface area to the ecosystem. This growth quickly outpaced the authorization
 engine. This allowed the community to develop rich APIs, across services, that
 operate on different layers of the infrastructure. For example, OpenStack has
 APIs that manage compute hosts, services, endpoints, domains, physical
-networks, and storage pools. All of these resources require knowledge of the
-underlying hardware of deployment architecture and usage within a given
+networks, and storage pools. All of these resources require knowledge about the
+underlying hardware, deployment architecture, and usage within a given
 organization. These APIs are clearly targeted at different users from APIs that
 expose resources, like instance, block storage devices, or virtual networks.
 
 The authorization strategy didn't age gracefully with the rest of OpenStack.
-This means we use the best available tools at the time to protect the API we
+This means we used the best available tools at the time to protect the API we
 were developing across OpenStack.
 
 This led to the following problems:
@@ -35,7 +35,7 @@ This led to the following problems:
 #. Operators need to be intimately familiar with the policy implementation to
    supply overrides for valid use cases (read-only privileges)
 #. Auditing OpenStack APIs requires administrative access
-#. No role hierarchy makes it hard to establish any low-level collection
+#. Having no role hierarchy makes it hard to establish any low-level collection
    permission collection, like a role for read-only access, which is
    implemented inconsistently across deployments
 
@@ -147,8 +147,8 @@ Additionally, it provides a very clear audit trail.
 
 So, where do we go from here?
 
-We have a set of OpenStack services that have adopted system-scope with the
-idea that it should be used on project-specific resources. Other services have
+We have a set of OpenStack services that have over-extended the usage of
+system-scope and applied it to project-specific resources. Other services have
 yet to adopt the system-scope feature.
 
 Currently, none of the policy work we've done since Queens is widely usable by
@@ -166,14 +166,12 @@ operators sooner rather than later.
 Phase 1
 =======
 
-Implement support for system-admin, project-admin, project-manager,
-project-member, and project-reader personas.
+Implement support for system-admin, project-admin, project-member, and
+project-reader personas.
 
 The project-member and project-reader changes are relatively trivial. The
 majority of the work in this phase is focused on breaking administrative
-functionality into the project-admin and system-admin personas. Any APIs we can
-expose to privileged end-users safely should be updated to use the
-project-manager personas.
+functionality into the project-admin and system-admin personas.
 
 Re-evaluate project-specific API policies
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -208,7 +206,7 @@ isolated to project-scoped tokens. The policy should be updated accordingly:
 This will only allow operators with a project-scoped token containing the
 ``admin`` role to perform targeted boot. If or when nova sanitizes hypervisor
 discovery to expose information safely to end users, the policy could evolve
-further:
+further (potentially in `Phase 2`_):
 
 .. code-block:: python
 
@@ -290,14 +288,11 @@ deployment, which affects every project and user of the deployment. Project
 users should be able to view flavors available for them to use. Additionally,
 users with authorization on a domain should also be able to view flavors.
 
-The following show how you can specify multiple scopes for a single rule:
+The following shows how you can specify multiple scopes for a single rule:
 
 .. code-block:: python
 
   scope_types=['system', 'domain', 'project'],
-
-Enhance python-openstackclient
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Listing project resources across the deployment
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -381,21 +376,15 @@ support for `Phase 2`_ or `Phase 3`_.
 How operators opt into the new functionality
 --------------------------------------------
 
-If we can complete the above goals across the timeline below, operators will
-be able to configure each service to opt into the new defaults::
+If we can complete each item above for the Yoga release, operators will be able
+to configure each service to opt into the new defaults across all services,
+securely implementing the same personas across the deployment::
 
   [oslo_policy]
   enforce_new_defaults=True
   enforce_scope=True
 
-For increased usability, operators could bootstrap their team with inherited
-role assignments on each domain, making it easier for operators to get
-project-scoped tokens for each project in the deployment::
-
-  $ openstack role add --os-cloud system-admin --user 2c0865 --domain foo --inherited reader
-  $ openstack role add  --os-cloud system-admin --group b3dbc2 --domain foo --inherited admin
-
-This configuration will enable the following personas, described as follows:
+This configuration enables the following personas:
 
 - System Administrator
    - Denoted by someone with the ``admin`` role on the ``system``
@@ -419,17 +408,8 @@ This configuration will enable the following personas, described as follows:
    - Not intended for end users
    - *Forcibly reset the state of an instance*
    - *Forcibly deleting an application stack*
-   - *Setting the default volume type for a project*
    - *Making an image public to the entire deployment*
    - *Create physical provider networks*
-
-- Project Manager
-   - Denoted by someone with the ``manager`` role on a project
-   - Intended to be used by end users
-   - Slightly more privileged than regular project-members
-   - *Locking and unlocking an instance*
-   - *Setting the default volume type for a project*
-   - *Setting the default secret store for a project*
 
 - Project Member
    - Denoted by someone with the ``member`` role on a project
@@ -451,16 +431,35 @@ These new persona divide the current role of an operator between system-admin
 and project-admin personas. This is by design and starts to slowly break down
 the authorization associated to administrative tokens.
 
+For increased usability, operators could bootstrap their trusted team of
+operators or support with inherited role assignments on each domain, making it
+easier for operators to get project-scoped tokens for each project in the
+deployment::
+
+  $ openstack role add --os-cloud system-admin --user 2c0865 --domain foo --inherited reader
+  $ openstack role add --os-cloud system-admin --group b3dbc2 --domain foo --inherited admin
+
 Phase 2
 =======
 
 #. Isolate service-to-service APIs to the ``service`` role
+#. Update policies to incorporate project-manager
+#. Implement domain-admin support where service keep track of domain IDs in
+   addition to project IDs as owners of a resource
 
 Any API developed for machines to communicate with each other should use the
 ``service`` role. This is an important part in reducing authorization for each
 service. For example, neutron needs to inform nova about network changes, but
 it shouldn't need the ability to create new users and groups in keystone, which
-it currently has.
+it currently has. The project-manager persona is described as follows:
+
+- Project Manager
+   - Denoted by someone with the ``manager`` role on a project
+   - Intended to be used by end users
+   - Slightly more privileged than regular project-members
+   - *Locking and unlocking an instance*
+   - *Setting the default volume type for a project*
+   - *Setting the default secret store for a project*
 
 Phase 3
 =======
@@ -524,8 +523,8 @@ Yoga Timeline (7th Mar 2022)
 
    The ``service`` will standardize a role that's already required in some
    default policies across OpenStack. This role must be built outside the
-   existing role hierarchy, where ``reader`` implies ``member`` implies
-   ``manager`` implies ``admin``. This work requires a keystone specification.
+   existing role hierarchy, where ``admin`` implies ``manager`` implies
+   ``member`` implies ``reader``. This work requires a keystone specification.
 
 #. Keystone enforces scope by default
 
@@ -573,19 +572,24 @@ Yoga Timeline (7th Mar 2022)
    in future releases.
 
 At this point, operators must run keystone with ``enforce_scope=True`` since
-the deprecated policies will be gone. They can also choose to run any service
-that's completed `Phase 1`_. This will require the operator to configure the
-service to use ``enforce_scope=True`` and ``enforce_new_defaults=True`` if they
-chose to adopt the new behavior for services that support it.
+the deprecated policies will be gone, and the default value for this specific
+option in keystone will be updated accordingly. They can also choose to run any
+service that's completed `Phase 1`_. This will require the operator to
+configure the service to use ``enforce_scope=True`` and
+``enforce_new_defaults=True`` if they chose to adopt the new behavior for
+services that support it.
 
 This means that operators must use the correct scope when interacting with
-keystone or nova APIs (e.g., services, endpoints, domains, hypervisors,
-aggregates.)
+services they've configured to enforce scope. For example, an operator will
+need a system-scoped token to manage domains or service endpoints in keystone.
+If the operator also deploys nova to enforce scope, they will need a
+system-scoped token to manage hypervisors or aggregates.
 
 Z-Release Timeline
 ^^^^^^^^^^^^^^^^^^
 
-#. Keystone implements `Phase 2`_ and the ``manager`` role
+#. Keystone implements `Phase 2`_ and updates policies to include the
+   ``manager`` role where applicable
 
    Keystone starts implementing support for ``manager`` across project, domain,
    and system scopes. Keystone has supported system-admin, system-member, and
@@ -597,9 +601,8 @@ Z-Release Timeline
    by default
 
 At this point, every OpenStack service will have completed `Phase 1`_, which
-allows operators to opt into using system-admin, project-admin,
-project-manager, project-member, and project-reader across their entire
-deployment.
+allows operators to opt into using system-admin, project-admin, project-member,
+and project-reader across their entire deployment.
 
 To summarize, operators will need to update every service configuration file
 where they want to use system-admin, project-admin, project-manager,
@@ -634,8 +637,7 @@ AA-Release Timeline
 Operators consuming the AA release will have the personas delivered in `Phase
 1`_ available and enabled by default. This includes system-admin for all
 system-level administrative APIs, project-admin for project-level
-administrative APIs, project-manager for elevated privileges safe for end users
-on a project, project-member for common end-user interactions, and
+administrative APIs, project-member for common end-user interactions, and
 project-reader for a read-only variant of project-member.
 
 BB-Release Timeline
@@ -650,8 +652,10 @@ BB-Release Timeline
    `Phase 3`_
 
 Operators consuming the BB release will have full support for system-admin,
-project-admin, project-manager, project-member, project-reader, and service
-role dedicated for service-to-service communication.
+project-admin, project-member, project-reader, and service role dedicated for
+service-to-service communication. Additionally, they will have a
+project-manager persona for elevated privileges safe for end users on a
+project.
 
 CC-Release Timeline
 ^^^^^^^^^^^^^^^^^^^
