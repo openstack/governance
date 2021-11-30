@@ -1739,6 +1739,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-nova-compute
+    charm-nova-compute-nvidia-vgpu:
+      release-management: external
+      repos:
+        - openstack/charm-nova-compute-nvidia-vgpu
     charm-nova-compute-proxy:
       release-management: external
       repos:
