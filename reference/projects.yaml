@@ -737,6 +737,9 @@ kolla:
     OpenStack clouds.
   url: https://wiki.openstack.org/wiki/Kolla
   deliverables:
+    ansible-collection-kolla:
+      repos:
+        - openstack/ansible-collection-kolla
     kolla:
       repos:
         - openstack/kolla
