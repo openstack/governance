@@ -254,7 +254,12 @@ release/time, leaving the projects to focus on whatever is most important
 in their scope.
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    selected/index
    proposed/index
+
+.. toctree::
+   :maxdepth: 3
+
+   completed/index
