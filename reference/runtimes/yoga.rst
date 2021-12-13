@@ -6,6 +6,7 @@ At the start of the Yoga development cycle, the current :ref:`LTS or stable
 distribution <pti-linux-distros>` versions are:
 
 * Ubuntu 20.04
+* CentOS Stream 8
 * CentOS Stream 9
 * Debian 11
 
@@ -21,8 +22,14 @@ when all projects have migrated to a later version.
 Based on the criteria above, all Python-based projects must target and test
 against, at a minimum:
 
-* Python 3.8 (available as default in Ubuntu 20.04)
-* Python 3.9 (available as default in Debian 11)
+* Python 3.6 (available as default in CentOS Stream 8)
+* Python 3.9 (available as default in Debian 11 and CentOS Stream 9)
+
+Other than the above Python versions, Ubuntu 20.04 has Python 3.8 as default
+which we are not suggesting to run unit tests. We assume that anything
+that works on Python 3.6 and 3.9 will also work on 3.8. Do note, however,
+Ubuntu is our primary target and thus the majority of tempest jobs run
+with it and its Python 3.8 anyway.
 
 More details on Python requirements can be found in :ref:`pti-python`.
 
