@@ -47,10 +47,8 @@ barbican:
       repos:
         - openstack/barbican
       tags:
-        - starter-kit:kubernetes-in-virt
         - vulnerability:managed
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
         - stable:follows-policy
     ansible-role-atos-hsm:
       repos:
@@ -132,11 +130,7 @@ cinder:
       tags:
         - vulnerability:managed
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
         - stable:follows-policy
-        - assert:supports-rolling-upgrade
-        - assert:supports-accessible-upgrade
-        - assert:supports-api-interoperability
     cinder-specs:
       release-management: none
       repos:
@@ -254,11 +248,8 @@ designate:
       repos:
         - openstack/designate
       tags:
-        - starter-kit:kubernetes-in-virt
         - stable:follows-policy
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
-        - assert:supports-accessible-upgrade
     designate-dashboard:
       repos:
         - openstack/designate-dashboard
@@ -352,9 +343,6 @@ glance:
         - openstack/glance
       tags:
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
-        - starter-kit:compute
-        - starter-kit:kubernetes-in-virt
         - vulnerability:managed
         - stable:follows-policy
     glance-specs:
@@ -398,9 +386,7 @@ heat:
       tags:
         - vulnerability:managed
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
         - stable:follows-policy
-        - assert:supports-rolling-upgrade
     heat-agents:
       repos:
         - openstack/heat-agents
@@ -457,7 +443,6 @@ horizon:
       tags:
         - vulnerability:managed
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
         - stable:follows-policy
     ui-cookiecutter:
       release-management: none
@@ -570,20 +555,13 @@ ironic:
         - openstack/ironic
       tags:
         - stable:follows-policy
-        - assert:supports-upgrade
-        - assert:supports-accessible-upgrade
-        - assert:supports-rolling-upgrade
         - assert:follows-standard-deprecation
-        - assert:supports-standalone
     ironic-inspector:
       repos:
         - openstack/ironic-inspector
       tags:
         - stable:follows-policy
-        - assert:supports-upgrade
-        - assert:supports-accessible-upgrade
         - assert:follows-standard-deprecation
-        - assert:supports-standalone
     ironic-inspector-specs:
       release-management: none
       repos:
@@ -665,11 +643,8 @@ keystone:
       repos:
         - openstack/keystone
       tags:
-        - starter-kit:compute
-        - starter-kit:kubernetes-in-virt
         - vulnerability:managed
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
         - stable:follows-policy
     keystone-specs:
       release-management: none
@@ -774,8 +749,6 @@ kuryr:
     kuryr-kubernetes:
       repos:
         - openstack/kuryr-kubernetes
-      tags:
-        - starter-kit:kubernetes-in-virt
     kuryr-tempest-plugin:
       repos:
         - openstack/kuryr-tempest-plugin
@@ -828,12 +801,8 @@ manila:
       repos:
         - openstack/manila
       tags:
-        - starter-kit:kubernetes-in-virt
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
-        - assert:supports-accessible-upgrade
         - stable:follows-policy
-        - assert:supports-api-interoperability
     manila-image-elements:
       repos:
         - openstack/manila-image-elements
@@ -1122,13 +1091,8 @@ neutron:
         - openstack/neutron
       tags:
         - stable:follows-policy
-        - starter-kit:compute
-        - starter-kit:kubernetes-in-virt
         - vulnerability:managed
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
-        - assert:supports-rolling-upgrade
-        - assert:supports-api-interoperability
     neutron-dynamic-routing:
       repos:
         - openstack/neutron-dynamic-routing
@@ -1197,15 +1161,9 @@ nova:
       repos:
         - openstack/nova
       tags:
-        - starter-kit:compute
-        - starter-kit:kubernetes-in-virt
         - vulnerability:managed
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
-        - assert:supports-rolling-upgrade
-        - assert:supports-accessible-upgrade
         - stable:follows-policy
-        - assert:supports-api-interoperability
     nova-specs:
       release-management: none
       repos:
@@ -1222,9 +1180,6 @@ nova:
     placement:
       repos:
         - openstack/placement
-      tags:
-        - starter-kit:compute
-        - starter-kit:kubernetes-in-virt
     os-traits:
       repos:
         - openstack/os-traits
@@ -1254,10 +1209,7 @@ octavia:
       repos:
         - openstack/octavia
       tags:
-        - starter-kit:kubernetes-in-virt
         - stable:follows-policy
-        - assert:supports-upgrade
-        - assert:supports-accessible-upgrade
     octavia-dashboard:
       repos:
         - openstack/octavia-dashboard
@@ -2741,7 +2693,6 @@ sahara:
       tags:
         - vulnerability:managed
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
         - stable:follows-policy
     sahara-dashboard:
       repos:
@@ -2767,7 +2718,6 @@ sahara:
       tags:
         - vulnerability:managed
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
         - stable:follows-policy
     sahara-plugin-cdh:
       repos:
@@ -2775,7 +2725,6 @@ sahara:
       tags:
         - vulnerability:managed
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
         - stable:follows-policy
     sahara-plugin-mapr:
       repos:
@@ -2783,7 +2732,6 @@ sahara:
       tags:
         - vulnerability:managed
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
         - stable:follows-policy
     sahara-plugin-spark:
       repos:
@@ -2791,7 +2739,6 @@ sahara:
       tags:
         - vulnerability:managed
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
         - stable:follows-policy
     sahara-plugin-storm:
       repos:
@@ -2799,7 +2746,6 @@ sahara:
       tags:
         - vulnerability:managed
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
         - stable:follows-policy
     sahara-plugin-vanilla:
       repos:
@@ -2807,7 +2753,6 @@ sahara:
       tags:
         - vulnerability:managed
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
         - stable:follows-policy
     sahara-tests:
       repos:
@@ -2969,9 +2914,6 @@ swift:
         - vulnerability:managed
         - stable:follows-policy
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
-        - assert:supports-rolling-upgrade
-        - assert:supports-standalone
     swift-bench:
       repos:
         - openstack/swift-bench
@@ -3035,7 +2977,6 @@ Telemetry:
         - openstack/ceilometer
       tags:
         - assert:follows-standard-deprecation
-        - assert:supports-upgrade
     telemetry-specs:
       release-management: none
       repos:
@@ -3341,8 +3282,6 @@ watcher:
     watcher:
       repos:
         - openstack/watcher
-      tags:
-        - assert:supports-upgrade
     watcher-specs:
       release-management: none
       repos:

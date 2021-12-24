@@ -58,7 +58,7 @@ The command must:
    * 1 - Warning that one or issues were found that require investigation
    * 2 - One or more checks found an issue that will cause upgrade to fail
 
-#. Projects with the :ref:`tag-assert:supports-upgrade` tag must integrate
+#. Projects with the supports-upgrade tag must integrate
    their upgrade check command into their upgrade CI testing.
 
 .. note:: This goal is primarily focused on the traditional stateful service

@@ -28,7 +28,6 @@ Reference documents which need to be revised over time.
    irc
    release-naming
    tags/index
-   Template for new tags <tag-template>
    Requirements for previously-used incubation/integration process <incubation-integration-requirements>
    house-rules
    comparison-of-official-group-structures

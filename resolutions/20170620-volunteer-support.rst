@@ -79,7 +79,7 @@ Deprecation
 In extreme cases, if a feature or driver can no longer be maintained, the
 implementation must be removed.
 Projects that are stable and widely deployed are expected to sign
-up for the :ref:`tag-assert:follows-standard-deprecation`. This gives us a
+up for the follows-standard-deprecation tag. This gives us a
 controlled way to warn users about such features or drivers that are being
 replaced or at risk of being removed.
 

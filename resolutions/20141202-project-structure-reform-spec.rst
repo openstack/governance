@@ -1,3 +1,5 @@
+.. _20141202_project_structure_reform_spec:
+
 =============================================================
  2014-12-02 OpenStack project structure reform specification
 =============================================================

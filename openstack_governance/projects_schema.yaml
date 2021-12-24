@@ -116,10 +116,6 @@ additionalProperties:
               - external
           deprecated:
             type: "string"
-    tags:
-      type: "array"
-      items:
-        type: "string"
     extra-atcs:
       type: "array"
       items:

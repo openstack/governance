@@ -109,14 +109,6 @@ def _team_to_rst(name, info):
         yield ''
         yield mission
         yield ''
-    tags = info.get('tags', [])
-    if tags:
-        yield 'Team-based tags'
-        yield '---------------'
-        yield ''
-        for tag in tags:
-            yield '- :ref:`tag-%s`' % tag
-        yield ''
     yield 'Deliverables'
     yield '------------'
     yield ''
