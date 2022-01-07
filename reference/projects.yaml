@@ -1386,6 +1386,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-cinder-purestorage
+    charm-cinder-solidfire:
+      release-management: external
+      repos:
+        - openstack/charm-cinder-solidfire
     charm-cloudkitty:
       release-management: external
       repos:
