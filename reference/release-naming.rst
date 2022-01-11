@@ -68,6 +68,7 @@ V_       Sean McGinnis   2019-11-11        2019-12-09  2019-12-16  British Colum
 W_       Sean McGinnis   2020-01-20        2020-02-17  2020-02-23  N/A [*]_
 X_       Sean McGinnis   2020-11-02        2020-11-30  2020-12-06  N/A
 Y_       Ghanshyam Mann  2021-05-13        2021-06-10  2021-06-17  N/A
+Z        Ghanshyam Mann  2022-01-11        2022-01-25  2022-02-01  N/A
 =======  ==============  ================  ==========  ==========  ==================
 
 .. [*] Starting with the W release, the naming criteria changed from referring
