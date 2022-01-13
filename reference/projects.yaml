@@ -858,11 +858,11 @@ manila:
     tc_members: [jungleboyj, yoctozepto]
 masakari:
   ptl:
-    name: Radosław Piliszek
-    irc: yoctozepto
-    email: radoslaw.piliszek@gmail.com
+    name: suzhengwei
+    irc: suzhengwei
+    email: suzhengwei@inspur.com
   appointed:
-    - victoria
+    - yoga
   irc-channel: openstack-masakari
   service: Instances High Availability service
   mission: >
