@@ -94,12 +94,10 @@ References
 ==========
 
 The Nova project has already implemented a ``nova-status upgrade check``
-command along with several checkers. The `command source
-<https://opendev.org/openstack/nova/src/commit/a1f3a5946ab703225a74f8e85a068cb4fb20e2ff/nova/cmd/status.py>`__
+command along with several checkers. The :repo:`openstack/nova/src/commit/a1f3a5946ab703225a74f8e85a068cb4fb20e2ff/nova/cmd/status.py`
 may be useful as a reference.
 
-The `original commit
-<https://opendev.org/openstack/nova/commit/a1f3a5946ab703225a74f8e85a068cb4fb20e2ff>`__
+The :repo:`openstack/nova/commit/a1f3a5946ab703225a74f8e85a068cb4fb20e2ff`
 adding the checker framework may also be useful.
 
 The `Command Line Reference

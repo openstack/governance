@@ -46,8 +46,8 @@ For all of these reasons, the OpenStack community will benefit from
 having the interoperability tests used by DefCore in a central
 location. The TC therefore encourages the DefCore committee to
 consider it an indication of future technical direction that we do not
-want tests outside of the `Tempest repository`_ used for trademark
-enforcement, and that any new or existing tests that cover
+want tests outside of the :repo:`openstack/tempest`
+used for trademark enforcement, and that any new or existing tests that cover
 capabilities they want to consider for trademark enforcement should be
 placed in Tempest.
 
@@ -68,5 +68,4 @@ teams should collaborate to ensure that those tests are identified and
 implemented in a suitable way.
 
 .. _QA, DefCore, and interoperability testing: https://etherpad.openstack.org/p/newton-qa-defcore-and-interoperability
-.. _Tempest repository: https://opendev.org/openstack/tempest
 .. _scope of what they consider suitable for Tempest: https://wiki.openstack.org/wiki/QA/Tempest-test-removal#Tempest_Scope

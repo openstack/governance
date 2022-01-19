@@ -272,7 +272,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://opendev.org/openstack/cloudkitty/src/branch/master/setup.cfg#L19
+* :repo:`openstack/cloudkitty/src/branch/master/setup.cfg#L19`
 
 Community App Catalog
 ---------------------
@@ -392,9 +392,9 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `heat <https://opendev.org/openstack/heat/src/branch/master/setup.cfg#n19>`_
-* `python-heatclient <https://opendev.org/openstack/python-heatclient/src/branch/master/setup.cfg#n21>`_
-* `heat-translator <https://opendev.org/openstack/heat-translator/src/branch/master/setup.cfg#L20>`_
+* :repo:`openstack/heat/src/branch/master/setup.cfg#n19`
+* :repo:`openstack/python-heatclient/src/branch/master/setup.cfg#n21`
+* :repo:`openstack/heat-translator/src/branch/master/setup.cfg#L20`
 
 horizon
 -------
@@ -452,9 +452,9 @@ Planning Artifacts:
 * https://bugs.launchpad.net/karbor/+bug/1681622
 
 Completion Artifacts:
-* `karbor classifier <https://opendev.org/openstack/karbor/src/branch/master/setup.cfg#L19>`_
-* `karbor-dashboard classifier <https://opendev.org/openstack/karbor-dashboard/src/branch/master/setup.cfg#L19>`_
-* `python-karborclient classifier <https://opendev.org/openstack/python-karborclient/src/branch/master/setup.cfg#L19>`_
+* :repo:`openstack/karbor/src/branch/master/setup.cfg#L19`
+* :repo:`openstack/karbor-dashboard/src/branch/master/setup.cfg#L19`
+* :repo:`openstack/python-karborclient/src/branch/master/setup.cfg#L19`
 * `python 3 jobs <https://review.opendev.org/302072/>`_
 
 keystone
@@ -467,10 +467,10 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `keystone <https://opendev.org/openstack/keystone/src/branch/master/setup.cfg#L19>`_
-* `keystonemiddleware <https://opendev.org/openstack/keystonemiddleware/src/branch/master/setup.cfg#L19>`_
-* `python-keystoneclient <https://opendev.org/openstack/python-keystoneclient/src/branch/master/setup.cfg#L19>`_
-* `keystoneauth <https://opendev.org/openstack/keystoneauth/src/branch/master/setup.cfg#L19>`_
+* :repo:`openstack/keystone/src/branch/master/setup.cfg#L19`
+* :repo:`openstack/keystonemiddleware/src/branch/master/setup.cfg#L19`
+* :repo:`openstack/python-keystoneclient/src/branch/master/setup.cfg#L19`
+* :repo:`openstack/keystoneauth/src/branch/master/setup.cfg#L19`
 
 kolla
 -----
@@ -495,7 +495,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `kuryr <https://opendev.org/openstack/kuryr/src/branch/master/setup.cfg#L19>`_
+* :repo:`openstack/kuryr/src/branch/master/setup.cfg#L19`
 
 magnum
 ------
@@ -541,10 +541,10 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `murano <https://opendev.org/openstack/murano/src/branch/master/setup.cfg#L36>`_
-* `murano-dashboard <https://opendev.org/openstack/murano-dashboard/src/branch/master/setup.cfg#L41>`_
-* `murano-agent <https://opendev.org/openstack/murano-agent/src/branch/master/setup.cfg#L21>`_
-* `python-muranoclient <https://opendev.org/openstack/python-muranoclient/src/branch/master/setup.cfg#L23>`_
+* :repo:`openstack/murano/src/branch/master/setup.cfg#L36`
+* :repo:`openstack/murano-dashboard/src/branch/master/setup.cfg#L41`
+* :repo:`openstack/murano-agent/src/branch/master/setup.cfg#L21`
+* :repo:`openstack/python-muranoclient/src/branch/master/setup.cfg#L23`
 
 neutron
 -------
@@ -619,11 +619,11 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `cliff <https://opendev.org/openstack/cliff/src/branch/master/setup.cfg#L15>`_
-* `openstackclient <https://opendev.org/openstack/openstackclient/src/branch/master/setup.cfg#L20>`_
-* `os-client-config <https://opendev.org/openstack/os-client-config/src/branch/master/setup.cfg#L19>`_
-* `osc-lib <https://opendev.org/openstack/osc-lib/src/branch/master/setup.cfg#L19>`_
-* `python-openstackclient <https://opendev.org/openstack/python-openstackclient/src/branch/master/setup.cfg#L19>`_
+* :repo:`openstack/cliff/src/branch/master/setup.cfg#L15`
+* :repo:`openstack/openstackclient/src/branch/master/setup.cfg#L20`
+* :repo:`openstack/os-client-config/src/branch/master/setup.cfg#L19`
+* :repo:`openstack/osc-lib/src/branch/master/setup.cfg#L19`
+* :repo:`openstack/python-openstackclient/src/branch/master/setup.cfg#L19`
 
 oslo
 ----
@@ -720,7 +720,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://opendev.org/openstack/searchlight/src/branch/master/setup.cfg#L19
+* :repo:`openstack/searchlight/src/branch/master/setup.cfg#L19`
 
 Security
 --------
@@ -746,9 +746,9 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `solum <https://opendev.org/openstack/solum/src/branch/master/setup.cfg#L20>`_
-* `python-solumclient <https://opendev.org/openstack/python-solumclient/src/branch/master/setup.cfg#L19>`_
-* `solum-dashboard <https://opendev.org/openstack/solum-dashboard/src/branch/master/setup.cfg#L13>`_
+* :repo:`openstack/solum/src/branch/master/setup.cfg#L20`
+* :repo:`openstack/python-solumclient/src/branch/master/setup.cfg#L19`
+* :repo:`openstack/solum-dashboard/src/branch/master/setup.cfg#L13`
 
 Stable branch maintenance
 -------------------------
@@ -999,7 +999,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* Classifier: https://opendev.org/openstack/zun/src/branch/master/setup.cfg
+* :repo:`openstack/zun/src/branch/master/setup.cfg`
 * Unit tests: All unit tests are passed in python 3.5. There is a voting check and gate job setup called 'gate-zun-python35'.
 * Functional tests: Zun doesn't have functional tests.
 * Integration tests: All integration tests are passed in python 3.5. There is a voting check and gate job setup: https://review.opendev.org/#/c/491623/

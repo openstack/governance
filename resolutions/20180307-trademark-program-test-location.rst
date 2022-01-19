@@ -24,7 +24,7 @@ Updated Resolution
 Whereas the Trademark Program has made it clear that they have the tooling and
 willingness to support trademark tests located in any of
 
-* The `Tempest repository`_
+* The :repo:`openstack/tempest`
 * Project specific tempest plugins (e.g., `image-trademark-tempest-plugin`)
 * Vertical specific tempest plugins (e.g.,
   `nfv-vertical-trademark-tempest-plugin`)
@@ -44,8 +44,8 @@ projects should live in one, and only one, of four possible locations, each
 with differing strategies for review and repository ownership (status in
 :ref:`projects`):
 
-* The `Tempest repository`_, with approval reviews performed by the QA Team,
-  repository ownership via the QA Team (already true).
+* The :repo:`openstack/tempest`, with approval reviews
+  performed by the QA Team, repository ownership via the QA Team (already true).
 * A vertical specific tempest plugin, with approval reviews performed by the QA
   Team and the Trademark Program, repository ownership via the Trademark
   Program.
@@ -70,4 +70,3 @@ and the Trademark Program.
           to produce tests that are run by tempest.
 
 .. _gabbi: https://gabbi.readthedocs.io/
-.. _Tempest repository: https://opendev.org/openstack/tempest

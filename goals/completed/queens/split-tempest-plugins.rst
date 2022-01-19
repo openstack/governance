@@ -316,7 +316,7 @@ Completion Artifacts:
 The Designate team was already compliant before that the goal was defined.
 Here is the tempest plugin repo:
 
-https://opendev.org/openstack/designate-tempest-plugin
+:repo:`openstack/designate-tempest-plugin`
 
 Documentation
 -------------
@@ -405,7 +405,7 @@ Completion Artifacts:
 The Horizon team was already compliant before that the goal was defined. Here
 is the tempest plugin repo:
 
-https://opendev.org/openstack/tempest-horizon
+:repo:`openstack/tempest-horizon`
 
 I18n
 ----
@@ -472,7 +472,7 @@ Completion Artifacts:
 The following review removed the tempest plugin that keystone was maintaining
 in tree and links to the new repository the plugin was moved to:
 
-  https://opendev.org/openstack/keystone/commit/6f4e37e9e6810e24f45d034261f4a6ec4aa85fb1
+  :repo:`openstack/keystone/commit/6f4e37e9e6810e24f45d034261f4a6ec4aa85fb1`
 
 kolla
 -----
@@ -497,7 +497,7 @@ Completion Artifacts:
 
 The kuryr team is maintaining its tempest plugin in a separate repo:
 
-https://opendev.org/openstack/kuryr-tempest-plugin
+:repo:`openstack/kuryr-tempest-plugin`
 
 loci
 ----
@@ -586,7 +586,7 @@ Completion Artifacts:
 
 The murano team is maintaining its tempest plugin in a separate repo:
 
-https://opendev.org/openstack/murano-tempest-plugin
+:repo:`openstack/murano-tempest-plugin`
 
 neutron
 -------
@@ -791,7 +791,7 @@ Completion Artifacts:
 The Sahara team was already compliant before that the goal was defined. Here
 is the commit link for the same:
 
-https://opendev.org/openstack/sahara/commit/83a6a2868377dd61530a9de80c6ca49061c5f248
+:repo:`openstack/sahara/commit/83a6a2868377dd61530a9de80c6ca49061c5f248`
 
 searchlight
 -----------
@@ -847,7 +847,7 @@ Completion Artifacts:
 
 The solum team is maintaining its tempest plugin in a separate repo:
 
-https://opendev.org/openstack/solum-tempest-plugin
+:repo:`openstack/solum-tempest-plugin`
 
 Stable branch maintenance
 -------------------------
@@ -939,7 +939,7 @@ Completion Artifacts:
 The tripleo team is maintaining its tempest plugin in a separate repo for
 testing tripleo workflows:
 
-https://opendev.org/openstack/tripleo-common-tempest-plugin
+:repo:`openstack/tripleo-common-tempest-plugin`
 
 trove
 -----
@@ -984,7 +984,7 @@ Completion Artifacts:
 The following review removed the tempest plugin that watcher was maintaining
 in tree and links to the new repository the plugin was moved to:
 
-https://opendev.org/openstack/watcher/commit/0c4b439c5ea1206263f39c118daf6d2ff1422480
+:repo:`openstack/watcher/commit/0c4b439c5ea1206263f39c118daf6d2ff1422480`
 
 winstackers
 -----------
@@ -997,7 +997,7 @@ Completion Artifacts:
 
 The Winstackers team is maintaining its tempest plugin in a separate repo:
 
-https://opendev.org/openstack/oswin-tempest-plugin
+:repo:`openstack/oswin-tempest-plugin`
 
 zaqar
 -----
@@ -1021,4 +1021,4 @@ Completion Artifacts:
 
 The Zun team is maintaining its tempest plugin in a separate repo:
 
-https://opendev.org/openstack/zun-tempest-plugin
+:repo:`openstack/zun-tempest-plugin`

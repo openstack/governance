@@ -11,20 +11,18 @@ changes. This act is known as **repository retirement**.
 
 When a repository which was governed by the OpenStack Technical
 Committee ceases to be its responsibility any longer, the
-deliverable repository entry in the official `list of projects
-<https://opendev.org/openstack/governance/src/branch/master/reference/projects.yaml>`_
-is moved to a `legacy projects list
-<https://opendev.org/openstack/governance/src/branch/master/reference/legacy.yaml>`_
+deliverable repository entry in the official
+:repo:`openstack/governance/src/branch/master/reference/projects.yaml`
+is moved to a :repo:`openstack/governance/src/branch/master/reference/legacy.yaml`
 with its proximate ``retired-on`` date recorded. This act is known
 as **governance removal**.
 
 Following conclusion of the *Train* development cycle, any new
-**governance removal** for a repository in the `openstack Git namespace
-of OpenDev <https://opendev.org/openstack/>`_ must undergo
-**repository retirement** even if development will be continuing in
-another Git namespace on OpenDev. The OpenStack Technical Committee
-may defer this requirement if responsibility over the repository is
-being transferred to another official OpenStack governance body with
+**governance removal** for a repository in the :repo:`openstack/`
+must undergo **repository retirement** even if development will be
+continuing in another Git namespace on OpenDev. The OpenStack Technical
+Committee may defer this requirement if responsibility over the repository
+is being transferred to another official OpenStack governance body with
 which it shares the ``openstack`` Git namespace on OpenDev (for
 example, a recognized `OpenStack special interest group
 <https://governance.openstack.org/sigs/>`_ or `OpenStack User

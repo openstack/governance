@@ -128,9 +128,9 @@ These are the projects still using oslo.rootwrap that should migrate:
 Links
 =====
 
-.. [1] https://opendev.org/openstack/hacking/src/branch/master/hacking/checks/imports.py
+.. [1] :repo:`openstack/hacking/src/branch/master/hacking/checks/imports.py`
 .. [2] https://docs.openstack.org/oslo.privsep/latest/user/index.html
-.. [3] https://opendev.org/openstack/oslo.privsep/src/tag/2.1.1/oslo_privsep/priv_context.py#L216
+.. [3] :repo:`openstack/oslo.privsep/src/tag/2.1.1/oslo_privsep/priv_context.py#L216`
 .. [4] https://review.opendev.org/#/q/project:openstack/nova+branch:master+topic:my-own-personal-alternative-universe
 .. [5] https://review.opendev.org/#/q/status:merged+project:openstack/neutron+branch:master+topic:bug/1492714
 .. [6] https://review.opendev.org/#/c/287725/

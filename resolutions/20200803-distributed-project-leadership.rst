@@ -42,15 +42,16 @@ Required roles
 The project teams are expected to have at least the following required liaison
 roles:
 
-* Release liaison: The `release liaison`_ is responsible for requesting releases
-  for deliverables produced by the project team.  In addition, release liaisons
-  generally review requests for Feature Freeze Exception (FFE).
+* Release liaison: The :repo:`openstack/releases/src/branch/master/data/release_liaisons.yaml`
+  is responsible for requesting releases for deliverables produced by the
+  project team.  In addition, release liaisons generally review requests for
+  Feature Freeze Exception (FFE).
 
 * tact-sig liaison: Historically named the "infra Liaison".  It is responsible for
   the health of the CI jobs run in the OpenStack Zuul CI.  In the event that there
   is an issue with those jobs, this liaison will be a point of contact for the
   `TaCT SIG`_.  Also, a +1 from at least one tact-sig liaison will be required
-  for changes in the `project_config repository`_.
+  for changes in the :repo:`openstack/project-config`.
 
 * Security liaison: the security liaison is the contact person to help assessing
   the impact of any security reported issues in the project team deliverables,
@@ -178,9 +179,9 @@ Once a project team has moved to the distributed leadership model, they can
 revert to the PTL model by creating a change to `projects.yaml` to remove the
 "leadership_type: distributed" line in the team's configuration.  This change
 should have at least a +1 from all the people currently serving as liaisons,
-including the `release liaison`_ for the project team, which might not be in the
-`governance` repo.  It must also get a +1 from the future PTL, listed in the
-same change.
+including the :repo:`openstack/releases/src/branch/master/data/release_liaisons.yaml`
+for the project team, which might not be in the `governance` repo.
+It must also get a +1 from the future PTL, listed in the same change.
 
 A project team may change their opt-in status only once a release cycle, to
 ensure that the elections officials have clarity on which project teams need PTL
@@ -193,7 +194,5 @@ team and its deliverables, with now an extra option
 convert the project to a distributed leadership with the help of the project
 team members.
 
-.. _release liaison: https://opendev.org/openstack/releases/src/branch/master/data/release_liaisons.yaml
 .. _TaCT SIG: https://governance.openstack.org/sigs/tact-sig.html
-.. _project_config repository: https://opendev.org/openstack/project-config
 .. _PTL page on the project team guide: https://docs.openstack.org/project-team-guide/ptl.html

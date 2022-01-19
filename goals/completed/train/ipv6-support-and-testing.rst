@@ -122,7 +122,7 @@ support on that project's devstack-plugin. One example of missing this setting
 is in senlin's devstack plugin (as of drafting this goal) which directly use
 ``HOST_IP`` as listen address so setting the ``SERVICE_IP_VERSION=6`` does not
 make senlin to listen on IPv6
-- https://opendev.org/openstack/senlin/src/commit/f4a00ff076df16591ef3cd073f51f42405d2c34c/devstack/lib/senlin#L44
+- :repo:`openstack/senlin/src/commit/f4a00ff076df16591ef3cd073f51f42405d2c34c/devstack/lib/senlin#L44`
 
 
 Gate jobs for IPv6-only setting
@@ -144,16 +144,13 @@ Gate jobs for IPv6-only setting
 References
 ==========
 
-Devstack has `base job
-<https://opendev.org/openstack/devstack/src/branch/master/.zuul.yaml#L486>`__
+Devstack has :repo:`openstack/devstack/src/branch/master/.zuul.yaml#L486`
 ready to use.
 
-Tempest run the `Tempest IPv6 job
-<https://opendev.org/openstack/tempest/src/branch/master/.zuul.yaml#L175>`__
+Tempest run the :repo:`openstack/tempest/src/branch/master/.zuul.yaml#L175`
 running but as non voting.
 
-Oslo utils common `netutils
-<https://opendev.org/openstack/oslo.utils/src/branch/master/oslo_utils/netutils.py>`__
+Oslo utils common :repo:`openstack/oslo.utils/src/branch/master/oslo_utils/netutils.py`
 to use for IPv6 settings and checks.
 
 Reference of this goal idea in `community-goals

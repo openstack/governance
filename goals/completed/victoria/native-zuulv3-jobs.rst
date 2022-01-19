@@ -127,8 +127,7 @@ In fact finalizing the effort on Zuul v3 was considered part of the goal,
 while still moving forward with all the other non-Grenade conversions.
 As expected, porting most Grenade jobs should now be trivial.
 
-While cleaning the legacy jobs from `openstack-zuul-jobs
-<https://opendev.org/openstack/openstack-zuul-jobs.git>`_ and
-`project-config <https://opendev.org/openstack/project-config.git>`_
+While cleaning the legacy jobs from :repo:`openstack/openstack-zuul-jobs.git` and
+:repo:`openstack/project-config.git`
 is not part of the completion criteria, achieving the stretch goal
 would reduce the amount of items to track in those repositories.

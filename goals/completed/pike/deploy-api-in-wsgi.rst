@@ -266,7 +266,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* `heat <https://opendev.org/openstack/heat/commit/6ef5fa9adc8886ed339132b5e5e27cee4000f762>`_
+* :repo:`openstack/heat/commit/6ef5fa9adc8886ed339132b5e5e27cee4000f762`
 
 horizon
 -------
@@ -329,7 +329,7 @@ Planning Artifacts:
 
 Completion Artifacts:
 
-* https://opendev.org/openstack/devstack/commit/a00e5f8810b6ca3b0b5d63cc228125e19bc91955
+* :repo:`openstack/devstack/commit/a00e5f8810b6ca3b0b5d63cc228125e19bc91955`
 
 kolla
 -----

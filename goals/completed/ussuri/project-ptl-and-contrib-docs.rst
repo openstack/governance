@@ -66,9 +66,9 @@ References
 
 #. `Contributor  Guide <https://docs.openstack.org/contributors/code-and-documentation/index.html>`_
 
-#. `Cookie Cutter doc/source/contributor/contributing.rst Template <https://opendev.org/openstack/cookiecutter/raw/branch/master/%7b%7bcookiecutter.repo_name%7d%7d/doc/source/contributor/contributing.rst>`_
+#. :repo:`openstack/cookiecutter/raw/branch/master/%7b%7bcookiecutter.repo_name%7d%7d/doc/source/contributor/contributing.rst`
 
-#. `Cookie Cutter CONTRIBUTING.rst Template <https://opendev.org/openstack/cookiecutter/raw/branch/master/%7b%7bcookiecutter.repo_name%7d%7d/CONTRIBUTING.rst>`_
+#. :repo:`openstack/cookiecutter/raw/branch/master/%7b%7bcookiecutter.repo_name%7d%7d/CONTRIBUTING.rst`
 
 #. `Nova PTL Guide <https://docs.openstack.org/nova/latest/contributor/ptl-guide.html>`_
 
