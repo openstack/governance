@@ -2868,10 +2868,10 @@ skyline:
   deliverables:
     skyline-apiserver:
       repos:
-        - skyline/skyline-apiserver
+        - openstack/skyline-apiserver
     skyline-console:
       repos:
-        - skyline/skyline-console
+        - openstack/skyline-console
 
   liaisons:
     tc_members:
