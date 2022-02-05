@@ -49,7 +49,6 @@ Security:
   - repo: openstack/ossa
   - repo: openstack/security-analysis
   - repo: openstack/security-doc
-  - repo: openstack/security-specs
 Testing and Collaboration Tools:
   - repo: openstack/bugdaystats
   - repo: openstack/ci-log-processing
