@@ -40,14 +40,15 @@ Each Cycle
     https://etherpad.opendev.org/p/tc-xena-tracker
   * Update the etherpad link in the wiki
     https://wiki.openstack.org/wiki/Technical_Committee_Tracker
-* See "Around TC elections"
-* Ensure that 2 TC members are signed up to manage the goal selection
-  process for the next cycle.
-* Ensure the next release naming is started
-* Ensure PTI update is done
-* Ensure PTL and TC election schedule is prepared before R-5 of current release cycle and as
-  per https://governance.openstack.org/tc/reference/charter.html
-* Encourage the TC members that are not standing for [re]election to help as the election officials.
+* Check on the active goals and, if there is no active goal, then ensure
+  that 2 TC members are signed up to manage the goal selection process.
+* Ensure PTI and testing runtime update is done.
+* After milestone-1, ensure the next release naming is started.
+* During R-9 week, check "PTL and TC elections".
+  * Ensure PTL and TC election schedule is prepared as per schedule mentioned
+    in https://governance.openstack.org/tc/reference/charter.html
+  * Encourage the TC members that are not standing for [re]election to help
+    as the election officials.
 
 Around TC elections
 ===================
