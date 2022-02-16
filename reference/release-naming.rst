@@ -1,6 +1,34 @@
-==============
-Release Naming
-==============
+===========================
+Release Identification/Name
+===========================
+
+Release Identification
+----------------------
+
+After the release "Zed", each OpenStack release has an
+identification code: "year"."release count within the year"
+
+Example:
+
+* OpenStack 2023.1 Axxxx
+
+Where "2023" is the year of the release, "1" represents the first release
+of the year and "Axxxx" is the release name following the release name rules.
+
+Other examples:
+
+* OpenStack 2023.2 Bxxxx
+* OpenStack 2024.1 Cxxxx
+
+With this release identification schema we get an easy and sustainable
+approach to identify different OpenStack releases without dealing with the
+ambiguity of the release name and alphabet iteration.
+
+The release identification schema doesn't replace the release name.
+It's just an unambiguous way to identify OpenStack releases.
+
+Release Name
+------------
 
 Each OpenStack development cycle has a code-name that is
 proposed and chosen by the community.  This name is frequently used in
@@ -42,6 +70,9 @@ being chosen.
    alphabet following the initial letter of the previous release,
    starting with the initial release of "Austin".  After "Z", the next
    name should start with "A" again.
+
+#. A release name can't be repeated between different iterations of the
+   alphabet.
 
 #. The name must be composed only of the 26 characters of the ISO
    basic Latin alphabet.  Names which can be transliterated into this
