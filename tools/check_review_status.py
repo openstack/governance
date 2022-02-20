@@ -337,7 +337,6 @@ def get_one_status(change, delegates, tc_members):
             can_approve = 'CAN APPROVE'
 
     elif topic in delegates.keys():
-        # https://governance.openstack.org/tc/reference/house-rules.html#delegated-tags
         # https://governance.openstack.org/tc/reference/house-rules.html#delegated-metadata
         approver_name = delegates[topic]
         can_approve = 'delegated to {}'.format(approver_name)
@@ -449,8 +448,6 @@ def main():
     release_team = gov.get_team('Release Management')
 
     delegates = {
-        'stable:follows-policy': 'Tony Breeds',
-        'vulnerability:managed': 'VMT',
         'release-management': release_team.ptl['name'],
     }
     for tag, name in sorted(delegates.items()):

@@ -24,17 +24,6 @@ LOG = logging.getLogger(__name__)
 REPO_URL_BASE = "https://opendev.org/openstack/governance/raw/branch/master"
 
 
-def get_tags_for_deliverable(team_data, team, name):
-    "Return the tags for the deliverable owned by the team."
-    if team not in team_data:
-        return set()
-    team_info = team_data[team]
-    dinfo = team_info['deliverables'].get(name)
-    if not dinfo:
-        return set()
-    return set(dinfo.get('tags', [])).union(set(team_info.get('tags', [])))
-
-
 class Team(object):
 
     def __init__(self, name, data):
@@ -53,10 +42,6 @@ class Team(object):
             for dn, di in self.data.get('deliverables', {}).items()
         }
         self.liaisons = data.get('liaisons', [])
-
-    @property
-    def tags(self):
-        return set(self.data.get('tags', []))
 
     @property
     def service(self):
@@ -79,17 +64,13 @@ class Deliverable(object):
 
     @property
     def tags(self):
-        return set(self.data.get('tags', [])).union(self.team.tags)
+        return set(self.data.get('tags', []))
 
 
 class Repository(object):
     def __init__(self, name, deliverable):
         self.name = name
         self.deliverable = weakref.proxy(deliverable)
-
-    @property
-    def tags(self):
-        return self.deliverable.tags
 
 
 class Governance(object):
@@ -172,8 +153,7 @@ class Governance(object):
                     return team
         raise ValueError('Repository %s not found in governance list' % repo_name)
 
-    def get_repositories(self, team_name=None, deliverable_name=None,
-                         tags=[]):
+    def get_repositories(self, team_name=None, deliverable_name=None):
         """Return a sequence of repositories, possibly filtered.
 
         :param team_name: The name of the team owning the repositories. Can be
@@ -181,13 +161,8 @@ class Governance(object):
             or team_name='Technical Committee'
         :para deliverable_name: The name of the deliverable to which all
            repos should belong.
-        :param tags: The names of any tags the repositories should
-            have. Can be empty.
 
         """
-        if tags:
-            tags = set(tags)
-
         if team_name:
             teams = [self.get_team(team_name)]
         else:
@@ -202,6 +177,4 @@ class Governance(object):
                 deliverables = team.deliverables.values()
             for deliverable in deliverables:
                 for repository in deliverable.repositories.values():
-                    if tags and not tags.issubset(repository.tags):
-                        continue
                     yield repository

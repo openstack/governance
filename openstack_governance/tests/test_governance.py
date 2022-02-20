@@ -50,8 +50,6 @@ Release Management:
       - name: Daniel Bengtsson
         irc: damani
         email: dbengt@redhat.com
-  tags:
-    - team:diverse-affiliation
   deliverables:
     release-schedule-generator:
       repos:
@@ -180,26 +178,6 @@ class TestGetRepositories(base.BaseTestCase):
         self.assertEqual(
             ['openstack-infra/release-tools'],
             [r.name for r in repos],
-        )
-
-    def test_tag_negative(self):
-        repos = self.gov.get_repositories(
-            tags=['team:single-vendor'],
-        )
-        self.assertEqual([], list(repos))
-
-    def test_tags_positive(self):
-        repos = self.gov.get_repositories(
-            tags=['team:diverse-affiliation'],
-        )
-        self.assertEqual(
-            sorted(['openstack/release-schedule-generator',
-                    'openstack/release-test',
-                    'openstack-infra/release-tools',
-                    'openstack/releases',
-                    'openstack/reno',
-                    'openstack-dev/specs-cookiecutter']),
-            sorted(r.name for r in repos),
         )
 
 

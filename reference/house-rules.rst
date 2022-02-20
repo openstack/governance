@@ -89,18 +89,6 @@ RollCall votes being considered +-2): change will be approved once 2
 `RollCall+1` (other than the change owner) are posted (and no
 `RollCall-1`).
 
-Delegated tags
---------------
-
-:Gerrit topic: the name of the tag being applied (``stable:follows-policy``,
-               ``vulnerability:managed``)
-
-Some tags are delegated to a specific team, like
-:ref:`tag-stable:follows-policy`
-or :ref:`tag-vulnerability:managed`. Those need to get approved by the
-corresponding team PTL, and can be directly approved by the chair once this
-approval is given.
-
 Delegated metadata
 ------------------
 
@@ -116,7 +104,7 @@ Other project team updates
 :Gerrit topic: ``project-update``
 
 This topic is used for other changes within an existing project team, like
-addition of a new git repository, retirement or self-assertion of a tag.
+addition of a new git repository or retirement.
 
 If there is no objection posted after the addition or retirement of a project
 is proposed (assuming the correct retirement process has been followed), then

@@ -28,7 +28,6 @@ LOG = logging.getLogger(__name__)
 NUM_COL = 4
 PADDING = 8
 BADGE_SPACING = 4
-BASE_TAGS_URL = 'https://governance.openstack.org/tc/reference/tags/'
 COLOR_SCHEME = {
     "brightgreen": "#4c1",
     "green": "#97CA00",
@@ -124,27 +123,10 @@ def _get_base_badges():
     ]
 
 
-def _get_tag_badges(tags):
-    badges = []
-
-    for tag in tags:
-        # NOTE(flaper87): will submit other patches to make these
-        # tags consistent with the rest.
-        if tag in ['starter-kit:compute']:
-            group, tname = 'tc', tag
-        else:
-            group, tname = tag.split(':')
-
-        link = BASE_TAGS_URL + '%s.html' % tag.replace(':', '_')
-        badges.append(_badge(group, tname, link, colorscheme='blue'))
-
-    return sorted(badges, key=lambda b: b['left_text']+b['right_text'])
-
-
-def _organize_badges(base_badges, tag_badges):
+def _organize_badges(base_badges):
 
     # Arrange badges in NUM_COL columns, filling the rest with width=0 badges
-    ziped = list(zip_longest(*(iter(base_badges + tag_badges),) * NUM_COL,
+    ziped = list(zip_longest(*(iter(base_badges),) * NUM_COL,
                              fillvalue={'width': 0}))
 
     result = []
@@ -195,9 +177,7 @@ def _generate_teams_badges(app, exception=None):
         LOG.info('generating team badge for %s' % team)
 
         for name, deliverable in info['deliverables'].items():
-            tags = info.get('tags', []) + deliverable.get('tags', [])
-            badges = _organize_badges(_get_base_badges(),
-                                      _get_tag_badges(tags))
+            badges = _organize_badges(_get_base_badges())
             svg = '\n'.join(_to_svg(chain(*badges)))
             root_width = max([bdg_row[-1]['width'] + bdg_row[-1]['svg_x']
                               for bdg_row in badges])
