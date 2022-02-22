@@ -631,7 +631,10 @@ ironic:
     tc_members: [dansmith, jungleboyj]
 
 keystone:
-  leadership_type: distributed
+  ptl:
+    name: Douglas Mendizábal
+    irc: dmendiza[m]
+    email: dmendiza@redhat.com
   irc-channel: openstack-keystone
   service: Identity service
   mission: >
