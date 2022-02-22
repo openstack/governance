@@ -13,5 +13,4 @@ Current tags
    :maxdepth: 1
 
    assert_follows-standard-deprecation
-   vulnerability_managed
    stable_follows-policy

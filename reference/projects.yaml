@@ -47,7 +47,6 @@ barbican:
       repos:
         - openstack/barbican
       tags:
-        - vulnerability:managed
         - assert:follows-standard-deprecation
         - stable:follows-policy
     ansible-role-atos-hsm:
@@ -72,8 +71,6 @@ barbican:
     python-barbicanclient:
       repos:
         - openstack/python-barbicanclient
-      tags:
-        - vulnerability:managed
   liaisons:
     tc_members: [jungleboyj, diablo_rojo]
 blazar:
@@ -128,7 +125,6 @@ cinder:
       repos:
         - openstack/cinder
       tags:
-        - vulnerability:managed
         - assert:follows-standard-deprecation
         - stable:follows-policy
     cinder-specs:
@@ -147,7 +143,6 @@ cinder:
       repos:
         - openstack/os-brick
       tags:
-        - vulnerability:managed
         - stable:follows-policy
     python-brick-cinderclient-ext:
       repos:
@@ -158,7 +153,6 @@ cinder:
       repos:
         - openstack/python-cinderclient
       tags:
-        - vulnerability:managed
         - stable:follows-policy
     rbd-iscsi-client:
       repos:
@@ -343,7 +337,6 @@ glance:
         - openstack/glance
       tags:
         - assert:follows-standard-deprecation
-        - vulnerability:managed
         - stable:follows-policy
     glance-specs:
       release-management: none
@@ -356,13 +349,11 @@ glance:
       repos:
         - openstack/glance_store
       tags:
-        - vulnerability:managed
         - stable:follows-policy
     python-glanceclient:
       repos:
         - openstack/python-glanceclient
       tags:
-        - vulnerability:managed
         - stable:follows-policy
   liaisons:
     tc_members: [dansmith, jungleboyj]
@@ -384,7 +375,6 @@ heat:
       repos:
         - openstack/heat
       tags:
-        - vulnerability:managed
         - assert:follows-standard-deprecation
         - stable:follows-policy
     heat-agents:
@@ -418,7 +408,6 @@ heat:
       repos:
         - openstack/python-heatclient
       tags:
-        - vulnerability:managed
         - stable:follows-policy
     tosca-parser:
       repos:
@@ -441,7 +430,6 @@ horizon:
       repos:
         - openstack/horizon
       tags:
-        - vulnerability:managed
         - assert:follows-standard-deprecation
         - stable:follows-policy
     ui-cookiecutter:
@@ -643,7 +631,6 @@ keystone:
       repos:
         - openstack/keystone
       tags:
-        - vulnerability:managed
         - assert:follows-standard-deprecation
         - stable:follows-policy
     keystone-specs:
@@ -663,7 +650,6 @@ keystone:
         - openstack/keystonemiddleware
       tags:
         - stable:follows-policy
-        - vulnerability:managed
     pycadf:
       repos:
         - openstack/pycadf
@@ -673,7 +659,6 @@ keystone:
       repos:
         - openstack/python-keystoneclient
       tags:
-        - vulnerability:managed
         - stable:follows-policy
     ldappool:
       repos:
@@ -1089,7 +1074,6 @@ neutron:
         - openstack/neutron
       tags:
         - stable:follows-policy
-        - vulnerability:managed
         - assert:follows-standard-deprecation
     neutron-dynamic-routing:
       repos:
@@ -1101,7 +1085,6 @@ neutron:
         - openstack/neutron-lib
       tags:
         - stable:follows-policy
-        - vulnerability:managed
     neutron-specs:
       release-management: none
       repos:
@@ -1118,8 +1101,6 @@ neutron:
     python-neutronclient:
       repos:
         - openstack/python-neutronclient
-      tags:
-        - vulnerability:managed
     neutron-fwaas-dashboard:
       repos:
         - openstack/neutron-fwaas-dashboard
@@ -1157,7 +1138,6 @@ nova:
       repos:
         - openstack/nova
       tags:
-        - vulnerability:managed
         - assert:follows-standard-deprecation
         - stable:follows-policy
     nova-specs:
@@ -1168,7 +1148,6 @@ nova:
       repos:
         - openstack/python-novaclient
       tags:
-        - vulnerability:managed
         - stable:follows-policy
     os-vif:
       repos:
@@ -2146,7 +2125,6 @@ oslo:
         - openstack/castellan
       tags:
         - stable:follows-policy
-        - vulnerability:managed
     cookiecutter:
       release-management: none
       repos:
@@ -2200,7 +2178,6 @@ oslo:
       repos:
         - openstack/oslo.config
       tags:
-        - vulnerability:managed
         - stable:follows-policy
     oslo.context:
       repos:
@@ -2681,73 +2658,62 @@ sahara:
       repos:
         - openstack/python-saharaclient
       tags:
-        - vulnerability:managed
         - stable:follows-policy
     sahara:
       repos:
         - openstack/sahara
       tags:
-        - vulnerability:managed
         - assert:follows-standard-deprecation
         - stable:follows-policy
     sahara-dashboard:
       repos:
         - openstack/sahara-dashboard
       tags:
-        - vulnerability:managed
         - stable:follows-policy
     sahara-extra:
       repos:
         - openstack/sahara-extra
       tags:
-        - vulnerability:managed
         - stable:follows-policy
     sahara-image-elements:
       repos:
         - openstack/sahara-image-elements
       tags:
-        - vulnerability:managed
         - stable:follows-policy
     sahara-plugin-ambari:
       repos:
         - openstack/sahara-plugin-ambari
       tags:
-        - vulnerability:managed
         - assert:follows-standard-deprecation
         - stable:follows-policy
     sahara-plugin-cdh:
       repos:
         - openstack/sahara-plugin-cdh
       tags:
-        - vulnerability:managed
         - assert:follows-standard-deprecation
         - stable:follows-policy
     sahara-plugin-mapr:
       repos:
         - openstack/sahara-plugin-mapr
       tags:
-        - vulnerability:managed
         - assert:follows-standard-deprecation
         - stable:follows-policy
     sahara-plugin-spark:
       repos:
         - openstack/sahara-plugin-spark
       tags:
-        - vulnerability:managed
         - assert:follows-standard-deprecation
         - stable:follows-policy
     sahara-plugin-storm:
       repos:
         - openstack/sahara-plugin-storm
       tags:
-        - vulnerability:managed
         - assert:follows-standard-deprecation
         - stable:follows-policy
     sahara-plugin-vanilla:
       repos:
         - openstack/sahara-plugin-vanilla
       tags:
-        - vulnerability:managed
         - assert:follows-standard-deprecation
         - stable:follows-policy
     sahara-tests:
@@ -2901,13 +2867,11 @@ swift:
       repos:
         - openstack/python-swiftclient
       tags:
-        - vulnerability:managed
         - stable:follows-policy
     swift:
       repos:
         - openstack/swift
       tags:
-        - vulnerability:managed
         - stable:follows-policy
         - assert:follows-standard-deprecation
     swift-bench:
@@ -3150,13 +3114,11 @@ trove:
       repos:
         - openstack/python-troveclient
       tags:
-        - vulnerability:managed
         - assert:follows-standard-deprecation
     trove:
       repos:
         - openstack/trove
       tags:
-        - vulnerability:managed
         - assert:follows-standard-deprecation
     trove-dashboard:
       repos:
