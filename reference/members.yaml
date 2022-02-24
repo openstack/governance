@@ -3,7 +3,7 @@
   email: gmann@ghanshyammann.com
   memberid: 6461
   date: September 2021
-  role: chair
+  role: null
 
 - name: Jay Bryant
   irc: jungleboyj
@@ -26,37 +26,37 @@
   date: September 2021
   role: null
 
-- name: Mohammed Naser
-  irc: mnaser
-  email: mnaser@vexxhost.com
-  memberid: 8899
-  date: March 2021
+- name: Arne Wiebalck
+  irc: arnewiebalck
+  email: arne.wiebalck@cern.ch
+  memberid: 18496
+  date: February 2022
   role: null
 
-- name: Rico Lin
-  irc: ricolin
-  email: ricolin@ricolky.com
-  memberid: 33346
-  date: March 2021
+- name: Sławek Kapłoński
+  irc: slaweq
+  email: skaplons@redhat.com
+  memberid: 19377
+  date: February 2022
   role: null
 
-- name: Belmiro Moreira
-  irc: belmoreira
-  email: moreira.belmiro.email.lists@gmail.com
-  memberid: 9745
-  date: March 2021
+- name: Kristi Nikolla
+  irc: knikolla
+  email: knikolla@bu.edu
+  memberid: 35202
+  date: February 2022
   role: null
 
-- name: Radosław Piliszek
-  irc: yoctozepto
-  email: radoslaw.piliszek@gmail.com
-  memberid: 100352
-  date: March 2021
-  role: vice-chair
+- name: Brian Rosmaita
+  irc: rosmaita
+  email: rosmaita.fossdev@gmail.com
+  memberid: 1778
+  date: February 2022
+  role: null
 
 - name: Amy Marrich
   irc: spotz
   email: amy@demarco.com
   memberid: 33567
-  date: April 2021
+  date: February 2022
   role: null
