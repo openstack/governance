@@ -1,8 +1,8 @@
 adjutant:
   ptl:
-    name: Adrian Turjak
-    irc: adriant
-    email: adriant@catalystcloud.nz
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - victoria
     - yoga
@@ -113,9 +113,9 @@ blazar:
     tc_members: [yoctozepto, spotz]
 cinder:
   ptl:
-    name: Brian Rosmaita
-    irc: rosmaita
-    email: rosmaita.fossdev@gmail.com
+    name: Rajat Dhasmana
+    irc: whoami-rajat
+    email: rajatdhasmana@gmail.com
   irc-channel: openstack-cinder
   service: Block Storage service
   mission: >
@@ -292,9 +292,9 @@ ec2-api:
       - jungleboyj
 freezer:
   ptl:
-    name: ge cong
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: ge.cong@zte.com.cn
+    email: example@example.org
   appointed:
     - stein
   irc-channel: openstack-freezer
@@ -368,9 +368,9 @@ glance:
     tc_members: [dansmith, jungleboyj]
 heat:
   ptl:
-    name: Rico Lin
-    irc: ricolin
-    email: ricolin@ricolky.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - yoga
   irc-channel: heat
@@ -759,9 +759,9 @@ kuryr:
     tc_members: [yoctozepto, mnaser]
 magnum:
   ptl:
-    name: Spyros Trigazis
-    irc: strigazi
-    email: strigazi@gmail.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-containers
   service: Container Infrastructure Management service
   mission: >
@@ -789,9 +789,9 @@ magnum:
     tc_members: [ricolin, mnaser]
 manila:
   ptl:
-    name: Goutham Pacha Ravi
-    irc: gouthamr
-    email: gouthampravi@gmail.com
+    name: Carlos Silva
+    irc: carloss
+    email: ces.eduardo98@gmail.com
   irc-channel: openstack-manila
   service: Shared File Systems service
   mission: >
@@ -830,9 +830,9 @@ manila:
     tc_members: [jungleboyj, yoctozepto]
 masakari:
   ptl:
-    name: suzhengwei
-    irc: suzhengwei
-    email: suzhengwei@inspur.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - yoga
   irc-channel: openstack-masakari
@@ -917,9 +917,9 @@ mistral:
         email: renat.akhmerov@gmail.com
 monasca:
   ptl:
-    name: Martin Chacon Piza
-    irc: chaconpiza
-    email: martin@chaconpiza.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - xena
     - yoga
@@ -995,9 +995,9 @@ monasca:
     tc_members: [gmann, belmoreira]
 murano:
   ptl:
-    name: Rong Zhu
-    irc: zhurong
-    email: aaronzhu1121@gmail.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: murano
   service: Application Catalog service
   mission: >
@@ -1233,9 +1233,9 @@ octavia:
       - dansmith
 OpenStack Charms:
   ptl:
-    name: Alex Kavanagh
-    irc: tinwood
-    email: alex.kavanagh@canonical.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - wallaby
   irc-channel: openstack-charms
@@ -1823,9 +1823,9 @@ OpenStack Charms:
       - spotz
 openstack-chef:
   ptl:
-    name: Lance Albertson
-    irc: Ramereth
-    email: lance@osuosl.org
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   service: Chef cookbooks for life cycle management
   irc-channel: openstack-chef
   mission: >
@@ -2336,9 +2336,9 @@ oslo:
         email: openstack@nemebean.com
 Puppet OpenStack:
   ptl:
-    name: Tobias Urdin
-    irc: tobias-urdin
-    email: tobias.urdin@binero.com
+    name: Takashi Kajinami
+    irc: tkajinam
+    email: tkajinam@redhat.com
   appointed:
     - yoga
   irc-channel: puppet-openstack
@@ -2767,9 +2767,9 @@ sahara:
       - belmoreira
 senlin:
   ptl:
-    name: XueFeng Liu
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: liu.xuefeng1@zte.com.cn
+    email: example@example.org
   appointed:
     - wallaby
     - xena
@@ -2798,9 +2798,9 @@ senlin:
 
 skyline:
   ptl:
-    name: Wenxiang Wu
-    irc: wenxiang
-    email: wu.wenxiang@99cloud.net
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-skyline
   service: Dashboard
   mission: >
@@ -2824,9 +2824,9 @@ skyline:
 
 solum:
   ptl:
-    name: Rong Zhu
-    irc: zhurong
-    email: aaronzhu1121@gmail.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: solum
   service: Software Development Lifecycle Automation service
   mission: >
@@ -3136,9 +3136,9 @@ tripleo:
     tc_members: [dansmith, diablo_rojo]
 trove:
   ptl:
-    name: Lingxian Kong
-    irc: lxkong
-    email: anlin.kong@gmail.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - stein
   irc-channel: openstack-trove
@@ -3181,9 +3181,9 @@ trove:
 
 venus:
   ptl:
-    name: Liye Pang
-    irc: pangliye
-    email: pangliye@inspur.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-venus
   service: Log management service
   mission: >
@@ -3268,9 +3268,9 @@ vitrage:
       - diablo_rojo
 watcher:
   ptl:
-    name: chen ke
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: chen.ke14@zte.com.cn
+    email: example@example.org
   irc-channel: openstack-watcher
   service: Infrastructure Optimization service
   mission: >
@@ -3332,9 +3332,9 @@ winstackers:
       - mnaser
 zaqar:
   ptl:
-    name: wang hao
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: sxmatch1986@gmail.com
+    email: example@example.org
   appointed:
     - train
     - victoria
@@ -3374,9 +3374,9 @@ zaqar:
       - dansmith
 zun:
   ptl:
-    name: Feng Shengqin
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: feng.shengqin@zte.com.cn
+    email: example@example.org
   appointed:
     - xena
     - yoga
