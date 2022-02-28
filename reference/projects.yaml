@@ -830,11 +830,12 @@ manila:
     tc_members: [jungleboyj, yoctozepto]
 masakari:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: suzhengwei 
+    irc: suzhengwei
+    email: suzhengwei@inspur.com
   appointed:
     - yoga
+    - zed
   irc-channel: openstack-masakari
   service: Instances High Availability service
   mission: >
