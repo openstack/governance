@@ -759,9 +759,11 @@ kuryr:
     tc_members: [yoctozepto, mnaser]
 magnum:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Spyros Trigazis
+    irc: strigazi
+    email: strigazi@gmail.com
+  appointed:
+    - zed
   irc-channel: openstack-containers
   service: Container Infrastructure Management service
   mission: >
