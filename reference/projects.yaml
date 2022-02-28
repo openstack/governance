@@ -2803,9 +2803,11 @@ senlin:
 
 skyline:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Wenxiang Wu
+    irc: wenxiang
+    email: wu.wenxiang@99cloud.net
+  appointed:
+    - zed
   irc-channel: openstack-skyline
   service: Dashboard
   mission: >
