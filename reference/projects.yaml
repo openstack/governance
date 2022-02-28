@@ -292,11 +292,12 @@ ec2-api:
       - jungleboyj
 freezer:
   ptl:
-    name: APPOINTMENT NEEDED
+    name: ge cong
     irc: No nick supplied
-    email: example@example.org
+    email: ge.cong@zte.com.cn
   appointed:
     - stein
+    - zed
   irc-channel: openstack-freezer
   service: Backup, Restore, and Disaster Recovery service
   mission: >
