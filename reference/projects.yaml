@@ -3285,9 +3285,11 @@ vitrage:
       - diablo_rojo
 watcher:
   ptl:
-    name: APPOINTMENT NEEDED
+    name: chen ke
     irc: No nick supplied
-    email: example@example.org
+    email: chen.ke14@zte.com.cn
+  appointed:
+    - zed
   irc-channel: openstack-watcher
   service: Infrastructure Optimization service
   mission: >
