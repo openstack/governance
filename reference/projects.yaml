@@ -2837,9 +2837,11 @@ skyline:
 
 solum:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Rong Zhu
+    irc: zhurong
+    email: aaronzhu1121@gmail.com
+  appointed:
+    - zed
   irc-channel: solum
   service: Software Development Lifecycle Automation service
   mission: >
