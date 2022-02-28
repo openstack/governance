@@ -3344,13 +3344,14 @@ winstackers:
       - mnaser
 zaqar:
   ptl:
-    name: APPOINTMENT NEEDED
+    name: wang hao
     irc: No nick supplied
-    email: example@example.org
+    email: sxmatch1986@gmail.com
   appointed:
     - train
     - victoria
     - xena
+    - zed
   irc-channel: openstack-zaqar
   service: Message service
   mission: >
