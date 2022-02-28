@@ -1000,9 +1000,11 @@ monasca:
     tc_members: [gmann, belmoreira]
 murano:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Rong Zhu
+    irc: zhurong
+    email: aaronzhu1121@gmail.com
+  appointed:
+    - zed
   irc-channel: murano
   service: Application Catalog service
   mission: >
