@@ -5,7 +5,7 @@
 History
 -------
 
-Openstack has historically used a six month release cycle cadence for
+OpenStack has historically used a six month release cycle cadence for
 the projects which participate in the coordinated release. Further,
 upgrades were tested and supported between two adjacent coordinated
 releases only, requiring deployers and distributions to either upgrade
@@ -118,9 +118,13 @@ Details
    schema from tick-tick. This includes data migrations which need to
    do work in tick releases, and while they may do work in tock
    releases, the work done in tock releases cannot be
-   *mandatory*. This can be solved by requiring operators to
-   (force-)complete data migrations on a source tick before upgrading
-   to a target tick, for example.
+   *mandatory*. This can be solved (as it is today) by requiring
+   operators to (force-)complete data migrations on a supported
+   release before moving to one that drops compatibility. The
+   tick-tock arrangement described in this resolution would require
+   attention to those migrations to make sure they happen
+   (automatically or manually) on the source tick before upgrading to
+   the target tick, for example.
 
 Example sequence
 ----------------
