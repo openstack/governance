@@ -92,11 +92,8 @@ TC Repos
 ~~~~~~~~~
 
 While your main focus as a TC member is the governance repo, the complete list
-of repos that are under the governance of the TC is listed below:
-
-* :repo:`openstack/governance/raw/branch/master/reference/technical-committee-repos.yaml`.
-
-* :repo:`openstack/governance/raw/branch/master/reference/user-committee-repos.yaml`.
+of repos that are under the governance of the TC is listed in
+:repo:`openstack/governance/raw/branch/master/reference/technical-committee-repos.yaml`.
 
 The `TC review dashboard
 <https://review.opendev.org/#/dashboard/?title=Technical+Committee+Inbox&foreach=project%3Aopenstack%2Fgovernance+is%3Aopen&My+proposals=owner%3Aself&Formal+Vote+Items+I+have+not+voted+on+yet=topic%3Aformal-vote+NOT+(+label%3ARollCall-Vote%2B1%2Cself+OR+label%3ARollCall-Vote-1%2Cself+)&Has+at+Least+One+Objection=(+label%3ARollCall-Vote%3C%3D-1+OR+label%3ACode-Review%3C%3D-1+)&Quickies=(+topic%3Atypo-fix+OR+topic%3Acode-change+OR+topic%3Adocumentation-change+OR+topic%3Aproject-update+)&Formal+Vote+Items=topic%3Aformal-vote&Goal+Items+I+Haven't+Voted+On=path%3A^goals%2F.*+NOT+(+label%3ARollCall-Vote%2B1%2Cself+OR+label%3ARollCall-Vote-1%2Cself+)&I+Haven't+Voted+on+this+Draft=NOT+(+label%3ARollCall-Vote%2B1%2Cself+OR+label%3ARollCall-Vote-1%2Cself+)&Everything=>`_
