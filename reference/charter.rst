@@ -81,7 +81,7 @@ bring questions to the Technical Committee (see
 asynchronous communication via email or gerrit is preferred over
 meetings. If a topic will require significant discussion or to need
 input from members of the community other than the committee, start a
-mailing list discussion on ``openstack-dev at lists.openstack.org``
+mailing list discussion on ``openstack-discuss at lists.openstack.org``
 and use the subject tag ``[tc]`` to bring it to the attention of
 Technical Committee members.
 
