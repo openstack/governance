@@ -3374,12 +3374,13 @@ zaqar:
       - dansmith
 zun:
   ptl:
-    name: APPOINTMENT NEEDED
+    name: Feng Shengqin
     irc: No nick supplied
-    email: example@example.org
+    email: feng.shengqin@zte.com.cn
   appointed:
     - xena
     - yoga
+    - zed
   irc-channel: openstack-zun
   service: Containers service
   mission: >
