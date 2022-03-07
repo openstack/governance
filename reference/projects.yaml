@@ -368,11 +368,12 @@ glance:
     tc_members: [dansmith, jungleboyj]
 heat:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Rico Lin
+    irc: ricolin
+    email: ricolin@ricolky.com
   appointed:
     - yoga
+    - zed
   irc-channel: heat
   service: Orchestration service
   mission: >
