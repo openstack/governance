@@ -1236,11 +1236,12 @@ octavia:
       - dansmith
 OpenStack Charms:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Alex Kavanagh
+    irc: tinwood
+    email: alex.kavanagh@canonical.com
   appointed:
     - wallaby
+    - zed
   irc-channel: openstack-charms
   service: Juju Charms for deployment of OpenStack
   mission: >
