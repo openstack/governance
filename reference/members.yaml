@@ -27,8 +27,8 @@
   role: null
 
 - name: Arne Wiebalck
-  irc: arnewiebalck
-  email: arne.wiebalck@cern.ch
+  irc: arne_wiebalck
+  email: Arne.Wiebalck@cern.ch
   memberid: 18496
   date: February 2022
   role: null
