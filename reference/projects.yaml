@@ -1828,9 +1828,11 @@ OpenStack Charms:
       - spotz
 openstack-chef:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Lance Albertson
+    irc: Ramereth
+    email: lance@osuosl.org
+  appointed:
+    - zed
   service: Chef cookbooks for life cycle management
   irc-channel: openstack-chef
   mission: >
