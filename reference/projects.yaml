@@ -3188,9 +3188,11 @@ trove:
 
 venus:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Liye Pang
+    irc: pangliye
+    email: pangliye@inspur.com
+  appointed:
+    - zed
   irc-channel: openstack-venus
   service: Log management service
   mission: >
