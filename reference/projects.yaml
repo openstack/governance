@@ -3116,11 +3116,12 @@ tripleo:
     tc_members: [dansmith, diablo_rojo]
 trove:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Wu Chunyang
+    irc: wuchunyang
+    email: wuchunyang@yovole.com
   appointed:
     - stein
+    - zed
   irc-channel: openstack-trove
   service: Database service
   mission: >
