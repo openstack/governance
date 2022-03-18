@@ -47,7 +47,6 @@ barbican:
       repos:
         - openstack/barbican
       tags:
-        - assert:follows-standard-deprecation
         - stable:follows-policy
     ansible-role-atos-hsm:
       repos:
@@ -125,7 +124,6 @@ cinder:
       repos:
         - openstack/cinder
       tags:
-        - assert:follows-standard-deprecation
         - stable:follows-policy
     cinder-specs:
       release-management: none
@@ -243,7 +241,6 @@ designate:
         - openstack/designate
       tags:
         - stable:follows-policy
-        - assert:follows-standard-deprecation
     designate-dashboard:
       repos:
         - openstack/designate-dashboard
@@ -337,7 +334,6 @@ glance:
       repos:
         - openstack/glance
       tags:
-        - assert:follows-standard-deprecation
         - stable:follows-policy
     glance-specs:
       release-management: none
@@ -377,7 +373,6 @@ heat:
       repos:
         - openstack/heat
       tags:
-        - assert:follows-standard-deprecation
         - stable:follows-policy
     heat-agents:
       repos:
@@ -432,7 +427,6 @@ horizon:
       repos:
         - openstack/horizon
       tags:
-        - assert:follows-standard-deprecation
         - stable:follows-policy
     ui-cookiecutter:
       release-management: none
@@ -545,13 +539,11 @@ ironic:
         - openstack/ironic
       tags:
         - stable:follows-policy
-        - assert:follows-standard-deprecation
     ironic-inspector:
       repos:
         - openstack/ironic-inspector
       tags:
         - stable:follows-policy
-        - assert:follows-standard-deprecation
     ironic-inspector-specs:
       release-management: none
       repos:
@@ -636,7 +628,6 @@ keystone:
       repos:
         - openstack/keystone
       tags:
-        - assert:follows-standard-deprecation
         - stable:follows-policy
     keystone-specs:
       release-management: none
@@ -793,7 +784,6 @@ manila:
       repos:
         - openstack/manila
       tags:
-        - assert:follows-standard-deprecation
         - stable:follows-policy
     manila-image-elements:
       repos:
@@ -1079,13 +1069,11 @@ neutron:
         - openstack/neutron-fwaas
       tags:
         - stable:follows-policy
-        - assert:follows-standard-deprecation
     neutron:
       repos:
         - openstack/neutron
       tags:
         - stable:follows-policy
-        - assert:follows-standard-deprecation
     neutron-dynamic-routing:
       repos:
         - openstack/neutron-dynamic-routing
@@ -1120,7 +1108,6 @@ neutron:
         - openstack/neutron-vpnaas
       tags:
         - stable:follows-policy
-        - assert:follows-standard-deprecation
     neutron-vpnaas-dashboard:
       repos:
         - openstack/neutron-vpnaas-dashboard
@@ -1149,7 +1136,6 @@ nova:
       repos:
         - openstack/nova
       tags:
-        - assert:follows-standard-deprecation
         - stable:follows-policy
     nova-specs:
       release-management: none
@@ -2091,16 +2077,12 @@ OpenStackSDK:
     openstacksdk:
       repos:
         - openstack/openstacksdk
-      tags:
-        - assert:follows-standard-deprecation
     os-client-config:
       repos:
         - openstack/os-client-config
     os-service-types:
       repos:
         - openstack/os-service-types
-      tags:
-        - assert:follows-standard-deprecation
     osc-lib:
       repos:
         - openstack/osc-lib
@@ -2110,13 +2092,9 @@ OpenStackSDK:
     requestsexceptions:
       repos:
         - openstack/requestsexceptions
-      tags:
-        - assert:follows-standard-deprecation
     shade:
       repos:
         - openstack/shade
-      tags:
-        - assert:follows-standard-deprecation
   liaisons:
     tc_members: [yoctozepto, jungleboyj]
 oslo:
@@ -2677,7 +2655,6 @@ sahara:
       repos:
         - openstack/sahara
       tags:
-        - assert:follows-standard-deprecation
         - stable:follows-policy
     sahara-dashboard:
       repos:
@@ -2698,37 +2675,31 @@ sahara:
       repos:
         - openstack/sahara-plugin-ambari
       tags:
-        - assert:follows-standard-deprecation
         - stable:follows-policy
     sahara-plugin-cdh:
       repos:
         - openstack/sahara-plugin-cdh
       tags:
-        - assert:follows-standard-deprecation
         - stable:follows-policy
     sahara-plugin-mapr:
       repos:
         - openstack/sahara-plugin-mapr
       tags:
-        - assert:follows-standard-deprecation
         - stable:follows-policy
     sahara-plugin-spark:
       repos:
         - openstack/sahara-plugin-spark
       tags:
-        - assert:follows-standard-deprecation
         - stable:follows-policy
     sahara-plugin-storm:
       repos:
         - openstack/sahara-plugin-storm
       tags:
-        - assert:follows-standard-deprecation
         - stable:follows-policy
     sahara-plugin-vanilla:
       repos:
         - openstack/sahara-plugin-vanilla
       tags:
-        - assert:follows-standard-deprecation
         - stable:follows-policy
     sahara-tests:
       repos:
@@ -2892,7 +2863,6 @@ swift:
         - openstack/swift
       tags:
         - stable:follows-policy
-        - assert:follows-standard-deprecation
     swift-bench:
       repos:
         - openstack/swift-bench
@@ -2949,13 +2919,9 @@ Telemetry:
     aodh:
       repos:
         - openstack/aodh
-      tags:
-        - assert:follows-standard-deprecation
     ceilometer:
       repos:
         - openstack/ceilometer
-      tags:
-        - assert:follows-standard-deprecation
     telemetry-specs:
       release-management: none
       repos:
@@ -2966,8 +2932,6 @@ Telemetry:
     panko:
       repos:
         - openstack/panko
-      tags:
-        - assert:follows-standard-deprecation
       deprecated: xena
     python-aodhclient:
       repos:
@@ -3132,18 +3096,12 @@ trove:
     python-troveclient:
       repos:
         - openstack/python-troveclient
-      tags:
-        - assert:follows-standard-deprecation
     trove:
       repos:
         - openstack/trove
-      tags:
-        - assert:follows-standard-deprecation
     trove-dashboard:
       repos:
         - openstack/trove-dashboard
-      tags:
-        - assert:follows-standard-deprecation
     trove-specs:
       release-management: none
       repos:
@@ -3338,7 +3296,6 @@ zaqar:
         - openstack/zaqar
       tags:
         - stable:follows-policy
-        - assert:follows-standard-deprecation
     zaqar-specs:
       release-management: none
       repos:
