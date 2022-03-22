@@ -2,14 +2,9 @@
  Tags
 ======
 
-The tags framework is currently being removed. This index page is left
-to serve as a source of still-useful information which will be later
-refactored.
+.. warning::
 
-Current tags
-============
-
-.. toctree::
-   :maxdepth: 1
-
-   stable_follows-policy
+   The tags framework has been removed and we no longer maintain it. Instead,
+   we encourage projects to continue following the policies they were adhering
+   to with the tag framework, for example, deprecation, upgrade, stable branch,
+   VMT, etc.

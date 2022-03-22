@@ -104,10 +104,6 @@ additionalProperties:
               pattern: "^[^/]+/[^/]+$"
             minItems: 1
             uniqueItems: true
-          tags:
-            type: "array"
-            items:
-              type: "string"
           release-management:
             type: "string"
             enum:
