@@ -70,7 +70,41 @@ This separates the discussion for each goal, and allows authors to gradually
 refine and improve their proposal through multiple incremental changes.
 Goals should be discussed on the mailing list to collect feedback on their
 feasibility, and consensus on whether they have been completely and clearly
-described.
+described. Below checklist will help to know if goal is ready to be selected
+or need more pre-work.
+
+Goal Checklist
+~~~~~~~~~~~~~~
+
+Below checklist provide a high-level view for goal readiness and the same is
+mandatory to fill while proposing the goal.
+
++-------------------+-------------------------------------+------------+
+| Item              |         Requirements                |  Catagory  |
++===================+=====================================+============+
+|                   |                                     |            |
+| Design            | * Is design finalized?              | Mandatory  |
+|                   |                                     |            |
++-------------------+-------------------------------------+------------+
+|                   |                                     |            |
+| Implementation    | * Are implementation details        | Mandatory  |
+|                   |   finalized?                        |            |
+|                   |                                     |            |
++-------------------+-------------------------------------+------------+
+|                   |                                     |            |
+| Dependency &      | * Is there any dependency or blocker| Mandatory  |
+| Blocker           |   in OpenStack or External software?|            |
+|                   |                                     |            |
++-------------------+-------------------------------------+------------+
+|                   |                                     |            |
+| Current state     | * Any project completed this goal?  | Optional   |
+|                   |                                     |            |
++-------------------+-------------------------------------+------------+
+|                   |                                     |            |
+| Meeting &         | * Is there any regular meeting or   | Optional   |
+| discussion        |   discussion planned where projects |            |
+|                   |   can ask questions and get help?   |            |
++-------------------+-------------------------------------+------------+
 
 Selecting goals
 ---------------
@@ -198,52 +232,11 @@ implementation phase, and next steps if there are any.
 Goal Selection Schedule
 =======================
 
-To give enough time to projects and champion to implement each cycle
-community-wide goals, TC has to make sure goals are selected before
-the development cycle start.
-
-Below schedule is for the next (say N+1) cycle goals preparation
-during the current (say N) cycle timeframe.
-
-+-------------------+-------------------------------------+-------------------------------------------------------+
-| Time              |   Phase                             | Tasks                                                 |
-+===================+=====================================+=======================================================+
-|                   |                                     |                                                       |
-|Before Summit &    | TC volunteer & `Identifying Goals`_ |- Identify the two TC volunteers to drive the process. |
-|PTG of N release   |                                     |- Kick off the process to collect the goal ideas over  |
-|                   |                                     |  ML etc.                                              |
-|                   |                                     |                                                       |
-+-------------------+-------------------------------------+-------------------------------------------------------+
-|                   |                                     |                                                       |
-|                   |                                     |- Find potential candidates for N+1 goals.             |
-|At Summit & PTG    |                                     |- This can be new ideas or from backlog of potential   |
-|of N release       | Find potential goals & Champion     |  goals.                                               |
-|                   |                                     |- Call for Champions for goal candidates (mutiple      |
-|                   |                                     |  champions are acceptable)                            |
-|                   |                                     |- This can be done via ML, Forum and PTG sessions.     |
-+-------------------+-------------------------------------+-------------------------------------------------------+
-|                   |                                     |                                                       |
-|                   |                                     |                                                       |
-|                   |                                     |- TC volunteer to Report on required pre-work for all  |
-|                   |                                     |  identified potentials goal candidates.               |
-|Until Milestone-1  | Discussion                          |- Find volunteers for action taker on required         |
-|of N release       |                                     |  pre-works                                            |
-|                   |                                     |- TC need to review the report and the                 |
-|                   |                                     |  vote for the readiness of goal.                      |
-|                   |                                     |                                                       |
-+-------------------+-------------------------------------+-------------------------------------------------------+
-|Until Milestone-2  |                                     |                                                       |
-|of N release       | `Defining Goals`_                   |                                                       |
-|                   |                                     |                                                       |
-+-------------------+-------------------------------------+-------------------------------------------------------+
-|Until Milestone-3  |                                     |                                                       |
-|of N release       | `Selecting goals`_                  |                                                       |
-|                   |                                     |                                                       |
-+-------------------+-------------------------------------+-------------------------------------------------------+
-|Until N+1          |                                     |                                                       |
-|development cycle  | Goal Implementation                 |- Champion & projects to start the goal implementation |
-|start              |                                     |                                                       |
-+-------------------+-------------------------------------+-------------------------------------------------------+
+During the PTG of every cycle, TC has to make sure some goals are selected
+and in progress. If none are selected, then the TC should investigate possible
+candidates to select as goals. There is no requirement of a minimum or maximum
+number of selected goals; there can be zero or more based on the community and
+champion bandwidth.
 
 Community goals
 ===============
