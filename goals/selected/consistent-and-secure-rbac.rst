@@ -491,6 +491,8 @@ functionality.
    - *List all cinder services*
    - *View all domains and identity providers within the deployment*
 
+Tracking Etherpad: https://etherpad.opendev.org/p/rbac-goal-tracking
+
 Champion
 ========
 
