@@ -1265,6 +1265,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-ceph-mon
+    charm-ceph-nfs:
+      release-management: external
+      repos:
+        - openstack/charm-ceph-nfs
     charm-ceph-osd:
       release-management: external
       repos:
