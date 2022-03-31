@@ -12,5 +12,4 @@ Current tags
 .. toctree::
    :maxdepth: 1
 
-   assert_follows-standard-deprecation
    stable_follows-policy
