@@ -62,10 +62,6 @@ class Deliverable(object):
             for rn in self.data.get('repos', [])
         }
 
-    @property
-    def tags(self):
-        return set(self.data.get('tags', []))
-
 
 class Repository(object):
     def __init__(self, name, deliverable):

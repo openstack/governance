@@ -123,13 +123,6 @@ def _team_to_rst(name, info):
                 for repo in deliverable.get('repos', [])
             )
             yield ''
-            tags = deliverable.get('tags', [])
-            if tags:
-                yield ':Tags:'
-                yield ''
-                for tag in tags:
-                    yield '  - :ref:`tag-%s`' % tag
-                yield ''
     else:
         yield 'None'
     yield ''

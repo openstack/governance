@@ -37,7 +37,6 @@ extensions = [
     'members',
     'projects',
     'teams',
-    'tags',
     'tc_liaisons',
     'badges',
     'page_context',

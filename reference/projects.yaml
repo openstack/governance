@@ -44,8 +44,6 @@ barbican:
     barbican:
       repos:
         - openstack/barbican
-      tags:
-        - stable:follows-policy
     ansible-role-atos-hsm:
       repos:
         - openstack/ansible-role-atos-hsm
@@ -121,8 +119,6 @@ cinder:
     cinder:
       repos:
         - openstack/cinder
-      tags:
-        - stable:follows-policy
     cinder-specs:
       release-management: none
       repos:
@@ -133,23 +129,15 @@ cinder:
     cinderlib:
       repos:
         - openstack/cinderlib
-      tags:
-        - stable:follows-policy
     os-brick:
       repos:
         - openstack/os-brick
-      tags:
-        - stable:follows-policy
     python-brick-cinderclient-ext:
       repos:
         - openstack/python-brick-cinderclient-ext
-      tags:
-        - stable:follows-policy
     python-cinderclient:
       repos:
         - openstack/python-cinderclient
-      tags:
-        - stable:follows-policy
     rbd-iscsi-client:
       repos:
         - openstack/rbd-iscsi-client
@@ -237,13 +225,9 @@ designate:
     designate:
       repos:
         - openstack/designate
-      tags:
-        - stable:follows-policy
     designate-dashboard:
       repos:
         - openstack/designate-dashboard
-      tags:
-        - stable:follows-policy
     designate-specs:
       release-management: none
       repos:
@@ -254,8 +238,6 @@ designate:
     python-designateclient:
       repos:
         - openstack/python-designateclient
-      tags:
-        - stable:follows-policy
   liaisons:
     tc_members: []
 ec2-api:
@@ -329,8 +311,6 @@ glance:
     glance:
       repos:
         - openstack/glance
-      tags:
-        - stable:follows-policy
     glance-specs:
       release-management: none
       repos:
@@ -341,13 +321,9 @@ glance:
     glance-store:
       repos:
         - openstack/glance_store
-      tags:
-        - stable:follows-policy
     python-glanceclient:
       repos:
         - openstack/python-glanceclient
-      tags:
-        - stable:follows-policy
   liaisons:
     tc_members: []
 heat:
@@ -368,8 +344,6 @@ heat:
     heat:
       repos:
         - openstack/heat
-      tags:
-        - stable:follows-policy
     heat-agents:
       repos:
         - openstack/heat-agents
@@ -400,8 +374,6 @@ heat:
     python-heatclient:
       repos:
         - openstack/python-heatclient
-      tags:
-        - stable:follows-policy
     tosca-parser:
       repos:
         - openstack/tosca-parser
@@ -422,8 +394,6 @@ horizon:
     horizon:
       repos:
         - openstack/horizon
-      tags:
-        - stable:follows-policy
     ui-cookiecutter:
       release-management: none
       repos:
@@ -533,13 +503,9 @@ ironic:
     ironic:
       repos:
         - openstack/ironic
-      tags:
-        - stable:follows-policy
     ironic-inspector:
       repos:
         - openstack/ironic-inspector
-      tags:
-        - stable:follows-policy
     ironic-inspector-specs:
       release-management: none
       repos:
@@ -547,16 +513,12 @@ ironic:
     ironic-lib:
       repos:
         - openstack/ironic-lib
-      tags:
-        - stable:follows-policy
     ironic-prometheus-exporter:
       repos:
         - openstack/ironic-prometheus-exporter
     ironic-python-agent:
       repos:
         - openstack/ironic-python-agent
-      tags:
-        - stable:follows-policy
     ironic-python-agent-builder:
       repos:
         - openstack/ironic-python-agent-builder
@@ -586,13 +548,9 @@ ironic:
     python-ironic-inspector-client:
       repos:
         - openstack/python-ironic-inspector-client
-      tags:
-        - stable:follows-policy
     python-ironicclient:
       repos:
         - openstack/python-ironicclient
-      tags:
-        - stable:follows-policy
     sushy:
       repos:
         - openstack/sushy
@@ -623,8 +581,6 @@ keystone:
     keystone:
       repos:
         - openstack/keystone
-      tags:
-        - stable:follows-policy
     keystone-specs:
       release-management: none
       repos:
@@ -635,23 +591,15 @@ keystone:
     keystoneauth:
       repos:
         - openstack/keystoneauth
-      tags:
-        - stable:follows-policy
     keystonemiddleware:
       repos:
         - openstack/keystonemiddleware
-      tags:
-        - stable:follows-policy
     pycadf:
       repos:
         - openstack/pycadf
-      tags:
-        - stable:follows-policy
     python-keystoneclient:
       repos:
         - openstack/python-keystoneclient
-      tags:
-        - stable:follows-policy
     ldappool:
       repos:
         - openstack/ldappool
@@ -777,8 +725,6 @@ manila:
     manila:
       repos:
         - openstack/manila
-      tags:
-        - stable:follows-policy
     manila-image-elements:
       repos:
         - openstack/manila-image-elements
@@ -984,13 +930,9 @@ murano:
     murano:
       repos:
         - openstack/murano
-      tags:
-        - stable:follows-policy
     murano-agent:
       repos:
         - openstack/murano-agent
-      tags:
-        - stable:follows-policy
     murano-apps:
       release-management: none
       repos:
@@ -998,8 +940,6 @@ murano:
     murano-dashboard:
       repos:
         - openstack/murano-dashboard
-      tags:
-        - stable:follows-policy
     murano-pkg-check:
       repos:
         - openstack/murano-pkg-check
@@ -1010,8 +950,6 @@ murano:
     python-muranoclient:
       repos:
         - openstack/python-muranoclient
-      tags:
-        - stable:follows-policy
     yaql:
       repos:
         - openstack/yaql
@@ -1057,23 +995,15 @@ neutron:
     neutron-fwaas:
       repos:
         - openstack/neutron-fwaas
-      tags:
-        - stable:follows-policy
     neutron:
       repos:
         - openstack/neutron
-      tags:
-        - stable:follows-policy
     neutron-dynamic-routing:
       repos:
         - openstack/neutron-dynamic-routing
-      tags:
-        - stable:follows-policy
     neutron-lib:
       repos:
         - openstack/neutron-lib
-      tags:
-        - stable:follows-policy
     neutron-specs:
       release-management: none
       repos:
@@ -1096,8 +1026,6 @@ neutron:
     neutron-vpnaas:
       repos:
         - openstack/neutron-vpnaas
-      tags:
-        - stable:follows-policy
     neutron-vpnaas-dashboard:
       repos:
         - openstack/neutron-vpnaas-dashboard
@@ -1125,8 +1053,6 @@ nova:
     nova:
       repos:
         - openstack/nova
-      tags:
-        - stable:follows-policy
     nova-specs:
       release-management: none
       repos:
@@ -1134,8 +1060,6 @@ nova:
     python-novaclient:
       repos:
         - openstack/python-novaclient
-      tags:
-        - stable:follows-policy
     os-vif:
       repos:
         - openstack/os-vif
@@ -1170,26 +1094,18 @@ octavia:
     octavia:
       repos:
         - openstack/octavia
-      tags:
-        - stable:follows-policy
     octavia-dashboard:
       repos:
         - openstack/octavia-dashboard
-      tags:
-        - stable:follows-policy
     octavia-tempest-plugin:
       repos:
         - openstack/octavia-tempest-plugin
     python-octaviaclient:
       repos:
         - openstack/python-octaviaclient
-      tags:
-        - stable:follows-policy
     octavia-lib:
       repos:
         - openstack/octavia-lib
-      tags:
-        - stable:follows-policy
   liaisons:
     tc_members: []
 OpenStack Charms:
@@ -2092,13 +2008,9 @@ oslo:
     automaton:
       repos:
         - openstack/automaton
-      tags:
-        - stable:follows-policy
     castellan:
       repos:
         - openstack/castellan
-      tags:
-        - stable:follows-policy
     cookiecutter:
       release-management: none
       repos:
@@ -2143,26 +2055,18 @@ oslo:
     oslo.cache:
       repos:
         - openstack/oslo.cache
-      tags:
-        - stable:follows-policy
     oslo.concurrency:
       repos:
         - openstack/oslo.concurrency
     oslo.config:
       repos:
         - openstack/oslo.config
-      tags:
-        - stable:follows-policy
     oslo.context:
       repos:
         - openstack/oslo.context
-      tags:
-        - stable:follows-policy
     oslo.db:
       repos:
         - openstack/oslo.db
-      tags:
-        - stable:follows-policy
     oslo.i18n:
       repos:
         - openstack/oslo.i18n
@@ -2175,26 +2079,18 @@ oslo:
     oslo.messaging:
       repos:
         - openstack/oslo.messaging
-      tags:
-        - stable:follows-policy
     oslo.metrics:
       repos:
         - openstack/oslo.metrics
     oslo.middleware:
       repos:
         - openstack/oslo.middleware
-      tags:
-        - stable:follows-policy
     oslo.policy:
       repos:
         - openstack/oslo.policy
-      tags:
-        - stable:follows-policy
     oslo.privsep:
       repos:
         - openstack/oslo.privsep
-      tags:
-        - stable:follows-policy
     oslo.reports:
       repos:
         - openstack/oslo.reports
@@ -2204,13 +2100,9 @@ oslo:
     oslo.serialization:
       repos:
         - openstack/oslo.serialization
-      tags:
-        - stable:follows-policy
     oslo.service:
       repos:
         - openstack/oslo.service
-      tags:
-        - stable:follows-policy
     oslo.tools:
       release-management: none
       repos:
@@ -2218,23 +2110,15 @@ oslo:
     oslo.upgradecheck:
       repos:
         - openstack/oslo.upgradecheck
-      tags:
-        - stable:follows-policy
     oslo.utils:
       repos:
         - openstack/oslo.utils
-      tags:
-        - stable:follows-policy
     oslo.versionedobjects:
       repos:
         - openstack/oslo.versionedobjects
-      tags:
-        - stable:follows-policy
     oslo.vmware:
       repos:
         - openstack/oslo.vmware
-      tags:
-        - stable:follows-policy
     oslotest:
       repos:
         - openstack/oslotest
@@ -2250,8 +2134,6 @@ oslo:
     stevedore:
       repos:
         - openstack/stevedore
-      tags:
-        - stable:follows-policy
     taskflow:
       repos:
         - openstack/taskflow
@@ -2623,58 +2505,36 @@ sahara:
     python-saharaclient:
       repos:
         - openstack/python-saharaclient
-      tags:
-        - stable:follows-policy
     sahara:
       repos:
         - openstack/sahara
-      tags:
-        - stable:follows-policy
     sahara-dashboard:
       repos:
         - openstack/sahara-dashboard
-      tags:
-        - stable:follows-policy
     sahara-extra:
       repos:
         - openstack/sahara-extra
-      tags:
-        - stable:follows-policy
     sahara-image-elements:
       repos:
         - openstack/sahara-image-elements
-      tags:
-        - stable:follows-policy
     sahara-plugin-ambari:
       repos:
         - openstack/sahara-plugin-ambari
-      tags:
-        - stable:follows-policy
     sahara-plugin-cdh:
       repos:
         - openstack/sahara-plugin-cdh
-      tags:
-        - stable:follows-policy
     sahara-plugin-mapr:
       repos:
         - openstack/sahara-plugin-mapr
-      tags:
-        - stable:follows-policy
     sahara-plugin-spark:
       repos:
         - openstack/sahara-plugin-spark
-      tags:
-        - stable:follows-policy
     sahara-plugin-storm:
       repos:
         - openstack/sahara-plugin-storm
-      tags:
-        - stable:follows-policy
     sahara-plugin-vanilla:
       repos:
         - openstack/sahara-plugin-vanilla
-      tags:
-        - stable:follows-policy
     sahara-tests:
       repos:
         - openstack/sahara-tests
@@ -2821,13 +2681,9 @@ swift:
     python-swiftclient:
       repos:
         - openstack/python-swiftclient
-      tags:
-        - stable:follows-policy
     swift:
       repos:
         - openstack/swift
-      tags:
-        - stable:follows-policy
     swift-bench:
       repos:
         - openstack/swift-bench
@@ -3253,8 +3109,6 @@ zaqar:
     zaqar:
       repos:
         - openstack/zaqar
-      tags:
-        - stable:follows-policy
     zaqar-specs:
       release-management: none
       repos:
