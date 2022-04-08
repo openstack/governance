@@ -2,28 +2,54 @@
  (one line goal description here)
 ==================================
 
+Description
+===========
+
 Explain what the goal is in general terms. Include the reasoning and
 justification for applying the goal to all OpenStack projects.
 
-:Storyboard Board: <put the link to the tracking board here>
-:Storyboard Story: <put the link to the story for this goal here>
-OR
-:Etherpad: <put the link to etherpad where progress is tracked>
+Design & Implementation details
+===============================
 
-Champion
-========
+Add all the details about design, implementation, direction, etc or
+link where these are explained.
 
-Goals need a main driver to project-manage them to completion. Project teams
-need assistance, reminders and sometimes direct help in order for them to
-complete the goals.
+Goal Checklist
+==============
 
-Gerrit Topic
-============
+Is design finalized? (Mandatory)
+--------------------------------
 
-To facilitate tracking, commits related to this goal should use the
-gerrit topic::
+Status: <YES/NO>
+<Provide links to specs, gerrit, etherpad, wiki, IRC, or other documention
+sites>
 
-  <insert topic here>
+Is implemenation finalized? (Mandatory)
+---------------------------------------
+
+Status: <YES/NO>
+<Provide link to gerrit, etherpad, wiki, ML, etc> |
+
+Is there any dependency or blocker? (Mandatory)
+-----------------------------------------------
+
+Status: <YES/NO>
+<List all dependencies or blockers from OpenStack or External software with
+their plan and possibilities to complete>
+
+Current state (Optional)
+------------------------
+
+Provide a summary of the current state of any ongoing work related to
+the goal, including projects that have completed the work already and
+can serve as examples.
+
+Regular Meeting & Discussion (Optional)
+---------------------------------------
+
+<Provide links to regular meetings or discussion where projects can
+contact champion for their query. If you have not planned any regular
+meetings then mention "openstack-discuss ML" or IRC channel for discussion>
 
 Completion Date & Criteria
 ==========================
@@ -50,18 +76,32 @@ Items to complete:
 .
 .
 
+Champion
+========
+
+Goals need a main driver to project-manage them to completion. Project teams
+need assistance, reminders and sometimes direct help in order for them to
+complete the goals.
+
+Status & Tracking
+=================
+
+:Storyboard Board: <put the link to the tracking board here>
+:Storyboard Story: <put the link to the story for this goal here>
+ OR
+:Etherpad: <put the link to etherpad where progress is tracked>
+
+Gerrit Topic
+------------
+
+To facilitate tracking, commits related to this goal should use the
+gerrit topic::
+
+  <insert topic here>
+
 References
 ==========
 
 Provide reference links to previous discussions on the mailing list or
 IRC, etherpads, wiki pages, other forms of notes, and documentation
 that would be useful to a project team in working on the goal.
-
-Current State / Anticipated Impact
-==================================
-
-Provide a summary of the current state of any ongoing work related to
-the goal, including known blockers for any projects, projects that
-have completed the work already and can serve as examples, or other
-information useful to evaluate the scope of the goal and whether it
-would fit into the time given.
