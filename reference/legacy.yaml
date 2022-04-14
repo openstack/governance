@@ -1857,6 +1857,10 @@ Quality Assurance:
       retired-on: 2022-04-05
       repos:
         - openstack/tempest-lib
+    openstack-health:
+      retired-on: 2022-04-05
+      repos:
+        - openstack/openstack-health
 
 RefStack:
   ptl:

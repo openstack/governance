@@ -2366,10 +2366,6 @@ Quality Assurance:
     karma-subunit-reporter:
       repos:
         - openstack/karma-subunit-reporter
-    openstack-health:
-      release-management: none
-      repos:
-        - openstack/openstack-health
     os-performance-tools:
       release-management: none
       repos:
