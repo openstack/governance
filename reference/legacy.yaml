@@ -1847,6 +1847,17 @@ qinling:
       repos:
         - openstack/qinling-dashboard
 
+Quality Assurance:
+  irc-channel: openstack-qa
+  service: Quality Assurance
+  url: https://wiki.openstack.org/wiki/QA
+  partial: yes
+  deliverables:
+    tempest-lib:
+      retired-on: 2022-04-05
+      repos:
+        - openstack/tempest-lib
+
 RefStack:
   ptl:
     name: Chris Hoge

@@ -2391,11 +2391,6 @@ Quality Assurance:
       release-management: none
       repos:
         - openstack/tempest-plugin-cookiecutter
-    tempest-lib:
-      deprecated: ocata
-      release-management: deprecated
-      repos:
-        - openstack/tempest-lib
     tempest-stress:
       release-management: none
       repos:
