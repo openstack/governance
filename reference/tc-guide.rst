@@ -64,29 +64,7 @@ As a TC member, we have two primary ways of communicating.
 #. IRC channel:
    Please also join the ``#openstack-tc`` channel on IRC, and set a notification
    for the string ``tc-members``. There is no requirement to do this, but we
-   recommend also setting a notification for a string with your name. This
-   is also helpful for mentions in other channels if you are the ``tc-liaison``
-   to a specific project.
-
-TC Project Liasions
-~~~~~~~~~~~~~~~~~~~~
-
-Each project under OpenStack governance is assigned two TC members to act as
-liaisons.  These liaisons should act as a bridge between that project and the
-TC, helping the project with governance concerns.  You will be assigned a list
-of projects based on random selection if you don't set them yourself. You can
-pick your preferred projects yourself after you are seated by submitting a
-patch. This mechanical assignment of tc members as liaisons looks something
-like this: https://review.opendev.org/#/c/680386/.
-
-Once you have been assigned your projects, the first work item for new and returning
-members is to talk to the projects for which you are a liaison. We recommend
-introducing yourself to the PTL in an email or during a team meeting if you're
-able to attend them, a greeting to the project team to ensure they know someone
-to talk to, making sure the TC is an accessible community.
-
-You can see the assigned list of projects per TC member in
-:doc:`TC Liaisons </reference/tc-liaisons>`
+   recommend also setting a notification for a string with your name.
 
 TC Repos
 ~~~~~~~~~

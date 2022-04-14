@@ -32,9 +32,6 @@ Release Management:
     their own releases.
   url: https://wiki.openstack.org/wiki/Release_Management
   liaisons:
-    tc_members:
-      - zaneb
-      - ttx
     release:
       - name: Hervé Beraud
         irc: hberaud
