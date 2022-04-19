@@ -14,7 +14,7 @@ First Contact:
   - repo: openstack/upstream-institute-virtual-environment
 Hardware Vendor:
   - repo: openstack/python-dracclient
-  - repo: x/sushy-oem-idrac
+  - repo: openstack/sushy-oem-idrac
 i18n:
   - repo: openstack/i18n
     extra-atcs:
