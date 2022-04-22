@@ -1823,10 +1823,6 @@ OpenStack-Helm:
       release-management: external
       repos:
         - openstack/openstack-helm-deployments
-    openstack-helm-docs:
-      release-management: external
-      repos:
-        - openstack/openstack-helm-docs
     openstack-helm-images:
       release-management: external
       repos:
