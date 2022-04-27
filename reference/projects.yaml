@@ -1845,7 +1845,7 @@ OpenStackAnsible:
   ptl:
     name: Dmitriy Rabotyagov
     irc: noonedeadpunk
-    email: noonedeadpunk@ya.ru
+    email: noonedeadpunk@gmail.com
   service: Ansible playbooks and roles for deployment
   irc-channel: openstack-ansible
   mission: >
