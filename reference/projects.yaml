@@ -2158,12 +2158,9 @@ oslo:
         irc: damani
         email: dbengt@redhat.com
     tact-sig:
-      - name: Moisés Guimarães
-        irc: moguimar
-        email: moguimar@redhat.com
-      - name: Sébastien Boyron
-        irc: sboyron
-        email: sboyron@redhat.com
+      - name: APPOINTMENT NEEDED
+        irc: No nick supplied
+        email: example@example.org
     security:
       - name: Ben Nemec
         irc: bnemec
