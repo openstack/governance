@@ -58,9 +58,6 @@ def _team_to_rst(name, info):
     liaisons = info.get('liaisons')
     if liaisons:
         contact_format = {'name': '', 'irc': '', 'email': ''}
-        tc_members = liaisons.get('tc_members')
-        if tc_members:
-            yield ':TC Members Liaisons: ' + ", ".join(tc_members)
         release = liaisons.get('release', contact_format)
         if release != contact_format:
             yield ':Release Liaisons: ' + ', '.join(

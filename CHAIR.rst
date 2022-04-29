@@ -70,8 +70,6 @@ When the election results are available, the outgoing chair should:
 * encourage all TC members to include the "[tc]" topic in their filter
   list for the openstack-discuss mailing list
 * propose a patch to remove current chair and vice chair
-* propose a patch to remove liaisons assigned to previous members
-  (``python ./tools/assign_liaisons.py --remove-all``)
 
 After the election results are confirmed, the outgoing chair should:
 
@@ -90,20 +88,7 @@ After the election results are confirmed, the outgoing chair should:
 
 After the chair status is confirmed, the incoming chair should:
 
-* start the liaison assignment process (see below)
 * propose a patch to appoint a vice chair
-
-Project Team Liaisons
-=====================
-
-Each term of the TC we designate 2 members to be liaisons to each
-project team
-
-
-* encourage TC members to volunteer to act as liaisons for the project
-  teams they want (set a deadline, ~1 week)
-* Run ``python ./tools/assign_liaisons.py`` to randomly assign the remaining
-  members.
 
 Governance Repo Patches
 =======================
