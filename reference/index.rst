@@ -34,3 +34,4 @@ Reference documents which need to be revised over time.
    tc-guide
    OpenStack-name-in-external-services
    election-exceptions
+   emerging-technology-and-inactive-projects
