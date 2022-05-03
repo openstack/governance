@@ -128,9 +128,11 @@ than 3 weeks prior to each cycle final release date (on or before 'R-3' week)
 and should be held open for no less than four business days.
 
 If a PTL seat is vacated before the end of the cycle for which the individual
-was elected, the TC will appoint a new PTL, in consultation with the outgoing
-PTL and any interested candidates, following the process for leaderless project
-teams (see
+was elected or after the election (means leaderless project), the TC will
+appoint a new PTL or move that project to the Distributed Project Leadership
+model (see :doc:`/resolutions/20200803-distributed-project-leadership`),
+in consultation with the outgoing PTL and any interested candidates, following
+the process for leaderless project teams (see
 :doc:`/resolutions/20141128-elections-process-for-leaderless-programs`). An
 email must be sent to the ``openstack-discuss at lists.openstack.org`` mailing
 list announcing the change in leadership. A patch must also be submitted to the
