@@ -43,6 +43,40 @@ this goal, we will need to:
 * Replace if possible, or document as a limitiation, libraries which are
   not FIPS certified.
 
+Goal Checklist
+==============
+
+Is design finalized?
+Status: YES
+
+The plan is simply to create voting CI jobs with FIPS enaled in all the
+OpenStack projects, and fix ior document any issues that arise.  This work
+has been underway for some time, and you can see the status (and the work
+that has been completed) in the "Current Status" section below.
+
+Some design work will be needed when deciding how to replace/fix paramiko,
+but this work is explicitly called out to be completed by the end of the
+Zed release.
+
+Is implementation finalized?
+Status: YES
+
+The jobs that have been completed or are in progress are listed in [10].
+
+Is there any dependency or blocker?
+Status: YES
+
+Having voting CI jobs depends on either centOS-9-stream jobs becoming
+stable or being able to use FIPS-enabled Ubuntu images.
+
+Achieving FIPS compliance will necessarily require an audit to determine
+which external software implements crytography, and whether it is FIPS
+compliant.  An initial audit was conducted in [14]. So far, only a few
+software modules are of concern.
+
+Part of this goal is to identify any issues with external software and
+address it by BB.
+
 Champion
 ========
 
@@ -56,10 +90,10 @@ gerrit topic::
 
   fips-compatibility or fips-compliance
 
-Completion Criteria for FIPS compatibility
-==========================================
+Completion Criteria
+===================
 
-Yoga-2-milestone:
+Milestone 1: Zed-cycle release:
 
 #. Projects that curently have FIPS CI jobs in-flight should have these
    jobs merged. These jobs should be sufficient to test base functionality
@@ -71,37 +105,43 @@ Yoga-2-milestone:
    tested using Python 3.9, as this is the earliest release that supports the
    usedforsecurity parameter on hashlib.md5().
 
-Yoga-3-milestone:
+#. The ultimate goal is to have the FIPS CI jobs running as voting in the
+   check/gate pipelines.  At this point, though, the FIPS jobs are only
+   available on CentOS-9-stream, which has not been stable.  Until the
+   centos-9-stream jobs become stable or the FIPS jobs are moved to Ubuntu,
+   it is acceptable to have the jobs running in the periodic pipeline.
 
-#. All OpenStack projects should have at least one job to test functionality
-   when FIPS is enabled. These tests should pass with limitations documented.
-
-#. Run Refstack tests in FIPS mode. These tests should pass. It is expected
-   that some FIPS specific configuration may be required [3], or that some
-   tests/features would be invalid under FIPS [4]. These configurations and
-   limitations should be well documented.
-
-#. After milestone-3, a decision can be taken as to whether to make FIPS
-   enabled jobs the default and replace the existing jobs. It is likely,
-   though, that we will not take this step until FIPS supports all the security
-   features we require (eg. ed25519).
-
-Completion Criteria for FIPS compliance
-=======================================
-
-Z-milestone-1:
+#. These jobs should run from Zed onwards.  There have been requests to add
+   these jobs to the stable branches - as far back as wallaby.  This would be
+   considered a good-to-have.
 
 #. A review of crypto used within OpenStack should be completed. This review
    should identify crypto that is not FIPS certified and propose alternatives.
    Depending on which libraries are identified and the projected impact, a
-   schedule for replacement can be decided at that time.
+   schedule for replacement can be decided at that time.  An initial review of
+   crypto in OpenStack is documented here. [14]
+
 #. A plan should be formulated to provide a FIPS compliant replacement option
    to paramiko across OpenStack projects.
 
-Z-milestone-2:
+Milestone 2: AA-cycle release:
+
+#. All OpenStack projects should have at least one job to test functionality
+   when FIPS is enabled. These tests should pass with limitations documented.
+   This job should be in the check/gate pipelines as a voting job.
+
+#. Run the relevant integrated tempest tests in FIPS mode. These tests should pass.
+   It is expected that some FIPS specific configuration may be required [3], or that
+   some tests/features would be invalid under FIPS [4]. These configurations and
+   limitations should be well documented.
 
 #. A FIPS compliant replacement for paramiko should be implemented as an option
-   across all OpenStack projects.  See details under "Current Issues" below.
+   across the major OpenStack projects.  See details under "Current Issues" below.
+
+Milestone 3: BB-cycle-release:
+
+#. A FIPS compliant replacement for paramiko should be implemented as an option
+   across all OpenStack projects.
 
 Current Status
 ==============
@@ -189,8 +229,8 @@ References
    https://review.opendev.org/c/zuul/zuul-jobs/+/788778
    https://etherpad.opendev.org/p/state-of-fips-in-openstack-ci-yoga#L23
 #. Current proposed and merged CI jobs
-   https://etherpad.opendev.org/p/state-of-fips-in-openstack-ci-yoga#L53
-   Currently 6 projects merged and passing, 10 projects pending.
+   https://etherpad.opendev.org/p/qa-zed-ptg-fips (as of zed)
+   https://etherpad.opendev.org/p/state-of-fips-in-openstack-ci-yoga#L53 (as of yoga)
 #. https://github.com/paramiko/paramiko/pull/1928
    This change is relatively small.  Until it passes, we have added a monkey-patch
    for paramiko in https://review.opendev.org/c/openstack/tempest/+/822560
@@ -198,3 +238,7 @@ References
 #. https://github.com/paramiko/paramiko/pull/1103
 #. Tempest patches:
    https://etherpad.opendev.org/p/state-of-fips-in-openstack-ci-yoga#L33
+#. Initial audit of crypto libraries in OpenStack:
+   https://etherpad.opendev.org/p/zed-ptg-fips-goal-compliance-audit
+   The audit indicates that very few libraries are of concern, the most
+   prominent being paramiko.
