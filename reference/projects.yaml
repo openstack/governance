@@ -2079,9 +2079,9 @@ oslo:
         irc: damani
         email: dbengt@redhat.com
     tact-sig:
-      - name: APPOINTMENT NEEDED
-        irc: No nick supplied
-        email: example@example.org
+      - name: Ghanshyam Mann
+        irc: gmann
+        email: gmann@ghanshyammann.com
     security:
       - name: Ben Nemec
         irc: bnemec
