@@ -50,7 +50,7 @@ Is design finalized?
 Status: YES
 
 The plan is simply to create voting CI jobs with FIPS enaled in all the
-OpenStack projects, and fix ior document any issues that arise.  This work
+OpenStack projects, and fix or document any issues that arise.  This work
 has been underway for some time, and you can see the status (and the work
 that has been completed) in the "Current Status" section below.
 
@@ -70,7 +70,7 @@ Having voting CI jobs depends on either centOS-9-stream jobs becoming
 stable or being able to use FIPS-enabled Ubuntu images.
 
 Achieving FIPS compliance will necessarily require an audit to determine
-which external software implements crytography, and whether it is FIPS
+which external software implements cryptography, and whether it is FIPS
 compliant.  An initial audit was conducted in [14]. So far, only a few
 software modules are of concern.
 
