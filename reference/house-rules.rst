@@ -150,17 +150,20 @@ Appointing Project Leaders/Liaisons
 -----------------------------------
 
 In a resolution regarding :ref:`leaderless programs`, the TC was granted
-authority to appoint a Project Team Lead to any official project where the
-`election`_ process failed to produce a leader. When this happens,
-``reference/projects.yaml`` in the ``governance`` repository should be updated
-to indicate the new PTL and their appointment by adding their name and contact
-details and updating an ``appointed`` key with the cycle during which they will
-be the PTL. If the ``appointed`` key is already present, add the cycle to the
-list. If the key is not present, add it and set the cycle as a single member of
-a list. This format is used for two reasons: to track all the cycles for which
-there has been an appointment and to require a comprehensible change for review
-by the TC. The ``appointed`` key should only be changed when the PTL was not
-chosen by the election process.
+authority to appoint the leader to any official project where the
+`election`_ process failed to produce a leader. The TC preference will
+be to move such project to Distributed Project Leadership model
+(see :doc:`/resolutions/20200803-distributed-project-leadership`) than
+appointing the PTL. When this happens, ``reference/projects.yaml`` in the
+``governance`` repository should be updated to indicate the DPL model
+leadership liaisons or the new PTL and their appointment by adding their
+name and contact details and updating an ``appointed`` key with the cycle
+during which they will be the PTL. If the ``appointed`` key is already present,
+add the cycle to the list. If the key is not present, add it and set the cycle
+as a single member of a list. This format is used for two reasons: to track all
+the cycles for which there has been an appointment and to require a
+comprehensible change for review by the TC. The ``appointed`` key should only be
+changed when the PTL was not chosen by the election process.
 
 In the case of a project using, or moving to, Distributed Project Leadership
 model (see :doc:`/resolutions/20200803-distributed-project-leadership`), the
