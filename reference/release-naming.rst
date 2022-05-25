@@ -13,7 +13,7 @@ Example:
 * OpenStack 2023.1 Axxxx
 
 Where "2023" is the year of the release, "1" represents the first release
-of the year and "Axxxx" is the release name following the release name rules.
+of the year and "Axxxx" is the release name.
 
 Other examples:
 
@@ -24,64 +24,44 @@ With this release identification schema we get an easy and sustainable
 approach to identify different OpenStack releases without dealing with the
 ambiguity of the release name and alphabet iteration.
 
-The release identification schema doesn't replace the release name.
-It's just an unambiguous way to identify OpenStack releases.
+The OpenStack Technical Committee has passed a :doc:`resolution
+<../resolutions/20220524-release-identification-process>` for the release
+identification process. The release number will be used as the primary
+identifier in the development cycle but the release name will also be used
+in some places.
+
+* Stable branches: Use release number for stable branch name.
+  Example: stable/2023.1
+
+* Spec repo or any other directory structure: Use release number which is more
+  aligned with what stable branches are going to use.
+
+* Testing tools: Use release number which is more aligned with what stable
+  branches are going to use.
+
+* Release page/tooling/milestone name: The release team can choose either to
+  continue using the release name or use number for release tooling and
+  milestone name.
 
 Release Name
 ------------
 
-Each OpenStack development cycle has a code-name that is
-proposed and chosen by the community.  This name is frequently used in
-preference to version numbers to refer to the release at the end of
-the cycle.  The process of choosing the name should be an enjoyable
-activity for the community to mark the software development cycle, and
-the name itself should be fun to use.
+We will continue with the release name but mainly for marketing usage.
 
-Because the name will become associated with OpenStack, and a
-particular release, the process should consider potential issues of
-trademark.
+* OpenStack release names will be handled by the staff of the OpenInfra
+  Foundation.
 
-Release Naming Process
-----------------------
+* Foundation staff will define the naming criteria and process but make sure
+  they satisfy the OpenStack release team's tooling requirements.
 
-#. Anyone may propose a name that matches the `Release Name
-   Criteria`_.  Proposed names should be added to a page on the
-   OpenStack wiki.
+* The OpenStack release team PTL sign-off is needed on naming criteria defined
+  by the Foundation staff.
 
-#. A Condorcet election is held to rank the names. The electorate will be
-   Technical Committee, and the poll should  be run in a manner that allows
-   members of the community to see what each TC member voted for.
+* The OpenStack Technical Committee will not be involved in the process,
+  the release team will directly coordinate with the foundation staff.
 
-#. The Foundation will perform a trademark check on the winning name.
-   If there is a trademark conflict, then the Foundation will proceed
-   down the ranked list of Condorcet results until a name without a
-   trademark conflict is found.  This will be the selected name.
-
-
-Release Name Criteria
----------------------
-
-The following rules are designed to provide some consistency in the
-pattern used to select release names, provide a fun challenge in
-finding names that meet the criteria, and prevent unwieldy names from
-being chosen.
-
-#. Each release name must start with the letter of the ISO basic Latin
-   alphabet following the initial letter of the previous release,
-   starting with the initial release of "Austin".  After "Z", the next
-   name should start with "A" again.
-
-#. A release name can't be repeated between different iterations of the
-   alphabet.
-
-#. The name must be composed only of the 26 characters of the ISO
-   basic Latin alphabet.  Names which can be transliterated into this
-   character set are also acceptable.
-
-#. The name must be a single word with a maximum length of 10 characters.
-
-Polls
------
+Release Name Selection History
+------------------------------
 
 =======  ==============  ================  ==========  ==========  ==================
 Release  Coordinator     Nominations Open  Poll Open   Poll Close  Geographic Region
@@ -101,6 +81,9 @@ X_       Sean McGinnis   2020-11-02        2020-11-30  2020-12-06  N/A
 Y_       Ghanshyam Mann  2021-05-13        2021-06-10  2021-06-17  N/A
 Z_       Ghanshyam Mann  2022-01-11        2022-01-25  2022-02-01  N/A
 =======  ==============  ================  ==========  ==========  ==================
+
+The Zed release is the last release for which the OpenStack Technical Committee
+was involved in the selection of the release name.
 
 .. [*] Starting with the W release, the naming criteria changed from referring
    to the physical or human geography of the region encompassing the location
