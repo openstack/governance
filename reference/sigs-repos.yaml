@@ -26,6 +26,8 @@ i18n:
       email: alb.molina@gmail.com
       expires-in: Feb 2022
       comment: albertomolina (es)
+Large Scale:
+  - repo: openstack/large-scale
 Meta:
   - repo: openstack/governance-sigs
 Multi-Arch:
