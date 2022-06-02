@@ -50,7 +50,6 @@ Public Cloud SIG:
   - repo: openstack/publiccloud-sig
 Security:
   - repo: openstack/ossa
-  - repo: openstack/security-analysis
   - repo: openstack/security-doc
 Testing and Collaboration Tools:
   - repo: openstack/bugdaystats
