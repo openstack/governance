@@ -232,6 +232,11 @@ hard-to-quantify contributions include (but are not limited to):
 * Technical committee working group members
 * Regular participation in code review or team feedback
 
+We renamed the previously used term "ATC" to "AC" and the 'Active Technical
+Contributors (“ATC”)' term mentioned in the Foundation bylaws is the same
+as 'Active Contributors ("AC")' mentioned here.
+
+
 Candidates for TC seats
 =======================
 
