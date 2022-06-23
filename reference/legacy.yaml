@@ -668,6 +668,10 @@ OpenStackHelm:
   service: Helm charts for deploying OpenStack
   url: https://wiki.openstack.org/wiki/Openstack-Helm
   deliverables:
+    openstack-helm-deployments:
+      retired-on: 2022-06-24
+      repos:
+        - openstack/openstack-helm-deployments
     openstack-helm-docs:
       retired-on: 2022-04-27
       repos:
