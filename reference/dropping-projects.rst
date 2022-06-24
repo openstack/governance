@@ -30,6 +30,18 @@ requirements.
   releases, at the risk of producing non-functional deliverables. This is
   obviously not sustainable and a good sign of a dysfunctional project team.
 
+- Broken CI close to release point
+
+  During critical points in the release cycle, like e.g. RC1 release week,
+  project's CI may be broken and there will be nobody willing to help and fix
+  it. There is a risk of producing non-functional deliverables and this is a
+  good sign of a dysfunctional team.
+
+  To minimize risk of hitting such an issue close to the final release, like
+  e.g. in RC1 week, the release management team will test projects around
+  Requirements Freeze week, which is usually about 5 weeks before final release
+  to check that tests are still passing with the current set of dependencies.
+
 - Failure to communicate with community goal champions
 
   We set common goals at each cycle that bring more value if all project
@@ -39,6 +51,13 @@ requirements.
   goal champion(s) in support of the goal get reviewed in a reasonable
   timeframe. Failure to communicate at all with the goal champion(s)
   signals a dysfunctional team.
+
+- Project's stats
+
+  TC members will periodically check Gerrit and Zuul stats of each OpenStack
+  project, using ``tools/project_stats_check.py`` script to see if any of the
+  projects is lacking contributors and their activities are not sufficient to
+  handle the incoming requests. This may also signal a dysfunctional team.
 
 Criteria
 ========
