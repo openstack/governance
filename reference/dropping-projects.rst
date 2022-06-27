@@ -32,13 +32,13 @@ requirements.
 
 - Broken CI close to release point
 
-  During critical points in the release cycle, like e.g. RC1 release week,
-  project's CI may be broken and there will be nobody willing to help and fix
+  During critical points in the release cycle, like RC1 release week,
+  a project's CI may be broken and there will be nobody willing to help and fix
   it. There is a risk of producing non-functional deliverables and this is a
   good sign of a dysfunctional team.
 
-  To minimize risk of hitting such an issue close to the final release, like
-  e.g. in RC1 week, the release management team will test projects around
+  To minimize the risk of hitting such an issue close to the final release,
+  like in RC1 week, the release management team will test projects around
   Requirements Freeze week, which is usually about 5 weeks before final release
   to check that tests are still passing with the current set of dependencies.
 
@@ -56,7 +56,7 @@ requirements.
 
   TC members will periodically check Gerrit and Zuul stats of each OpenStack
   project, using ``tools/project_stats_check.py`` script to see if any of the
-  projects is lacking contributors and their activities are not sufficient to
+  projects are lacking contributors and their activities are not sufficient to
   handle the incoming requests. This may also signal a dysfunctional team.
 
 Criteria
