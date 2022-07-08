@@ -98,7 +98,7 @@ removal of projects in this list will require a formal-vote.
 
 Current Emerging Technology Projects
 ------------------------------------
-<TC will manage the Emerging Technology projects here>.
+* Skyline (Added in Zed cycle)
 
 Current Inactive Projects
 -------------------------
