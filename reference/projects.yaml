@@ -1139,6 +1139,14 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-cinder-ceph
+    charm-cinder-ceph-k8s:
+      release-management: external
+      repos:
+        - openstack/charm-cinder-ceph-k8s
+    charm-cinder-k8s:
+      release-management: external
+      repos:
+        - openstack/charm-cinder-k8s
     charm-cinder-lvm:
       release-management: external
       repos:
@@ -1199,10 +1207,18 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-placement
+    charm-placement-k8s:
+      release-management: external
+      repos:
+        - openstack/charm-placement-k8s
     charm-glance:
       release-management: external
       repos:
         - openstack/charm-glance
+    charm-glance-k8s:
+      release-management: external
+      repos:
+        - openstack/charm-glance-k8s
     charm-glance-simplestreams-sync:
       release-management: external
       repos:
@@ -1223,6 +1239,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-heat
+    charm-horizon-k8s:
+      release-management: external
+      repos:
+        - openstack/charm-horizon-k8s
     charm-interface-barbican-secrets:
       release-management: external
       repos:
@@ -1387,6 +1407,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-keystone
+    charm-keystone-k8s:
+      release-management: external
+      repos:
+        - openstack/charm-keystone-k8s
     charm-keystone-kerberos:
       release-management: external
       repos:
@@ -1511,6 +1535,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-neutron-gateway
+    charm-neutron-k8s:
+      release-management: external
+      repos:
+        - openstack/charm-neutron-k8s
     charm-neutron-openvswitch:
       release-management: external
       repos:
@@ -1535,6 +1563,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-nova-compute-proxy
+    charm-nova-k8s:
+      release-management: external
+      repos:
+        - openstack/charm-nova-k8s
     charm-octavia:
       release-management: external
       repos:
@@ -1583,6 +1615,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-ops-openstack
+    charm-ops-sunbeam:
+      release-management: external
+      repos:
+        - openstack/charm-ops-sunbeam
     charm-pacemaker-remote:
       release-management: external
       repos:
