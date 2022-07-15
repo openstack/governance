@@ -1836,6 +1836,10 @@ Puppet OpenStack:
       repos:
         - openstack/puppet-openstack-specs
       retired-on: 2021-06-29
+    puppet-panko:
+      repos:
+        - openstack/puppet-panko
+      retired-on: 2022-07-15
     puppet-senlin:
       repos:
         - openstack/puppet-senlin
@@ -2011,6 +2015,10 @@ Telemetry:
       retired-on: 2017-03-20
       repos:
         - openstack/gnocchi
+    panko:
+      retired-on: 2022-07-15
+      repos:
+        - openstack/panko
     python-gnocchiclient:
       retired-on: 2017-03-20
       repos:
@@ -2019,6 +2027,10 @@ Telemetry:
       retired-on: 2017-11-22
       repos:
         - openstack/python-ceilometerclient
+    python-pankoclient:
+      retired-on: 2022-07-15
+      repos:
+        - openstack/python-pankoclient
 
 tripleo:
   irc-channel: tripleo

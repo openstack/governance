@@ -2193,10 +2193,6 @@ Puppet OpenStack:
     puppet-ovn:
       repos:
         - openstack/puppet-ovn
-    puppet-panko:
-      repos:
-        - openstack/puppet-panko
-      deprecated: xena
     puppet-placement:
       repos:
         - openstack/puppet-placement
@@ -2633,17 +2629,9 @@ Telemetry:
     ceilometermiddleware:
       repos:
         - openstack/ceilometermiddleware
-    panko:
-      repos:
-        - openstack/panko
-      deprecated: xena
     python-aodhclient:
       repos:
         - openstack/python-aodhclient
-    python-pankoclient:
-      repos:
-        - openstack/python-pankoclient
-      deprecated: xena
     telemetry-tempest-plugin:
       repos:
         - openstack/telemetry-tempest-plugin
