@@ -145,11 +145,89 @@ allow them to get the correct authorization to the intended project and perform
 the necessary operations using a token flow that's already supported.
 Additionally, it provides a very clear audit trail.
 
+In yoga cycle, we redefined this goal with the changes mentioned above so that
+allowing system administrators to access system level resources APIs only and
+allow project users to access project-level resource APIs. These changes have
+been done for nova and neutron.
+
+This was not the end of the RBAC design discussion. After knowing the operators'
+use cases we used the feedback to redefine the direction in the Zed cycle.
+
+The issues we are facing with `scope` concept:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. It breaks OpenStack existing NFV use case and orchestration tooling:
+
+   When the deployment project started consuming the nova new policy defaults
+   with scope enabled, we got to know that the scope enable will break heat
+   (orchestration tooling), Tacker (NFV deployment) users or any operators
+   script interacting all the OpenStack interfaces with administrators user.
+
+   Heat 'create stack' API uses the user credentials (admin) to create project
+   and system-level resources in backend services. For example, it creates
+   project users in keystone (system level resource), flavors in nova (system
+   level resource), servers in nova (project level resource), and networks in
+   neutron (project level resource). If we enable the scope checking in
+   services, then the user calling heat 'create stack' APIs which are scoped to
+   either project (existing way) or system (if we change that) will not be able
+   to call the system and project scoped APIs on the service side. We discussed
+   the possible solutions in `Zed PTG
+   <https://etherpad.opendev.org/p/z-ptg-keystone#L44>`_ , `openstack-discuss ML
+   <http://lists.openstack.org/pipermail/openstack-discuss/2022-March/027614.html>`_,
+   and `in policy popup meetings
+   <https://etherpad.opendev.org/p/rbac-zed-ptg#L99>`_ but none of those are
+   good solutions and end up breaking the existing stack.
+
+   Enabling scope checking also breaks Tacker (NFV Orchestration service) deployment
+   as they use heat 'create stack' to build OpenStack infrastructure.
+
+#. `Operator feedback <https://etherpad.opendev.org/p/rbac-operator-feedback>`_ on
+   `scope`:
+
+   We collected the operators' feedback on `scope` and how OpenStack APIs will be
+   accessed with `scope` enabled.
+
+   First feedback is taken in `ops meetup, Berlin
+   <https://etherpad.opendev.org/p/BER-2022-OPS-SRBAC>`_ where it was clear that
+   `scope` things are difficult to understand for most of the operators. It will
+   break their use case of 'accessing everything with a single token'. 'Admin'
+   is already a confusing concept for many of them and `admin` with `scope`
+   combination makes it more confusing. The operators agreed with postponing the `scope`
+   implementation to be able to land the project persona first.
+
+   `KDDI, japanese telco company <https://etherpad.opendev.org/p/rbac-operator-feedback#L88>`_
+   shared the feedback about their use case and how the `scope` will break their use
+   case also. An "OpenStack Administrator" who is created by the "keystone-manage
+   bootstrap" command, should be able to operate the complete stack even that is
+   project-level or system-level resources. Dividing the permissions for project
+   and system level resources may have an impact on echosystems or scripts outside
+   OpenStack. Another point they raised is that there should be a way that the operator can
+   configure the policy permissions in policy.json and with the `scope` that cannot be done
+   as the `scope` is not the configurable thing.
+
+Due to the above feedback and use case, we decided to postpone the `scope` implementation.
+That is the way forward to at least implement the project personas which is asked by
+many operators. Basically, we define the boundaries of this goal:
+
+* Finish delivering project personas
+  This is to introduce the `member` and `reader` roles to operate things within their project.
+  By default, any other project role like `foo` will not be allowed to do anything in
+  the project.
+
+* Change the `scope` implementation to be `project` only
+
+  Services with project resources that have already implemented scope (or have yet to)
+  should make all policy rules set scope_types=['project']. This will help ensure
+  that any API operations performed with a system-scoped token will fail early, with a
+  403, instead of later in the process when a project_id is required. One exception
+  here is Ironic, which has implemented scope and has some users adopting it. We must
+  not break these users so it is okay to keep the scope implementation as-is.
+
 So, where do we go from here?
 
-We have a set of OpenStack services that have over-extended the usage of
-system-scope and applied it to project-specific resources. Other services have
-yet to adopt the system-scope feature.
+We have a set of OpenStack services that have implemented or over-extended the usage of
+system-scope and applied it to project-specific resources. Other services have yet to
+adopt the system-scope feature.
 
 Currently, none of the policy work we've done since Queens is widely usable by
 default since it's not applied consistently across services. The idea of this
@@ -157,85 +235,209 @@ community goal is to define the absolute minimum amount of work required to
 allow operators to opt into the new authorization behavior and start using the
 personas we've been developing since Queens.
 
-We should defer any policy work that isn't absolutely necessary to the criteria
-of this goal for future improvements. Otherwise we risk delaying the
+We should defer any policy work including `scope` that isn't absolutely necessary to
+the criteria of this goal for future improvements. Otherwise we risk delaying the
 functionality another release. Instead, we can acknowledge the gaps, order them
 on a timeline for future improvements, and at least deliver something useful to
-operators sooner rather than later.
+operators sooner rather than later. At least we have a clear understanding on
+project persona from developer as well from operator side and if we again delay
+implementing it, there is high possibility that developers involved in this work
+will loose the motivation and we will never ship the usable project persona in
+OpenStack RBAC. Let's accept all the challenges we have with `scope` concept and
+be ready to revert the `scope` implemented even that is already implemented in
+your project.
 
 Phase 1
 =======
 
-Implement support for system-admin, project-admin, project-member, and
-project-reader personas.
+Change in `scope` implementation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The project-member and project-reader changes are relatively trivial. The
-majority of the work in this phase is focused on breaking administrative
-functionality into the project-admin and system-admin personas.
+There are some projects like nova, neutron, ironic and octavia that have already
+implemented the `scope_type` in their policy. This section will provide a clear
+direction for such project as well as if any new projects want to implement the
+`scope`.
 
-Re-evaluate project-specific API policies
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* As mentioned above, Ironic will keep scope implementation as-is.
 
-We need to go through each policy across OpenStack services and make sure it
-aligns with the direction described above. *Ideally, each policy should only
-include a single scope type*. Please refer to `Crafting check strings for APIs
-that interact with multiple scopes`_ for APIs that are truly designed for
-multiple scopes. For example, the following policy was written to eventually
-allow system administrators to create instances on a targeted host using a
-system-scoped token:
+* Other projects who have already implemented `scope` for example, Nova, Neutron,
+  Octavia etc or any project who has not yet implemented it, should make everything
+  scoped to `project` (`scope_type` to `project` only). Keeping everything as
+  `project` scoped will make sure to fail the operations performed with a system
+  scoped token (which does not have project_id) early with 403 instead of failing
+  it with 500 in the lower layer.
 
-.. code-block:: python
+* Keystone will continue supporting the `scope` implementation for deployment
+  moved/can move to `system scope` enable for example, ironic + keystone. But we need to
+  make sure it also works for deployments that do not use `system scope` token means
+  continue working with the project scoped token. For that we need to do two changes in
+  keystone:
 
-   policy.DocumentedRuleDefault(
-       name='os_compute_api:servers:create:forced_host',
-       check_str='role:admin and project_id:%(project_id)s',
-       scope_types=['system', 'project']
-   )
+  #. Remove the `scope string (system:all)
+     <https://github.com/openstack/keystone/blob/7c2d0f589c8daf5c65a80ed20d1e7fbfcc282312/keystone/common/policies/base.py#L47>`_
+     from the policy rule check_str.
 
-Since instances are project-owned resources we want to keep the functionality
-isolated to project-scoped tokens. The policy should be updated accordingly:
+  #. Add the `project` in `scope_type` in every policy rule.
 
-.. code-block:: python
-
-   policy.DocumentedRuleDefault(
-       name='os_compute_api:servers:create:forced_host',
-       check_str='role:admin and project_id:%(project_id)s',
-       scope_types=['project']
-   )
-
-This will only allow operators with a project-scoped token containing the
-``admin`` role to perform targeted boot. If or when nova sanitizes hypervisor
-discovery to expose information safely to end users, the policy could evolve
-further (potentially in `Phase 2`_):
-
-.. code-block:: python
-
-   policy.DocumentedRuleDefault(
-       name='os_compute_api:servers:create:forced_host',
-       check_str='role:manager and project_id:%(project_id)s',
-       scope_types=['project']
-   )
-
-This would push the functionality even closer to end users, making the API more
-self-serviceable.
-
-Isolate system-specific API policies
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-We need to perform the same exercise for system-specific API policies and
-ensure system-level APIs are only accessed with system-scoped tokens. These
-cases should be much more rare than the previous examples, since the majority
-of OpenStack's APIs and resources have grown to expect project ownership.
-
-We need to make sure APIs that are truly system-specific set the appropriate
-scope type. An example of these resources are hypervisors:
+Example:
 
 .. code-block:: python
 
    policy.DocumentedRuleDefault(
        name='os_compute_api:os-hypervisors:list',
        check_str='role:admin',
-       scope_types=['system']
+       scope_types=['project']
+   )
+
+Implement support for `project-reader` and `project-member` personas
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The `project-reader` and `project-member` changes will make sure that by default
+any other role for example `foo` in that project will not be able to do anything.
+
+Legacy admin will be unchanged and continue to work same way as it does today._
+
+`project-reader`:
+~~~~~~~~~~~~~~~~~
+
+`project-reader` is denoted by someone with the ``reader`` role on a project. It
+is intended to be used by end users for read-only access within a project.
+
+`project-reader` persona in the policy check string:
+
+.. code-block:: python
+
+    policy.RuleDefault(
+        name="project_reader",
+        check_str="role:reader and project_id:%(project_id)s",
+        description="Default rule for Project level read only APIs."
+    )
+
+Using it in policy rule (with `admin` + `reader` access):
+(because we want to keep legacy `admin` behavior the same we need
+to give access of reader APIs to `admin` role too.)
+
+.. code-block:: python
+
+    policy.DocumentedRuleDefault(
+        name='os_compute_api:servers:show',
+        check_str='role:admin or (' + 'role:reader and project_id:%(project_id)s)',
+        description="Show a server",
+        operations=[
+            {
+                'method': 'GET',
+                'path': '/servers/{server_id}'
+            }
+        ],
+        scope_types=['project'],
+    )
+
+OR
+
+.. code-block:: python
+
+    policy.RuleDefault(
+        name="admin_api",
+        check_str="role:admin",
+        description="Default rule for administrative APIs."
+    )
+
+    policy.DocumentedRuleDefault(
+        name='os_compute_api:servers:show',
+        check_str='rule: admin or rule:project_reader',
+        description='Show a server',
+        operations=[
+            {
+                'method': 'GET',
+                'path': '/servers/{server_id}'
+            }
+        ],
+        scope_types=['project'],
+    )
+
+
+`project-member`:
+~~~~~~~~~~~~~~~~~
+
+`project-member` is denoted by someone with the ``member`` role on a project. It
+is intended to be used by end users who consume resources within a project. It
+inherits all the permissions of a `project-reader`.
+
+`project-member` persona in the policy check string:
+
+.. code-block:: python
+
+    policy.RuleDefault(
+        name="project_member",
+        check_str="role:member and project_id:%(project_id)s",
+        description="Default rule for Project level non admin APIs."
+    )
+
+
+Using it in policy rule (with `admin` + `member` access):
+(because we want to keep legacy `admin` behavior same we need
+to give access of member APIs to `admin` role too.)
+
+.. code-block:: python
+
+    policy.DocumentedRuleDefault(
+        name='os_compute_api:servers:create',
+        check_str='role:admin or (' + 'role:member and project_id:%(project_id)s)',
+        description='Create a server',
+        operations=[
+            {
+                'method': 'POST',
+                'path': '/servers'
+            }
+        ],
+        scope_types=['project'],
+    )
+
+OR
+
+.. code-block:: python
+
+    policy.RuleDefault(
+        name="admin_api",
+        check_str="role:admin",
+        description="Default rule for administrative APIs."
+    )
+
+    policy.DocumentedRuleDefault(
+        name='os_compute_api:servers:create',
+        check_str='rule_admin or rule:project_member',
+        description='Create a server',
+        operations=[
+            {
+                'method': 'POST',
+                'path': '/servers'
+            }
+        ],
+        scope_types=['project'],
+    )
+
+
+'project_id:%(project_id)s' in the check_str is important to restrict the
+access within the requested project.
+
+This would push the functionality even closer to end users, making the API more
+self-serviceable.
+
+Legacy admin continues to work as it is
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+During the operator feedback, it is clear that we need to keep the legacy admin
+working as it is currently. We will not do any change in legacy admin behavior
+and access information. In `Phase 2`_, we will introduce the
+`project manager` persona who will be able to do the more privileged operation
+within the project than `project member`. More details in `Phase 2`_ section.
+
+.. code-block:: python
+
+   policy.DocumentedRuleDefault(
+       name='os_compute_api:os-hypervisors:list',
+       check_str='role:admin',
+       scope_types=['project']
    )
 
 Managed volumes:
@@ -245,253 +447,212 @@ Managed volumes:
     policy.DocumentedRuleDefault(
         name='volume_extension:volume_manage',
         check_str='role:admin',
-        scope_types=['system'],
+        scope_types=['project'],
     )
-
-Services and endpoints:
 
 .. code-block:: python
 
    policy.DocumentedRuleDefault(
        name='identity:delete_service',
        check_str='role:admin',
-       scope_types=['system']
+        scope_types=['project'],
    )
    policy.DocumentedRuleDefault(
        name='identity:create_endpoint',
        check_str='role:admin',
-       scope_types=['system']
    )
 
-.. note::
-   Each example above only uses a role check in the check string. This is by
-   design and allows for backwards compatibility while the ``[oslo_policy]
-   enforce_scope=False`` because a user with the ``admin`` role on a project is
-   still allowed to access that API.
-
-   Once ``[oslo_policy] enforce_scope=True``, the API will only be exposed to
-   system users. After we guarantee that scope enforcement happens in
-   oslo.policy using ``enforce_scope`` we can re-assess the roles of each
-   policy and loosen them as necessary (e.g., moving from ``role:admin`` to
-   ``role:member`` or ``role:reader`` where system-member or system-reader is
-   appropriate).
-
-Crafting check strings for APIs that interact with multiple scopes
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-At this point, any remaining policies that are not either project-scoped or
-system-scoped should have a valid use case for interacting with both scopes.
-
-Flavors are a good example of a resource that should operate with multiple
-scopes. Operators should be able to create, update, and delete flavors for a
-deployment, which affects every project and user of the deployment. Project
-users should be able to view flavors available for them to use. Additionally,
-users with authorization on a domain should also be able to view flavors.
-
-The following shows how you can specify multiple scopes for a single rule:
-
-.. code-block:: python
-
-  scope_types=['system', 'domain', 'project'],
-
 Listing project resources across the deployment
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Now that we're taking a firm stance on how scope interacts with different types
-of resources, we're presented with a problem.
-
-Traditionally, anyone with the ``admin`` role, usually on a project, could list
-all resources. This is usually implemented as a query parameter telling the
-service that the user wants all instances in the entire deployment (e.g., ``GET
-/v2.1/servers/detail?all_tenants=True``.) This pattern is applied across
-resources and service, and it's applicable to instances, volumes, backups,
-snapshots, etc.
-
-The direction defined in this goal suggests that anyone with the ``admin`` role
-on a project should only be able to view resources within that project, even if
-that persona is reserved for operators. Additionally, we're also standing firm
-in our decision to not allow system users to interact with project-owned
-resources.
-
-How do we support operators that wish to view all resources in a deployment?
-
-There are at least four potential solutions:
-
-#. Add domain-admin to `Phase 1`_
-#. Add domain-admin to `Phase 2`_
-#. Implement client-side functionality to brute force resource lists in `Phase
-   1`_
-#. Allow project-admins to view resources across the entire deployment
-
-The first solution is to add formal support for domain-admin. This would allow
-someone with the ``admin`` role on a domain to use a domain-scoped token to
-call ``GET /v2.1/servers/detail``, and nova would understand that it needs to
-filter the instance list by all projects owned by the domain. This is probably
-the correct solution, but it adds to an already full schedule for services
-implementing `Phase 1`_.
-
-The second solution would push implementing domain-admin off to `Phase 2`_,
-giving the community more time to focus on delivering `Phase 1`_. If we take
-this approach, operators waiting to use this functionality won't have a way to
-list all resources in the deployment in the Yoga, or potentially Z-release.
-
-The third solution takes a brute force approach where the client recognizes it's
-dealing with a domain-scoped token, queries keystone for all projects within
-that domain, gets a token scoped to each project, and asks the service for all
-resources with each project-scoped token. Then, it would aggregate all those
-results together and present it to the user.
-
-The fourth solution would be to continue allowing people with the ``admin``
-role on a project to list all resources across the deployment (for applicable
-APIs only.) The following is an example of what a policy would look like using
-this approach:
+As we are keeping the legacy `admin` same as it is currently, legacy admin (meaning
+anyone with the ``admin`` role on a project) will continue to be able to list all
+the resources across the deployment (for applicable APIs only.) The following is an
+example of what a policy would look like using this approach:
 
 .. code-block:: python
 
    policy.DocumentedRuleDefault(
        name='os_compute_api:servers:detail:get_all_tenants',
        check_str='role:admin',
-       scope_types=['project']),
-
-This would allow things to work as they do today for operators, but with the
-understanding that this functionality is going to change when services adopt
-`Phase 2`_. Eventually, domain users will be allowed to use list all resources
-across projects and at that point, we should restrict project-admins from being
-allowed to list resources outside their project:
-
-.. code-block:: python
-
-   policy.DocumentedRuleDefault(
-       name='os_compute_api:servers:detail:get_all_tenants',
-       check_str='role:admin',
-       scope_types=['domain']),
+        scope_types=['project']
+   ),
 
 This functionality is important for operators finding resources, especially for
 support cases, like rebooting or live migrating an instance.
 
-The direction for `Phase 1`_ is to use solution #4, where a project-admin can
-continue listing resources across the deployment, while we target domain
-support for `Phase 2`_ or `Phase 3`_.
-
 How operators opt into the new functionality
---------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If we can complete each item above for the Yoga release, operators will be able
+If we can complete each item above in the Zed release, operators will be able
 to configure each service to opt into the new defaults across all services,
 securely implementing the same personas across the deployment::
 
   [oslo_policy]
   enforce_new_defaults=True
-  enforce_scope=True
 
 This configuration enables the following personas:
 
-- System Administrator
-   - Denoted by someone with the ``admin`` role on the ``system``
-   - Intended for the most trusted operators or support personnel
+- Admin
+   - Denoted by someone with the ``admin`` role on a project
+   - This is existing admin we have in OpenStack policy.
+   - Intended for operators who need elevated privilege on complete deployement
    - Not intended for end users
-   - Has the ability to interact with any resource in the deployment because
-     they can give themselves any role on any authorization target (project,
-     domain, or system)
-   - *Can grant any role to any user or group on any project, domain, or
-     system*
+   - *List Hypervisors detail*
+   - *Forcibly reset the state of an instance*
+   - *Forcibly deleting an application stack*
+   - *Making an image public to the entire deployment*
+   - *Create physical provider networks*
    - *Add or delete services and endpoints*
    - *Create new volume types*
    - *Move pre-existing volumes in and out of projects*
    - *Create or delete HSM transport keys*
 
-- Project Admin
-   - Denoted by someone with the ``admin`` role on a project
-   - Intended for operators who need elevated privilege on project resources
-   - Can perform operations on project resources that affect other projects in
-     the deployment
-   - Not intended for end users
-   - *Forcibly reset the state of an instance*
-   - *Forcibly deleting an application stack*
-   - *Making an image public to the entire deployment*
-   - *Create physical provider networks*
-
 - Project Member
    - Denoted by someone with the ``member`` role on a project
+   - Operate within their own project resource
    - Intended to be used by end users who consume resources within a project
    - *Create, delete, or update an instance*
    - *Create, delete, or update a volume*
    - *Create, delete, or update a network*
+   - *Can get or list the instances from its own project*
+   - *Cannot create, delete, or delete the instance, volume, or network of
+     other project*
+   - *Cannot get or list instances, volumes, or networks of other project*
 
 - Project Reader
    - Denoted by someone with the ``reader`` role on a project
+   - Operate within the own project resource
    - Intended to be used by end users for read-only access within a project
    - Not allowed to make any writable changes to project-owned resources
    - *List and get instances*
    - *List and get volumes*
    - *List and get images, including private images within the project*
    - *List and get networks*
+   - *Cannot get or list instances, volumes, or networks of other project*
 
-These new persona divide the current role of an operator between system-admin
-and project-admin personas. This is by design and starts to slowly break down
-the authorization associated to administrative tokens.
-
-For increased usability, operators could bootstrap their trusted team of
-operators or support with inherited role assignments on each domain, making it
-easier for operators to get project-scoped tokens for each project in the
-deployment::
-
-  $ openstack role add --os-cloud system-admin --user 2c0865 --domain foo --inherited reader
-  $ openstack role add --os-cloud system-admin --group b3dbc2 --domain foo --inherited admin
+These new personas fix the existing issue where any user having any role within
+project (for example 'foo' role) can create or delete the resources in that project.
+It also provides the ability for the operator to assign the read-only role for cloud
+auditing the project resources/activities. This does not directly solve the case
+of doing global audit with single role.
 
 Phase 2
 =======
 
-#. Isolate service-to-service APIs to the ``service`` role
-#. Update policies to incorporate project-manager
-#. Implement domain-admin support where service keep track of domain IDs in
-   addition to project IDs as owners of a resource
+Isolate service-to-service APIs to the ``service`` role
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Any API developed for machines to communicate with each other should use the
 ``service`` role. This is an important part in reducing authorization for each
 service. For example, neutron needs to inform nova about network changes, but
 it shouldn't need the ability to create new users and groups in keystone, which
-it currently has. The project-manager persona is described as follows:
-
-- Project Manager
-   - Denoted by someone with the ``manager`` role on a project
-   - Intended to be used by end users
-   - Slightly more privileged than regular project-members
-   - *Locking and unlocking an instance*
-   - *Setting the default volume type for a project*
-   - *Setting the default secret store for a project*
+it currently has.
 
 Phase 3
 =======
 
-Implement system-member and system-reader personas. This allows operators to
-use the principle of least privilege for their team members, support personnel,
-or auditors.
+Implement support for `project-manager` personas
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Implement system-member persona for applicable system APIs
-#. Implement system-reader persona for applicable system APIs
+`project-manager`:
+~~~~~~~~~~~~~~~~~~
 
-After we update the default for ``[oslo_policy] enforce_scope=True`` we can
-re-assess all system-admin policies and loosen them to implement the
-system-member and system-reader personas, resulting in the following
-functionality.
+A `project-manager` can use project-level management APIs and is denoted by someone
+with the ``manager`` role on a project.  It is intended to perform more privileged
+operations than `project-member` on its project resources.  A `project-manager` can
+also perform any operations allowed to a `project-member` or `project-reader`.
 
-- System Member
-   - Denoted by someone with the ``member`` role on the ``system``
-   - Intended for operators or lab technicians
-   - Not intended for end users
-   - *Manage hypervisors and aggregates*
-   - *Manage resources in placement*
+An example of a project-level management API is the Block Storage default-types API,
+which allows a default volume type to be set for a particular project. Since the change
+affects only that project, it makes sense to allow a responsible person within the
+project to set the default type, rather than require them to contact an administrator to
+do it.  Implementing the `project-manager` persona will make this possible.
 
-- System Reader
-   - Denoted by someone with the ``reader`` role on the ``system``
-   - Intended for operators or auditors for system-specific resources
-   - Not intended for end users
-   - *View hypervisor and aggregate information*
-   - *List all cinder services*
-   - *View all domains and identity providers within the deployment*
+It is up to each service to define which API calls (if any) should be considered as
+project-level management APIs.
 
-Tracking Etherpad: https://etherpad.opendev.org/p/rbac-goal-tracking
+The `project-manager` needs to be added in the role implication so that the ``admin``
+role implies ``manager``, the ``manager`` role implies ``member``, the ``member`` role
+implies ``reader``. This needs the modification in the already merged `keystone specification
+<https://review.opendev.org/c/openstack/keystone-specs/+/818603>`_.
+
+`project-manager` persona in the policy check string:
+
+.. code-block:: python
+
+    policy.RuleDefault(
+        name="project_manager",
+        check_str="role:manager and project_id:%(project_id)s",
+        description="Default rule for  project-level management APIs."
+    )
+
+Using it in policy rule (with `admin` + `manager` access):
+(because we want to keep legacy `admin` behavior same we need
+to give access of project-level management APIs to `admin` role too.)
+
+.. code-block:: python
+
+    policy.DocumentedRuleDefault(
+        name='os_compute_api:os-migrate-server:migrate_live',
+        check_str='role:admin or (' + 'role:manager and project_id:%(project_id)s)',
+        description="Live migrate a server to a new host without a reboot",
+        operations=[
+            {
+                'method': 'POST',
+                'path': '/servers/{server_id}/action (os-migrateLive)'
+            }
+        ],
+    )
+
+OR
+
+.. code-block:: python
+
+    policy.RuleDefault(
+        name="admin_api",
+        check_str="role:admin",
+        description="Default rule for administrative APIs."
+    )
+
+    policy.DocumentedRuleDefault(
+        name='os_compute_api:os-migrate-server:migrate_live',
+        check_str='rule:admin_api or rule:project_manager',
+        description="Live migrate a server to a new host without a reboot",
+        operations=[
+            {
+                'method': 'POST',
+                'path': '/servers/{server_id}/action (os-migrateLive)'
+            }
+        ],
+    )
+
+
+'project_id:%(project_id)s' in the check_str is important to restrict the manager
+role access within the requested project and 'role:admin or' in check_str will make
+sure the legacy admin continues working as it is.
+
+This will provide a way for the operator to configure a user to give the more
+privileged access within a project but no access to system-level resources or
+cross-project operations.
+
+The `project-manager` persona is described as follows:
+
+- Project Manager (project-level management)
+   - Denoted by someone with the ``manager`` role on a project
+   - Intended for responsible end-users to give them slightly elevated privileges
+     that affect only their own project's resources
+   - Can perform more privileged than project-members on a project
+   - *Forcibly reset the state of an instance*
+   - *Forcibly deleting an application stack*
+   - *Locking and unlocking an instance*
+   - *Setting the default volume type for a project*
+   - *Setting the default secret store for a project*
+
+Tracking
+========
+
+Etherpad: https://etherpad.opendev.org/p/rbac-goal-tracking
 
 Champion
 ========
@@ -512,14 +673,47 @@ gerrit topic::
 Completion Date & Criteria
 ==========================
 
-Yoga Timeline (7th Mar 2022)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Work completed by Yoga Timeline (7th Mar 2022)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. Keystone has the project persona (admin, member, reader) ready to be
+   used by the services.
+
+#. Few projects like keystone, nova, neutron, octavia etc adopted the
+   project persona but along with `scope type` which needs to be modified
+   to drop the `scope type`.
+
+Z-Release Timeline
+^^^^^^^^^^^^^^^^^^
+
+#. Convert the `scope_type` of every policy rule to `project`, or specify no
+   `scope_type`, as appropriate
+
+   Some standalone services like Ironic can still have their existing  `scope`
+   implementation as long as it does not break any cross service communication.
+   Nova, Neutron, Keystone and any other projects who have already implemented
+   the `scope` as `system`, `domain` and `project` in their policy default need to
+   make everything scoped to `project` (`scope_type` to `project` only).
+
+#. Services start implementing `Phase 1`_
+
+   At this point, all services are free to start implementing project-member and
+   project-reader personas as described above in `Phase 1`_. By the end of the
+   Zed release, at least all the base services must have `Phase 1`_ complete.
+   `Phase 1`_ introduces the new personas but allows operators to opt into the
+   new behavior for services that complete `Phase 1`_, allowing operators to
+   upgrade smoothly to the new permission model on a per-service basis.
+
+   It's important that we have an OpenStack-wide release note or statement that
+   explicitly states the status of this work and how permissions behave across
+   OpenStack services.
 
 #. Keystone implements a new default role called ``manager``
 
-   The ``manager`` role will be a part of the role hierarchy and it will sit in
-   between the ``admin`` and ``member`` roles. This work requires a keystone
-   specification.
+   The ``manager`` role will be a part of the role hierarchy so that the ``admin``
+   role implies ``manager``, the ``manager`` role implies ``member``. This need
+   the modification in already merged `keystone specification
+   <https://review.opendev.org/c/openstack/keystone-specs/+/818603>`_
 
 #. Keystone implements a new default role called ``service``
 
@@ -528,152 +722,98 @@ Yoga Timeline (7th Mar 2022)
    existing role hierarchy, where ``admin`` implies ``manager`` implies
    ``member`` implies ``reader``. This work requires a keystone specification.
 
-#. Keystone enforces scope by default
-
-   Keystone sets ``keystone.conf [oslo_policy] enforce_scope = True``.
-
-   Keystone has fully supported system-admin, system-member, system-reader,
-   domain-admin, domain-member, domain-reader, project-admin, project-member,
-   and project-reader since the Train release.
-
-   For the Yoga release, Keystone should remove all deprecated policies, which
-   will require operators to use the new personas. This will be relatively
-   low-touch for end-users since Keystone's API is mostly administrative.
-   This gives operators the opportunity to experiment with the domain and
-   system personas.
-
-#. Services start implementing `Phase 1`_
-
-   At this point, all services are free to start implementing system-admin,
-   project-admin, project-member, and project-reader personas as described
-   above in `Phase 1`_. By the end of the Yoga release, at least one service
-   must have `Phase 1`_ complete. `Phase 1`_ introduces the new personas but
-   allows operators to opt into the new behavior for services that complete
-   `Phase 1`_, allowing operators to upgrade smoothly to the new permission
-   model on a per-service basis.
-
-   It's important that we have an OpenStack-wide release note or statement that
-   explicitly states the status of this work and how permissions behave across
-   OpenStack services.
-
 #. OpenStack-wide Personas Documentation
 
    We need very clear documentation that describes all the potential personas,
    what they mean, who they were designed for, and how to use them. By the end
-   of the Yoga release, this document should include each persona and what its
+   of the Zed release, this document should include each persona and what its
    support is across OpenStack services.
 
    Engineers should use this documentation to determine what the default policy
    should be for APIs they're developing and maintaining. Operators should use
    it to understand what personas are the most appropriate for their users
-   based on the permissions they need. The documentation should also clearly
-   describe the scope associated to each API. Highlighting the relationship
-   between scope and a resource will help build a frame of reference for
-   operators delegating authorization on various scopes. It will also help
-   establish the expectation that mixing and matching scopes won't be supported
-   in future releases.
+   based on the permissions they need.
 
-At this point, operators must run keystone with ``enforce_scope=True`` since
-the deprecated policies will be gone, and the default value for this specific
-option in keystone will be updated accordingly. They can also choose to run any
-service that's completed `Phase 1`_. This will require the operator to
-configure the service to use ``enforce_scope=True`` and
-``enforce_new_defaults=True`` if they chose to adopt the new behavior for
+At this point, operators can choose to enable the new defaults for services that
+have completed `Phase 1`_. This will require the operator to configure the service
+to use ``enforce_new_defaults=True`` if they chose to adopt the new behavior for
 services that support it.
 
-This means that operators must use the correct scope when interacting with
-services they've configured to enforce scope. For example, an operator will
-need a system-scoped token to manage domains or service endpoints in keystone.
-If the operator also deploys nova to enforce scope, they will need a
-system-scoped token to manage hypervisors or aggregates.
-
-Z-Release Timeline
-^^^^^^^^^^^^^^^^^^
-
-#. Keystone implements `Phase 2`_ and updates policies to include the
-   ``manager`` role where applicable
-
-   Keystone starts implementing support for ``manager`` across project, domain,
-   and system scopes. Keystone has supported system-admin, system-member, and
-   system-reader since Train, which completes the `Phase 3`_ goals
+2023.1 Release Timeline
+^^^^^^^^^^^^^^^^^^^^^^^
 
 #. All services must implement `Phase 1`_
 
-#. Any service that completed `Phase 1`_ in Yoga can set ``enforce_scope=True``
-   by default
+#. Services start implementing `Phase 2`_
+
+#. Services start implementing `Phase 3`_ and updates policies to include the
+   ``manager`` role where applicable.
+
+#. Any service that completed `Phase 1`_ in Zed can set ``enforce_new_defaults=True``
+   by default. It means new defaults will be enabled by default but operator
+   will have way to disable it with ``enforce_new_defaults=False`` for that service.
+   Also make ``enforce_scope=True`` to make sure `project` scope is enforced.
 
 At this point, every OpenStack service will have completed `Phase 1`_, which
-allows operators to opt into using system-admin, project-admin, project-member,
-and project-reader across their entire deployment.
+allows operators to opt into using project-member and project-reader across their
+entire deployment.
 
 To summarize, operators will need to update every service configuration file
-where they want to use system-admin, project-admin, project-manager,
-project-member, and project-reader. For example:
+where they want to use project-member and project-reader. For example:
 
 #. Set ``glance-api.conf [DEFAULT] enforce_secure_defaults=True``
-#. Set ``glance-api.conf [oslo_policy] enforce_scope=True``
 #. Set ``glance-api.conf [oslo_policy] enforce_new_defaults=True``
-#. Set ``neutron.conf [oslo_policy] enforce_scope=True``
 #. Set ``neutron.conf [oslo_policy] enforce_new_defaults=True``
-#. Set ``cinder.conf [oslo_policy] enforce_scope=True``
 #. Set ``cinder.conf [oslo_policy] enforce_new_defaults=True``
-#. Set ``ironic.conf [oslo_policy] enforce_scope=True``
 #. Set ``ironic.conf [oslo_policy] enforce_new_defaults=True``
-#. Set ``barbican.conf [oslo_policy] enforce_scope=True``
 #. Set ``barbican.conf [oslo_policy] enforce_new_defaults=True``
 
-AA-Release Timeline
-^^^^^^^^^^^^^^^^^^^
+2023.2 Release Timeline
+^^^^^^^^^^^^^^^^^^^^^^^
+
+#. All services must implement `Phase 2`_
+
+#. All services must implement `Phase 3`_
+
+#. Update oslo.policy ``enforce_new_defaults=True``
+
+   Since all services have completed `Phase 1`_, we can update the default in
+   oslo.policy so that enforcement checks new default by default. This will allow
+   each service to remove code to override the ``enforce_new_defaults=True``
+   and use the upstream default from oslo.policy.
 
 #. Update oslo.policy ``enforce_scope=True``
 
    Since all services have completed `Phase 1`_, we can update the default in
-   oslo.policy so that enforcement checks scope by default. This will allow
-   each service to remove code to override the ``enforce_scope=True`` and use
-   the upstream default from oslo.policy.
+   oslo.policy so that scope enforcement is checked by default. This will allow
+   each service to remove code to override the ``enforce_scope=True``
+   and use the upstream default from oslo.policy.
 
-#. Any service that implemented `Phase 1`_ in Yoga and enabled
-   ``enforce_scope`` in Z can removed deprecated policies used to implement
-   `Phase 1`_ and can start implementing `Phase 2`_
+#. Any service that implemented `Phase 1`_ in Zed and enabled
+   ``enforce_new_defaults`` in 2023.1 release can remove deprecated policies
+   used to implement `Phase 1`_.
 
-Operators consuming the AA release will have the personas delivered in `Phase
-1`_ available and enabled by default. This includes system-admin for all
-system-level administrative APIs, project-admin for project-level
-administrative APIs, project-member for common end-user interactions, and
-project-reader for a read-only variant of project-member.
+Operators consuming the 2023.1 release will have the personas delivered in
+`Phase 1`_ available and enabled by default. This includes project-member for
+common end-user interactions, and project-reader for a read-only variant
+of project-member.
 
-BB-Release Timeline
-^^^^^^^^^^^^^^^^^^^
+2024.1-Release Timeline
+^^^^^^^^^^^^^^^^^^^^^^^
 
-#. All services can remove deprecated policies used to implement `Phase 1`_
+#. Any service that implemented `Phase 1`_ in 2023.1 and enabled
+   ``enforce_secure_defaults`` in 2023.2 release can remove deprecated policies
+   used to implement `Phase 1`_.
 
-#. All services must implement `Phase 2`_
+#. Remove the oslo.policy ``enforce_scope`` config flag
 
-#. Any service that completed `Phase 2`_ in the AA release can remove the
-   deprecated policies used to implement `Phase 2`_ and start implementing
-   `Phase 3`_
+   Since all services have completed `Phase 1`_, and have ``enforce_scope=True``
+   by default in oslo.policy for every service, we can remove this configuration
+   flag itself and have scope checks enable by default.
 
-Operators consuming the BB release will have full support for system-admin,
-project-admin, project-member, project-reader, and service role dedicated for
-service-to-service communication. Additionally, they will have a
-project-manager persona for elevated privileges safe for end users on a
-project.
-
-CC-Release Timeline
-^^^^^^^^^^^^^^^^^^^
-
-#. All services can remove deprecated policies used to implement `Phase 2`_
-
-#. All services must implement `Phase 3`_ and remove deprecated policies in a
-   future release following an acceptable deprecation cycle
-
-#. Any service that completed `Phase 3`_ in the BB release can remove the
-   deprecated policies used to implement `Phase 3`_
-
-Operator will have all the benefits from the BB release, as well as two
-additional system personas called system-member and system-reader that will
-enable operators, support personnel, and auditors who need access to system
-resources.
+Operators consuming the 2024.1 release will have full support for project-manager,
+project-member, project-reader, and service role dedicated for service-to-service
+communication. There will not be support for deprecated policies in this release.
 
 References
 ==========
@@ -685,6 +825,7 @@ References
 Current State / Anticipated Impact
 ==================================
 
-Current progress is maintained on the `wiki`_ page.
+Current progress is maintained on the `tracking etherpad`_ page.
 
 .. _wiki: https://wiki.openstack.org/wiki/Consistent_and_Secure_Default_Policies_Popup_Team
+.. _tracking etherpad: https://etherpad.opendev.org/p/rbac-goal-tracking
