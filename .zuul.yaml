@@ -24,7 +24,7 @@
 - project:
     templates:
       - build-openstack-docs-pti
-      - openstack-python3-yoga-jobs
+      - openstack-python3-zed-jobs
     check:
       jobs:
         - governance-validate-legacy
