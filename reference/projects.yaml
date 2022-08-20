@@ -1791,10 +1791,6 @@ OpenStack-Helm:
       release-management: external
       repos:
         - openstack/openstack-helm
-    openstack-helm-addons:
-      release-management: external
-      repos:
-        - openstack/openstack-helm-addons
     openstack-helm-images:
       release-management: external
       repos:
