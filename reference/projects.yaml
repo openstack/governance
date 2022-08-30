@@ -2383,10 +2383,7 @@ rally:
       repos:
         - openstack/performance-docs
 Release Management:
-  ptl:
-    name: Elod Illes
-    irc: elodilles
-    email: elod.illes@est.tech
+  leadership_type: distributed
   irc-channel: openstack-release
   mission: >
     Coordinating the release of OpenStack deliverables, by defining the
@@ -2409,6 +2406,25 @@ Release Management:
       release-management: none
       repos:
         - openstack/specs-cookiecutter
+  liaisons:
+    release:
+      - name: Hervé Beraud
+        irc: hberaud
+        email: hberaud@redhat.com
+      - name: Thierry Carrez
+        irc: ttx
+        email: thierry@openstack.org
+      - name: Elod Illes
+        irc: elodilles
+        email: elod.illes@est.tech
+    tact-sig:
+      - name: Jeremy Stanley
+        irc: fungi
+        email: fungi@yuggoth.org
+    security:
+      - name: Thierry Carrez
+        irc: ttx
+        email: thierry@openstack.org
 requirements:
   ptl:
     name: Matthew Thode
