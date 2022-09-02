@@ -2411,10 +2411,7 @@ Release Management:
       repos:
         - openstack/specs-cookiecutter
 requirements:
-  ptl:
-    name: Matthew Thode
-    irc: prometheanfire
-    email: mthode@mthode.org
+  leadership_type: distributed
   irc-channel: openstack-requirements
   service: Common dependency management
   mission: >
@@ -2426,6 +2423,28 @@ requirements:
     requirements:
       repos:
         - openstack/requirements
+  liaisons:
+    release:
+      - name: Matthew Thode
+        irc: prometheanfire
+        email: mthode@mthode.org
+      - name: Tony Breeds
+        irc: tonyb
+        email: tony@bakeyournoodle.com
+    tact-sig:
+      - name: Matthew Thode
+        irc: prometheanfire
+        email: mthode@mthode.org
+      - name: Tony Breeds
+        irc: tonyb
+        email: tony@bakeyournoodle.com
+    security:
+      - name: Matthew Thode
+        irc: prometheanfire
+        email: mthode@mthode.org
+      - name: Tony Breeds
+        irc: tonyb
+        email: tony@bakeyournoodle.com
 sahara:
   ptl:
     name: Fossen Qiu
