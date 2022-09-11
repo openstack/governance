@@ -40,7 +40,7 @@ distributions <pti-linux-distros>` or in external source) all JavaScript testing
 
 Ref: https://nodejs.org/en/about/releases/
 
-* Node.js 16
+* Node.js 18
 
 More details on Javascript requirements can be found in :ref:`pti-javascript`.
 
