@@ -1420,6 +1420,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-keystone-ldap
+    charm-keystone-openidc:
+      release-management: external
+      repos:
+        - openstack/charm-keystone-openidc
     charm-keystone-saml-mellon:
       release-management: external
       repos:
