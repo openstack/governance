@@ -1,8 +1,8 @@
 adjutant:
   ptl:
-    name: Dale Smith
-    irc: dalees
-    email: dale@catalystcloud.nz
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - victoria
     - yoga
@@ -27,9 +27,9 @@ adjutant:
         - openstack/python-adjutantclient
 barbican:
   ptl:
-    name: Douglas Mendizábal
-    irc: redrobot
-    email: dmendiza@redhat.com
+    name: Grzegorz Grasza
+    irc: xek
+    email: xek@redhat.com
   appointed:
     - victoria
     - xena
@@ -171,9 +171,9 @@ cloudkitty:
         - openstack/cloudkitty-tempest-plugin
 cyborg:
   ptl:
-    name: Bailin Zhang
-    irc: brinzhang
-    email: zhangbailin@inspur.com
+    name: alex song
+    irc: No nick supplied
+    email: songwenping@inspur.com
   appointed:
     - ussuri
     - xena
@@ -280,9 +280,9 @@ freezer:
         - openstack/python-freezerclient
 glance:
   ptl:
-    name: Abhishek Kekane
-    irc: abhishekk
-    email: akekane@redhat.com
+    name: Pranali Deore
+    irc: pdeore
+    email: pdeore@redhat.com
   irc-channel: openstack-glance
   service: Image service
   mission: >
@@ -309,9 +309,9 @@ glance:
         - openstack/python-glanceclient
 heat:
   ptl:
-    name: Rico Lin
-    irc: ricolin
-    email: ricolin@ricolky.com
+    name: Brendan Shephard
+    irc: No nick supplied
+    email: bshephar@redhat.com
   appointed:
     - yoga
     - zed
@@ -463,9 +463,9 @@ horizon:
         - openstack/xstatic-spin
 ironic:
   ptl:
-    name: Iury Gregory Melo Ferreira
-    irc: iurygregory
-    email: iurygregory@gmail.com
+    name: Jay Faulkner
+    irc: JayF
+    email: jay@jvf.cc
   irc-channel: openstack-ironic
   service: Bare Metal service
   mission: >
@@ -542,9 +542,9 @@ ironic:
         - openstack/virtualbmc
 keystone:
   ptl:
-    name: Douglas Mendizábal
-    irc: dmendiza[m]
-    email: dmendiza@redhat.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-keystone
   service: Identity service
   mission: >
@@ -605,9 +605,9 @@ kolla:
         - openstack/kayobe-config-dev
 kuryr:
   ptl:
-    name: Maysa de Macedo Souza
-    irc: maysams
-    email: maysa.macedo95@gmail.com
+    name: Roman Dobosz
+    irc: gryf
+    email: gryf73@gmail.com
   irc-channel: openstack-kuryr
   service: Bridge between OpenStack and container networking
   mission: >
@@ -629,9 +629,9 @@ kuryr:
         - openstack/kuryr-tempest-plugin
 magnum:
   ptl:
-    name: Spyros Trigazis
-    irc: strigazi
-    email: strigazi@gmail.com
+    name: Jake Yip
+    irc: jakeyip
+    email: jake.yip@unimelb.edu.au
   appointed:
     - zed
   irc-channel: openstack-containers
@@ -695,9 +695,9 @@ manila:
         - openstack/python-manilaclient
 masakari:
   ptl:
-    name: suzhengwei
-    irc: suzhengwei
-    email: suzhengwei@inspur.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - yoga
     - zed
@@ -899,9 +899,9 @@ murano:
         - openstack/murano-tempest-plugin
 neutron:
   ptl:
-    name: Lajos Katona
-    irc: lajoskatona
-    email: katonalala@gmail.com
+    name: Rodolfo Alonso Hernandez
+    irc: ralonsoh
+    email: ralonsoh@redhat.com
   irc-channel: openstack-neutron
   service: Networking service
   mission: >
@@ -1043,9 +1043,9 @@ octavia:
         - openstack/octavia-lib
 OpenStack Charms:
   ptl:
-    name: Alex Kavanagh
-    irc: tinwood
-    email: alex.kavanagh@canonical.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - wallaby
     - zed
@@ -2463,9 +2463,9 @@ requirements:
         email: tony@bakeyournoodle.com
 sahara:
   ptl:
-    name: Fossen Qiu
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: qiujunting@inspur.com
+    email: example@example.org
   appointed:
     - yoga
   irc-channel: openstack-sahara
@@ -2517,9 +2517,9 @@ sahara:
         - openstack/sahara-specs
 senlin:
   ptl:
-    name: XueFeng Liu
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: liu.xuefeng1@zte.com.cn
+    email: example@example.org
   appointed:
     - wallaby
     - xena
@@ -2546,7 +2546,7 @@ senlin:
 skyline:
   ptl:
     name: Wenxiang Wu
-    irc: wenxiang
+    irc: wu_wenxiang
     email: wu.wenxiang@99cloud.net
   appointed:
     - zed
@@ -2614,9 +2614,9 @@ storlets:
         - openstack/storlets
 swift:
   ptl:
-    name: Tim Burke
-    irc: timburke
-    email: tburke@nvidia.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - victoria
   irc-channel: openstack-swift
@@ -2709,9 +2709,9 @@ Telemetry:
         - openstack/telemetry-tempest-plugin
 tripleo:
   ptl:
-    name: James Slagle
-    irc: slagle
-    email: jslagle@redhat.com
+    name: Rabi Mishra
+    irc: ramishra
+    email: ramishra@redhat.com
   irc-channel: tripleo
   service: Deployment service
   mission: >
@@ -2838,9 +2838,9 @@ tripleo:
         - openstack/tripleo-ha-utils
 trove:
   ptl:
-    name: Wu Chunyang
+    name: wu chunyang
     irc: wuchunyang
-    email: wuchunyang@yovole.com
+    email: wchy1001@gmail.com
   appointed:
     - stein
     - zed
@@ -2870,9 +2870,9 @@ trove:
         - openstack/trove-tempest-plugin
 venus:
   ptl:
-    name: Liye Pang
-    irc: pangliye
-    email: pangliye@inspur.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - zed
   irc-channel: openstack-venus
@@ -3008,7 +3008,7 @@ winstackers:
         - openstack/compute-hyperv
 zaqar:
   ptl:
-    name: wang hao
+    name: Hao Wang
     irc: No nick supplied
     email: sxmatch1986@gmail.com
   appointed:
@@ -3043,9 +3043,9 @@ zaqar:
         - openstack/zaqar-ui
 zun:
   ptl:
-    name: Feng Shengqin
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: feng.shengqin@zte.com.cn
+    email: example@example.org
   appointed:
     - xena
     - yoga
