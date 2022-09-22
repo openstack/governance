@@ -2468,11 +2468,12 @@ requirements:
         email: tony@bakeyournoodle.com
 sahara:
   ptl:
-    name: APPOINTMENT NEEDED
+    name: Fossen Qiu
     irc: No nick supplied
-    email: example@example.org
+    email: qiujunting@inspur.com
   appointed:
     - yoga
+    - 2023.1
   irc-channel: openstack-sahara
   service: Data Processing service
   mission: >
