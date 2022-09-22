@@ -2,28 +2,28 @@
   irc: gmann
   email: gmann@ghanshyammann.com
   memberid: 6461
-  date: September 2021
-  role: chair
-
-- name: Jay Bryant
-  irc: jungleboyj
-  email: jsbryant@electronicjungle.net
-  memberid: 8348
-  date: September 2021
+  date: September 2023
   role: null
 
 - name: Dan Smith
   irc: dansmith
   email: dms@danplanet.com
   memberid: 5478
-  date: September 2021
+  date: September 2023
   role: null
 
-- name: Kendall Nelson
-  irc: diablo_rojo
-  email: knelson@openstack.org
-  memberid: 35859
-  date: September 2021
+- name: Jay Faulkner
+  irc: JayF
+  email: jay@jvf.cc
+  memberid: 2052
+  date: September 2023
+  role: null
+
+- name: Dmitriy Rabotyagov
+  irc: noonedeadpunk
+  email: noonedeadpunk@gmail.com
+  memberid: 107517
+  date: September 2023
   role: null
 
 - name: Arne Wiebalck
@@ -38,7 +38,7 @@
   email: skaplons@redhat.com
   memberid: 19377
   date: February 2022
-  role: vice-chair
+  role: null
 
 - name: Kristi Nikolla
   irc: knikolla
