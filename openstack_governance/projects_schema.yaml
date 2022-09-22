@@ -60,7 +60,7 @@ additionalProperties:
     appointed:
       type: "array"
       items:
-        type: "string"
+        type: ["string", "number"]
     irc-channel:
       type: "string"
     service:

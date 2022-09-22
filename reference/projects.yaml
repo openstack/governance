@@ -1,12 +1,13 @@
 adjutant:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Dale Smith
+    irc: dalees
+    email: dale@catalystcloud.nz
   appointed:
     - victoria
     - yoga
     - zed
+    - 2023.1
   irc-channel: openstack-adjutant
   service: Operations Processes automation
   mission: >
