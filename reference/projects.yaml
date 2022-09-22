@@ -698,12 +698,13 @@ manila:
         - openstack/python-manilaclient
 masakari:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Radosław Piliszek
+    irc: yoctozepto
+    email: radoslaw.piliszek@gmail.com
   appointed:
     - yoga
     - zed
+    - 2023.1
   irc-channel: openstack-masakari
   service: Instances High Availability service
   mission: >
