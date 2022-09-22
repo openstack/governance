@@ -543,9 +543,11 @@ ironic:
         - openstack/virtualbmc
 keystone:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Dave Wilde
+    irc: d34dh0r53
+    email: dwilde@redhat.com
+  appointed:
+    - 2023.1
   irc-channel: openstack-keystone
   service: Identity service
   mission: >
