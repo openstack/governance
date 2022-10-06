@@ -142,6 +142,72 @@ based on the LTS or stable release of the :ref:`pti-linux-distros` at the start 
 the development cycle. Distros are listed in testing runtime based on the
 required minimum testing as described in :ref:`pti-linux-distros`
 
+Upgrade testing
+^^^^^^^^^^^^^^^
+
+Along with testing the distro versions defined in testing runtime, projects
+need to take care of the supported upgrade path also. For the supported upgrade
+path, projects need to make sure that new release code and its supported
+configuration works on the distros supported by the upgrade-supported previous
+releases of OpenStack.
+
+With `SLURP <https://governance.openstack.org/tc/resolutions/20220210-release-cadence-adjustment.html>`_
+upgrade support, along with release to release (N-1 -> N) upgrade we need
+to take care of skip-level upgrade also.
+
+#. non-SLURP release N (N-1 -> N upgrade)
+
+   Every non-SLURP release need to support N-1 -> N upgrade. In this upgrade
+   path, N (non-SLURP release) code and supported configuration should continue
+   working on distro versions supported and defined by the N-1 release
+   testing runtime.
+
+#. SLURP release N (N-1 -> N and N-2 -> N upgrade)
+
+   Every SLURP release need to support N-1 -> N as well as the N-2 -> N
+   upgrade. In this upgrade path, N (SLURP release) code and supported
+   configuration should continue working on distro versions supported and
+   defined by the N-1 as well as the N-2 release testing runtime.
+
+For smooth upgrade, try to avoid changes in dependencies which are not present
+in old release supported distro. In case any project has to do it due to its
+new features dependencies then communicate it explicitly in upgrade status
+tool, release notes etc. Also, make it clear if project existing functionality
+can still work fine on the old distro version but the new features require
+the new distro version will not be available until the distro version is
+upgraded.
+
+Extending support and testing for release with the newer disto version
+``````````````````````````````````````````````````````````````````````
+
+When any release bumps the minimum supported distro platform or python version,
+the following things need to be addressed:
+
+#. Support the old distro version also along with the new version. Basically two
+   distro versions will be supported in testing runtime for a release changing
+   the distro version. Explicitly mention about old PTI support in testing
+   runtime.
+
+   * For old distro version testing, we do not need to run all jobs on that
+     version, instead running a single tempest job in project gate on old distro
+     version will be sufficient.
+
+   * Make sure to keep the old distro default python version in testing runtime.
+
+   Example: :ref:`2023.1 cycle testing runtime <2023-1-testing-runtime>`
+
+#. Do not add the new PTI (distro, python new version) to the non-SLURP testing
+   runtime. We may need to remove the old PTI which was additionally supported
+   for smooth upgrade in previous release. If we have to add the new PTI in
+   the non-SLURP testing runtime then we need to make sure the old distro
+   supported in the immediately previous SLURP release is also tested in the
+   next SLURP release. This will make sure that the old and the new distros are
+   tested between SLURP releases also.
+
+The verification can be done via integrated testing and upgrade testing for example,
+tempest, grenade or similar upgrade testing jobs running with default and supported
+configuration.
+
 The officially tested runtimes for each cycle can be found here:
 
 .. toctree::

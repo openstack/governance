@@ -1,3 +1,5 @@
+.. _2023-1-testing-runtime:
+
 ==========================
 Tested Runtimes for 2023.1
 ==========================
@@ -7,6 +9,15 @@ distribution <pti-linux-distros>` versions are:
 
 * Ubuntu 22.04
 * Debian 11
+
+Additional testing for smooth upgrade
+-------------------------------------
+
+In this release, we are adding the testing of Ubuntu new version 22.04.
+For smooth upgrade, we will continue the minimum testing for previously
+supported Ubuntu version in this release.
+
+* Ubuntu 20.04
 
 Best Effort
 -----------
@@ -27,8 +38,12 @@ when all projects have migrated to a later version.
 Based on the criteria above, all Python-based projects must target and test
 against, at a minimum:
 
-* Python 3.9 (available as default in Debian 11)
+* Python 3.8 (available as default in Ubuntu 20.04)
 * Python 3.10 (available as default in Ubuntu 22.04)
+
+Other than the above Python versions, Debian 11 has Python 3.9 as default which
+we are not suggesting to run unit tests. We assume that anything that works on
+Python 3.8 and 3.10 will also work on 3.9.
 
 More details on Python requirements can be found in :ref:`pti-python`.
 
