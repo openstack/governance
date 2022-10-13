@@ -1689,6 +1689,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-watcher-dashboard
+    charm-zuul-jobs:
+      release-management: external
+      repos:
+        - openstack/charm-zuul-jobs
 openstack-chef:
   ptl:
     name: Lance Albertson
