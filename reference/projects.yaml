@@ -3056,13 +3056,14 @@ zaqar:
         - openstack/zaqar-ui
 zun:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Hongbin Lu
+    irc: hongbin
+    email: hongbin034@gmail.com
   appointed:
     - xena
     - yoga
     - zed
+    - 2023.1
   irc-channel: openstack-zun
   service: Containers service
   mission: >
