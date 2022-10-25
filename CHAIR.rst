@@ -43,8 +43,13 @@ Each Cycle
 * Check on the active goals and, if there is no active goal, then ensure
   that 2 TC members are signed up to manage the goal selection process.
 * Ensure PTI and testing runtime update is done.
-* After milestone-1, ensure the next release naming is started.
-* During R-9 week, check "PTL and TC elections".
+* Election planning
+  * During PTG or at the start of cycle, select a TC member who is not standing
+    for [re]election to serve as election liaison and point of contact for
+    the next election.
+  * Encourage the TC members that are not standing for [re]election to help
+    as the election officials.
+  * During R-9 week, check "PTL and TC elections".
   * Ensure PTL and TC election schedule is prepared as per schedule mentioned
     in https://governance.openstack.org/tc/reference/charter.html
   * Encourage the TC members that are not standing for [re]election to help
@@ -112,7 +117,7 @@ Joint Leadership Meetings
 =========================
 
 The TC, Board of Directors, and leaders of other Foundation projects meet
-at the Summit to discuss topics of interest to the entire group.
+at the Summit or virtually to discuss topics of interest to the entire group.
 
 Work with the Chair of the Board to build the agenda for the meeting,
 using input from the TC about topics that we want/need to discuss.
