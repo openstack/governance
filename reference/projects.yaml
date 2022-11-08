@@ -1489,6 +1489,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-manila-netapp
+    charm-manila-infinidat:
+      release-management: external
+      repos:
+        - openstack/charm-manila-infinidat
     charm-masakari:
       release-management: external
       repos:
