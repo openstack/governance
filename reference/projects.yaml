@@ -1185,6 +1185,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-cinder-ibm-storwize-svc
+    charm-cinder-infinidat:
+      release-management: external
+      repos:
+        - openstack/charm-cinder-infinidat
     charm-cloudkitty:
       release-management: external
       repos:
