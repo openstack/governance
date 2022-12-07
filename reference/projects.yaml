@@ -1253,6 +1253,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-horizon-k8s
+    charm-infinidat-tools:
+      release-management: external
+      repos:
+        - openstack/charm-infinidat-tools
     charm-interface-barbican-secrets:
       release-management: external
       repos:
