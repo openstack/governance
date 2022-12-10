@@ -102,4 +102,5 @@ Current Emerging Technology Projects
 
 Current Inactive Projects
 -------------------------
-<TC will manage the inactive projects here>.
+
+* Adjutant (Added in 2023.1 cycle)
