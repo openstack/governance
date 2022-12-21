@@ -79,12 +79,12 @@ the release milestone-2 of the cycle they entered the ``inactive`` state to
 become ``active`` again and to be released in that cycle.  In the case where an
 ``inactive`` project does not become ``active`` before the release milestone-2,
 there will be no release of it proposed by the release team in that cycle.
-In such a case it is up to the project itself to get CI working and propose
-a release if that is needed. It may be required like that for example
-when there will be some security fixes or compatibility fixes merged in the
+In such a case, it is up to the project itself to get CI working and propose
+a release if that is needed. It may be required in some cases for example,
+when there will be security fixes or compatibility fixes merged in the
 project. In the case where an ``inactive`` project still does not become
 ``active`` during the next cycle after the cycle they entered the ``inactive``
-state, TC will discuss with the team if project will be retired before the
+state, the TC will discuss with the team if project will be retired before the
 release milestone-2 of the cycle. In such a case there will be no new releases
 of that project.
 
