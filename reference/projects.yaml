@@ -763,6 +763,9 @@ mistral:
         - openstack/mistral-extra
   liaisons:
     release:
+      - name: Axel Vanzaghi
+        irc: avanzaghi
+        email: axel.vanzaghi@axellink.fr
       - name: Renat Akhmerov
         irc: rakhmerov
         email: renat.akhmerov@gmail.com
