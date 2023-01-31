@@ -36,14 +36,17 @@ Each Cycle
 ==========
 
 * Manage the initiative tracker
+
   * Prepare release tracker etherpad (During PTG), Example:
     https://etherpad.opendev.org/p/tc-xena-tracker
   * Update the etherpad link in the wiki
     https://wiki.openstack.org/wiki/Technical_Committee_Tracker
+
 * Check on the active goals and, if there is no active goal, then ensure
   that 2 TC members are signed up to manage the goal selection process.
 * Ensure PTI and testing runtime update is done.
 * Election planning
+
   * During PTG or at the start of cycle, select a TC member who is not standing
     for [re]election to serve as election liaison and point of contact for
     the next election.
@@ -52,8 +55,6 @@ Each Cycle
   * During R-9 week, check "PTL and TC elections".
   * Ensure PTL and TC election schedule is prepared as per schedule mentioned
     in https://governance.openstack.org/tc/reference/charter.html
-  * Encourage the TC members that are not standing for [re]election to help
-    as the election officials.
 
 Around TC elections
 ===================
