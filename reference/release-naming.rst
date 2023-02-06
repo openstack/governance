@@ -39,9 +39,58 @@ in some places.
 * Testing tools: Use release number which is more aligned with what stable
   branches are going to use.
 
+* Release notes: For the version of specific project use combined OpenStack release and
+  the project's version, like "OpenStack 2023.1 (Nova 27.X.Y)".
+  There should not be OpenStack release name, like "Antelope" included in the version.
+
+  Examples:
+
+  * OpenStack 2023.1 (Nova 27.0.0)
+  * OpenStack 2023.2 (Neutron 23.0.0)
+
+  In case when there is no need to give version of the specific project, but
+  just version of OpenStack, there should be only version number used, like
+  "OpenStack 2023.1".
+
+  Examples:
+
+  * OpenStack 2023.2
+  * OpenStack 2024.1
+
+* Project specific documentation: use release name combined with version of the project.
+
+  Examples:
+
+  * OpenStack 2023.1 (Nova 27.0.0)
+  * OpenStack 2023.2 (Neutron 23.0.0)
+
+* OpenStack documentation: in cases when there is need to just give version of OpenStack
+  without specific project's version, use version number without marketing name.
+
+  Examples:
+
+  * OpenStack 2023.2
+  * OpenStack 2024.1
+
 * Release page/tooling/milestone name: The release team can choose either to
   continue using the release name or use number for release tooling and
   milestone name.
+
+* Marketing materials: Release name is still there to be used in any marketing or
+  other non-technical materials. Version number can be also used in such cases.
+
+* Other, non-marketing related places: use release name combined with version of
+  the project unless there is clear reason to use OpenStack release name instead.
+
+  Examples:
+
+  * OpenStack 2023.1 (Nova 27.0.0)
+  * OpenStack 2023.2 (Neutron 23.0.0)
+
+  Or if there is no specific project version needed:
+
+  * OpenStack 2023.2
+  * OpenStack 2024.1
 
 Release Name
 ------------
