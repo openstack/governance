@@ -1,0 +1,63 @@
+.. _2023-2-testing-runtime:
+
+==========================
+Tested Runtimes for 2023.2
+==========================
+
+At the start of the 2023.2 development cycle, the current :ref:`LTS or stable
+distribution <pti-linux-distros>` versions are:
+
+* Ubuntu 22.04
+* Debian 11
+
+Additional testing for smooth upgrade
+-------------------------------------
+
+None
+
+Best Effort
+-----------
+
+This distribution list is the best effort to test them in OpenStack CI/CD. These may not be part of integrated testing and may be tested periodically only.
+
+* CentOS Stream 9
+* Rocky Linux 9
+
+Python Runtimes for 2023.2
+==========================
+
+It is the :doc:`policy <../../resolutions/20181024-python-update-process>` that
+each OpenStack release cycle will target the latest available version of
+Python; default Python runtimes on the distributions listed above; and versions
+used in integration tests at the start of the cycle, at least until the point
+when all projects have migrated to a later version.
+
+Based on the criteria above, all Python-based projects must target and test
+against, at a minimum:
+
+* Python 3.9 (available as default in Debian 11)
+* Python 3.10 (available as default in Ubuntu 22.04)
+
+More details on Python requirements can be found in :ref:`pti-python`.
+
+Node.js Runtime for 2023.2
+==========================
+
+Based on the available and supported versions of Node.js (in either our :ref:`LTS or stable
+distributions <pti-linux-distros>` or in external source) all JavaScript testing should target:
+
+Ref: https://nodejs.org/en/about/releases/
+
+* Node.js 18
+
+More details on Javascript requirements can be found in :ref:`pti-javascript`.
+
+Golang Runtime for 2023.2
+=========================
+
+At this time, there are still frequent releases of Go with a wide variety of
+distribution packaged versions. Given the current state of Go support and the
+number of projects within OpenStack using Go, no formal version declaration is
+being made at this time.
+
+More details on Go requirements can be found in :ref:`pti-golang`.
