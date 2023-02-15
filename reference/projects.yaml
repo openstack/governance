@@ -387,6 +387,9 @@ horizon:
     xstatic-angular-bootstrap:
       repos:
         - openstack/xstatic-angular-bootstrap
+    xstatic-angular-fileupload:
+      repos:
+        - openstack/xstatic-angular-fileupload
     xstatic-angular-gettext:
       repos:
         - openstack/xstatic-angular-gettext
