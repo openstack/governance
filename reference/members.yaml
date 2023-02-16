@@ -3,7 +3,7 @@
   email: gmann@ghanshyammann.com
   memberid: 6461
   date: September 2022
-  role: chair
+  role: null
 
 - name: Dan Smith
   irc: dansmith
@@ -26,37 +26,37 @@
   date: September 2022
   role: null
 
-- name: Arne Wiebalck
-  irc: arne_wiebalck
-  email: Arne.Wiebalck@cern.ch
-  memberid: 18496
-  date: February 2022
-  role: null
-
 - name: Sławek Kapłoński
   irc: slaweq
   email: skaplons@redhat.com
   memberid: 19377
-  date: February 2022
-  role: vice-chair
+  date: February 2023
+  role: null
 
 - name: Kristi Nikolla
   irc: knikolla
   email: knikolla@bu.edu
   memberid: 35202
-  date: February 2022
+  date: February 2023
   role: null
 
 - name: Brian Rosmaita
   irc: rosmaita
   email: rosmaita.fossdev@gmail.com
   memberid: 1778
-  date: February 2022
+  date: February 2023
   role: null
 
 - name: Amy Marrich
   irc: spotz
   email: amy@demarco.com
   memberid: 33567
-  date: February 2022
+  date: February 2023
+  role: null
+
+- name: James Page
+  irc: jamespage
+  email: james.page@ubuntu.com
+  memberid: 3097
+  date: February 2023
   role: null
