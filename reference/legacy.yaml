@@ -349,6 +349,10 @@ horizon:
       retired-on: 2019-03-24
       repos:
         - openstack/xstatic-angular-ui-router
+    xstatic-font-awesome:
+      retired-on: 2023-02-15
+      repos:
+        - openstack/xstatic-font-awesome
     xstatic-vis:
       retired-on: 2019-03-24
       repos:

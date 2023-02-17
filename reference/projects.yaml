@@ -423,9 +423,6 @@ horizon:
     xstatic-filesaver:
       repos:
         - openstack/xstatic-filesaver
-    xstatic-font-awesome:
-      repos:
-        - openstack/xstatic-font-awesome
     xstatic-jasmine:
       repos:
         - openstack/xstatic-jasmine
