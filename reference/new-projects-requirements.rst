@@ -116,8 +116,15 @@ Management team through the openstack/releases repository. Official projects
 are expected to relinquish direct tagging (and branch creation) rights in
 their Gerrit ACLs once their release jobs are functional.
 
+Projects published on PyPI must ensure that the "openstackci" user does
+have owner permissions to the project. At the same time it must be the only
+user in the maintainers list. Permissions for all other maintainers should be revoked
+once the project has joined OpenStack. Please check `Project Creators Guide`_
+for details on configuring this behavior.
+
 Official project teams are expected to participate in all `elections`_ held
 after the team is accepted as official, regardless of how recently the team
 leadership may have been established.
 
 .. _elections: https://docs.openstack.org/project-team-guide/open-community.html#technical-committee-and-ptl-elections
+.. _Project Creators Guide: https://docs.opendev.org/opendev/infra-manual/latest/creators.html#give-opendev-exclusive-permission-to-publish-releases
