@@ -185,7 +185,8 @@ It must also get a +1 from the future PTL, listed in the same change.
 
 A project team may change their opt-in status only once a release cycle, to
 ensure that the elections officials have clarity on which project teams need PTL
-elections.  All requests should be received by week R-5 of the release calendar.
+elections. All requests should be merged before the election nominations start
+otherwise request will be postponed to the next cycle.
 
 The distributed leadership model is only requested explicitly.  If a project
 team has no candidate for PTL, the TC will still evaluate the future of the
