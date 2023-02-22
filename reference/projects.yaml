@@ -359,6 +359,15 @@ heat:
     tosca-parser:
       repos:
         - openstack/tosca-parser
+    os-apply-config:
+      repos:
+        - openstack/os-apply-config
+    os-collect-config:
+      repos:
+        - openstack/os-collect-config
+    os-refresh-config:
+      repos:
+        - openstack/os-refresh-config
 horizon:
   ptl:
     name: Vishal Manchanda
@@ -2783,18 +2792,9 @@ tripleo:
     openstack-virtual-baremetal:
       repos:
         - openstack/openstack-virtual-baremetal
-    os-apply-config:
-      repos:
-        - openstack/os-apply-config
-    os-collect-config:
-      repos:
-        - openstack/os-collect-config
     os-net-config:
       repos:
         - openstack/os-net-config
-    os-refresh-config:
-      repos:
-        - openstack/os-refresh-config
     paunch:
       deprecated: victoria
       release-management: deprecated
