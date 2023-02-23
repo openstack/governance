@@ -28,7 +28,7 @@ Current Investment Opportunities
 .. toctree::
     :maxdepth: 2
 
-    2022/index
+    2023/index
 
 Previous Investment Opportunities
 ---------------------------------
@@ -42,6 +42,7 @@ Previous Investment Opportunities
 .. toctree::
     :maxdepth: 2
 
+    2022/index
     2021/index
     2020/index
     2019/index
