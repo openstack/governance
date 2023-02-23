@@ -109,5 +109,5 @@ Contact
 
 Join the OpenStack Infra or TC IRC channel (``openstack-infra`` on `OFTC
 <https://www.oftc.net/>`_) or (``openstack-tc`` on `OFTC <https://www.oftc.net/>`_).
-You can also reach out through the openstack-discuss mail list at list.openstack.org
-if you would like to get involved.
+You can also reach out through the `OpenStack Community Mailing List
+<mailto:openstack-discuss@lists.openstack.org>`_ if you would like to get involved.
