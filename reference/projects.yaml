@@ -310,9 +310,9 @@ glance:
         - openstack/python-glanceclient
 heat:
   ptl:
-    name: Brendan Shephard
-    irc: No nick supplied
-    email: bshephar@redhat.com
+    name: Takashi Kajinami
+    irc: tkajinam
+    email: tkajinam@redhat.com
   appointed:
     - yoga
     - zed
@@ -704,9 +704,9 @@ manila:
         - openstack/python-manilaclient
 masakari:
   ptl:
-    name: Radosław Piliszek
-    irc: yoctozepto
-    email: radoslaw.piliszek@gmail.com
+    name: sam sue
+    irc: No nick supplied
+    email: suzhengwei@inspur.com
   appointed:
     - yoga
     - zed
@@ -791,9 +791,9 @@ mistral:
         email: renat.akhmerov@gmail.com
 monasca:
   ptl:
-    name: Martin Chacon Piza
-    irc: chaconpiza
-    email: martin@chaconpiza.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - xena
     - yoga
@@ -1056,9 +1056,9 @@ octavia:
         - openstack/octavia-lib
 OpenStack Charms:
   ptl:
-    name: Alex Kavanagh
-    irc: tinwood
-    email: alex.kavanagh@canonical.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - wallaby
     - zed
@@ -1810,9 +1810,9 @@ openstack-chef:
         - openstack/openstack-chef-specs
 OpenStack-Helm:
   ptl:
-    name: Gage Hugo
-    irc: gagehugo
-    email: gagehugo@gmail.com
+    name: Vladimir Kozhukalov
+    irc: No nick supplied
+    email: kozhukalov@gmail.com
   service: Helm charts for OpenStack services
   irc-channel: openstack-helm
   mission: >
@@ -2396,9 +2396,9 @@ Quality Assurance:
         - openstack/whitebox-tempest-plugin
 rally:
   ptl:
-    name: Andrey Kurilin
-    irc: andreykurilin
-    email: andr.kurilin@gmail.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - victoria
   irc-channel: openstack-rally
@@ -2499,9 +2499,9 @@ requirements:
         email: tony@bakeyournoodle.com
 sahara:
   ptl:
-    name: Fossen Qiu
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: qiujunting@inspur.com
+    email: example@example.org
   appointed:
     - yoga
     - 2023.1
@@ -2554,9 +2554,9 @@ sahara:
         - openstack/sahara-specs
 senlin:
   ptl:
-    name: XueFeng Liu
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: liu.xuefeng1@zte.com.cn
+    email: example@example.org
   appointed:
     - wallaby
     - xena
@@ -2652,9 +2652,9 @@ storlets:
         - openstack/storlets
 swift:
   ptl:
-    name: Tim Burke
-    irc: timburke
-    email: tburke@nvidia.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - victoria
     - 2023.1
@@ -2748,9 +2748,9 @@ Telemetry:
         - openstack/telemetry-tempest-plugin
 tripleo:
   ptl:
-    name: Rabi Mishra
-    irc: ramishra
-    email: ramishra@redhat.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: tripleo
   service: Deployment service
   mission: >
@@ -2900,7 +2900,7 @@ trove:
         - openstack/trove-tempest-plugin
 venus:
   ptl:
-    name: Lianfa Zhang 
+    name: Eric Zhang
     irc: No nick supplied
     email: zhanglf01@inspur.com
   appointed:
@@ -2934,9 +2934,9 @@ venus:
         - openstack/venus-tempest-plugin
 vitrage:
   ptl:
-    name: Eyal Bar-Ilan
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: eyalb1@gmail.com
+    email: example@example.org
   irc-channel: openstack-vitrage
   service: RCA (Root Cause Analysis) service
   mission: >
@@ -3011,9 +3011,9 @@ watcher:
         - openstack/watcher-dashboard
 winstackers:
   ptl:
-    name: Lucian Petrut
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: lpetrut@cloudbasesolutions.com
+    email: example@example.org
   appointed:
     - stein
     - ussuri
@@ -3040,7 +3040,7 @@ winstackers:
 zaqar:
   ptl:
     name: Hao Wang
-    irc: No nick supplied
+    irc: wanghao
     email: sxmatch1986@gmail.com
   appointed:
     - train
