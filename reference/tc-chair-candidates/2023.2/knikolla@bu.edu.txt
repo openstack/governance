@@ -1,0 +1,29 @@
+Hi all,
+
+Please consider my candidacy for the role of chair of the OpenStack Technical
+Committee.
+
+I believe that the primary role of the TC chair is to facilitate,
+encourage, and promote discussions and a welcoming environment for these
+discussions to take place in. It is also that of a bridge, between the
+community and the TC, between the TC and the board, and between
+individual TC members.
+
+In achieving those goals, the biggest toolset at their disposal is that of
+time, streamlining the processes and minutae and making sure discussions
+have a place and enough time, making the best use of these limited
+resources to progress towards a decision/solution.
+
+I want to create an environment that is not dominated by a few voices.
+
+In pursuit of these goals, I’m ready to ask the stupid questions, hear the
+crazy ideas, and attempt to create bridges where there aren't, or reinforce
+them where there are. In particular with the board, community and other
+open source projects.
+
+If I am elected, not all of my attempts are going to succeed, and I'm okay
+with accepting where I've failed, but please bear with me as I learn the ropes
+and give me a chance to grow into these big shoes.
+
+Thank you for you consideration,
+Kristi Nikolla
