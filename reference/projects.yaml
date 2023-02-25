@@ -2272,9 +2272,6 @@ Puppet OpenStack:
     puppet-swift:
       repos:
         - openstack/puppet-swift
-    puppet-tacker:
-      repos:
-        - openstack/puppet-tacker
     puppet-tempest:
       repos:
         - openstack/puppet-tempest
