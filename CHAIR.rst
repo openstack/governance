@@ -91,7 +91,8 @@ After the election results are confirmed, the outgoing chair should:
 
 After the chair status is confirmed, the incoming chair should:
 
-* propose a patch to appoint a vice chair
+* Recruit a volunteer for vice chair and either propose or have them
+  propose a patch nominating themselves for vice chair.
 
 Governance Repo Patches
 =======================
