@@ -344,7 +344,7 @@ OR
 
     policy.DocumentedRuleDefault(
         name='os_compute_api:servers:show',
-        check_str='rule: admin or rule:project_reader',
+        check_str='rule:admin_api or rule:project_reader',
         description='Show a server',
         operations=[
             {
@@ -405,7 +405,7 @@ OR
 
     policy.DocumentedRuleDefault(
         name='os_compute_api:servers:create',
-        check_str='rule_admin or rule:project_member',
+        check_str='rule:admin_api or rule:project_member',
         description='Create a server',
         operations=[
             {
