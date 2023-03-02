@@ -1426,6 +1426,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-ironic-conductor
+    charm-ironic-dashboard:
+      release-management: external
+      repos:
+        - openstack/charm-ironic-dashboard
     charm-keystone:
       release-management: external
       repos:
