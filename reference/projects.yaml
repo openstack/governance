@@ -350,15 +350,9 @@ heat:
       release-management: none
       repos:
         - openstack/heat-templates
-    heat-translator:
-      repos:
-        - openstack/heat-translator
     python-heatclient:
       repos:
         - openstack/python-heatclient
-    tosca-parser:
-      repos:
-        - openstack/tosca-parser
     os-apply-config:
       repos:
         - openstack/os-apply-config
@@ -2714,6 +2708,12 @@ tacker:
       release-management: none
       repos:
         - openstack/tacker-specs
+    heat-translator:
+      repos:
+        - openstack/heat-translator
+    tosca-parser:
+      repos:
+        - openstack/tosca-parser
 Telemetry:
   ptl:
     name: Matthias Runge
