@@ -85,7 +85,8 @@ Contact
 -------
 
 To contribute to this initiative, contact the `champion`_ of this goal or the
-`OpenStack Technical Committee`_.
+`OpenStack Technical Committee`_ or reach out through the `OpenStack Community
+Mailing List <mailto:openstack-discuss@lists.openstack.org>`_.
 
 .. _community-wide rbac goal: https://governance.openstack.org/tc/goals/selected/consistent-and-secure-rbac.html
 .. _champion: https://governance.openstack.org/tc/goals/selected/consistent-and-secure-rbac.html#champion

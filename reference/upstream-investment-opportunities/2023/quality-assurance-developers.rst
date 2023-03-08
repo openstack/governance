@@ -99,8 +99,8 @@ Contact
 -------
 
 Join the OpenStack QA IRC channel (``#openstack-qa`` on `OFTC IRC`_), email
-the openstack-discuss mailing list at list.openstack.org, or contact the `QA
-PTL`_ directly if you would like to get involved.
+the `OpenStack Community Mailing List <mailto:openstack-discuss@lists.openstack.org>`_,
+or contact the `QA PTL`_ directly if you would like to get involved.
 
 
 .. _`Zuul project`: https://zuul-ci.org
