@@ -2551,14 +2551,15 @@ sahara:
         - openstack/sahara-specs
 senlin:
   ptl:
-    name: APPOINTMENT NEEDED
+    name: XueFeng Liu
     irc: No nick supplied
-    email: example@example.org
+    email: liu.xuefeng1@zte.com.cn
   appointed:
     - wallaby
     - xena
     - zed
     - 2023.1
+    - 2023.2
   irc-channel: senlin
   service: Clustering service
   mission: >
