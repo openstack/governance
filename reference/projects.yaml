@@ -2752,10 +2752,26 @@ Telemetry:
       repos:
         - openstack/telemetry-tempest-plugin
 tripleo:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+  leadership_type: distributed
+  liaisons:
+    release:
+      - name: James Slagle
+        irc: slagle
+        email: jslagle@redhat.com
+      - name: Takashi Kajinami
+        irc: tkajinam
+        email: tkajinam@redhat.com
+    tact-sig:
+      - name: James Slagle
+        irc: slagle
+        email: jslagle@redhat.com
+      - name: Ronelle Landy
+        irc: rlandy
+        email: rlandy@redhat.com
+    security:
+      - name: James Slagle
+        irc: slagle
+        email: jslagle@redhat.com
   irc-channel: tripleo
   service: Deployment service
   mission: >
