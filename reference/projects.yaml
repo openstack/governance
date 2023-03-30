@@ -732,7 +732,10 @@ masakari:
       repos:
         - openstack/masakari-dashboard
 mistral:
-  leadership_type: distributed
+  ptl:
+    name: Axel Vanzaghi
+    irc: avanzaghi
+    email: axel.vanzaghi@axellink.fr
   irc-channel: openstack-mistral
   service: Workflow service
   mission: >
@@ -764,28 +767,6 @@ mistral:
     mistral-extra:
       repos:
         - openstack/mistral-extra
-  liaisons:
-    release:
-      - name: Axel Vanzaghi
-        irc: avanzaghi
-        email: axel.vanzaghi@axellink.fr
-      - name: Renat Akhmerov
-        irc: rakhmerov
-        email: renat.akhmerov@gmail.com
-      - name: Adriano Petrich
-        irc: apetrich
-        email: apetrich@redhat.com
-    tact-sig:
-      - name: Adriano Petrich
-        irc: apetrich
-        email: apetrich@redhat.com
-      - name: Oleg Ovcharuk
-        irc: vgvoleg
-        email: vgvoleg@gmail.com
-    security:
-      - name: Renat Akhmerov
-        irc: rakhmerov
-        email: renat.akhmerov@gmail.com
 monasca:
   ptl:
     name: APPOINTMENT NEEDED
