@@ -965,6 +965,9 @@ neutron:
     tap-as-a-service:
       repos:
         - openstack/tap-as-a-service
+    ovn-bgp-agent:
+      repos:
+        - openstack/ovn-bgp-agent
 nova:
   ptl:
     name: Sylvain Bauza
