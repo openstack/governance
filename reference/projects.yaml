@@ -1607,6 +1607,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-openstack-dashboard
+    charm-openstack-hypervisor:
+      release-management: external
+      repos:
+        - openstack/charm-openstack-hypervisor
     charm-openstack-loadbalancer:
       release-management: external
       repos:
