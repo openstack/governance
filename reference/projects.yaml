@@ -543,7 +543,7 @@ ironic:
         - openstack/virtualbmc
     virtualpdu:
       repos:
-        - x/virtualpdu
+        - openstack/virtualpdu
 keystone:
   ptl:
     name: Dave Wilde
