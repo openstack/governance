@@ -2263,9 +2263,6 @@ Puppet OpenStack:
     puppet-qdr:
       repos:
         - openstack/puppet-qdr
-    puppet-rally:
-      repos:
-        - openstack/puppet-rally
     puppet-sahara:
       repos:
         - openstack/puppet-sahara
