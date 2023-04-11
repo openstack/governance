@@ -2344,9 +2344,6 @@ Quality Assurance:
     os-testr:
       repos:
         - openstack/os-testr
-    patrole:
-      repos:
-        - openstack/patrole
     qa-specs:
       release-management: none
       repos:

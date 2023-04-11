@@ -1886,6 +1886,10 @@ Quality Assurance:
       retired-on: 2022-04-05
       repos:
         - openstack/openstack-health
+    patrole:
+      retired-on: 2023-04-10
+      repos:
+        - openstack/patrole
 
 RefStack:
   ptl:
