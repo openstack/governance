@@ -802,8 +802,11 @@ of project-member.
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Any service that implemented `Phase 1`_ in 2023.1 and enabled
-   ``enforce_secure_defaults`` in 2023.2 release can remove deprecated policies
-   used to implement `Phase 1`_.
+   ``enforce_secure_defaults`` in the 2023.2 release (non SLURP) needs to
+   keep the old deprecated policies for the 2024.1 release (SLURP) also and
+   can remove them after that. The Idea here is to have at least one SLURP
+   release between the point when the new defaults are enabled and the
+   old policies are removed.
 
 #. Remove the oslo.policy ``enforce_scope`` config flag
 
