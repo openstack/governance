@@ -1139,14 +1139,6 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-cinder-ceph
-    charm-cinder-ceph-k8s:
-      release-management: external
-      repos:
-        - openstack/charm-cinder-ceph-k8s
-    charm-cinder-k8s:
-      release-management: external
-      repos:
-        - openstack/charm-cinder-k8s
     charm-cinder-lvm:
       release-management: external
       repos:
@@ -1211,18 +1203,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-placement
-    charm-placement-k8s:
-      release-management: external
-      repos:
-        - openstack/charm-placement-k8s
     charm-glance:
       release-management: external
       repos:
         - openstack/charm-glance
-    charm-glance-k8s:
-      release-management: external
-      repos:
-        - openstack/charm-glance-k8s
     charm-glance-simplestreams-sync:
       release-management: external
       repos:
@@ -1243,10 +1227,6 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-heat
-    charm-horizon-k8s:
-      release-management: external
-      repos:
-        - openstack/charm-horizon-k8s
     charm-infinidat-tools:
       release-management: external
       repos:
@@ -1419,10 +1399,6 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-keystone
-    charm-keystone-k8s:
-      release-management: external
-      repos:
-        - openstack/charm-keystone-k8s
     charm-keystone-kerberos:
       release-management: external
       repos:
@@ -1555,10 +1531,6 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-neutron-gateway
-    charm-neutron-k8s:
-      release-management: external
-      repos:
-        - openstack/charm-neutron-k8s
     charm-neutron-openvswitch:
       release-management: external
       repos:
@@ -1583,10 +1555,6 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-nova-compute-proxy
-    charm-nova-k8s:
-      release-management: external
-      repos:
-        - openstack/charm-nova-k8s
     charm-octavia:
       release-management: external
       repos:
@@ -1607,10 +1575,6 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-openstack-dashboard
-    charm-openstack-hypervisor:
-      release-management: external
-      repos:
-        - openstack/charm-openstack-hypervisor
     charm-openstack-loadbalancer:
       release-management: external
       repos:
@@ -1639,10 +1603,6 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-ops-openstack
-    charm-ops-sunbeam:
-      release-management: external
-      repos:
-        - openstack/charm-ops-sunbeam
     charm-pacemaker-remote:
       release-management: external
       repos:
@@ -2639,6 +2599,34 @@ storlets:
     storlets:
       repos:
         - openstack/storlets
+sunbeam:
+  ptl:
+    name: James Page
+    irc: jamespage
+    email: james.page@ubuntu.com
+  irc-channel: openstack-sunbeam
+  service: Deployment and operational tooling for OpenStack
+  mission: >
+    To enable deployment and operation of OpenStack at any scale - from a
+    single node to small scale edge deployments and large scale clouds
+    containing many 1000's of hypervisors - leveraging a hybrid deployment
+    model using Juju to manage both Kubernetes components and machine based
+    components through the use of charms.
+  url: https://opendev.org/openstack/charm-ops-sunbeam
+  deliverables:
+    sunbeam-charms:
+      release-management: external
+      repos:
+        - openstack/charm-cinder-ceph-k8s
+        - openstack/charm-cinder-k8s
+        - openstack/charm-glance-k8s
+        - openstack/charm-horizon-k8s
+        - openstack/charm-keystone-k8s
+        - openstack/charm-neutron-k8s
+        - openstack/charm-nova-k8s
+        - openstack/charm-openstack-hypervisor
+        - openstack/charm-ops-sunbeam
+        - openstack/charm-placement-k8s
 swift:
   ptl:
     name: Tim Burke
