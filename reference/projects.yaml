@@ -7,7 +7,7 @@ adjutant:
     - victoria
     - yoga
     - zed
-    - 2023.1
+    - '2023.1'
   irc-channel: openstack-adjutant
   service: Operations Processes automation
   mission: >
@@ -553,7 +553,7 @@ keystone:
     irc: d34dh0r53
     email: dwilde@redhat.com
   appointed:
-    - 2023.1
+    - '2023.1'
   irc-channel: openstack-keystone
   service: Identity service
   mission: >
@@ -710,7 +710,7 @@ masakari:
   appointed:
     - yoga
     - zed
-    - 2023.1
+    - '2023.1'
   irc-channel: openstack-masakari
   service: Instances High Availability service
   mission: >
@@ -1046,8 +1046,8 @@ OpenStack Charms:
   appointed:
     - wallaby
     - zed
-    - 2023.1
-    - 2023.2
+    - '2023.1'
+    - '2023.2'
   irc-channel: openstack-charms
   service: Juju Charms for deployment of OpenStack
   mission: >
@@ -2488,7 +2488,7 @@ sahara:
     email: example@example.org
   appointed:
     - yoga
-    - 2023.1
+    - '2023.1'
   irc-channel: openstack-sahara
   service: Data Processing service
   mission: >
@@ -2545,8 +2545,8 @@ senlin:
     - wallaby
     - xena
     - zed
-    - 2023.1
-    - 2023.2
+    - '2023.1'
+    - '2023.2'
   irc-channel: senlin
   service: Clustering service
   mission: >
@@ -2642,8 +2642,8 @@ swift:
     email: tburke@nvidia.com
   appointed:
     - victoria
-    - 2023.1
-    - 2023.2
+    - '2023.1'
+    - '2023.2'
   irc-channel: openstack-swift
   service: Object Storage service
   mission: >
@@ -2913,7 +2913,7 @@ venus:
     email: zhanglf01@inspur.com
   appointed:
     - zed
-    - 2023.1
+    - '2023.1'
   irc-channel: openstack-venus
   service: Log management service
   mission: >
@@ -3089,7 +3089,7 @@ zun:
     - xena
     - yoga
     - zed
-    - 2023.1
+    - '2023.1'
   irc-channel: openstack-zun
   service: Containers service
   mission: >
