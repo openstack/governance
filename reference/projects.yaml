@@ -2998,9 +2998,11 @@ venus:
         - openstack/venus-tempest-plugin
 vitrage:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Dmitriy Rabotyagov
+    irc: noonedeadpunk
+    email: noonedeadpunk@gmail.com
+  appointed:
+    - '2023.2'
   irc-channel: openstack-vitrage
   service: RCA (Root Cause Analysis) service
   mission: >
