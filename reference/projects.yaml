@@ -2487,12 +2487,13 @@ requirements:
         email: tony@bakeyournoodle.com
 sahara:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Jerry Zhou
+    irc: jerryz
+    email: zhouxinyong@inspur.com
   appointed:
     - yoga
     - '2023.1'
+    - '2023.2'
   irc-channel: openstack-sahara
   service: Data Processing service
   mission: >
