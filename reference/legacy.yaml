@@ -1856,6 +1856,10 @@ Puppet OpenStack:
       repos:
         - openstack/puppet-tacker
       retired-on: 2023-02-05
+    puppet-rally:
+      repos:
+        - openstack/puppet-rally
+      retired-on: 2023-04-11
 
 qinling:
   retired-on: 2020-11-27
