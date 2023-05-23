@@ -912,6 +912,8 @@ neutron:
       repos:
         - openstack/networking-midonet
     networking-odl:
+      deprecated: "2023.2"
+      release-management: deprecated
       repos:
         - openstack/networking-odl
     networking-ovn:
