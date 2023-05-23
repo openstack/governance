@@ -772,13 +772,14 @@ mistral:
         - openstack/mistral-extra
 monasca:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Hasan Acar
+    irc: hasanacar
+    email: hasan.acar@tubitak.gov.tr
   appointed:
     - xena
     - yoga
     - zed
+    - '2023.2'
   irc-channel: openstack-monasca
   service: Monitoring
   mission: >
