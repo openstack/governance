@@ -32,6 +32,14 @@ project:
 Tools and approaches vary by language, please choose which language is
 relevant to you.
 
+.. note::
+
+  Project Testing Interface defines a *minimal* list of platforms that
+  projects should test against. Having a more extensive set of tested platforms
+  (for instance, keeping older platforms that are not yet EOL) is both allowed
+  and encouraged.
+
+
 .. _pti-documentation:
 
 Documentation

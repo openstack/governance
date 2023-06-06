@@ -26,10 +26,18 @@ tree:
 - ``sphinx-build -W -b html doc/source doc/build``
 
 The Python 3 version may change from cycle to cycle. Projects should
-target the following, replacing `3x` with the :ref:`tested Python 3 runtimes
-<pti-tested-runtimes>` for the current development cycle:
+target the following, extending supported Python `3x` with the
+:ref:`tested Python 3 runtimes <pti-tested-runtimes>` for the current
+development cycle:
 
 - ``tox -e py3x``
+
+Projects should avoid removing Python versions that have not reached
+`End Of Life <https://devguide.python.org/versions/>`_ without a solid
+reason. It is recommended to keep compatability with older Python versions
+as long as possible.
+While CI coverage of Python versions that are not mentioned in PTI can be reduced,
+such reduction is not mandatory.
 
 Projects that are translated should also support:
 
