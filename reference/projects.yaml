@@ -1771,7 +1771,7 @@ openstack-chef:
 OpenStack-Helm:
   ptl:
     name: Vladimir Kozhukalov
-    irc: No nick supplied
+    irc: kozhukalov
     email: kozhukalov@gmail.com
   service: Helm charts for OpenStack services
   irc-channel: openstack-helm
