@@ -1150,6 +1150,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-cinder-netapp
+    charm-cinder-nfs:
+      release-management: external
+      repos:
+        - openstack/charm-cinder-nfs
     charm-cinder-nimblestorage:
       release-management: external
       repos:
