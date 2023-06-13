@@ -38,6 +38,18 @@ against, at a minimum:
 * Python 3.9 (available as default in Debian 11)
 * Python 3.10 (available as default in Ubuntu 22.04)
 
+All Python-based projects must additionally target and test
+against following Python versions:
+
+* Python 3.8 (available as default in Ubuntu 20.04)
+
+Minimal requirement on testing jobs against python versions above is to
+ensure language compatibility, for example by running unit tests. Having more
+extensive testing is allowed.
+
+Other projects are highly appreciated to keep testing against the Python
+versions above whenever possible.
+
 More details on Python requirements can be found in :ref:`pti-python`.
 
 Node.js Runtime for 2023.2
