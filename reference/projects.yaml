@@ -2617,7 +2617,7 @@ sunbeam:
     containing many 1000's of hypervisors - leveraging a hybrid deployment
     model using Juju to manage both Kubernetes components and machine based
     components through the use of charms.
-  url: https://opendev.org/openstack/charm-ops-sunbeam
+  url: https://opendev.org/openstack/charm-ops-sunbeam/src/branch/main/README.rst
   deliverables:
     sunbeam-charms:
       release-management: external
