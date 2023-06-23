@@ -3068,34 +3068,6 @@ watcher:
     watcher-dashboard:
       repos:
         - openstack/watcher-dashboard
-winstackers:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
-  appointed:
-    - stein
-    - ussuri
-  service: Libraries for Windows support
-  irc-channel: openstack-hyper-v
-  mission: >
-    To facilitate the integration of Hyper-V, Windows and related components
-    into OpenStack. This includes producing projects containing Hyper-V /
-    Windows related code, commonly used in OpenStack scenarios.
-  url: https://wiki.openstack.org/wiki/Os-win
-  deliverables:
-    os-win:
-      repos:
-        - openstack/os-win
-    oswin-tempest-plugin:
-      repos:
-        - openstack/oswin-tempest-plugin
-    networking-hyperv:
-      repos:
-        - openstack/networking-hyperv
-    compute-hyperv:
-      repos:
-        - openstack/compute-hyperv
 zaqar:
   ptl:
     name: Hao Wang

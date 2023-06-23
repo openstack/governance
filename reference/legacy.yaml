@@ -2278,3 +2278,21 @@ trove:
       repos:
         - openstack/trove-integration
 
+winstackers:
+  retired-on: 2023-06-23
+  service: Libraries for Windows support
+  irc-channel: openstack-hyper-v
+  url: https://wiki.openstack.org/wiki/Os-win
+  deliverables:
+    os-win:
+      repos:
+        - openstack/os-win
+    oswin-tempest-plugin:
+      repos:
+        - openstack/oswin-tempest-plugin
+    networking-hyperv:
+      repos:
+        - openstack/networking-hyperv
+    compute-hyperv:
+      repos:
+        - openstack/compute-hyperv
