@@ -2622,10 +2622,13 @@ sunbeam:
     sunbeam-charms:
       release-management: external
       repos:
+        - openstack/charm-aodh-k8s
         - openstack/charm-barbican-k8s
+        - openstack/charm-ceilometer-k8s
         - openstack/charm-cinder-ceph-k8s
         - openstack/charm-cinder-k8s
         - openstack/charm-glance-k8s
+        - openstack/charm-gnocchi-k8s
         - openstack/charm-heat-k8s
         - openstack/charm-horizon-k8s
         - openstack/charm-keystone-k8s
