@@ -1,0 +1,71 @@
+.. _2024-1-testing-runtime:
+
+==========================
+Tested Runtimes for 2024.1
+==========================
+
+At the start of the 2024.1 development cycle, the current :ref:`LTS or stable
+distribution <pti-linux-distros>` versions are:
+
+* Ubuntu 22.04
+* Debian 12
+
+Additional testing for smooth upgrade
+-------------------------------------
+
+* Debian 11 (Supported in previous SLURP release 2023.1)
+
+Best Effort
+-----------
+
+This distribution list is the best effort to test them in OpenStack CI/CD. These may not be part of integrated testing and may be tested periodically only.
+
+* CentOS Stream 9
+* Rocky Linux 9
+
+Python Runtimes for 2024.1
+==========================
+
+It is the :doc:`policy <../../resolutions/20181024-python-update-process>` that
+each OpenStack release cycle will target the latest available version of
+Python; default Python runtimes on the distributions listed above; and versions
+used in integration tests at the start of the cycle, at least until the point
+when all projects have migrated to a later version.
+
+Also, as per the Python testing requirements defined in :ref:`pti-python`,
+projects should avoid removing Python version that have not reacohed EOL
+without a solid reason.
+
+Based on the criteria above, all Python-based projects must target and test
+against, at a minimum:
+
+* Python 3.8 (available as default in Ubuntu 20.04)
+
+  Minimal requirement on testing jobs against Python versions above is to
+  ensure language compatibility, for example by running unit tests. Having
+  more extensive testing is allowed.
+
+* Python 3.9 (available as default in Debian 11)
+
+  In previous cycle testing, we have not seen much incompatible change between
+  Python3.8 and Python3.10, it is ok to skip running the Python3.9 testing
+  jobs assuming that anything that works on Python 3.8 and 3.10 will also
+  work on 3.9.
+
+* Python 3.10 (available as default in Ubuntu 22.04)
+
+* Python 3.11 (available as default in Debian 12)
+
+More details on Python requirements can be found in :ref:`pti-python`.
+
+Node.js Runtime for 2024.1
+==========================
+
+Based on the available and supported versions of Node.js (in either our :ref:`LTS or stable
+distributions <pti-linux-distros>` or in external source) all JavaScript testing should target:
+
+Ref: https://nodejs.org/en/about/releases/
+
+* Node.js 18
+
+More details on Javascript requirements can be found in :ref:`pti-javascript`.
