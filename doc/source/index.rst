@@ -89,5 +89,5 @@ of those responses.
    :maxdepth: 2
    :titlesonly:
 
-   user_survey/analysis-12-2019
-   user_survey/analysis-04-2022
+   user_survey/analysis-2019
+   user_survey/analysis-2021
