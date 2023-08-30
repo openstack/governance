@@ -45,7 +45,7 @@ todo_include_todos = True
 
 # Define shorthand roles for making links to common destinations.
 extlinks = {
-    'repo': ('https://opendev.org/%s', ''),
+    'repo': ('https://opendev.org/%s', None),
 }
 
 # Add any paths that contain templates here, relative to this directory.
