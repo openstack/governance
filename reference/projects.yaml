@@ -653,6 +653,9 @@ magnum:
     magnum:
       repos:
         - openstack/magnum
+    magnum-capi-helm-charts:
+      repos:
+        - openstack/magnum-capi-helm-charts
     magnum-specs:
       release-management: none
       repos:
