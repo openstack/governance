@@ -10,7 +10,7 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
-"""Show information about extra ATCs managed in this repo.
+"""Show information about extra ACs managed in this repo.
 """
 
 import operator
@@ -27,8 +27,8 @@ import projects
 LOG = logging.getLogger(__name__)
 
 
-class ExtraATCsTable(tables.Table):
-    """List the extra ATCs for the given project.
+class ExtraACsTable(tables.Table):
+    """List the extra ACs for the given project.
     """
 
     HEADERS = ('Full Name', 'Email', 'Expires In')
@@ -47,7 +47,7 @@ class ExtraATCsTable(tables.Table):
         project = self.options.get('project')
         if not project:
             error = self.state_machine.reporter.error(
-                'No project set for extra-atcs table',
+                'No project set for extra-acs table',
                 nodes.literal_block(self.block_text, self.block_text),
                 line=self.lineno)
             return [error]
@@ -71,9 +71,9 @@ class ExtraATCsTable(tables.Table):
             team_data = all_teams[project]
         except KeyError:
             raise ValueError('No project %r in projects.yaml' % (project,))
-        project_members = team_data.get('extra-atcs', [])
+        project_members = team_data.get('extra-acs', [])
 
-        # If we have no extra ATCs, skip building the table.
+        # If we have no extra ACs, skip building the table.
         if not project_members:
             return []
 
@@ -139,5 +139,5 @@ _PATTERN = re.compile(r'(?P<project>.+):\s+(?P<name>.+)\s\((?P<email>.+)\)\s\[(?
 
 
 def setup(app):
-    LOG.info('loading atcs extension')
-    app.add_directive('extraatcstable', ExtraATCsTable)
+    LOG.info('loading acs extension')
+    app.add_directive('extraacstable', ExtraACsTable)

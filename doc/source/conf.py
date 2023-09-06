@@ -33,7 +33,7 @@ extensions = [
     'sphinx.ext.extlinks',
     'sphinx.ext.todo',
     'openstackdocstheme',
-    'atcs',
+    'acs',
     'members',
     'projects',
     'teams',

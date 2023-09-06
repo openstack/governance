@@ -112,7 +112,7 @@ additionalProperties:
               - external
           deprecated:
             type: "string"
-    extra-atcs:
+    extra-acs:
       type: "array"
       items:
         type: "object"

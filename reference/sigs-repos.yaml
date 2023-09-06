@@ -17,7 +17,7 @@ Hardware Vendor:
   - repo: openstack/sushy-oem-idrac
 i18n:
   - repo: openstack/i18n
-    extra-atcs:
+    extra-acs:
     - name: suhartono
       email: cloudsuhartono@gmail.com
       expires-in: Feb 2022

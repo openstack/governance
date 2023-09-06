@@ -123,10 +123,10 @@ def _team_to_rst(name, info):
     else:
         yield 'None'
     yield ''
-    if info.get('extra-atcs', []):
-        yield 'Extra ATCs'
+    if info.get('extra-acs', []):
+        yield 'Extra ACs'
         yield '-----------'
-        yield '.. extraatcstable::'
+        yield '.. extraacstable::'
         yield '   :project: %s' % name
         yield ''
 

@@ -114,24 +114,24 @@ def main():
     exit_code = 0
 
     for project_name, project_data in sorted(projects.items()):
-        atcs = project_data.get('extra-atcs', [])
-        for atc in atcs:
+        acs = project_data.get('extra-acs', [])
+        for ac in acs:
             try:
-                member = lookup_member(atc['email'])
+                member = lookup_member(ac['email'])
             except Exception as e:
-                print('ERROR: {}: Could not validate ATC {}: {}'.format(
-                    project_name, atc, e))
+                print('ERROR: {}: Could not validate AC {}: {}'.format(
+                    project_name, ac, e))
             else:
                 if not member:
-                    # NOTE(mnaser): The ATC membership checks were not
-                    #               enforced for all ATCs expiring before
+                    # NOTE(mnaser): The AC membership checks were not
+                    #               enforced for all ACs expiring before
                     #               January 2020.  This should be removed
                     #               after January 2020.
-                    expires = datetime.strptime(atc['expires-in'], "%B %Y")
+                    expires = datetime.strptime(ac['expires-in'], "%B %Y")
                     if expires <= datetime(2020, 1, 1):
-                        msg = 'Skipping {} from validation'.format(atc)
+                        msg = 'Skipping {} from validation'.format(ac)
                     else:
-                        msg = 'Unable to find membership: {}'.format(atc)
+                        msg = 'Unable to find membership: {}'.format(ac)
                         exit_code = 1
 
                     print('{}: {}'.format(project_name, msg))
