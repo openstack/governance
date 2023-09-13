@@ -2726,6 +2726,9 @@ Telemetry:
     python-aodhclient:
       repos:
         - openstack/python-aodhclient
+    python-observabilityclient:
+      repos:
+        - openstack/python-observabilityclient
     telemetry-tempest-plugin:
       repos:
         - openstack/telemetry-tempest-plugin
