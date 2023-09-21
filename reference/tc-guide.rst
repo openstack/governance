@@ -25,9 +25,8 @@ a chair. If you are interested in being chair (see also ``CHAIR.rst`` in the
 governance repository), you can nominate yourself as per the
 :doc:`TC Chair Election process </reference/tc-chair-elections>`.
 
-After the chair is designated, candidates for vice chair should propose their
-candidacies within the week after the chair is seated. The candidate needs to
-propose a patch to add a vice-chair in ``reference/members.yaml``.
+After the chair is designated, vice-chair will be appointed as per the
+chair responsibility defined in ``CHAIR.rst`` in the governance repository.
 
 General Info
 ------------
