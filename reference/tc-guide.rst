@@ -22,9 +22,8 @@ This looks something like this: https://review.opendev.org/#/c/680356/
 
 After the patch is merged, the TC is officially seated and we need to select
 a chair. If you are interested in being chair (see also ``CHAIR.rst`` in the
-governance repository) and propose a patch on ``reference/members.yaml`` to
-change your ``role:`` to ``chair``. These chair nomination patches should be
-proposed within two weeks of the new members being seated.
+governance repository), you can nominate yourself as per the
+:doc:`TC Chair Election process </reference/tc-chair-elections>`.
 
 After the chair is designated, candidates for vice chair should propose their
 candidacies within the week after the chair is seated. The candidate needs to
