@@ -172,9 +172,9 @@ cloudkitty:
         - openstack/cloudkitty-tempest-plugin
 cyborg:
   ptl:
-    name: alex song
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: songwenping@inspur.com
+    email: example@example.org
   appointed:
     - ussuri
     - xena
@@ -230,9 +230,9 @@ designate:
         - openstack/python-designateclient
 ec2-api:
   ptl:
-    name: Andrey Pavlov
-    irc: andrey-mp
-    email: andrey.mp@gmail.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-ec2api
   service: EC2 API compatibility layer for OpenStack
   mission: >
@@ -739,9 +739,9 @@ masakari:
         - openstack/masakari-dashboard
 mistral:
   ptl:
-    name: Axel Vanzaghi
-    irc: avanzaghi
-    email: axel.vanzaghi@axellink.fr
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-mistral
   service: Workflow service
   mission: >
@@ -775,9 +775,9 @@ mistral:
         - openstack/mistral-extra
 monasca:
   ptl:
-    name: Hasan Acar
-    irc: hasanacar
-    email: hasan.acar@tubitak.gov.tr
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - xena
     - yoga
@@ -897,9 +897,9 @@ murano:
         - openstack/murano-tempest-plugin
 neutron:
   ptl:
-    name: Rodolfo Alonso Hernandez
-    irc: ralonsoh
-    email: ralonsoh@redhat.com
+    name: Brian Haley
+    irc: haleyb
+    email: haleyb.dev@gmail.com
   irc-channel: openstack-neutron
   service: Networking service
   mission: >
@@ -1679,9 +1679,9 @@ OpenStack Charms:
         - openstack/charm-zuul-jobs
 openstack-chef:
   ptl:
-    name: Lance Albertson
-    irc: Ramereth
-    email: lance@osuosl.org
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - zed
   service: Chef cookbooks for life cycle management
@@ -2350,9 +2350,9 @@ Quality Assurance:
         - openstack/whitebox-tempest-plugin
 rally:
   ptl:
-    name: Andriy Kurilin
-    irc: andreykurilin
-    email: andr.kurilin@gmail.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - victoria
     - '2023.2'
@@ -2454,9 +2454,9 @@ requirements:
         email: tony@bakeyournoodle.com
 sahara:
   ptl:
-    name: Jerry Zhou
-    irc: jerryz
-    email: zhouxinyong@inspur.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - yoga
     - '2023.1'
@@ -2510,9 +2510,9 @@ sahara:
         - openstack/sahara-specs
 senlin:
   ptl:
-    name: XueFeng Liu
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: liu.xuefeng1@zte.com.cn
+    email: example@example.org
   appointed:
     - wallaby
     - xena
@@ -2540,9 +2540,9 @@ senlin:
         - openstack/senlin-tempest-plugin
 skyline:
   ptl:
-    name: Wenxiang Wu
-    irc: wu_wenxiang
-    email: wu.wenxiang@99cloud.net
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - zed
   irc-channel: openstack-skyline
@@ -2609,9 +2609,9 @@ storlets:
         - openstack/storlets
 sunbeam:
   ptl:
-    name: James Page
-    irc: jamespage
-    email: james.page@ubuntu.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-sunbeam
   service: Deployment and operational tooling for OpenStack
   mission: >
@@ -2713,9 +2713,9 @@ tacker:
         - openstack/tosca-parser
 Telemetry:
   ptl:
-    name: Matthias Runge
-    irc: mrunge
-    email: mrunge@redhat.com
+    name: Erno Kuvaja
+    irc: jokke_
+    email: jokke@usr.fi
   appointed:
     - train
   irc-channel: openstack-telemetry
@@ -2939,9 +2939,9 @@ tripleo:
         - openstack/tripleo-ha-utils
 trove:
   ptl:
-    name: wu chunyang
-    irc: wuchunyang
-    email: wchy1001@gmail.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - stein
     - zed
@@ -2971,9 +2971,9 @@ trove:
         - openstack/trove-tempest-plugin
 venus:
   ptl:
-    name: Eric Zhang
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: zhanglf01@inspur.com
+    email: example@example.org
   appointed:
     - zed
     - '2023.1'

@@ -2,28 +2,21 @@
     irc: gmann
     email: gmann@ghanshyammann.com
     memberid: 6461
-    date: September 2022
+    date: September 2023
     role: null
 
   - name: Dan Smith
     irc: dansmith
     email: dms@danplanet.com
     memberid: 5478
-    date: September 2022
+    date: September 2023
     role: null
 
   - name: Jay Faulkner
     irc: JayF
     email: jay@jvf.cc
     memberid: 2052
-    date: September 2022
-    role: vice-chair
-
-  - name: Dmitriy Rabotyagov
-    irc: noonedeadpunk
-    email: noonedeadpunk@gmail.com
-    memberid: 107517
-    date: September 2022
+    date: September 2023
     role: null
 
   - name: Sławek Kapłoński
@@ -38,7 +31,7 @@
     email: knikolla@bu.edu
     memberid: 35202
     date: February 2023
-    role: chair
+    role: null
 
   - name: Brian Rosmaita
     irc: rosmaita
@@ -59,4 +52,11 @@
     email: james.page@ubuntu.com
     memberid: 3097
     date: February 2023
+    role: null
+
+  - name: Jens Harbott
+    irc: frickler
+    email: frickler@offenerstapel.de
+    memberid: 25759
+    date: September 2023
     role: null
