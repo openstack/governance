@@ -2609,9 +2609,11 @@ storlets:
         - openstack/storlets
 sunbeam:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: James Page
+    irc: jamespage
+    email: james.page@canonical.com
+  appointed:
+    - "2024.1"
   irc-channel: openstack-sunbeam
   service: Deployment and operational tooling for OpenStack
   mission: >
