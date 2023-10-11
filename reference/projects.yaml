@@ -2540,11 +2540,12 @@ senlin:
         - openstack/senlin-tempest-plugin
 skyline:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Wenxiang Wu
+    irc: wu_wenxiang
+    email: wu.wenxiang@99cloud.net
   appointed:
     - zed
+    - "2024.1"
   irc-channel: openstack-skyline
   service: Dashboard
   mission: >
