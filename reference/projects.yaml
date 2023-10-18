@@ -312,7 +312,7 @@ heat:
   ptl:
     name: Takashi Kajinami
     irc: tkajinam
-    email: tkajinam@redhat.com
+    email: kajinamit@oss.nttdata.com
   appointed:
     - yoga
     - zed
@@ -2130,7 +2130,7 @@ Puppet OpenStack:
   ptl:
     name: Takashi Kajinami
     irc: tkajinam
-    email: tkajinam@redhat.com
+    email: kajinamit@oss.nttdata.com
   appointed:
     - yoga
   irc-channel: puppet-openstack
@@ -2595,7 +2595,7 @@ storlets:
   ptl:
     name: Takashi Kajinami
     irc: tkajinam
-    email: tkajinam@redhat.com
+    email: kajinamit@oss.nttdata.com
   irc-channel: openstack-storlets
   service: Compute inside Object Storage service
   mission: >
@@ -2760,7 +2760,7 @@ tripleo:
         email: jslagle@redhat.com
       - name: Takashi Kajinami
         irc: tkajinam
-        email: tkajinam@redhat.com
+        email: kajinamit@oss.nttdata.com
     tact-sig:
       - name: James Slagle
         irc: slagle
