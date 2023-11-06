@@ -2646,6 +2646,7 @@ sunbeam:
         - openstack/charm-openstack-hypervisor
         - openstack/charm-ops-sunbeam
         - openstack/charm-placement-k8s
+        - openstack/sunbeam-charms
 swift:
   ptl:
     name: Tim Burke
