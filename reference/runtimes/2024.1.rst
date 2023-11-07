@@ -49,21 +49,21 @@ against, at a minimum:
   testing jobs against Python versions above is to ensure language compatibility,
   having more extensive testing is allowed.
 
-* Python 3.9 (available as default in Debian 11 and Centos 9 stream)
+* Python 3.9 (available as default in Debian 11 and Centos 9 Stream)
   This will become the future minimum supported version for 2024.2
-  When Python 3.8 is EOL. This will remain the minimum supported version
+  when Python 3.8 is EOL. This will remain the minimum supported version
   until 2025.2 when Python 3.9 is EOL.
 
   In previous cycle testing, we have not seen much incompatible change between
-  Python3.8 and Python3.10, it is okay to skip running the Python3.9 testing
+  Python 3.8 and Python 3.10, it is okay to skip running the Python 3.9 testing
   jobs assuming that anything that works on Python 3.8 and 3.11 coverage is
   provided.
 
 
 * Python 3.10 (available as default in Ubuntu 22.04)
 
-  In previous cycle testing, we have not seen much incompatible change between
-  Python3.8 and Python3.10, it is okay to skip running the Python3.10 testing
+  In previous cycle testing, we have not seen many incompatible changes between
+  Python 3.8 and Python 3.10. It is okay to skip running the Python 3.10 testing
   jobs assuming that anything that works on Python 3.8 and 3.11 will also
   work on 3.10.
 
