@@ -5,35 +5,8 @@ Analysis of 2021 User Survey Feedback
 Introduction
 ------------
 
-The OpenStack Technical Committee (TC) added questions to the User Survey for
-the first time in 2019.  The following questions were asked by the TC:
-
-* How do you upgrade your version of OpenStack?
-* Once on a given release, do you use stable branches for bug-fix upgrades?
-* To which projects does your organization contribute maintenance resources,
-  such as patches for bug fixes and code reviews on master or stable
-  branches?
-* How do members of your organization contribute to OpenStack?
-* What prevents you or your organization from contributing more maintenance
-  resources, or makes contributing difficult?
-* Other ways to participate?
-
-The intention of these questions was to understand how users are maintaining
-their OpenStack clouds and how they are interacting with the community.  In the
-case that they weren't currently interacting with the community it was hoped
-that the questions would spark thoughts on how they could participate in the
-future.
-
-After the initial 2019 User Survey, the Technical Committee reviewed the
-responses and decided that we would keep the questions the same for future
-surveys with one exception.  It was decided that the 'Other ways to participate'
-question should be changed to a free-form field that could be completed in the case
-that 'other' was selected in response to the question: 'How do members of
-your organization contribute to OpenStack'.
-
-This round of analysis will look at the results from the 2021 User Survey in
-comparison to the
-`2019 results  <https://governance.openstack.org/tc/user_survey/analysis-12-2019.html>`_.
+This is an analysis of the results from the 2021 User Survey in comparison to 
+the `2019 results  <https://governance.openstack.org/tc/user_survey/analysis-2019.html>`_.
 The 2019 User Survey result analysis is being used for comparison as
 the TC did not perform an analysis of the 2020 User Survey results.
 As with the previous analysis, the analysis will  be performed on a per-question
