@@ -221,5 +221,7 @@ The officially tested runtimes for each cycle can be found here:
 .. toctree::
    :maxdepth: 1
    :glob:
+   :reversed:
 
-   runtimes/*
+   runtimes/[stuvwxyz]*
+   runtimes/2*
