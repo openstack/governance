@@ -18,14 +18,30 @@ Hardware Vendor:
 i18n:
   - repo: openstack/i18n
     extra-acs:
-    - name: suhartono
-      email: cloudsuhartono@gmail.com
-      expires-in: Feb 2022
-      comment: suhartono (id)
-    - name: Alberto Molina Coballes
-      email: alb.molina@gmail.com
-      expires-in: Feb 2022
-      comment: albertomolina (es)
+    - name: Álvaro Soto
+      email: alsotoes@gmail.com
+      expires-in: October 2024
+      comment: alsotoes (es-MX)
+    - name: Akihiro Motoki
+      email: amotoki@gmail.com
+      expires-in: October 2024
+      comment: amotoki (ja)
+    - name: Andi Chandler
+      email: andi@gowling.com
+      expires-in: October 2024
+      comment: andibing (en-GB)
+    - name: Lee Jongwon
+      email: tothebinaryworld@gmail.com
+      expires-in: October 2024
+      comment: chasetherabbit (ko-KR)
+    - name: Ian Y. Choi
+      email: ianyrchoi@gmail.com
+      expires-in: October 2024
+      comment: ianychoi (ko-KR)
+    - name: Kuemjong Jeong
+      email: goldenbell.jeong@gmail.com
+      expires-in: October 2024
+      comment: jkj1 (ko-KR)
 Large Scale:
   - repo: openstack/large-scale
 Meta:
