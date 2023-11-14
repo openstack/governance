@@ -2,6 +2,12 @@
  2023-07-24 Unmaintained status replaces Extended Maintenance
 =============================================================
 
+.. note::
+   This resolution has been amended by
+   :doc:`20231114-amend-unmaintained-status`.
+   See :ref:`the amendment note<20231114-amend-note>`, below.
+
+
 Motivation
 ----------
 
@@ -53,6 +59,12 @@ around the responsibilities and defining clearer processes.
 
 Unmaintained branches
 ---------------------
+
+.. _20231114-amend-note:
+
+.. note::
+   The fourth point below has been amended by a subsequent resolution.
+   See :doc:`20231114-amend-unmaintained-status` for details.
 
 - The phase of Extended Maintenance for a branch is renamed to Unmaintained.
 - Only SLURP releases are eligible for having an Unmaintained branch.
