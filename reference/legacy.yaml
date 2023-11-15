@@ -772,6 +772,25 @@ OpenStackSalt:
       tags:
         - release:independent
 
+OpenStackSDK:
+  ptl:
+    name: Artem Goncharov
+    irc: gtema
+    email: artem.goncharov@gmail.com
+  irc-channel: openstack-sdks
+  service: Multi-cloud Python SDK and CLI for End Users
+  mission: >
+    To provide a unified multi-cloud aware Python SDK and CLI for the OpenStack
+    REST API exposing both the full set of low-level APIs as well as curated higher
+    level business logic.
+  url: https://docs.openstack.org/openstacksdk/latest/
+  partial: yes
+  deliverables:
+    js-openstack-lib:
+      retired-on: 2023-10-19
+      repos:
+        - openstack/js-openstack-lib
+
 OpenStack UX:
   ptl:
     name: Piet Kruithof
