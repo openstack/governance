@@ -172,12 +172,13 @@ cloudkitty:
         - openstack/cloudkitty-tempest-plugin
 cyborg:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Alex Song
+    irc: songwenping
+    email: songwenping@inspur.com
   appointed:
     - ussuri
     - xena
+    - "2024.1"
   irc-channel: openstack-cyborg
   service: Accelerator Life Cycle Management
   mission: >
