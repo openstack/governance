@@ -103,3 +103,4 @@ Current Emerging Technology Projects
 Current Inactive Projects
 -------------------------
 * Monasca (inactive since 2024.1 cycle)
+* Sahara (inactive since 2024.1 cycle)
