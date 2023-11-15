@@ -83,8 +83,8 @@ Node.js Runtime for 2024.1
 Based on the available and supported versions of Node.js (in either our :ref:`LTS or stable
 distributions <pti-linux-distros>` or an external source) all JavaScript testing should target:
 
-Ref: https://nodejs.org/en/about/releases/
+Ref: https://nodejs.org/en/about/previous-releases/
 
-* Node.js 18
+* Node.js 20
 
 More details on Javascript requirements can be found in :ref:`pti-javascript`.
