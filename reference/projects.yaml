@@ -2971,12 +2971,13 @@ trove:
         - openstack/trove-tempest-plugin
 venus:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Eric Zhang
+    irc: ericzhang
+    email: zhanglf01@inspur.com
   appointed:
     - zed
     - '2023.1'
+    - '2024.1'
   irc-channel: openstack-venus
   service: Log management service
   mission: >
