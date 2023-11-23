@@ -2757,9 +2757,6 @@ tripleo:
       - name: James Slagle
         irc: slagle
         email: jslagle@redhat.com
-      - name: Takashi Kajinami
-        irc: tkajinam
-        email: kajinamit@oss.nttdata.com
     tact-sig:
       - name: James Slagle
         irc: slagle
