@@ -2347,12 +2347,13 @@ Quality Assurance:
         - openstack/whitebox-tempest-plugin
 rally:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Andriy Kurilin
+    irc: andreykurilin
+    email: andr.kurilin@gmail.com
   appointed:
     - victoria
     - '2023.2'
+    - '2024.1'
   irc-channel: openstack-rally
   service: Benchmark service
   mission: >
