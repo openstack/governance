@@ -105,3 +105,4 @@ Current Inactive Projects
 * Monasca (inactive since 2024.1 cycle)
 * Sahara (inactive since 2024.1 cycle)
 * Freezer (inactive since 2024.1 cycle)
+* Solum (inactive since 2024.1 cycle)
