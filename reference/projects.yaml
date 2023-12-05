@@ -740,9 +740,11 @@ masakari:
         - openstack/masakari-dashboard
 mistral:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Axel Vanzaghi
+    irc: avanzaghi
+    email: avanzaghi.osf@axellink.fr
+  appointed:
+    - '2024.1'
   irc-channel: openstack-mistral
   service: Workflow service
   mission: >
