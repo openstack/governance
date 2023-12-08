@@ -54,13 +54,10 @@ TC Chair
 
 After each election, the TC proposes one of its members to act as the TC chair.
 In case of multiple candidates, it may use a single-winner election method to
-decide the result (see below). The Board of Directors has the authority to
-approve the TC chair and shall approve the proposition, unless otherwise
-justified by its bylaws. The TC chair is responsible for making sure meetings
+decide the result (see below). The TC chair is responsible for making sure meetings
 are held according to the rules described below, and for communicating the
 decisions taken during those meetings to the Board of Directors and the
-OpenStack community at large. It may be revoked under the conditions described
-in the Foundation bylaws.
+OpenStack community at large.
 
 The elected TC chair will seek another TC member to volunteer to serve
 as vice chair until the next chair election is held. The chair may delegate some regular
@@ -69,8 +66,12 @@ chair is responsible for being ready to step in and fulfill the
 responsibilities of the TC chair when the elected chair is not
 available.
 
+The term of the TC chair will continue until death, resignation, or removal,
+the election of the next TC chair, or the TC chair ceases to be a TC member.
 The current TC chair is in charge of the next TC chair election, and
 stays in charge of TC chair duties until the next TC chair is elected.
+The TC chair may be removed by the affirmative vote of at least half of
+the total number of TC members.
 
 Meeting
 =======
@@ -245,11 +246,15 @@ Candidates for TC seats
 =======================
 
 Any Foundation individual member can propose their candidacy for an
-available, directly-elected TC seat. `Appendix 4 of the Foundation
-Bylaws
-<http://www.openstack.org/legal/technical-committee-member-policy/>`__
-describe eligibility requirements and membership constraints for the
-Technical Committee.
+available, directly-elected TC seat.
+
+TC diversity requirement
+========================
+
+No more than half of the TC Members shall be Affiliated as defined in the
+`Foundation bylaws <https://openinfra.dev/legal/bylaws>`__. A violation of
+the diversity requirement may be temporarily waived until the next TC election
+by a vote of two thirds of the TC Members.
 
 Number of seats to elect
 ========================
