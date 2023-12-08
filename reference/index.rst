@@ -34,5 +34,6 @@ Reference documents which need to be revised over time.
    OpenStack-name-in-external-services
    election-exceptions
    tc-chair-elections
+   tc-chair-responsibilities
    emerging-technology-and-inactive-projects
    runtimes/index
