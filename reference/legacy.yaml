@@ -2275,6 +2275,35 @@ solum:
       repos:
         - openstack/solum-tempest-plugin
 
+sunbeam:
+  irc-channel: openstack-sunbeam
+  service: Deployment and operational tooling for OpenStack
+  url: https://opendev.org/openstack/sunbeam-charms/src/branch/main/ops-sunbeam/README.rst
+  partial: yes
+  deliverables:
+    sunbeam-charms:
+      retired-on: 2024-04-30
+      repos:
+        - openstack/charm-aodh-k8s
+        - openstack/charm-barbican-k8s
+        - openstack/charm-ceilometer-k8s
+        - openstack/charm-cinder-ceph-k8s
+        - openstack/charm-cinder-k8s
+        - openstack/charm-designate-bind-k8s
+        - openstack/charm-designate-k8s
+        - openstack/charm-glance-k8s
+        - openstack/charm-gnocchi-k8s
+        - openstack/charm-heat-k8s
+        - openstack/charm-horizon-k8s
+        - openstack/charm-keystone-k8s
+        - openstack/charm-magnum-k8s
+        - openstack/charm-neutron-k8s
+        - openstack/charm-nova-k8s
+        - openstack/charm-octavia-k8s
+        - openstack/charm-openstack-hypervisor
+        - openstack/charm-ops-sunbeam
+        - openstack/charm-placement-k8s
+
 swift:
   irc-channel: openstack-swift
   service: Object Storage service

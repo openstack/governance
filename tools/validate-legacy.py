@@ -20,7 +20,7 @@ import sys
 import requests
 import yaml
 
-FILES_URL = "https://opendev.org/api/v1/repos/{}/git/trees/master"
+FILES_URL = "https://opendev.org/api/v1/repos/{}/git/trees/{}"
 IGNORED_REPOS = [
     # NOTE(gmann): The below list represent the prefix of the old uncleaned
     # retired repositories. They are too many and not worth to cleanup now.
@@ -105,14 +105,26 @@ for team_name, team_data in legacy_projects.items():
                 print(msg)
                 continue
 
-            url = FILES_URL.format(repo)
-            files = requests.get(url).json()
-            file_names = sorted([f['path'] for f in files['tree']])
+            for branch in ('master', 'main'):
+                try:
+                    url = FILES_URL.format(repo, branch)
+                    files = requests.get(url).json()
+                    file_names = sorted([f['path'] for f in files['tree']])
+                    break
+                except KeyError:
+                    # Try with next default branch!
+                    pass
 
-            if file_names != ['.gitreview', 'README.rst']:
-                msg = '{} is not properly retired, files: {}.'.format(
-                    repo, file_names)
-                print(msg)
+            try:
+                for file in file_names:
+                    if file not in ('.gitreview', 'README.rst'):
+                        msg = '{} is not properly retired, files: {}.'.format(
+                            repo, file_names)
+                        print(msg)
+                        errors += 1
+                        continue
+            except NameError:
+                print("Unable to detect default branch")
                 errors += 1
                 continue
 
