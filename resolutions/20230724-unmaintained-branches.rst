@@ -60,21 +60,21 @@ around the responsibilities and defining clearer processes.
 Unmaintained branches
 ---------------------
 
-.. _20231114-amend-note:
-
-.. note::
-   The fourth point below has been amended by a subsequent resolution.
-   See :doc:`20231114-amend-unmaintained-status` for details.
-
 - The phase of Extended Maintenance for a branch is renamed to Unmaintained.
 - Only SLURP releases are eligible for having an Unmaintained branch.
 - After a branch is no longer officially maintained, the branch is deleted and
   a new branch is created under unmaintained/<branch_name>, for example,
   unmaintained/train.
+
+  .. _20231114-amend-note:
 - A group in Gerrit called "<project>-unmaintained-core", for example,
   "keystone-unmaintained-core", will have +2/+W on these branches. This group
   may be bootstrapped with or include the "<project>-stable-maint" group, but
   membership is separate from that group.
+
+  .. note::
+     The above point has been amended by a subsequent resolution.
+     See :doc:`20231114-amend-unmaintained-status` for details.
 - The PTL, or a new Unmaintained branch liaison assigned by the PTL, makes
   group membership decisions for "<project>-unmaintained-core".
 - No SLURP branches may be skipped between the oldest unmaintained branch
@@ -108,6 +108,6 @@ The first SLURP release is 2023.1.
 - The unmaintained branch liaison needs to opt-in to keep more than 3 branches
   (instead of 1 for SLURP) and the guidelines for opt-in described above apply.
 
-[0]. https://governance.openstack.org/tc/resolutions/20180301-stable-branch-eol.html
-[1]. https://lists.openstack.org/pipermail/openstack-discuss/2023-June/033980.html
-[2]. https://etherpad.opendev.org/p/vancouver-2023-em
+| [0]. https://governance.openstack.org/tc/resolutions/20180301-stable-branch-eol.html
+| [1]. https://lists.openstack.org/pipermail/openstack-discuss/2023-June/033980.html
+| [2]. https://etherpad.opendev.org/p/vancouver-2023-em
