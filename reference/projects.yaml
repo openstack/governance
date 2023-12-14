@@ -2946,12 +2946,13 @@ tripleo:
         - openstack/tripleo-ha-utils
 trove:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Wu Chunyang
+    irc: wuchunyang
+    email: wchy1001@gmail.com
   appointed:
     - stein
     - zed
+    - '2024.1'
   irc-channel: openstack-trove
   service: Database service
   mission: >
