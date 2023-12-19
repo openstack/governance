@@ -107,3 +107,4 @@ Current Inactive Projects
 * Freezer (inactive since 2024.1 cycle)
 * Solum (inactive since 2024.1 cycle)
 * EC2 API (inactive since 2024.1 cycle)
+* Senlin (inactive since 2024.1 cycle)
