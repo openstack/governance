@@ -363,6 +363,9 @@ heat:
     os-refresh-config:
       repos:
         - openstack/os-refresh-config
+    yaql:
+      repos:
+        - openstack/yaql
 horizon:
   ptl:
     name: Vishal Manchanda
@@ -892,9 +895,6 @@ murano:
     python-muranoclient:
       repos:
         - openstack/python-muranoclient
-    yaql:
-      repos:
-        - openstack/yaql
     murano-tempest-plugin:
       repos:
         - openstack/murano-tempest-plugin
