@@ -231,9 +231,11 @@ designate:
         - openstack/python-designateclient
 ec2-api:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Andrey Pavlov
+    irc: andrey-mp
+    email: andrey.mp@gmail.com
+  appointed:
+    - '2024.1'
   irc-channel: openstack-ec2api
   service: EC2 API compatibility layer for OpenStack
   mission: >
