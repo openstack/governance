@@ -1,12 +1,6 @@
-===========================
- TC Chair Responsibilities
-===========================
-
-.. note::
-
-   This document is maintained as a simple text file, outside of the
-   published governance document, because it is meant to be used for
-   shared notes rather than as an official "guide to being TC chair".
+=========================
+TC Chair Responsibilities
+=========================
 
 General
 =======
@@ -25,8 +19,8 @@ General
 
 * Manage formal TC meetings
 
-  * maintain the agenda in the wiki
-    https://wiki.openstack.org/wiki/Meetings/TechnicalCommittee
+  * maintain the agenda in the `wiki
+    <https://wiki.openstack.org/wiki/Meetings/TechnicalCommittee>`__
 
 * Review proposals to the openstack/governance repo (see below)
 * Coordinate the agenda for joint leadership meetings with the board (see below)
@@ -37,10 +31,10 @@ Each Cycle
 
 * Manage the initiative tracker
 
-  * Prepare release tracker etherpad (During PTG), Example:
-    https://etherpad.opendev.org/p/tc-xena-tracker
-  * Update the etherpad link in the wiki
-    https://wiki.openstack.org/wiki/Technical_Committee_Tracker
+  * Prepare release tracker etherpad (During PTG), `Example xena tracker
+    <https://etherpad.opendev.org/p/tc-xena-tracker>`__
+  * Update the etherpad link in the `wiki
+    <https://wiki.openstack.org/wiki/Technical_Committee_Tracker>`__
 
 * Check on the active goals and, if there is no active goal, then ensure
   that 2 TC members are signed up to manage the goal selection process.
@@ -54,7 +48,7 @@ Each Cycle
     as the election officials.
   * During R-9 week, check "PTL and TC elections".
   * Ensure PTL and TC election schedule is prepared as per schedule mentioned
-    in https://governance.openstack.org/tc/reference/charter.html
+    in `TC charter <https://governance.openstack.org/tc/reference/charter.html>`__
 
 Around TC elections
 ===================
@@ -65,29 +59,29 @@ membership changes when the election results are published.
 
 When the election results are available, the outgoing chair should:
 
-* welcome new and returning members. Make sure to send the TC onboarding
-  guide to new members:
-  https://governance.openstack.org/tc/reference/tc-guide.html
-* update the tech-committee group in gerrit:
-  https://review.opendev.org/#/admin/groups/205,members to remove
-  members who should no longer be included and add new members
-* encourage all TC members to vote on the patch prepared by the
+* Welcome new and returning members. Make sure to send the `TC onboarding
+  guide <https://governance.openstack.org/tc/reference/tc-guide.html>`__
+  to new members:
+* Update the `tech-committee group
+  <https://review.opendev.org/#/admin/groups/205,members>`__ in gerrit
+  to remove members who should no longer be included and add new members
+* Encourage all TC members to vote on the patch prepared by the
   election officials with the new roster
-* encourage all TC members to include the "[tc]" topic in their filter
+* Encourage all TC members to include the "[tc]" topic in their filter
   list for the openstack-discuss mailing list
-* propose a patch to remove current chair and vice chair
+* Propose a patch to remove current chair and vice chair
 
 After the election results are confirmed, the outgoing chair should:
 
-* start the chair selection process by encouraging TC members to
-  consider serving as chair and as per the process defined in
-  https://governance.openstack.org/tc/reference/tc-chair-elections.html
-* after a chair is selected, ensure they appear in the
-  tech-committee-chair group in gerrit:
-  https://review.opendev.org/#/admin/groups/206,members
-* the outgoing chair should notify the board chair and secretary of
+* Start the chair selection process by encouraging TC members to
+  consider serving as chair and as per the `TC Chair Election Process
+  <https://governance.openstack.org/tc/reference/tc-chair-elections.html>`__
+* After a chair is selected, ensure they appear in the
+  `tech-committee-chair group <https://review.opendev.org/#/admin/groups/206,members>`__
+  in gerrit.
+* The outgoing chair should notify the board chair and secretary of
   the new TC membership and chair
-* the outgoing chair should notify the community of the new chair
+* The outgoing chair should notify the community of the new chair
 
 After the chair status is confirmed, the incoming chair should:
 
