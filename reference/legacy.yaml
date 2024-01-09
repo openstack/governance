@@ -2073,7 +2073,6 @@ Telemetry:
 
 tripleo:
   irc-channel: tripleo
-  partial: yes
   service: Deployment service
   url: https://wiki.openstack.org/wiki/TripleO
   deliverables:
@@ -2269,6 +2268,135 @@ tripleo:
       repos:
         - openstack/tripleo-common-tempest-plugin
       retired-on: 2021-06-12
+    ansible-role-chrony:
+      repos:
+        - openstack/ansible-role-chrony
+      retired-on: 2024-01-09
+    ansible-role-collect-logs:
+      repos:
+        - openstack/ansible-role-collect-logs
+      retired-on: 2024-01-09
+    ansible-role-container-registry:
+      repos:
+        - openstack/ansible-role-container-registry
+      retired-on: 2024-01-09
+    ansible-role-openstack-operations:
+      repos:
+        - openstack/ansible-role-openstack-operations
+      retired-on: 2024-01-09
+    ansible-role-redhat-subscription:
+      repos:
+        - openstack/ansible-role-redhat-subscription
+      retired-on: 2024-01-09
+    ansible-role-tripleo-modify-image:
+      repos:
+        - openstack/ansible-role-tripleo-modify-image
+      retired-on: 2024-01-09
+    dib-utils:
+      repos:
+        - openstack/dib-utils
+      retired-on: 2024-01-09
+    instack-undercloud:
+      repos:
+        - openstack/instack-undercloud
+      retired-on: 2024-01-09
+    openstack-tempest-skiplist:
+      repos:
+        - openstack/openstack-tempest-skiplist
+      retired-on: 2024-01-09
+    openstack-virtual-baremetal:
+      repos:
+        - openstack/openstack-virtual-baremetal
+      retired-on: 2024-01-09
+    os-net-config:
+      repos:
+        - openstack/os-net-config
+      retired-on: 2024-01-09
+    paunch:
+      repos:
+        - openstack/paunch
+      retired-on: 2024-01-09
+    puppet-pacemaker:
+      repos:
+        - openstack/puppet-pacemaker
+      retired-on: 2024-01-09
+    puppet-tripleo:
+      repos:
+        - openstack/puppet-tripleo
+      retired-on: 2024-01-09
+    python-tripleoclient:
+      repos:
+        - openstack/python-tripleoclient
+      retired-on: 2024-01-09
+    tripleo-ansible:
+      repos:
+        - openstack/tripleo-ansible
+      retired-on: 2024-01-09
+    tripleo-ci:
+      repos:
+        - openstack/tripleo-ci
+      retired-on: 2024-01-09
+    tripleo-common:
+      repos:
+        - openstack/tripleo-common
+      retired-on: 2024-01-09
+    tripleo-docs:
+      repos:
+        - openstack/tripleo-docs
+      retired-on: 2024-01-09
+    tripleo-heat-templates:
+      repos:
+        - openstack/tripleo-heat-templates
+      retired-on: 2024-01-09
+    tripleo-image-elements:
+      repos:
+        - openstack/tripleo-image-elements
+      retired-on: 2024-01-09
+    tripleo-ipsec:
+      repos:
+        - openstack/tripleo-ipsec
+      retired-on: 2024-01-09
+    tripleo-operator-ansible:
+      repos:
+        - openstack/tripleo-operator-ansible
+      retired-on: 2024-01-09
+    tripleo-puppet-elements:
+      repos:
+        - openstack/tripleo-puppet-elements
+      retired-on: 2024-01-09
+    tripleo-quickstart:
+      repos:
+        - openstack/tripleo-quickstart
+        - openstack/tripleo-quickstart-extras
+      retired-on: 2024-01-09
+    tripleo-repos:
+      repos:
+        - openstack/tripleo-repos
+      retired-on: 2024-01-09
+    tripleo-specs:
+      repos:
+        - openstack/tripleo-specs
+      retired-on: 2024-01-09
+    tripleo-upgrade:
+      repos:
+        - openstack/tripleo-upgrade
+      retired-on: 2024-01-09
+    tripleo-validations:
+      repos:
+        - openstack/tripleo-validations
+      retired-on: 2024-01-09
+    validations-common:
+      repos:
+        - openstack/validations-common
+      retired-on: 2024-01-09
+    validations-libs:
+      repos:
+        - openstack/validations-libs
+      retired-on: 2024-01-09
+    tripleo-ha-utils:
+      repos:
+        - openstack/tripleo-ha-utils
+      retired-on: 2024-01-09
 
 tricircle:
   retired-on: 2020-05-18
