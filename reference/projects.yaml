@@ -334,10 +334,6 @@ heat:
     heat-agents:
       repos:
         - openstack/heat-agents
-    heat-cfnclient:
-      release-management: none
-      repos:
-        - openstack/heat-cfnclient
     heat-cfntools:
       repos:
         - openstack/heat-cfntools
