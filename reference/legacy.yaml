@@ -1879,6 +1879,10 @@ Puppet OpenStack:
       repos:
         - openstack/puppet-rally
       retired-on: 2023-04-11
+    puppet-qdr:
+      repos:
+        - openstack/puppet-qdr
+      retired-on: 2024-02-06
 
 qinling:
   retired-on: 2020-11-27

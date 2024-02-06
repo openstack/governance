@@ -2239,9 +2239,6 @@ Puppet OpenStack:
     puppet-placement:
       repos:
         - openstack/puppet-placement
-    puppet-qdr:
-      repos:
-        - openstack/puppet-qdr
     puppet-sahara:
       repos:
         - openstack/puppet-sahara
