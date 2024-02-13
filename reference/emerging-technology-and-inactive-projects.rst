@@ -74,6 +74,12 @@ If project is not able to become an official OpenStack project within that
 timeframe, TC will discuss with the team if more time is required for the
 project to meet the :doc:`new-projects-requirements` or will retire the project.
 
+The TC will monitor the existing projects at different stages of the development
+cycle and if any project becomes inactive due to lack of maintainers and is not
+able to do the mandatory activities then the project will be marked as inactive.
+We will try to detect and mark a project inactive in the early stage of the
+development cycle but it can happen at any phase of development cycle.
+
 An existing project should be reinstated as an active OpenStack project before
 the release milestone-2 of the cycle they entered the ``inactive`` state to
 become ``active`` again and to be released in that cycle.  In the case where an
@@ -87,6 +93,10 @@ project. In the case where an ``inactive`` project still does not become
 state, the TC will discuss with the team if project will be retired before the
 release milestone-2 of the cycle. In such a case there will be no new releases
 of that project.
+
+If TC detects inactive project or project becomes inactive after the release
+milestone-2 of the cycle, TC needs to take decision based on the severity and
+risk to continue the project release.
 
 Tracking
 ========
