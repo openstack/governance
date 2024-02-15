@@ -648,7 +648,7 @@ magnum:
   ptl:
     name: Jake Yip
     irc: jakeyip
-    email: jake.yip@unimelb.edu.au
+    email: jake.yip@ardc.edu.au
   appointed:
     - zed
   irc-channel: openstack-containers
