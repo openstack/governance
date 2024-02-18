@@ -18,7 +18,7 @@ A tool that will translate a projects.yaml file into a visualized graph.
 
 Usage: universe_dot.py <projects-file> <output-file> just-project? ...
 
-To run make sure pydot (or pydot2) is installed, as well as six and pyyaml.
+To run make sure pydot (or pydot2) is installed, as well as pyyaml.
 
 After these are installed run this like:
 
@@ -42,7 +42,6 @@ import sys
 import time
 
 import pydot
-import six
 import yaml
 
 if len(sys.argv) == 1:
@@ -57,7 +56,7 @@ just_projects = set(sys.argv[3:])
 print("Reading projects from '%s'" % projects_file)
 with open(projects_file, 'rb') as fh:
     projects = yaml.safe_load(fh)
-    project_names = sorted(six.iterkeys(projects))
+    project_names = sorted(projects.keys())
     if just_projects:
         print("Restricting to just %s projects" % list(just_projects))
         for project_name in list(project_names):
@@ -83,7 +82,7 @@ for project_name in project_names:
     node_count += 1
     graph_nodes[project_name] = node
     deliverables = projects[project_name].get('deliverables', [])
-    deliverable_names = sorted(six.iterkeys(deliverables))
+    deliverable_names = sorted(deliverables.keys())
     for deliverable_name in deliverable_names:
         edges_needed += 1
         node_path = "%s/%s" % (project_name, deliverable_name)
@@ -124,7 +123,7 @@ for project_name in project_names:
     node = graph_nodes[project_name]
     graph.add_node(node)
     deliverables = projects[project_name].get('deliverables', [])
-    deliverable_names = sorted(six.iterkeys(deliverables))
+    deliverable_names = sorted(deliverables.keys())
     for deliverable_name in deliverable_names:
         print("    Inserting node for '%s'" % deliverable_name)
         node_path = "%s/%s" % (project_name, deliverable_name)

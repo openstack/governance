@@ -3,7 +3,6 @@
 # Not currently needed for anything else.
 pydot
 PyYAML>=3.1.0
-six>=1.9.0
 yamlordereddictloader
 mwclient==0.8.1
 ruamel.yaml
