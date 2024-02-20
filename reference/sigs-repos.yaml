@@ -58,10 +58,6 @@ Packaging:
   - repo: openstack/rpm-packaging-tools
   - repo: openstack/pymod2pkg
   - repo: openstack/renderspec
-PowerVMStackers:
-  - repo: openstack/ceilometer-powervm
-  - repo: openstack/networking-powervm
-  - repo: openstack/nova-powervm
 Public Cloud SIG:
   - repo: openstack/publiccloud-sig
 Security:
