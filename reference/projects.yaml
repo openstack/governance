@@ -2319,6 +2319,9 @@ Release Management:
       - name: Elod Illes
         irc: elodilles
         email: elod.illes@est.tech
+      - name: Jens Harbott
+        irc: frickler
+        email: frickler@offenerstapel.de
     tact-sig:
       - name: Jeremy Stanley
         irc: fungi
