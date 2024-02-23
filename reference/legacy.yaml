@@ -1896,6 +1896,20 @@ PowerVMStackers:
       tags:
         - stable:follows-policy
 
+PowerVMStackers SIG:
+  irc-channel: openstack-powervm
+  retired-on: 2024-02-20
+  deliverables:
+    ceilometer-powervm:
+      repos:
+        - openstack/ceilometer-powervm
+    networking-powervm:
+      repos:
+        - openstack/networking-powervm
+    nova-powervm:
+      repos:
+        - openstack/nova-powervm
+
 Puppet OpenStack:
   partial: yes
   deliverables:
