@@ -298,6 +298,18 @@ Governance:
         - openstack/governance-uc
         - openstack/uc-recognition
 
+heat:
+  irc-channel: heat
+  service: Orchestration service
+  url: https://wiki.openstack.org/wiki/Heat
+  partial: yes
+  deliverables:
+    heat-cfnclient:
+      retired-on: 2024-01-17
+      release-management: none
+      repos:
+        - openstack/heat-cfnclient
+
 horizon:
   irc-channel: openstack-horizon
   service: Dashboard
