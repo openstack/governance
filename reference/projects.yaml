@@ -2021,12 +2021,12 @@ oslo:
 
   liaisons:
     release:
-      - name: Hervé Beraud
-        irc: hberaud
-        email: hberaud@redhat.com
       - name: Daniel Bengtsson
         irc: damani
         email: dbengt@redhat.com
+      - name: Takashi Kajinami
+        irc: tkajinam
+        email: kajinamit@oss.nttdata.com
     tact-sig:
       - name: Ghanshyam Mann
         irc: gmann
