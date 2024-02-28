@@ -2148,9 +2148,6 @@ Puppet OpenStack:
     puppet-placement:
       repos:
         - openstack/puppet-placement
-    puppet-sahara:
-      repos:
-        - openstack/puppet-sahara
     puppet-swift:
       repos:
         - openstack/puppet-swift

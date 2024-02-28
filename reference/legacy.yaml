@@ -1970,6 +1970,10 @@ Puppet OpenStack:
       repos:
         - openstack/puppet-qdr
       retired-on: 2024-02-06
+    puppet-sahara:
+      repos:
+        - openstack/puppet-sahara
+      retired-on: 2024-02-28
     puppet-murano:
       repos:
         - openstack/puppet-murano
