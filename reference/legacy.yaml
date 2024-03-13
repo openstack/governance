@@ -1974,6 +1974,10 @@ Puppet OpenStack:
       repos:
         - openstack/puppet-sahara
       retired-on: 2024-02-28
+    puppet-ec2api:
+      repos:
+        - openstack/puppet-ec2api
+      retired-on: 2024-03-13
     puppet-murano:
       repos:
         - openstack/puppet-murano

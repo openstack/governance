@@ -2080,9 +2080,6 @@ Puppet OpenStack:
     puppet-designate:
       repos:
         - openstack/puppet-designate
-    puppet-ec2api:
-      repos:
-        - openstack/puppet-ec2api
     puppet-glance:
       repos:
         - openstack/puppet-glance
