@@ -1970,6 +1970,10 @@ Puppet OpenStack:
       repos:
         - openstack/puppet-qdr
       retired-on: 2024-02-06
+    puppet-murano:
+      repos:
+        - openstack/puppet-murano
+      retired-on: 2024-03-15
 
 qinling:
   retired-on: 2020-11-27

@@ -2100,9 +2100,6 @@ Puppet OpenStack:
     puppet-mistral:
       repos:
         - openstack/puppet-mistral
-    puppet-murano:
-      repos:
-        - openstack/puppet-murano
     puppet-neutron:
       repos:
         - openstack/puppet-neutron
