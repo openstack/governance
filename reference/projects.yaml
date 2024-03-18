@@ -1841,14 +1841,21 @@ OpenStackSDK:
   irc-channel: openstack-sdks
   service: Multi-cloud Python SDK and CLI for End Users
   mission: >
-    To provide a unified multi-cloud aware Python SDK and CLI for the OpenStack
+    To provide a unified multi-cloud aware SDK and CLI for the OpenStack
     REST API exposing both the full set of low-level APIs as well as curated higher
-    level business logic.
+    level business logic. Ensure end user is having necessary tools to work
+    with OpenStack based clouds.
   url: https://docs.openstack.org/openstacksdk/latest/
   deliverables:
     cliff:
       repos:
         - openstack/cliff
+    codegenerator:
+      repos:
+        - openstack/codegenerator
+    openapi:
+      repos:
+        - openstack/openapi
     openstackclient:
       repos:
         - openstack/openstackclient
