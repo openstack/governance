@@ -58,7 +58,7 @@ against, at a minimum:
 
   This is the upper bound of required testing for 2024.2.
 
-* Python 3.12 (going to be available as default in Ubuntu 24.02)
+* Python 3.12 (going to be available as default in Ubuntu 24.04)
 
   This is not mandatory testing in the 2024.2 cycle, and there is no guarantee
   that the OpenStack 2024.2 release will support Python 3.12.
