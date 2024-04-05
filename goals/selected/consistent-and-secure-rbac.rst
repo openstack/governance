@@ -818,6 +818,40 @@ Operators consuming the 2024.1 release will have full support for project-manage
 project-member, project-reader, and service role dedicated for service-to-service
 communication. There will not be support for deprecated policies in this release.
 
+2024.2-Release Timeline
+^^^^^^^^^^^^^^^^^^^^^^^
+
+#. Update oslo.policy ``enforce_new_defaults=True``
+
+   At this stage, all services are supposed to complete `Phase 1`_ and
+   have the ``enforce_new_defaults`` flag enabled at service level. Now
+   we can update the default value of config option ``enforce_new_defaults``
+   in oslo.policy to True. This will allow each service to remove code to
+   override the ``enforce_new_defaults=True`` and use the upstream default
+   from oslo.policy. If any service still needs to keep the default value
+   as False then they can do it by overriding the default.
+
+#. Update oslo.policy ``enforce_scope=True``
+
+   At this stage, all services are supposed to complete `Phase 1`_ and
+   have the ``enforce_scope`` flag enabled at service level. Now we can
+   update the default value of config option ``enforce_scope`` in oslo.policy
+   to True. This will allow each service to remove code to override the
+   ``enforce_scope=True`` and use the upstream default from oslo.policy. If
+   any service still needs to keep the default value as False then they can
+   do it by overriding the default.
+
+2025.2-Release Timeline
+^^^^^^^^^^^^^^^^^^^^^^^
+
+#. Remove the oslo.policy ``enforce_scope`` config flag
+
+   The config option ``enforce_scope``  was added temporarily to migrate to
+   the new RBAC. This is enabled by default in the 2024.2 release (and also in
+   2025.2 SLURP release) means all deployments get the scope enabled by
+   default. Now we can remove this config flag and have scope checks enabled by
+   default.
+
 References
 ==========
 
