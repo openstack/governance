@@ -1713,6 +1713,10 @@ OpenStack-Helm:
       release-management: external
       repos:
         - openstack/openstack-helm-infra
+    openstack-helm-plugin:
+      release-management: external
+      repos:
+        - openstack/openstack-helm-plugin
     loci:
       release-management: none
       repos:
