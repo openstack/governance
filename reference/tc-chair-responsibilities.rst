@@ -153,7 +153,7 @@ Upstream Investment Opportunities
 https://governance.openstack.org/tc/reference/upstream-investment-opportunities/index.html
 
 Toward the end of each calendar year, invite sponsors of the current year's
-Upstream Investement Opportunities to repropose any relevant ones for the
+Upstream Investment Opportunities to re-propose any relevant ones for the
 following year. Solicit new entries on the mailing list.
 
 At the beginning of the new year, switch the index to point at the directory
