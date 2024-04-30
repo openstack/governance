@@ -628,12 +628,6 @@ kuryr:
     networking abstractions.
   url: https://wiki.openstack.org/wiki/Kuryr
   deliverables:
-    kuryr:
-      repos:
-        - openstack/kuryr
-    kuryr-libnetwork:
-      repos:
-        - openstack/kuryr-libnetwork
     kuryr-kubernetes:
       repos:
         - openstack/kuryr-kubernetes
@@ -2877,3 +2871,9 @@ zun:
     zun-ui:
       repos:
         - openstack/zun-ui
+    kuryr:
+      repos:
+        - openstack/kuryr
+    kuryr-libnetwork:
+      repos:
+        - openstack/kuryr-libnetwork
