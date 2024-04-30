@@ -9,7 +9,7 @@ many responsibilities for managing the development and release process for the
 project deliverables as well as representing the project team both internally and
 externally.
 
-This resolution outlines a process for OpenStack project teams to opt in to a
+This document outlines the process for OpenStack project teams to opt in to a
 "distributed leadership" model where there is no PTL. The responsibilities
 normally held by the PTL are distributed to various liaisons, which may be held
 by one or multiple contributors.
@@ -22,7 +22,7 @@ teams can still contact the TC to resolve deadlocks in disputes.
 How the PTL with liaisons works
 -------------------------------
 
-This resolution will not change how the PTL with liaisons work:
+The DPL model will not change how the PTL with liaisons work:
 the PTL is still encouraged to delegate responsibilities to
 individuals. The PTL remains the single point of contact and responsibility for
 all the duties.
@@ -57,6 +57,11 @@ roles:
   the impact of any security reported issues in the project team deliverables,
   coordinate the development of patches, review proposed patches, and propose
   any eventual backport(s).
+
+* TC liaison: the TC liaison is one of the TC members who will follow the project
+  activities at regular intervals and make sure the DPL model is reset every cycle.
+  Project team who is planning to adopt the DPL model can reach out to the TC to
+  find the TC liaison for their project.
 
 Additional recommended roles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -108,15 +113,15 @@ discretion of the project teams, as long as it is public, open, and respectful
 of the current TC guidelines.  The TC advocates the use of consensus decisions,
 with polls or elections when consensus can not be reached.
 
-Liaison assignment duration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+DPL model & liaison duration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-While the PTL is assigned to a single cycle, the duration of the assignment
-for a team's liaison is unlimited in time. To avoid outdated information,
-a TC member dedicated to follow a project team with distributed leadership
-will query, at regular intervals (once per cycle), if the liaisons for the
-team are still valid. It is expected to have the liaisons answer on the
-mailing list thread to extend/validate their liaison status.
+DPL liaisons are assigned for a single release cycle. The assigned TC liaison
+will follow the project activities at regular intervals. Before the next cycle
+PTL election nominations start, the TC liaison will reset the project team
+leadership model to PTL and the project team needs to opt-in to the DPL model
+explicitly with the same or new liaisons. This requires +1 from all the people
+volunteering as liaisons.
 
 Points of Concern
 -----------------
@@ -169,19 +174,21 @@ liaisons.
 
 Technical notes:
 
-* A follow-up patch on this resolution will change the "liaisons" field to adapt
-  its current structure, to add the new mandatory roles, next to the already
-  present list of TC members liaising for the team.
 * The releases liaison will continue to be listed in the `releases` repository,
   to not impact the current delivery of the releases.
 
 Once a project team has moved to the distributed leadership model, they can
 revert to the PTL model by creating a change to `projects.yaml` to remove the
-"leadership_type: distributed" line in the team's configuration.  This change
+"leadership_type: distributed" line in the team's configuration. This change
 should have at least a +1 from all the people currently serving as liaisons,
 including the :repo:`openstack/releases/src/branch/master/data/release_liaisons.yaml`
 for the project team, which might not be in the `governance` repo.
 It must also get a +1 from the future PTL, listed in the same change.
+
+.. note::
+
+   In every release cycle, The TC liaison will reset the DPL model & liaison (see
+   `DPL model & liaison duration`_).
 
 A project team may change their opt-in status only once a release cycle, to
 ensure that the elections officials have clarity on which project teams need PTL

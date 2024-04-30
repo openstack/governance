@@ -39,6 +39,7 @@ Each Cycle
 * Check on the active goals and, if there is no active goal, then ensure
   that 2 TC members are signed up to manage the goal selection process.
 * Ensure PTI and testing runtime update is done.
+* Ensure the project's DPL model is reset before election nomination start.
 * Election planning
 
   * During PTG or at the start of cycle, select a TC member who is not standing
