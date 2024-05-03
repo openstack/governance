@@ -11,6 +11,7 @@ Reference documents which need to be revised over time.
    principles
    charter
    projects/index
+   distributed-project-leadership
    popup-teams
    technical-vision
    upstream-investment-opportunities/index
