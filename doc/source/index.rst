@@ -8,8 +8,8 @@ to the project, and has oversight on all technical matters. This includes
 developers, operators and end users of the software.
 
 The Technical Committee is formally defined in the
-`OpenStack Foundation bylaws`_ (in particular article 4.1(b), article 4.13
-and Appendix 4) and further refined in the :doc:`reference/charter`.
+`Open Infrastructue Foundation bylaws`_ (in particular article 4.1(b) and article 4.13)
+and further refined in the :doc:`reference/charter`.
 
 Work under the Technical Committee is organized under official
 :doc:`reference/projects/index` (responsible for the production of the
@@ -70,7 +70,7 @@ formal voting by the majority of the Technical Committee membership. Those
 exceptions are listed in the :doc:`reference/house-rules` document.
 
 
-.. _`OpenStack Foundation bylaws`: http://www.openstack.org/legal/bylaws-of-the-openstack-foundation/
+.. _`Open Infrastructue Foundation bylaws`: http://www.openstack.org/legal/bylaws-of-the-openstack-foundation/
 
 .. _`Special Interest Groups (SIGs)`: https://governance.openstack.org/sigs/
 
