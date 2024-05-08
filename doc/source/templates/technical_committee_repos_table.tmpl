@@ -1,0 +1,12 @@
+.. -*- mode: rst -*-
+
+.. This template renders a table showing repositories under the maintainership of the OpenStack Technical Committee
+
+.. list-table::
+   :align: left
+   :header-rows: 1
+
+   - * Repository
+   {%- for line in data['Technical Committee'] %}
+   - * `{{ line['repo'] }} <https://opendev.org/{{ line['repo'] }}>`_
+   {%- endfor %}

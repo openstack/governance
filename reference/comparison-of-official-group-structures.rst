@@ -65,8 +65,9 @@ co-leads. Since they are not directly in charge of producing OpenStack, only
 limited accountability is required, and SIGs do not have any required named
 liaisons.
 
-SIGs can own git repositories and produce software, but that software will be
-considered add-on software to the main "OpenStack" software releases. Therefore
+SIGs :doc:`can own git repositories </reference/sig-repos>` and produce
+software, but that software will be considered add-on software to the main
+"OpenStack" software releases. Therefore
 SIGs deliverables are not part of the coordinated release, and will not leverage
 the openstack/releases repository. If a SIG does release any tooling or software
 they are responsible for any release management/tagging needed.
@@ -121,7 +122,8 @@ contributors to the open source project.
 It may delegate rights (and duties) to `TC working groups`_ (like the Election
 officials which have a delegation for running elections).
 
-The TC owns git repositories (generally around governance documents) but does
+The TC owns :doc:`git repositories (generally around governance documents)
+</reference/technical-committee-repos>` but does
 not produce OpenStack deliverables by itself.
 
 Board of Directors, Board committees and working groups

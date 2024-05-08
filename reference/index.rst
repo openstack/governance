@@ -16,13 +16,13 @@ Reference documents which need to be revised over time.
    technical-vision
    upstream-investment-opportunities/index
    role-of-the-tc
+   technical-committee-repos
    new-projects-requirements
    new-language-requirements
    dropping-projects
    licensing
    base-services
    user-committee-charter
-   working-groups
    service-project-naming
    project-testing-interface
    irc
@@ -31,6 +31,9 @@ Reference documents which need to be revised over time.
    Requirements for previously-used incubation/integration process <incubation-integration-requirements>
    house-rules
    comparison-of-official-group-structures
+   working-groups
+   Special Interest Groups <https://governance.openstack.org/sigs/>
+   sig-repos
    tc-guide
    OpenStack-name-in-external-services
    election-exceptions
