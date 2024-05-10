@@ -101,6 +101,17 @@ case that they weren't currently interacting with the community it was hoped
 that the questions would spark thoughts on how they could participate in the
 future.
 
+In the 2023 survey the following questions were added by the TC:
+
+* How are you consuming OpenStack?
+* How do your users interact with OpenStack?
+* Participation in UI is lacking in maintenance. Do you contribute in UI
+  maintenance?
+* What library, if any, are you using to interface with OpenStack?
+* What software or services in your cloud environment are enabled by OpenStack
+  and OpenStack provisioned resources, for example: Kubernetes?
+
+
 Below are links to summaries and analysis of those responses.
 
 .. toctree::
@@ -110,3 +121,4 @@ Below are links to summaries and analysis of those responses.
    user_survey/analysis-2019
    user_survey/analysis-2021
    user_survey/analysis-2022
+   user_survey/analysis-2023
