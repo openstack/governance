@@ -2429,36 +2429,6 @@ sahara:
       release-management: none
       repos:
         - openstack/sahara-specs
-senlin:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
-  appointed:
-    - wallaby
-    - xena
-    - zed
-    - '2023.1'
-    - '2023.2'
-  irc-channel: senlin
-  service: Clustering service
-  mission: >
-    To implement clustering services and libraries for the management of groups
-    of homogeneous objects exposed by other OpenStack services.
-  url: https://wiki.openstack.org/wiki/Senlin
-  deliverables:
-    senlin:
-      repos:
-        - openstack/senlin
-    python-senlinclient:
-      repos:
-        - openstack/python-senlinclient
-    senlin-dashboard:
-      repos:
-        - openstack/senlin-dashboard
-    senlin-tempest-plugin:
-      repos:
-        - openstack/senlin-tempest-plugin
 skyline:
   ptl:
     name: Wenxiang Wu

@@ -2116,6 +2116,28 @@ Security:
       repos:
         - openstack/syntribos-payloads
 
+senlin:
+  irc-channel: senlin
+  service: Clustering service
+  mission: >
+    To implement clustering services and libraries for the management of groups
+    of homogeneous objects exposed by other OpenStack services.
+  url: https://wiki.openstack.org/wiki/Senlin
+  retired-on: 2024-05-10
+  deliverables:
+    senlin:
+      repos:
+        - openstack/senlin
+    python-senlinclient:
+      repos:
+        - openstack/python-senlinclient
+    senlin-dashboard:
+      repos:
+        - openstack/senlin-dashboard
+    senlin-tempest-plugin:
+      repos:
+        - openstack/senlin-tempest-plugin
+
 solum:
   mission: >
     To make cloud services easier to consume and integrate with your
