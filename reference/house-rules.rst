@@ -151,8 +151,14 @@ Appointing Project Leaders/Liaisons
 
 In a resolution regarding :ref:`leaderless programs`, the TC was granted
 authority to appoint the leader to any official project where the
-`election`_ process failed to produce a leader. The TC preference will
-be to move such project to Distributed Project Leadership model
+`election`_ process failed to produce a leader. The TC should consider
+the criteria defined in `inactive projects document <../emerging-technology-and-inactive-projects>`_
+to judge project inactivity. If a project can be considered inactive,
+and no one has volunteered to lead the project as their PTL, the project
+can automatically be marked as Inactive. If there are volunteers to lead
+a seemingly inactive project, the TC can appoint the volunteers as leaders
+and monitor the project's activity. The TC preference will be to move such
+project to Distributed Project Leadership model
 (see :doc:`/resolutions/20200803-distributed-project-leadership`) than
 appointing the PTL. When this happens, ``reference/projects.yaml`` in the
 ``governance`` repository should be updated to indicate the DPL model
