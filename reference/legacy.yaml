@@ -2080,6 +2080,55 @@ Release Management:
       repos:
         - openstack/release-schedule-generator
 
+sahara:
+  irc-channel: openstack-sahara
+  service: Data Processing service
+  mission: >
+    To provide a scalable data processing stack and associated management
+    interfaces.
+  url: https://wiki.openstack.org/wiki/Sahara
+  retired-on: 2024-05-10
+  deliverables:
+    python-saharaclient:
+      repos:
+        - openstack/python-saharaclient
+    sahara:
+      repos:
+        - openstack/sahara
+    sahara-dashboard:
+      repos:
+        - openstack/sahara-dashboard
+    sahara-extra:
+      repos:
+        - openstack/sahara-extra
+    sahara-image-elements:
+      repos:
+        - openstack/sahara-image-elements
+    sahara-plugin-ambari:
+      repos:
+        - openstack/sahara-plugin-ambari
+    sahara-plugin-cdh:
+      repos:
+        - openstack/sahara-plugin-cdh
+    sahara-plugin-mapr:
+      repos:
+        - openstack/sahara-plugin-mapr
+    sahara-plugin-spark:
+      repos:
+        - openstack/sahara-plugin-spark
+    sahara-plugin-storm:
+      repos:
+        - openstack/sahara-plugin-storm
+    sahara-plugin-vanilla:
+      repos:
+        - openstack/sahara-plugin-vanilla
+    sahara-tests:
+      repos:
+        - openstack/sahara-tests
+    sahara-specs:
+      repos:
+        - openstack/sahara-specs
+
 searchlight:
   retired-on: 2020-11-27
   irc-channel: openstack-searchlight
