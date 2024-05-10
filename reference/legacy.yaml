@@ -2117,15 +2117,35 @@ Security:
         - openstack/syntribos-payloads
 
 solum:
+  mission: >
+    To make cloud services easier to consume and integrate with your
+    application development process by automating the source-to-image
+    process, and simplifying app-centric deployment.
   irc-channel: solum
   service: Software Development Lifecycle Automation service
   url: https://wiki.openstack.org/wiki/Solum
-  partial: yes
+  retired-on: 2024-05-10
   deliverables:
     solum-infra-guestagent:
       retired-on: 2016-11-24
       repos:
         - openstack/solum-infra-guestagent
+    python-solumclient:
+      repos:
+        - openstack/python-solumclient
+    solum:
+      repos:
+        - openstack/solum
+    solum-dashboard:
+      repos:
+        - openstack/solum-dashboard
+    solum-specs:
+      release-management: none
+      repos:
+        - openstack/solum-specs
+    solum-tempest-plugin:
+      repos:
+        - openstack/solum-tempest-plugin
 
 swift:
   irc-channel: openstack-swift

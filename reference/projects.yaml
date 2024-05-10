@@ -2483,37 +2483,6 @@ skyline:
     skyline-console:
       repos:
         - openstack/skyline-console
-solum:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
-  appointed:
-    - zed
-  irc-channel: solum
-  service: Software Development Lifecycle Automation service
-  mission: >
-    To make cloud services easier to consume and integrate with your
-    application development process by automating the source-to-image
-    process, and simplifying app-centric deployment.
-  url: https://wiki.openstack.org/wiki/Solum
-  deliverables:
-    python-solumclient:
-      repos:
-        - openstack/python-solumclient
-    solum:
-      repos:
-        - openstack/solum
-    solum-dashboard:
-      repos:
-        - openstack/solum-dashboard
-    solum-specs:
-      release-management: none
-      repos:
-        - openstack/solum-specs
-    solum-tempest-plugin:
-      repos:
-        - openstack/solum-tempest-plugin
 storlets:
   ptl:
     name: Takashi Kajinami
