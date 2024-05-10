@@ -539,12 +539,45 @@ monasca:
         - openstack/monasca-analytics
 
 murano:
-  partial: yes
+  irc-channel: murano
+  service: Application Catalog service
+  mission: >
+    To provide an application catalog service so that users can compose and
+    deploy composite environments on an application abstraction level
+    while managing the application lifecycle.
+  url: https://wiki.openstack.org/wiki/Murano
+  retired-on: 2024-05-10
   deliverables:
     murano-deployment:
       retired-on: 2019-01-07
       repos:
         - openstack/murano-deployment
+    murano:
+      repos:
+        - openstack/murano
+    murano-agent:
+      repos:
+        - openstack/murano-agent
+    murano-apps:
+      release-management: none
+      repos:
+        - openstack/murano-apps
+    murano-dashboard:
+      repos:
+        - openstack/murano-dashboard
+    murano-pkg-check:
+      repos:
+        - openstack/murano-pkg-check
+    murano-specs:
+      release-management: none
+      repos:
+        - openstack/murano-specs
+    python-muranoclient:
+      repos:
+        - openstack/python-muranoclient
+    murano-tempest-plugin:
+      repos:
+        - openstack/murano-tempest-plugin
 
 neutron:
   irc-channel: openstack-neutron
