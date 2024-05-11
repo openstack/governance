@@ -195,6 +195,21 @@ Documentation:
       repos:
         - openstack/rst2bash
 
+ec2-api:
+  irc-channel: openstack-ec2api
+  service: EC2 API compatibility layer for OpenStack
+  mission: >
+    To provide an EC2-compatible API for accessing OpenStack features.
+  url: https://wiki.openstack.org/wiki/EC2API
+  retired-on: 2024-05-10
+  deliverables:
+    ec2-api:
+      repos:
+        - openstack/ec2-api
+    ec2api-tempest-plugin:
+      repos:
+        - openstack/ec2api-tempest-plugin
+
 fuel:
   irc-channel: fuel
   service: Deployment service

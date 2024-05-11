@@ -231,25 +231,6 @@ designate:
     python-designateclient:
       repos:
         - openstack/python-designateclient
-ec2-api:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
-  appointed:
-    - '2024.1'
-  irc-channel: openstack-ec2api
-  service: EC2 API compatibility layer for OpenStack
-  mission: >
-    To provide an EC2-compatible API for accessing OpenStack features.
-  url: https://wiki.openstack.org/wiki/EC2API
-  deliverables:
-    ec2-api:
-      repos:
-        - openstack/ec2-api
-    ec2api-tempest-plugin:
-      repos:
-        - openstack/ec2api-tempest-plugin
 freezer:
   leadership_type: distributed
   liaisons:
