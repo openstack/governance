@@ -2174,6 +2174,14 @@ Telemetry:
       repos:
         - openstack/python-pankoclient
 
+Testing and Collaboration Tools:
+  partial: yes
+  deliverables:
+    devstack-gate:
+      retired-on: 2024-05-14
+      repos:
+        - openstack/devstack-gate
+
 tripleo:
   irc-channel: tripleo
   service: Deployment service
