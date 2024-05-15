@@ -577,6 +577,10 @@ neutron:
       retired-on: 2016-10-31
       repos:
         - openstack/python-neutron-pd-driver
+    networking-ovn:
+      retired-on: 2024-05-15
+      repos:
+        - openstack/networking-ovn
 
 octavia:
   irc-channel: openstack-lbaas
