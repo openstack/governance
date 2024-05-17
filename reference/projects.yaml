@@ -873,11 +873,6 @@ neutron:
       release-management: deprecated
       repos:
         - openstack/networking-odl
-    networking-ovn:
-      deprecated: ussuri
-      release-management: deprecated
-      repos:
-        - openstack/networking-ovn
     networking-sfc:
       repos:
         - openstack/networking-sfc
