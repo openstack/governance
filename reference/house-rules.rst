@@ -104,19 +104,24 @@ Other project team updates
 :Gerrit topic: ``project-update``
 
 This topic is used for other changes within an existing project team, like
-addition of a new git repository or retirement.
+addition of a new git repository or retirement of an existing repository
+maintained by a project team.
 
-If there is no objection posted after the addition or retirement of a project
-is proposed (assuming the correct retirement process has been followed), then
-the change can be approved by the chair if it has at least two 2 roll call
-votes (which can include the vote of the chair and excludes the change owner)
-and a code review vote from the PTL of the project (or their delegate).
-If the change is from the PTL or their delegate, this will count as an
-acknowledgment code review vote.
+If there is no objection posted after the addition or retirement of an
+existing repository is proposed (assuming the correct retirement process has
+been followed), then the change can be approved by the chair if it has at least
+two 2 roll call votes (which can include the vote of the chair and excludes the
+change owner) and a code review vote from the PTL of the project (or their
+delegate). If the change is from the PTL or their delegate, this will count as
+an acknowledgment code review vote.
 
 One exception to this would be significant team mission statement changes,
 which should be approved by a formal vote after discussion on the mailing list
 or the gerrit change.
+
+A new project team application or retirement of a project team should be
+approved by a formal vote after discussion on the mailing list or the
+gerrit change.
 
 If a technical committee member disagrees with the addition or retirement of a
 project, they can propose a revert which would then be discussed by our usual
