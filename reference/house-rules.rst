@@ -107,13 +107,13 @@ This topic is used for other changes within an existing project team, like
 addition of a new git repository or retirement of an existing repository
 maintained by a project team.
 
-If there is no objection posted after the addition or retirement of an
-existing repository is proposed (assuming the correct retirement process has
-been followed), then the change can be approved by the chair if it has at least
-two 2 roll call votes (which can include the vote of the chair and excludes the
-change owner) and a code review vote from the PTL of the project (or their
-delegate). If the change is from the PTL or their delegate, this will count as
-an acknowledgment code review vote.
+We require two TC member roll call votes on a change that adds a new
+repository or retires a repository under a project team. When retiring
+a repository, TC members must ensure that the retirement process has been
+followed. The change can be merged by the TC chair if there is no objection
+and there are two role call votes (including their own but not including the
+owner of the change) and a code review vote from the PTL of the project (or
+their delegate).
 
 One exception to this would be significant team mission statement changes,
 which should be approved by a formal vote after discussion on the mailing list
