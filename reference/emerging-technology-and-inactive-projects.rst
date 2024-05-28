@@ -113,9 +113,4 @@ Current Emerging Technology Projects
 Current Inactive Projects
 -------------------------
 * Monasca (inactive since 2024.1 cycle)
-* Sahara (inactive since 2024.1 cycle)
 * Freezer (inactive since 2024.1 cycle)
-* Solum (inactive since 2024.1 cycle)
-* EC2 API (inactive since 2024.1 cycle)
-* Senlin (inactive since 2024.1 cycle)
-* Murano (inactive since 2024.1 cycle)
