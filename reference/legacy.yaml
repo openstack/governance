@@ -214,6 +214,7 @@ fuel:
   irc-channel: fuel
   service: Deployment service
   url: https://wiki.openstack.org/wiki/Fuel
+  retired-on: 2017-06-20
   deliverables:
     fuel:
       retired-on: 2017-06-20
@@ -362,6 +363,7 @@ horizon:
 
 Infrastructure:
   irc-channel: openstack-infra
+  retired-on: 2018-08-29
   deliverables:
     puppet-apps_site:
       retired-on: 2017-12-10
@@ -2085,7 +2087,10 @@ RefStack:
     RefStack is a test result collection and reporting service to support the
     Interop Working Group interoperability testing process.
   url: https://wiki.openstack.org/wiki/RefStack
-  deliverables: []
+  deliverables:
+    refstack:
+      repos:
+        - openstack/refstack
 
 Release Management:
   partial: yes
@@ -2329,6 +2334,7 @@ tripleo:
   irc-channel: tripleo
   service: Deployment service
   url: https://wiki.openstack.org/wiki/TripleO
+  retired-on: 2024-01-09
   deliverables:
     ansible-role-k8s-cinder:
       repos:
