@@ -2495,13 +2495,14 @@ Telemetry:
         - openstack/telemetry-tempest-plugin
 trove:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: chunyang wu
+    irc: wuchunyang
+    email: wchy1001@gmail.com
   appointed:
     - stein
     - zed
     - '2024.1'
+    - '2024.2'
   irc-channel: openstack-trove
   service: Database service
   mission: >
