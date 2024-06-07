@@ -21,7 +21,24 @@ import requests
 import yaml
 
 FILES_URL = "https://opendev.org/api/v1/repos/{}/git/trees/master"
-IGNORED_REPOS = []
+IGNORED_REPOS = [
+    # NOTE(gmann): The below list represent the prefix of the old uncleaned
+    # retired repositories. They are too many and not worth to cleanup now.
+    # For more details, ref to https://etherpad.opendev.org/p/tc-retirement-cleanup
+    'openstack/app-catalog',
+    'openstack/congress-dashboard',
+    'openstack/cue',
+    'openstack/deb',
+    'openstack/magnetodb',
+    'openstack/openstack-chef-repo',
+    'openstack/openstack-salt',
+    'openstack/ossa',
+    'openstack/python-appcatalogclient',
+    'openstack/python-cueclient',
+    'openstack/python-magnetodbclient',
+    'openstack/refstack',
+    'openstack/salt',
+    'openstack/security-doc']
 
 parser = argparse.ArgumentParser()
 parser.add_argument(
@@ -36,8 +53,20 @@ with open(args.legacy_projects, 'r', encoding='utf-8') as f:
 
 errors = 0
 for team_name, team_data in legacy_projects.items():
-    # Check if the team has been retired
-    if 'retired-on' in team_data:
+    # Check if the team has been retired or partially retired
+    retired = True
+    partially_retired = False
+    if 'partial' in team_data:
+        partially_retired = True
+    if 'retired-on' not in team_data:
+        retired = False
+    # Check if team is not retired or partially retired but has entry in the
+    # legacy project file.
+    if not retired and not partially_retired:
+        print('{} team has no retired-on date or missing partial retirement flag'.format(
+            team_name
+        ))
+        errors += 1
         continue
 
     deliverables = team_data.get('deliverables')
@@ -51,20 +80,26 @@ for team_name, team_data in legacy_projects.items():
         continue
 
     # In this case, team is not retired but has retired projects
-    for deliverable_name, deliverable_data in deliverables.items():
-        # Retired-on date missing for a deliverable
-        if 'retired-on' not in deliverable_data:
-            print('{} is missing a retired-on date'.format(deliverable_name))
-            errors += 1
-            continue
-
-        # Ensure that the repositories has no content.
-        for repo in deliverable_data['repos']:
-            if repo in IGNORED_REPOS:
-                msg = '{} is ignored'.format(repo)
-                print(msg)
+    if partially_retired:
+        for deliverable_name, deliverable_data in deliverables.items():
+            # Retired-on date missing for a deliverable
+            if 'retired-on' not in deliverable_data:
+                print('{} is missing a retired-on date'.format(deliverable_name))
+                errors += 1
                 continue
 
+    for deliverable_name, deliverable_data in deliverables.items():
+        # Ensure that the repositories have no content.
+        for repo in deliverable_data['repos']:
+            repo_ignored = False
+            for ir in IGNORED_REPOS:
+                if repo.startswith(ir):
+                    msg = '{} is an old repository and not worth do the cleanup, ignoring.'.format(repo)
+                    print(msg)
+                    repo_ignored = True
+                    break
+            if repo_ignored:
+                continue
             if repo.startswith('opendev/'):
                 msg = '{} not in openstack namespace, ignoring.'.format(repo)
                 print(msg)
