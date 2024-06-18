@@ -81,6 +81,7 @@ additionalProperties:
         release: *contact_schema
         tact-sig: *contact_schema
         security: *contact_schema
+        tc-liaison: *contact_schema
         events: *contact_schema
         project_update_onboarding: *contact_schema
         meeting_facilitator: *contact_schema

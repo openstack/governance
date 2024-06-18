@@ -73,6 +73,11 @@ def _team_to_rst(name, info):
             yield ':Security Liaisons: ' + ', '.join(
                 '%(name)s (``%(irc)s``) <%(email)s>' % sl
                 for sl in security)
+        tc_liaison = liaisons.get('tc-liaison', contact_format)
+        if tc_liaison != contact_format:
+            yield ':TC Liaisons: ' + ', '.join(
+                '%(name)s (``%(irc)s``) <%(email)s>' % tl
+                for tl in tc_liaison)
         events = liaisons.get('events', contact_format)
         if events != contact_format:
             yield ':Events Liaisons: ' + ', '.join(

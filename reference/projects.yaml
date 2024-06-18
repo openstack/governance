@@ -246,6 +246,13 @@ freezer:
       - name: Alvaro Soto
         irc: khyr0n
         email: alsotoes@gmail.com
+    tc-liaison:
+      - name: Ghanshyam Mann
+        irc: gmann
+        email: gmann@ghanshyammann.com
+      - name: Dmitriy Rabotyagov
+        irc: noonedeadpunk
+        email: noonedeadpunk@gmail.com
   appointed:
     - stein
     - zed
@@ -1989,6 +1996,13 @@ oslo:
       - name: Ben Nemec
         irc: bnemec
         email: openstack@nemebean.com
+    tc-liaison:
+      - name: Ghanshyam Mann
+        irc: gmann
+        email: gmann@ghanshyammann.com
+      - name: Goutham Pacha Ravi
+        irc: gouthamr
+        email: gouthampravi@gmail.com
 Puppet OpenStack:
   ptl:
     name: Takashi Kajinami
@@ -2272,6 +2286,10 @@ Release Management:
       - name: Thierry Carrez
         irc: ttx
         email: thierry@openstack.org
+    tc-liaison:
+      - name: Ghanshyam Mann
+        irc: gmann
+        email: gmann@ghanshyammann.com
 requirements:
   leadership_type: distributed
   irc-channel: openstack-requirements
@@ -2307,6 +2325,13 @@ requirements:
       - name: Tony Breeds
         irc: tonyb
         email: tony@bakeyournoodle.com
+    tc-liaison:
+      - name: Ghanshyam Mann
+        irc: gmann
+        email: gmann@ghanshyammann.com
+      - name: Dmitriy Rabotyagov
+        irc: noonedeadpunk
+        email: noonedeadpunk@gmail.com
 skyline:
   ptl:
     name: Wenxiang Wu
