@@ -31,10 +31,8 @@ the `TC governance website`_ documents and other TC-maintained publications
 such as the `Project Team guide`_. See the list of
 :doc:`repositories maintained by the TC <technical-committee-repos>`.
 
-The TC is just one of the governance bodies more widely involved in
-OpenStack governance. An important part of its role is therefore to
-handle the relationships with other OpenStack governance bodies like
-the OSF Board of Directors, or the OpenStack User Committee.
+The TC is also responsible for handling the relationship with
+the Open Infra Foundation Board of Directors.
 
 Refining and applying the current OpenStack governance model
 ============================================================
