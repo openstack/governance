@@ -256,6 +256,14 @@ No more than half of the TC Members shall be Affiliated as defined in the
 the diversity requirement may be temporarily waived until the next TC election
 by a vote of two thirds of the TC Members.
 
+If election or vacancy in the TC seats results in a violation of the Technical
+Committee affiliation diversity requirement, the candidate with the next
+highest number of votes, whose admission to the Technical Committee would not
+violate the affiliation diversity requirement, will be elected as the new
+Technical Committee Member instead of the member whose admission to the
+Technical Committee would cause a violation of the affiliation diversity
+requirement.
+
 Number of seats to elect
 ========================
 
