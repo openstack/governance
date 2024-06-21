@@ -503,7 +503,10 @@ kolla:
         - openstack/kolla-kubernetes
 
 kuryr:
-  partial: yes
+  # NOTE(gmann) Just to clarify here that Kuryr project itself
+  # is not retired and their main  repositories (Kuryr and
+  # Kuryr-libnetwork) are maintained under the Zun project team.
+  retired-on: 2024-10-17
   deliverables:
     fuxi:
       retired-on: 2018-09-22
@@ -517,6 +520,14 @@ kuryr:
       retired-on: 2018-09-22
       repos:
         - openstack/fuxi-kubernetes
+    kuryr-kubernetes:
+      retired-on: 2024-10-17
+      repos:
+        - openstack/kuryr-kubernetes
+    kuryr-tempest-plugin:
+      retired-on: 2024-10-17
+      repos:
+        - openstack/kuryr-tempest-plugin
 
 MagnetoDB:
   ptl: Ilya Sviridov (isviridov)

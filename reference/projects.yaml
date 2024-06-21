@@ -618,24 +618,6 @@ kolla:
         - openstack/kayobe
         - openstack/kayobe-config
         - openstack/kayobe-config-dev
-kuryr:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
-  irc-channel: openstack-kuryr
-  service: Bridge between OpenStack and container networking
-  mission: >
-    Bridge between container framework networking models to OpenStack
-    networking abstractions.
-  url: https://wiki.openstack.org/wiki/Kuryr
-  deliverables:
-    kuryr-kubernetes:
-      repos:
-        - openstack/kuryr-kubernetes
-    kuryr-tempest-plugin:
-      repos:
-        - openstack/kuryr-tempest-plugin
 magnum:
   ptl:
     name: Jake Yip
