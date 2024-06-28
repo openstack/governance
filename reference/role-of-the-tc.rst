@@ -28,7 +28,8 @@ the TC to describe the community structure, systems, operating principles,
 and values by creating and maintaining corresponding documentation. This is
 done in the :doc:`Technical Committee charter <charter>`,
 the `TC governance website`_ documents and other TC-maintained publications
-such as the `Project Team guide`_.
+such as the `Project Team guide`_. See the list of
+:doc:`repositories maintained by the TC <technical-committee-repos>`.
 
 The TC is just one of the governance bodies more widely involved in
 OpenStack governance. An important part of its role is therefore to

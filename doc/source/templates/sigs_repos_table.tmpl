@@ -1,0 +1,16 @@
+.. -*- mode: rst -*-
+
+.. This template renders a table showing repositories under the maintainership of OpenStack SIGs
+
+.. list-table::
+   :header-rows: 1
+   :align: left
+
+   - * SIG
+     * Repositories
+{%- for sig in data %}
+   - * {{ sig }}
+     * {%- for item in data[sig]  %}
+       | `{{ item['repo'] }} <https://opendev.org/{{ item['repo'] }}>`_
+       {%- endfor %}
+{%- endfor %}
