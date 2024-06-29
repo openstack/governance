@@ -96,7 +96,7 @@ def to_datetime(s, default=None):
     if s is None:
         return default
     s = s.rpartition('.')[0]
-    return datetime.datetime.strptime(s, '%Y-%m-%d %H:%M:%S')
+    return datetime.datetime.strptime(s, '%Y-%m-%d %H:%M:%S').replace(tzinfo=datetime.timezone.utc)
 
 
 def find_latest_revision(review):
@@ -125,7 +125,7 @@ def when_majority(review, required_count):
     "Return the date when the vote reached the required count."
     n = 0
     votes = review['labels'].get('Rollcall-Vote', {}).get('all', [])
-    now = datetime.datetime.now()
+    now = datetime.datetime.now(datetime.timezone.utc)
     for vote in sorted(votes, key=lambda x: to_datetime(x.get('date'), now)):
         if vote.get('value'):
             n += 1
@@ -195,7 +195,7 @@ def get_one_status(change, delegates, tc_members):
 
     latest = find_latest_revision(change)
     latest_created = to_datetime(latest['created'])
-    now = datetime.datetime.utcnow()
+    now = datetime.datetime.now(datetime.timezone.utc)
     age = now - latest_created
     earliest = ''
 
