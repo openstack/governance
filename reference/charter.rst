@@ -264,6 +264,11 @@ Technical Committee Member instead of the member whose admission to the
 Technical Committee would cause a violation of the affiliation diversity
 requirement.
 
+If there are not enough candidates to meet the diversity requirement, the
+TC should pass a special resolution to approve alternative solutions, such
+as waiving the diversity requirement, reducing the number of TC seats, or
+holding a special election.
+
 Number of seats to elect
 ========================
 
