@@ -115,6 +115,7 @@ Current Inactive Projects
 * Monasca
 
   * Inactive since 2024.1 cycle
+  * Extension in 2024.2 cycle
 
 * Freezer
 
