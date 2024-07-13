@@ -108,7 +108,6 @@ removal of projects in this list will require a formal-vote.
 
 Current Emerging Technology Projects
 ------------------------------------
-* Skyline (Added in Zed cycle)
 
 Current Inactive Projects
 -------------------------
