@@ -122,9 +122,9 @@ contributors to the open source project.
 It may delegate rights (and duties) to `TC working groups`_ (like the Election
 officials which have a delegation for running elections).
 
-The TC owns :doc:`git repositories (generally around governance documents)
-</reference/technical-committee-repos>` but does
-not produce OpenStack deliverables by itself.
+The TC owns :doc:`git repositories </reference/technical-committee-repos>`
+containing documentation and tooling pertaining to the governance of OpenStack
+but it does not produce OpenStack deliverables by itself.
 
 Board of Directors, Board committees and working groups
 =======================================================
