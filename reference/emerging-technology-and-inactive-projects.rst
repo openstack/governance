@@ -109,6 +109,8 @@ removal of projects in this list will require a formal-vote.
 Current Emerging Technology Projects
 ------------------------------------
 
+No emerging projects at this moment
+
 Current Inactive Projects
 -------------------------
 * Monasca
