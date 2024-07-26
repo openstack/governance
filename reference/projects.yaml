@@ -308,6 +308,9 @@ glance:
     glance-store:
       repos:
         - openstack/glance_store
+    os-test-images:
+      repos:
+        - openstack/os-test-images
     python-glanceclient:
       repos:
         - openstack/python-glanceclient
