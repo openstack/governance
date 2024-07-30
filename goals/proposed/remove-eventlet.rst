@@ -15,14 +15,14 @@ of freedom individual, this is the problem we had to solve.
 Problem
 =======
 
-OpenStack is build on the top of asynchronous mechanisms.
+OpenStack is built on the top of asynchronous mechanisms.
 
-All the OpenStack components heavily relies on the Eventlet library to
+All the OpenStack components heavily rely on the Eventlet library to
 obtain asynchronous features and greenlet coroutines, however, the OpenStack
 community currently suffer from many aspects of the usage of that library.
 
-Indeed this library currently do not support Python 3.12 and face many issues
-with Python 3.11 (those are described below).
+Indeed this library currently does not support Python 3.12 and face many
+issues with Python 3.11 (those are described below).
 
 This new python version will be part of the supported runtime in the coming
 OpenStack series. At least Python 3.12 should be a supported runtime of the
@@ -45,7 +45,7 @@ situation:
    as an active core member. The consequences of this inactivity are legion.
    Tests don't pass, locally or in CI. CI doesn't run at all for Python 3.11.
    The github pull requests and issues backlogs of Eventlet are growing
-   indefinitely. Legit bug are not fixed. Python 3.12 is not supported in
+   indefinitely. Legit bugs are not fixed. Python 3.12 is not supported in
    runtime.
 
 #. **The technological dead-end:** The premise of Eventlet is drop-in
@@ -130,7 +130,7 @@ to EOLed design of CPython.
 
 One could think that the Eventlet case is an isolated case. Unfortunately not.
 `Resources are scarce <https://www.sonatype.com/hubfs/9th-Annual-SSSC-Report.pdf>`_.
-The same observation is true for the vast majority of other third parties
+The same observation is true have the vast majority of other third parties
 libraries. Almost all these libraries rest on the shoulders of one or two
 people. It's the harsh law of the open source ecosystem. **Scarcity lead the
 world**. Only mainstream projects like CPython or OpenStack has decent
@@ -211,7 +211,7 @@ On Eventlet
 ===========
 
 The purpose of Eventlet is to manage asynchronism. To achieve that goal
-Eventlet rely on concepts, `monkey patching
+Eventlet relies on concepts, `monkey patching
 <https://eventlet.readthedocs.io/en/latest/patching.html#greening-the-world>`_,
 and `greenthread <https://eventlet.readthedocs.io/en/latest/modules/greenthread.html>`.
 
@@ -261,13 +261,13 @@ On the Perspective of the Proposed Solution
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **The solution proposed below focus exclusively on OpenStack components that
-currently relies on Eventlet. OpenStack components which are not relying on
+currently rely on Eventlet. OpenStack components which are not relying on
 Eventlet can safely ignore this proposal. The proposed solution is a by
 default solution. Like with all governance goals, OpenStack teams are free to
 design their own solution.**
 
-We should notice that Many teams do not have time and resources to follow
-their own path. For many of these team, the threading model they have
+We should notice that many teams do not have time and resources to follow
+their own path. For many of these teams, the threading model they have
 inherited through the usage of Eventlet is blackbox. These teams are afraid to
 touch this model.
 
@@ -429,8 +429,8 @@ would requires several series to be fully applied.
 Removing Eventlet is not an option. That's a vital need.
 Lets see how to do that removal.
 
-The Alternatives
-================
+The Available Alternatives to Eventlet
+======================================
 
 We need alternatives to replace Eventlet. One Alternative one choice, many
 alternatives many choices. Variety is the key of decision-making autonomy.
@@ -546,14 +546,14 @@ Client/Server library for AsyncIO and Python.
 We think that Aiohttp is a credible alternative to many use cases
 provided by Eventlet's patterns.
 
-Using aiohttp de facto lead us to using AsyncIO. Rewriting a server module
+Using aiohttp de facto lead us to use AsyncIO. Rewriting a server module
 with aiohttp may require a significant amounts of works. Fortunately for us
 Aiohttp can now be used through the mechanisms offered by Awaitlet.
 
 Eventlet's AsyncIO Hub
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Eventlet's is `AsyncIO Hub
+Eventlet's `AsyncIO Hub
 <https://eventlet.readthedocs.io/en/latest/asyncio/compatibility.html#asyncio-compatibility>`_
 is a compatibility layer between AsyncIO and
 Eventlet. This hub has been recently introduced. Like Awaitlet, the creation
@@ -573,8 +573,8 @@ Threading
 To finish, threading and native threads could be used to run tasks in a
 parallel fashion.
 
-As Eventlet rely on green threads and greenlet, in many aspects, it would
-surely more easier to migrate our Eventlet existing code to native threads.
+As Eventlet rely on green threads and greenlet, in many aspects, it would be
+surely easier to migrate our Eventlet existing code to native threads.
 On the other hand, using Awaitlet could provide a credible alternative to
 threads, depending on the context.
 
@@ -620,21 +620,21 @@ related to features of oslo.service rather than to Eventlet itself.
 Migration Guide
 ===============
 
-The migration guide rest on 3 pillars:
+The migration guide rests on 3 pillars:
 
 #. The guide would define the official alternatives where we would be
    able to provide assistance. ;
 
-#. The guide must provide a glossary to ensure that everyone as the same
+#. The guide must provide a glossary to ensure that everyone has the same
    understanding of the used terms;
 
-#. the guide aim to provide a table of correspondences that developers
+#. the guide aims to provide a table of correspondences that developers
    can use to migrate their code and hence remove their Eventlet usages.
 
 **This section simply aim to offer an overview of what this guide could look
 like**.
 
-The guide proposal made in this document don't aim to give all the possible
+The guide proposal made in this document doesn't aim to give all the possible
 details that can find their place in this guide. This proposal simply opens
 this referential. The details of the different section of this guide should
 be defined in a parallel spec/blueprint/review.
@@ -642,9 +642,9 @@ be defined in a parallel spec/blueprint/review.
 As new usages of Eventlet are discouraged, and as migrating off of Eventlet
 is encouraged, we think that this guide will benefit to a more broader
 audience if it is hosted into the Eventlet documentation itself. The whole
-Python community would benefit of this guide and of our works.
+Python community would benefit from this guide and from our works.
 
-Lets now observe the details and concepts of each pillars.
+Lets now observe the details and concepts of each pillar.
 
 The Storage of the Alternatives
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -653,7 +653,7 @@ That's just the storage of the elements, the alternatives, from the previous
 section. Alternatives may be seen as something alive, so the guide needs to
 remains up-to-date in accordance with the possible additions.
 
-we may think the selected alternatives as a shelve of raw materials.
+we may think the selected alternatives as a shelf of raw materials.
 Elementary bricks. Building house requires bricks, but it also require
 architectural plan. The table of correspondences below is the architectural
 plan.
@@ -702,9 +702,9 @@ Tables are the keys of the freedom of decision-making.
 The first table of correspondences would be based on the main Eventlet
 design patterns, server, client, dispatch (see :ref:`on-eventlet`).
 
-This table invite the persons in charge of the migration to think in terms
-of common patterns. Most people using Eventlet can identify themself into one
-of these tree categories.
+This table invites the persons in charge of the migration to think in terms
+of common patterns. Most people using Eventlet can identify themselves into
+one of these three categories.
 
 +---------------------+--------------------------------+--------------------------------+
 | Eventlet Patterns   | Eventlet features              | Available alternatives         |
@@ -743,9 +743,9 @@ of these tree categories.
 |                     |                                | awaitlet*                      |
 +---------------------+--------------------------------+--------------------------------+
 
-The second table of correspondences invite the reader to think in terms of
+The second table of correspondences invites the reader to think in terms of
 task and coroutine. This table is based on a hierarchy of tiers.
-Each tiers are built on the specification of the previous level.
+Each tier is built on the specification of the previous level.
 
 To provide replacement to existing features of Eventlet, we think it is much
 more useful to think about the use cases being arranged in a hierarchy, rather
@@ -754,7 +754,7 @@ than a flat list.
 This way of representing the correspondences is inspired from the book
 `Using Asyncio in Python <https://www.oreilly.com/library/view/using-asyncio-in/9781492075325/>`_.
 
-Each tiers is related to a level of abstraction. The first tiers are
+Each tier is related to a level of abstraction. The first tiers are
 the most abstract layers. The last tiers reflect low level mechanisms.
 
 For most people Eventlet and its threading model is a blackbox. By reasoning
@@ -770,15 +770,15 @@ by blocking code (native thread who will blocks the calling thread).
 Developers will be free to decide which solution best fit their needs.
 
 Asyncio target two main audiences:
-    * end-users developers who wants to make applications using asyncio -
+    * end-users developers who want to make applications using asyncio -
       Some may consider OpenStack services (neutron, nova, etc);
-    * framework developers who wants to make frameworks and libraries that
+    * framework developers who want to make frameworks and libraries that
       end-users developers can use in their applications -
       Some may consider OpenStack shared libraries (oslo, etc).
 
-But the OpenStack world is not so waterproof, and it is common to see teams who
-implements services to also implements API related to these services, so even
-services may be seen as a framework developers audience.
+But the OpenStack world is not so waterproof, and it is common to see teams
+who implement services to also implement API related to these services, so
+even services may be seen as a framework developers audience.
 
 This hierarchy is so strongly coupled to Asyncio concept, but other third
 party libraries and stdlib modules may find their places somewhere in this
@@ -839,9 +839,9 @@ Eventlet based logic.
 |                     |                                | dnspython                      |
 +---------------------+--------------------------------+--------------------------------+
 
-The previous table voluntarily ignore some Eventlet concepts like
+The previous table voluntarily ignores some Eventlet concepts like
 ``eventlet.patcher``, ``eventlet.hubs``, who have no meaning outside of the
-Eventlet context. The previous table also voluntarily ignore green
+Eventlet context. The previous table also voluntarily ignores green
 representations of third party modules like ``eventlet.zmq``.
 
 We should notice that finally many subsets of Eventlet features may match
@@ -897,12 +897,12 @@ Migrating a library, in our example oslo.demo, would mean:
 #. Developers of the oslo.demo should identify which python packages could be
    good candidates for the implementation of their Asyncio based driver.
 
-   Example, in an oslo.messaging context, the existing rabbitmq driver rely on
-   `py-amqp <https://github.com/celery/py-amqp>`_ library, the new Asyncio
+   Example, in an oslo.messaging context, the existing rabbitmq driver relies
+   on `py-amqp <https://github.com/celery/py-amqp>`_ library, the new Asyncio
    based driver could rely on `aioamqp <https://github.com/Polyconseil/aioamqp>`_.
    Both drivers will be available for end users.
 
-   It exists good candidates for almost all our third parties
+   There exists good candidates for almost all our third parties
    libraries. `Here is curated list <https://github.com/timofurrer/awesome-asyncio>`_
    that can help us which package we want to use for depending on our needs.
 
@@ -916,7 +916,7 @@ Migrating a library, in our example oslo.demo, would mean:
 #. Libraries may have specific features who are strongly related to Eventlet,
    like the ``heartbeat_in_pthread`` feature in oslo.messaging. Removing
    Eventlet would make these feature obsolete. As this kind of feature
-   expose configuration endpoints we would have to deprecate them to allow
+   exposes configuration endpoints we would have to deprecate them to allow
    lib users (services) to update their config files accordingly. However, the
    deprecation process would take several months or even series before hoping
    to see these features removed. Hence blocking the migration.
@@ -949,7 +949,7 @@ Migrating a library, in our example oslo.demo, would mean:
 How to migrate a service
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-As for libraries, the migration of services could be incremental.
+As with libraries, the migration of services could be incremental.
 As long as the OpenStack deliverables start releasing migrated sub modules
 operators would be able to start using them.
 
@@ -1005,7 +1005,7 @@ named ``supernova``. Migrating a service like ``supernova`` would mean:
    requirements versions could be used to identify which subtopics remains
    an active topic or not - a transition to be made.
 
-   We could maintains a requirements matrix helping to identify which
+   We could maintain a requirements matrix helping to identify which
    versions of OpenStack libraries are already migrated or not and maybe
    what is their level of migration completeness.
 
@@ -1066,7 +1066,7 @@ to provide a full and unified context.*
 As Python 3.12 will be a supported runtime in the next coming
 OpenStack series, the support issue should be quickly fixed.
 
-So, In short terms Eventlet itself should be fixed first.
+So, In short term, Eventlet itself should be fixed first.
 
 This milestone should be done before the beginning the next series
 ("2024.2/Dalmatian").
@@ -1222,7 +1222,7 @@ the first bricks. Here are items for milestone 2:
    * OpenStackSDK (SDK is blocking and do not support async, it should be also
    migrated to Asyncio to avoid wrapping rest calls made to other services)
 
-   The solution described here propose to adapt common libraries with a
+   The solution described here proposes to adapt common libraries with a
    collection new drivers and backends based on Asyncio in addition of
    the already existing drivers and backends. Teams maintaining services will
    be free to decide which can of backend they want to use, and which kind of
@@ -1474,10 +1474,10 @@ Identified Blocking Points
 Epolls Multiple Readers
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-OpenStack rely on hacks who allow to disable the Eventlet protection
+OpenStack rely on hacks which allow to disable the Eventlet protection
 against race condition. Indeed, by default Eventlet's hub prevent multiple
 readers (greenlets) reading from a socket. However, Eventlet also come
-with a **debug** convenience who allow to disable this protection. Hence,
+with a **debug** convenience which allow to disable this protection. Hence,
 using this convenience mean allowing readers to read from the same socket and
 hence introducing several risks of race conditions and of unexpected
 behaviors.
