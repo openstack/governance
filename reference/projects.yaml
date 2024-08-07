@@ -2228,7 +2228,10 @@ rally:
       repos:
         - openstack/performance-docs
 Release Management:
-  leadership_type: distributed
+  ptl:
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-release
   mission: >
     Coordinating the release of OpenStack deliverables, by defining the
@@ -2251,32 +2254,6 @@ Release Management:
       release-management: none
       repos:
         - openstack/specs-cookiecutter
-  liaisons:
-    release:
-      - name: Hervé Beraud
-        irc: hberaud
-        email: hberaud@redhat.com
-      - name: Thierry Carrez
-        irc: ttx
-        email: thierry@openstack.org
-      - name: Elod Illes
-        irc: elodilles
-        email: elod.illes@est.tech
-      - name: Jens Harbott
-        irc: frickler
-        email: frickler@offenerstapel.de
-    tact-sig:
-      - name: Jeremy Stanley
-        irc: fungi
-        email: fungi@yuggoth.org
-    security:
-      - name: Thierry Carrez
-        irc: ttx
-        email: thierry@openstack.org
-    tc-liaison:
-      - name: Ghanshyam Mann
-        irc: gmann
-        email: gmann@ghanshyammann.com
 requirements:
   leadership_type: distributed
   irc-channel: openstack-requirements
