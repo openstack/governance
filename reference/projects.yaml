@@ -232,10 +232,27 @@ designate:
       repos:
         - openstack/python-designateclient
 freezer:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+  leadership_type: distributed
+  liaisons:
+    release:
+      - name: Dmitriy Rabotyagov
+        irc: noonedeadpunk
+        email: noonedeadpunk@gmail.com
+    tact-sig:
+      - name: Dmitriy Rabotyagov
+        irc: noonedeadpunk
+        email: noonedeadpunk@gmail.com
+    security:
+      - name: Alvaro Soto
+        irc: khyr0n
+        email: alsotoes@gmail.com
+    tc-liaison:
+      - name: Ghanshyam Mann
+        irc: gmann
+        email: gmann@ghanshyammann.com
+      - name: Dmitriy Rabotyagov
+        irc: noonedeadpunk
+        email: noonedeadpunk@gmail.com
   appointed:
     - stein
     - zed
