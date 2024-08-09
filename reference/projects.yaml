@@ -2641,27 +2641,10 @@ vitrage:
       repos:
         - openstack/xstatic-moment-timezone
 watcher:
-  leadership_type: distributed
-  liaisons:
-    release:
-      - name: Dan Smith
-        irc: dansmith
-        email: dms@danplanet.com
-    tact-sig:
-      - name: Dan Smith
-        irc: dansmith
-        email: dms@danplanet.com
-    security:
-      - name: Dan Smith
-        irc: dansmith
-        email: dms@danplanet.com
-    tc-liaison:
-      - name: Ghanshyam Mann
-        irc: gmann
-        email: gmann@ghanshyammann.com
-      - name: Dan Smith
-        irc: dansmith
-        email: dms@danplanet.com
+  ptl:
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - zed
   irc-channel: openstack-watcher
