@@ -51,11 +51,23 @@ Exit criteria
 A project can exit the ``Emerging technology`` or ``inactive`` state by either
 becoming an active OpenStack project or by becoming a retired project.
 
-A project is considered active when it meets all the requirements to be an
-OpenStack official project, which are described in
+An ``Emerging technology`` project can be considered active when it meets all
+the requirements to be an OpenStack official project, which are described in
 :doc:`new-projects-requirements`.  In particular, there must be a sufficient
 number of active maintainers to perform all the basic activities of OpenStack
 official projects.
+
+Any existing project which became ``inactive`` and did not turn back to the
+``active`` state before milestone-2 of the same cycle (see `Timeline`_) will
+usually stay in the ``inactive`` state for at least one full cycle in which it
+meets all of the :doc:`new-projects-requirements`.
+If it meets all those requirements for one full cycle, and continues to
+be in the good shape in the next one, then it can be considered by the TC to
+exit an ``inactive`` state and become an active OpenStack project again.
+If a project becomes active very early in a cycle after it was deemed
+"inactive", project members can approach the TC to waive the two-cycle wait
+period mentioned above. This proposal must be made to the TC before Milestone-2
+of the release.
 
 A project may be retired by the TC if it does not complete the work required to
 become an active project within the timeline defined below.
@@ -84,15 +96,15 @@ An existing project should be reinstated as an active OpenStack project before
 the release milestone-2 of the cycle they entered or extended the ``inactive``
 state to become ``active`` again and to be released in that cycle.  In the case
 where an ``inactive`` project does not become ``active`` before the release
-milestone-2, there will be no release of it proposed by the release team in
-that cycle. In such a case, it is up to the project itself to get CI working
-and propose a release if that is needed. It may be required in some cases for
+milestone-2, there will be no release of it proposed by the release team in that
+cycle.  In such a case, it is up to the project itself to get CI working and
+propose a release if that is needed. It may be required in some cases for
 example, when there will be security fixes or compatibility fixes merged in the
-project. In the case where an ``inactive`` project still does not become
-``active`` during the next cycle after the cycle they entered or extended the
-``inactive`` state, the TC will discuss with the team if project will be retired
-before the release milestone-2 of the cycle. In such a case there will be no new
-releases of that project.
+project. In the case where an ``inactive`` project still does not meet
+requirements for an official OpenStack project during the next cycle after the
+cycle they entered or extended the ``inactive`` state, the TC will discuss with
+the team if project will be retired before the release milestone-2 of the cycle.
+In such a case there will be no new releases of that project.
 
 If TC detects inactive project or project becomes inactive after the release
 milestone-2 of the cycle, TC needs to take decision based on the severity and
