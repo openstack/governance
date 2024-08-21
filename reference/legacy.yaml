@@ -656,10 +656,50 @@ OpenStack Charms:
       retired-on: 2018-09-22
       repos:
         - openstack/charm-ceph
+    charm-glusterfs:
+      retired-on: 2024-08-21
+      repos:
+        - openstack/charm-glusterfs
+    charm-manila-glusterfs:
+      retired-on: 2024-08-21
+      repos:
+        - openstack/charm-manila-glusterfs
+    charm-mistral:
+      retired-on: 2024-08-21
+      repos:
+        - openstack/charm-mistral
+    charm-murano:
+      retired-on: 2024-08-21
+      repos:
+        - openstack/charm-murano
     charm-neutron-api-genericswitch:
       retired-on: 2019-09-10
       repos:
         - openstack/charm-neutron-api-genericswitch
+    charm-nova-lxd:
+      retired-on: 2024-08-21
+      repos:
+        - openstack/charm-nova-lxd
+    charm-neutron-api-odl:
+      retired-on: 2024-08-21
+      repos:
+        - openstack/charm-neutron-api-odl
+    charm-odl-controller:
+      retired-on: 2024-08-21
+      repos:
+        - openstack/charm-odl-controller
+    charm-openvswitch-odl:
+      retired-on: 2024-08-21
+      repos:
+        - openstack/charm-openvswitch-odl
+    charm-panko:
+      retired-on: 2024-08-21
+      repos:
+        - openstack/charm-panko
+    charm-trove:
+      retired-on: 2024-08-21
+      repos:
+        - openstack/charm-trove
 
 OpenStack Chef:
   ptl:
