@@ -119,9 +119,17 @@ DPL model & liaison duration
 DPL liaisons are assigned for a single release cycle. The assigned TC liaison
 will follow the project activities at regular intervals. Before the next cycle
 PTL election nominations start, the TC liaison will reset the project team
-leadership model to PTL and the project team needs to opt-in to the DPL model
-explicitly with the same or new liaisons. This requires +1 from all the people
-volunteering as liaisons.
+leadership model to PTL. A project team needs to opt-in to the DPL model
+again, explicitly before the next cycle PTL election nominations start. This
+can be done by either of the following options:
+
+* All current liaisons are recording their -1 vote against the change to reset
+  the leadership model. Once all liaisons have recorded -1 vote, the TC will
+  not reset the DPL model and will consider continuing the DPL model for the
+  next cycle as well.
+* If the DPL model has already been reset, a new change to readopt the DPL
+  model needs to be proposed. This change requires +1 from all the people
+  volunteering as liaisons.
 
 Points of Concern
 -----------------
