@@ -40,7 +40,7 @@ against, at a minimum:
 * Python 3.9 (available as default in Rocky Linux 9)
   Python 3.9 is the the minimum supported/required version for 2025.1.
   This does not imply that Debian 11 is the minimum supported distribution
-  but it may be used for tox testing. supporting Python 3.9 does not require
+  but it may be used for tox testing. Supporting Python 3.9 does not require
   full tempest testing, but py39 unit tests are expected as a minimum
   requirement for all Python projects. The minimal requirement for
   testing jobs against Python versions above is to ensure language compatibility,
