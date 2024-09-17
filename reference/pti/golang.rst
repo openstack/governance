@@ -14,7 +14,7 @@ foreign to what developers are accustomed to in their respective
 communities.  Remember these are first OpenStack projects
 and they follow OpenStack processes where feasible.
 
-Each golang project must be able to do:
+Each project with golang components must be able to do:
 
 - Dependency installation
 - Code style checks

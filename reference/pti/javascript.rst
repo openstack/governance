@@ -5,7 +5,8 @@ Project Testing Interface: JavaScript
 =====================================
 
 This document outlines common ways to meet the Project Testing Interface
-requirements for JavaScript. Each JavaScript project must be able to do:
+requirements for JavaScript. Each project with JavaScript components must be
+able to do:
 
 - Codestyle checks.
 - Execute Tests and Code Coverage

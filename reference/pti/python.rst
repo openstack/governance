@@ -4,7 +4,7 @@
 Project Testing Interface: Python
 =================================
 
-Each python project must be able to do:
+Each project containing Python components must be able to do:
 
 - Unit tests for python (see below for version details)
 - Codestyle checks
