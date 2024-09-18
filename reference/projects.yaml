@@ -1161,10 +1161,6 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-gnocchi
-    charm-panko:
-      release-management: external
-      repos:
-        - openstack/charm-panko
     charm-placement:
       release-management: external
       repos:
@@ -1177,10 +1173,6 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-glance-simplestreams-sync
-    charm-glusterfs:
-      release-management: external
-      repos:
-        - openstack/charm-glusterfs
     charm-guide:
       release-management: none
       repos:
@@ -1433,10 +1425,6 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-manila-generic
-    charm-manila-glusterfs:
-      release-management: external
-      repos:
-        - openstack/charm-manila-glusterfs
     charm-manila-netapp:
       release-management: external
       repos:
@@ -1453,14 +1441,6 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-masakari-monitors
-    charm-mistral:
-      release-management: external
-      repos:
-        - openstack/charm-mistral
-    charm-murano:
-      release-management: external
-      repos:
-        - openstack/charm-murano
     charm-mysql-innodb-cluster:
       release-management: external
       repos:
@@ -1469,18 +1449,10 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-mysql-router
-    charm-nova-lxd:
-      release-management: external
-      repos:
-        - openstack/charm-nova-lxd
     charm-neutron-api:
       release-management: external
       repos:
         - openstack/charm-neutron-api
-    charm-neutron-api-odl:
-      release-management: external
-      repos:
-        - openstack/charm-neutron-api-odl
     charm-neutron-api-plugin-arista:
       release-management: external
       repos:
@@ -1537,10 +1509,6 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-octavia-diskimage-retrofit
-    charm-odl-controller:
-      release-management: external
-      repos:
-        - openstack/charm-odl-controller
     charm-openstack-dashboard:
       release-management: external
       repos:
@@ -1549,10 +1517,6 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-openstack-loadbalancer
-    charm-openvswitch-odl:
-      release-management: external
-      repos:
-        - openstack/charm-openvswitch-odl
     charm-ops-interface-ceph-client:
       release-management: external
       repos:
@@ -1617,10 +1581,6 @@ OpenStack Charms:
       release-management: external
       repos:
         - openstack/charm-trilio-wlm
-    charm-trove:
-      release-management: external
-      repos:
-        - openstack/charm-trove
     charm-vault:
       release-management: external
       repos:
