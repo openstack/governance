@@ -1,3 +1,4 @@
+---
 adjutant:
   ptl:
     name: Dale Smith
@@ -180,7 +181,7 @@ cyborg:
   appointed:
     - ussuri
     - xena
-    - "2024.1"
+    - '2024.1'
   irc-channel: openstack-cyborg
   service: Accelerator Life Cycle Management
   mission: >
@@ -741,9 +742,9 @@ masakari:
         - openstack/masakari-dashboard
 mistral:
   ptl:
-    name: axel vanzaghi
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: avanzaghi.osf@axellink.fr
+    email: example@example.org
   appointed:
     - '2024.1'
   irc-channel: openstack-mistral
@@ -879,7 +880,7 @@ neutron:
       repos:
         - openstack/networking-midonet
     networking-odl:
-      deprecated: "2023.2"
+      deprecated: '2023.2'
       release-management: deprecated
       repos:
         - openstack/networking-odl
@@ -2299,8 +2300,8 @@ skyline:
     email: wu.wenxiang@99cloud.net
   appointed:
     - zed
-    - "2024.1"
-    - "2024.2"
+    - '2024.1'
+    - '2024.2'
   irc-channel: openstack-skyline
   service: Dashboard
   mission: >
@@ -2334,11 +2335,11 @@ storlets:
         - openstack/storlets
 sunbeam:
   ptl:
-    name: Hemanth Nakkina
-    irc: No nick supplied
-    email: hemanth.nakkina@canonical.com
+    name: Guillaume Boutry
+    irc: gboutry
+    email: guillaume.boutry@canonical.com
   appointed:
-    - "2024.1"
+    - '2024.1'
   irc-channel: openstack-sunbeam
   service: Deployment and operational tooling for OpenStack
   mission: >
@@ -2374,9 +2375,9 @@ sunbeam:
         - openstack/sunbeam-charms
 swift:
   ptl:
-    name: Tim Burke
-    irc: timburke
-    email: tburke@nvidia.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - victoria
     - '2023.1'
@@ -2480,7 +2481,7 @@ Telemetry:
         - openstack/telemetry-tempest-plugin
 trove:
   ptl:
-    name: chunyang wu
+    name: wu chunyang
     irc: wuchunyang
     email: wchy1001@gmail.com
   appointed:
