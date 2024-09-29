@@ -3,13 +3,13 @@ Migrate CI/CD jobs to Ubuntu 24.04 (Noble Numbat)
 =================================================
 
 For the Epoxy development cycle :doc:`current tested runtime </reference/runtimes/2025.1>`
-was defined to support Ubuntu 24.04 (Noble). This means that our jobs should
+it was defined to support Ubuntu 24.04 (Noble). This means that our jobs should
 be compatible with this distribution and using it by default. We should
 identify and migrate jobs that are currently using Ubuntu 22.04 (Jammy)
 to use Ubuntu 24.04 (Noble) instead.
 
 If any failures related to the new distro (Noble) block project development
-progress, then we can help project to either with fixing code to support
+progress, then we can help projects either with fixing code to support
 Ubuntu 24.04 or override nodeset for their jobs and add Noble jobs as
 non-voting, so that projects can continue using Jammy nodeset until codebase
 is fully compatible with Noble.
