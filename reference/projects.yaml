@@ -2348,30 +2348,11 @@ sunbeam:
     containing many 1000's of hypervisors - leveraging a hybrid deployment
     model using Juju to manage both Kubernetes components and machine based
     components through the use of charms.
-  url: https://opendev.org/openstack/charm-ops-sunbeam/src/branch/main/README.rst
+  url: https://opendev.org/openstack/sunbeam-charms/src/branch/main/ops-sunbeam/README.rst
   deliverables:
     sunbeam-charms:
       release-management: external
       repos:
-        - openstack/charm-aodh-k8s
-        - openstack/charm-barbican-k8s
-        - openstack/charm-ceilometer-k8s
-        - openstack/charm-cinder-ceph-k8s
-        - openstack/charm-cinder-k8s
-        - openstack/charm-designate-bind-k8s
-        - openstack/charm-designate-k8s
-        - openstack/charm-glance-k8s
-        - openstack/charm-gnocchi-k8s
-        - openstack/charm-heat-k8s
-        - openstack/charm-horizon-k8s
-        - openstack/charm-keystone-k8s
-        - openstack/charm-magnum-k8s
-        - openstack/charm-neutron-k8s
-        - openstack/charm-nova-k8s
-        - openstack/charm-octavia-k8s
-        - openstack/charm-openstack-hypervisor
-        - openstack/charm-ops-sunbeam
-        - openstack/charm-placement-k8s
         - openstack/sunbeam-charms
 swift:
   ptl:
