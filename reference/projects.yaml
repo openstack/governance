@@ -2356,13 +2356,14 @@ sunbeam:
         - openstack/sunbeam-charms
 swift:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Tim Burke
+    irc: timburke
+    email: tburke@nvidia.com
   appointed:
     - victoria
     - '2023.1'
     - '2023.2'
+    - '2025.1'
   irc-channel: openstack-swift
   service: Object Storage service
   mission: >
