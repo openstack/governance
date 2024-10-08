@@ -104,7 +104,7 @@ Details
    releases, the result is also that the minimum *length* of time that
    things may be deprecated before removal will increase as well.
 #. **Support**: We will expect to support both the most recent "SLURP"
-   release as well as the one prior. During a "note-SLURP" release, that
+   release as well as the one prior. During a "not-SLURP" release, that
    would effectively be similar to what we support today, which is 18 months
    of "maintained" releases. See the example sequence below.
 #. **Rolling Upgrades**: This scheme does not necessarily dictate that
