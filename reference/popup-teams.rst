@@ -30,9 +30,16 @@ Current OpenStack popup teams
 Image encryption
 ----------------
 
-* **Co-leads**: Josephine Seifert and Markus Hentsch
+Co-leads
+~~~~~~~~
 
-* **TC Liaison**: Jeremy Stanley
+* Josephine Seifert
+* Markus Hentsch
+
+TC Liaison
+~~~~~~~~~~
+
+* Jeremy Stanley (fungi)
 
 * **Objective**: Implementing encryption and decryption of images and the
   handling of those images in OpenStack
@@ -52,7 +59,7 @@ Co-leads
 TC Liaison
 ~~~~~~~~~~
 
-Ghanshyam Mann (gmann)
+* Ghanshyam Mann (gmann)
 
 Objective
 ~~~~~~~~~
@@ -83,6 +90,51 @@ This team will be disbanded after:
 
 #. A community goal to migrate the remaining projects is proposed and accepted
    by the TC
+
+
+Eventlet Removal
+----------------
+
+Co-leads
+~~~~~~~~
+
+* Hervé Beraud (hberaud)
+* Mike Bayer (zzzeek)
+
+TC Liaison
+~~~~~~~~~~
+
+* Goutham Pacha Ravi (gouthamr)
+
+Objective
+~~~~~~~~~
+
+`Eventlet <https://eventlet.readthedocs.io/>`_ is an open source library that
+is extensively used in OpenStack code to achieve multitasking through lightweight
+green threads. This library is nearly two decades old, and in the recent times, a
+lot of improvements have been made to CPython and the python standard libraries
+to improve multitasking. These improvements continue to occur through python
+versions, and it is becoming untenable to maintain eventlet's
+strategy of monkey-patching stdlib. Further, eventlet's development has
+slowed down compared to other concurrency libraries. The team maintaining it
+has actively asked users to migrate from the library.
+
+This pop-up team tracks the migration away from eventlet across OpenStack.
+
+More information: https://wiki.openstack.org/wiki/Eventlet-removal
+
+
+Disband criteria
+~~~~~~~~~~~~~~~~
+
+This team will be disbanded after:
+
+#. Support exists in oslo libraries for replacing paradigms using eventlet
+   with sustainable alternatives.
+
+#. A majority of OpenStack project teams have migrated away from the use of
+   eventlet within the projects they maintain.
+
 
 Process for addition or removal
 ===============================
