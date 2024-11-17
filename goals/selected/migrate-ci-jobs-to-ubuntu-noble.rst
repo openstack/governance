@@ -32,6 +32,11 @@ gerrit topic::
 
   migrate-to-noble
 
+Tracking
+========
+
+* https://etherpad.opendev.org/p/migrate-to-noble
+
 Completion Criteria
 ===================
 
