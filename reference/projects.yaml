@@ -1636,6 +1636,7 @@ OpenStackAnsible:
     openstack-ansible-roles:
       repos:
         - openstack/ansible-role-frrouting
+        - openstack/ansible-role-httpd
         - openstack/ansible-role-qdrouterd
         - openstack/ansible-role-pki
         - openstack/ansible-role-proxysql
