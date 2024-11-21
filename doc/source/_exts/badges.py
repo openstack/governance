@@ -93,8 +93,8 @@ height="20" x="{svg_x}" y="{svg_y}">
 def _badge(left_text, right_text, link=None, colorscheme='brightgreen'):
 
     font = ImageFont.truetype('DejaVuSans.ttf', 11)
-    left_width = font.getsize(left_text)[0] + PADDING
-    right_width = font.getsize(right_text)[0] + PADDING
+    left_width = font.getbbox(left_text)[0] + PADDING
+    right_width = font.getbbox(right_text)[0] + PADDING
     width = left_width + right_width
 
     data = {
