@@ -843,6 +843,18 @@ OpenStackAnsible:
       retired-on: 2020-05-11
       repos:
         - openstack/openstack-ansible-security
+    openstack/openstack-ansible-os_murano:
+      retired-on: 2024-11-19
+      repos:
+        - openstack/openstack-ansible-os_murano
+    openstack/openstack-ansible-os_sahara:
+      retired-on: 2024-11-19
+      repos:
+        - openstack/openstack-ansible-os_sahara
+    openstack/openstack-ansible-os_senlin:
+      retired-on: 2024-11-19
+      repos:
+        - openstack/openstack-ansible-os_senlin
 
 OpenStackHelm:
   irc-channel: openstack-helm
