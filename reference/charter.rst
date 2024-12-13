@@ -125,10 +125,10 @@ Election for PTL seats
 
 PTL seats are completely renewed every development cycle. A separate election
 is run for each project team. The election nomination as well as the voting
-period should be open for fourteen days (2 weeks for each phase). These
-elections are collectively held (from the nomination start date until the
-voting end date) no later than 2 weeks prior to each cycle final release
-date (on or before 'R-2' week)
+period should be open for at least fourteen days (2 or more weeks for each
+phase). These elections are collectively held (from the nomination start
+date until the voting end date) no later than 2 weeks prior to each cycle
+final release date (on or before 'R-2' week)
 
 If a PTL seat is vacated before the end of the cycle for which the individual
 was elected or after the election (means leaderless project), the TC will
@@ -169,10 +169,10 @@ Members are elected for a term that expires at the conclusion of the second
 scheduled election after the start of their term or after 14 months, whichever
 is shorter. For this election we'll use a multiple-winner election system
 see below). The election nomination as well as the voting period should be
-open for fourteen days (2 weeks for each phase). The election is held
-(from the nomination start date until the voting end date) no earlier than
-8 weeks and no later than 2 weeks prior to each cycle final release date
-(between 'R-8' and 'R-2' week).
+open for at least fourteen days (2 or more weeks for each phase). The election
+is held (from the nomination start date until the voting end date) no
+earlier than 8 weeks and no later than 2 weeks prior to each cycle final
+release date (between 'R-8' and 'R-2' week).
 
 If required, TC and PTL elections can be held as combined election.
 
