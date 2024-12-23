@@ -269,7 +269,6 @@ freezer:
       repos:
         - openstack/freezer
         - openstack/freezer-api
-        - openstack/freezer-dr
     freezer-specs:
       release-management: none
       repos:
