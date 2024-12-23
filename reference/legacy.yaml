@@ -803,6 +803,10 @@ OpenStackAnsible:
   partial: yes
   irc-channel: openstack-ansible
   deliverables:
+    openstack/ansible-role-qdrouterd:
+      retired-on: 2024-12-23
+      repos:
+        - openstack/ansible-role-qdrouterd
     openstack-ansible-os_monasca-ui:
       retired-on: 2018-11-12
       repos:
