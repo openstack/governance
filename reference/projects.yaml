@@ -2154,7 +2154,6 @@ Quality Assurance:
       repos:
         - openstack/devstack-plugin-nfs
     whitebox-tempest-plugin:
-      release-management: none
       repos:
         - openstack/whitebox-tempest-plugin
 rally:
