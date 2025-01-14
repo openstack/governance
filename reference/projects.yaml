@@ -500,6 +500,8 @@ ironic:
     ironic-lib:
       repos:
         - openstack/ironic-lib
+      deprecated: '2025.1'
+      release-management: deprecated
     ironic-prometheus-exporter:
       repos:
         - openstack/ironic-prometheus-exporter
