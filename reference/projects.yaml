@@ -2560,31 +2560,10 @@ vitrage:
       repos:
         - openstack/xstatic-moment-timezone
 watcher:
-  leadership_type: distributed
-  liaisons:
-    project_update_onboarding:
-      - name: Ke Chen
-        irc: chenke
-        email: chen.ke14@zte.com.cn
-    release:
-      - name: Sean Mooney
-        irc: sean-k-mooney
-        email: smooney@redhat.com
-    tact-sig:
-      - name: Marios Andreou
-        irc: marios
-        email: marios@redhat.com
-      - name: Martin Kopec
-        irc: kopecmartin
-        email: mkopec@redhat.com
-    security:
-      - name: Dan Smith
-        irc: dansmith
-        email: danms@danplanet.com
-    tc-liaison:
-      - name: Ghanshyam Mann
-        irc: gmann
-        email: gmann@ghanshyammann.com
+  ptl:
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - zed
   irc-channel: openstack-watcher
