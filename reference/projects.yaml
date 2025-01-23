@@ -2102,6 +2102,10 @@ Quality Assurance:
       release-management: none
       repos:
         - openstack/devstack-plugin-open-cas
+    devstack-plugin-prometheus:
+      release-management: none
+      repos:
+        - openstack/devstack-plugin-prometheus
     devstack-tools:
       repos:
         - openstack/devstack-tools
