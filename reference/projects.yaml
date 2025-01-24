@@ -2560,12 +2560,27 @@ vitrage:
       repos:
         - openstack/xstatic-moment-timezone
 watcher:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
-  appointed:
-    - zed
+  leadership_type: distributed
+  liaisons:
+    release:
+      - name: Sean Mooney
+        irc: sean-k-mooney
+        email: smooney@redhat.com
+    tact-sig:
+      - name: Marios Andreou
+        irc: marios
+        email: marios@redhat.com
+      - name: Chandan Kumar
+        irc: chandankumar
+        email: chkumar@redhat.com
+    security:
+      - name: Dan Smith
+        irc: dansmith
+        email: danms@danplanet.com
+    tc-liaison:
+      - name: Ghanshyam Mann
+        irc: gmann
+        email: gmann@ghanshyammann.com
   irc-channel: openstack-watcher
   service: Infrastructure Optimization service
   mission: >
