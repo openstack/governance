@@ -210,6 +210,17 @@ ec2-api:
       repos:
         - openstack/ec2api-tempest-plugin
 
+freezer:
+  irc-channel: openstack-freezer
+  partial: yes
+  service: Backup, Restore, and Disaster Recovery service
+  url: https://wiki.openstack.org/wiki/Freezer
+  deliverables:
+    freezer:
+      retired-on: 2024-12-23
+      repos:
+        - openstack/freezer-dr
+
 fuel:
   irc-channel: fuel
   service: Deployment service
