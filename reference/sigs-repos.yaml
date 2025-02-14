@@ -18,42 +18,35 @@ Hardware Vendor:
 i18n:
   - repo: openstack/i18n
     extra-acs:
-    - name: Ilya Alekseyev
-      email: ilyaalekseyev@acm.org
-      expires-in: February 2025
-      comment: adiantum (ru)
-    - name: Álvaro Soto
-      email: alsotoes@gmail.com
-      expires-in: October 2024
-      comment: alsotoes (es-MX)
-    - name: Akihiro Motoki
-      email: amotoki@gmail.com
-      expires-in: October 2024
-      comment: amotoki (ja)
     - name: Andi Chandler
       email: andi@gowling.com
-      expires-in: October 2024
+      expires-in: February 2026
       comment: andibing (en-GB)
-    - name: Lee Jongwon
-      email: tothebinaryworld@gmail.com
-      expires-in: February 2025
-      comment: chasetherabbit (ko-KR)
     - name: Georg Hennemann
       email: georg.hennemann@t-systems.com
-      expires-in: February 2025
+      expires-in: August 2025
       comment: gehennem (eo)
+    - name: Ali Abdollahi
+      email: aa9050@gmail.com
+      expires-in: August 2025
+      comment: kia441 (fa)
+    - name: Dmitriy Rabotyagov
+      email: noonedeadpunk@ya.ru
+      expires-in: August 2025
+      comment: noonedeadpunk (ru)
+    - name: Ivan Anfimov
+      email: lazekteam@gmail.com
+      expires-in: February 2026
+      comment: anfimovir (ru)
+    - name: Dmitriy Chubinidze
+      email: dcu995@gmail.com
+      expires-in: February 2026
+      comment: chubinidzedr (ru)
     - name: Ian Y. Choi
       email: ianyrchoi@gmail.com
-      expires-in: October 2024
+      expires-in: February 2026
       comment: ianychoi (ko-KR)
-    - name: Kuemjong Jeong
-      email: goldenbell.jeong@gmail.com
-      expires-in: October 2024
-      comment: jkj1 (ko-KR)
-    - name: Sebastien Boyron
-      email: sebastien@boyron.eu
-      expires-in: February 2025
-      comment: sboyron (fr)
+
 Large Scale:
   - repo: openstack/large-scale
 Meta:
