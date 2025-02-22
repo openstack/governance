@@ -5,18 +5,11 @@
     date: September 2024
     role: null
 
-  - name: Sławek Kapłoński
-    irc: slaweq
-    email: skaplons@redhat.com
-    memberid: 19377
-    date: March 2024
-    role: null
-
   - name: Amy Marrich
     irc: spotz
     email: amy@demarco.com
     memberid: 33567
-    date: March 2024
+    date: February 2025
     role: null
 
   - name: Jens Harbott
@@ -30,21 +23,21 @@
     irc: gouthamr
     email: gouthampravi@gmail.com
     memberid: 35705
-    date: March 2024
-    role: chair
+    date: February 2025
+    role: null
 
   - name: Dmitriy Rabotyagov
     irc: noonedeadpunk
     email: noonedeadpunk@gmail.com
     memberid: 107517
-    date: March 2024
-    role: vice-chair
+    date: February 2025
+    role: null
 
   - name: Artem Goncharov
     irc: gtema
     email: artem.goncharov@gmail.com
     memberid: 101132
-    date: March 2024
+    date: February 2025
     role: null
 
   - name: Doug Goldstein
@@ -59,4 +52,11 @@
     email: sbauza@redhat.com
     memberid: 8407
     date: September 2024
+    role: null
+
+  - name: Michal Nasiadka
+    irc: mnasiadka
+    email: mnasiadka@gmail.com
+    memberid: 61605
+    date: February 2025
     role: null

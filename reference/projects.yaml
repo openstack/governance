@@ -29,9 +29,9 @@ adjutant:
         - openstack/python-adjutantclient
 barbican:
   ptl:
-    name: Grzegorz Grasza
-    irc: xek
-    email: xek@redhat.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - victoria
     - xena
@@ -69,9 +69,9 @@ barbican:
         - openstack/python-barbicanclient
 blazar:
   ptl:
-    name: Pierre Riteau
-    irc: priteau
-    email: pierre@stackhpc.com
+    name: Matt Crees
+    irc: mattcrees
+    email: mattc@stackhpc.com
   irc-channel: openstack-blazar
   service: Resource reservation service
   mission: >
@@ -204,9 +204,9 @@ cyborg:
         - openstack/cyborg-tempest-plugin
 designate:
   ptl:
-    name: Michael Johnson
-    irc: johnsom
-    email: johnsomor@gmail.com
+    name: Omer Schwartz
+    irc: oschwart
+    email: oschwart@redhat.com
   appointed:
     - ussuri
   service: DNS service
@@ -284,9 +284,9 @@ freezer:
         - openstack/python-freezerclient
 glance:
   ptl:
-    name: Pranali Deore
-    irc: pdeore
-    email: pdeore@redhat.com
+    name: Cyril Roelandt
+    irc: croelandt
+    email: cyril@redhat.com
   irc-channel: openstack-glance
   service: Image service
   mission: >
@@ -574,9 +574,9 @@ ironic:
         email: iurygregory@gmail.com
 keystone:
   ptl:
-    name: Dave Wilde
-    irc: d34dh0r53
-    email: dwilde@redhat.com
+    name: Artem Goncharov
+    irc: gtema
+    email: artem.goncharov@gmail.com
   appointed:
     - '2023.1'
   irc-channel: openstack-keystone
@@ -639,9 +639,9 @@ kolla:
         - openstack/kayobe-config-dev
 magnum:
   ptl:
-    name: Jake Yip
-    irc: jakeyip
-    email: jake.yip@ardc.edu.au
+    name: Dale Smith
+    irc: dalees
+    email: dale@catalystcloud.nz
   appointed:
     - zed
   irc-channel: openstack-containers
@@ -711,9 +711,9 @@ manila:
         - openstack/python-manilaclient
 masakari:
   ptl:
-    name: sam sue
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: suzhengwei@inspur.com
+    email: example@example.org
   appointed:
     - yoga
     - zed
@@ -937,9 +937,9 @@ neutron:
         - openstack/ovn-bgp-agent
 nova:
   ptl:
-    name: Sylvain Bauza
-    irc: bauzas
-    email: sbauza@redhat.com
+    name: René Ribaud
+    irc: rribaud
+    email: rene.ribaud@gmail.com
   irc-channel: openstack-nova
   service: Compute service
   mission: >
@@ -975,9 +975,9 @@ nova:
         - openstack/os-resource-classes
 octavia:
   ptl:
-    name: Gregory Thiemonge
-    irc: gthiemonge
-    email: gthiemon@redhat.com
+    name: Michael Johnson
+    irc: johnsom
+    email: johnsomor@gmail.com
   appointed:
     - wallaby
   irc-channel: openstack-lbaas
@@ -1004,9 +1004,9 @@ octavia:
         - openstack/octavia-lib
 OpenStack Charms:
   ptl:
-    name: James Page
-    irc: jamespage
-    email: james.page@canonical.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - wallaby
     - zed
@@ -2069,9 +2069,9 @@ Puppet OpenStack:
         - openstack/puppet-zaqar
 Quality Assurance:
   ptl:
-    name: Martin Kopec
-    irc: kopecmartin
-    email: mkopec@redhat.com
+    name: Ghanshyam Mann
+    irc: gmann
+    email: gmann@ghanshyammann.com
   irc-channel: openstack-qa
   mission: >
     Develop, maintain, and initiate tools and plans to ensure the upstream
@@ -2317,9 +2317,9 @@ storlets:
         - openstack/storlets
 sunbeam:
   ptl:
-    name: Guillaume Boutry
-    irc: gboutry
-    email: guillaume.boutry@canonical.com
+    name: Hemanth Nakkina
+    irc: hemanth-n
+    email: hemanth.nakkina@canonical.com
   appointed:
     - '2024.1'
   irc-channel: openstack-sunbeam
@@ -2407,9 +2407,9 @@ tacker:
         - openstack/tosca-parser
 Telemetry:
   ptl:
-    name: Erno Kuvaja
-    irc: jokke_
-    email: jokke@usr.fi
+    name: Juan Larriba
+    irc: jlarriba
+    email: jlarriba@redhat.com
   appointed:
     - train
   irc-channel: openstack-telemetry
@@ -2479,9 +2479,9 @@ trove:
         - openstack/trove-tempest-plugin
 venus:
   ptl:
-    name: Eric Zhang
+    name: sirui jia
     irc: No nick supplied
-    email: zhanglf01@inspur.com
+    email: jiasirui@inspur.com
   appointed:
     - zed
     - '2023.1'
@@ -2608,9 +2608,9 @@ watcher:
         - openstack/watcher-dashboard
 zaqar:
   ptl:
-    name: Hao Wang
-    irc: wanghao
-    email: sxmatch1986@gmail.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - train
     - victoria
