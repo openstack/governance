@@ -471,10 +471,7 @@ horizon:
       repos:
         - openstack/xstatic-spin
 ironic:
-  ptl:
-    name: Riccardo Pittau
-    irc: rpittau
-    email: elfosardo@gmail.com
+  leadership_type: distributed
   irc-channel: openstack-ironic
   service: Bare Metal service
   mission: >
@@ -554,6 +551,27 @@ ironic:
     virtualpdu:
       repos:
         - openstack/virtualpdu
+  liaisons:
+    release:
+      - name: Riccardo Pittau
+        irc: rpittau
+        email: elfosardo@gmail.com
+    tact-sig:
+      - name: Dmitry Tantsur
+        irc: dtantsur
+        email: dtantsur@protonmail.com
+    security:
+      - name: Jay Faulkner
+        irc: JayF
+        email: jay@jvf.cc
+    tc-liaison:
+      - name: Doug Goldstein
+        irc: cardoe
+        email: cardoe@cardoe.com
+    events-liaison:
+      - name: Iury Gregory Melo Ferreira
+        irc: iurygregory
+        email: iurygregory@gmail.com
 keystone:
   ptl:
     name: Dave Wilde
