@@ -53,7 +53,6 @@ Secure Default Policies
 Co-leads
 ~~~~~~~~
 
-* Raildo Mascena (raildo)
 * Ghanshyam Mann (gmann)
 
 TC Liaison
