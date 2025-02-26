@@ -1796,10 +1796,7 @@ OpenStackSDK:
       repos:
         - openstack/shade
 oslo:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+  leadership_type: distributed
   irc-channel: openstack-oslo
   service: Common libraries
   mission: >
@@ -1946,6 +1943,30 @@ oslo:
     whereto:
       repos:
         - openstack/whereto
+
+  liaisons:
+    release:
+      - name: Daniel Bengtsson
+        irc: damani
+        email: dbengt@redhat.com
+      - name: Takashi Kajinami
+        irc: tkajinam
+        email: kajinamit@oss.nttdata.com
+    tact-sig:
+      - name: Ghanshyam Mann
+        irc: gmann
+        email: gmann@ghanshyammann.com
+    security:
+      - name: Daniel Bengtsson
+        irc: damani
+        email: dbengt@redhat.com
+    tc-liaison:
+      - name: Ghanshyam Mann
+        irc: gmann
+        email: gmann@ghanshyammann.com
+      - name: Goutham Pacha Ravi
+        irc: gouthamr
+        email: gouthampravi@gmail.com
 Puppet OpenStack:
   ptl:
     name: Takashi Kajinami
