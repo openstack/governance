@@ -45,6 +45,8 @@ Each Cycle
   * During PTG or at the start of cycle, select a TC member who is not standing
     for [re]election to serve as election liaison and point of contact for
     the next election.
+  * Ensure that election officials are added as extra ACs within
+    `technical-committee-repos.yaml`.
   * Encourage the TC members that are not standing for [re]election to help
     as the election officials.
   * During R-9 week, check "PTL and TC elections".

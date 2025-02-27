@@ -4,6 +4,13 @@ Technical Committee:
   - repo: openstack/api-site
   - repo: openstack/constellations
   - repo: openstack/election
+    extra-acs:
+      - name: Ian Y. Choi
+        email: ianyrchoi@gmail.com
+        expires-in: February 2026
+      - name: Slawek Kaplonski
+        email: skaplons@redhat.com
+        expires-in: February 2026
   - repo: openstack/goal-tools
   - repo: openstack/governance
   - repo: openstack/governance-website
