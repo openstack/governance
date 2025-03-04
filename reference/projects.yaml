@@ -1004,15 +1004,16 @@ octavia:
         - openstack/octavia-lib
 OpenStack Charms:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Felipe Reyes
+    irc: freyes
+    email: felipe.reyes@canonical.com
   appointed:
     - wallaby
     - zed
     - '2023.1'
     - '2023.2'
     - '2024.2'
+    - '2025.2'
   irc-channel: openstack-charms
   service: Juju Charms for deployment of OpenStack
   mission: >
