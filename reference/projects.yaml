@@ -29,12 +29,13 @@ adjutant:
         - openstack/python-adjutantclient
 barbican:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Mauricio Harley
+    irc: mharley
+    email: mharley@redhat.com
   appointed:
     - victoria
     - xena
+    - '2025.2'
   irc-channel: openstack-barbican
   service: Key Manager service
   mission: >
