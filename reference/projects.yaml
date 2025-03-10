@@ -2630,14 +2630,15 @@ watcher:
         - openstack/watcher-dashboard
 zaqar:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Hao Wang
+    irc: wanghao
+    email: sxmatch1986@gmail.com
   appointed:
     - train
     - victoria
     - xena
     - zed
+    - '2025.2'
   irc-channel: openstack-zaqar
   service: Message service
   mission: >
