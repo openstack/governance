@@ -21,12 +21,14 @@ patch prepared by the election officials to update the TC roster.
 This looks something like this: https://review.opendev.org/#/c/680356/
 
 After the patch is merged, the TC is officially seated and we need to select
-a chair. If you are interested in being chair (see also ``CHAIR.rst`` in the
-governance repository), you can nominate yourself as per the
-:doc:`TC Chair Election process </reference/tc-chair-elections>`.
+a chair. If you are interested in being chair (see also :doc:`TC chair
+responsibilities </reference/tc-chair-responsibilities>`), you can nominate
+yourself as per the :doc:`TC Chair Election process
+</reference/tc-chair-elections>`.
 
 After the chair is designated, vice-chair will be appointed as per the
-chair responsibility defined in ``CHAIR.rst`` in the governance repository.
+chair responsibility defined :doc`here </reference/tc-chair-responsibilities
+.rst>`.
 
 General Info
 ------------
