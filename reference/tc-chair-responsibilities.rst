@@ -35,7 +35,8 @@ Each Cycle
     <https://etherpad.opendev.org/p/tc-xena-tracker>`__
   * Update the etherpad link in the `wiki
     <https://wiki.openstack.org/wiki/Technical_Committee_Tracker>`__
-
+* Nominate two members of the TC to be a part of the OpenStack Vulnerability
+  Management team.
 * Check on the active goals and, if there is no active goal, then ensure
   that 2 TC members are signed up to manage the goal selection process.
 * Ensure PTI and testing runtime update is done.
