@@ -942,7 +942,7 @@ neutron:
 nova:
   ptl:
     name: René Ribaud
-    irc: rribaud
+    irc: Uggla
     email: rene.ribaud@gmail.com
   irc-channel: openstack-nova
   service: Compute service
