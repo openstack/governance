@@ -2602,7 +2602,7 @@ watcher:
     security:
       - name: Dan Smith
         irc: dansmith
-        email: danms@danplanet.com
+        email: dms@danplanet.com
     tc-liaison:
       - name: Ghanshyam Mann
         irc: gmann
