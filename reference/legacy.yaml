@@ -889,6 +889,10 @@ OpenStackHelm:
       retired-on: 2022-04-27
       repos:
         - openstack/openstack-helm-docs
+    openstack-helm-infra:
+      retired-on: 2025-04-15
+      repos:
+        - openstack/openstack-helm-infra
 
 OpenStackSalt:
   ptl:

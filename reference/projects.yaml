@@ -1627,10 +1627,6 @@ OpenStack-Helm:
       release-management: external
       repos:
         - openstack/openstack-helm-images
-    openstack-helm-infra:
-      release-management: external
-      repos:
-        - openstack/openstack-helm-infra
     openstack-helm-plugin:
       release-management: external
       repos:
