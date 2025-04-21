@@ -2450,6 +2450,9 @@ Telemetry:
     aodh:
       repos:
         - openstack/aodh
+    aetos:
+      repos:
+        - openstack/aetos
     ceilometer:
       repos:
         - openstack/ceilometer
