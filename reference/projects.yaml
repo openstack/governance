@@ -2472,6 +2472,9 @@ Telemetry:
     telemetry-tempest-plugin:
       repos:
         - openstack/telemetry-tempest-plugin
+    grian-ui:
+      repos:
+        - openstack/grian-ui
 trove:
   ptl:
     name: wu chunyang
