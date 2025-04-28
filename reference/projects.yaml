@@ -1715,7 +1715,6 @@ OpenStackAnsible:
         - openstack/openstack-ansible-plugins
         - openstack/openstack-ansible-rabbitmq_server
         - openstack/openstack-ansible-repo_server
-        - openstack/openstack-ansible-tests
     openstack-ansible-nspawn_containers:
       deprecated: wallaby
       release-management: deprecated
@@ -1751,6 +1750,11 @@ OpenStackAnsible:
       release-management: none
       repos:
         - openstack/openstack-ansible-specs
+    openstack-ansible-tests:
+      repos:
+        - openstack/openstack-ansible-tests
+      deprecated: Epoxy
+      release-management: deprecated
 OpenStackSDK:
   ptl:
     name: Artem Goncharov
