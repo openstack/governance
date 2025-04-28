@@ -249,9 +249,9 @@ freezer:
         irc: khyr0n
         email: alsotoes@gmail.com
     tc-liaison:
-      - name: Ghanshyam Mann
-        irc: gmann
-        email: gmann@ghanshyammann.com
+      - name: Ghanshyam Maan
+        irc: gmaan
+        email: gmaan@ghanshyammann.com
       - name: Dmitriy Rabotyagov
         irc: noonedeadpunk
         email: noonedeadpunk@gmail.com
@@ -1962,17 +1962,17 @@ oslo:
         irc: tkajinam
         email: kajinamit@oss.nttdata.com
     tact-sig:
-      - name: Ghanshyam Mann
-        irc: gmann
-        email: gmann@ghanshyammann.com
+      - name: Ghanshyam Maan
+        irc: gmaan
+        email: gmaan@ghanshyammann.com
     security:
       - name: Daniel Bengtsson
         irc: damani
         email: dbengt@redhat.com
     tc-liaison:
-      - name: Ghanshyam Mann
-        irc: gmann
-        email: gmann@ghanshyammann.com
+      - name: Ghanshyam Maan
+        irc: gmaan
+        email: gmaan@ghanshyammann.com
       - name: Goutham Pacha Ravi
         irc: gouthamr
         email: gouthampravi@gmail.com
@@ -2099,9 +2099,9 @@ Puppet OpenStack:
         - openstack/puppet-zaqar
 Quality Assurance:
   ptl:
-    name: Ghanshyam Mann
-    irc: gmann
-    email: gmann@ghanshyammann.com
+    name: Ghanshyam Maan
+    irc: gmaan
+    email: gmaan@ghanshyammann.com
   irc-channel: openstack-qa
   mission: >
     Develop, maintain, and initiate tools and plans to ensure the upstream
@@ -2260,9 +2260,9 @@ Release Management:
         irc: ttx
         email: thierry@openstack.org
     tc-liaison:
-      - name: Ghanshyam Mann
-        irc: gmann
-        email: gmann@ghanshyammann.com
+      - name: Ghanshyam Maan
+        irc: gmaan
+        email: gmaan@ghanshyammann.com
 requirements:
   leadership_type: distributed
   irc-channel: openstack-requirements
@@ -2299,9 +2299,9 @@ requirements:
         irc: tonyb
         email: tony@bakeyournoodle.com
     tc-liaison:
-      - name: Ghanshyam Mann
-        irc: gmann
-        email: gmann@ghanshyammann.com
+      - name: Ghanshyam Maan
+        irc: gmaan
+        email: gmaan@ghanshyammann.com
       - name: Dmitriy Rabotyagov
         irc: noonedeadpunk
         email: noonedeadpunk@gmail.com
@@ -2613,9 +2613,9 @@ watcher:
         irc: dansmith
         email: dms@danplanet.com
     tc-liaison:
-      - name: Ghanshyam Mann
-        irc: gmann
-        email: gmann@ghanshyammann.com
+      - name: Ghanshyam Maan
+        irc: gmaan
+        email: gmaan@ghanshyammann.com
   irc-channel: openstack-watcher
   service: Infrastructure Optimization service
   mission: >

@@ -53,12 +53,12 @@ Secure Default Policies
 Co-leads
 ~~~~~~~~
 
-* Ghanshyam Mann (gmann)
+* Ghanshyam Maan (gmaan)
 
 TC Liaison
 ~~~~~~~~~~
 
-* Ghanshyam Mann (gmann)
+* Ghanshyam Maan (gmaan)
 
 Objective
 ~~~~~~~~~
