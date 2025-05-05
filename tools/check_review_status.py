@@ -468,7 +468,7 @@ def main():
 
     x = prettytable.PrettyTable(
         field_names=columns,
-        hrules=prettytable.ALL,
+        hrules=prettytable.HRuleStyle.ALL,
     )
     x.align['Summary'] = 'l'
     x.align['Status'] = 'l'
