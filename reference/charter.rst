@@ -144,7 +144,12 @@ PTL information in ``projects.yaml``, which must be approved by the TC in order
 for the appointed candidate to officially assume PTL responsibilities.
 
 Any exception to PTL election schedule needs to be recorded in
-:doc:`Election Exceptions </reference/election-exceptions>`
+:doc:`Election Exceptions </reference/election-exceptions>`.
+
+In the event that there are not enough nominations to warrant voting to
+happen for any project team at all, the election voting period must be skipped.
+In such cases, the election officials must close the elections and publish the
+results at the beginning of the planned voting period.
 
 Voters for PTL seats ("APC")
 ============================
@@ -212,6 +217,13 @@ candidates must meet all other constraints for membership in the TC.
 
 Any exception to TC election schedule needs to be recorded in
 :doc:`Election Exceptions </reference/election-exceptions>`
+
+If there are not enough nominations to require an election (i.e., the number
+of nominees is less than or equal to the number of available TC seats),
+the election voting period must be skipped. In this case, the election
+officials must close the election and publish the results at the beginning
+of the planned voting period.
+
 
 .. _atc:
 
