@@ -95,14 +95,17 @@ Meetings
 ~~~~~~~~
 
 Attend the Technical Committee meetings (assuming your timezone allows). The
-TC has meetings every Thursday in #openstack-tc; `check
-Eavesdrop.
-<http://eavesdrop.openstack.org/#Technical_Committee_Meeting>`_
-To hold the meeting we must meet quorum, so it's important that you attend
-as many as possible. If you have topics that should be discussed at the
-meeting, they should be sent to the chair or vice-chair to be included
-in the agenda. The agenda should also be publicized to the openstack-discuss
-list to encourage community involvement.
+TC meets every week in OFTC's #openstack-tc IRC channel. `check Eavesdrop
+<https://meetings.opendev.org/#Technical_Committee_Meeting>`_ for the schedule,
+and to download the meeting's ICS file. Once a month, we also host a video
+meeting in parallel with the meeting on IRC. These video meetings are recorded,
+and recordings are `published <https://www.youtube.com/@openstack-tc>`_. To
+hold the meeting we must meet a quorum, so it's important that you attend
+as many meetings as possible. If you have topics that should be discussed at
+the meeting, please add it to the meeting's
+`wiki page <https://wiki.openstack.org/wiki/Meetings/TechnicalCommittee>`_.
+The agenda should also be publicized to the openstack-discuss list to
+encourage community involvement.
 
 Governance Core Duties
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -114,7 +117,7 @@ there might have been other progress that you should familiarize yourself
 with and stay up to date on.
 
 If you are interested, there are other repositories it might be good to keep
-an eye on as well that are related to TC duties, like openstack/elections.
+an eye on as well that are related to TC duties, like openstack/election.
 
 
 TC Interactions with Other Governing Bodies
