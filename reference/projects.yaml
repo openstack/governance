@@ -959,6 +959,10 @@ nova:
       release-management: none
       repos:
         - openstack/nova-specs
+    nova-contrib:
+      release-management: none
+      repos:
+        - openstack/nova-contrib
     python-novaclient:
       repos:
         - openstack/python-novaclient
