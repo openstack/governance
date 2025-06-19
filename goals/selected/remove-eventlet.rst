@@ -50,9 +50,18 @@ Completion Criteria
 #. (2025.2) Get an OpenStack deliverable as reference user project selected to
    test Oslo changes related to new Asyncio based drivers;
 #. (2025.2) Get non actively maintained OpenStack deliverables retired;
-#. (2026.2) Get all other OpenStack deliverables relying on Eventlet migrated;
-#. (2027.1) Get usage of Eventlet in oslo deliverables removed;
-#. (2027.2) Get Eventlet retired from OpenStack;
+#. (2026.2) Ensure all other OpenStack deliverables relying on Eventlet gained
+   support for running without Eventlet.
+#. (2027.1) Deprecate the Eventlet support. To have a SLURP target release
+   supporting both the old Eventlet and any new concurrency mode, this release
+   keeps the Eventlet support.
+#. (2027.2) Get usage of Eventlet in all OpenStack (including oslo
+   deliverables) removed;
+
+
+.. note:: Any project finishing the work before 2026.2 can do the step
+   mentioned in 2027.1 early but make sure you have a one SLURP cycle to
+   support both mode and deprecation phase.
 
 References
 ==========
