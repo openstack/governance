@@ -1789,6 +1789,8 @@ OpenStackSDK:
     os-client-config:
       repos:
         - openstack/os-client-config
+      deprecated: '2025.2'
+      release-management: deprecated
     os-service-types:
       repos:
         - openstack/os-service-types
@@ -1804,6 +1806,8 @@ OpenStackSDK:
     shade:
       repos:
         - openstack/shade
+      deprecated: '2025.2'
+      release-management: deprecated
 oslo:
   leadership_type: distributed
   irc-channel: openstack-oslo
