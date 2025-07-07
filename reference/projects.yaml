@@ -312,6 +312,7 @@ glance:
       repos:
         - openstack/glance_store
     os-test-images:
+      release-management: none
       repos:
         - openstack/os-test-images
     python-glanceclient:
