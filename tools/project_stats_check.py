@@ -64,7 +64,7 @@ class Zuul(BaseQuery):
                 if self.verbose:
                     print("Buildset %s is not a dict. Skipping." % buildset)
                 continue
-            project = buildset['project']
+            project = buildset['refs'][0]['project']
             result = buildset['result']
             if result == 'SUCCESS':
                 if project in success:
