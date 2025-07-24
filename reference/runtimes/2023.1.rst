@@ -1,8 +1,8 @@
 .. _2023-1-testing-runtime:
 
-==========================
-Tested Runtimes for 2023.1
-==========================
+=====================================
+Tested Runtimes for 2023.1 (Antelope)
+=====================================
 
 At the start of the 2023.1 development cycle, the current :ref:`LTS or stable
 distribution <pti-linux-distros>` versions are:
