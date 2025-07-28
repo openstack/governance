@@ -653,6 +653,10 @@ neutron:
       retired-on: 2024-05-15
       repos:
         - openstack/networking-ovn
+    networking-midonet:
+      retired-on: 2025-07-18
+      repos:
+        - openstack/networking-midonet
 
 octavia:
   irc-channel: openstack-lbaas

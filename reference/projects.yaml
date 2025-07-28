@@ -880,11 +880,6 @@ neutron:
     networking-bgpvpn:
       repos:
         - openstack/networking-bgpvpn
-    networking-midonet:
-      deprecated: wallaby
-      release-management: deprecated
-      repos:
-        - openstack/networking-midonet
     networking-odl:
       deprecated: '2023.2'
       release-management: deprecated
