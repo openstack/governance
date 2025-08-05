@@ -1,8 +1,8 @@
 .. _2024-1-testing-runtime:
 
-==========================
-Tested Runtimes for 2024.1
-==========================
+====================================
+Tested Runtimes for 2024.1 (Caracal)
+====================================
 
 At the start of the 2024.1 development cycle, the current :ref:`LTS or stable
 distribution <pti-linux-distros>` versions are:

@@ -1,8 +1,8 @@
 .. _2023-2-testing-runtime:
 
-==========================
-Tested Runtimes for 2023.2
-==========================
+===================================
+Tested Runtimes for 2023.2 (Bobcat)
+===================================
 
 At the start of the 2023.2 development cycle, the current :ref:`LTS or stable
 distribution <pti-linux-distros>` versions are:
