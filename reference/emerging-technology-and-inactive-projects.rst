@@ -125,15 +125,11 @@ No emerging projects at this moment
 
 Current Inactive Projects
 -------------------------
-* Monasca
 
-  * Inactive since 2024.1 cycle
-  * Extension in 2024.2 cycle
-  * Extension in 2025.1 cycle
-  * Extension in 2025.2 cycle
 * Venus
 
   * Inactive since 2026.1 cycle
 * Vitrage
 
   * Inactive since 2026.1 cycle
+
