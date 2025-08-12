@@ -7,10 +7,10 @@ Technical Committee:
     extra-acs:
       - name: Ian Y. Choi
         email: ianyrchoi@gmail.com
-        expires-in: February 2026
+        expires-in: August 2026
       - name: Slawek Kaplonski
         email: skaplons@redhat.com
-        expires-in: February 2026
+        expires-in: August 2026
   - repo: openstack/goal-tools
   - repo: openstack/governance
   - repo: openstack/governance-website
@@ -18,5 +18,9 @@ Technical Committee:
   - repo: openstack/ideas
   - repo: openstack/openstack
   - repo: openstack/openstack-manuals
+    extra-acs:
+      - name: Amy Marrich
+        email: amy@demarco.com
+        expires-in: August 2026
   - repo: openstack/project-team-guide
   - repo: openstack/service-types-authority
