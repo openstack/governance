@@ -264,10 +264,15 @@ available, directly-elected TC seat.
 TC diversity requirement
 ========================
 
-No more than half of the TC Members shall be Affiliated as defined in the
-`Foundation bylaws <https://openinfra.dev/legal/bylaws>`__. A violation of
-the diversity requirement may be temporarily waived until the next TC election
-by a vote of two thirds of the TC Members.
+The Technical Committee in its oversight role of the OpenStack Community must
+be free of bias or partiality. It must adhere to its loyalty to the OpenStack
+community and strive towards its sustenance and growth.
+
+To ensure that we remain impartial, no more than half of the TC Members shall
+be Affiliated to a single organization. An individual is considered affiliated
+to an organization if they are either tasked with contributing to OpenStack by
+the organization or compensated for their involvement with the project,
+or both.
 
 If election or vacancy in the TC seats results in a violation of the Technical
 Committee affiliation diversity requirement, the candidate with the next
@@ -277,10 +282,20 @@ Technical Committee Member instead of the member whose admission to the
 Technical Committee would cause a violation of the affiliation diversity
 requirement.
 
-If there are not enough candidates to meet the diversity requirement, the
-TC should pass a special resolution to approve alternative solutions, such
+To this effect, candidates **MUST** declare their affiliation within their
+Foundation profiles and within their election candidacies.
+
+A violation of the diversity requirement may be temporarily waived until the
+next TC election by a vote of two thirds of the TC Members. If there are not
+enough candidates to meet the diversity requirement, the TC should pass a
+special resolution to approve alternative solutions, such
 as waiving the diversity requirement, reducing the number of TC seats, or
 holding a special election.
+
+Final determinations of affiliation in edge cases shall be made by the
+Technical Committee through a formal vote, recusing any members directly
+affected by the ruling. When necessary, further guidance
+may be requested from the OpenInfra Foundation staff or board.
 
 Number of seats to elect
 ========================
