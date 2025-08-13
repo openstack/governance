@@ -259,11 +259,11 @@ freezer:
     - stein
     - zed
   irc-channel: openstack-freezer
-  service: Backup, Restore, and Disaster Recovery service
+  service: Backup and Restore service
   mission: >
     To provide integrated tools for backing up and restoring cloud data in
-    multiple use cases, including disaster recovery. These resources include
-    file systems, server instances, volumes, and databases.
+    multiple use cases. These resources include file systems, server
+    instances, volumes, and databases.
   url: https://wiki.openstack.org/wiki/Freezer
   deliverables:
     freezer:
