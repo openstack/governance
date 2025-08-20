@@ -2601,13 +2601,16 @@ watcher:
   leadership_type: distributed
   liaisons:
     release:
-      - name: Sean Mooney
-        irc: sean-k-mooney
-        email: smooney@redhat.com
+      - name: Chandan Kumar
+        irc: chandankumar
+        email: chkumar@redhat.com
+      - name: Joan Francesc Gilabert Navarro
+        irc: jgilaber
+        email: jgilaber@redhat.com
     tact-sig:
-      - name: Marios Andreou
-        irc: marios
-        email: marios@redhat.com
+      - name: Douglas Viroel
+        irc: dviroel
+        email: viroel@gmail.com
       - name: Chandan Kumar
         irc: chandankumar
         email: chkumar@redhat.com
@@ -2615,10 +2618,13 @@ watcher:
       - name: Dan Smith
         irc: dansmith
         email: dms@danplanet.com
+      - name: Sean Mooney
+        irc: sean-k-mooney
+        email: smooney@redhat.com
     tc-liaison:
-      - name: Ghanshyam Maan
-        irc: gmaan
-        email: gmaan@ghanshyammann.com
+      - name: Goutham Pacha Ravi
+        irc: gouthamr
+        email: gouthampravi@gmail.com
   irc-channel: openstack-watcher
   service: Infrastructure Optimization service
   mission: >
