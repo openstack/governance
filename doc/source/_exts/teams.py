@@ -25,6 +25,8 @@ LOG = logging.getLogger(__name__)
 
 IRC_LOG_URL_BASE = 'http://eavesdrop.openstack.org/irclogs/%23'
 
+INACTIVE_PROJECTS_DOC = 'https://governance.openstack.org/tc/reference/emerging-technology-and-inactive-projects.html'
+
 
 def _team_to_rst(name, info):
 
@@ -55,6 +57,9 @@ def _team_to_rst(name, info):
     service = info.get('service')
     if service:
         yield ':Service: ' + service
+    status = info.get('status')
+    if status and status == 'inactive':
+        yield ':Status: ' + '`Inactive <%s>`__ (This team needs maintainers, if you are interested, please contact OpenStack TC.)' % INACTIVE_PROJECTS_DOC
     liaisons = info.get('liaisons')
     if liaisons:
         contact_format = {'name': '', 'irc': '', 'email': ''}
