@@ -521,9 +521,6 @@ ironic:
     ironic-ui:
       repos:
         - openstack/ironic-ui
-    metalsmith:
-      repos:
-        - openstack/metalsmith
     molteniron:
       release-management: none
       repos:
