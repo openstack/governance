@@ -1,0 +1,99 @@
+.. _2026-1-testing-runtime:
+
+=====================================
+Tested Runtimes for 2026.1 (Gazpacho)
+=====================================
+
+Linux Distribution
+==================
+
+At the start of the 2026.1 development cycle, the current :ref:`LTS or stable
+distribution <pti-linux-distros>` versions are:
+
+* Ubuntu 24.04
+* Debian 13
+
+Additional testing for a smooth upgrade
+---------------------------------------
+
+* Debian 12 (Supported in previous SLURP release 2025.1)
+
+  Expectation is to have at least one tempest job running with Debian 12 so
+  that the SLURP release upgrade (from 2025.1 to 2026.1) works fine.
+
+Python
+======
+
+It is the :doc:`policy <../../resolutions/20181024-python-update-process>` that
+each OpenStack release cycle will target the latest available version of
+Python; default Python runtime on the distributions listed above; and versions
+used in integration tests at the start of the cycle, at least until the point
+when all projects have migrated to a later version.
+
+Also, as per the Python testing requirements defined in :ref:`pti-python`,
+projects should avoid removing Python versions that have not reached EOL
+without a solid reason.
+
+Based on the criteria above, all Python-based projects must target and test
+against, at a minimum:
+
+* Python 3.10 (expected to be EOL in October 2026)
+
+  Python 3.10 is the minimum supported/required version for 2026.1. Supporting
+  Python 3.10 does not require full tempest testing, but py310 unit tests are
+  expected as a minimum requirement for all Python projects. The minimal
+  requirement for testing jobs against Python versions above is to ensure
+  language compatibility, having more extensive testing is allowed.
+
+* Python 3.11 (available as default in Debian 12)
+
+  In previous cycle testing, we have not seen many incompatible changes between
+  Python 3.10 and Python 3.11. It is okay to skip running Python 3.11
+  testing jobs assuming that anything that works on Python 3.10 and 3.13 will
+  also work on 3.11. Periodic testing should be enough for this.
+
+* Python 3.12 (available as default in Ubuntu 24.04)
+
+  In previous cycle testing, we have not seen many incompatible changes between
+  Python 3.10 and Python 3.12. It is okay to skip running Python 3.12
+  testing jobs assuming that anything that works on Python 3.10 and 3.13 will
+  also work on 3.12. Periodic testing should be enough for this.
+
+* Python 3.13 (available as default in Debian 13)
+
+  This is the upper bound of required testing for 2026.1.
+
+* Python 3.14 (expected release in October 2025)
+
+  This is not mandatory testing in the 2026.1 cycle, and there is no guarantee
+  that the OpenStack 2026.1 release will support Python 3.14. Python 3.14
+  is expected to be released in October 2025 and may be included in future
+  distributions.
+
+  .. warning::
+
+     There is a high chance that we might see a lot of failures with Python
+     3.14 and need a good amount of time to fix them. Adding testing with
+     non-voting jobs is an effort to start finding and addressing the issues
+     in advance. It is recommended to start the minimal testing in the 2026.1
+     cycle.
+
+     Python 3.14 will be mandatory testing in a future release.
+
+More details on Python requirements can be found in :ref:`pti-python`.
+
+Advance/Unstable Testing
+========================
+
+The below list is for the distribution/python advance or unstable versions
+to test them in OpenStack CI/CD. These may not be part of integrated testing
+and may be tested as non-blockers or periodically only. The main idea is to
+test them in advance to be part of integrated testing in future
+cycles.
+
+Based on their testing infra setup, instability, or their future
+releases, we can modify the list during any phase of the current development
+cycle.
+
+* CentOS Stream 10
+* Rocky Linux 10
