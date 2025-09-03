@@ -129,3 +129,5 @@ Current Inactive Projects
 
   * Inactive since 2024.1 cycle
   * Extension in 2024.2 cycle
+  * Extension in 2025.1 cycle
+  * Extension in 2025.2 cycle
