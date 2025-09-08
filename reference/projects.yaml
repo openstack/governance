@@ -804,6 +804,7 @@ monasca:
     services that can be used by both operators and tenants to gain
     operational insight and visibility, ensuring availability and stability.
   url: https://wiki.openstack.org/wiki/Monasca
+  status: inactive
   deliverables:
     monasca-api:
       repos:

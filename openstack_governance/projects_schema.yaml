@@ -67,6 +67,11 @@ additionalProperties:
       type: "string"
     url:
       type: "string"
+    status:
+       type: "string"
+       enum:
+         - active
+         - inactive
     liaisons:
       type: "object"
       properties:
