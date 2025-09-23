@@ -1019,6 +1019,7 @@ OpenStack Charms:
     - '2023.2'
     - '2024.2'
     - '2025.2'
+    - '2026.1'
   irc-channel: openstack-charms
   service: Juju Charms for deployment of OpenStack
   mission: >
