@@ -1003,6 +1003,10 @@ OpenStackSDK:
       retired-on: 2023-10-19
       repos:
         - openstack/js-openstack-lib
+    shade:
+      retired-on: 2025-10-01
+      repos:
+        - openstack/shade
 
 OpenStack UX:
   ptl:
