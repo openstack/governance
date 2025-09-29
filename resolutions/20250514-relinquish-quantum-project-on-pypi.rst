@@ -1,5 +1,5 @@
 =====================================================
-2025-15-14 Relinquish the ``quantum`` project on PyPI
+2025-05-14 Relinquish the ``quantum`` project on PyPI
 =====================================================
 
 Whereas:
