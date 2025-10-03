@@ -21,12 +21,12 @@ tree:
 
 - ``tox -e pep8``
 - ``tox -e cover``
-- ``python setup.py sdist``
-- ``python setup.py bdist_wheel``
+- ``python -m build -s .`` (sdist)
+- ``python -m build -w .`` (wheels)
 - ``sphinx-build -W -b html doc/source doc/build``
 
 The Python 3 version may change from cycle to cycle. Projects should
-target the following, extending supported Python `3x` with the
+target the following, extending supported Python 3.x with the
 :ref:`tested Python 3 runtimes <pti-tested-runtimes>` for the current
 development cycle:
 
@@ -34,15 +34,16 @@ development cycle:
 
 Projects should avoid removing Python versions that have not reached
 `End Of Life <https://devguide.python.org/versions/>`_ without a solid
-reason. It is recommended to keep compatability with older Python versions
+reason. It is recommended to keep compatibility with older Python versions
 as long as possible.
 While CI coverage of Python versions that are not mentioned in PTI can be reduced,
 such reduction is not mandatory.
 
-Projects that are translated should also support:
+Projects that are translated should also support generating and updating their
+*Portable Object Template (``.pot``)* files using the following commands:
 
-- ``tox -e venv python setup.py extract_messages``
-- ``tox -e venv python setup.py update_catalog``
+- ``pybabel extract``
+- ``pybabel update``
 
 Some basic prerequisites for test running (system packages, database
 configuration, custom filesystem types) are acceptable as long as they are
@@ -125,7 +126,6 @@ normal unit test jobs, but to switch the python executable to be
 
 Specifically, the output html directory ``cover`` and the ``coverage.xml`` file
 added to that directory are mandatory output artifacts.
-
 
 Project Configuration
 ---------------------
