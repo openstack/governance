@@ -53,11 +53,16 @@ file in the root of the repository.
 Requirements Listing
 --------------------
 
-Each project should list its operations dependencies in requirements.txt
-and additional dependencies required for testing in test-requirements.txt.
-If there are requirements that are specific to python3 or pypy support,
-those may be listed in requirements.txt or test-requirements.txt using
-environment markers.
+Each project should list its required dependencies in either
+``project.dependencies`` in ``pyproject.toml`` or in a ``requirements.txt``
+file, while additional dependencies required for testing should be listed in
+the ``test`` key of ``project.optional-dependencies`` in ``pyproject.toml`` or
+in a ``test-requirements.txt`` file.
+`Environment marker`__ should be used if there are requirements that are
+specific to a given Python version, platform (Windows, Linux, ...), or
+implementation (cpython, pypy, ...)
+
+.. __: https://packaging.python.org/en/latest/specifications/dependency-specifiers/#dependency-specifiers
 
 Constraints
 ===========
@@ -130,10 +135,12 @@ added to that directory are mandatory output artifacts.
 Project Configuration
 ---------------------
 
-All OpenStack projects use `pbr` for consistent operation of setuptools.
-To accomplish this, all setup.py files only contain a simple setup function
-that setup_requires on an unversioned pbr, and a directive to pass processing
-to the pbr library. Actual project configuration is then handled in setup.cfg.
+All OpenStack projects use `pbr`__ for consistent operation of setuptools.
+To accomplish this, all ``setup.py`` files only contain a simple setup function
+that enabled pbr. Actual project configuration is then handled in
+``pyproject.toml`` or ``setup.cfg``.
+
+.. __: https://docs.openstack.org/pbr/latest/
 
 Generated Files
 ---------------
