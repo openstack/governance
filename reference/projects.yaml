@@ -2528,6 +2528,7 @@ venus:
     collection, cleaning, indexing, analysis, alarm, visualization,
     report generation etc..
   url: https://wiki.openstack.org/wiki/Venus
+  status: inactive
   deliverables:
     venus:
       repos:
