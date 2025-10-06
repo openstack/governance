@@ -131,8 +131,9 @@ Current Inactive Projects
   * Extension in 2024.2 cycle
   * Extension in 2025.1 cycle
   * Extension in 2025.2 cycle
-
 * Venus
 
   * Inactive since 2026.1 cycle
+* Vitrage
 
+  * Inactive since 2026.1 cycle

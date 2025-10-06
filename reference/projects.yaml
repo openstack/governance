@@ -2557,6 +2557,7 @@ vitrage:
     insights regarding the root cause of problems and deduce their existence
     before they are directly detected.
   url: https://wiki.openstack.org/wiki/Vitrage
+  status: inactive
   deliverables:
     vitrage:
       repos:
