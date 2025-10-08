@@ -471,6 +471,14 @@ ironic:
       retired-on: 2025-10-08
       repos:
         - openstack/metalsmith
+    ironic-inspector-specs:
+      retired-on: 2025-10-08
+      repos:
+        - openstack/ironic-inspector-specs
+    python-ironic-inspector-client:
+      retired-on: 2025-10-08
+      repos:
+        - openstack/python-ironic-inspector-client
 karbor:
   retired-on: 2020-12-14
   irc-channel: openstack-karbor
