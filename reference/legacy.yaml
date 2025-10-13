@@ -467,6 +467,10 @@ ironic:
       retired-on: 2021-05-20
       repos:
         - openstack/sushy-cli
+    metalsmith:
+      retired-on: 2025-10-08
+      repos:
+        - openstack/metalsmith
 karbor:
   retired-on: 2020-12-14
   irc-channel: openstack-karbor
