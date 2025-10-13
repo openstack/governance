@@ -117,7 +117,7 @@ for team_name, team_data in legacy_projects.items():
 
             try:
                 for file in file_names:
-                    if file not in ('.gitreview', 'README.rst'):
+                    if file not in ('.gitreview', 'README.rst', '.gitignore'):
                         msg = '{} is not properly retired, files: {}.'.format(
                             repo, file_names)
                         print(msg)
