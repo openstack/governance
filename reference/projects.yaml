@@ -2254,9 +2254,9 @@ Release Management:
         irc: ttx
         email: thierry@openstack.org
     tc-liaison:
-      - name: Ghanshyam Maan
-        irc: gmaan
-        email: gmaan@ghanshyammann.com
+      - name: Michal Nasiadka
+        irc: mnasiadka
+        email: mnasiadka@gmail.com
 requirements:
   leadership_type: distributed
   irc-channel: openstack-requirements
@@ -2293,9 +2293,9 @@ requirements:
         irc: tonyb
         email: tony@bakeyournoodle.com
     tc-liaison:
-      - name: Ghanshyam Maan
-        irc: gmaan
-        email: gmaan@ghanshyammann.com
+      - name: Michal Nasiadka
+        irc: mnasiadka
+        email: mnasiadka@gmail.com
       - name: Dmitriy Rabotyagov
         irc: noonedeadpunk
         email: noonedeadpunk@gmail.com
