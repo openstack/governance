@@ -493,10 +493,8 @@ ironic:
     ironic-inspector:
       repos:
         - openstack/ironic-inspector
-    ironic-inspector-specs:
-      release-management: none
-      repos:
-        - openstack/ironic-inspector-specs
+      deprecated: '2026.1'
+      release-management: deprecated
     ironic-lib:
       repos:
         - openstack/ironic-lib
@@ -531,9 +529,6 @@ ironic:
     networking-generic-switch:
       repos:
         - openstack/networking-generic-switch
-    python-ironic-inspector-client:
-      repos:
-        - openstack/python-ironic-inspector-client
     python-ironicclient:
       repos:
         - openstack/python-ironicclient
