@@ -249,9 +249,6 @@ freezer:
         irc: khyr0n
         email: alsotoes@gmail.com
     tc-liaison:
-      - name: Ghanshyam Maan
-        irc: gmaan
-        email: gmaan@ghanshyammann.com
       - name: Dmitriy Rabotyagov
         irc: noonedeadpunk
         email: noonedeadpunk@gmail.com
@@ -1959,9 +1956,6 @@ oslo:
         irc: damani
         email: dbengt@redhat.com
     tc-liaison:
-      - name: Ghanshyam Maan
-        irc: gmaan
-        email: gmaan@ghanshyammann.com
       - name: Goutham Pacha Ravi
         irc: gouthamr
         email: gouthampravi@gmail.com
