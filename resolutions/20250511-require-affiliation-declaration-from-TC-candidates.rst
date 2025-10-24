@@ -4,7 +4,7 @@
 
 All candidates running for the OpenStack Technical Committee (TC) must have
 their organizational affiliation listed in their OpenInfra Foundation community
-profile at the time of self-nomination. The affiliations must also be listed on
+profile at the time of nomination. The affiliations must also be listed on
 their nominations. Organizational Affiliation is defined in the `TC's
 charter <../reference/charter.html#tc-diversity-requirement>`_.
 
@@ -19,5 +19,4 @@ affiliation within their candidacy that is not listed within their OpenInfra
 Foundation community profile. Unaffiliated candidates may use "Unaffiliated"
 or a similar word to declare their lack of affiliation.
 
-.. _bylaws: https://openinfra.org/legal/bylaws
 .. _diversity requirement: ../reference/charter.html#tc-diversity-requirement
