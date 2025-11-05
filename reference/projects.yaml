@@ -2420,9 +2420,9 @@ tacker:
         - openstack/tosca-parser
 Telemetry:
   ptl:
-    name: Matthias Runge
-    irc: mrunge
-    email: mrunge@redhat.com
+    name: Juan Larriba
+    irc: jlarriba
+    email: jlarriba@redhat.com
   appointed:
     - train
   irc-channel: openstack-telemetry
