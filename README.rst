@@ -13,6 +13,7 @@ Directory structure:
     reference/
         Reference documents which need to be revised over time.
         Some motions will just directly result in reference doc changes.
+        Includes SIGs (Special Interest Groups) documentation in reference/sigs/.
     resolutions/
         When the motion does not result in a change in a reference doc, it
         can be expressed as a resolution.
@@ -22,5 +23,8 @@ Directory structure:
         Documentation for OpenStack community-wide goals, organized by
         release cycle. These pages will be updated with project status
         info over time, and if goals are revised.
+
+Note: The governance-sigs repository has been merged into this repository.
+All SIGs documentation is now located in reference/sigs/.
 
 See https://governance.openstack.org/tc/ for details.

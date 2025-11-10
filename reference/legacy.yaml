@@ -324,6 +324,10 @@ Governance:
       repos:
         - openstack/governance-uc
         - openstack/uc-recognition
+    governance-sigs:
+      retired-on: 2025-11-10
+      repos:
+        - openstack/governance-sigs
 
 heat:
   irc-channel: heat
