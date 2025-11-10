@@ -49,8 +49,6 @@ i18n:
 
 Large Scale:
   - repo: openstack/large-scale
-Meta:
-  - repo: openstack/governance-sigs
 Multi-Arch:
   - repo: openstack/multi-arch-sig
 Operation Docs and Tooling:

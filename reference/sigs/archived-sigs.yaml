@@ -1,0 +1,36 @@
+---
+
+# All SIGs here have not yet completed their mission but are considered
+# retired. You can propose to resume these SIGs if you think the SIG's goal
+# is still valid and you have someone willing to chair the SIG.
+Containers:
+  chairs:
+    - name: Jean-Philippe Evrard
+      irc: evrardjp
+      email: jean-philippe@evrard.me
+  scope: >
+    The scope of the Containers SIG is to share practices for the
+    build, deploy, and operate of OpenStack using application
+    containers. This is not another deployment tool of containers.
+    Instead, this SIG should have as members people from the
+    different projects in the business of dealing with OpenStack
+    in application containers. The participants should be
+    interested in container building, willing to share their
+    practices, and/or define common practices for use within
+    all OpenStack projects. One example of the deliverables of
+    the SIG would be a common series of "rules" for the bindep
+    files relevant for container image building. These rules
+    would then be applied consistenty across all the OpenStack
+    projects, but also maintained over time by this group.
+    Another example of common ground would be sharing how
+    deployment projects are writing their container "check
+    probes", and figure out what can be re-used. In other words,
+    defining together what are application containers "readiness"
+    and "aliveness" for each service project.
+  status: archived
+  reason: >
+    There's currently no one available to drive Containers SIG and this SIG's
+    previous status is still forming and no repository associated.
+    Mailing List notification for retirement discussion can be found in
+    http://lists.openstack.org/pipermail/openstack-discuss/2021-March/021297.html
+  url: https://etherpad.openstack.org/p/containers-sig

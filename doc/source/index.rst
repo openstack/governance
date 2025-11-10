@@ -72,7 +72,7 @@ exceptions are listed in the :doc:`reference/house-rules` document.
 
 .. _`Open Infrastructue Foundation bylaws`: http://www.openstack.org/legal/bylaws-of-the-openstack-foundation/
 
-.. _`Special Interest Groups (SIGs)`: https://governance.openstack.org/sigs/
+.. _`Special Interest Groups (SIGs)`: reference/sigs/index.html
 
 .. _`current proposals tracker`: https://wiki.openstack.org/wiki/Technical_Committee_Tracker
 

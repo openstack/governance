@@ -14,7 +14,6 @@ Technical Committee:
   - repo: openstack/goal-tools
   - repo: openstack/governance
   - repo: openstack/governance-website
-  - repo: openstack/governance-sigs
   - repo: openstack/ideas
   - repo: openstack/openstack
   - repo: openstack/openstack-manuals

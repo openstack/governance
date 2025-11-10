@@ -1,0 +1,41 @@
+---
+
+# All SIGs here have completed their mission and are considered retired.
+Upgrade:
+  chairs:
+    - name: James Page
+      irc: jamespage
+      email: james.page@canonical.com
+    - name: Lujin Luo
+      irc: lujinluo
+      email: luo.lujin@jp.fujitsu.com
+  scope: >
+    The objective of the Upgrade SIG is to improve the overall upgrade
+    process for OpenStack Clouds, covering both offline 'fast-forward'
+    upgrades and online 'rolling' upgrades, by providing a forum for
+    cross-project collaboration between operators and developers to
+    document and codify best practice for upgrading OpenStack.
+  status: completed
+  reason: >
+    OpenStack is considered valid for both offline 'fast-forward' upgrades and
+    online 'rolling' upgrades. Therefore, we consider mission for Upgrade SIG
+    is completed.
+  url: https://wiki.openstack.org/wiki/Upgrade_SIG
+
+Technical Writing:
+  chairs:
+    - name: Stephen Finucane
+      irc: stephenfin
+      email: sfinucan@redhat.com
+  scope: >
+    The technical writing SIG provides guidance, assistance, tooling, and style
+    guides enabling OpenStack project teams to produce consistent, accurate,
+    and high-quality documentation.
+  url: https://wiki.openstack.org/wiki/Documentation
+  status: completed
+  reason: >
+    The technical writing SIG has provided the guidelines and tooling to move
+    the documentation ownership to the projects. Now we have significantly less
+    amount of work under this SIG and having fewer or maintainer for this SIG
+    in the Yoga cycle, we decided to merge this SIG into the Technical Committee.
+    Contact OpenStack Technical Committee for any query related to this SIG.
