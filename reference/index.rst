@@ -33,7 +33,6 @@ Reference documents which need to be revised over time.
    house-rules
    comparison-of-official-group-structures
    working-groups
-   sig-repos
    tc-guide
    OpenStack-name-in-external-services
    election-exceptions

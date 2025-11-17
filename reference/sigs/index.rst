@@ -17,18 +17,21 @@ of the OpenStack software release itself). Contributions to a SIG
 grant voting rights for the Technical Committee elections, in the
 same way contributing to an OpenStack project team does.
 
+.. toctree::
+   :maxdepth: 3
+
+   sig-guideline
+
+
 .. sigtable::
       :datafile: sigs.yaml
+      :reposfile: ../sigs-repos.yaml
 
 .. toctree::
    :hidden:
 
    tact-sig
 
-.. toctree::
-   :maxdepth: 4
-
-   sig-guideline
 
 Retired SIGs
 ============

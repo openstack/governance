@@ -8,3 +8,4 @@ redirect 301 /tc/goals/queens/ /tc/goals/selected/queens/
 redirect 301 /tc/goals/rocky/ /tc/goals/selected/rocky/
 redirect 301 /tc/goals/stein/ /tc/goals/selected/stein/
 redirect 301 /tc/goals/train/ /tc/goals/selected/train/
+redirect 301 /tc/reference/sig-repos.html /tc/reference/sigs/index.html
