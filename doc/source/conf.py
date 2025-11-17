@@ -40,6 +40,7 @@ extensions = [
     'teams',
     'badges',
     'page_context',
+    'sigtable',
 ]
 
 todo_include_todos = True

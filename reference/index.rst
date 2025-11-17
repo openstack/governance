@@ -11,8 +11,9 @@ Reference documents which need to be revised over time.
    principles
    charter
    projects/index
-   distributed-project-leadership
+   sigs/index
    popup-teams
+   distributed-project-leadership
    technical-vision
    upstream-investment-opportunities/index
    role-of-the-tc
@@ -32,7 +33,6 @@ Reference documents which need to be revised over time.
    house-rules
    comparison-of-official-group-structures
    working-groups
-   Special Interest Groups <https://governance.openstack.org/sigs/>
    sig-repos
    tc-guide
    OpenStack-name-in-external-services

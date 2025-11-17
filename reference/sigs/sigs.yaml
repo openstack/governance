@@ -1,0 +1,347 @@
+---
+Ansible:
+  chairs:
+    - name: Sagi Shnaidman
+      irc: sshnaidm
+      email: sshnaidm@redhat.com
+    - name: Kevin Carter
+      irc: cloudnull
+      email: kecarter@redhat.com
+  scope: >
+    Ansible is an orchestration tool that is becoming increasingly common
+    in usage across many parts of OpenStack.  There are a few deployment
+    projects that are using it, alongside many of our CI systems.  This
+    SIG exists to help create a colloborative space between different
+    interested parties to share Ansible code under one group.
+    It is also responsible of the OpenStack namespace on Ansible's galaxy.
+  status: active
+  url: https://wiki.openstack.org/wiki/Ansible_SIG
+
+API:
+  chairs:
+    - name: Dmitry Tantsur
+      irc: dtantsur
+      email: dtantsur@protonmail.com
+    - name: Michael McCune
+      irc: elmiko
+      email: msm@redhat.com
+  scope: >
+    Formerly known as the API-WG, the API SIG scope is to improve the developer
+    experience of API users by converging the OpenStack API to a consistent and
+    pragmatic RESTful design. The working group creates guidelines that all
+    OpenStack projects should follow for new development, and promotes
+    convergence of new APIs and future versions of existing APIs.
+  status: advisory
+  url: https://wiki.openstack.org/wiki/API_SIG
+
+Automation:
+  chairs:
+    - name: Rico Lin
+      irc: ricolin
+      email: ricolin@ricolky.com
+  scope: >
+    Automation SIG scope is to improve experience on develop, operate, and use
+    all automation (includes auto-scaling and self-healing) and its related
+    features (like metering, cluster schedule, life cycle management) and to
+    coordinate across projects and communities (like k8s cluster autoscaling
+    on OpenStack). Also provide a central place to put tests, documentations,
+    and even common libraries for auto-scaling and self-healing features.
+  status: advisory
+  url: https://etherpad.openstack.org/p/Automation
+
+Bare Metal:
+  chairs:
+    - name: Arne Wiebalck
+      irc: arne_wiebalck
+      email: arne.wiebalck@cern.ch
+    - name: Dmitry Tantsur
+      irc: dtantsur
+      email: dtantsur@protonmail.com
+  scope: >
+    The scope of the Bare Metal Sig is to promote the development and use
+    of Ironic and other OpenStack bare metal software. This will include
+    marketing efforts like case studies of Ironic clusters in industry
+    and academia, supporting integration of Ironic with projects like
+    Airship and the Kubernetes Cluster API, coordinating presentations
+    for industry events, developing documentation and tutorials,
+    gathering feedback from the community on usage and feature gaps, and
+    other broader community-facing efforts to encourage the adoption of
+    Ironic as a bare-metal management tool.
+  status: active
+  url: https://etherpad.openstack.org/p/bare-metal-sig
+
+Cloud Research:
+  chairs:
+    - name: Mohamed Elsakhawy
+      irc: melsakhawy
+      email: m2elsakha@gmail.com
+  scope: >
+    The Cloud Research SIG aims to bridge the gap between Academic
+    Research in Cloud Computing and Technology projects within OpenStack.
+    The group's purpose is to establish a collaboration space for Cloud
+    researchers to discuss advancements in Cloud research and methodologies
+    and to implement them in OpenStack. The group is also a communication
+    space for researchers looking for guidance on how to evaluate their
+    research work ( e.g., placement algorithms, model-free frameworks...etc.)
+    in Openstack.
+  status: active
+  url: https://etherpad.opendev.org/p/cloud-research-sig
+
+Edge Computing:
+  chairs:
+    - name: Ildiko Vancsa
+      irc: ildikov
+      email: ildiko@openstack.org
+    - name: Gergely Csatari
+      irc: csatari
+      email: gergely.csatari@nokia.com
+  scope: >
+    The Edge Computing group is a OSF-level special interest group focused
+    on defining infrastructure systems needed to support applications
+    distributed over a broad geographic area, with potentially thousands of
+    sites, located as close as possible to discrete data sources, physical
+    elements or end users.
+  status: active
+  url: https://wiki.openstack.org/wiki/Edge_Computing_Group
+
+Stable Maintenance:
+  chairs:
+    - name: Elõd Illés
+      irc: elod
+      email: elod.illes@est.tech
+  scope: >
+    Defining, enforcing and accompanying project teams in the application
+    of a common stable branch policy. Keeping CI working on stable branches.
+    Creating and improving related tooling and automation.
+  status: advisory
+  url: https://docs.openstack.org/project-team-guide/stable-branches.html
+
+First Contact:
+  chairs:
+    - name: Kendall Nelson
+      irc: diablo_rojo
+      email: knelson@openstack.org
+    - name: Matt Oliver
+      irc: mattoliverau
+      email: matt@oliver.net.au
+  scope: >
+    To provide a place for new contributors to come for information and advice.
+    This group will also analyze and document successful contribution models
+    while seeking out and providing information to new members of the community.
+  status: active
+  url: https://wiki.openstack.org/wiki/First_Contact_SIG
+
+Hardware Vendor:
+  chairs:
+    - name: Sean McGinnis
+      irc: smcginnis
+      email: sean.mcginnis@gmail.com
+    - name: Jay Bryant
+      irc: jungleboyj
+      email: jsbryant@electronicjungle.net
+  scope: >
+    The goals of this SIG are to provide a place where vendors, and those
+    interested in vendor specific things like drivers and supporting libs,
+    can work together and collaborate openly to enable OpenStack services to
+    integrate and work well on all hardware platforms.
+  status: active
+  url: https://wiki.openstack.org/wiki/Hardware_Vendor_SIG
+
+i18n:
+  chairs:
+    - name: Ian Y. Choi
+      irc: ianychoi
+      email: ianyrchoi@gmail.com
+  scope: >
+    To make OpenStack ubiquitously accessible to people of
+    all language backgrounds.
+  status: active
+  url: https://wiki.openstack.org/wiki/I18nTeam
+
+K8s:
+  chairs:
+    - name: Feilong Wang
+      irc: flwang
+      email: feilong@catalyst.net.nz
+    - name: Kendall Nelson
+      irc: diablo_rojo
+      email: kennelson11@gmail.com
+  scope: >
+    Community-local counterpart to the k8s-sig-openstack group, focused on
+    cross community communication and collaboration. Where k8s-sig-openstack
+    spends a good deal of time managing upstream provider code, sig-k8s
+    would likewise be focused on code to support and enable K8s deployments
+    within the OpenStack community. This SIG is directly intertwined with
+    k8s-sig-openstack within the Kubernetes community, with the same sig
+    leadership and meetings.
+  status: advisory
+  url: https://github.com/kubernetes/cloud-provider-openstack/blob/master/README.md
+
+Large Scale:
+  chairs:
+    - name: Belmiro Moreira
+      irc: belmoreira
+      email: belmiro.moreira@cern.ch
+    - name: Pengju Jiao
+      irc: jiaopengju
+      email: jiaopengju@cmss.chinamobile.com
+    - name: Thierry Carrez
+      irc: ttx
+      email: thierry@openstack.org
+  scope: >
+    The aim of the group is to facilitate running OpenStack at large scale,
+    and help address some of the limitations operators encounter in large
+    OpenStack clusters.
+  status: active
+  url: https://wiki.openstack.org/wiki/Large_Scale_SIG
+
+Multi-Arch:
+  chairs:
+    - name: Rico Lin
+      irc: ricolin
+      email: ricolin@ricolky.com
+    - name: Seongsoo Cho
+      irc: seongsoocho
+      email: ppiyakk2@printf.kr
+  scope: >
+    This SIG tracks and encourages efforts towards better support for OpenStack
+    on CPU architectures other than x86_64. This includes providing documents,
+    building test jobs, tracking issues, and building ecosystem for multiple
+    architectures.
+  status: active
+  url: https://etherpad.openstack.org/p/Multi-arch
+
+Operation Docs and Tooling:
+  chairs:
+    - name: Chris Morgan
+      irc: mihalis68
+      email: mihalis68@gmail.com
+    - name: Sean McGinnis
+      irc: smcginnis
+      email: sean.mcginnis@gmail.com
+  scope: >
+    The Operation Docs and Tooling SIG is for those interested in operator
+    guide documentation and tools, scripts, and other code to make running
+    OpenStack clouds easier and more efficient.
+  status: active
+  url: https://wiki.openstack.org/wiki/Operation_Docs_SIG
+
+Packaging:
+  chairs:
+    - name: Javier Peña
+      irc: jpena
+      email: jpena@redhat.com
+    - name: Dirk Mueller
+      irc: dirk
+      email: dirk@dmllr.de
+  scope: >
+    To make OpenStack easier to update and consume by operators and
+    provide tooling to package all OpenStack projects directly for
+    (at first) all RPM based distributions.
+  status: active
+  url: https://wiki.openstack.org/wiki/Rpm-packaging
+
+PowerVMStacker:
+  chairs:
+    - name: Ramakrishnan Ramasubbu
+      irc: SriRamaSan
+      email: RR00462393@techmahindra.com
+    - name: Anurag Mahanto
+      irc: anuragmahanto67
+      email: Anurag.Mahanto@TechMahindra.com
+  scope: >
+    The scope of the PowerVMStacker is to provide OpenStack support for the
+    POWER CPU architecture on the PowerVM hypervisor.
+    This enables support of Linux, AIX and IBM i for PowerVM systems.
+    There are currently three supported components of the PowerVM driver -
+    nova-powervm – Support for Nova use cases.
+    ceilometer-powervm – Gathers instance/VM statistics.
+    networking-powervm – An optional Neutron ML2 agent that supports PowerVM
+    Shared Ethernet Adapters (SEAs). Users should utilize this if their environment
+    requires Shared Ethernet. However, they may also use the standard Open vSwitch
+    agent from the Neutron project to support advanced functions such as Security Groups,
+    Quality of Service (QoS), overlay networks (VXLANs) and more.
+  status: active
+  url: https://wiki.openstack.org/wiki/PowerVM
+
+Public Cloud:
+  chairs:
+    - name: Tobias Rydberg
+      irc: tobberydberg
+      email: tobias.rydberg@citynetwork.eu
+    - name: Howard Huang
+      irc: zhipeng
+      email: huangzhipeng@huawei.com
+  scope: >
+     The aim of this sig is to represent the interests of the OpenStack
+     public cloud provider community, and to further adoption of OpenStack
+     public cloud usage.
+  status: advisory
+  url: https://wiki.openstack.org/wiki/PublicCloudSIG
+
+Resource Management:
+  chairs:
+    - name: Howard Huang
+      irc: zhipeng
+      email: huangzhipeng@huawei.com
+  scope: >
+    The Resource Management SIG provides a gathering of similar interested
+    parties and establish an official channel cross different communities,
+    such as Kubernetes (Resource Management WG), Apache Mesos, Open Compute
+    Project and so forth, to focus on alignment of resource management
+    related functionalities.
+  status: forming
+  url: https://wiki.openstack.org/wiki/Res_Mgmt_SIG
+
+Scientific:
+  chairs:
+    - name: Blair Bethwaite
+      irc: b1airo
+      email: blair.bethwaite@gmail.com
+    - name: Stig Telfer
+      irc: oneswig
+      email: stig.openstack@telfer.org
+    - name: Martial Michel
+      irc: martial_
+      email: martialmichel@datamachines.io
+  scope: >
+    The Scientific SIG (formerly Scientific Working Group) is dedicated to
+    representing and advancing the use-cases and needs of research and
+    high-performance computing atop OpenStack. It's also a great forum for
+    cross-institutional collaboration. If you are (or would like to) run
+    OpenStack to support researchers/scientists/academics and/or HPC/HTC,
+    then please join!
+  status: active
+  url: https://wiki.openstack.org/wiki/Scientific_SIG
+
+Security:
+  chairs:
+    - name: Jeremy Stanley
+      irc: fungi
+      email: fungi@yuggoth.org
+    - name: Jay Faulkner
+      irc: JayF
+      email: jay@jvf.cc
+  scope: >
+    The Security SIG (formerly Security Project) responsibilities include
+    aiming to improve overall security of the various OpenStack projects,
+    maintaining the list of security notices in OpenStack, and ensuring
+    that security incidents are handled in a coordinated fashion. This
+    involves maintaining the OSSN (OpenStack Security Notes) and OSSA
+    (OpenStack Security Advisories), which are primarily handled under
+    the OpenStack Vulnerability Managment Team (VMT), a more
+    autonomous subgroup of the Security SIG.
+  status: active
+  url: https://wiki.openstack.org/wiki/Security-SIG
+
+Testing and Collaboration Tools:
+  chairs:
+    - name: Jeremy Stanley
+      irc: fungi
+      email: fungi@yuggoth.org
+  scope: >
+    The Testing and Collaboration Tools (TaCT) SIG maintains, in cooperation
+    with the OpenDev project, the tooling and infrastructure needed to support
+    the development process and testing of the OpenStack project.
+  url: tact-sig.html
+  status: active
