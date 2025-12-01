@@ -14,7 +14,7 @@ one Technical Committee representative. In case the two SIG admins disagree
 on the resolution of the conflict, the OpenStack Foundation Executive Director
 will be asked to break the tie.
 
-NB: the SIG admins group also has +2A rights on the governance-sigs repository
+NB: the SIG admins group also has +2A rights on the governance repository
 (source of the `SIG governance website`_), and therefore finally approves
 new SIG submissions.
 
