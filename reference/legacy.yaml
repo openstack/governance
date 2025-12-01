@@ -579,15 +579,96 @@ MagnetoDB:
         - type:library
 
 monasca:
-  partial: yes
   irc-channel: openstack-monasca
   service: Monitoring
+  mission: >
+    To provide a multi-tenant, highly scalable, performant, fault-tolerant
+    monitoring-as-a-service solution for metrics, complex event processing
+    and logging. To build an extensible platform for advanced monitoring
+    services that can be used by both operators and tenants to gain
+    operational insight and visibility, ensuring availability and stability.
   url: https://wiki.openstack.org/wiki/Monasca
+  retired-on: 2025-08-11
   deliverables:
     monasca-analytics:
       retired-on: 2020-10-22
       repos:
         - openstack/monasca-analytics
+    monasca-api:
+      retired-on: 2025-08-11
+      repos:
+        - openstack/monasca-api
+    monasca-log-api:
+      deprecated: ussuri
+      release-management: deprecated
+      retired-on: 2025-08-11
+      repos:
+        - openstack/monasca-log-api
+    monasca-events-api:
+      retired-on: 2025-08-11
+      repos:
+        - openstack/monasca-events-api
+    monasca-specs:
+      release-management: none
+      retired-on: 2025-08-11
+      repos:
+        - openstack/monasca-specs
+    monasca-notification:
+      retired-on: 2025-08-11
+      repos:
+        - openstack/monasca-notification
+    monasca-persister:
+      retired-on: 2025-08-11
+      repos:
+        - openstack/monasca-persister
+    monasca-tempest-plugin:
+      retired-on: 2025-08-11
+      repos:
+        - openstack/monasca-tempest-plugin
+    monasca-thresh:
+      retired-on: 2025-08-11
+      repos:
+        - openstack/monasca-thresh
+    monasca-common:
+      retired-on: 2025-08-11
+      repos:
+        - openstack/monasca-common
+    monasca-ui:
+      retired-on: 2025-08-11
+      repos:
+        - openstack/monasca-ui
+    python-monascaclient:
+      retired-on: 2025-08-11
+      repos:
+        - openstack/python-monascaclient
+    monasca-agent:
+      retired-on: 2025-08-11
+      repos:
+        - openstack/monasca-agent
+    monasca-statsd:
+      retired-on: 2025-08-11
+      repos:
+        - openstack/monasca-statsd
+    monasca-ceilometer:
+      deprecated: ussuri
+      release-management: deprecated
+      retired-on: 2025-08-11
+      repos:
+        - openstack/monasca-ceilometer
+    monasca-transform:
+      deprecated: victoria
+      release-management: deprecated
+      retired-on: 2025-08-11
+      repos:
+        - openstack/monasca-transform
+    monasca-grafana-datasource:
+      retired-on: 2025-08-11
+      repos:
+        - openstack/monasca-grafana-datasource
+    monasca-kibana-plugin:
+      retired-on: 2025-08-11
+      repos:
+        - openstack/monasca-kibana-plugin
 
 murano:
   irc-channel: murano
