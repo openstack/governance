@@ -589,9 +589,6 @@ keystone:
     keystone-tempest-plugin:
       repos:
         - openstack/keystone-tempest-plugin
-    keystoneauth:
-      repos:
-        - openstack/keystoneauth
     keystonemiddleware:
       repos:
         - openstack/keystonemiddleware
@@ -1686,6 +1683,9 @@ OpenStackSDK:
     codegenerator:
       repos:
         - openstack/codegenerator
+    keystoneauth:
+      repos:
+        - openstack/keystoneauth
     openapi:
       repos:
         - openstack/openapi
