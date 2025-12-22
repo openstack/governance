@@ -266,17 +266,14 @@ PowerVMStacker:
 
 Public Cloud:
   chairs:
-    - name: Tobias Rydberg
-      irc: tobberydberg
-      email: tobias.rydberg@citynetwork.eu
-    - name: Howard Huang
-      irc: zhipeng
-      email: huangzhipeng@huawei.com
+    - name: Kees Meijs
+      irc: No nick supplied
+      email: keesm@nefos.com
   scope: >
      The aim of this sig is to represent the interests of the OpenStack
      public cloud provider community, and to further adoption of OpenStack
      public cloud usage.
-  status: advisory
+  status: active
   url: https://wiki.openstack.org/wiki/PublicCloudSIG
 
 Resource Management:
