@@ -8,3 +8,4 @@
 /tc/goals/rocky/ 301 /tc/goals/selected/rocky/
 /tc/goals/stein/ 301 /tc/goals/selected/stein/
 /tc/goals/train/ 301 /tc/goals/selected/train/
+/tc/reference/sig-repos.html 301 /tc/reference/sigs/index.html

@@ -33,6 +33,7 @@ class SIGTable(Table):
     option_spec = {'class': directives.class_option,
                    'name': directives.unchanged,
                    'datafile': directives.unchanged,
+                   'reposfile': directives.unchanged,
                    }
 
     def run(self):
@@ -49,21 +50,37 @@ class SIGTable(Table):
             return [error]
 
         # Now find the real path to the file, relative to where we are.
-        rel_filename, filename = env.relfn2path(datafile)
+        _, filename = env.relfn2path(datafile)
 
         LOG.info('loading sigtable')
         LOG.info('reading %s' % filename)
-        with open(filename, 'r') as f:
+        with open(filename, 'r', encoding='utf-8') as f:
             _teams_yaml = yaml.safe_load(f.read())
+
+        # Load repos data if reposfile is provided
+        _repos_yaml = {}
+        reposfile = self.options.get('reposfile')
+        if reposfile:
+            _, repos_filename = env.relfn2path(reposfile)
+            LOG.info('reading repos from %s' % repos_filename)
+            with open(repos_filename, 'r', encoding='utf-8') as f:
+                _repos_yaml = yaml.safe_load(f.read())
+
+        # Adjust headers and widths if repos are included
+        headers = list(self.HEADERS)
+        widths = list(self.WIDTHS)
+        if _repos_yaml:
+            headers.append('Repositories')
+            widths.append(60)
 
         table = nodes.table()
 
         # Set up the column specifications
         # based on the widths.
-        tgroup = nodes.tgroup(cols=len(self.HEADERS))
+        tgroup = nodes.tgroup(cols=len(headers))
         table += tgroup
         tgroup.extend(nodes.colspec(colwidth=col_width)
-                      for col_width in self.WIDTHS)
+                      for col_width in widths)
 
         # Set the headers
         thead = nodes.thead()
@@ -72,7 +89,7 @@ class SIGTable(Table):
         thead += row_node
         row_node.extend(
             nodes.entry(h, nodes.paragraph(text=h))
-            for h in self.HEADERS
+            for h in headers
         )
 
         # The body of the table is made up of rows.
@@ -88,7 +105,7 @@ class SIGTable(Table):
         for team in sorted(all_teams.keys()):
             trow = nodes.row()
             # Iterate over the headers in the same order every time.
-            for h in self.HEADERS:
+            for h in headers:
                 if h.lower() == "name":
                     cell = "<a href=\"%s\">%s</a>" % (all_teams[team]['url'],
                                                       team)
@@ -106,6 +123,16 @@ class SIGTable(Table):
                     for chair in all_teams[team]['chairs']:
                         chairs.append("%s (%s, <br /> %s) <br /> <br />" % (chair['name'], chair['irc'], chair['email']))
                     cell = "".join(chairs)
+                    entry = nodes.entry()
+                    para = nodes.raw('', cell, format='html')
+                elif h.lower() == "repositories":
+                    # Add repositories column if available
+                    repos = []
+                    if team in _repos_yaml:
+                        for repo_item in _repos_yaml[team]:
+                            repo = repo_item['repo']
+                            repos.append('<a href="https://opendev.org/%s">%s</a>' % (repo, repo))
+                    cell = '<br />'.join(repos) if repos else ''
                     entry = nodes.entry()
                     para = nodes.raw('', cell, format='html')
                 else:

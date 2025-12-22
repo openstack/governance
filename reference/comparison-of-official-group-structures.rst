@@ -65,7 +65,7 @@ co-leads. Since they are not directly in charge of producing OpenStack, only
 limited accountability is required, and SIGs do not have any required named
 liaisons.
 
-SIGs :doc:`can own git repositories </reference/sig-repos>` and produce
+SIGs :doc:`can own git repositories </reference/sigs/index>` and produce
 software, but that software will be considered add-on software to the main
 "OpenStack" software releases. Therefore
 SIGs deliverables are not part of the coordinated release, and will not leverage
