@@ -63,6 +63,7 @@ barbican:
       repos:
         - openstack/barbican-tempest-plugin
     barbican-ui:
+      release-management: none
       repos:
         - openstack/barbican-ui
     python-barbicanclient:
