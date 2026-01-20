@@ -947,10 +947,6 @@ OpenStackAnsible:
       retired-on: 2020-04-07
       repos:
         - openstack/openstack-ansible-repo_build
-    openstack-ansible-os_freezer:
-      retired-on: 2020-05-11
-      repos:
-        - openstack/openstack-ansible-os_freezer
     openstack-ansible-pip_lock_down:
       retired-on: 2020-05-11
       repos:
