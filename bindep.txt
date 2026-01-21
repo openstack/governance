@@ -3,5 +3,5 @@
 # see https://docs.openstack.org/infra/bindep/ for additional information.
 
 fonts-dejavu-core [platform:dpkg]
-libpcre3-dev [platform:dpkg !platform:debian-trixie]
-pcre-devel [platform:rpm]
+libpcre2-dev [platform:dpkg]
+pcre2-devel [platform:rpm]
