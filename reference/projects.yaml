@@ -2507,33 +2507,10 @@ vitrage:
       repos:
         - openstack/xstatic-moment-timezone
 watcher:
-  leadership_type: distributed
-  liaisons:
-    release:
-      - name: Chandan Kumar
-        irc: chandankumar
-        email: chkumar@redhat.com
-      - name: Joan Francesc Gilabert Navarro
-        irc: jgilaber
-        email: jgilaber@redhat.com
-    tact-sig:
-      - name: Douglas Viroel
-        irc: dviroel
-        email: viroel@gmail.com
-      - name: Chandan Kumar
-        irc: chandankumar
-        email: chkumar@redhat.com
-    security:
-      - name: Dan Smith
-        irc: dansmith
-        email: dms@danplanet.com
-      - name: Sean Mooney
-        irc: sean-k-mooney
-        email: smooney@redhat.com
-    tc-liaison:
-      - name: Goutham Pacha Ravi
-        irc: gouthamr
-        email: gouthampravi@gmail.com
+  ptl:
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-watcher
   service: Infrastructure Optimization service
   mission: >
