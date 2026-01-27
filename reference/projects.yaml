@@ -2171,7 +2171,10 @@ Release Management:
         irc: mnasiadka
         email: mnasiadka@gmail.com
 requirements:
-  leadership_type: distributed
+  ptl:
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   irc-channel: openstack-requirements
   service: Common dependency management
   mission: >
@@ -2183,35 +2186,6 @@ requirements:
     requirements:
       repos:
         - openstack/requirements
-  liaisons:
-    release:
-      - name: Matthew Thode
-        irc: prometheanfire
-        email: mthode@mthode.org
-      - name: Tony Breeds
-        irc: tonyb
-        email: tony@bakeyournoodle.com
-    tact-sig:
-      - name: Matthew Thode
-        irc: prometheanfire
-        email: mthode@mthode.org
-      - name: Tony Breeds
-        irc: tonyb
-        email: tony@bakeyournoodle.com
-    security:
-      - name: Matthew Thode
-        irc: prometheanfire
-        email: mthode@mthode.org
-      - name: Tony Breeds
-        irc: tonyb
-        email: tony@bakeyournoodle.com
-    tc-liaison:
-      - name: Michal Nasiadka
-        irc: mnasiadka
-        email: mnasiadka@gmail.com
-      - name: Dmitriy Rabotyagov
-        irc: noonedeadpunk
-        email: noonedeadpunk@gmail.com
 skyline:
   ptl:
     name: Wenxiang Wu
