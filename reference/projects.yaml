@@ -140,6 +140,7 @@ cinder:
       repos:
         - openstack/python-cinderclient
     rbd-iscsi-client:
+      release-management: none
       repos:
         - openstack/rbd-iscsi-client
 cloudkitty:
