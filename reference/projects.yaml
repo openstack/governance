@@ -609,8 +609,8 @@ kolla:
   irc-channel: openstack-kolla
   service: Containerised deployment of OpenStack
   mission: >
-    To provide production-ready containers and deployment tools for operating
-    OpenStack clouds.
+    To provide tools to create production-ready containers and to
+    provide deployment tools for operating OpenStack clouds.
   url: https://wiki.openstack.org/wiki/Kolla
   deliverables:
     ansible-collection-kolla:
