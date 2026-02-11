@@ -410,6 +410,9 @@ horizon:
     xstatic-angular-notify:
       repos:
         - openstack/xstatic-angular-notify
+    xstatic-angular-schema-form:
+      repos:
+        - openstack/xstatic-angular-schema-form
     xstatic-angular-smart-table:
       repos:
         - openstack/xstatic-angular-smart-table
@@ -464,6 +467,9 @@ horizon:
     xstatic-mdi:
       repos:
         - openstack/xstatic-mdi
+    xstatic-objectpath:
+      repos:
+        - openstack/xstatic-objectpath
     xstatic-rickshaw:
       repos:
         - openstack/xstatic-rickshaw
@@ -473,6 +479,9 @@ horizon:
     xstatic-spin:
       repos:
         - openstack/xstatic-spin
+    xstatic-tv4:
+      repos:
+        - openstack/xstatic-tv4
 ironic:
   leadership_type: distributed
   irc-channel: openstack-ironic
