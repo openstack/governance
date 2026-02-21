@@ -2164,10 +2164,7 @@ Release Management:
         irc: mnasiadka
         email: mnasiadka@gmail.com
 requirements:
-  ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+  leadership_type: distributed
   irc-channel: openstack-requirements
   service: Common dependency management
   mission: >
@@ -2179,6 +2176,32 @@ requirements:
     requirements:
       repos:
         - openstack/requirements
+  liaisons:
+    release:
+      - name: Jens Harbott
+        irc: frickler
+        email: frickler@offenerstapel.de
+      - name: Michal Nasiadka
+        irc: mnasiadka
+        email: mnasiadka@gmail.com
+    tact-sig:
+      - name: Jens Harbott
+        irc: frickler
+        email: frickler@offenerstapel.de
+      - name: Michal Nasiadka
+        irc: mnasiadka
+        email: mnasiadka@gmail.com
+    security:
+      - name: Jens Harbott
+        irc: frickler
+        email: frickler@offenerstapel.de
+      - name: Michal Nasiadka
+        irc: mnasiadka
+        email: mnasiadka@gmail.com
+    tc-liaison:
+      - name: Michal Nasiadka
+        irc: mnasiadka
+        email: mnasiadka@gmail.com
 skyline:
   ptl:
     name: APPOINTMENT NEEDED
