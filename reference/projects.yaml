@@ -2181,13 +2181,14 @@ requirements:
         - openstack/requirements
 skyline:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Wenxiang Wu
+    irc: wu_wenxiang
+    email: wu.wenxiang@algoblu.com
   appointed:
     - zed
     - '2024.1'
     - '2024.2'
+    - '2026.2'
   irc-channel: openstack-skyline
   service: Dashboard
   mission: >
