@@ -2,7 +2,7 @@
     irc: spotz
     email: amy@demarco.com
     memberid: 33567
-    date: February 2025
+    date: February 2026
     role: null
 
   - name: Jens Harbott
@@ -16,21 +16,14 @@
     irc: gouthamr
     email: gouthampravi@gmail.com
     memberid: 35705
-    date: February 2025
-    role: chair
+    date: February 2026
+    role: null
 
   - name: Dmitriy Rabotyagov
     irc: noonedeadpunk
     email: noonedeadpunk@gmail.com
     memberid: 107517
-    date: February 2025
-    role: null
-
-  - name: Artem Goncharov
-    irc: gtema
-    email: artem.goncharov@gmail.com
-    memberid: 101132
-    date: February 2025
+    date: February 2026
     role: null
 
   - name: Doug Goldstein
@@ -51,12 +44,19 @@
     irc: mnasiadka
     email: mnasiadka@gmail.com
     memberid: 61605
-    date: February 2025
-    role: vice-chair
+    date: February 2026
+    role: null
 
   - name: Tony Breeds
     irc: tonyb
     email: tony@bakeyournoodle.com
     memberid: 24399
     date: September 2025
+    role: null
+
+  - name: Dan Smith
+    irc: dansmith
+    email: dms@danplanet.com
+    memberid: 5478
+    date: February 2026
     role: null
