@@ -1,14 +1,15 @@
 ---
 adjutant:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Callum Dickinson
+    irc: Callum027
+    email: callum.dickinson@catalystcloud.nz
   appointed:
     - victoria
     - yoga
     - zed
     - '2023.1'
+    - '2026.2'
   irc-channel: openstack-adjutant
   service: Operations Processes automation
   mission: >
