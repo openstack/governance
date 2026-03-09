@@ -1,0 +1,104 @@
+.. _2026-2-testing-runtime:
+
+=====================================
+Tested Runtimes for 2026.2 (Hibiscus)
+=====================================
+
+Linux Distribution
+==================
+
+At the start of the 2026.2 development cycle, the current :ref:`LTS or stable
+distribution <pti-linux-distros>` versions are:
+
+* Ubuntu 24.04
+* Debian 13
+
+Additional testing for a smooth upgrade
+---------------------------------------
+
+* None
+
+Python
+======
+
+It is the :doc:`policy <../../resolutions/20181024-python-update-process>` that
+each OpenStack release cycle will target the latest available version of
+Python; default Python runtime on the distributions listed above; and versions
+used in integration tests at the start of the cycle, at least until the point
+when all projects have migrated to a later version.
+
+Also, as per the Python testing requirements defined in :ref:`pti-python`,
+projects should avoid removing Python versions that have not reached EOL
+without a solid reason.
+
+Based on the criteria above, all Python-based projects must target and test
+against, at a minimum:
+
+* Python 3.11
+
+  Python 3.11 is the minimum supported/required version for 2026.2. Supporting
+  Python 3.11 does not require full tempest testing, but py311 unit tests are
+  expected as a minimum requirement for all Python projects. The minimal
+  requirement for testing jobs against Python versions above is to ensure
+  language compatibility, having more extensive testing is allowed.
+
+* Python 3.12 (available as default in Ubuntu 24.04)
+
+  Python 3.12 is the default Python version on Ubuntu 24.04, a tested
+  distribution. Running dedicated Python 3.12 unit test jobs is not required
+  since tempest jobs on Ubuntu 24.04 provide functional testing coverage for
+  this version. Periodic-only unit test jobs should be enough to complement
+  this.
+
+* Python 3.13 (available as default in Debian 13)
+
+  This is the upper bound of required testing for 2026.2.
+
+* Python 3.14 (available as default in Ubuntu 26.04)
+
+  Python 3.14 was released in October 2025 and is the default Python version
+  in Ubuntu 26.04, which releases during the Hibiscus development cycle.
+  Testing with Python 3.14 is not yet mandatory for the 2026.2 release.
+
+  .. warning::
+
+     Project teams are strongly encouraged to prioritize testing with
+     Python 3.14 in this cycle. A prudent approach is to begin with linting
+     and unit test jobs, and then extend testing to end-to-end jobs that
+     exercise tempest tests. Any incompatibilities with Python 3.14 should
+     be identified and addressed as early as possible. In a future release,
+     functional and end-to-end test jobs could default to running on
+     Python 3.14 deployments.
+
+More details on Python requirements can be found in :ref:`pti-python`.
+
+Advance/Unstable Testing
+========================
+
+The below list is for the distribution/python advance or unstable versions
+to test them in OpenStack CI/CD. These may not be part of integrated testing
+and may be tested as non-blockers or periodically only. The main idea is to
+test them in advance to be part of integrated testing in future
+cycles.
+
+Based on their testing infra setup, instability, or their future
+releases, we can modify the list during any phase of the current development
+cycle.
+
+* Ubuntu 26.04
+
+  Ubuntu 26.04 releases on April 23, 2026, a few weeks into the Hibiscus
+  development cycle. It ships Python 3.14 as the default Python version,
+  providing functional testing coverage on the latest upstream-supported
+  version of Python on the latest Ubuntu LTS.
+
+* CentOS Stream 10
+* Rocky Linux 10
+* AlmaLinux 10
+
+  AlmaLinux 10's continued support for x86_64_v2 makes it a
+  compelling option for project teams due to greater CI node
+  availability. We may need to work through additional packaging
+  deficiencies occasionally. We do not expect any other major
+  differences between these Enterprise Linux distributions.
+  Project teams can make a choice based on their needs.
