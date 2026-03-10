@@ -1722,9 +1722,6 @@ OpenStackSDK:
     python-openstackclient:
       repos:
         - openstack/python-openstackclient
-    requestsexceptions:
-      repos:
-        - openstack/requestsexceptions
 oslo:
   ptl:
     name: APPOINTMENT NEEDED
