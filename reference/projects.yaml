@@ -712,14 +712,15 @@ manila:
         - openstack/python-manilaclient
 masakari:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Masahito Muroi
+    irc: masahito
+    email: masahito.muroi@linecorp.com
   appointed:
     - yoga
     - zed
     - '2023.1'
     - '2025.2'
+    - '2026.2'
   irc-channel: openstack-masakari
   service: Instances High Availability service
   mission: >
