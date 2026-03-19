@@ -1,9 +1,9 @@
 ---
 adjutant:
   ptl:
-    name: Dale Smith
-    irc: dalees
-    email: dale@catalystcloud.nz
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - victoria
     - yoga
@@ -71,9 +71,9 @@ barbican:
         - openstack/python-barbicanclient
 blazar:
   ptl:
-    name: Pierre Riteau
-    irc: priteau
-    email: pierre@stackhpc.com
+    name: Matt Crees
+    irc: No nick supplied
+    email: mattc@stackhpc.com
   irc-channel: openstack-blazar
   service: Resource reservation service
   mission: >
@@ -178,9 +178,9 @@ cloudkitty:
         - openstack/cloudkitty-tempest-plugin
 cyborg:
   ptl:
-    name: Li Liu
-    irc: No nick supplied
-    email: liliueecg@gmail.com
+    name: Sean Mooney
+    irc: sean-k-mooney
+    email: smooney@redhat.com
   appointed:
     - ussuri
     - xena
@@ -640,9 +640,9 @@ kolla:
         - openstack/kayobe-config-dev
 magnum:
   ptl:
-    name: Dale Smith
-    irc: dalees
-    email: dale@catalystcloud.nz
+    name: Michal Nasiadka
+    irc: mnasiadka
+    email: mnasiadka@gmail.com
   appointed:
     - zed
   irc-channel: openstack-containers
@@ -712,9 +712,9 @@ manila:
         - openstack/python-manilaclient
 masakari:
   ptl:
-    name: sam sue
+    name: APPOINTMENT NEEDED
     irc: No nick supplied
-    email: suzhengwei@inspur.com
+    email: example@example.org
   appointed:
     - yoga
     - zed
@@ -745,9 +745,9 @@ masakari:
         - openstack/masakari-dashboard
 mistral:
   ptl:
-    name: Arnaud Morin
-    irc: amorin
-    email: arnaud.morin@gmail.com
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - '2024.1'
     - '2025.1'
@@ -899,9 +899,9 @@ nova:
         - openstack/os-resource-classes
 octavia:
   ptl:
-    name: Michael Johnson
-    irc: johnsom
-    email: johnsomor@gmail.com
+    name: Gregory Thiemonge
+    irc: No nick supplied
+    email: gthiemon@redhat.com
   appointed:
     - wallaby
   irc-channel: openstack-lbaas
@@ -2181,9 +2181,9 @@ requirements:
         - openstack/requirements
 skyline:
   ptl:
-    name: Wenxiang Wu
-    irc: wu_wenxiang
-    email: wu.wenxiang@99cloud.net
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   appointed:
     - zed
     - '2024.1'
@@ -2234,7 +2234,8 @@ sunbeam:
     containing many 1000's of hypervisors - leveraging a hybrid deployment
     model using Juju to manage both Kubernetes components and machine based
     components through the use of charms.
-  url: https://opendev.org/openstack/sunbeam-charms/src/branch/main/ops-sunbeam/README.rst
+  url: 
+    https://opendev.org/openstack/sunbeam-charms/src/branch/main/ops-sunbeam/README.rst
   deliverables:
     sunbeam-charms:
       release-management: external
@@ -2312,7 +2313,7 @@ tacker:
 Telemetry:
   ptl:
     name: Juan Larriba
-    irc: jlarriba
+    irc: No nick supplied
     email: jlarriba@redhat.com
   appointed:
     - train
@@ -2355,9 +2356,9 @@ Telemetry:
         - openstack/grian-ui
 trove:
   ptl:
-    name: wu chunyang
-    irc: wuchunyang
-    email: wchy1001@gmail.com
+    name: Erkin Mussurmankulov
+    irc: No nick supplied
+    email: mangust404@gmail.com
   appointed:
     - stein
     - zed
@@ -2475,9 +2476,9 @@ vitrage:
         - openstack/xstatic-moment-timezone
 watcher:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Douglas Viroel
+    irc: dviroel
+    email: viroel@gmail.com
   irc-channel: openstack-watcher
   service: Infrastructure Optimization service
   mission: >
