@@ -746,12 +746,13 @@ masakari:
         - openstack/masakari-dashboard
 mistral:
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Arnaud Morin
+    irc: amorin
+    email: arnaud.morin@gmail.com
   appointed:
     - '2024.1'
     - '2025.1'
+    - '2026.2'
   irc-channel: openstack-mistral
   service: Workflow service
   mission: >
