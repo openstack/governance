@@ -25,7 +25,7 @@ TC Chair Election
 
 * In case of single nomination, no election is needed and candidate can propose
   a patch to the member list to add "chair" status next to their name and use
-  `election-results` as gerrit topic name.
+  `election-results` as gerrit hashtag.
 
 * If there are multiple nominations, select a TC member who is not running for
   the TC chair to establish a CIVS poll to choose the single winner.
@@ -37,4 +37,4 @@ TC Chair Election
   voted.
 
 * Winner will propose a patch to the member list to add "chair" status next to
-  their name and use `election-results` as gerrit topic name.
+  their name and use `election-results` as gerrit hashtag.
