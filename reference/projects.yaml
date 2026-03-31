@@ -2583,40 +2583,60 @@ vitrage:
     insights regarding the root cause of problems and deduce their existence
     before they are directly detected.
   url: https://wiki.openstack.org/wiki/Vitrage
-  status: inactive
   deliverables:
     vitrage:
+      release-management: deprecated
+      deprecated: "2026.2"
       repos:
         - openstack/vitrage
     vitrage-specs:
       release-management: none
+      deprecated: "2026.2"
       repos:
         - openstack/vitrage-specs
     vitrage-tempest-plugin:
+      release-management: deprecated
+      deprecated: "2026.2"
       repos:
         - openstack/vitrage-tempest-plugin
     python-vitrageclient:
+      release-management: deprecated
+      deprecated: "2026.2"
       repos:
         - openstack/python-vitrageclient
     vitrage-dashboard:
+      release-management: deprecated
+      deprecated: "2026.2"
       repos:
         - openstack/vitrage-dashboard
     xstatic-dagre:
+      release-management: deprecated
+      deprecated: "2026.2"
       repos:
         - openstack/xstatic-dagre
     xstatic-dagre-d3:
+      release-management: deprecated
+      deprecated: "2026.2"
       repos:
         - openstack/xstatic-dagre-d3
     xstatic-graphlib:
+      release-management: deprecated
+      deprecated: "2026.2"
       repos:
         - openstack/xstatic-graphlib
     xstatic-lodash:
+      release-management: deprecated
+      deprecated: "2026.2"
       repos:
         - openstack/xstatic-lodash
     xstatic-moment:
+      release-management: deprecated
+      deprecated: "2026.2"
       repos:
         - openstack/xstatic-moment
     xstatic-moment-timezone:
+      release-management: deprecated
+      deprecated: "2026.2"
       repos:
         - openstack/xstatic-moment-timezone
 watcher:
