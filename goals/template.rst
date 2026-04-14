@@ -91,13 +91,16 @@ Status & Tracking
  OR
 :Etherpad: <put the link to etherpad where progress is tracked>
 
-Gerrit Topic
-------------
+Gerrit Tracking
+---------------
 
 To facilitate tracking, commits related to this goal should use the
-gerrit topic::
+gerrit hashtag or topic::
 
-  <insert topic here>
+  <insert hashtag here>
+
+Hashtags are preferred over topics because they are additive and
+support multiple tags per change.
 
 References
 ==========

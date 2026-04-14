@@ -118,7 +118,7 @@ votes (ties mean the motion is rejected), and a minimum of positive votes of at
 least one third of the total number of TC members (rounded up: in a 13-member
 committee that means a minimum of 5 approvers).
 
-Patches with motions should use the gerrit topic tag ``formal-vote``.
+Patches with motions should use the gerrit hashtag ``formal-vote``.
 
 Election for PTL seats
 ======================
@@ -327,5 +327,5 @@ motion, which needs to be approved by the affirmative vote of at least
 two-thirds of the total number of TC members (rounded up: in a 13-member
 committee that means a minimum of 9 approvers).
 
-Patches with charter amendments should use the gerrit topic tag
+Patches with charter amendments should use the gerrit hashtag
 ``charter-change``.

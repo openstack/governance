@@ -187,8 +187,25 @@ def all_changes():
             break
 
 
+KNOWN_CATEGORIES = {
+    'on-hold',
+    'formal-vote',
+    'charter-change',
+    'goal-proposal',
+    'code-change',
+    'documentation-change',
+    'election-results',
+    'typo-fix',
+    'project-update',
+    'new-project',
+    'goal-update',
+}
+
+
 def get_one_status(change, delegates, tc_members):
-    topic = change.get('topic', 'unknown topic')
+    hashtags = change.get('hashtags', [])
+    matching = [h for h in hashtags if h in KNOWN_CATEGORIES | delegates.keys()]
+    hashtag = matching[0] if matching else 'Missing hashtag'
     subject = change.get('subject')
     owner = change.get('owner', {}).get('name')
     url = 'https://review.opendev.org/{}\n'.format(change['_number'])
@@ -216,10 +233,10 @@ def get_one_status(change, delegates, tc_members):
         can_approve = 'NO, verification failure'
         earliest = 'when passing'
 
-    elif topic == 'on-hold':
+    elif hashtag == 'on-hold':
         can_approve = 'on hold'
 
-    elif topic == 'formal-vote':
+    elif hashtag == 'formal-vote':
         # https://governance.openstack.org/tc/reference/charter.html#motions
         parts = []
 
@@ -274,7 +291,7 @@ def get_one_status(change, delegates, tc_members):
 
         can_approve = ',\n'.join(parts)
 
-    elif topic == 'charter-change':
+    elif hashtag == 'charter-change':
         # https://governance.openstack.org/tc/reference/charter.html#amendment
         parts = []
 
@@ -314,7 +331,7 @@ def get_one_status(change, delegates, tc_members):
 
         can_approve = ',\n'.join(parts)
 
-    elif topic in (
+    elif hashtag in (
         'goal-proposal',
         'code-change',
         'documentation-change',
@@ -336,9 +353,9 @@ def get_one_status(change, delegates, tc_members):
         else:
             can_approve = 'CAN APPROVE'
 
-    elif topic in delegates.keys():
+    elif hashtag in delegates.keys():
         # https://governance.openstack.org/tc/reference/house-rules.html#delegated-metadata
-        approver_name = delegates[topic]
+        approver_name = delegates[hashtag]
         can_approve = 'delegated to {}'.format(approver_name)
         if has_approved(approver_name, change):
             can_approve += '\nYES'
@@ -347,7 +364,7 @@ def get_one_status(change, delegates, tc_members):
         elif has_commented(approver_name, change):
             can_approve += '\ndelegate has commented'
 
-    elif topic in ('project-update', 'new-project'):
+    elif hashtag in ('project-update', 'new-project'):
         # https://governance.openstack.org/tc/reference/house-rules.html#other-project-team-updates
 
         if votes[-1] or code_reviews[-1]:
@@ -357,7 +374,7 @@ def get_one_status(change, delegates, tc_members):
         else:
             can_approve = 'CAN APPROVE'
 
-    elif topic == 'goal-update':
+    elif hashtag == 'goal-update':
         # https://governance.openstack.org/tc/reference/house-rules.html#goal-updates-from-ptls
 
         # At least 7 days old.
@@ -371,8 +388,7 @@ def get_one_status(change, delegates, tc_members):
             can_approve = 'CAN APPROVE'
 
     else:
-        topic = 'unknown topic'
-        can_approve = 'unknown topic'
+        can_approve = ''
 
     votes = '\n'.join([
         'CR:' + format_votes(code_reviews),
@@ -396,7 +412,7 @@ def get_one_status(change, delegates, tc_members):
     )
 
     return {
-        'Topic': topic,
+        'Hashtag': hashtag,
         'Subject': subject,
         'Summary': '\n'.join([
             subject.strip(),
@@ -409,7 +425,7 @@ def get_one_status(change, delegates, tc_members):
         'Age': age.days,
         'Date': latest_created.date(),
         'Can Approve': can_approve,
-        'Status': '\n'.join([topic, can_approve,
+        'Status': '\n'.join([hashtag, can_approve,
                              '{} days old'.format(age.days),
                              'earliest: {}'.format(earliest)]),
         'Earliest': earliest,
@@ -451,7 +467,7 @@ def main():
         'release-management': release_team.ptl['name'],
     }
     for tag, name in sorted(delegates.items()):
-        print('Delegating {} tags to {}'.format(tag, name))
+        print('Delegating {} hashtag to {}'.format(tag, name))
 
     status = sorted(
         (get_one_status(change, delegates, tc_members)

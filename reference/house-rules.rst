@@ -22,7 +22,7 @@ by other means.
 Typo fixes
 ----------
 
-:Gerrit topic: ``typo-fix``
+:Gerrit hashtag: ``typo-fix``
 
 When the change fixes content that is obviously wrong (updates a PTL email
 address, fixes a typo...) then any TC member (who is not the proposer) can
@@ -31,7 +31,7 @@ directly approve them.
 Community-wide goal proposals
 -----------------------------
 
-:Gerrit topic: ``goal-proposal``
+:Gerrit hashtag: ``goal-proposal``
 
 The `process for choosing community goals`_ has two stages relevant to Gerrit
 changes: defining goal proposals and selecting goals for a cycle.  For changes
@@ -51,7 +51,7 @@ requires a formal-vote.
 Code changes
 ------------
 
-:Gerrit topic: ``code-change``
+:Gerrit hashtag: ``code-change``
 
 The `openstack/governance` repository also contains code to build and publish
 pages on the governance.openstack.org website. For those we apply the normal
@@ -63,7 +63,7 @@ point.
 Documentation changes
 ---------------------
 
-:Gerrit topic: ``documentation-change``
+:Gerrit hashtag: ``documentation-change``
 
 The `openstack/governance` repository also contains documentation
 related to internal operations of the TC but that does not represent
@@ -77,7 +77,7 @@ than the change owner) are posted (and no `RollCall-1`).
 Election Results
 ----------------
 
-:Gerrit topic: ``election-results``
+:Gerrit hashtag: ``election-results``
 
 The results of elections are documented in the `openstack/governance`
 repository, but are not subject to "review" or "approval" by the TC,
@@ -92,7 +92,7 @@ RollCall votes being considered +-2): change will be approved once 2
 Delegated metadata
 ------------------
 
-:Gerrit topic: ``release-management``
+:Gerrit hashtag: ``release-management``
 
 The ``release-management`` setting for a deliverable is delegated to
 the PTL of the Release Management team. When proposed or approved by
@@ -101,9 +101,9 @@ the PTL, changes can be directly approved by the chair.
 Other project team updates
 --------------------------
 
-:Gerrit topic: ``project-update``
+:Gerrit hashtag: ``project-update``
 
-This topic is used for other changes within an existing project team, like
+This hashtag is used for other changes within an existing project team, like
 addition of a new git repository or retirement of an existing repository
 maintained by a project team.
 
@@ -130,7 +130,7 @@ project, they can propose a revert which would then be discussed by our usual
 Goal Updates from PTLs
 ----------------------
 
-:Gerrit topic: ``goal-update``
+:Gerrit hashtag: ``goal-update``
 
 PTLs will acknowledge community-wide goals at the start of each cycle
 by providing links to artifacts for tracking the work, or an
