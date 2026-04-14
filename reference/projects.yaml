@@ -553,9 +553,6 @@ ironic:
     virtualbmc:
       repos:
         - openstack/virtualbmc
-    virtualpdu:
-      repos:
-        - openstack/virtualpdu
   liaisons:
     release:
       - name: Riccardo Pittau

@@ -483,6 +483,10 @@ ironic:
       retired-on: 2025-10-08
       repos:
         - openstack/python-ironic-inspector-client
+    virtualpdu:
+      retired-on: 2026-05-14
+      repos:
+        - openstack/virtualpdu
 karbor:
   retired-on: 2020-12-14
   irc-channel: openstack-karbor
