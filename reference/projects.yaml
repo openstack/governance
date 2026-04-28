@@ -1723,9 +1723,6 @@ OpenStackSDK:
     python-openstackclient:
       repos:
         - openstack/python-openstackclient
-    requestsexceptions:
-      repos:
-        - openstack/requestsexceptions
 oslo:
   leadership_type: distributed
   irc-channel: openstack-oslo
