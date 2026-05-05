@@ -2103,6 +2103,10 @@ Quality Assurance:
     devstack-plugin-container:
       repos:
         - openstack/devstack-plugin-container
+    devstack-plugin-lustre:
+      release-management: none
+      repos:
+        - openstack/devstack-plugin-lustre
     devstack-plugin-nfs:
       release-management: none
       repos:
