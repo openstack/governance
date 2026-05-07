@@ -36,11 +36,11 @@ Completion Criteria
 ===================
 
 #. A migrated project should not import oslo.rootwrap, the rootwrap filters
-should be deleted and the library should not be required anymore during the
-project installation.
+   should be deleted and the library should not be required anymore during the
+   project installation.
 
 #. The migration will be considered complete when no project inherits
-oslo.rootwrap and this import is added to hacking [1]_.
+   oslo.rootwrap and this import is added to hacking [1]_.
 
 
 References
