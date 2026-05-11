@@ -135,6 +135,56 @@ This team will be disbanded after:
    eventlet within the projects they maintain.
 
 
+PQC Migration
+-------------
+
+Co-leads
+~~~~~~~~
+
+* Maurício Harley (mharley)
+* Jean-Philippe Jung (jjung)
+
+TC Liaison
+~~~~~~~~~~
+
+* Mauricio Harley (mharley)
+
+Objective
+~~~~~~~~~
+
+Post-quantum cryptography (PQC) algorithms standardized by NIST (ML-KEM
+in FIPS 203, ML-DSA in FIPS 204) need to be supported across OpenStack
+so that deployments can migrate away from quantum-vulnerable classical
+algorithms (RSA, ECDSA, ECDH, Ed25519) before cryptographically relevant
+quantum computers become viable.
+
+This pop-up team will produce a structured per-project cryptographic
+inventory, an assessment guide for project teams, and reference
+implementations demonstrating non-disruptive, opt-in PQC migration
+paths. The team will also define consistent cross-project guidance on
+crypto agility -- ensuring algorithm choices are configurable rather
+than hardcoded.
+
+More information: https://wiki.openstack.org/wiki/Post_quantum_openstack
+
+Disband criteria
+~~~~~~~~~~~~~~~~
+
+This team will be disbanded after:
+
+#. A per-project cryptographic inventory covering in-transit, at-rest,
+   signing, identity, and dependency surfaces has been published.
+
+#. An assessment and migration guide is available for project teams.
+
+#. At least one reference implementation (Barbican PQC key types) has
+   been merged or is under active review.
+
+#. A determination has been made, based on inventory results, on
+   whether a formal community goal is warranted, and if so, the goal
+   has been proposed.
+
+
 Process for addition or removal
 ===============================
 
