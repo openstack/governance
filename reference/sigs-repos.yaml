@@ -67,6 +67,7 @@ Security:
   - repo: openstack/ossa
   - repo: openstack/security-doc
 Testing and Collaboration Tools:
+  - repo: openstack/agentic-workflows
   - repo: openstack/bugdaystats
   - repo: openstack/ci-log-processing
   - repo: openstack/diskimage-builder
