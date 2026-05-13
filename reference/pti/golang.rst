@@ -4,6 +4,15 @@
 Project Testing Interface: Go
 =============================
 
+.. warning::
+
+    There are currently no OpenStack projects using Go components and this
+    document was last updated in 2019. The Go ecosystem has changed
+    significantly since that time, particularly with regards to dependency
+    management, and a number of guidelines provided below no longer make sense.
+    This document will need to be rewritten should Go be adopted by any
+    projects in the future.
+
 Go language (golang) repositories shall use the following interface
 for testing and automation purposes.  This includes both pure golang
 repos and mixed-language repos as some of the OpenStack tooling defined
