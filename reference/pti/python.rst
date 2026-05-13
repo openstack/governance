@@ -7,7 +7,7 @@ Project Testing Interface: Python
 Each project containing Python components must be able to do:
 
 - Unit tests for Python (see below for version details)
-- Codestyle checks
+- Linter checks
 - Testing Coverage Report
 - Source Tarball Generation
 - Translations import/export and merge for translated projects
@@ -19,18 +19,49 @@ Specific commands
 To drive the above tasks, the following commands should be supported in a clean
 tree:
 
-- ``tox -e pep8``
-- ``tox -e cover``
-- ``python -m build -s .`` (sdist)
-- ``python -m build -w .`` (wheels)
-- ``sphinx-build -W -b html doc/source doc/build``
+``tox -e py3``
+    Execute unit tests
+
+``tox -e cover``
+    Generate code coverage from tests
+
+``tox -e pep8``
+    Execute code style checks
+
+``tox -e docs``
+    Generate HTML documentation from the in-tree documentation
+
+``python -m build -s .``
+    Execute build process and build an sdist
+
+``python -m build -w .``
+    Execute build process and build a wheel
+
+Additional commands may be supported, but are not required:
+
+``tox -e functional``
+    Execute functional tests
+
+``tox -e releasenotes``
+    Generate HTML release notes
+
+``tox -e api-ref``
+    Generate HTML documentation from the in-tree API reference
+
+``pybabel extract``, ``pybabel update``
+    Generate and update *Portable Object Template (``.pot``)* files for
+    translations.
+
+``tox -e bindep``
+    Verify installed system dependencies.
+
+Supported Python versions
+-------------------------
 
 The Python 3 version may change from cycle to cycle. Projects should
 target the following, extending supported Python 3.x with the
 :ref:`tested Python 3 runtimes <pti-tested-runtimes>` for the current
-development cycle:
-
-- ``tox -e py3x``
+development cycle.
 
 Projects should avoid removing Python versions that have not reached
 `End Of Life <https://devguide.python.org/versions/>`_ without a solid
@@ -39,19 +70,8 @@ as long as possible.
 While CI coverage of Python versions that are not mentioned in PTI can be reduced,
 such reduction is not mandatory.
 
-Projects that are translated should also support generating and updating their
-*Portable Object Template (``.pot``)* files using the following commands:
-
-- ``pybabel extract``
-- ``pybabel update``
-
-Some basic prerequisites for test running (system packages, database
-configuration, custom filesystem types) are acceptable as long as they are
-documented in a visible location such as a ``CONTRIBUTING.rst``,
-``TESTING.rst``, or ``README.rst`` file in the root of the repository.
-
-Requirements Listing
---------------------
+Dependency Management
+---------------------
 
 Each project should list its required dependencies in either
 ``project.dependencies`` in ``pyproject.toml`` or in a ``requirements.txt``
@@ -65,7 +85,7 @@ implementation (cpython, pypy, ...)
 .. __: https://packaging.python.org/en/latest/specifications/dependency-specifiers/#dependency-specifiers
 
 Constraints
-===========
+~~~~~~~~~~~
 
 The requirements project maintains a set of constraints with packages pinned
 to specific package versions that are known to be working. The goal is to
@@ -75,26 +95,51 @@ to provide a set of packages known to work together.
 Projects may opt into using the constraints in one or more of their
 standard targets via their ``tox.ini`` configuration.
 
-Virtual Environment Management
-------------------------------
+Non-Python Dependencies
+~~~~~~~~~~~~~~~~~~~~~~~
 
-To support sensible testing across multiple Python versions, we use tox
+Projects that require non-Python system dependencies, such as databases (for
+testing), TeX (for PDF documentation) or compilers, should rely on `bindep`_
+and provide a ``bindep.txt`` file to indicate these.
+
+Some basic prerequisites for test running (system packages, database
+configuration, custom filesystem types) are acceptable as long as they are
+documented in a visible location such as a ``CONTRIBUTING.rst``,
+``TESTING.rst``, or ``README.rst`` file in the root of the repository.
+
+.. _bindep: https://docs.opendev.org/opendev/bindep/latest/
+
+Build and Install
+-----------------
+
+All OpenStack projects use `pbr`_ for consistent operation of `setuptools`_.
+To accomplish this, all ``setup.py`` files only contain a simple setup function
+that enabled *pbr*. Actual project configuration is then handled in
+``pyproject.toml`` or ``setup.cfg``. This allows project to be built using
+standard build frontends like `build`_.
+
+To support sensible testing across multiple Python versions, we use `tox`_
 config files in the projects.
 
-Python test running
--------------------
+.. _pbr: https://docs.openstack.org/pbr/latest/
+.. _setuptools: https://setuptools.pypa.io/en/latest/
+.. _build: https://build.pypa.io/en/stable/
+.. _tox: https://tox.wiki/en/latest/
 
-OpenStack uses `stestr`__ as its test runner. *stestr* should be used for
+Tests
+-----
+
+OpenStack uses `stestr`_ as its test runner. *stestr* should be used for
 running all Python tests, including unit, functional, and integration tests.
 *stestr* is used because of its real time subunit output and its support for
 parallel execution of tests. In addition, *stestr* only runs tests conforming
-to the Python stdlib unittest model (and extensions on it like `testtools`__).
+to the Python stdlib unittest model (and extensions on it like `testtools`_).
 This enables people to use any test runner they prefer locally. Other popular
 test runners often include a testing ecosystem which is tied directly to the
 runner. Using these precludes the use of alternative runners for other users.
 
-To have a consistent interface via tox between projects' unit test
-jobs the command for running *stestr* in tox should be set like so:
+To have a consistent interface via tox between projects' unit test jobs the
+command for running *stestr* in ``tox.ini`` should be set like so:
 
 .. code-block:: ini
 
@@ -122,8 +167,8 @@ experience remains the same. For example:
 However, these arguments should try to be minimized because it just adds to the
 complexity that people will need to understand when running tests on a project.
 
-.. __: https://stestr.readthedocs.io/
-.. __: https://testtools.readthedocs.io/
+.. _stestr: https://stestr.readthedocs.io/
+.. _testtools: https://testtools.readthedocs.io/
 
 Coverage Jobs
 -------------
@@ -146,16 +191,6 @@ normal unit test jobs, but to switch the Python executable to be
 Specifically, the output html directory ``cover`` and the ``coverage.xml`` file
 added to that directory are mandatory output artifacts.
 
-Project Configuration
----------------------
-
-All OpenStack projects use `pbr`__ for consistent operation of setuptools.
-To accomplish this, all ``setup.py`` files only contain a simple setup function
-that enabled *pbr*. Actual project configuration is then handled in
-``pyproject.toml`` or ``setup.cfg``.
-
-.. __: https://docs.openstack.org/pbr/latest/
-
 Generated Files
 ---------------
 
@@ -165,27 +200,23 @@ is handled by pbr.
 ``.mailmap`` files should exist where a developer has more than one email
 address or identity, and should map to the developer's canonical identity.
 
+Documentation
+-------------
+
+Refer to :ref:`pti-documentation`.
+
+Release Notes
+-------------
+
+Refer to :ref:`pti-releasenotes`.
+
 Translations
 ------------
 
-To support translations processing, projects should have a valid babel config.
+To support translations processing, projects should have a valid `babel`_ config.
 There should be a ``locale`` package inside of the top project module, and in that
 directory should be the ``$project.pot`` file. For instance, the ``.pot`` file
 for nova should be found at ``nova/locale/nova.pot``. Babel commands should be
 configured out output their ``.mo`` files in to ``$project/locale`` as well.
 
-Release Notes
--------------
-
-As a convenience for developers, it is recommended that projects provide
-a ``releasenotes`` environment for tox that will run
-
-.. code-block:: bash
-
-  sphinx-build -a -E -W -d releasenotes/build/doctrees -b html \
-      releasenotes/source releasenotes/build/html
-
-The project infrastructure will not use ``tox -e releasenotes`` to build the
-documentation. Therefore it is **STRONGLY** discouraged for people to put
-additional logic into the command section of that tox environment. Additional
-logic needed around release notes generation should go into *reno*.
+.. _babel: https://babel.pocoo.org/en/latest/
