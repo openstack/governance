@@ -60,7 +60,7 @@ class Zuul(BaseQuery):
         success = {}
         not_success = {}
         for buildset in buildsets:
-            if type(buildset) != dict:
+            if type(buildset) is not dict:
                 if self.verbose:
                     print("Buildset %s is not a dict. Skipping." % buildset)
                 continue
