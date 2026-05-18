@@ -276,6 +276,27 @@ Public Cloud:
   status: active
   url: https://wiki.openstack.org/wiki/PublicCloudSIG
 
+RISC-V:
+  chairs:
+    - name: Xiang Li
+      irc: shawnlee1976
+      email: li.xiang2@zte.com.cn
+      working-language: Mandarin
+    - name: Junyi Zhu
+      irc: zhujunyi2026
+      email: zhu.junyi@zte.com.cn
+      working-language: English
+  scope: >
+    RISC-V is a free and open instruction set architecture (ISA). In recent years,
+    a growing number of manufacturers have focused on the development of server-grade
+    RISC-V CPUs. This suggests that RISC-V may become a mainstream CPU architecture
+    for cloud infrastructure in the future, alongside X86 and ARM. This SIG is
+    dedicated to supporting RISC-V architecture CPUs in cloud-infrastructure-related
+    open source projects, including OpenStack, and promoting the development of the
+    RISC-V ecosystem.
+  status: forming
+  url: https://wiki.openstack.org/wiki/RISC-V-SIG
+
 Resource Management:
   chairs:
     - name: Howard Huang
