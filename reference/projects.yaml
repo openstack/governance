@@ -1874,6 +1874,9 @@ oslo:
       - name: Daniel Bengtsson
         irc: damani
         email: dbengt@redhat.com
+      - name: Stephen Finucane
+        irc: stephenfin
+        email: stephenfin@redhat.com
       - name: Takashi Kajinami
         irc: tkajinam
         email: kajinamit@oss.nttdata.com
