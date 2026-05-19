@@ -27,6 +27,7 @@ additionalProperties:
   additionalProperties: false
   oneOf:
     - required:
+        - leadership_type
         - ptl
         - deliverables
         - url
@@ -56,6 +57,7 @@ additionalProperties:
       type: "string"
       enum:
         - distributed
+        - ptl
     appointed:
       type: "array"
       items:

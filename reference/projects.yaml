@@ -1,5 +1,6 @@
 ---
 adjutant:
+  leadership_type: ptl
   ptl:
     name: Callum Dickinson
     irc: Callum027
@@ -29,6 +30,7 @@ adjutant:
       repos:
         - openstack/python-adjutantclient
 barbican:
+  leadership_type: ptl
   ptl:
     name: Mauricio Harley
     irc: mharley
@@ -71,6 +73,7 @@ barbican:
       repos:
         - openstack/python-barbicanclient
 blazar:
+  leadership_type: ptl
   ptl:
     name: Matt Crees
     irc: No nick supplied
@@ -104,6 +107,7 @@ blazar:
       repos:
         - openstack/python-blazarclient
 cinder:
+  leadership_type: ptl
   ptl:
     name: Jon Bernard
     irc: jbernard
@@ -145,6 +149,7 @@ cinder:
       repos:
         - openstack/rbd-iscsi-client
 cloudkitty:
+  leadership_type: ptl
   ptl:
     name: Rafael Weingartner
     irc: No nick supplied
@@ -178,6 +183,7 @@ cloudkitty:
       repos:
         - openstack/cloudkitty-tempest-plugin
 cyborg:
+  leadership_type: ptl
   ptl:
     name: Sean Mooney
     irc: sean-k-mooney
@@ -207,6 +213,7 @@ cyborg:
       repos:
         - openstack/cyborg-tempest-plugin
 designate:
+  leadership_type: ptl
   ptl:
     name: Omer Schwartz
     irc: oschwart
@@ -286,6 +293,7 @@ freezer:
       repos:
         - openstack/python-freezerclient
 glance:
+  leadership_type: ptl
   ptl:
     name: Cyril Roelandt
     irc: No nick supplied
@@ -319,6 +327,7 @@ glance:
       repos:
         - openstack/python-glanceclient
 heat:
+  leadership_type: ptl
   ptl:
     name: Takashi Kajinami
     irc: tkajinam
@@ -372,6 +381,7 @@ heat:
       repos:
         - openstack/yaql
 horizon:
+  leadership_type: ptl
   ptl:
     name: Tatiana Ovchinnikova
     irc: tmazur
@@ -575,6 +585,7 @@ ironic:
         irc: iurygregory
         email: iurygregory@gmail.com
 keystone:
+  leadership_type: ptl
   ptl:
     name: Artem Goncharov
     irc: gtema
@@ -611,6 +622,7 @@ keystone:
       repos:
         - openstack/ldappool
 kolla:
+  leadership_type: ptl
   ptl:
     name: Michal Nasiadka
     irc: mnasiadka
@@ -637,6 +649,7 @@ kolla:
         - openstack/kayobe-config
         - openstack/kayobe-config-dev
 magnum:
+  leadership_type: ptl
   ptl:
     name: Michal Nasiadka
     irc: mnasiadka
@@ -673,6 +686,7 @@ magnum:
       repos:
         - openstack/python-magnumclient
 manila:
+  leadership_type: ptl
   ptl:
     name: Carlos Silva
     irc: carloss
@@ -709,6 +723,7 @@ manila:
       repos:
         - openstack/python-manilaclient
 masakari:
+  leadership_type: ptl
   ptl:
     name: Masahito Muroi
     irc: masahito
@@ -743,6 +758,7 @@ masakari:
       repos:
         - openstack/masakari-dashboard
 mistral:
+  leadership_type: ptl
   ptl:
     name: Arnaud Morin
     irc: amorin
@@ -784,6 +800,7 @@ mistral:
         - openstack/mistral-extra
 
 neutron:
+  leadership_type: ptl
   ptl:
     name: Brian Haley
     irc: haleyb
@@ -856,6 +873,7 @@ neutron:
       repos:
         - openstack/ovn-bgp-agent
 nova:
+  leadership_type: ptl
   ptl:
     name: René Ribaud
     irc: Uggla
@@ -898,6 +916,7 @@ nova:
       repos:
         - openstack/os-resource-classes
 octavia:
+  leadership_type: ptl
   ptl:
     name: Gregory Thiemonge
     irc: No nick supplied
@@ -927,6 +946,7 @@ octavia:
       repos:
         - openstack/octavia-lib
 OpenStack Charms:
+  leadership_type: ptl
   ptl:
     name: Felipe Reyes
     irc: freyes
@@ -1527,6 +1547,7 @@ OpenStack Charms:
       repos:
         - openstack/charm-zuul-jobs
 OpenStack-Helm:
+  leadership_type: ptl
   ptl:
     name: Vladimir Kozhukalov
     irc: kozhukalov
@@ -1557,6 +1578,7 @@ OpenStack-Helm:
       repos:
         - openstack/loci
 OpenStackAnsible:
+  leadership_type: ptl
   ptl:
     name: Dmitriy Rabotyagov
     irc: noonedeadpunk
@@ -1673,6 +1695,7 @@ OpenStackAnsible:
       deprecated: Epoxy
       release-management: deprecated
 OpenStackSDK:
+  leadership_type: ptl
   ptl:
     name: Artem Goncharov
     irc: gtema
@@ -1893,6 +1916,7 @@ oslo:
         irc: gouthamr
         email: gouthampravi@gmail.com
 Puppet OpenStack:
+  leadership_type: ptl
   ptl:
     name: Takashi Kajinami
     irc: tkajinam
@@ -2014,6 +2038,7 @@ Puppet OpenStack:
       repos:
         - openstack/puppet-zaqar
 Quality Assurance:
+  leadership_type: ptl
   ptl:
     name: Ghanshyam Maan
     irc: gmaan
@@ -2110,6 +2135,7 @@ Quality Assurance:
       repos:
         - openstack/whitebox-tempest-plugin
 rally:
+  leadership_type: ptl
   ptl:
     name: Andrey Kurilin
     irc: andreykurilin
@@ -2223,6 +2249,7 @@ requirements:
         irc: mnasiadka
         email: mnasiadka@gmail.com
 skyline:
+  leadership_type: ptl
   ptl:
     name: Wenxiang Wu
     irc: wu_wenxiang
@@ -2248,6 +2275,7 @@ skyline:
       repos:
         - openstack/skyline-console
 storlets:
+  leadership_type: ptl
   ptl:
     name: Takashi Kajinami
     irc: tkajinam
@@ -2264,6 +2292,7 @@ storlets:
       repos:
         - openstack/storlets
 sunbeam:
+  leadership_type: ptl
   ptl:
     name: Guillaume Boutry
     irc: gboutry
@@ -2278,7 +2307,7 @@ sunbeam:
     containing many 1000's of hypervisors - leveraging a hybrid deployment
     model using Juju to manage both Kubernetes components and machine based
     components through the use of charms.
-  url: 
+  url:
     https://opendev.org/openstack/sunbeam-charms/src/branch/main/ops-sunbeam/README.rst
   deliverables:
     sunbeam-charms:
@@ -2286,6 +2315,7 @@ sunbeam:
       repos:
         - openstack/sunbeam-charms
 swift:
+  leadership_type: ptl
   ptl:
     name: Tim Burke
     irc: timburke
@@ -2321,6 +2351,7 @@ swift:
       repos:
         - openstack/swift-bench
 tacker:
+  leadership_type: ptl
   ptl:
     name: Yasufumi Ogawa
     irc: yasufum
@@ -2355,6 +2386,7 @@ tacker:
       repos:
         - openstack/tosca-parser
 Telemetry:
+  leadership_type: ptl
   ptl:
     name: Juan Larriba
     irc: No nick supplied
@@ -2399,6 +2431,7 @@ Telemetry:
       repos:
         - openstack/grian-ui
 trove:
+  leadership_type: ptl
   ptl:
     name: Erkin Mussurmankulov
     irc: No nick supplied
@@ -2433,6 +2466,7 @@ trove:
       repos:
         - openstack/trove-tempest-plugin
 venus:
+  leadership_type: ptl
   ptl:
     name: APPOINTMENT NEEDED
     irc: No nick supplied
@@ -2469,6 +2503,7 @@ venus:
       repos:
         - openstack/venus-tempest-plugin
 vitrage:
+  leadership_type: ptl
   ptl:
     name: APPOINTMENT NEEDED
     irc: No nick supplied
@@ -2519,6 +2554,7 @@ vitrage:
       repos:
         - openstack/xstatic-moment-timezone
 watcher:
+  leadership_type: ptl
   ptl:
     name: Douglas Viroel
     irc: dviroel
@@ -2547,6 +2583,7 @@ watcher:
       repos:
         - openstack/watcher-dashboard
 zaqar:
+  leadership_type: ptl
   ptl:
     name: Hao Wang
     irc: wanghao
@@ -2583,6 +2620,7 @@ zaqar:
       repos:
         - openstack/zaqar-ui
 zun:
+  leadership_type: ptl
   ptl:
     name: Hongbin Lu
     irc: No nick supplied
