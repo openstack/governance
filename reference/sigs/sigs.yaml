@@ -1,12 +1,15 @@
 ---
 Ansible:
   chairs:
-    - name: Sagi Shnaidman
-      irc: sshnaidm
-      email: sshnaidm@redhat.com
-    - name: Kevin Carter
-      irc: cloudnull
-      email: kecarter@redhat.com
+    - name: Michal Nasiadka
+      irc: mnasiadka
+      email: mnasiadka@gmail.com
+    - name: Doug Goldstein
+      irc: cardoe
+      email: cardoe@cardoe.com
+    - name: Dmitriy Rabotyagov
+      irc: noonedeadpunk
+      email: noonedeadpunk@gmail.com
   scope: >
     Ansible is an orchestration tool that is becoming increasingly common
     in usage across many parts of OpenStack.  There are a few deployment
