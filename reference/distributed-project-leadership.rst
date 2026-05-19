@@ -171,10 +171,11 @@ Process for Opting In to Distributed Leadership
 
 Project teams that would like to opt in to a distributed leadership role should
 make sure this change has a relative degree of consensus within the project
-team.  To make the request, a change should be pushed to `projects.yaml` in the
-`openstack/governance` repository to add the line "leadership_type: distributed"
-to the team's definition.  The minimum required liaisons will also need to be
-filled-in, in the appropriate fields in the "liaisons" section of the team.
+team.  To make the request, a change should be pushed to ``projects.yaml`` in
+the ``openstack/governance`` repository to add the line ``leadership_type:
+distributed`` to the team's definition.  The minimum required liaisons will
+also need to be filled-in, in the appropriate fields in the "liaisons" section
+of the team.
 
 This change to move to a distributed leadership model can only be accepted by
 the TC when it will receive at least a +1 from the current PTL, and the future
@@ -182,15 +183,15 @@ liaisons.
 
 Technical notes:
 
-* The releases liaison will continue to be listed in the `releases` repository,
+* The releases liaison will continue to be listed in the ``releases`` repository,
   to not impact the current delivery of the releases.
 
 Once a project team has moved to the distributed leadership model, they can
-revert to the PTL model by creating a change to `projects.yaml` to remove the
-"leadership_type: distributed" line in the team's configuration. This change
+revert to the PTL model by creating a change to ``projects.yaml`` to remove the
+``leadership_type: distributed`` line in the team's configuration. This change
 should have at least a +1 from all the people currently serving as liaisons,
 including the :repo:`openstack/releases/src/branch/master/data/release_liaisons.yaml`
-for the project team, which might not be in the `governance` repo.
+for the project team, which might not be in the ``governance`` repo.
 It must also get a +1 from the future PTL, listed in the same change.
 
 .. note::
