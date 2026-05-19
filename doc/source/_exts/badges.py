@@ -92,7 +92,10 @@ height="20" x="{svg_x}" y="{svg_y}">
 
 def _badge(left_text, right_text, link=None, colorscheme='brightgreen'):
 
-    font = ImageFont.truetype('DejaVuSans.ttf', 11)
+    try:
+        font = ImageFont.truetype('DejaVuSans.ttf', 11)
+    except OSError:
+        font = ImageFont.load_default()
 
     # font.getbbox returns (left, top, right, bottom) coordinates. Calculate
     # width as (right - left).
