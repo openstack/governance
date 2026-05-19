@@ -1,0 +1,27 @@
+[build-system]
+requires = ["pbr>=6.1.1"]
+build-backend = "pbr.build"
+
+[project]
+name = "openstack-governance"
+description = "OpenStack Governance Documents"
+authors = [
+    {name = "OpenStack TC", email = "openstack-tc@lists.openstack.org"},
+]
+readme = {file = "README.rst", content-type = "text/x-rst"}
+license = "Apache-2.0"
+dynamic = ["version", "dependencies"]
+requires-python = ">=3.10"
+classifiers = [
+    "Private :: Do Not Upload",
+]
+
+[project.urls]
+Homepage = "https://openstack.org/"
+Repository = "https://opendev.org/openstack/governance/"
+
+[project.scripts]
+osg-check-schema = "openstack_governance._check_schema:main"
+
+[tool.setuptools.packages.find]
+include = ["openstack_governance*"]
