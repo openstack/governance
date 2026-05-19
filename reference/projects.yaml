@@ -5,12 +5,12 @@ adjutant:
     name: 'Callum Dickinson'
     irc: 'Callum027'
     email: 'callum.dickinson@catalystcloud.nz'
-  appointed:
-    - victoria
-    - yoga
-    - zed
-    - '2023.1'
-    - '2026.2'
+    appointed:
+      - victoria
+      - yoga
+      - zed
+      - '2023.1'
+      - '2026.2'
   irc-channel: openstack-adjutant
   service: Operations Processes automation
   mission: >
@@ -35,10 +35,10 @@ barbican:
     name: 'Mauricio Harley'
     irc: 'mharley'
     email: 'mharley@redhat.com'
-  appointed:
-    - victoria
-    - xena
-    - '2025.2'
+    appointed:
+      - victoria
+      - xena
+      - '2025.2'
   liaisons:
     release:
       - name: 'Douglas Mendizábal'
@@ -172,9 +172,9 @@ cloudkitty:
     name: 'Rafael Weingartner'
     irc: null
     email: 'rafael@apache.org'
-  appointed:
-    - victoria
-    - wallaby
+    appointed:
+      - victoria
+      - wallaby
   irc-channel: cloudkitty
   service: Rating service
   mission: >
@@ -206,6 +206,10 @@ cyborg:
     name: 'Sean Mooney'
     irc: 'sean-k-mooney'
     email: 'smooney@redhat.com'
+    appointed:
+      - ussuri
+      - xena
+      - '2024.1'
   liaisons:
     release:
       - name: 'Chandan Kumar'
@@ -214,10 +218,6 @@ cyborg:
       - name: 'Joan Francesc Gilabert Navarro'
         irc: 'jgilaber'
         email: 'jgilaber@redhat.com'
-  appointed:
-    - ussuri
-    - xena
-    - '2024.1'
   irc-channel: openstack-cyborg
   service: Accelerator Life Cycle Management
   mission: >
@@ -244,8 +244,8 @@ designate:
     name: 'Omer Schwartz'
     irc: 'oschwart'
     email: 'oschwart@redhat.com'
-  appointed:
-    - ussuri
+    appointed:
+      - ussuri
   service: DNS service
   irc-channel: openstack-dns
   mission: >
@@ -291,9 +291,6 @@ freezer:
       - name: 'Dmitriy Rabotyagov'
         irc: 'noonedeadpunk'
         email: 'noonedeadpunk@gmail.com'
-  appointed:
-    - stein
-    - zed
   irc-channel: openstack-freezer
   service: Backup and Restore service
   mission: >
@@ -366,9 +363,9 @@ heat:
     name: 'Takashi Kajinami'
     irc: 'tkajinam'
     email: 'kajinamit@oss.nttdata.com'
-  appointed:
-    - yoga
-    - zed
+    appointed:
+      - yoga
+      - zed
   liaisons:
     release:
       - name: 'Rico Lin'
@@ -632,13 +629,13 @@ keystone:
     name: 'Artem Goncharov'
     irc: 'gtema'
     email: 'artem.goncharov@gmail.com'
+    appointed:
+      - '2023.1'
   liaisons:
     release:
       - name: 'Dave Wilde'
         irc: 'd34dh0r53'
         email: 'dwilde@redhat.com'
-  appointed:
-    - '2023.1'
   irc-channel: openstack-keystone
   service: Identity service
   mission: >
@@ -709,8 +706,8 @@ magnum:
     name: 'Michal Nasiadka'
     irc: 'mnasiadka'
     email: 'mnasiadka@gmail.com'
-  appointed:
-    - zed
+    appointed:
+      - zed
   liaisons:
     release:
       - name: 'Jake Yip'
@@ -796,12 +793,12 @@ masakari:
     name: 'Masahito Muroi'
     irc: 'masahito'
     email: 'masahito.muroi@linecorp.com'
-  appointed:
-    - yoga
-    - zed
-    - '2023.1'
-    - '2025.2'
-    - '2026.2'
+    appointed:
+      - yoga
+      - zed
+      - '2023.1'
+      - '2025.2'
+      - '2026.2'
   irc-channel: openstack-masakari
   service: Instances High Availability service
   mission: >
@@ -831,10 +828,10 @@ mistral:
     name: 'Arnaud Morin'
     irc: 'amorin'
     email: 'arnaud.morin@gmail.com'
-  appointed:
-    - '2024.1'
-    - '2025.1'
-    - '2026.2'
+    appointed:
+      - '2024.1'
+      - '2025.1'
+      - '2026.2'
   liaisons:
     release:
       - name: 'Axel Vanzaghi'
@@ -1007,8 +1004,8 @@ octavia:
     name: 'Gregory Thiemonge'
     irc: 'gthiemonge'
     email: 'gthiemon@redhat.com'
-  appointed:
-    - wallaby
+    appointed:
+      - wallaby
   irc-channel: openstack-lbaas
   service: Load-balancer service
   mission: >
@@ -1037,14 +1034,14 @@ OpenStack Charms:
     name: 'Felipe Reyes'
     irc: 'freyes'
     email: 'felipe.reyes@canonical.com'
-  appointed:
-    - wallaby
-    - zed
-    - '2023.1'
-    - '2023.2'
-    - '2024.2'
-    - '2025.2'
-    - '2026.1'
+    appointed:
+      - wallaby
+      - zed
+      - '2023.1'
+      - '2023.2'
+      - '2024.2'
+      - '2025.2'
+      - '2026.1'
   irc-channel: openstack-charms
   service: Juju Charms for deployment of OpenStack
   mission: >
@@ -1786,8 +1783,8 @@ OpenStackSDK:
     name: 'Artem Goncharov'
     irc: 'gtema'
     email: 'artem.goncharov@gmail.com'
-  appointed:
-    - ussuri
+    appointed:
+      - ussuri
   liaisons:
     release:
       - name: 'Stephen Finucane'
@@ -2012,8 +2009,8 @@ Puppet OpenStack:
     name: 'Takashi Kajinami'
     irc: 'tkajinam'
     email: 'kajinamit@oss.nttdata.com'
-  appointed:
-    - yoga
+    appointed:
+      - yoga
   liaisons:
     release:
       - name: 'Alex Schultz'
@@ -2236,10 +2233,10 @@ rally:
     name: 'Andrey Kurilin'
     irc: 'andreykurilin'
     email: 'andr.kurilin@gmail.com'
-  appointed:
-    - victoria
-    - '2023.2'
-    - '2024.1'
+    appointed:
+      - victoria
+      - '2023.2'
+      - '2024.1'
   irc-channel: openstack-rally
   service: Benchmark service
   mission: >
@@ -2350,11 +2347,11 @@ skyline:
     name: 'Wenxiang Wu'
     irc: 'wu_wenxiang'
     email: 'wu.wenxiang@algoblu.com'
-  appointed:
-    - zed
-    - '2024.1'
-    - '2024.2'
-    - '2026.2'
+    appointed:
+      - zed
+      - '2024.1'
+      - '2024.2'
+      - '2026.2'
   irc-channel: openstack-skyline
   service: Dashboard
   mission: >
@@ -2393,8 +2390,8 @@ sunbeam:
     name: 'Guillaume Boutry'
     irc: 'gboutry'
     email: 'guillaume.boutry@canonical.com'
-  appointed:
-    - '2024.1'
+    appointed:
+      - '2024.1'
   irc-channel: openstack-sunbeam
   service: Deployment and operational tooling for OpenStack
   mission: >
@@ -2416,11 +2413,11 @@ swift:
     name: 'Tim Burke'
     irc: 'timburke'
     email: 'tburke@nvidia.com'
-  appointed:
-    - victoria
-    - '2023.1'
-    - '2023.2'
-    - '2025.1'
+    appointed:
+      - victoria
+      - '2023.1'
+      - '2023.2'
+      - '2025.1'
   irc-channel: openstack-swift
   service: Object Storage service
   mission: >
@@ -2452,8 +2449,8 @@ tacker:
     name: 'Yasufumi Ogawa'
     irc: 'yasufum'
     email: 'yasufum.o@gmail.com'
-  appointed:
-    - victoria
+    appointed:
+      - victoria
   irc-channel: tacker
   service: NFV Orchestration service
   mission: >
@@ -2487,8 +2484,8 @@ Telemetry:
     name: 'Juan Larriba'
     irc: null
     email: 'jlarriba@redhat.com'
-  appointed:
-    - train
+    appointed:
+      - train
   liaisons:
     release:
       - name: 'Martin Mágr'
@@ -2537,11 +2534,11 @@ trove:
     name: 'Erkin Mussurmankulov'
     irc: null
     email: 'mangust404@gmail.com'
-  appointed:
-    - stein
-    - zed
-    - '2024.1'
-    - '2024.2'
+    appointed:
+      - stein
+      - zed
+      - '2024.1'
+      - '2024.2'
   liaisons:
     release:
       - name: 'Lingxian Kong'
@@ -2577,10 +2574,6 @@ venus:
     name: 'APPOINTMENT NEEDED'
     irc: null
     email: 'example@example.org'
-  appointed:
-    - zed
-    - '2023.1'
-    - '2024.1'
   irc-channel: openstack-venus
   service: Log management service
   mission: >
@@ -2614,8 +2607,8 @@ vitrage:
     name: 'APPOINTMENT NEEDED'
     irc: null
     email: 'example@example.org'
-  appointed:
-    - '2023.2'
+    appointed:
+      - '2023.2'
   irc-channel: openstack-vitrage
   service: RCA (Root Cause Analysis) service
   mission: >
@@ -2702,12 +2695,12 @@ zaqar:
     name: 'Hao Wang'
     irc: 'wanghao'
     email: 'sxmatch1986@gmail.com'
-  appointed:
-    - train
-    - victoria
-    - xena
-    - zed
-    - '2025.2'
+    appointed:
+      - train
+      - victoria
+      - xena
+      - zed
+      - '2025.2'
   irc-channel: openstack-zaqar
   service: Message service
   mission: >
@@ -2739,11 +2732,11 @@ zun:
     name: 'Hongbin Lu'
     irc: 'hongbin'
     email: 'hongbin034@gmail.com'
-  appointed:
-    - xena
-    - yoga
-    - zed
-    - '2023.1'
+    appointed:
+      - xena
+      - yoga
+      - zed
+      - '2023.1'
   irc-channel: openstack-zun
   service: Containers service
   mission: >
