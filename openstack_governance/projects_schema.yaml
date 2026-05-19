@@ -25,19 +25,36 @@ additionalProperties:
   # Do not allow any properties not defined here. This lets us catch
   # typos.
   additionalProperties: false
-  oneOf:
-    - required:
-        - leadership_type
+  required:
+    - leadership_type
+    - deliverables
+    - url
+    - mission
+  if:
+    properties:
+      leadership_type:
+        const: "distributed"
+  then:
+    not:
+      required:
         - ptl
-        - deliverables
-        - url
-        - mission
-    - required:
-        - leadership_type
-        - liaisons
-        - deliverables
-        - url
-        - mission
+    required:
+      - liaisons
+    properties:
+      liaisons:
+        required:
+          - release
+          - tact-sig
+          - security
+          - tc-liaison
+  else:
+    required:
+      - ptl
+    properties:
+      liaisons:
+        propertyNames:
+          enum:
+            - release
   properties:
     ptl:
       type: "object"
@@ -82,9 +99,6 @@ additionalProperties:
           items:
             type: "string"
           uniqueItems: true
-        # TODO(gmann): Make release, tact-sig,
-        # and, security liaison as required for
-        # distributed leadership type.
         release: *contact_schema
         tact-sig: *contact_schema
         security: *contact_schema
