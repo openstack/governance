@@ -570,7 +570,7 @@ ironic:
       - name: Doug Goldstein
         irc: cardoe
         email: cardoe@cardoe.com
-    events-liaison:
+    events:
       - name: Iury Gregory Melo Ferreira
         irc: iurygregory
         email: iurygregory@gmail.com

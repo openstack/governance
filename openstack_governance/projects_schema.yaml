@@ -74,6 +74,7 @@ additionalProperties:
          - inactive
     liaisons:
       type: "object"
+      additionalProperties: false
       properties:
         tc_members:
           type: "array"
@@ -92,7 +93,6 @@ additionalProperties:
         meeting_facilitator: *contact_schema
         bug_deputy: *contact_schema
         rfp_coordinator: *contact_schema
-        additionalProperties: false
     mission:
       type: "string"
     deliverables:
