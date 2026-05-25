@@ -46,9 +46,8 @@ def _team_to_rst(name, info):
     yield ':Home Page: ' + info.get('url', '')
     ptl = info.get('ptl', {'name': '', 'irc': '', 'email': ''})
     leadership_type = info.get('leadership_type')
-    if leadership_type:
-        yield ':Leadership Type: ' + leadership_type
-    else:
+    yield ':Leadership Type: ' + leadership_type
+    if leadership_type == 'ptl':
         yield ':PTL: %(name)s (``%(irc)s``) <%(email)s>' % ptl
     irc_channel = info.get('irc-channel')
     if irc_channel:
