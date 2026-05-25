@@ -19,12 +19,12 @@ import jsonschema
 
 from openstack_governance import yamltools
 
-
 _yaml = yamltools.YAML()
 
 _PROJECTS_SCHEMA = _yaml.load(
-    pkgutil.get_data('openstack_governance',
-                     'projects_schema.yaml').decode('utf-8')
+    pkgutil.get_data(
+        'openstack_governance', 'projects_schema.yaml'
+    ).decode('utf-8')
 )
 
 
@@ -37,7 +37,7 @@ def main():
     with open('reference/projects.yaml', 'r', encoding='utf-8') as f:
         all_projects = _yaml.load(f.read())
 
-    validator = jsonschema.Draft4Validator(_PROJECTS_SCHEMA)
+    validator = jsonschema.Draft202012Validator(_PROJECTS_SCHEMA)
 
     errors = False
     for e in validator.iter_errors(all_projects):
