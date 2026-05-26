@@ -70,15 +70,15 @@ additionalProperties:
         email:
           type: "string"
           format: "email"
+        appointed:
+          type: "array"
+          items:
+            type: "string"
     leadership_type:
       type: "string"
       enum:
         - distributed
         - ptl
-    appointed:
-      type: "array"
-      items:
-        type: "string"
     irc-channel:
       type: "string"
     service:
