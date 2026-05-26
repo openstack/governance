@@ -39,7 +39,6 @@ relevant to you.
   (for instance, keeping older platforms that are not yet EOL) is both allowed
   and encouraged.
 
-
 .. _pti-documentation:
 
 Documentation
@@ -48,17 +47,19 @@ Documentation
 OpenStack has decided to standardize on using Sphinx for project documentation,
 regardless of programming language.
 
-.. note:: The use of sphinx for documentation is intended for documentation
-          that is not written inside of docstrings or code comments.
-          Languages, such as Go, that natively support a system for documenting
-          the code through code comments, should use those native systems.
-          Sphinx is intended to be used for documentation that is not written
-          inline with the code.
+.. note::
+
+   The use of sphinx for documentation is intended for documentation
+   that is not written inside of docstrings or code comments.
+   Languages, such as Go, that natively support a system for documenting
+   the code through code comments, should use those native systems.
+   Sphinx is intended to be used for documentation that is not written
+   inline with the code.
 
 To support documentation generation, projects should:
 
-* Have sphinx documentation source in ``doc/source``
-* List python dependencies needed for documentation in ``doc/requirements.txt``
+* Have Sphinx documentation source in ``doc/source``
+* List Python dependencies needed for documentation in ``doc/requirements.txt``
 * List distro package pre-reqs for dependencies in ``bindep.txt`` using the
   ``doc`` tag.
 * Depend on ``openstackdocstheme`` for documentation and configure it to be
@@ -73,7 +74,7 @@ into ``doc/build/html``.
 
 .. code-block:: bash
 
-  tox -e docs
+   tox -e docs
 
 .. note::
 
@@ -89,6 +90,8 @@ into ``doc/build/html``.
 
 Language specific instructions supplement these and are in addition to
 them.
+
+.. _pti-releasenotes:
 
 Release Notes
 -------------
@@ -110,8 +113,19 @@ being emitted into ``releasenotes/build/html``.
 
 .. code-block:: bash
 
-  sphinx-build -a -E -W -d releasenotes/build/doctrees -b html \
-      releasenotes/source releasenotes/build/html
+   tox -e releasenotes
+
+.. note::
+
+   We strongly discourage project teams from adding commands to the
+   ``releasenotes`` environment beyond:
+
+   .. code-block:: bash
+
+      sphinx-build -W -b html releasenotes/source releasenotes/build/html
+
+   Additional logic needed around Sphinx generation should go into
+   Sphinx plugins.
 
 Language specific instructions supplement these and are in addition to them.
 
