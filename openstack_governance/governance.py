@@ -42,6 +42,7 @@ class Team(object):
             for dn, di in self.data.get('deliverables', {}).items()
         }
         self.liaisons = data.get('liaisons', [])
+        self.leadership_type = data.get('leadership_type')
 
     @property
     def service(self):
@@ -84,14 +85,16 @@ class Governance(object):
             'deliverables': {
                 repo['repo'].partition('/')[-1]: {'repos': [repo['repo']]}
                 for repo in tc_data['Technical Committee']
-            }
+            },
+            'leadership_type': None,
         }
         for sig_name, sig_info in sigs_data.items():
             team_data['{} SIG'.format(sig_name)] = {
                 'deliverables': {
                     repo['repo'].partition('/')[-1]: {'repos': [repo['repo']]}
                     for repo in sig_info
-                }
+                },
+                'leadership_type': None,
             }
 
         self._teams = [Team(n, i) for n, i in self._team_data.items()]
