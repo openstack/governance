@@ -170,7 +170,7 @@ cloudkitty:
   leadership_type: ptl
   ptl:
     name: 'Rafael Weingartner'
-    irc: 'No nick supplied'
+    irc: null
     email: 'rafael@apache.org'
   appointed:
     - victoria
@@ -2485,7 +2485,7 @@ Telemetry:
   leadership_type: ptl
   ptl:
     name: 'Juan Larriba'
-    irc: 'No nick supplied'
+    irc: null
     email: 'jlarriba@redhat.com'
   appointed:
     - train
@@ -2535,7 +2535,7 @@ trove:
   leadership_type: ptl
   ptl:
     name: 'Erkin Mussurmankulov'
-    irc: 'No nick supplied'
+    irc: null
     email: 'mangust404@gmail.com'
   appointed:
     - stein
@@ -2575,7 +2575,7 @@ venus:
   leadership_type: ptl
   ptl:
     name: 'APPOINTMENT NEEDED'
-    irc: 'No nick supplied'
+    irc: null
     email: 'example@example.org'
   appointed:
     - zed
@@ -2612,7 +2612,7 @@ vitrage:
   leadership_type: ptl
   ptl:
     name: 'APPOINTMENT NEEDED'
-    irc: 'No nick supplied'
+    irc: null
     email: 'example@example.org'
   appointed:
     - '2023.2'

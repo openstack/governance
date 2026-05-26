@@ -45,6 +45,8 @@ def _team_to_rst(name, info):
     yield ''
     yield ':Home Page: ' + info.get('url', '')
     ptl = info.get('ptl', {'name': '', 'irc': '', 'email': ''})
+    if ptl['irc'] is None:
+        ptl['irc'] = '(no nick supplied)'
     leadership_type = info.get('leadership_type')
     yield ':Leadership Type: ' + leadership_type
     if leadership_type == 'ptl':
