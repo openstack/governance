@@ -137,8 +137,16 @@ Build and Install
 All OpenStack projects use `pbr`_ for consistent operation of `setuptools`_.
 To accomplish this, all ``setup.py`` files only contain a simple setup function
 that enabled *pbr*. Actual project configuration is then handled in
-``pyproject.toml`` or ``setup.cfg``. This allows project to be built using
-standard build frontends like `build`_.
+``pyproject.toml``, which must contain the following at a minimum:
+
+```toml
+[build-system]
+requires = ["pbr>=6.1.1"]
+build-backend = "pbr.build"
+```
+
+This allows project to be built using standard build frontends like `build`_
+while ensuring build isolation is consistently used.
 
 To support sensible testing across multiple Python versions, we use `tox`_
 config files in the projects.
