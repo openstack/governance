@@ -68,7 +68,7 @@ a clean tree:
     Execute code style checks
 
 ``make docs``
-    Generate HTML documentation from the in-tree developer docs
+    Generate HTML documentation from the in-tree documentation
 
 ``make godoc``
     Generate the golang docs from the source
