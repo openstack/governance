@@ -75,13 +75,27 @@ Dependency Management
 
 Each project should list its required dependencies in either
 ``project.dependencies`` in ``pyproject.toml`` or in a ``requirements.txt``
-file, while additional dependencies required for testing should be listed in
-the ``test`` key of ``project.optional-dependencies`` in ``pyproject.toml`` or
-in a ``test-requirements.txt`` file.
+file, while dependencies for optional features should be defined as `extras`__ in
+``project.optional-dependencies`` in ``pyproject.toml``.
+
+Additional non-runtime dependencies required for testing, linting and
+documentation should be provided via `dependency groups`__ in
+``pyproject.toml`` or in a ``test-requirements.txt`` file and a
+``doc/requirements.txt`` file. If using dependency groups, the following
+well-known groups should be used:
+
+- ``doc`` (for documentation dependencies)
+- ``test`` (for unit test dependencies)
+- ``cover`` (for coverage dependencies; this should include the ``test`` group)
+- ``lint`` (for linting dependencies)
+- ``types`` (for type checking dependencies)
+
 `Environment marker`__ should be used if there are requirements that are
 specific to a given Python version, platform (Windows, Linux, ...), or
-implementation (cpython, pypy, ...)
+implementation (CPython, PyPy, ...)
 
+.. __: https://packaging.python.org/en/latest/specifications/dependency-specifiers/#extras
+.. __: https://packaging.python.org/en/latest/specifications/dependency-groups/
 .. __: https://packaging.python.org/en/latest/specifications/dependency-specifiers/#dependency-specifiers
 
 Constraints
