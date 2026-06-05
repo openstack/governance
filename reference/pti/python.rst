@@ -114,7 +114,15 @@ Non-Python Dependencies
 
 Projects that require non-Python system dependencies, such as databases (for
 testing), TeX (for PDF documentation) or compilers, should rely on `bindep`_
-and provide a ``bindep.txt`` file to indicate these.
+and provide a ``bindep.txt`` file to indicate these. ``bindep.txt`` should use
+the following well-known profiles:
+
+- ``doc`` (for HTML documentation dependencies)
+- ``pdf-docs`` (for PDF documentation dependencies)
+- ``test`` (for test dependencies)
+
+Platform markers should be used if there are dependencies that are only
+required on certain platforms or whose name varies across platforms.
 
 Some basic prerequisites for test running (system packages, database
 configuration, custom filesystem types) are acceptable as long as they are
