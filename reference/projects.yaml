@@ -2015,7 +2015,7 @@ Puppet OpenStack:
     release:
       - name: 'Alex Schultz'
         irc: 'mwhahaha'
-        email: 'aschultz@redhat.com'
+        email: 'aschultz@next-development.com'
   irc-channel: puppet-openstack
   service: Puppet modules for deployment
   mission: >
