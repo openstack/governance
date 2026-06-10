@@ -339,6 +339,9 @@ Testing and Collaboration Tools:
     - name: Jeremy Stanley
       irc: fungi
       email: fungi@yuggoth.org
+    - name: Michal Nasiadka
+      irc: mnasiadka
+      email: mnasiadka@gmail.com
   scope: >
     The Testing and Collaboration Tools (TaCT) SIG maintains, in cooperation
     with the OpenDev project, the tooling and infrastructure needed to support
