@@ -29,5 +29,3 @@ At this time, there are still frequent releases of Go with a wide variety of
 distribution packaged versions. Given the current state of Go support and the
 number of projects within OpenStack using Go, no formal version declaration is
 being made at this time.
-
-More details on Go requirements can be found in :ref:`pti-golang`.
