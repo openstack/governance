@@ -18,7 +18,7 @@ The following tasks are required for every project. Every project must:
 - Generate a code coverage report
 - Generate a source tarball
 - Generate documentation
-- Generate releasenotes
+- Generate release notes
 
 The following are other common tasks, which may not be relevant for every
 project:
@@ -99,16 +99,16 @@ Release Notes
 OpenStack uses `reno <https://docs.openstack.org/reno/latest/>`_ for generating
 release notes regardless of programming language.
 
-To support releasenotes generation, projects should:
+To support release notes generation, projects should:
 
-* Have releasenotes documentation source in ``releasenotes/``
+* Have release notes documentation source in ``releasenotes/``
 * Configure ``openstackdocstheme`` to be used in
   ``releasenotes/source/conf.py``.
 * Optionally list distro package pre-reqs for dependencies in ``bindep.txt``
   using the ``releasenotes`` tag.
 
 Assuming requirements have been properly installed, the following command
-should work with no additional setup and should result in the releasenotes
+should work with no additional setup and should result in the release notes
 being emitted into ``releasenotes/build/html``.
 
 .. code-block:: bash
@@ -199,8 +199,8 @@ can still work fine on the old distro version but the new features require
 the new distro version will not be available until the distro version is
 upgraded.
 
-Extending support and testing for release with the newer disto version
-``````````````````````````````````````````````````````````````````````
+Extending support and testing for release with the newer distro version
+```````````````````````````````````````````````````````````````````````
 
 When any release bumps the minimum supported distro platform or python version,
 the following things need to be addressed:
