@@ -126,9 +126,6 @@ No emerging projects at this moment
 Current Inactive Projects
 -------------------------
 
-* Venus
-
-  * Inactive since 2026.1 cycle
 * Vitrage
 
   * Inactive since 2026.1 cycle

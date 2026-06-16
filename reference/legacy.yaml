@@ -2909,6 +2909,39 @@ trove:
       repos:
         - openstack/trove-integration
 
+venus:
+  retired-on: 2026-06-02
+  appointed:
+    - zed
+    - '2023.1'
+    - '2024.1'
+  irc-channel: openstack-venus
+  service: Log management service
+  mission: >
+    Venus is a unified log management module, according to the key
+    requirements of OpenStack in log storage, retrieval, analysis
+    and so on. This module can provide a one-stop solution to log
+    collection, cleaning, indexing, analysis, alarm, visualization,
+    report generation etc..
+  url: https://wiki.openstack.org/wiki/Venus
+  deliverables:
+    venus:
+      repos:
+        - openstack/venus
+    venus-specs:
+      release-management: none
+      repos:
+        - openstack/venus-specs
+    venus-dashboard:
+      repos:
+        - openstack/venus-dashboard
+    python-venusclient:
+      repos:
+        - openstack/python-venusclient
+    venus-tempest-plugin:
+      repos:
+        - openstack/venus-tempest-plugin
+
 winstackers:
   retired-on: 2023-06-23
   service: Libraries for Windows support
