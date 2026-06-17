@@ -130,6 +130,9 @@ cinder:
       - name: 'Brian Rosmaita'
         irc: 'rosmaita'
         email: 'rosmaita.fossdev@gmail.com'
+      - name: 'Amit Uniyal'
+        irc: 'auniyal'
+        email: 'auniyal@redhat.com'
   irc-channel: openstack-cinder
   service: Block Storage service
   mission: >
@@ -958,9 +961,6 @@ nova:
       - name: 'Sylvain Bauza'
         irc: 'bauzas'
         email: 'sbauza@redhat.com'
-      - name: 'Amit Uniyal'
-        irc: 'auniyal'
-        email: 'auniyal@redhat.com'
   irc-channel: openstack-nova
   service: Compute service
   mission: >
