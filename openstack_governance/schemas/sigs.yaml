@@ -1,0 +1,55 @@
+---
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://opendev.org/openstack/releases/src/branch/master/README.rst"
+
+additionalProperties:
+  type: "object"
+  oneOf:
+    - required:
+        - "chairs"
+        - "scope"
+        - "status"
+        - "url"
+      additionalProperties: false
+      properties:
+        chairs: &chairs
+          type: "array"
+          items:
+            type: "object"
+            required:
+              - "name"
+              - "irc"
+              - "email"
+            additionalProperties: false
+            properties:
+              name:
+                type: "string"
+              irc:
+                type: "string"
+              email:
+                type: "string"
+                format: "email"
+              working-language:
+                type: "string"
+        scope: &scope
+          type: "string"
+        status:
+          enum: ["active", "advisory", "forming"]
+        url: &url
+          type: "string"
+          format: "href"
+    - required:
+        - "chairs"
+        - "scope"
+        - "status"
+        - "reason"
+        - "url"
+      additionalProperties: false
+      properties:
+        chairs: *chairs
+        scope: *scope
+        status:
+          enum: ["archived", "completed"]
+        reason:
+          type: "string"
+        url: *url
