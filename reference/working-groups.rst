@@ -13,6 +13,15 @@ lists them and their current membership.
 Current list of working groups
 ==============================
 
+**Contributor Experience working group**
+  The Contributor Experience working group (CEWG) is delegated authority
+  over contributor recognition, community health, and contributor onboarding.
+  See :doc:`/resolutions/20260618-contributor-experience-working-group`
+  for full scope and rationale. It should have at least 3 members, including
+  at least one current TC member. The current members of the Contributor
+  Experience working group are maintained in the group's
+  `wiki page <https://wiki.openstack.org/wiki/Contributor_Experience_WG>`_.
+
 **Election working group**
   The election working group is tasked with organizing PTL and TC elections,
   following the rules described in the :doc:`charter`.
