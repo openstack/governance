@@ -596,9 +596,6 @@ ironic:
     sushy-tools:
       repos:
         - openstack/sushy-tools
-    tenks:
-      repos:
-        - openstack/tenks
     virtualbmc:
       repos:
         - openstack/virtualbmc
@@ -703,6 +700,9 @@ kolla:
         - openstack/kayobe
         - openstack/kayobe-config
         - openstack/kayobe-config-dev
+    tenks:
+      repos:
+        - openstack/tenks
 magnum:
   leadership_type: ptl
   ptl:
