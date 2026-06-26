@@ -126,7 +126,4 @@ No emerging projects at this moment
 Current Inactive Projects
 -------------------------
 
-* Vitrage
-
-  * Inactive since 2026.1 cycle
-
+No inactive projects at this moment
