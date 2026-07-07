@@ -151,11 +151,6 @@ cinder:
     cinder-tempest-plugin:
       repos:
         - openstack/cinder-tempest-plugin
-    cinderlib:
-      deprecated: '2024.1'
-      release-management: deprecated
-      repos:
-        - openstack/cinderlib
     os-brick:
       repos:
         - openstack/os-brick

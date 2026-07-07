@@ -50,6 +50,14 @@ barbican:
       repos:
         - openstack/castellan-ui
 
+cinder:
+  partial: yes
+  deliverables:
+    cinderlib:
+      retired-on: 2026-06-18
+      repos:
+        - openstack/cinderlib
+
 Community App Catalog:
   ptl:
     name: Matthew Wagoner
