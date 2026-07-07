@@ -55,6 +55,7 @@ additionalProperties:
         propertyNames:
           enum:
             - release
+            - security
   properties:
     ptl:
       type: "object"
