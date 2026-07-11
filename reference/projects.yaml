@@ -1846,6 +1846,9 @@ oslo:
       release-management: none
       repos:
         - openstack/cookiecutter
+    cursive:
+      repos:
+        - openstack/cursive
     debtcollector:
       repos:
         - openstack/debtcollector
