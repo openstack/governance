@@ -2486,9 +2486,9 @@ Telemetry:
       - train
   liaisons:
     release:
-      - name: 'Martin Mágr'
-        irc: 'mmagr'
-        email: 'mmagr@redhat.com'
+      - name: 'Emma Foley'
+        irc: 'efoley'
+        email: 'efoley@redhat.com'
   irc-channel: openstack-telemetry
   service: Telemetry service
   mission: >
