@@ -2293,9 +2293,9 @@ Release Management:
         irc: 'fungi'
         email: 'fungi@yuggoth.org'
     security:
-      - name: 'Thierry Carrez'
-        irc: 'ttx'
-        email: 'thierry@openstack.org'
+      - name: 'Jeremy Stanley'
+        irc: 'fungi'
+        email: 'fungi@yuggoth.org'
     tc-liaison:
       - name: 'Michal Nasiadka'
         irc: 'mnasiadka'
