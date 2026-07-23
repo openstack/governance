@@ -274,9 +274,6 @@ freezer:
       - name: 'Dmitriy Rabotyagov'
         irc: 'noonedeadpunk'
         email: 'noonedeadpunk@gmail.com'
-      - name: 'Saad Zaher'
-        irc: 'szaher'
-        email: 'eng.szaher@gmail.com'
     tact-sig:
       - name: 'Dmitriy Rabotyagov'
         irc: 'noonedeadpunk'
