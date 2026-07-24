@@ -7,6 +7,16 @@
 When a motion does not result in a change in a reference doc, it can
 be expressed as a resolution.
 
+2026
+====
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :reversed:
+
+   2026*
+
 2025
 ====
 
