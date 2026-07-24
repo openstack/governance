@@ -2116,9 +2116,6 @@ Puppet OpenStack:
     puppet-trove:
       repos:
         - openstack/puppet-trove
-    puppet-vitrage:
-      repos:
-        - openstack/puppet-vitrage
     puppet-vswitch:
       repos:
         - openstack/puppet-vswitch
