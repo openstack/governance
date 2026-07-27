@@ -13,6 +13,7 @@
 """Verify that all data files match the schema."""
 
 import argparse
+import os
 import pkgutil
 
 import jsonschema
@@ -23,7 +24,7 @@ _yaml = yamltools.YAML()
 
 _PROJECTS_SCHEMA = _yaml.load(
     pkgutil.get_data(
-        'openstack_governance', 'projects_schema.yaml'
+        'openstack_governance', os.path.join('schemas', 'projects.yaml'),
     ).decode('utf-8')
 )
 
