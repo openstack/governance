@@ -18,7 +18,8 @@ experience.
 The OpenStack Technical Committee establishes a Contributor Experience
 Working Group (CEWG) as a TC working group with a mandate to improve
 the contributor experience across the OpenStack community. The working
-group is delegated authority over three areas:
+group is tasked with monitoring and suggesting improvements in three
+areas:
 
 Contributor Recognition
   Making non-code contributions visible and ensuring that the people
