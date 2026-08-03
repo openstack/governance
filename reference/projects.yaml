@@ -29,6 +29,11 @@ adjutant:
     python-adjutantclient:
       repos:
         - openstack/python-adjutantclient
+  liaisons:
+    security:
+      - name: 'Adrian Jarvis'
+        irc: null
+        email: 'adrian.jarvis@catalystcloud.nz'
 barbican:
   leadership_type: ptl
   ptl:
@@ -47,6 +52,10 @@ barbican:
       - name: 'Ade Lee'
         irc: 'ade_lee'
         email: 'alee@redhat.com'
+    security:
+      - name: 'Mauricio Harley'
+        irc: 'mharley'
+        email: 'mharley@redhat.com'
   irc-channel: openstack-barbican
   service: Key Manager service
   mission: >
@@ -91,6 +100,16 @@ blazar:
       - name: 'Pierre Riteau'
         irc: 'priteau'
         email: 'pierre@stackhpc.com'
+    security:
+      - name: 'Matt Crees'
+        irc: 'mattcrees'
+        email: 'mattc@stackhpc.com'
+      - name: 'Pierre Riteau'
+        irc: 'priteau'
+        email: 'pierre@stackhpc.com'
+      - name: 'Mark Powers'
+        irc: 'markpowers'
+        email: 'markpowers@uchicago.edu'
   irc-channel: openstack-blazar
   service: Resource reservation service
   mission: >
@@ -133,6 +152,10 @@ cinder:
       - name: 'Amit Uniyal'
         irc: 'auniyal'
         email: 'auniyal@redhat.com'
+    security:
+      - name: 'Brian Rosmaita'
+        irc: 'rosmaita'
+        email: 'rosmaita.fossdev@gmail.com'
   irc-channel: openstack-cinder
   service: Block Storage service
   mission: >
@@ -216,6 +239,10 @@ cyborg:
       - name: 'Joan Francesc Gilabert Navarro'
         irc: 'jgilaber'
         email: 'jgilaber@redhat.com'
+    security:
+      - name: 'Sean Mooney'
+        irc: 'sean-k-mooney'
+        email: 'smooney@redhat.com'
   irc-channel: openstack-cyborg
   service: Accelerator Life Cycle Management
   mission: >
@@ -244,6 +271,11 @@ designate:
     email: 'oschwart@redhat.com'
     appointed:
       - ussuri
+  liaisons:
+    security:
+      - name: 'Omer Schwartz'
+        irc: 'oschwart'
+        email: 'oschwart@redhat.com'
   service: DNS service
   irc-channel: openstack-dns
   mission: >
@@ -324,6 +356,10 @@ glance:
       - name: 'Pranali Deore'
         irc: 'pdeore'
         email: 'pdeore@redhat.com'
+    security:
+      - name: 'Abhishek Kekane'
+        irc: 'abhishekk'
+        email: 'akekane@redhat.com'
   irc-channel: openstack-glance
   service: Image service
   mission: >
@@ -366,6 +402,10 @@ heat:
       - name: 'Rico Lin'
         irc: 'ricolin'
         email: 'ricolin@ricolky.com'
+    security:
+      - name: 'Steve Hardy'
+        irc: 'shardy'
+        email: 'shardy@redhat.com'
   irc-channel: heat
   service: Orchestration service
   mission: >
@@ -417,6 +457,14 @@ horizon:
     name: 'Tatiana Ovchinnikova'
     irc: 'tmazur'
     email: 't.v.ovtchinnikova@gmail.com'
+  liaisons:
+    security:
+      - name: 'Radomir Dopieralski'
+        irc: 'rdopiera'
+        email: 'openstack@dopieralski.pl'
+      - name: 'Jan Jasek'
+        irc: 'jjasek'
+        email: 'jjasek@redhat.com'
   irc-channel: openstack-horizon
   service: Dashboard
   mission: >
@@ -628,6 +676,13 @@ keystone:
       - name: 'Dave Wilde'
         irc: 'd34dh0r53'
         email: 'dwilde@redhat.com'
+    security:
+      - name: 'Grzegorz Grasza'
+        irc: 'xek'
+        email: 'xek@redhat.com'
+      - name: 'Artem Goncharov'
+        irc: 'gtema'
+        email: 'artem.goncharov@gmail.com'
   irc-channel: openstack-keystone
   service: Identity service
   mission: >
@@ -671,6 +726,16 @@ kolla:
       - name: 'Bartosz Bezak'
         irc: 'bbezak'
         email: 'bartosz@stackhpc.com'
+    security:
+      - name: 'Bartosz Bezak'
+        irc: 'bbezak'
+        email: 'bartosz@stackhpc.com'
+      - name: 'Dr. Jens Harbott'
+        irc: 'frickler'
+        email: 'frickler@offenerstapel.de'
+      - name: 'Michal Nasiadka'
+        irc: 'mnasiadka'
+        email: 'mnasiadka@gmail.com'
   irc-channel: openstack-kolla
   service: Containerised deployment of OpenStack
   mission: >
@@ -711,6 +776,16 @@ magnum:
       - name: 'Jakub Darmach'
         irc: 'jdarmach'
         email: 'jakub@stackhpc.com'
+    security:
+      - name: 'Jake Yip'
+        irc: 'jakeyip'
+        email: 'jake.yip@ardc.edu.au'
+      - name: 'Jakub Darmach'
+        irc: 'jdarmach'
+        email: 'jakub@stackhpc.com'
+      - name: 'Michal Nasiadka'
+        irc: 'mnasiadka'
+        email: 'mnasiadka@gmail.com'
   irc-channel: openstack-containers
   service: Container Infrastructure Management service
   mission: >
@@ -751,6 +826,10 @@ manila:
       - name: 'Goutham Pacha Ravi'
         irc: 'gouthamr'
         email: 'gouthampravi@gmail.com'
+    security:
+      - name: 'Carlos Silva'
+        irc: 'carloss'
+        email: 'ces.eduardo98@gmail.com'
   irc-channel: openstack-manila
   service: Shared File Systems service
   mission: >
@@ -875,6 +954,10 @@ neutron:
       - name: 'Slawomir Kaplonski'
         irc: 'slaweq'
         email: 'skaplons@redhat.com'
+    security:
+      - name: 'Miguel Lavalle'
+        irc: 'mlavalle'
+        email: 'miguel@mlavalle.com'
   irc-channel: openstack-neutron
   service: Networking service
   mission: >
@@ -953,6 +1036,10 @@ nova:
       - name: 'Sylvain Bauza'
         irc: 'bauzas'
         email: 'sbauza@redhat.com'
+    security:
+      - name: 'Dan Smith'
+        irc: 'dansmith'
+        email: 'dms@danplanet.com'
   irc-channel: openstack-nova
   service: Compute service
   mission: >
@@ -998,6 +1085,11 @@ octavia:
     email: 'gthiemon@redhat.com'
     appointed:
       - wallaby
+  liaisons:
+    security:
+      - name: 'Gregory Thiemonge'
+        irc: 'gthiemonge'
+        email: 'gthiemon@redhat.com'
   irc-channel: openstack-lbaas
   service: Load-balancer service
   mission: >
@@ -1652,6 +1744,11 @@ OpenStack-Helm:
       release-management: none
       repos:
         - openstack/loci
+  liaisons:
+    security:
+      - name: Vladimir Kozhukalov
+        irc: kozhukalov
+        email: kozhukalov@gmail.com
 OpenStackAnsible:
   leadership_type: ptl
   ptl:
@@ -1782,6 +1879,10 @@ OpenStackSDK:
       - name: 'Stephen Finucane'
         irc: 'stephenfin'
         email: 'stephenfin@redhat.com'
+    security:
+      - name: 'Artem Goncharov'
+        irc: 'gtema'
+        email: 'artem.goncharov@gmail.com'
   irc-channel: openstack-sdks
   service: Multi-cloud Python SDK and CLI for End Users
   mission: >
@@ -2128,6 +2229,11 @@ Quality Assurance:
     name: 'Ghanshyam Maan'
     irc: 'gmaan'
     email: 'gmaan.os14@gmail.com'
+  liaisons:
+    security:
+      - name: 'Ghanshyam Maan'
+        irc: 'gmaan'
+        email: 'gmaan.os14@gmail.com'
   irc-channel: openstack-qa
   mission: >
     Develop, maintain, and initiate tools and plans to ensure the upstream
@@ -2344,6 +2450,14 @@ skyline:
       - '2024.1'
       - '2024.2'
       - '2026.2'
+  liaisons:
+    security:
+      - name: 'Wenxiang Wu'
+        irc: 'wu_wenxiang'
+        email: 'wu.wenxiang@algoblu.com'
+      - name: 'Boxiang Zhu'
+        irc: 'zhuboxiang'
+        email: 'bxzhu_5355@163.com'
   irc-channel: openstack-skyline
   service: Dashboard
   mission: >
@@ -2524,7 +2638,7 @@ trove:
   leadership_type: ptl
   ptl:
     name: 'Erkin Mussurmankulov'
-    irc: null
+    irc: 'mangust404'
     email: 'mangust404@gmail.com'
     appointed:
       - stein
@@ -2533,9 +2647,13 @@ trove:
       - '2024.2'
   liaisons:
     release:
-      - name: 'Lingxian Kong'
-        irc: 'lxkong'
-        email: 'anlin.kong@gmail.com'
+      - name: 'Erkin Mussurmankulov'
+        irc: 'mangust404'
+        email: 'mangust404@gmail.com'
+    security:
+      - name: 'Erkin Mussurmankulov'
+        irc: 'mangust404'
+        email: 'mangust404@gmail.com'
   irc-channel: openstack-trove
   service: Database service
   mission: >
@@ -2645,6 +2763,10 @@ watcher:
       - name: 'Joan Francesc Gilabert Navarro'
         irc: 'jgilaber'
         email: 'jgilaber@redhat.com'
+    security:
+      - name: 'Douglas Viroel'
+        irc: 'dviroel'
+        email: 'viroel@gmail.com'
   irc-channel: openstack-watcher
   service: Infrastructure Optimization service
   mission: >
@@ -2680,6 +2802,18 @@ zaqar:
       - xena
       - zed
       - '2025.2'
+  liaisons:
+    release:
+      - name: 'Hao Wang'
+        irc: 'wanghao'
+        email: 'sxmatch1986@gmail.com'
+    security:
+      - name: 'Hao Wang'
+        irc: 'wanghao'
+        email: 'sxmatch1986@gmail.com'
+      - name: 'Takashi Kajinami'
+        irc: 'tkajinam'
+        email: 'kajinamit@oss.nttdata.com'
   irc-channel: openstack-zaqar
   service: Message service
   mission: >
