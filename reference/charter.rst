@@ -157,7 +157,9 @@ Voters for PTL seats ("APC")
 Voters for a given project's PTL election are the Active Project Contributors
 ("APC"), which are a subset of the Foundation Individual Members. Individual
 Members who committed a change to a repository of a project over the last two
-6-month release cycles are considered APC for that project team.
+6-month release cycles or who reviewed or approved one
+of the changes during this interval with CR+2, CR-2 or W+1
+are considered APC for that project team.
 
 Candidates for PTL seats
 ========================
@@ -236,7 +238,9 @@ committed a change to a repository under the governance of the
 OpenStack Technical Committee (see: :ref:`projects`,
 :ref:`tc-repos` and :doc:`SIG repositories </reference/sigs/index>`) over the
 last two 6-month release cycles are automatically considered AC by their
-technical contributions which are easy to mine and count. Specific
+technical contributions. Individual Members who reviewed or approved
+one of the changes meeting the above criteria
+(with CR+2, CR-2 or W+1), will also be considered AC. Specific
 contributors who did not have a change recently accepted in one of the
 OpenStack projects, but nevertheless consider themselves a contributor
 to the community, can apply for AC either by sending an email to the
