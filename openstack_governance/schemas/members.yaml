@@ -1,0 +1,30 @@
+---
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://opendev.org/openstack/releases/src/branch/master/README.rst"
+
+type: "array"
+items:
+  type: "object"
+  required:
+    - "name"
+    - "irc"
+    - "email"
+    - "memberid"
+    - "date"
+    - "role"
+  additionalProperties: false
+  properties:
+    name:
+      type: "string"
+    irc:
+      type: "string"
+    email:
+      type: "string"
+      format: "email"
+    memberid:
+      type: "integer"
+      minimum: 0
+    date:
+      type: "string"
+    role:
+      enum: ["chair", "vice-chair", null]

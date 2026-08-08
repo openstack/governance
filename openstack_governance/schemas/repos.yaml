@@ -1,0 +1,28 @@
+---
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$id: "https://opendev.org/openstack/releases/src/branch/master/README.rst"
+
+additionalProperties:
+  type: "array"
+  items:
+    type: "object"
+    required:
+      - "repo"
+    additionalProperties: false
+    properties:
+      repo:
+        type: "string"
+      extra-acs:
+        type: "array"
+        items:
+          type: "object"
+          properties:
+            name:
+              type: "string"
+            email:
+              type: "string"
+              format: "email"
+            expires-in:
+              type: "string"
+            comment:
+              type: "string"

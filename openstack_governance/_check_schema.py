@@ -22,27 +22,32 @@ from openstack_governance import yamltools
 
 _yaml = yamltools.YAML()
 
-_PROJECTS_SCHEMA = _yaml.load(
-    pkgutil.get_data(
-        'openstack_governance', os.path.join('schemas', 'projects.yaml'),
-    ).decode('utf-8')
-)
-
 
 def main():
     parser = argparse.ArgumentParser()
     parser.parse_args()
 
-    errors = []
+    for data_file, schema_file in (
+        ('members.yaml', 'members.yaml'),
+        ('projects.yaml', 'projects.yaml'),
+        ('sigs-repos.yaml', 'repos.yaml'),
+        ('technical-committee-repos.yaml', 'repos.yaml'),
+        (os.path.join('sigs', 'archived-sigs.yaml'), 'sigs.yaml'),
+        (os.path.join('sigs', 'completed-sigs.yaml'), 'sigs.yaml'),
+        (os.path.join('sigs', 'sigs.yaml'), 'sigs.yaml'),
+    ):
+        pkg_schema = pkgutil.get_data(
+            'openstack_governance', os.path.join('schemas', schema_file)
+        )
+        schema = _yaml.load(pkg_schema.decode())
+        validator = jsonschema.Draft202012Validator(schema)
 
-    with open('reference/projects.yaml', 'r', encoding='utf-8') as f:
-        all_projects = _yaml.load(f.read())
+        with open(f'reference/{data_file}', 'r', encoding='utf-8') as f:
+            data = _yaml.load(f.read())
 
-    validator = jsonschema.Draft202012Validator(_PROJECTS_SCHEMA)
-
-    errors = False
-    for e in validator.iter_errors(all_projects):
-        errors = True
-        print(e)
+        errors = False
+        for e in validator.iter_errors(data):
+            errors = True
+            print(e)
 
     return 1 if errors else 0
