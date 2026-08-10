@@ -911,6 +911,10 @@ mistral:
       - name: 'Axel Vanzaghi'
         irc: 'avanzaghi'
         email: 'avanzaghi.osf@axellink.fr'
+    security:
+      - name: 'Arnaud Morin'
+        irc: 'amorin'
+        email: 'arnaud.morin@gmail.com'
   irc-channel: openstack-mistral
   service: Workflow service
   mission: >
