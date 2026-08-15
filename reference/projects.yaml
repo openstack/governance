@@ -2643,7 +2643,7 @@ trove:
   ptl:
     name: 'Erkin Mussurmankulov'
     irc: 'mangust404'
-    email: 'mangust404@gmail.com'
+    email: 'erkin.mussurmankulov@ps.kz'
     appointed:
       - stein
       - zed
@@ -2653,11 +2653,11 @@ trove:
     release:
       - name: 'Erkin Mussurmankulov'
         irc: 'mangust404'
-        email: 'mangust404@gmail.com'
+        email: 'erkin.mussurmankulov@ps.kz'
     security:
       - name: 'Erkin Mussurmankulov'
         irc: 'mangust404'
-        email: 'mangust404@gmail.com'
+        email: 'erkin.mussurmankulov@ps.kz'
   irc-channel: openstack-trove
   service: Database service
   mission: >
