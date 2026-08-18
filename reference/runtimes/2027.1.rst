@@ -1,0 +1,95 @@
+.. _2027-1-testing-runtime:
+
+===================================
+Tested Runtimes for 2027.1 (Indri)
+===================================
+
+Linux Distribution
+==================
+
+At the start of the 2027.1 development cycle, the current :ref:`LTS or stable
+distribution <pti-linux-distros>` versions are:
+
+* Ubuntu 26.04
+* Debian 13
+
+Additional testing for a smooth upgrade
+---------------------------------------
+
+* Ubuntu 24.04 (Supported in previous SLURP release 2026.1)
+
+  At least one tempest job should run on Ubuntu 24.04 to ensure that the
+  SLURP release upgrade path (from 2026.1 to 2027.1) works.
+
+Python
+======
+
+It is the :doc:`policy <../../resolutions/20181024-python-update-process>` that
+each OpenStack release cycle will target the latest available version of
+Python; default Python runtime on the distributions listed above; and versions
+used in integration tests at the start of the cycle, at least until the point
+when all projects have migrated to a later version.
+
+As per the Python testing requirements defined in :ref:`pti-python`,
+projects should avoid removing Python versions that have not reached EOL
+without a solid reason.
+
+Based on the criteria above, all Python-based projects must target and test
+against, at a minimum:
+
+* Python 3.11
+
+  Python 3.11 is the minimum supported version for 2027.1. Supporting
+  Python 3.11 does not require full tempest testing, but py311 unit tests
+  are expected as a minimum requirement for all Python projects.
+
+* Python 3.12 (available as default in Ubuntu 24.04)
+
+  We have not seen significant incompatible changes between Python 3.11 and
+  3.12 in previous cycles. Projects may skip dedicated py312 test jobs if
+  they are already testing on 3.11 and 3.13. Periodic testing is sufficient.
+
+* Python 3.13 (available as default in Debian 13)
+
+  We have not seen significant incompatible changes between Python 3.12 and
+  3.13 in previous cycles. Projects may skip dedicated py313 test jobs if
+  they are already testing on 3.11 and 3.14. Periodic testing is sufficient.
+
+* Python 3.14 (available as default in Ubuntu 26.04)
+
+  This is the upper bound of required testing for 2027.1. Python 3.14 is the
+  default on Ubuntu 26.04, our primary tested distribution. Full tempest
+  testing coverage is expected on this version.
+
+* Python 3.15 (expected release October 2026)
+
+  Testing with Python 3.15 is not mandatory for the 2027.1 release.
+
+  .. warning::
+
+     Project teams should begin testing with Python 3.15 in this cycle,
+     starting with linting and unit test jobs and extending to end-to-end
+     tempest jobs where possible. Incompatibilities should be identified
+     and fixed early. Python 3.15 will likely become mandatory in a future
+     release.
+
+More details on Python requirements can be found in :ref:`pti-python`.
+
+Advance/Unstable Testing
+========================
+
+The following distributions and Python versions are candidates for advance
+or unstable testing in OpenStack CI/CD. They are not part of integrated
+testing and may be tested as non-blockers or periodically. This list can
+be updated during any phase of the development cycle.
+
+* CentOS Stream 10
+* Rocky Linux 10
+* AlmaLinux 10
+
+  AlmaLinux 10's continued support for x86_64_v2 makes it a
+  compelling option for project teams due to greater CI node
+  availability. We may need to work through additional packaging
+  deficiencies occasionally. We do not expect any other major
+  differences between these Enterprise Linux distributions.
+  Project teams can make a choice based on their needs.
