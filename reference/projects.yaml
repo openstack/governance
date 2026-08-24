@@ -2,9 +2,9 @@
 adjutant:
   leadership_type: ptl
   ptl:
-    name: 'Callum Dickinson'
-    irc: 'Callum027'
-    email: 'callum.dickinson@catalystcloud.nz'
+    name: Callum Dickinson
+    irc: No nick supplied
+    email: callum.dickinson@catalystcloud.nz
     appointed:
       - victoria
       - yoga
@@ -31,31 +31,31 @@ adjutant:
         - openstack/python-adjutantclient
   liaisons:
     security:
-      - name: 'Adrian Jarvis'
-        irc: null
-        email: 'adrian.jarvis@catalystcloud.nz'
+      - name: Adrian Jarvis
+        irc:
+        email: adrian.jarvis@catalystcloud.nz
 barbican:
   leadership_type: ptl
   ptl:
-    name: 'Mauricio Harley'
-    irc: 'mharley'
-    email: 'mharley@redhat.com'
+    name: Mauricio Harley
+    irc: mharley
+    email: mharley@redhat.com
     appointed:
       - victoria
       - xena
       - '2025.2'
   liaisons:
     release:
-      - name: 'Douglas Mendizábal'
-        irc: 'dmendiza[m]'
-        email: 'dmendiza@redhat.com'
-      - name: 'Ade Lee'
-        irc: 'ade_lee'
-        email: 'alee@redhat.com'
+      - name: Douglas Mendizábal
+        irc: dmendiza[m]
+        email: dmendiza@redhat.com
+      - name: Ade Lee
+        irc: ade_lee
+        email: alee@redhat.com
     security:
-      - name: 'Mauricio Harley'
-        irc: 'mharley'
-        email: 'mharley@redhat.com'
+      - name: Mauricio Harley
+        irc: mharley
+        email: mharley@redhat.com
   irc-channel: openstack-barbican
   service: Key Manager service
   mission: >
@@ -92,24 +92,24 @@ barbican:
 blazar:
   leadership_type: ptl
   ptl:
-    name: 'Matt Crees'
-    irc: 'mattcrees'
-    email: 'mattc@stackhpc.com'
+    name: Matt Crees
+    irc: No nick supplied
+    email: mattc@stackhpc.com
   liaisons:
     release:
-      - name: 'Pierre Riteau'
-        irc: 'priteau'
-        email: 'pierre@stackhpc.com'
+      - name: Pierre Riteau
+        irc: priteau
+        email: pierre@stackhpc.com
     security:
-      - name: 'Matt Crees'
-        irc: 'mattcrees'
-        email: 'mattc@stackhpc.com'
-      - name: 'Pierre Riteau'
-        irc: 'priteau'
-        email: 'pierre@stackhpc.com'
-      - name: 'Mark Powers'
-        irc: 'markpowers'
-        email: 'markpowers@uchicago.edu'
+      - name: Matt Crees
+        irc: mattcrees
+        email: mattc@stackhpc.com
+      - name: Pierre Riteau
+        irc: priteau
+        email: pierre@stackhpc.com
+      - name: Mark Powers
+        irc: markpowers
+        email: markpowers@uchicago.edu
   irc-channel: openstack-blazar
   service: Resource reservation service
   mission: >
@@ -141,21 +141,21 @@ blazar:
 cinder:
   leadership_type: ptl
   ptl:
-    name: 'Jon Bernard'
-    irc: 'jbernard'
-    email: 'jobernar@redhat.com'
+    name: Brian Rosmaita
+    irc: rosmaita
+    email: rosmaita.fossdev@gmail.com
   liaisons:
     release:
-      - name: 'Brian Rosmaita'
-        irc: 'rosmaita'
-        email: 'rosmaita.fossdev@gmail.com'
-      - name: 'Amit Uniyal'
-        irc: 'auniyal'
-        email: 'auniyal@redhat.com'
+      - name: Brian Rosmaita
+        irc: rosmaita
+        email: rosmaita.fossdev@gmail.com
+      - name: Amit Uniyal
+        irc: auniyal
+        email: auniyal@redhat.com
     security:
-      - name: 'Brian Rosmaita'
-        irc: 'rosmaita'
-        email: 'rosmaita.fossdev@gmail.com'
+      - name: Brian Rosmaita
+        irc: rosmaita
+        email: rosmaita.fossdev@gmail.com
   irc-channel: openstack-cinder
   service: Block Storage service
   mission: >
@@ -190,9 +190,9 @@ cinder:
 cloudkitty:
   leadership_type: ptl
   ptl:
-    name: 'Rafael Weingartner'
-    irc: null
-    email: 'rafael@apache.org'
+    name: Rafael Weingartner
+    irc: No nick supplied
+    email: rafael@apache.org
     appointed:
       - victoria
       - wallaby
@@ -224,25 +224,25 @@ cloudkitty:
 cyborg:
   leadership_type: ptl
   ptl:
-    name: 'Sean Mooney'
-    irc: 'sean-k-mooney'
-    email: 'smooney@redhat.com'
+    name: Sean Mooney
+    irc: sean-k-mooney
+    email: smooney@redhat.com
     appointed:
       - ussuri
       - xena
       - '2024.1'
   liaisons:
     release:
-      - name: 'Chandan Kumar'
-        irc: 'chandankumar'
-        email: 'chkumar@redhat.com'
-      - name: 'Joan Francesc Gilabert Navarro'
-        irc: 'jgilaber'
-        email: 'jgilaber@redhat.com'
+      - name: Chandan Kumar
+        irc: chandankumar
+        email: chkumar@redhat.com
+      - name: Joan Francesc Gilabert Navarro
+        irc: jgilaber
+        email: jgilaber@redhat.com
     security:
-      - name: 'Sean Mooney'
-        irc: 'sean-k-mooney'
-        email: 'smooney@redhat.com'
+      - name: Sean Mooney
+        irc: sean-k-mooney
+        email: smooney@redhat.com
   irc-channel: openstack-cyborg
   service: Accelerator Life Cycle Management
   mission: >
@@ -266,16 +266,16 @@ cyborg:
 designate:
   leadership_type: ptl
   ptl:
-    name: 'Omer Schwartz'
-    irc: 'oschwart'
-    email: 'oschwart@redhat.com'
+    name: Omer Schwartz
+    irc: oschwart
+    email: oschwart@redhat.com
     appointed:
       - ussuri
   liaisons:
     security:
-      - name: 'Omer Schwartz'
-        irc: 'oschwart'
-        email: 'oschwart@redhat.com'
+      - name: Omer Schwartz
+        irc: oschwart
+        email: oschwart@redhat.com
   service: DNS service
   irc-channel: openstack-dns
   mission: >
@@ -303,21 +303,21 @@ freezer:
   leadership_type: distributed
   liaisons:
     release:
-      - name: 'Dmitriy Rabotyagov'
-        irc: 'noonedeadpunk'
-        email: 'noonedeadpunk@gmail.com'
+      - name: Dmitriy Rabotyagov
+        irc: noonedeadpunk
+        email: noonedeadpunk@gmail.com
     tact-sig:
-      - name: 'Dmitriy Rabotyagov'
-        irc: 'noonedeadpunk'
-        email: 'noonedeadpunk@gmail.com'
+      - name: Dmitriy Rabotyagov
+        irc: noonedeadpunk
+        email: noonedeadpunk@gmail.com
     security:
-      - name: 'Alvaro Soto'
-        irc: 'khyr0n'
-        email: 'alsotoes@gmail.com'
+      - name: Alvaro Soto
+        irc: khyr0n
+        email: alsotoes@gmail.com
     tc-liaison:
-      - name: 'Dmitriy Rabotyagov'
-        irc: 'noonedeadpunk'
-        email: 'noonedeadpunk@gmail.com'
+      - name: Dmitriy Rabotyagov
+        irc: noonedeadpunk
+        email: noonedeadpunk@gmail.com
   irc-channel: openstack-freezer
   service: Backup and Restore service
   mission: >
@@ -348,18 +348,18 @@ freezer:
 glance:
   leadership_type: ptl
   ptl:
-    name: 'Cyril Roelandt'
-    irc: 'croelandt'
-    email: 'cyril@redhat.com'
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
   liaisons:
     release:
-      - name: 'Pranali Deore'
-        irc: 'pdeore'
-        email: 'pdeore@redhat.com'
+      - name: Pranali Deore
+        irc: pdeore
+        email: pdeore@redhat.com
     security:
-      - name: 'Abhishek Kekane'
-        irc: 'abhishekk'
-        email: 'akekane@redhat.com'
+      - name: Abhishek Kekane
+        irc: abhishekk
+        email: akekane@redhat.com
   irc-channel: openstack-glance
   service: Image service
   mission: >
@@ -391,21 +391,21 @@ glance:
 heat:
   leadership_type: ptl
   ptl:
-    name: 'Takashi Kajinami'
-    irc: 'tkajinam'
-    email: 'kajinamit@oss.nttdata.com'
+    name: Takashi Kajinami
+    irc: tkajinam
+    email: kajinamit@oss.nttdata.com
     appointed:
       - yoga
       - zed
   liaisons:
     release:
-      - name: 'Rico Lin'
-        irc: 'ricolin'
-        email: 'ricolin@ricolky.com'
+      - name: Rico Lin
+        irc: ricolin
+        email: ricolin@ricolky.com
     security:
-      - name: 'Steve Hardy'
-        irc: 'shardy'
-        email: 'shardy@redhat.com'
+      - name: Steve Hardy
+        irc: shardy
+        email: shardy@redhat.com
   irc-channel: heat
   service: Orchestration service
   mission: >
@@ -454,17 +454,17 @@ heat:
 horizon:
   leadership_type: ptl
   ptl:
-    name: 'Tatiana Ovchinnikova'
-    irc: 'tmazur'
-    email: 't.v.ovtchinnikova@gmail.com'
+    name: Tatiana Ovchinnikova
+    irc: tmazur
+    email: t.v.ovtchinnikova@gmail.com
   liaisons:
     security:
-      - name: 'Radomir Dopieralski'
-        irc: 'rdopiera'
-        email: 'openstack@dopieralski.pl'
-      - name: 'Jan Jasek'
-        irc: 'jjasek'
-        email: 'jjasek@redhat.com'
+      - name: Radomir Dopieralski
+        irc: rdopiera
+        email: openstack@dopieralski.pl
+      - name: Jan Jasek
+        irc: jjasek
+        email: jjasek@redhat.com
   irc-channel: openstack-horizon
   service: Dashboard
   mission: >
@@ -641,48 +641,48 @@ ironic:
         - openstack/virtualbmc
   liaisons:
     release:
-      - name: 'Iury Gregory Melo Ferreira'
-        irc: 'iurygregory'
-        email: 'iurygregory@gmail.com'
-      - name: 'Riccardo Pittau'
-        irc: 'rpittau'
-        email: 'elfosardo@gmail.com'
+      - name: Iury Gregory Melo Ferreira
+        irc: iurygregory
+        email: iurygregory@gmail.com
+      - name: Riccardo Pittau
+        irc: rpittau
+        email: elfosardo@gmail.com
     tact-sig:
-      - name: 'Dmitry Tantsur'
-        irc: 'dtantsur'
-        email: 'dtantsur@protonmail.com'
+      - name: Dmitry Tantsur
+        irc: dtantsur
+        email: dtantsur@protonmail.com
     security:
-      - name: 'Jay Faulkner'
-        irc: 'JayF'
-        email: 'jay@jvf.cc'
+      - name: Jay Faulkner
+        irc: JayF
+        email: jay@jvf.cc
     tc-liaison:
-      - name: 'Doug Goldstein'
-        irc: 'cardoe'
-        email: 'cardoe@cardoe.com'
+      - name: Doug Goldstein
+        irc: cardoe
+        email: cardoe@cardoe.com
     events:
-      - name: 'Iury Gregory Melo Ferreira'
-        irc: 'iurygregory'
-        email: 'iurygregory@gmail.com'
+      - name: Iury Gregory Melo Ferreira
+        irc: iurygregory
+        email: iurygregory@gmail.com
 keystone:
   leadership_type: ptl
   ptl:
-    name: 'Artem Goncharov'
-    irc: 'gtema'
-    email: 'artem.goncharov@gmail.com'
+    name: Artem Goncharov
+    irc: gtema
+    email: artem.goncharov@gmail.com
     appointed:
       - '2023.1'
   liaisons:
     release:
-      - name: 'Dave Wilde'
-        irc: 'd34dh0r53'
-        email: 'dwilde@redhat.com'
+      - name: Dave Wilde
+        irc: d34dh0r53
+        email: dwilde@redhat.com
     security:
-      - name: 'Grzegorz Grasza'
-        irc: 'xek'
-        email: 'xek@redhat.com'
-      - name: 'Artem Goncharov'
-        irc: 'gtema'
-        email: 'artem.goncharov@gmail.com'
+      - name: Grzegorz Grasza
+        irc: xek
+        email: xek@redhat.com
+      - name: Artem Goncharov
+        irc: gtema
+        email: artem.goncharov@gmail.com
   irc-channel: openstack-keystone
   service: Identity service
   mission: >
@@ -715,27 +715,27 @@ keystone:
 kolla:
   leadership_type: ptl
   ptl:
-    name: 'Michal Nasiadka'
-    irc: 'mnasiadka'
-    email: 'mnasiadka@gmail.com'
+    name: Michal Nasiadka
+    irc: mnasiadka
+    email: mnasiadka@gmail.com
   liaisons:
     release:
-      - name: 'Dr. Jens Harbott'
-        irc: 'frickler'
-        email: 'frickler@offenerstapel.de'
-      - name: 'Bartosz Bezak'
-        irc: 'bbezak'
-        email: 'bartosz@stackhpc.com'
+      - name: Dr. Jens Harbott
+        irc: frickler
+        email: frickler@offenerstapel.de
+      - name: Bartosz Bezak
+        irc: bbezak
+        email: bartosz@stackhpc.com
     security:
-      - name: 'Bartosz Bezak'
-        irc: 'bbezak'
-        email: 'bartosz@stackhpc.com'
-      - name: 'Dr. Jens Harbott'
-        irc: 'frickler'
-        email: 'frickler@offenerstapel.de'
-      - name: 'Michal Nasiadka'
-        irc: 'mnasiadka'
-        email: 'mnasiadka@gmail.com'
+      - name: Bartosz Bezak
+        irc: bbezak
+        email: bartosz@stackhpc.com
+      - name: Dr. Jens Harbott
+        irc: frickler
+        email: frickler@offenerstapel.de
+      - name: Michal Nasiadka
+        irc: mnasiadka
+        email: mnasiadka@gmail.com
   irc-channel: openstack-kolla
   service: Containerised deployment of OpenStack
   mission: >
@@ -763,29 +763,29 @@ kolla:
 magnum:
   leadership_type: ptl
   ptl:
-    name: 'Michal Nasiadka'
-    irc: 'mnasiadka'
-    email: 'mnasiadka@gmail.com'
+    name: Michal Nasiadka
+    irc: mnasiadka
+    email: mnasiadka@gmail.com
     appointed:
       - zed
   liaisons:
     release:
-      - name: 'Jake Yip'
-        irc: 'jakeyip'
-        email: 'jake.yip@ardc.edu.au'
-      - name: 'Jakub Darmach'
-        irc: 'jdarmach'
-        email: 'jakub@stackhpc.com'
+      - name: Jake Yip
+        irc: jakeyip
+        email: jake.yip@ardc.edu.au
+      - name: Jakub Darmach
+        irc: jdarmach
+        email: jakub@stackhpc.com
     security:
-      - name: 'Jake Yip'
-        irc: 'jakeyip'
-        email: 'jake.yip@ardc.edu.au'
-      - name: 'Jakub Darmach'
-        irc: 'jdarmach'
-        email: 'jakub@stackhpc.com'
-      - name: 'Michal Nasiadka'
-        irc: 'mnasiadka'
-        email: 'mnasiadka@gmail.com'
+      - name: Jake Yip
+        irc: jakeyip
+        email: jake.yip@ardc.edu.au
+      - name: Jakub Darmach
+        irc: jdarmach
+        email: jakub@stackhpc.com
+      - name: Michal Nasiadka
+        irc: mnasiadka
+        email: mnasiadka@gmail.com
   irc-channel: openstack-containers
   service: Container Infrastructure Management service
   mission: >
@@ -818,18 +818,18 @@ magnum:
 manila:
   leadership_type: ptl
   ptl:
-    name: 'Carlos Silva'
-    irc: 'carloss'
-    email: 'ces.eduardo98@gmail.com'
+    name: Carlos Silva
+    irc: carloss
+    email: ces.eduardo98@gmail.com
   liaisons:
     release:
-      - name: 'Goutham Pacha Ravi'
-        irc: 'gouthamr'
-        email: 'gouthampravi@gmail.com'
+      - name: Goutham Pacha Ravi
+        irc: gouthamr
+        email: gouthampravi@gmail.com
     security:
-      - name: 'Carlos Silva'
-        irc: 'carloss'
-        email: 'ces.eduardo98@gmail.com'
+      - name: Carlos Silva
+        irc: carloss
+        email: ces.eduardo98@gmail.com
   irc-channel: openstack-manila
   service: Shared File Systems service
   mission: >
@@ -864,9 +864,9 @@ manila:
 masakari:
   leadership_type: ptl
   ptl:
-    name: 'Masahito Muroi'
-    irc: 'masahito'
-    email: 'masahito.muroi@g.softbank.co.jp'
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
     appointed:
       - yoga
       - zed
@@ -899,22 +899,22 @@ masakari:
 mistral:
   leadership_type: ptl
   ptl:
-    name: 'Arnaud Morin'
-    irc: 'amorin'
-    email: 'arnaud.morin@gmail.com'
+    name: Arnaud Morin
+    irc: amorin
+    email: arnaud.morin@gmail.com
     appointed:
       - '2024.1'
       - '2025.1'
       - '2026.2'
   liaisons:
     release:
-      - name: 'Axel Vanzaghi'
-        irc: 'avanzaghi'
-        email: 'avanzaghi.osf@axellink.fr'
+      - name: Axel Vanzaghi
+        irc: avanzaghi
+        email: avanzaghi.osf@axellink.fr
     security:
-      - name: 'Arnaud Morin'
-        irc: 'amorin'
-        email: 'arnaud.morin@gmail.com'
+      - name: Arnaud Morin
+        irc: amorin
+        email: arnaud.morin@gmail.com
   irc-channel: openstack-mistral
   service: Workflow service
   mission: >
@@ -950,18 +950,18 @@ mistral:
 neutron:
   leadership_type: ptl
   ptl:
-    name: 'Brian Haley'
-    irc: 'haleyb'
-    email: 'haleyb.dev@gmail.com'
+    name: Brian Haley
+    irc: haleyb
+    email: haleyb.dev@gmail.com
   liaisons:
     release:
-      - name: 'Slawomir Kaplonski'
-        irc: 'slaweq'
-        email: 'skaplons@redhat.com'
+      - name: Slawomir Kaplonski
+        irc: slaweq
+        email: skaplons@redhat.com
     security:
-      - name: 'Miguel Lavalle'
-        irc: 'mlavalle'
-        email: 'miguel@mlavalle.com'
+      - name: Miguel Lavalle
+        irc: mlavalle
+        email: miguel@mlavalle.com
   irc-channel: openstack-neutron
   service: Networking service
   mission: >
@@ -1032,18 +1032,18 @@ neutron:
 nova:
   leadership_type: ptl
   ptl:
-    name: 'René Ribaud'
-    irc: 'Uggla'
-    email: 'rene.ribaud@gmail.com'
+    name: René Ribaud
+    irc: Uggla
+    email: rene.ribaud@gmail.com
   liaisons:
     release:
-      - name: 'Sylvain Bauza'
-        irc: 'bauzas'
-        email: 'sbauza@redhat.com'
+      - name: Sylvain Bauza
+        irc: bauzas
+        email: sbauza@redhat.com
     security:
-      - name: 'Dan Smith'
-        irc: 'dansmith'
-        email: 'dms@danplanet.com'
+      - name: Dan Smith
+        irc: dansmith
+        email: dms@danplanet.com
   irc-channel: openstack-nova
   service: Compute service
   mission: >
@@ -1084,16 +1084,16 @@ nova:
 octavia:
   leadership_type: ptl
   ptl:
-    name: 'Gregory Thiemonge'
-    irc: 'gthiemonge'
-    email: 'gthiemon@redhat.com'
+    name: Gregory Thiemonge
+    irc: gthiemonge
+    email: gthiemon@redhat.com
     appointed:
       - wallaby
   liaisons:
     security:
-      - name: 'Gregory Thiemonge'
-        irc: 'gthiemonge'
-        email: 'gthiemon@redhat.com'
+      - name: Gregory Thiemonge
+        irc: gthiemonge
+        email: gthiemon@redhat.com
   irc-channel: openstack-lbaas
   service: Load-balancer service
   mission: >
@@ -1119,9 +1119,9 @@ octavia:
 OpenStack Charms:
   leadership_type: ptl
   ptl:
-    name: 'Felipe Reyes'
-    irc: 'freyes'
-    email: 'felipe.reyes@canonical.com'
+    name: Felipe Reyes
+    irc: freyes
+    email: felipe.reyes@canonical.com
     appointed:
       - wallaby
       - zed
@@ -1720,9 +1720,9 @@ OpenStack Charms:
 OpenStack-Helm:
   leadership_type: ptl
   ptl:
-    name: 'Vladimir Kozhukalov'
-    irc: 'kozhukalov'
-    email: 'kozhukalov@gmail.com'
+    name: Vladimir Kozhukalov
+    irc: kozhukalov
+    email: kozhukalov@gmail.com
   service: Helm charts for OpenStack services
   irc-channel: openstack-helm
   mission: >
@@ -1756,9 +1756,9 @@ OpenStack-Helm:
 OpenStackAnsible:
   leadership_type: ptl
   ptl:
-    name: 'Dmitriy Rabotyagov'
-    irc: 'noonedeadpunk'
-    email: 'noonedeadpunk@gmail.com'
+    name: Dmitriy Rabotyagov
+    irc: noonedeadpunk
+    email: noonedeadpunk@gmail.com
   service: Ansible playbooks and roles for deployment
   irc-channel: openstack-ansible
   mission: >
@@ -1873,20 +1873,20 @@ OpenStackAnsible:
 OpenStackSDK:
   leadership_type: ptl
   ptl:
-    name: 'Artem Goncharov'
-    irc: 'gtema'
-    email: 'artem.goncharov@gmail.com'
+    name: Artem Goncharov
+    irc: gtema
+    email: artem.goncharov@gmail.com
     appointed:
       - ussuri
   liaisons:
     release:
-      - name: 'Stephen Finucane'
-        irc: 'stephenfin'
-        email: 'stephenfin@redhat.com'
+      - name: Stephen Finucane
+        irc: stephenfin
+        email: stephenfin@redhat.com
     security:
-      - name: 'Artem Goncharov'
-        irc: 'gtema'
-        email: 'artem.goncharov@gmail.com'
+      - name: Artem Goncharov
+        irc: gtema
+        email: artem.goncharov@gmail.com
   irc-channel: openstack-sdks
   service: Multi-cloud Python SDK and CLI for End Users
   mission: >
@@ -2082,40 +2082,40 @@ oslo:
 
   liaisons:
     release:
-      - name: 'Daniel Bengtsson'
-        irc: 'damani'
-        email: 'dbengt@redhat.com'
-      - name: 'Stephen Finucane'
-        irc: 'stephenfin'
-        email: 'stephenfin@redhat.com'
-      - name: 'Takashi Kajinami'
-        irc: 'tkajinam'
-        email: 'kajinamit@oss.nttdata.com'
+      - name: Daniel Bengtsson
+        irc: damani
+        email: dbengt@redhat.com
+      - name: Stephen Finucane
+        irc: stephenfin
+        email: stephenfin@redhat.com
+      - name: Takashi Kajinami
+        irc: tkajinam
+        email: kajinamit@oss.nttdata.com
     tact-sig:
-      - name: 'Ghanshyam Maan'
-        irc: 'gmaan'
-        email: 'gmaan.os14@gmail.com'
+      - name: Ghanshyam Maan
+        irc: gmaan
+        email: gmaan.os14@gmail.com
     security:
-      - name: 'Daniel Bengtsson'
-        irc: 'damani'
-        email: 'dbengt@redhat.com'
+      - name: Daniel Bengtsson
+        irc: damani
+        email: dbengt@redhat.com
     tc-liaison:
-      - name: 'Goutham Pacha Ravi'
-        irc: 'gouthamr'
-        email: 'gouthampravi@gmail.com'
+      - name: Goutham Pacha Ravi
+        irc: gouthamr
+        email: gouthampravi@gmail.com
 Puppet OpenStack:
   leadership_type: ptl
   ptl:
-    name: 'Takashi Kajinami'
-    irc: 'tkajinam'
-    email: 'kajinamit@oss.nttdata.com'
+    name: Takashi Kajinami
+    irc: tkajinam
+    email: kajinamit@oss.nttdata.com
     appointed:
       - yoga
   liaisons:
     release:
-      - name: 'Alex Schultz'
-        irc: 'mwhahaha'
-        email: 'aschultz@next-development.com'
+      - name: Alex Schultz
+        irc: mwhahaha
+        email: aschultz@next-development.com
   irc-channel: puppet-openstack
   service: Puppet modules for deployment
   mission: >
@@ -2230,14 +2230,14 @@ Puppet OpenStack:
 Quality Assurance:
   leadership_type: ptl
   ptl:
-    name: 'Ghanshyam Maan'
-    irc: 'gmaan'
-    email: 'gmaan.os14@gmail.com'
+    name: Ghanshyam Maan
+    irc: gmaan
+    email: gmaan.os14@gmail.com
   liaisons:
     security:
-      - name: 'Ghanshyam Maan'
-        irc: 'gmaan'
-        email: 'gmaan.os14@gmail.com'
+      - name: Ghanshyam Maan
+        irc: gmaan
+        email: gmaan.os14@gmail.com
   irc-channel: openstack-qa
   mission: >
     Develop, maintain, and initiate tools and plans to ensure the upstream
@@ -2332,9 +2332,9 @@ Quality Assurance:
 rally:
   leadership_type: ptl
   ptl:
-    name: 'Andrey Kurilin'
-    irc: 'andreykurilin'
-    email: 'andr.kurilin@gmail.com'
+    name: Andrey Kurilin
+    irc: andreykurilin
+    email: andr.kurilin@gmail.com
     appointed:
       - victoria
       - '2023.2'
@@ -2383,27 +2383,27 @@ Release Management:
         - openstack/specs-cookiecutter
   liaisons:
     release:
-      - name: 'Thierry Carrez'
-        irc: 'ttx'
-        email: 'thierry@openstack.org'
-      - name: 'Elod Illes'
-        irc: 'elodilles'
-        email: 'elod.illes@est.tech'
-      - name: 'Jens Harbott'
-        irc: 'frickler'
-        email: 'frickler@offenerstapel.de'
+      - name: Thierry Carrez
+        irc: ttx
+        email: thierry@openstack.org
+      - name: Elod Illes
+        irc: elodilles
+        email: elod.illes@est.tech
+      - name: Jens Harbott
+        irc: frickler
+        email: frickler@offenerstapel.de
     tact-sig:
-      - name: 'Jeremy Stanley'
-        irc: 'fungi'
-        email: 'fungi@yuggoth.org'
+      - name: Jeremy Stanley
+        irc: fungi
+        email: fungi@yuggoth.org
     security:
-      - name: 'Jeremy Stanley'
-        irc: 'fungi'
-        email: 'fungi@yuggoth.org'
+      - name: Jeremy Stanley
+        irc: fungi
+        email: fungi@yuggoth.org
     tc-liaison:
-      - name: 'Michal Nasiadka'
-        irc: 'mnasiadka'
-        email: 'mnasiadka@gmail.com'
+      - name: Michal Nasiadka
+        irc: mnasiadka
+        email: mnasiadka@gmail.com
 requirements:
   leadership_type: distributed
   irc-channel: openstack-requirements
@@ -2419,36 +2419,36 @@ requirements:
         - openstack/requirements
   liaisons:
     release:
-      - name: 'Jens Harbott'
-        irc: 'frickler'
-        email: 'frickler@offenerstapel.de'
-      - name: 'Michal Nasiadka'
-        irc: 'mnasiadka'
-        email: 'mnasiadka@gmail.com'
+      - name: Jens Harbott
+        irc: frickler
+        email: frickler@offenerstapel.de
+      - name: Michal Nasiadka
+        irc: mnasiadka
+        email: mnasiadka@gmail.com
     tact-sig:
-      - name: 'Jens Harbott'
-        irc: 'frickler'
-        email: 'frickler@offenerstapel.de'
-      - name: 'Michal Nasiadka'
-        irc: 'mnasiadka'
-        email: 'mnasiadka@gmail.com'
+      - name: Jens Harbott
+        irc: frickler
+        email: frickler@offenerstapel.de
+      - name: Michal Nasiadka
+        irc: mnasiadka
+        email: mnasiadka@gmail.com
     security:
-      - name: 'Jens Harbott'
-        irc: 'frickler'
-        email: 'frickler@offenerstapel.de'
-      - name: 'Michal Nasiadka'
-        irc: 'mnasiadka'
-        email: 'mnasiadka@gmail.com'
+      - name: Jens Harbott
+        irc: frickler
+        email: frickler@offenerstapel.de
+      - name: Michal Nasiadka
+        irc: mnasiadka
+        email: mnasiadka@gmail.com
     tc-liaison:
-      - name: 'Michal Nasiadka'
-        irc: 'mnasiadka'
-        email: 'mnasiadka@gmail.com'
+      - name: Michal Nasiadka
+        irc: mnasiadka
+        email: mnasiadka@gmail.com
 skyline:
   leadership_type: ptl
   ptl:
-    name: 'Wenxiang Wu'
-    irc: 'wu_wenxiang'
-    email: 'wu.wenxiang@algoblu.com'
+    name: APPOINTMENT NEEDED
+    irc: No nick supplied
+    email: example@example.org
     appointed:
       - zed
       - '2024.1'
@@ -2456,12 +2456,12 @@ skyline:
       - '2026.2'
   liaisons:
     security:
-      - name: 'Wenxiang Wu'
-        irc: 'wu_wenxiang'
-        email: 'wu.wenxiang@algoblu.com'
-      - name: 'Boxiang Zhu'
-        irc: 'zhuboxiang'
-        email: 'bxzhu_5355@163.com'
+      - name: Wenxiang Wu
+        irc: wu_wenxiang
+        email: wu.wenxiang@algoblu.com
+      - name: Boxiang Zhu
+        irc: zhuboxiang
+        email: bxzhu_5355@163.com
   irc-channel: openstack-skyline
   service: Dashboard
   mission: >
@@ -2480,9 +2480,9 @@ skyline:
 storlets:
   leadership_type: ptl
   ptl:
-    name: 'Takashi Kajinami'
-    irc: 'tkajinam'
-    email: 'kajinamit@oss.nttdata.com'
+    name: Takashi Kajinami
+    irc: tkajinam
+    email: kajinamit@oss.nttdata.com
   irc-channel: openstack-storlets
   service: Compute inside Object Storage service
   mission: >
@@ -2497,9 +2497,9 @@ storlets:
 sunbeam:
   leadership_type: ptl
   ptl:
-    name: 'Guillaume Boutry'
-    irc: 'gboutry'
-    email: 'guillaume.boutry@canonical.com'
+    name: Hemanth Kumar Nakkina
+    irc: hemanth
+    email: hemanth.nakkina@canonical.com
     appointed:
       - '2024.1'
   irc-channel: openstack-sunbeam
@@ -2510,7 +2510,7 @@ sunbeam:
     containing many 1000's of hypervisors - leveraging a hybrid deployment
     model using Juju to manage both Kubernetes components and machine based
     components through the use of charms.
-  url:
+  url: 
     https://opendev.org/openstack/sunbeam-charms/src/branch/main/ops-sunbeam/README.rst
   deliverables:
     sunbeam-charms:
@@ -2520,9 +2520,9 @@ sunbeam:
 swift:
   leadership_type: ptl
   ptl:
-    name: 'Tim Burke'
-    irc: 'timburke'
-    email: 'tburke@nvidia.com'
+    name: Tim Burke
+    irc: timburke
+    email: tburke@nvidia.com
     appointed:
       - victoria
       - '2023.1'
@@ -2556,9 +2556,9 @@ swift:
 tacker:
   leadership_type: ptl
   ptl:
-    name: 'Yasufumi Ogawa'
-    irc: 'yasufum'
-    email: 'yasufum.o@gmail.com'
+    name: Yasufumi Ogawa
+    irc: yasufum
+    email: yasufum.o@gmail.com
     appointed:
       - victoria
   irc-channel: tacker
@@ -2591,16 +2591,16 @@ tacker:
 Telemetry:
   leadership_type: ptl
   ptl:
-    name: 'Juan Larriba'
-    irc: null
-    email: 'jlarriba@redhat.com'
+    name: Juan Larriba
+    irc: No nick supplied
+    email: jlarriba@redhat.com
     appointed:
       - train
   liaisons:
     release:
-      - name: 'Emma Foley'
-        irc: 'efoley'
-        email: 'efoley@redhat.com'
+      - name: Emma Foley
+        irc: efoley
+        email: efoley@redhat.com
   irc-channel: openstack-telemetry
   service: Telemetry service
   mission: >
@@ -2641,9 +2641,9 @@ Telemetry:
 trove:
   leadership_type: ptl
   ptl:
-    name: 'Erkin Mussurmankulov'
-    irc: 'mangust404'
-    email: 'erkin.mussurmankulov@ps.kz'
+    name: Erkin Mussurmankulov
+    irc: No nick supplied
+    email: erkin.mussurmankulov@ps.kz
     appointed:
       - stein
       - zed
@@ -2651,13 +2651,13 @@ trove:
       - '2024.2'
   liaisons:
     release:
-      - name: 'Erkin Mussurmankulov'
-        irc: 'mangust404'
-        email: 'erkin.mussurmankulov@ps.kz'
+      - name: Erkin Mussurmankulov
+        irc: mangust404
+        email: erkin.mussurmankulov@ps.kz
     security:
-      - name: 'Erkin Mussurmankulov'
-        irc: 'mangust404'
-        email: 'erkin.mussurmankulov@ps.kz'
+      - name: Erkin Mussurmankulov
+        irc: mangust404
+        email: erkin.mussurmankulov@ps.kz
   irc-channel: openstack-trove
   service: Database service
   mission: >
@@ -2685,9 +2685,9 @@ trove:
 vitrage:
   leadership_type: ptl
   ptl:
-    name: 'APPOINTMENT NEEDED'
-    irc: null
-    email: 'example@example.org'
+    name: Dmitriy Rabotyagov
+    irc: noonedeadpunk
+    email: noonedeadpunk@gmail.com
     appointed:
       - '2023.2'
   irc-channel: openstack-vitrage
@@ -2700,77 +2700,77 @@ vitrage:
   deliverables:
     vitrage:
       release-management: deprecated
-      deprecated: "2026.2"
+      deprecated: '2026.2'
       repos:
         - openstack/vitrage
     vitrage-specs:
       release-management: none
-      deprecated: "2026.2"
+      deprecated: '2026.2'
       repos:
         - openstack/vitrage-specs
     vitrage-tempest-plugin:
       release-management: deprecated
-      deprecated: "2026.2"
+      deprecated: '2026.2'
       repos:
         - openstack/vitrage-tempest-plugin
     python-vitrageclient:
       release-management: deprecated
-      deprecated: "2026.2"
+      deprecated: '2026.2'
       repos:
         - openstack/python-vitrageclient
     vitrage-dashboard:
       release-management: deprecated
-      deprecated: "2026.2"
+      deprecated: '2026.2'
       repos:
         - openstack/vitrage-dashboard
     xstatic-dagre:
       release-management: deprecated
-      deprecated: "2026.2"
+      deprecated: '2026.2'
       repos:
         - openstack/xstatic-dagre
     xstatic-dagre-d3:
       release-management: deprecated
-      deprecated: "2026.2"
+      deprecated: '2026.2'
       repos:
         - openstack/xstatic-dagre-d3
     xstatic-graphlib:
       release-management: deprecated
-      deprecated: "2026.2"
+      deprecated: '2026.2'
       repos:
         - openstack/xstatic-graphlib
     xstatic-lodash:
       release-management: deprecated
-      deprecated: "2026.2"
+      deprecated: '2026.2'
       repos:
         - openstack/xstatic-lodash
     xstatic-moment:
       release-management: deprecated
-      deprecated: "2026.2"
+      deprecated: '2026.2'
       repos:
         - openstack/xstatic-moment
     xstatic-moment-timezone:
       release-management: deprecated
-      deprecated: "2026.2"
+      deprecated: '2026.2'
       repos:
         - openstack/xstatic-moment-timezone
 watcher:
   leadership_type: ptl
   ptl:
-    name: 'Douglas Viroel'
-    irc: 'dviroel'
-    email: 'viroel@gmail.com'
+    name: Douglas Viroel
+    irc: dviroel
+    email: viroel@gmail.com
   liaisons:
     release:
-      - name: 'Chandan Kumar'
-        irc: 'chandankumar'
-        email: 'chkumar@redhat.com'
-      - name: 'Joan Francesc Gilabert Navarro'
-        irc: 'jgilaber'
-        email: 'jgilaber@redhat.com'
+      - name: Chandan Kumar
+        irc: chandankumar
+        email: chkumar@redhat.com
+      - name: Joan Francesc Gilabert Navarro
+        irc: jgilaber
+        email: jgilaber@redhat.com
     security:
-      - name: 'Douglas Viroel'
-        irc: 'dviroel'
-        email: 'viroel@gmail.com'
+      - name: Douglas Viroel
+        irc: dviroel
+        email: viroel@gmail.com
   irc-channel: openstack-watcher
   service: Infrastructure Optimization service
   mission: >
@@ -2797,9 +2797,9 @@ watcher:
 zaqar:
   leadership_type: ptl
   ptl:
-    name: 'Hao Wang'
-    irc: 'wanghao'
-    email: 'sxmatch1986@gmail.com'
+    name: Hao Wang
+    irc: wanghao
+    email: sxmatch1986@gmail.com
     appointed:
       - train
       - victoria
@@ -2808,16 +2808,16 @@ zaqar:
       - '2025.2'
   liaisons:
     release:
-      - name: 'Hao Wang'
-        irc: 'wanghao'
-        email: 'sxmatch1986@gmail.com'
+      - name: Hao Wang
+        irc: wanghao
+        email: sxmatch1986@gmail.com
     security:
-      - name: 'Hao Wang'
-        irc: 'wanghao'
-        email: 'sxmatch1986@gmail.com'
-      - name: 'Takashi Kajinami'
-        irc: 'tkajinam'
-        email: 'kajinamit@oss.nttdata.com'
+      - name: Hao Wang
+        irc: wanghao
+        email: sxmatch1986@gmail.com
+      - name: Takashi Kajinami
+        irc: tkajinam
+        email: kajinamit@oss.nttdata.com
   irc-channel: openstack-zaqar
   service: Message service
   mission: >
@@ -2846,9 +2846,9 @@ zaqar:
 zun:
   leadership_type: ptl
   ptl:
-    name: 'Hongbin Lu'
-    irc: 'hongbin'
-    email: 'hongbin034@gmail.com'
+    name: Ivan Anfimov
+    irc: No nick supplied
+    email: lazekteam@gmail.com
     appointed:
       - xena
       - yoga
