@@ -348,9 +348,11 @@ freezer:
 glance:
   leadership_type: ptl
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Cyril Roelandt
+    irc: croelandt
+    email: cyril@redhat.com
+    appointed:
+      - '2027.1'
   liaisons:
     release:
       - name: Pranali Deore
@@ -864,15 +866,16 @@ manila:
 masakari:
   leadership_type: ptl
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Masahito Muroi
+    irc: masahito
+    email: masahito.muroi@g.softbank.co.jp
     appointed:
       - yoga
       - zed
       - '2023.1'
       - '2025.2'
       - '2026.2'
+      - '2027.1'
   irc-channel: openstack-masakari
   service: Instances High Availability service
   mission: >
@@ -2446,14 +2449,15 @@ requirements:
 skyline:
   leadership_type: ptl
   ptl:
-    name: APPOINTMENT NEEDED
-    irc: No nick supplied
-    email: example@example.org
+    name: Wenxiang Wu
+    irc: wu_wenxiang
+    email: wu.wenxiang@algoblu.com
     appointed:
       - zed
       - '2024.1'
       - '2024.2'
       - '2026.2'
+      - '2027.1'
   liaisons:
     security:
       - name: Wenxiang Wu
