@@ -2854,6 +2854,15 @@ zun:
       - yoga
       - zed
       - '2023.1'
+  liaisons:
+    release:
+      - name: Ivan Anfimov
+        irc: No nick supplied
+        email: lazekteam@gmail.com
+    security:
+      - name: Hongbin Lu
+        irc: hongbin
+        email: hongbin034@gmail.com
   irc-channel: openstack-zun
   service: Containers service
   mission: >
