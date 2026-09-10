@@ -29,6 +29,8 @@ automatic AC status (see below). The TC has ultimate authority over
 which project teams are designated as official OpenStack projects. The
 projects are listed in :ref:`projects`.
 
+.. _charter-ptls:
+
 Project Team Leads
 ==================
 
@@ -119,6 +121,8 @@ least one third of the total number of TC members (rounded up: in a 13-member
 committee that means a minimum of 5 approvers).
 
 Patches with motions should use the gerrit hashtag ``formal-vote``.
+
+.. _charter-ptl-elections:
 
 Election for PTL seats
 ======================

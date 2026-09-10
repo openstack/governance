@@ -28,9 +28,11 @@ of OpenStack deliverables (like Compute service deliverables), or provide
 functions that are integral to the production of the software (like Release
 management or QA).
 
-Project teams are under the oversight of the TC, and traditionally lead by PTLs
-(project team leaders). Since their collective output is assembled to make the
-"OpenStack" coordinated releases every 6 months, extra accountability is
+Project teams are under the oversight of the TC, and traditionally lead by
+:doc:`Project Team Leads (PTLs) <project-leadership>` unless they have adopted
+the :doc:`Distributed Project Lead (DPL) <distributed-project-leadership>`
+model. Since their collective output is assembled to make
+the "OpenStack" coordinated releases every 6 months, extra accountability is
 required of project teams to make OpenStack as a whole reach high quality
 standards. In particular, we require named liaisons for deliverable release
 management, security vulnerability management, and QA/CI infrastructure
@@ -42,7 +44,7 @@ roadmap for their deliverables, and help communicate recent changes. To that
 effect, team members hold regular team meetings and participate in various
 community events.
 
-OpenStack has a large number of existing project teams. if you would like to
+OpenStack has a large number of existing project teams. If you would like to
 create a new project team, you can reference
 :doc:`new projects requirements </reference/new-projects-requirements>`
 documentations for more details.

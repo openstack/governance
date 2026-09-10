@@ -101,9 +101,10 @@ Scope
   another project, or portion of a project, the new project must reach a level
   of functionality and maturity such that we are ready to deprecate the old
   code and remove it after a well defined deprecation cycle.  The deprecation
-  plan agreed to by the PTLs of each affected project, including details for
-  how users will be able to migrate from the old to the new, must be submitted
-  to the TC for review as a part of the graduation review.
+  plan agreed to by the Project Team Leads (PTLs) of each affected project,
+  including details for how users will be able to migrate from the old to the
+  new, must be submitted to the TC for review as a part of the graduation
+  review.
 
 Maturity
 --------
