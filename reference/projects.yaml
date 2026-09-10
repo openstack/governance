@@ -2237,6 +2237,10 @@ Quality Assurance:
     irc: gmaan
     email: gmaan.os14@gmail.com
   liaisons:
+    release:
+      - name: Jens Harbott
+        irc: frickler
+        email: frickler@offenerstapel.de
     security:
       - name: Ghanshyam Maan
         irc: gmaan
