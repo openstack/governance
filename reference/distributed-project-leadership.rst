@@ -42,7 +42,7 @@ Required roles
 The project teams are expected to have at least the following required liaison
 roles:
 
-* Release liaison: The :repo:`openstack/releases/src/branch/master/data/release_liaisons.yaml`
+* Release liaison: The :repo:`openstack/governance/src/branch/master/reference/projects.yaml`
   is responsible for requesting releases for deliverables produced by the
   project team.  In addition, release liaisons generally review requests for
   Feature Freeze Exception (FFE).
@@ -190,7 +190,7 @@ Once a project team has moved to the distributed leadership model, they can
 revert to the PTL model by creating a change to ``projects.yaml`` to change
 ``leadership_type`` to ``ptl`` in the team's configuration. This change
 should have at least a +1 from all the people currently serving as liaisons,
-including the :repo:`openstack/releases/src/branch/master/data/release_liaisons.yaml`
+including the :repo:`openstack/governance/src/branch/master/reference/projects.yaml`
 for the project team, which might not be in the ``governance`` repo.
 It must also get a +1 from the future PTL, listed in the same change.
 
