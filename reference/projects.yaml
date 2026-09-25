@@ -2818,6 +2818,9 @@ zaqar:
       - name: Hao Wang
         irc: wanghao
         email: sxmatch1986@gmail.com
+      - name: Takashi Kajinami
+        irc: tkajinam
+        email: kajinamit@oss.nttdata.com
     security:
       - name: Hao Wang
         irc: wanghao
