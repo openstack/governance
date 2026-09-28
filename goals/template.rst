@@ -24,8 +24,8 @@ Status: <YES/NO>
 <Provide links to specs, gerrit, etherpad, wiki, IRC, or other documention
 sites>
 
-Is implemenation finalized? (Mandatory)
----------------------------------------
+Is implementation finalized? (Mandatory)
+----------------------------------------
 
 Status: <YES/NO>
 <Provide link to gerrit, etherpad, wiki, ML, etc> |
