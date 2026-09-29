@@ -127,6 +127,11 @@ If a technical committee member disagrees with the addition or retirement of a
 project, they can propose a revert which would then be discussed by our usual
 ``formal-vote`` rules.
 
+Liaison Updates
+---------------
+
+:Gerrit hashtag: ``liaison-update``
+
 Changes that only update project liaison assignments (release liaisons,
 security liaisons, or other liaison roles) can be approved by any TC member
 once the PTL of the affected project (or an existing liaison, in the case

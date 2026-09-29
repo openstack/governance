@@ -187,6 +187,32 @@ def all_changes():
             break
 
 
+def _build_liaison_approvers(gov):
+    """Map PTL and liaison names to their team for CR+1 verification."""
+    approvers = {}
+    for team in gov._teams:
+        ptl_name = team.ptl.get('name', '')
+        if ptl_name and ptl_name != 'MISSING':
+            approvers[ptl_name.lower()] = (ptl_name, team.name)
+        liaisons = team.liaisons if isinstance(team.liaisons, dict) else {}
+        for contacts in liaisons.values():
+            for contact in contacts:
+                name = contact.get('name', '')
+                if name:
+                    approvers[name.lower()] = (name, team.name)
+    return approvers
+
+
+def _find_liaison_approver(change, liaison_approvers):
+    """Return (name, team) of the first CR+1 voter who is a PTL or liaison."""
+    for vote in change['labels'].get('Code-Review', {}).get('all', []):
+        if vote.get('value', 0) >= 1:
+            voter_name = (vote.get('name') or '').lower()
+            if voter_name in liaison_approvers:
+                return liaison_approvers[voter_name]
+    return None
+
+
 KNOWN_CATEGORIES = {
     'on-hold',
     'formal-vote',
@@ -199,10 +225,11 @@ KNOWN_CATEGORIES = {
     'project-update',
     'new-project',
     'goal-update',
+    'liaison-update',
 }
 
 
-def get_one_status(change, delegates, tc_members):
+def get_one_status(change, delegates, tc_members, liaison_approvers):
     hashtags = change.get('hashtags', [])
     matching = [h for h in hashtags if h in KNOWN_CATEGORIES | delegates.keys()]
     hashtag = matching[0] if matching else 'Missing hashtag'
@@ -364,6 +391,20 @@ def get_one_status(change, delegates, tc_members):
         elif has_commented(approver_name, change):
             can_approve += '\ndelegate has commented'
 
+    elif hashtag == 'liaison-update':
+        # https://governance.openstack.org/tc/reference/house-rules.html#liaison-updates
+        earliest = 'Can be voted anytime'
+        approver = _find_liaison_approver(change, liaison_approvers)
+        if votes[-1] or code_reviews[-1]:
+            can_approve = 'dissenting votes'
+        elif approver:
+            can_approve = 'CAN APPROVE (no roll call needed)\n' \
+                'PTL/liaison CR+1: {} ({})'.format(*approver)
+        elif code_reviews[1] >= 1:
+            can_approve = 'has CR+1 but not from a known PTL/liaison'
+        else:
+            can_approve = 'needs PTL/liaison CR+1'
+
     elif hashtag in ('project-update', 'new-project'):
         # https://governance.openstack.org/tc/reference/house-rules.html#other-project-team-updates
 
@@ -462,6 +503,7 @@ def main():
 
     gov = governance.Governance.from_local_repo()
     release_team = gov.get_team('Release Management')
+    liaison_approvers = _build_liaison_approvers(gov)
 
     delegates = {
         'release-management': release_team.ptl['name'],
@@ -470,7 +512,7 @@ def main():
         print('Delegating {} hashtag to {}'.format(tag, name))
 
     status = sorted(
-        (get_one_status(change, delegates, tc_members)
+        (get_one_status(change, delegates, tc_members, liaison_approvers)
          for change in all_changes()),
         key=operator.itemgetter('URL'),
     )
