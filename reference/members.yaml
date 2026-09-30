@@ -4,6 +4,8 @@
     memberid: 33567
     date: February 2026
     role: null
+    liaisons:
+      - vmt
 
   - name: Jens Harbott
     irc: frickler
@@ -17,7 +19,9 @@
     email: gouthampravi@gmail.com
     memberid: 35705
     date: February 2026
-    role: null
+    role: chair
+    liaisons:
+      - vmt
 
   - name: Dmitriy Rabotyagov
     irc: noonedeadpunk
@@ -31,14 +35,14 @@
     email: cardoe@cardoe.com
     memberid: 155659
     date: September 2026
-    role: null
+    role: vice-chair
 
   - name: Michal Nasiadka
     irc: mnasiadka
     email: mnasiadka@gmail.com
     memberid: 61605
     date: February 2026
-    role: null
+    role: vice-chair
 
   - name: Dan Smith
     irc: dansmith
@@ -60,3 +64,5 @@
     memberid: 147081
     date: September 2026
     role: null
+    liaisons:
+      - election
