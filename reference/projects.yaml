@@ -2645,6 +2645,10 @@ Telemetry:
     grian-ui:
       repos:
         - openstack/grian-ui
+    devstack-plugin-jaeger:
+      release-management: none
+      repos:
+        - openstack/devstack-plugin-jaeger
 trove:
   leadership_type: ptl
   ptl:
