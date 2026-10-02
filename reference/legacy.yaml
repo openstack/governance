@@ -483,6 +483,10 @@ ironic:
       retired-on: 2025-10-08
       repos:
         - openstack/metalsmith
+    molteniron:
+      retired-on: 2026-10-02
+      repos:
+        - openstack/molteniron
     ironic-inspector-specs:
       retired-on: 2025-10-08
       repos:

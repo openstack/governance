@@ -619,10 +619,6 @@ ironic:
     ironic-ui:
       repos:
         - openstack/ironic-ui
-    molteniron:
-      release-management: none
-      repos:
-        - openstack/molteniron
     networking-baremetal:
       repos:
         - openstack/networking-baremetal
