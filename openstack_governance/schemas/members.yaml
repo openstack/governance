@@ -28,3 +28,8 @@ items:
       type: "string"
     role:
       enum: ["chair", "vice-chair", null]
+    liaisons:
+      type: "array"
+      items:
+        enum: ["election", "vmt"]
+      uniqueItems: true

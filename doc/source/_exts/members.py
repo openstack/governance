@@ -36,6 +36,10 @@ class MembersTable(tables.Table):
         'Elected On': 'date',
         'Role': 'role',
     }
+    LIAISON_LABELS = {
+        'election': 'Election Liaison',
+        'vmt': 'VMT Liaison',
+    }
 
     option_spec = {'class': directives.class_option,
                    'name': directives.unchanged,
@@ -120,7 +124,16 @@ class MembersTable(tables.Table):
             for h in self.HEADERS:
                 # Get the cell value from the row data, replacing None
                 # in re match group with empty string.
-                cell = row.get(self.HEADER_MAP[h]) or ''
+                if h == 'Role':
+                    parts = []
+                    if row.get('role'):
+                        parts.append(row['role'])
+                    for liaison in row.get('liaisons') or []:
+                        parts.append(self.LIAISON_LABELS.get(
+                            liaison, liaison))
+                    cell = ', '.join(parts)
+                else:
+                    cell = row.get(self.HEADER_MAP[h]) or ''
                 entry = nodes.entry()
                 para = nodes.paragraph(text=str(cell))
                 entry += para
