@@ -167,8 +167,9 @@ Appointing Project Leaders/Liaisons
 
 In a resolution regarding :ref:`leaderless programs`, the TC was granted
 authority to appoint the leader to any official project where the
-`election`_ process failed to produce a leader. The TC should consider
-the criteria defined in `inactive projects document <../emerging-technology-and-inactive-projects>`_
+:doc:`PTL election <project-leadership>` process failed to produce a leader.
+The TC should consider the criteria defined in `inactive projects document
+<../emerging-technology-and-inactive-projects>`_
 to judge project inactivity. If a project can be considered inactive,
 and no one has volunteered to lead the project as their PTL, the project
 can automatically be marked as Inactive. If there are volunteers to lead
@@ -217,4 +218,3 @@ ensure that it is clear which patch the author of the patches prefers,
 and so we usually ask all TC members to cast a vote on all patches,
 even those they write.
 
-.. _election: https://docs.openstack.org/project-team-guide/open-community.html#technical-committee-and-ptl-elections

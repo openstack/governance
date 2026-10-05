@@ -2,39 +2,27 @@
 Distributed Project Leadership
 ==============================
 
-The governing structure for OpenStack project teams has long been for a Project
-Team Lead (PTL) to be elected to serve as a singular focus for its team.
-While the PTL role varies significantly from team to team, the PTL has
-many responsibilities for managing the development and release process for the
-project deliverables as well as representing the project team both internally and
-externally.
+The default leadership model for an OpenStack project team is for a single
+elected :doc:`Project Team Lead (PTL) <project-leadership>` to serve as the
+team's point of accountability. As an alternative, project teams may opt in to
+a "distributed leadership" model where there is no PTL and the responsibilities
+normally held by the PTL are instead distributed to various named liaisons,
+which may be held by one or multiple contributors.
 
-This document outlines the process for OpenStack project teams to opt in to a
-"distributed leadership" model where there is no PTL. The responsibilities
-normally held by the PTL are distributed to various liaisons, which may be held
-by one or multiple contributors.
+This document describes the DPL model and how to opt in to it. Project teams
+that use the default PTL-based model should refer to the
+:doc:`Project Leadership <project-leadership>` document instead.
 
-The responsibilities mentioned are related to day-to-day operations of the PTL.
-In this model, the rest of the PTL duties, like driving the team goals or
-resolve technical disputes, is trusted to the whole team. If necessary, project
-teams can still contact the TC to resolve deadlocks in disputes.
+What the DPL Model Is
+---------------------
 
-How the PTL with liaisons works
--------------------------------
+The day-to-day responsibilities of the PTL are broken down into a set of named
+liaison roles, which are distributed amongst one or more individuals. The
+responsibilities not addressed by those roles (driving the team's goals,
+resolving technical disputes) are trusted to the team as a whole. If
+necessary, project teams can still contact the TC to resolve deadlocks.
 
-The DPL model will not change how the PTL with liaisons work:
-the PTL is still encouraged to delegate responsibilities to
-individuals. The PTL remains the single point of contact and responsibility for
-all the duties.
-
-Please also have a look at the `PTL page on the project team guide`_.
-
-How Distributed Leadership Works
---------------------------------
-
-The day to day responsibilities of the PTL have been broken down into the
-following roles. Not all roles are required for the minimal viable health of a
-project team. All these roles can be distributed amongst one or more individuals.
+.. _dpl-required-roles:
 
 Required roles
 ~~~~~~~~~~~~~~
@@ -42,26 +30,28 @@ Required roles
 The project teams are expected to have at least the following required liaison
 roles:
 
-* Release liaison: The :repo:`openstack/governance/src/branch/master/reference/projects.yaml`
-  is responsible for requesting releases for deliverables produced by the
-  project team.  In addition, release liaisons generally review requests for
-  Feature Freeze Exception (FFE).
+* **Release Liaison**: The release liaison is responsible for requesting
+  releases for deliverables produced by the project team. In addition, release
+  liaisons generally review requests for Feature Freeze Exception (FFE).
 
-* tact-sig liaison: Historically named the "infra Liaison".  It is responsible for
-  the health of the CI jobs run in the OpenStack Zuul CI.  In the event that there
-  is an issue with those jobs, this liaison will be a point of contact for the
-  `TaCT SIG`_.  Also, a +1 from at least one tact-sig liaison will be required
-  for changes in the :repo:`openstack/project-config`.
+* **TaCT SIG Liaison**: Historically named the "infra Liaison", the Tact SIG
+  liaison is responsible for the health of the CI jobs run in the OpenStack
+  Zuul CI. In the event that there is an issue with those jobs, this liaison
+  will be a point of contact for the `TaCT SIG`_. Also, a +1 from at least one
+  TaCT Sig liaison will be required for changes in the :repo:`project-config
+  repo <openstack/project-config>`.
 
-* Security liaison: the security liaison is the contact person to help assessing
-  the impact of any security reported issues in the project team deliverables,
-  coordinate the development of patches, review proposed patches, and propose
-  any eventual backport(s).
+* **Security Liaison**: The security liaison is the contact person to help
+  assessing the impact of any security reported issues in the project team
+  deliverables, coordinate the development of patches, review proposed patches,
+  and propose any eventual backport(s).
 
-* TC liaison: the TC liaison is one of the TC members who will follow the project
-  activities at regular intervals and make sure the DPL model is reset every cycle.
-  Project team who is planning to adopt the DPL model can reach out to the TC to
-  find the TC liaison for their project.
+* **TC Liaison**: The TC liaison is a TC members who will follow the project
+  activities at regular intervals and make sure the DPL model is reset every
+  cycle. A project team that is planning to adopt the DPL model can reach out
+  to the TC to find the TC liaison for their project.
+
+.. _dpl-additional-roles:
 
 Additional recommended roles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -71,39 +61,38 @@ and are left to the project teams to determine.  The TC recommends project teams
 opting in for distributed project leadership to assign people into the following
 optional roles, to each project team's discretion:
 
-* Events liaison: An Events liaison ensures that a project team has space
+* **Events Liaison**: An events liaison ensures that a project team has space
   reserved at a PTG or Summit that will be sufficient for the project team's
   meeting needs. The events liaison puts out an agenda for any of the team
   meetings, makes sure those meetings are organized and facilitated, and that
-  the results are documented.  This is a temporary role, lasting only during the
-  preparation time for the event and it's duration.  Due to the temporary aspect
-  of this role, the liaison will not be recorded in governance, else it might
-  quickly get outdated.
+  the results are documented. This is a temporary role, lasting only during
+  the preparation time for the event and it's duration. Due to the temporary
+  aspect of this role, the liaison will not be recorded in governance, else it
+  might quickly get outdated.
 
   At the beginning of the organisation of an event, the OpenStack Events teams
   will query on our openstack-discuss ML for participants ready to liaise for
-  the event, for all the teams with distributed leadership.
-  The project teams interested in being represented at the event can then opt-in to
-  the event by assigning a liaison. The project teams are free to decide how and
-  who will be assigned as the event liaison.  The project teams not answering on
-  the ML or not assigning a liaison on time will not have representation in the
-  event.
+  the event, for all the teams with distributed leadership. The project teams
+  interested in being represented at the event can then opt-in to the event by
+  assigning a liaison. The project teams are free to decide how and who will be
+  assigned as the event liaison. The project teams not answering on the ML or
+  not assigning a liaison on time will not have representation in the event.
 
-* Project Update/Onboarding liaisons: The Project Update Liaison is responsible
-  for giving the project update showcasing team's achievements for the cycle to
-  the community. The "Project Onboarding" liaison is responsible for
-  giving/facilitating onboarding sessions during events for its projects'
+* **Project Update/Onboarding Liaisons**: The project update liaison is
+  responsible for giving the project update showcasing team's achievements for
+  the cycle to the community. The "Project Onboarding" liaison is responsible
+  for giving/facilitating onboarding sessions during events for its projects'
   community.  Similarly to the events liaison, those two roles are opt ins.
 
-* Meeting Facilitator: The Meeting Facilitator chairs the project team's regular
-  periodic meetings and maintains their agenda.
+* **Meeting Facilitator**: The meeting facilitator chairs the project team's
+  regular periodic meetings and maintains their agenda.
 
-* Bug Deputy: Ensures all incoming bugs are triaged.
+* **Bug Deputy**: The bug deputy ensures all incoming bugs are triaged.
 
-* RFE Coordinator: This role would involve making sure that blueprint status and
-  milestone targets are up to date, that RFEs are triaged and discussed before
-  acceptance, and that the tracking LaunchPad or Storyboard items for RFEs are
-  properly managed.
+* **RFE Coordinator**: The RFE coordinator makes sure that blueprint status
+  and milestone targets are up to date, that RFEs are triaged and discussed
+  before acceptance, and that the tracking LaunchPad or Storyboard items for
+  RFEs are properly managed.
 
 Liaison selection
 ~~~~~~~~~~~~~~~~~
@@ -212,4 +201,3 @@ convert the project to a distributed leadership with the help of the project
 team members.
 
 .. _TaCT SIG: https://governance.openstack.org/sigs/tact-sig.html
-.. _PTL page on the project team guide: https://docs.openstack.org/project-team-guide/ptl.html

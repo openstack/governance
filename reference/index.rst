@@ -13,6 +13,7 @@ Reference documents which need to be revised over time.
    projects/index
    sigs/index
    popup-teams
+   project-leadership
    distributed-project-leadership
    technical-vision
    upstream-investment-opportunities/index
