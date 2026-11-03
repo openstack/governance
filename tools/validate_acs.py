@@ -23,7 +23,7 @@ LOG = logging.getLogger()
 
 
 # The OpenStack foundation member directory lookup API endpoint
-MEMBER_LOOKUP_URL = 'https://openstackid-resources.openstack.org/'
+MEMBER_LOOKUP_URL = 'https://oifapi.openinfra.dev/'
 
 
 def lookup_member(email):
