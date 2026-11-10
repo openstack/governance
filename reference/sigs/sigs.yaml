@@ -119,21 +119,6 @@ Stable Maintenance:
   status: advisory
   url: https://docs.openstack.org/project-team-guide/stable-branches.html
 
-First Contact:
-  chairs:
-    - name: Kendall Nelson
-      irc: diablo_rojo
-      email: knelson@openstack.org
-    - name: Matt Oliver
-      irc: mattoliverau
-      email: matt@oliver.net.au
-  scope: >
-    To provide a place for new contributors to come for information and advice.
-    This group will also analyze and document successful contribution models
-    while seeking out and providing information to new members of the community.
-  status: active
-  url: https://wiki.openstack.org/wiki/First_Contact_SIG
-
 Hardware Vendor:
   chairs:
     - name: Sean McGinnis

@@ -26,14 +26,6 @@ Automation:
         email: ricolin@ricolky.com
         expires-in: August 2027
   - repo: openstack/self-healing-sig
-First Contact:
-  - repo: openstack/contributor-guide
-    extra-acs:
-      - name: Matt Oliver
-        email: matt@oliver.net.au
-        expires-in: August 2027
-  - repo: openstack/training-guides
-  - repo: openstack/upstream-institute-virtual-environment
 Hardware Vendor:
   - repo: openstack/python-dracclient
     extra-acs:
