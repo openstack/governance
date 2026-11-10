@@ -2,43 +2,115 @@
 # List of repositories owned by SIGs
 Ansible:
   - repo: openstack/ansible-collections-openstack
+    extra-acs:
+      - name: Michal Nasiadka
+        email: mnasiadka@gmail.com
+        expires-in: August 2027
+      - name: Doug Goldstein
+        email: cardoe@cardoe.com
+        expires-in: August 2027
+      - name: Dmitriy Rabotyagov
+        email: noonedeadpunk@gmail.com
+        expires-in: August 2027
   - repo: openstack/ansible-plugin-container-connection
 API:
   - repo: openstack/api-sig
+    extra-acs:
+      - name: Dmitry Tantsur
+        email: dtantsur@protonmail.com
+        expires-in: August 2027
 Automation:
   - repo: openstack/auto-scaling-sig
+    extra-acs:
+      - name: Rico Lin
+        email: ricolin@ricolky.com
+        expires-in: August 2027
   - repo: openstack/self-healing-sig
 First Contact:
   - repo: openstack/contributor-guide
+    extra-acs:
+      - name: Matt Oliver
+        email: matt@oliver.net.au
+        expires-in: August 2027
   - repo: openstack/training-guides
   - repo: openstack/upstream-institute-virtual-environment
 Hardware Vendor:
   - repo: openstack/python-dracclient
+    extra-acs:
+      - name: Sean McGinnis
+        email: sean.mcginnis@gmail.com
+        expires-in: August 2027
+      - name: Jay Bryant
+        email: jungleboyj@electronicjungle.net
+        expires-in: August 2027
   - repo: openstack/sushy-oem-idrac
 i18n:
   - repo: openstack/i18n
-
+    extra-acs:
+      - name: Ian Y. Choi
+        email: ianyrchoi@gmail.com
+        expires-in: August 2027
 Large Scale:
   - repo: openstack/large-scale
+    extra-acs:
+      - name: Thierry Carrez
+        email: thierry@openstack.org
+        expires-in: August 2027
 Multi-Arch:
   - repo: openstack/multi-arch-sig
+    extra-acs:
+      - name: Rico Lin
+        email: ricolin@ricolky.com
+        expires-in: August 2027
+      - name: Seongsoo Cho
+        email: ppiyakk2@printf.kr
+        expires-in: August 2027
 Operation Docs and Tooling:
   - repo: openstack/arch-design
+    extra-acs:
+      - name: Sean McGinnis
+        email: sean.mcginnis@gmail.com
+        expires-in: August 2027
+      - name: Chris Morgan
+        email: mihalis68@gmail.com
+        expires-in: August 2027
   - repo: openstack/ha-guide
   - repo: openstack/operations-guide
   - repo: openstack/osops
 Packaging:
   - repo: openstack/rpm-packaging
+    extra-acs:
+      - name: Dirk Mueller
+        email: dirk@dmllr.de
+        expires-in: August 2027
   - repo: openstack/rpm-packaging-tools
   - repo: openstack/pymod2pkg
   - repo: openstack/renderspec
 Public Cloud SIG:
   - repo: openstack/publiccloud-sig
+    extra-acs:
+      - name: Kees Meijs
+        email: keesm@nefos.com
+        expires-in: August 2027
 Security:
   - repo: openstack/ossa
+    extra-acs:
+      - name: Jeremy Stanley
+        email: fungi@yuggoth.org
+        expires-in: August 2027
+      - name: Jay Faulkner
+        email: jay@jvf.cc
+        expires-in: August 2027
   - repo: openstack/security-doc
 Testing and Collaboration Tools:
   - repo: openstack/agentic-workflows
+    extra-acs:
+      - name: Jeremy Stanley
+        email: fungi@yuggoth.org
+        expires-in: August 2027
+      - name: Michal Nasiadka
+        email: mnasiadka@gmail.com
+        expires-in: August 2027
   - repo: openstack/bugdaystats
   - repo: openstack/ci-log-processing
   - repo: openstack/diskimage-builder
