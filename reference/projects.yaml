@@ -980,6 +980,8 @@ neutron:
       repos:
         - openstack/networking-odl
     networking-sfc:
+      deprecated: '2027.1'
+      release-management: deprecated
       repos:
         - openstack/networking-sfc
     neutron-fwaas:
