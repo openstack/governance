@@ -1897,6 +1897,10 @@ OpenStackSDK:
     with OpenStack based clouds.
   url: https://docs.openstack.org/openstacksdk/latest/
   deliverables:
+    client-tools-specs:
+      release-management: none
+      repos:
+        - openstack/client-tools-specs
     cliff:
       repos:
         - openstack/cliff
