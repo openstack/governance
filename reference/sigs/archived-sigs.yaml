@@ -34,3 +34,21 @@ Containers:
     Mailing List notification for retirement discussion can be found in
     http://lists.openstack.org/pipermail/openstack-discuss/2021-March/021297.html
   url: https://etherpad.openstack.org/p/containers-sig
+First Contact:
+  chairs:
+    - name: Kendall Nelson
+      irc: diablo_rojo
+      email: kennelson11@gmail.com
+    - name: Matt Oliver
+      irc: mattoliverau
+      email: matt@oliver.net.au
+  scope: >
+    To provide a place for new contributors to come for information and advice.
+    This group will also analyze and document successful contribution models
+    while seeking out and providing information to new members of the community.
+  status: archived
+  reason: >
+    The Contributor Experience Working Group, established by the TC in
+    June 2026, absorbed the SIG's contributor onboarding mission.
+    See resolutions/20260618-contributor-experience-working-group.rst.
+  url: https://wiki.openstack.org/wiki/First_Contact_SIG

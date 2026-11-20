@@ -3,6 +3,11 @@
 Technical Committee:
   - repo: openstack/api-site
   - repo: openstack/constellations
+  - repo: openstack/contributor-guide
+    extra-acs:
+      - name: Kendall Nelson
+        email: kennelson11@gmail.com
+        expires-in: August 2027
   - repo: openstack/election
     extra-acs:
       - name: Ian Y. Choi
@@ -19,3 +24,5 @@ Technical Committee:
   - repo: openstack/openstack-manuals
   - repo: openstack/project-team-guide
   - repo: openstack/service-types-authority
+  - repo: openstack/training-guides
+  - repo: openstack/upstream-institute-virtual-environment
