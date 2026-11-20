@@ -17,35 +17,6 @@ Hardware Vendor:
   - repo: openstack/sushy-oem-idrac
 i18n:
   - repo: openstack/i18n
-    extra-acs:
-    - name: Andi Chandler
-      email: andi@gowling.com
-      expires-in: February 2026
-      comment: andibing (en-GB)
-    - name: Georg Hennemann
-      email: georg.hennemann@t-systems.com
-      expires-in: August 2025
-      comment: gehennem (eo)
-    - name: Ali Abdollahi
-      email: aa9050@gmail.com
-      expires-in: August 2025
-      comment: kia441 (fa)
-    - name: Dmitriy Rabotyagov
-      email: noonedeadpunk@ya.ru
-      expires-in: August 2025
-      comment: noonedeadpunk (ru)
-    - name: Ivan Anfimov
-      email: lazekteam@gmail.com
-      expires-in: February 2026
-      comment: anfimovir (ru)
-    - name: Dmitriy Chubinidze
-      email: dcu995@gmail.com
-      expires-in: February 2026
-      comment: chubinidzedr (ru)
-    - name: Ian Y. Choi
-      email: ianyrchoi@gmail.com
-      expires-in: February 2026
-      comment: ianychoi (ko-KR)
 
 Large Scale:
   - repo: openstack/large-scale
