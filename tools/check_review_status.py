@@ -213,6 +213,18 @@ def _find_liaison_approver(change, liaison_approvers):
     return None
 
 
+def _team_liaison_contacts(team):
+    """Yield the unique liaison contacts of a team, across all roles."""
+    liaisons = team.liaisons if isinstance(team.liaisons, dict) else {}
+    seen = set()
+    for contacts in liaisons.values():
+        for contact in contacts or []:
+            email = contact.get('email')
+            if email and email not in seen:
+                seen.add(email)
+                yield contact
+
+
 KNOWN_CATEGORIES = {
     'on-hold',
     'formal-vote',
@@ -382,13 +394,14 @@ def get_one_status(change, delegates, tc_members, liaison_approvers):
 
     elif hashtag in delegates.keys():
         # https://governance.openstack.org/tc/reference/house-rules.html#delegated-metadata
-        approver_name = delegates[hashtag]
-        can_approve = 'delegated to {}'.format(approver_name)
-        if has_approved(approver_name, change):
+        delegate_list = delegates[hashtag]
+        can_approve = 'delegated to {}'.format(
+            ', '.join(d['name'] for d in delegate_list))
+        if any(has_approved(d, change) for d in delegate_list):
             can_approve += '\nYES'
-        elif has_rejected(approver_name, change):
+        elif any(has_rejected(d, change) for d in delegate_list):
             can_approve += '\nNO - delegate voted against'
-        elif has_commented(approver_name, change):
+        elif any(has_commented(d, change) for d in delegate_list):
             can_approve += '\ndelegate has commented'
 
     elif hashtag == 'liaison-update':
@@ -505,11 +518,23 @@ def main():
     release_team = gov.get_team('Release Management')
     liaison_approvers = _build_liaison_approvers(gov)
 
-    delegates = {
-        'release-management': release_team.ptl['name'],
-    }
-    for tag, name in sorted(delegates.items()):
-        print('Delegating {} hashtag to {}'.format(tag, name))
+    # The Release Management team is a distributed team without a PTL,
+    # so the release-management delegation is held by any of its
+    # existing liaisons.
+    delegates = {'release-management': []}
+    for contact in _team_liaison_contacts(release_team):
+        raw = requests.get(
+            'https://review.opendev.org/accounts/%s' % contact['email'],
+            headers={'Accept': 'application/json'},
+        )
+        delegates['release-management'].append({
+            'name': contact['name'],
+            'gerritid': decode_json(raw).get('_account_id'),
+        })
+    for tag, delegate_list in sorted(delegates.items()):
+        for delegate in delegate_list:
+            print('Delegating {} hashtag to {}'.format(
+                tag, delegate['name']))
 
     status = sorted(
         (get_one_status(change, delegates, tc_members, liaison_approvers)
